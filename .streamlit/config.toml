@@ -1,0 +1,11 @@
+[server]
+# Disable file watcher to prevent PyTorch issues
+fileWatcherType = "none"
+
+[logger]
+# Set log level to error to suppress warnings
+level = "error"
+
+[runner]
+# Enable eager evaluation to avoid context issues
+fastReruns = true 
