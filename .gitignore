@@ -1,0 +1,50 @@
+# Ignore XML files directory
+xmlfiles/
+*.xml
+
+# Ignore embedding and index data
+*.pkl
+letter_index.pkl
+
+# Ignore environment directories
+venv/
+chatbot_env/
+__pycache__/
+*.pyc
+
+# Ignore logs
+*.log
+*.out
+
+# Ignore OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore downloaded model data
+models/
+**/models/
+
+# Ignore large data files
+*.bin
+*.vec
+*.gz
+
+# Ignore Python virtual environments
+.venv/
+ENV/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore OS generated files
+Thumbs.db
+
+# Log files
+*.log 
