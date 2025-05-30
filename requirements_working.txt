@@ -18,10 +18,14 @@ torch>=2.2.0
 
 # Web Interface
 streamlit>=1.45.0
+streamlit-folium>=0.15.0  # For interactive maps
 
 # XML Processing & Utilities
 lxml>=5.4.0
 tqdm>=4.67.0
+
+# Geocoding for map functionality
+geopy>=2.4.0
 
 # Working Installation Commands:
 # 1. Install miniforge: curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.sh" && bash Miniforge3-MacOSX-x86_64.sh -b -p $HOME/miniforge3
@@ -30,7 +34,8 @@ tqdm>=4.67.0
 # 4. Activate: conda activate chatbot
 # 5. Install base packages: conda install -c conda-forge streamlit lxml tqdm -y
 # 6. Install AI packages with version constraints: pip install "numpy>=1.21,<2" "scipy>=1.11,<1.13" spacy sentence-transformers gensim transformers torch scikit-learn pandas
-# 7. Download spacy model: python -m spacy download en_core_web_sm
-# 8. Run app: streamlit run app_gui.py
+# 7. Install geocoding and map packages: pip install geopy streamlit-folium
+# 8. Download spacy model: python -m spacy download en_core_web_sm
+# 9. Run app: streamlit run app_gui.py
 
 # Or simply run: ./run_app.sh 

@@ -8,9 +8,18 @@ import glob
 import argparse
 import pickle
 import logging
-from typing import Optional, List, Dict, Any, Tuple
+from typing import Optional, List, Dict, Any, Tuple, Any
 from pathlib import Path
 import time
+import torch # Import torch to check for MPS
+import hashlib
+from datetime import datetime
+from concurrent.futures import ProcessPoolExecutor, as_completed
+import multiprocessing as mp
+from functools import partial
+import sys
+import traceback
+import gzip
 
 # Configure logging
 logging.basicConfig(
@@ -81,7 +90,7 @@ except ImportError:
 class Config:
     """Configuration settings for the chat analyzer."""
     # Enhanced topic modeling settings for historical documents with n-grams
-    NUM_TOPICS = 35  # Optimized base number for n-gram enhanced topics
+    NUM_TOPICS = 25  # Reduced from 35 for better performance with 2000 documents
 
     # Default list of known uploaded files (for testing)
     DEFAULT_UPLOADED_FILES = [
@@ -90,7 +99,7 @@ class Config:
     ]
 
     # Model for sentence embeddings
-    SENTENCE_MODEL_NAME = 'all-MiniLM-L6-v2'  # A good general-purpose model
+    SENTENCE_MODEL_NAME = 'sentence-transformers/all-mpnet-base-v2'  # More powerful general-purpose model
 
     # File to save/load the processed index
     SAVED_INDEX_FILE = "letter_index.pkl"
@@ -99,9 +108,9 @@ class Config:
     TEI_NAMESPACE = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
     # Enhanced performance settings for historical document analysis with n-grams
-    BATCH_SIZE_EMBEDDING = 32
-    MAX_TOKENS_FOR_GENSIM = 2000  # Optimized for n-gram processing
-    PROGRESS_REPORT_INTERVAL = 10
+    BATCH_SIZE_EMBEDDING = 4  # Reduced from 8 for better CPU performance with 2000 files
+    MAX_TOKENS_FOR_GENSIM = 800  # Reduced from 1000 for faster processing
+    PROGRESS_REPORT_INTERVAL = 50  # Increased from 10 for less frequent logging
 
     # Topic modeling quality settings for n-gram enhancement
     MIN_TOPIC_DOCUMENTS = 10  # Minimum documents needed for topic modeling
@@ -128,10 +137,10 @@ class Config:
     DTM_VAR_CONVERGE = 0.01  # Convergence threshold for DTM
 
     # Question Answering Settings
-    QA_MODEL_NAME = 'distilbert-base-cased-distilled-squad'  # Pre-trained QA model
+    QA_MODEL_NAME = 'deepset/roberta-large-squad2'  # More powerful QA model with SQuAD 2.0 support
     QA_MAX_ANSWER_LENGTH = 512  # Maximum length of extracted answers
-    QA_MIN_SCORE_THRESHOLD = 0.1  # Minimum confidence score for answers
-    QA_TOP_K_CONTEXTS = 3  # Number of top contexts to search for answers
+    QA_MIN_SCORE_THRESHOLD = 0.0  # Removed threshold - accept all answers
+    QA_TOP_K_CONTEXTS = 10  # Increased from 5 to search even more contexts
 
     # Hybrid Search Settings
     TFIDF_MAX_FEATURES = 5000  # Maximum features for TF-IDF vectorizer
@@ -140,6 +149,22 @@ class Config:
     HYBRID_SEMANTIC_WEIGHT = 0.6  # Weight for semantic search in hybrid
     HYBRID_KEYWORD_WEIGHT = 0.4  # Weight for keyword search in hybrid
     HYBRID_TOP_N = 10  # Number of results to consider from each search type
+
+    # Phase 1: Performance Optimization Settings
+    MAX_WORKERS = min(8, mp.cpu_count())  # Parallel processing workers (max 8 to avoid memory issues)
+    EMBEDDING_CHECKPOINT_INTERVAL = 1000  # Save embeddings every N documents
+    CHECKPOINT_DIR = "checkpoints"  # Directory for saving incremental progress
+    
+    # Optimal batching for M4 Mac
+    OPTIMAL_BATCH_SIZE_EMBEDDING = 16  # Optimized for M4 performance
+    OPTIMAL_BATCH_SIZE_LDA = 2000  # Larger chunks for LDA training
+    
+    # File metadata tracking for incremental updates
+    METADATA_FILE = "index_metadata.pkl"
+    
+    # Topic model sampling for development
+    SAMPLE_SIZE_FOR_TOPIC_TRAINING = 2000  # Use subset for faster topic model iteration
+    ENABLE_TOPIC_SAMPLING = False  # Set to True for development mode
 
 # Create global config instance
 config = Config()
@@ -372,7 +397,20 @@ def parse_letter_xml(xml_file_path: str) -> Optional[Dict[str, Any]]:
         extracted_data['people'] = people
 
         # Extract places
-        extracted_data['places'] = extract_places_from_xml(root, namespaces)
+        places = extract_places_from_xml(root, namespaces)
+        extracted_data['places'] = places
+        
+        # Geocode places if any exist
+        if places:
+            try:
+                geocoded_places = geocode_locations(places)
+                extracted_data['geocoded_places'] = geocoded_places
+                logger.debug(f"Geocoded {len([g for g in geocoded_places if g.get('geocoded', False)])}/{len(places)} places for {extracted_data['file_name']}")
+            except Exception as e:
+                logger.warning(f"Geocoding failed for {extracted_data['file_name']}: {e}")
+                extracted_data['geocoded_places'] = []
+        else:
+            extracted_data['geocoded_places'] = []
 
         # Extract description
         extracted_data['description'] = safe_find_text(
@@ -408,20 +446,23 @@ def parse_letter_xml(xml_file_path: str) -> Optional[Dict[str, Any]]:
         logger.error(f"Unexpected error processing '{xml_file_path}': {e}")
         return None
 
-def preprocess_for_gensim(text: str, nlp=None, phrases_model=None) -> List[str]:
+def preprocess_for_gensim(text_or_doc: Any, nlp_for_str_processing=None, phrases_model=None) -> List[str]:
     """
     Enhanced text preprocessing for Gensim with n-gram support for historical content.
     Detects meaningful multi-word expressions and produces more mature topics.
+    Accepts raw text string or a pre-processed spaCy Doc object.
 
     Args:
-        text: Input text to preprocess
-        nlp: spaCy NLP model (optional)
+        text_or_doc: Input text string or spaCy Doc object to preprocess
+        nlp_for_str_processing: spaCy NLP model (only used if text_or_doc is a string)
         phrases_model: Trained gensim Phrases model for detecting n-grams (optional)
 
     Returns:
         List of cleaned, meaningful tokens including n-grams
     """
-    if not text or text.strip() == "N/A":
+    if not text_or_doc:
+        return []
+    if isinstance(text_or_doc, str) and text_or_doc.strip() == "N/A":
         return []
 
     # Custom stop words for historical letters - removing generic administrative terms
@@ -443,316 +484,250 @@ def preprocess_for_gensim(text: str, nlp=None, phrases_model=None) -> List[str]:
         'mr', 'mrs', 'dr', 'prof', 'hon'  # Generic honorifics
     }
 
+    initial_tokens = []
     try:
-        if nlp and SPACY_AVAILABLE:  # Enhanced spaCy processing with n-grams
-            doc = nlp(text)
-            tokens = []
-
-            for token in doc:
-                # Skip if basic conditions not met
+        doc_to_process = None
+        if SPACY_AVAILABLE and spacy.tokens and isinstance(text_or_doc, spacy.tokens.Doc):
+            doc_to_process = text_or_doc
+        elif SPACY_AVAILABLE and nlp_for_str_processing and isinstance(text_or_doc, str):
+            doc_to_process = nlp_for_str_processing(text_or_doc)
+        
+        if doc_to_process:  # Enhanced spaCy processing
+            for token in doc_to_process:
                 if (token.is_stop or token.is_punct or token.like_num or
                         token.is_space or len(token.lemma_) < 3):
                     continue
-
-                # Focus on meaningful content words
                 if token.pos_ in ['NOUN', 'PROPN', 'ADJ', 'VERB']:
                     lemma = token.lemma_.lower()
-
-                    # Skip custom historical stop words
                     if lemma in historical_stop_words:
                         continue
-
-                    # Only keep alphabetic tokens
                     if lemma.isalpha():
-                        # Prefer proper nouns and nouns for better topics
                         if token.pos_ in ['PROPN', 'NOUN']:
-                            tokens.append(lemma)
-                        # Include meaningful adjectives and verbs
+                            initial_tokens.append(lemma)
                         elif token.pos_ in ['ADJ', 'VERB'] and len(lemma) > 4:
-                            tokens.append(lemma)
-
-            # Apply n-gram detection if phrases model is available
-            if phrases_model and tokens:
-                # Check if phrases_model is callable (function) or subscriptable (Phraser object)
-                if callable(phrases_model):
-                    tokens = phrases_model(tokens)  # Call as function
-                else:
-                    tokens = phrases_model[tokens]  # Use as Phraser object
-
-            # Remove duplicates while preserving order
-            seen = set()
-            unique_tokens = []
-            for token in tokens:
-                if token not in seen:
-                    seen.add(token)
-                    unique_tokens.append(token)
-
-            return unique_tokens[:config.MAX_TOKENS_FOR_GENSIM]
-
+                            initial_tokens.append(lemma)
+        elif isinstance(text_or_doc, str): # Fallback: text_or_doc is a string, and no/unusable nlp
+            text_for_fallback = re.sub(r'[^\w\s]', ' ', text_or_doc.lower())
+            raw_tokens = re.findall(r'\b[a-z]{4,}\b', text_for_fallback)
+            initial_tokens = [t for t in raw_tokens if t not in historical_stop_words]
         else:
-            # Enhanced fallback processing with basic n-gram detection
-            # Remove common punctuation and normalize
-            text = re.sub(r'[^\w\s]', ' ', text.lower())
-
-            # Extract alphabetic tokens of reasonable length
-            tokens = re.findall(r'\b[a-z]{4,}\b', text)  # Minimum 4 characters
-
-            # Filter out historical stop words
-            tokens = [t for t in tokens if t not in historical_stop_words]
-
-            # Apply n-gram detection if phrases model is available
-            if phrases_model and tokens:
-                # Check if phrases_model is callable (function) or subscriptable (Phraser object)
-                if callable(phrases_model):
-                    tokens = phrases_model(tokens)  # Call as function
-                else:
-                    tokens = phrases_model[tokens]  # Use as Phraser object
-
-            # Remove duplicates while preserving order
-            seen = set()
-            unique_tokens = []
-            for token in tokens:
-                if token not in seen:
-                    seen.add(token)
-                    unique_tokens.append(token)
-
-            return unique_tokens[:config.MAX_TOKENS_FOR_GENSIM]
-
-    except Exception as e:
-        logger.warning(f"Error in enhanced text preprocessing with n-grams: {e}")
-        # Simple fallback
-        try:
-            tokens = re.findall(r"\\b[a-zA-Z]{4,}\\b", text.lower())
-            return [t for t in tokens if t not in historical_stop_words][:config.MAX_TOKENS_FOR_GENSIM]
-        except Exception:
+            logger.warning(f"Unexpected input type to preprocess_for_gensim: {type(text_or_doc)}. Returning empty list.")
             return []
 
-def generate_embeddings_batch(texts: List[str], sentence_model) -> List[Any]:
+        # Apply n-gram detection if phrases model is available
+        if phrases_model and initial_tokens:
+            if callable(phrases_model):
+                processed_tokens = phrases_model(initial_tokens)
+            else:
+                processed_tokens = phrases_model[initial_tokens]
+        else:
+            processed_tokens = initial_tokens
+
+        # Remove duplicates while preserving order
+        seen = set()
+        unique_tokens = []
+        for token in processed_tokens:
+            if token not in seen:
+                seen.add(token)
+                unique_tokens.append(token)
+
+        return unique_tokens[:config.MAX_TOKENS_FOR_GENSIM]
+
+    except Exception as e:
+        logger.warning(f"Error in enhanced text preprocessing with n-grams: {e} for input type {type(text_or_doc)}")
+        # Simple fallback
+        try:
+            if isinstance(text_or_doc, str):
+                fallback_tokens = re.findall(r"\b[a-zA-Z]{4,}\b", text_or_doc.lower())
+                return [t for t in fallback_tokens if t not in historical_stop_words][:config.MAX_TOKENS_FOR_GENSIM]
+        except Exception:
+            pass # Fall through to return empty list
+        return []
+
+def generate_embeddings_batch(texts: List[str], sentence_model, 
+                             checkpoint_path: Optional[str] = None,
+                             start_idx: int = 0) -> List[Any]:
     """
-    Generate embeddings in batches for better performance.
+    Generate embeddings for a list of texts with enhanced performance and checkpointing.
 
     Args:
-        texts: List of texts to embed
-        sentence_model: Sentence transformer model
+        texts: List of text strings to embed
+        sentence_model: Loaded sentence transformer model
+        checkpoint_path: Path to save/load checkpoint data
+        start_idx: Starting index for resuming from checkpoint
 
     Returns:
-        List of embeddings
+        List of embedding vectors
     """
-    if not sentence_model or not SENTENCE_TRANSFORMERS_AVAILABLE:
-        return [None] * len(texts)
+    if not SENTENCE_TRANSFORMERS_AVAILABLE or not texts:
+        logger.warning("Sentence transformers not available or no texts provided")
+        return []
 
+    total_texts = len(texts)
+    logger.info(f"Generating embeddings for {total_texts} texts starting from index {start_idx}")
+    
+    # Load existing embeddings if checkpoint exists
     embeddings = []
-    batch_size = config.BATCH_SIZE_EMBEDDING
-
-    try:
-        for i in range(0, len(texts), batch_size):
-            batch = texts[i:i + batch_size]
-            try:
+    if checkpoint_path and os.path.exists(checkpoint_path):
+        try:
+            with open(checkpoint_path, 'rb') as f:
+                checkpoint_data = pickle.load(f)
+                embeddings = checkpoint_data.get('embeddings', [])
+                start_idx = len(embeddings)
+                logger.info(f"Loaded checkpoint with {len(embeddings)} existing embeddings")
+        except Exception as e:
+            logger.error(f"Error loading checkpoint: {e}")
+            embeddings = []
+            start_idx = 0
+    
+    # Use optimized batch size
+    batch_size = config.OPTIMAL_BATCH_SIZE_EMBEDDING
+    
+    # Process remaining texts in batches
+    for i in range(start_idx, total_texts, batch_size):
+        batch_texts = texts[i:i + batch_size]
+        actual_batch_size = len(batch_texts)
+        
+        try:
+            logger.info(f"Processing embedding batch {i//batch_size + 1}: texts {i+1}-{i+actual_batch_size} of {total_texts}")
+            
+            # Generate embeddings for this batch
                 batch_embeddings = sentence_model.encode(
-                    batch,
-                    convert_to_tensor=True,
-                    show_progress_bar=False
-                )
-
-                # Convert to list if it's a tensor
-                if hasattr(batch_embeddings, 'cpu'):
-                    batch_embeddings = [emb for emb in batch_embeddings.cpu().numpy()] # Ensure it's a list of NumPy arrays
-                elif isinstance(batch_embeddings, np.ndarray) and batch_embeddings.ndim == 1: # Single embedding
-                     batch_embeddings = [batch_embeddings]
-                elif isinstance(batch_embeddings, np.ndarray) and batch_embeddings.ndim > 1: # Multiple embeddings already as ndarray
-                     batch_embeddings = [emb for emb in batch_embeddings]
-
+                batch_texts,
+                show_progress_bar=False,  # We handle progress ourselves
+                batch_size=actual_batch_size,
+                convert_to_tensor=False,
+                normalize_embeddings=True  # Normalize for better similarity calculation
+            )
+            
+            # Convert to list if numpy array
+            if hasattr(batch_embeddings, 'tolist'):
+                batch_embeddings = batch_embeddings.tolist()
 
                 embeddings.extend(batch_embeddings)
 
+            # Save checkpoint periodically
+            if checkpoint_path and (i + batch_size) % config.EMBEDDING_CHECKPOINT_INTERVAL == 0:
+                try:
+                    os.makedirs(config.CHECKPOINT_DIR, exist_ok=True)
+                    checkpoint_data = {
+                        'embeddings': embeddings,
+                        'processed_count': len(embeddings),
+                        'total_count': total_texts,
+                        'timestamp': datetime.now().isoformat()
+                    }
+                    with open(checkpoint_path, 'wb') as f:
+                        pickle.dump(checkpoint_data, f)
+                    logger.info(f"Checkpoint saved: {len(embeddings)}/{total_texts} embeddings")
             except Exception as e:
-                logger.error(f"Error generating embeddings for batch {i//batch_size + 1}: {e}")
-                # Add None placeholders for failed batch
-                embeddings.extend([None] * len(batch))
-
-        return embeddings
-
+                    logger.error(f"Error saving checkpoint: {e}")
+            
+        except Exception as e:
+            logger.error(f"Error processing batch {i//batch_size + 1}: {e}")
+            # Fill with zero embeddings for failed batch
+            embedding_dim = getattr(sentence_model, 'get_sentence_embedding_dimension', lambda: 768)()
+            for _ in range(actual_batch_size):
+                embeddings.append([0.0] * embedding_dim)
+    
+    # Save final checkpoint
+    if checkpoint_path:
+        try:
+            os.makedirs(config.CHECKPOINT_DIR, exist_ok=True)
+            checkpoint_data = {
+                'embeddings': embeddings,
+                'processed_count': len(embeddings),
+                'total_count': total_texts,
+                'timestamp': datetime.now().isoformat(),
+                'completed': True
+            }
+            with open(checkpoint_path, 'wb') as f:
+                pickle.dump(checkpoint_data, f)
+            logger.info(f"Final embedding checkpoint saved: {len(embeddings)} embeddings")
     except Exception as e:
-        logger.error(f"Critical error in batch embedding generation: {e}")
-        return [None] * len(texts)
+            logger.error(f"Error saving final checkpoint: {e}")
+    
+    logger.info(f"Embedding generation completed: {len(embeddings)} embeddings generated")
+    return embeddings
 
-def train_lda_model(index: List[Dict[str, Any]], spacy_nlp_model) -> Tuple[Any, Any]:
+def load_embeddings_checkpoint(checkpoint_path: str) -> Tuple[List[Any], int]:
     """
-    Enhanced LDA model training with n-grams and coherence optimization for historical documents.
-    Produces more mature and specific topics through n-gram detection and parameter optimization.
-
-    Args:
-        index: List of document dictionaries
-        spacy_nlp_model: spaCy model for preprocessing
+    Load embeddings from checkpoint file.
 
     Returns:
-        Tuple of (lda_model, lda_dictionary)
+        Tuple of (embeddings_list, processed_count)
     """
-    if not GENSIM_AVAILABLE or not index:
-        logger.warning("Gensim not available or no documents for topic modeling")
-        return None, None
-
     try:
-        logger.info("Starting enhanced LDA topic modeling with n-grams for historical documents...")
-
-        # Phase 1: Initial preprocessing to build n-gram models
-        logger.info("Phase 1: Building n-gram models...")
-        all_token_lists = []
-
-        for item in index:
-            # Combine title, description, and full text for richer context
-            combined_text = f"{item.get('title', '')} {item.get('description', '')} {item.get('full_text', '')}"
-            tokens = preprocess_for_gensim(combined_text, spacy_nlp_model)  # Without phrases model first
-
-            if tokens and len(tokens) >= 5:  # Require minimum meaningful tokens
-                all_token_lists.append(tokens)
-
-        if len(all_token_lists) < 10:
-            logger.warning(f"Only {len(all_token_lists)} valid documents for n-gram modeling. Need at least 10.")
-            return None, None
-
-        # Build bigram and trigram models
-        logger.info("Training bigram model...")
-        bigram_model = models.Phrases(
-            all_token_lists,
-            min_count=config.BIGRAM_MIN_COUNT,
-            threshold=config.BIGRAM_THRESHOLD,
-            connector_words=frozenset(['of', 'the', 'and', 'in', 'to', 'for', 'with'])
-        )
-        bigram_mod = models.phrases.Phraser(bigram_model)
-
-        logger.info("Training trigram model...")
-        # Apply bigrams first, then find trigrams
-        bigram_docs = [bigram_mod[doc] for doc in all_token_lists]
-        trigram_model = models.Phrases(
-            bigram_docs,
-            min_count=config.TRIGRAM_MIN_COUNT,
-            threshold=config.TRIGRAM_THRESHOLD,
-            connector_words=frozenset(['of', 'the', 'and', 'in', 'to', 'for', 'with'])
-        )
-        trigram_mod = models.phrases.Phraser(trigram_model)
-
-        # Combined phrases model
-        def phrases_model(tokens):
-            """Apply bigram and trigram detection"""
-            return trigram_mod[bigram_mod[tokens]]
-
-        logger.info("N-gram models trained successfully")
-
-        # Phase 2: Reprocess all texts with n-gram models
-        logger.info("Phase 2: Reprocessing texts with n-gram detection...")
-        all_tokens = []
-        valid_docs = 0
-
-        for item in index:
-            combined_text = f"{item.get('title', '')} {item.get('description', '')} {item.get('full_text', '')}"
-            tokens = preprocess_for_gensim(combined_text, spacy_nlp_model, phrases_model)
-
-            if tokens and len(tokens) >= config.MIN_TOKENS_PER_DOCUMENT:
-                all_tokens.append(tokens)
-                item["lda_tokens"] = tokens
-                valid_docs += 1
-            else:
-                item["lda_tokens"] = []
-
-        logger.info(f"Enhanced preprocessing with n-grams completed. {valid_docs} documents with valid tokens.")
-
-        # Phase 3: Enhanced dictionary creation with n-gram aware filtering
-        logger.info("Phase 3: Creating enhanced dictionary with n-gram support...")
-        lda_dictionary = corpora.Dictionary(all_tokens)
-        original_token_count = len(lda_dictionary)
-
-        # Calculate corpus statistics for smarter filtering
-        corpus_size = len(all_tokens)
-
-        # More sophisticated filtering for n-gram enhanced corpus
-        min_doc_freq = max(config.MIN_CORPUS_TERMS, corpus_size // 100)  # Appear in at least 1% of docs or MIN_CORPUS_TERMS
-        max_doc_freq = 0.3  # More restrictive for n-gram corpus (30% max)
-        keep_n = min(3000, config.MAX_TOKENS_FOR_GENSIM * 2)  # Keep more tokens for n-gram richness
-
-        lda_dictionary.filter_extremes(
-            no_below=min_doc_freq,
-            no_above=max_doc_freq,
-            keep_n=keep_n
-        )
-
-        logger.info(f"Enhanced n-gram dictionary: {original_token_count} -> {len(lda_dictionary)} tokens")
-        logger.info(f"Dictionary filtering: min_freq={min_doc_freq}, max_freq={max_doc_freq:.1%}, keep_n={keep_n}")
-
-        # Phase 4: Create corpus and find optimal number of topics
-        corpus = [lda_dictionary.doc2bow(tokens) for tokens in all_tokens]
-        corpus = [doc for doc in corpus if doc and len(doc) >= config.MIN_CORPUS_TERMS]
-
-        if len(corpus) < config.MIN_TOPIC_DOCUMENTS:
-            logger.warning("Insufficient valid documents after enhanced corpus creation.")
-            return None, None
-
-        # Phase 5: Train LDA with optimal parameters
-        logger.info("Phase 5: Training optimized LDA model...")
-
-        # Smart topic number calculation for n-gram enhanced corpus
-        base_topics = min(config.NUM_TOPICS * 2, corpus_size // 4)
-        num_topics = max(25, min(50, base_topics))
-
-        logger.info(f"Training enhanced LDA model with {num_topics} topics on {len(corpus)} documents...")
-
-        # Optimized LDA parameters for n-gram enhanced historical document analysis
-        lda_model = models.LdaModel(
-            corpus=corpus,
-            id2word=lda_dictionary,
-            num_topics=num_topics,
-            chunksize=max(50, len(corpus) // 20),
-            passes=20,
-            iterations=300,
-            alpha='asymmetric',
-            eta=0.01,
-            random_state=42,
-            eval_every=None,
-            per_word_topics=False,
-            minimum_probability=0.01,
-            minimum_phi_value=0.01,
-            dtype=np.float32 if np else None # Check if np is available
-        )
-
-        logger.info("Enhanced n-gram LDA model training completed")
-
-        # Phase 6: Evaluate topic quality with coherence metrics
-        try:
-            if len(corpus) > 50 and ADVANCED_GENSIM_AVAILABLE:  # Only calculate coherence for larger corpora
-                logger.info("Calculating topic coherence...")
-                coherence_model = CoherenceModel(
-                    model=lda_model,
-                    texts=all_tokens,
-                    dictionary=lda_dictionary,
-                    coherence='c_v'
-                )
-                coherence_score = coherence_model.get_coherence()
-                logger.info(f"Topic coherence score (C_v): {coherence_score:.4f}")
-
-                # Store coherence score for future reference
-                lda_model.coherence_score = coherence_score
-        except Exception as e:
-            logger.warning(f"Error calculating topic coherence: {e}")
-
-        # Log enhanced topic quality information
-        try:
-            logger.info(f"Enhanced model trained with {lda_model.num_topics} topics")
-
-            # Sample topics to show n-gram effectiveness
-            sample_topics = min(5, lda_model.num_topics)
-            logger.info("Sample n-gram enhanced topics:")
-            for i in range(sample_topics):
-                terms = ", ".join([term for term, _ in lda_model.show_topic(i, topn=10)])
-                logger.info(f"  Topic {i}: {terms}")
-
-        except Exception as e:
-            logger.warning(f"Error logging enhanced topic quality info: {e}")
-
-        return lda_model, lda_dictionary
-
+        with open(checkpoint_path, 'rb') as f:
+            checkpoint_data = pickle.load(f)
+            embeddings = checkpoint_data.get('embeddings', [])
+            processed_count = checkpoint_data.get('processed_count', len(embeddings))
+            logger.info(f"Loaded embeddings checkpoint: {processed_count} embeddings")
+            return embeddings, processed_count
     except Exception as e:
-        logger.error(f"Error in enhanced n-gram LDA model training: {e}")
-        return None, None
+        logger.error(f"Error loading embeddings checkpoint: {e}")
+        return [], 0
+
+def train_lda_model(working_index: List[Dict[str, Any]], spacy_nlp_model, num_topics: int = 25) -> Tuple[Any, Any]:
+    """
+    Modern fast topic modeling using embedding clustering.
+    No more slow preprocessing - uses embeddings we already computed!
+    """
+    logger.info(f"Starting modern topic modeling on {len(working_index)} documents...")
+    
+    # Use modern embedding-based approach if available
+    if MODERN_TOPICS_AVAILABLE:
+        try:
+            model, results = replace_slow_topic_modeling(working_index, config)
+            logger.info(f"Fast topic modeling completed - found {model.num_topics} topics")
+            return model, None  # No corpus needed for modern approach
+            except Exception as e:
+            logger.error(f"Modern topic modeling failed: {e}")
+            logger.info("Falling back to simple keyword-based topics...")
+    
+    # Fallback: Simple keyword extraction if modern approach fails
+    logger.info("Using simple keyword-based topic assignment...")
+    
+    # Quick keyword-based topic assignment
+    topic_keywords = {
+        0: ['war', 'battle', 'fight', 'army', 'soldier'],
+        1: ['family', 'home', 'wife', 'child', 'love'],
+        2: ['supply', 'food', 'money', 'need', 'send'],
+        3: ['government', 'president', 'politics', 'union'],
+        4: ['health', 'sick', 'doctor', 'medicine', 'hospital'],
+        5: ['travel', 'journey', 'road', 'march', 'camp'],
+        6: ['news', 'report', 'hear', 'tell', 'information'],
+        7: ['business', 'work', 'trade', 'merchant', 'commerce'],
+        8: ['religion', 'god', 'church', 'pray', 'faith'],
+        9: ['weather', 'rain', 'cold', 'hot', 'season']
+    }
+    
+    # Assign topics based on keyword matching
+    for doc in working_index:
+        text = doc.get('full_text', '').lower()
+        best_topic = 0
+        best_score = 0
+        
+        for topic_id, keywords in topic_keywords.items():
+            score = sum(1 for kw in keywords if kw in text)
+            if score > best_score:
+                best_score = score
+                best_topic = topic_id
+        
+        doc['topic_id'] = best_topic
+        doc['lda_tokens'] = []  # Empty for compatibility
+    
+    # Create simple model object
+    class SimpleTopicModel:
+        def __init__(self):
+            self.num_topics = len(topic_keywords)
+            self.topics = topic_keywords
+            
+        def print_topics(self, num_topics=10):
+            for topic_id, keywords in list(self.topics.items())[:num_topics]:
+                print(f"Topic {topic_id}: {', '.join(keywords[:5])}")
+    
+    logger.info(f"Simple topic assignment completed with {len(topic_keywords)} topics")
+    return SimpleTopicModel(), None
 
 def assign_topics_to_documents(index: List[Dict[str, Any]], lda_model, lda_dictionary) -> None:
     """
@@ -848,334 +823,534 @@ def assign_topics_to_documents(index: List[Dict[str, Any]], lda_model, lda_dicti
     except Exception as e:
         logger.error(f"Error in enhanced topic assignment process: {e}")
 
-def _create_and_save_index(xml_files_to_process: List[str], sentence_model, spacy_nlp_model, index_path: str) -> List[Dict[str, Any]]:
+def parse_xml_files_parallel(xml_files_to_process: List[str]) -> List[Dict[str, Any]]:
     """
-    Enhanced indexing function with better error handling and progress tracking.
-    Parses XML files, generates embeddings, trains LDA model, and saves the index.
+    Parse XML files in parallel using ProcessPoolExecutor.
 
     Args:
-        xml_files_to_process: List of XML file paths to process
-        sentence_model: Sentence transformer model
-        spacy_nlp_model: spaCy NLP model
-        index_path: Path to save the index file
+        xml_files_to_process: List of XML file paths to parse
 
     Returns:
-        List of processed document dictionaries
+        List of successfully parsed document dictionaries
     """
-    index = []
-
-    if not xml_files_to_process:
-        logger.warning("No XML files provided to process for new index.")
-        return index
-
-    logger.info(f"Creating new index from {len(xml_files_to_process)} XML files...")
-
-    # Phase 1: Parse XML files
-    parsed_count = 0
-    failed_count = 0
-
-    for i, file_path in enumerate(xml_files_to_process):
-        try:
-            if not os.path.exists(file_path):
-                logger.warning(f"File not found - '{file_path}'. Skipping.")
-                failed_count += 1
+    logger.info(f"Starting parallel XML parsing with {config.MAX_WORKERS} workers")
+    parsed_docs = []
+    
+    try:
+        with ProcessPoolExecutor(max_workers=config.MAX_WORKERS) as executor:
+            # Submit all parsing tasks
+            future_to_file = {
+                executor.submit(parse_letter_xml, xml_file): xml_file 
+                for xml_file in xml_files_to_process
+            }
+            
+            # Collect results as they complete
+            for i, future in enumerate(as_completed(future_to_file)):
+                xml_file = future_to_file[future]
+                try:
+                    result = future.result()
+                    if result is not None:
+                        parsed_docs.append(result)
+                    
+                    # Progress reporting
+                    if (i + 1) % config.PROGRESS_REPORT_INTERVAL == 0:
+                        logger.info(f"Parsed {i + 1}/{len(xml_files_to_process)} files")
+                        
+                except Exception as e:
+                    logger.error(f"Error parsing {xml_file}: {e}")
                 continue
 
-            if not os.access(file_path, os.R_OK):
-                logger.warning(f"File not readable - '{file_path}'. Skipping.")
-                failed_count += 1
-                continue
+        logger.info(f"Parallel parsing completed: {len(parsed_docs)}/{len(xml_files_to_process)} files successfully parsed")
+        return parsed_docs
         
-            parsed_item = parse_letter_xml(file_path)
-            if parsed_item:
-                index.append(parsed_item)
-                parsed_count += 1
-            else:
-                failed_count += 1
+    except Exception as e:
+        logger.error(f"Error in parallel XML parsing: {e}")
+        # Fallback to sequential parsing
+        logger.info("Falling back to sequential parsing...")
+        return parse_xml_files_sequential(xml_files_to_process)
+
+def parse_xml_files_sequential(xml_files_to_process: List[str]) -> List[Dict[str, Any]]:
+    """
+    Fallback sequential XML parsing function.
+    
+    Args:
+        xml_files_to_process: List of XML file paths to parse
+        
+    Returns:
+        List of successfully parsed document dictionaries
+    """
+    logger.info("Starting sequential XML parsing")
+    parsed_docs = []
+    
+    for i, xml_file in enumerate(xml_files_to_process):
+        try:
+            result = parse_letter_xml(xml_file)
+            if result is not None:
+                parsed_docs.append(result)
 
             # Progress reporting
             if (i + 1) % config.PROGRESS_REPORT_INTERVAL == 0:
-                logger.info(f"Parsing progress: {i + 1}/{len(xml_files_to_process)} files processed "
-                            f"({parsed_count} successful, {failed_count} failed)")
+                logger.info(f"Parsed {i + 1}/{len(xml_files_to_process)} files")
 
         except Exception as e:
-            logger.error(f"Unexpected error processing {file_path}: {e}")
-            failed_count += 1
+            logger.error(f"Error parsing {xml_file}: {e}")
             continue
 
-    logger.info(f"XML parsing completed: {parsed_count} successful, {failed_count} failed")
+    logger.info(f"Sequential parsing completed: {len(parsed_docs)}/{len(xml_files_to_process)} files successfully parsed")
+    return parsed_docs
 
-    if not index:
-        logger.error("No documents were successfully parsed. Cannot create index.")
-        return index
+def get_file_metadata(file_path: str) -> Dict[str, Any]:
+    """
+    Get metadata for a file for incremental indexing.
+    
+    Args:
+        file_path: Path to the file
+        
+    Returns:
+        Dictionary containing file metadata
+    """
+    try:
+        stat = os.stat(file_path)
+        
+        # Calculate file hash for change detection
+        with open(file_path, 'rb') as f:
+            file_hash = hashlib.sha256(f.read()).hexdigest()
+            
+        return {
+            'size': stat.st_size,
+            'modified': stat.st_mtime,
+            'hash': file_hash,
+            'path': file_path
+        }
+    except Exception as e:
+        logger.error(f"Error getting metadata for {file_path}: {e}")
+        return {'path': file_path, 'error': str(e)}
 
-    # Phase 2: Generate embeddings
-    if sentence_model and SENTENCE_TRANSFORMERS_AVAILABLE:
-        logger.info("Generating embeddings...")
-        try:
-            # Prepare texts for embedding
-            texts_for_embedding = []
-            for item in index:
-                text_for_embedding = f"{item.get('title', '')} {item.get('description', '')} {item.get('full_text', '')}"
-                texts_for_embedding.append(text_for_embedding.strip())
-
-            # Generate embeddings in batches
-            embeddings = generate_embeddings_batch(texts_for_embedding, sentence_model)
-
-            # Assign embeddings to items
-            for item, embedding in zip(index, embeddings):
-                item['embedding'] = embedding
-
-            successful_embeddings = sum(1 for emb in embeddings if emb is not None)
-            logger.info(f"Embedding generation completed: {successful_embeddings}/{len(index)} successful")
-
+def save_metadata(file_metadata: Dict[str, Dict[str, Any]], metadata_path: str) -> None:
+    """
+    Save file metadata for incremental indexing.
+    
+    Args:
+        file_metadata: Dictionary of file path -> metadata mappings
+        metadata_path: Path to save the metadata file
+    """
+    try:
+        with open(metadata_path, 'wb') as f:
+            pickle.dump(file_metadata, f)
+        logger.info(f"Saved metadata for {len(file_metadata)} files to {metadata_path}")
         except Exception as e:
-            logger.error(f"Error in embedding generation: {e}")
-            # Continue without embeddings
-            for item in index:
-                item['embedding'] = None
+        logger.error(f"Error saving metadata: {e}")
+
+def load_metadata(metadata_path: str) -> Dict[str, Dict[str, Any]]:
+    """
+    Load file metadata for incremental indexing.
+    
+    Args:
+        metadata_path: Path to the metadata file
+        
+    Returns:
+        Dictionary of file path -> metadata mappings
+    """
+    try:
+        if os.path.exists(metadata_path):
+            with open(metadata_path, 'rb') as f:
+                metadata = pickle.load(f)
+            logger.info(f"Loaded metadata for {len(metadata)} files from {metadata_path}")
+            return metadata
     else:
-        logger.warning("Sentence transformer not available. Skipping embedding generation.")
-        for item in index:
-            item['embedding'] = None
+            logger.info("No existing metadata file found")
+            return {}
+    except Exception as e:
+        logger.error(f"Error loading metadata: {e}")
+        return {}
 
-    # Phase 3: Topic modeling
-    lda_model, lda_dictionary = train_lda_model(index, spacy_nlp_model)
-
-    if lda_model and lda_dictionary:
-        assign_topics_to_documents(index, lda_model, lda_dictionary)
-
-    # Phase 3.5: Advanced Topic Modeling (Phase 2 features)
-    hdp_model, hdp_dictionary = None, None
-    dtm_model, dtm_dictionary, time_slices = None, None, None
-
-    if ADVANCED_GENSIM_AVAILABLE and index:
-        logger.info("Training advanced topic models...")
-
-        # Hierarchical Topic Modeling
-        try:
-            hdp_model, hdp_dictionary = train_hierarchical_topic_model(index, spacy_nlp_model)
+def _create_and_save_index(xml_files_to_process: List[str], sentence_model, spacy_nlp_model, 
+                          index_path: str, incremental: bool = False) -> List[Dict[str, Any]]:
+    """
+    Enhanced index creation with parallel processing, checkpointing, and incremental updates.
+    
+    Args:
+        xml_files_to_process: List of XML file paths to process
+        sentence_model: Loaded sentence transformer model
+        spacy_nlp_model: Loaded spaCy model
+        index_path: Path to save the index
+        incremental: Whether this is an incremental update
+        
+    Returns:
+        List of document dictionaries with embeddings and topics
+    """
+    start_time = time.time()
+    logger.info(f"Starting {'incremental' if incremental else 'full'} index creation with {len(xml_files_to_process)} files")
+    
+    # Initialize model variables at the start
+    lda_model = None
+    lda_dictionary = None
+    
+    # Create checkpoint directory
+    os.makedirs(config.CHECKPOINT_DIR, exist_ok=True)
+    
+    # Step 1: Parallel XML parsing
+    logger.info("Phase 1: Parallel XML parsing...")
+    parsed_docs = parse_xml_files_parallel(xml_files_to_process)
+    
+    if not parsed_docs:
+        logger.error("No documents were successfully parsed")
+        return []
+    
+    logger.info(f"Successfully parsed {len(parsed_docs)} documents")
+    
+    # Step 2: Enhanced embedding generation with checkpointing
+    logger.info("Phase 2: Generating embeddings with checkpointing...")
+    texts_for_embedding = [
+        f"{doc.get('title', '')} {doc.get('description', '')} {doc.get('full_text', '')}".strip()
+        for doc in parsed_docs
+    ]
+    
+    # Setup checkpoint path for embeddings
+    embedding_checkpoint_path = os.path.join(config.CHECKPOINT_DIR, "embeddings_checkpoint.pkl")
+    
+    try:
+        embeddings = generate_embeddings_batch(
+            texts_for_embedding, 
+            sentence_model,
+            checkpoint_path=embedding_checkpoint_path
+        )
+        
+        # Attach embeddings to documents
+        for i, doc in enumerate(parsed_docs):
+            if i < len(embeddings):
+                doc['embedding'] = embeddings[i]
+            else:
+                # Fallback for missing embeddings
+                embedding_dim = getattr(sentence_model, 'get_sentence_embedding_dimension', lambda: 768)()
+                doc['embedding'] = [0.0] * embedding_dim
+                
+        successful_embeddings = sum(1 for doc in parsed_docs if doc.get('embedding') is not None)
+        logger.info(f"Embeddings attached: {successful_embeddings}/{len(parsed_docs)} documents")
+        
         except Exception as e:
-            logger.warning(f"Hierarchical topic modeling failed: {e}")
-
-        # Dynamic Topic Modeling
-        try:
-            dtm_model, dtm_dictionary, time_slices = train_dynamic_topic_model(index)
+        logger.error(f"Error in embedding generation: {e}")
+        # Continue without embeddings for now
+        for doc in parsed_docs:
+            doc['embedding'] = None
+    
+    # Step 3: Enhanced topic modeling
+    logger.info("Phase 3: Topic modeling...")
+    try:
+        # Train LDA model with potential sampling for development
+        lda_model, lda_dictionary = train_lda_model(parsed_docs, spacy_nlp_model)
+        
+        if lda_model and lda_dictionary:
+            logger.info("Assigning topics to documents...")
+            assign_topics_to_documents(parsed_docs, lda_model, lda_dictionary)
+            
+            # Store models in global variables
+            global global_lda_model, global_lda_dictionary
+            global_lda_model = lda_model
+            global_lda_dictionary = lda_dictionary
+            
+        else:
+            logger.warning("LDA model training failed - continuing without topic assignments")
+            
         except Exception as e:
-            logger.warning(f"Dynamic topic modeling failed: {e}")
-
-    # Phase 4: Save index
-    if index:
+        logger.error(f"Error in topic modeling: {e}")
+    
+    # Step 4: Advanced topic modeling (if enabled)
+    if ADVANCED_GENSIM_AVAILABLE and len(parsed_docs) >= config.HIERARCHICAL_MIN_TOPICS:
         try:
-            payload = {
-                "index": index,
-                "lda_model": lda_model,
-                "lda_dictionary": lda_dictionary,
-                "hdp_model": hdp_model,
-                "hdp_dictionary": hdp_dictionary,
-                "dtm_model": dtm_model,
-                "dtm_dictionary": dtm_dictionary,
-                "time_slices": time_slices,
-                "creation_timestamp": time.time(),
-                "version": "2.0",  # Version for future compatibility
-                "stats": {
-                    "total_documents": len(index),
-                    "successful_embeddings": sum(1 for item in index if item.get('embedding') is not None),
-                    "documents_with_topics": sum(1 for item in index if item.get('topic_id') is not None),
-                    "topics_available": lda_model.num_topics if lda_model else 0
-                }
-            }
-
-            # Create backup if index already exists
-            if os.path.exists(index_path):
-                backup_path = f"{index_path}.backup"
-                try:
-                    os.rename(index_path, backup_path)
-                    logger.info(f"Created backup: {backup_path}")
-                except Exception as e:
-                    logger.warning(f"Could not create backup: {e}")
-
-            with open(index_path, "wb") as f:
-                pickle.dump(payload, f, protocol=pickle.HIGHEST_PROTOCOL)
-
-            logger.info(f"New index + LDA saved to '{index_path}'")
-            logger.info(f"Index stats: {payload['stats']}")
-
+            logger.info("Phase 4a: Hierarchical topic modeling...")
+            hdp_model, hdp_dictionary = train_hierarchical_topic_model(parsed_docs, spacy_nlp_model)
+            
+            if hdp_model:
+                global global_hdp_model, global_hdp_dictionary
+                global_hdp_model = hdp_model
+                global_hdp_dictionary = hdp_dictionary
+                logger.info("Hierarchical topic model trained successfully")
+                
         except Exception as e:
-            logger.error(f"Error saving index to '{index_path}': {e}")
-
-    return index
+            logger.error(f"Error in hierarchical topic modeling: {e}")
+        
+        try:
+            logger.info("Phase 4b: Dynamic topic modeling...")
+            dtm_model, dtm_dictionary, time_slices = train_dynamic_topic_model(parsed_docs)
+            
+            if dtm_model:
+                global global_dtm_model, global_dtm_dictionary, global_time_slices
+                global_dtm_model = dtm_model
+                global_dtm_dictionary = dtm_dictionary 
+                global_time_slices = time_slices
+                logger.info("Dynamic topic model trained successfully")
+                
+        except Exception as e:
+            logger.error(f"Error in dynamic topic modeling: {e}")
+    
+    # Step 5: Create comprehensive index with metadata
+    logger.info("Phase 5: Creating comprehensive index...")
+    
+    # Add processing metadata
+    processing_metadata = {
+        'version': '3.0',
+        'created_at': datetime.now().isoformat(),
+        'total_documents': len(parsed_docs),
+        'successful_embeddings': sum(1 for doc in parsed_docs if doc.get('embedding') is not None),
+        'documents_with_topics': sum(1 for doc in parsed_docs if doc.get('dominant_topic') is not None),
+        'topics_available': lda_model.num_topics if lda_model else 0,
+        'processing_time_seconds': time.time() - start_time,
+        'incremental_update': incremental,
+        'files_processed': len(xml_files_to_process)
+    }
+    
+    # Create the comprehensive index
+    comprehensive_index = {
+        'documents': parsed_docs,
+        'metadata': processing_metadata,
+        'lda_model': lda_model,
+        'lda_dictionary': lda_dictionary,
+        'hdp_model': global_hdp_model,
+        'hdp_dictionary': global_hdp_dictionary,
+        'dtm_model': global_dtm_model,
+        'dtm_dictionary': global_dtm_dictionary,
+        'time_slices': global_time_slices
+    }
+    
+    # Step 6: Save index and metadata
+    logger.info("Phase 6: Saving index and metadata...")
+    try:
+        with open(index_path, 'wb') as f:
+            pickle.dump(comprehensive_index, f, protocol=pickle.HIGHEST_PROTOCOL)
+        
+        # Update file metadata for incremental updates
+        metadata_path = config.METADATA_FILE
+        file_metadata = {}
+        
+        for file_path in xml_files_to_process:
+            file_metadata[file_path] = get_file_metadata(file_path)
+        
+        save_metadata(file_metadata, metadata_path)
+        
+        # Clean up checkpoint files
+        try:
+            if os.path.exists(embedding_checkpoint_path):
+                os.remove(embedding_checkpoint_path)
+        except:
+            pass
+        
+        elapsed_time = time.time() - start_time
+        logger.info(f"Index creation completed in {elapsed_time:.2f} seconds")
+        logger.info(f"Index stats: {processing_metadata}")
+        
+        return parsed_docs
+        
+    except Exception as e:
+        logger.error(f"Error saving index: {e}")
+        return parsed_docs
 
 def load_or_create_index(xml_files_to_process: List[str], sentence_model, spacy_nlp_model,
-                         index_path: str, force_reindex: bool = False) -> List[Dict[str, Any]]:
+                         index_path: str, force_reindex: bool = False, incremental: bool = True) -> List[Dict[str, Any]]:
     """
-    Enhanced index loading/creation with better error handling and validation.
+    Enhanced index loading/creation with incremental update support.
 
     Args:
-        xml_files_to_process: List of XML files to process
-        sentence_model: Sentence transformer model
-        spacy_nlp_model: spaCy model
+        xml_files_to_process: List of XML file paths to process
+        sentence_model: Loaded sentence transformer model
+        spacy_nlp_model: Loaded spaCy model
         index_path: Path to the index file
-        force_reindex: Whether to force recreation of the index
+        force_reindex: Force complete reindexing
+        incremental: Enable incremental updates (default True)
 
     Returns:
-        List of processed document dictionaries
+        List of document dictionaries
     """
-    global global_lda_model, global_lda_dictionary
-    global global_hdp_model, global_hdp_dictionary
+    global global_lda_model, global_lda_dictionary, global_hdp_model, global_hdp_dictionary
     global global_dtm_model, global_dtm_dictionary, global_time_slices
-    global global_qa_pipeline
-
-    # Clear global models at start
-    global_lda_model = None
-    global_lda_dictionary = None
-    global_hdp_model = None
-    global_hdp_dictionary = None
-    global_dtm_model = None
-    global_dtm_dictionary = None
-    global_time_slices = None
-    global_qa_pipeline = None # Already done in load_nlp_models, but good to be explicit
     
-    if not force_reindex and os.path.exists(index_path):
-        logger.info(f"Loading existing index from '{index_path}'...")
+    logger.info(f"Loading or creating index at '{index_path}'")
+    logger.info(f"Mode: {'Force reindex' if force_reindex else 'Incremental' if incremental else 'Standard'}")
+    
+    # Check if index exists and force_reindex is not set
+    if os.path.exists(index_path) and not force_reindex:
         try:
-            # Check file size and modification time
-            file_size = os.path.getsize(index_path)
-            mod_time = os.path.getmtime(index_path)
-            logger.info(f"Index file: {file_size / (1024*1024):.1f} MB, modified: {time.ctime(mod_time)}")
-
-            with open(index_path, 'rb') as f:
-                data = pickle.load(f)
+            # Get index file info
+            index_stat = os.stat(index_path)
+            index_size_mb = index_stat.st_size / (1024 * 1024)
+            index_mtime = time.ctime(index_stat.st_mtime)
             
-            # Validate loaded data
-            if isinstance(data, dict):
-                # New format with metadata
-                if 'index' not in data:
-                    raise ValueError("Invalid index format: missing 'index' key")
-
-                index = data['index']
-                global_lda_model = data.get('lda_model')
-                global_lda_dictionary = data.get('lda_dictionary')
-
-                # Phase 2: Load advanced topic models
-                global_hdp_model = data.get('hdp_model')
-                global_hdp_dictionary = data.get('hdp_dictionary')
-                global_dtm_model = data.get('dtm_model')
-                global_dtm_dictionary = data.get('dtm_dictionary')
-                global_time_slices = data.get('time_slices')
-
-                # Log statistics
-                stats = data.get('stats', {})
-                version = data.get('version', '1.0')
-
-                logger.info(f"Loaded index version {version}")
-                if stats:
-                    logger.info(f"Index stats: {stats}")
-
-                # Validate LDA model
-                if global_lda_model:
-                    try:
-                        num_topics = global_lda_model.num_topics
-                        logger.info(f"LDA model loaded with {num_topics} topics")
-                    except Exception as e:
-                        logger.warning(f"LDA model validation failed: {e}")
-                        global_lda_model = None
-
-                # Validate HDP model
+            logger.info(f"Loading existing index from '{index_path}'...")
+            logger.info(f"Index file: {index_size_mb:.1f} MB, modified: {index_mtime}")
+            
+            # Load existing index
+            with open(index_path, 'rb') as f:
+                saved_data = pickle.load(f)
+            
+            # Handle different index versions
+            if isinstance(saved_data, dict):
+                # Version 2.0+ format
+                if 'version' in saved_data.get('metadata', saved_data):
+                    version = saved_data.get('metadata', saved_data).get('version', '2.0')
+                    logger.info(f"Loaded index version {version}")
+                    
+                    if version == '3.0':
+                        # New format with comprehensive metadata
+                        documents = saved_data['documents']
+                        metadata = saved_data['metadata']
+                        
+                        # Load all models
+                        global_lda_model = saved_data.get('lda_model')
+                        global_lda_dictionary = saved_data.get('lda_dictionary')
+                        global_hdp_model = saved_data.get('hdp_model')
+                        global_hdp_dictionary = saved_data.get('hdp_dictionary')
+                        global_dtm_model = saved_data.get('dtm_model')
+                        global_dtm_dictionary = saved_data.get('dtm_dictionary')
+                        global_time_slices = saved_data.get('time_slices')
+                        
+                        logger.info(f"Index stats: {metadata}")
+                        
+                    else:
+                        # Version 2.0 format (legacy)
+                        documents = saved_data.get('index', [])
+                        metadata = saved_data.get('stats', {})
+                        
+                        # Load models from legacy format
+                        global_lda_model = saved_data.get('lda_model')
+                        global_lda_dictionary = saved_data.get('lda_dictionary')
+                        global_hdp_model = saved_data.get('hdp_model')
+                        global_hdp_dictionary = saved_data.get('hdp_dictionary')
+                        global_dtm_model = saved_data.get('dtm_model')
+                        global_dtm_dictionary = saved_data.get('dtm_dictionary')
+                        global_time_slices = saved_data.get('time_slices')
+                        
+                        logger.info(f"Index stats: {metadata}")
+                else:
+                    # Very old format
+                    documents = saved_data.get('index', saved_data)
+                    logger.info("Loaded legacy index format")
+            else:
+                # Ancient format - just a list
+                documents = saved_data if isinstance(saved_data, list) else []
+                logger.info("Loaded very old index format")
+            
+            # Log model loading status
+            if global_lda_model:
+                logger.info(f"LDA model loaded with {global_lda_model.num_topics} topics")
                 if global_hdp_model:
                     try:
-                        # Test HDP model functionality
-                        topics = global_hdp_model.show_topics(num_topics=5, formatted=False)
-                        active_topics = len([t for t in topics if t[1] and len(t[1]) > 0])
+                    active_topics = len([t for t in global_hdp_model.show_topics(num_topics=-1, formatted=False)])
                         logger.info(f"HDP model loaded with {active_topics} active topics (sample)")
-                    except Exception as e:
-                        logger.warning(f"HDP model validation failed: {e}")
-                        global_hdp_model = None
+                except:
+                    logger.info("HDP model loaded")
+            if global_dtm_model:
+                logger.info("DTM model loaded")
+            
+            # Check for incremental updates if enabled
+            if incremental and xml_files_to_process:
+                logger.info("Checking for incremental updates...")
+                metadata_path = config.METADATA_FILE
+                new_files, changed_files = identify_changed_files(xml_files_to_process, metadata_path)
+                
+                files_to_update = new_files + changed_files
+                
+                if files_to_update:
+                    logger.info(f"Found {len(files_to_update)} files needing updates ({len(new_files)} new, {len(changed_files)} changed)")
+                    
+                    # Process incremental updates
+                    updated_docs = _create_and_save_index(
+                        files_to_update, 
+                        sentence_model, 
+                        spacy_nlp_model, 
+                        index_path + ".incremental",
+                        incremental=True
+                    )
+                    
+                    if updated_docs:
+                        # Merge with existing documents
+                        existing_files = {doc.get('file_name'): doc for doc in documents}
+                        
+                        # Update/add new documents
+                        for new_doc in updated_docs:
+                            file_name = new_doc.get('file_name')
+                            if file_name:
+                                existing_files[file_name] = new_doc
+                        
+                        # Convert back to list
+                        documents = list(existing_files.values())
+                        
+                        # Save updated index
+                        logger.info("Saving merged incremental index...")
+                        _create_and_save_index(
+                            [],  # No files to process, just save existing
+                            sentence_model,
+                            spacy_nlp_model,
+                            index_path,
+                            incremental=True
+                        )
+                        
+                        # Clean up temporary incremental file
+                        try:
+                            os.remove(index_path + ".incremental")
+                        except:
+                            pass
+                        
+                        logger.info(f"Incremental update completed: {len(documents)} total documents")
+                else:
+                    logger.info("No files need updating - using existing index")
+            
+            logger.info(f"Successfully loaded {len(documents)} items from saved index")
+            
+            # Verify embeddings
+            embeddings_count = sum(1 for doc in documents if doc.get('embedding') is not None)
+            logger.info(f"Embeddings available: {embeddings_count}/{len(documents)}")
+            
+            return documents
+            
+        except Exception as e:
+            logger.error(f"Error loading existing index: {e}")
+            logger.info("Will create new index instead")
+    
+    # Create new index if no existing index or force_reindex is True
+    if not xml_files_to_process:
+        logger.warning("No XML files provided for index creation")
+        return []
+    
+    logger.info(f"Creating new index from {len(xml_files_to_process)} XML files...")
+    return _create_and_save_index(xml_files_to_process, sentence_model, spacy_nlp_model, index_path, incremental=False)
 
-                # Validate DTM model
-                if global_dtm_model and global_time_slices:
-                    try:
-                        num_topics = global_dtm_model.num_topics
-                        logger.info(f"DTM model loaded with {num_topics} topics across {len(global_time_slices)} time periods")
-                    except Exception as e:
-                        logger.warning(f"DTM model validation failed: {e}")
-                        global_dtm_model = None
-                        global_time_slices = None
-
-            elif isinstance(data, list):
-                # Old format - just the index
-                logger.info("Loading legacy index format")
-                index = data
-                global_lda_model = None
-                global_lda_dictionary = None
+def identify_changed_files(xml_files_to_process: List[str], metadata_path: str) -> Tuple[List[str], List[str]]:
+    """
+    Identify new and changed files for incremental indexing.
+    
+    Args:
+        xml_files_to_process: List of XML file paths to check
+        metadata_path: Path to the metadata file
+        
+    Returns:
+        Tuple of (new_files, changed_files)
+    """
+    try:
+        existing_metadata = load_metadata(metadata_path)
+        new_files = []
+        changed_files = []
+        
+        for file_path in xml_files_to_process:
+            if file_path not in existing_metadata:
+                # New file
+                new_files.append(file_path)
             else:
-                raise ValueError(f"Invalid index format: expected dict or list, got {type(data)}")
-
-            # Validate index content
-            if not index:
-                logger.warning("Loaded index is empty")
-                return []
-
-            # Check if index items have required fields
-            sample_item = index[0]
-            required_fields = ['file_name', 'title', 'full_text']
-            missing_fields = [field for field in required_fields if field not in sample_item]
-
-            if missing_fields:
-                logger.warning(f"Index items missing required fields: {missing_fields}")
-
-            # Check embedding availability
-            embeddings_available = sum(1 for item in index if item.get('embedding') is not None)
-            logger.info(f"Successfully loaded {len(index)} items from saved index")
-            logger.info(f"Embeddings available: {embeddings_available}/{len(index)}")
-
-            # Warn if embeddings are missing but sentence model is available
-            if sentence_model and embeddings_available == 0 and len(index) > 0 :
-                logger.warning("No embeddings found in index but sentence model is available. Consider re-indexing.")
-
-            return index
-
-        except (pickle.PickleError, EOFError) as e:
-            logger.error(f"Error loading pickled index from '{index_path}': {e}")
-        except ValueError as e:
-            logger.error(f"Index validation error: {e}")
-        except Exception as e:
-            logger.error(f"Unexpected error loading index from '{index_path}': {e}")
-    
-        logger.info("Will attempt to create a new index due to loading failure")
-
-    # Create new index
-    logger.info("Creating new index...")
-    index = _create_and_save_index(xml_files_to_process, sentence_model, spacy_nlp_model, index_path)
-
-    # Set global LDA variables from newly saved file (if creation was successful)
-    if index and os.path.exists(index_path): # Check if index was created and file exists
-        try:
-            with open(index_path, 'rb') as f:
-                data = pickle.load(f)
-                if isinstance(data, dict):
-                    global_lda_model = data.get('lda_model')
-                    global_lda_dictionary = data.get('lda_dictionary')
-                    # Also load HDP and DTM models into global variables
-                    global_hdp_model = data.get('hdp_model')
-                    global_hdp_dictionary = data.get('hdp_dictionary')
-                    global_dtm_model = data.get('dtm_model')
-                    global_dtm_dictionary = data.get('dtm_dictionary')
-                    global_time_slices = data.get('time_slices')
-
-                    # Log what was loaded
-                    if global_lda_model:
-                        logger.info("LDA model from new index loaded successfully into global variables")
-                    if global_hdp_model:
-                        logger.info("HDP model from new index loaded successfully into global variables")
-                    if global_dtm_model and global_time_slices:
-                        logger.info(f"DTM model from new index loaded successfully with {len(global_time_slices)} time slices")
-
-        except Exception as e:
-            logger.warning(f"Could not load models from newly created and saved index: {e}")
-    
-    return index
-
+                # Check if file has changed
+                current_metadata = get_file_metadata(file_path)
+                stored_metadata = existing_metadata[file_path]
+                
+                # Compare hash to detect changes
+                if (current_metadata.get('hash') != stored_metadata.get('hash') or
+                    current_metadata.get('modified') != stored_metadata.get('modified')):
+                    changed_files.append(file_path)
+        
+        logger.info(f"File change detection: {len(new_files)} new, {len(changed_files)} changed")
+        return new_files, changed_files
+        
+    except Exception as e:
+        logger.error(f"Error identifying changed files: {e}")
+        # Fallback: treat all files as new
+        return xml_files_to_process, []
 
 # --- Standard Search Functions ---
 def search_by_sender(index: List[Dict[str, Any]], query: str) -> List[Dict[str, Any]]:
@@ -1569,38 +1744,52 @@ def execute_semantic_search(letter_index, query_text, sentence_model, top_n=5):
     """
     if not sentence_model or not util or not SENTENCE_TRANSFORMERS_AVAILABLE:
         print("Sentence model or util not available for semantic search.")
+        logger.warning("Sentence model or util not available for semantic search.")
         return []
     if not query_text:
         print("Semantic search query is empty.")
+        logger.warning("Semantic search query is empty.")
         return []
 
     try:
         query_embedding = sentence_model.encode(query_text, convert_to_tensor=True)
-        items_with_embeddings = [
-            item for item in letter_index
-            if item.get('embedding') is not None # Check if embedding exists
-        ]
-    
-        if not items_with_embeddings:
-            print("No documents with valid embeddings found in the index for semantic search.")
-            return []
         
-        # Prepare corpus embeddings, ensuring they are tensors
-        corpus_embeddings_list = []
-        valid_items_indices = []
-        for i, item_emb in enumerate(item['embedding'] for item in items_with_embeddings):
-            if isinstance(item_emb, np.ndarray):
-                corpus_embeddings_list.append(util.torch.tensor(item_emb))
-                valid_items_indices.append(i)
-            elif util.torch.is_tensor(item_emb):
-                corpus_embeddings_list.append(item_emb)
-                valid_items_indices.append(i)
-        
-        if not corpus_embeddings_list:
-            print("No valid tensor embeddings found in corpus.")
+        temp_corpus_embeddings_list = []
+        docs_for_semantic_search = [] # Store the actual document objects
+
+        for doc_item in letter_index:
+            embedding_data = doc_item.get('embedding')
+            current_tensor = None
+
+            if isinstance(embedding_data, list) and embedding_data and all(isinstance(x, (float, int, np.float32, np.float64)) for x in embedding_data):
+                try:
+                    current_tensor = util.torch.tensor(embedding_data, dtype=torch.float32)
+                except Exception as e:
+                    logger.warning(f"Could not convert list embedding to tensor for doc {doc_item.get('file_name', 'N/A')}: {e}")
+            elif isinstance(embedding_data, np.ndarray):
+                try:
+                    current_tensor = util.torch.from_numpy(embedding_data.astype(np.float32))
+                except Exception as e:
+                    logger.warning(f"Could not convert np embedding to tensor for doc {doc_item.get('file_name', 'N/A')}: {e}")
+            elif util.torch.is_tensor(embedding_data):
+                current_tensor = embedding_data.to(dtype=torch.float32)
+            
+            if current_tensor is not None:
+                if current_tensor.ndim == 1 and current_tensor.numel() > 0: # Ensure it's a 1D tensor and not empty
+                    temp_corpus_embeddings_list.append(current_tensor)
+                    docs_for_semantic_search.append(doc_item)
+                else:
+                    logger.warning(f"Embedding for doc {doc_item.get('file_name', 'N/A')} was not a valid 1D tensor (shape: {current_tensor.shape}). Skipping.")
+            elif embedding_data is not None:
+                logger.warning(f"Embedding for doc {doc_item.get('file_name', 'N/A')} was of unexpected type {type(embedding_data)} or invalid. Skipping.")
+            # If embedding_data is None, it's silently skipped, which is fine.
+
+        if not temp_corpus_embeddings_list:
+            print("No valid tensor embeddings found in corpus for semantic search.") # This matches the error you saw
+            logger.warning("No valid tensor embeddings found in corpus for semantic search after filtering and conversion attempts.")
             return []
 
-        corpus_embeddings = util.torch.stack(corpus_embeddings_list)
+        corpus_embeddings = util.torch.stack(temp_corpus_embeddings_list)
     
         # Ensure embeddings are on CPU if they are PyTorch tensors
         if hasattr(query_embedding, 'cpu'):
@@ -1611,28 +1800,25 @@ def execute_semantic_search(letter_index, query_text, sentence_model, top_n=5):
         hits = util.semantic_search(
             query_embedding,
             corpus_embeddings,
-            top_k=min(top_n * 2, len(corpus_embeddings))  # Get more results for snippet analysis
+            top_k=min(top_n * 2, len(corpus_embeddings))
         )
     
         search_results = []
         if hits and hits[0]:
-            for hit in hits[0][:top_n]:  # Only keep top_n final results
-                original_item_index = valid_items_indices[hit['corpus_id']]
-                original_item = items_with_embeddings[original_item_index].copy()
+            for hit in hits[0][:top_n]:
+                # hit['corpus_id'] is an index into docs_for_semantic_search
+                original_item = docs_for_semantic_search[hit['corpus_id']].copy()
                 original_item['similarity_score'] = hit['score'] 
 
-                # Extract the most relevant snippet from the document
                 relevant_snippet = extract_relevant_snippet(
                         original_item, query_text, sentence_model
                 )
                 original_item['relevant_snippet'] = relevant_snippet
-
                 search_results.append(original_item)
-
         return search_results
 
     except Exception as e:
-        logger.error(f"Error in enhanced semantic search: {e}")
+        logger.error(f"Error in enhanced semantic search: {e}", exc_info=True)
         return []
 
 def extract_relevant_snippet(document, query_text, sentence_model, max_snippet_length=300):
@@ -1970,13 +2156,13 @@ def get_file_list_from_args(args):
     """Get the list of files to process based on command line arguments."""
     files_to_process = []
     
-    if args.dir:
-        if os.path.isdir(args.dir):
-            print(f"Target XML directory: {args.dir}")
-            files_to_process = glob.glob(os.path.join(args.dir, '*.xml'))
+    if hasattr(args, 'xmldir') and args.xmldir:
+        if os.path.isdir(args.xmldir):
+            print(f"Target XML directory: {args.xmldir}")
+            files_to_process = glob.glob(os.path.join(args.xmldir, '*.xml'))
         else:
-            print(f"Error: Provided directory '{args.dir}' does not exist.")
-    elif args.files:
+            print(f"Error: Provided directory '{args.xmldir}' does not exist.")
+    elif hasattr(args, 'files') and args.files:
         print("Target XML files (from command line):")
         for f_path in args.files: 
             print(f"  - {f_path}")
@@ -1997,33 +2183,89 @@ def load_nlp_models():
     Returns:
         tuple: (spacy_nlp_model, sentence_transformer_model, qa_pipeline)
     """
+    # Check for MPS (Metal Performance Shaders) availability for Apple Silicon GPUs
+    # Force CPU mode to avoid MPS allocation errors
+    mps_available = False  # Temporarily disable MPS
+    # mps_available = hasattr(torch.backends, "mps") and torch.backends.mps.is_available()
+    device_to_use = "mps" if mps_available else "cpu" # This will be used for SentenceTransformer and QA
+    gpu_preferred = False # Default to False
+
+    if mps_available:
+        logger.info("MPS (Metal Performance Shaders) backend is available. Will attempt to use GPU for spaCy.")
+        if SPACY_AVAILABLE:
+            try:
+                gpu_preferred = spacy.prefer_gpu()
+                if gpu_preferred:
+                    logger.info("Successfully called spacy.prefer_gpu() and GPU is available.")
+                else:
+                    logger.info("Successfully called spacy.prefer_gpu() but GPU is not available or not used, or an error occurred.")
+            except Exception as e:
+                logger.warning(f"Could not set spaCy to prefer GPU (MPS): {e}")
+    else:
+        logger.info("MPS backend not available. Will use CPU for all models.")
+        if SPACY_AVAILABLE:
+            try:
+                spacy.require_cpu()
+                logger.info("Successfully called spacy.require_cpu().")
+                gpu_preferred = False # Explicitly set to False
+            except Exception as e:
+                logger.warning(f"Could not set spaCy to require CPU: {e}")
+    
     # Load spaCy model
     spacy_nlp = None
-    if SPACY_AVAILABLE: # Check if spacy library was imported
+    if SPACY_AVAILABLE: 
+        model_name_to_load = "en_core_web_trf"
         try:
-            spacy_nlp = spacy.load("en_core_web_sm")
-            print("spaCy model 'en_core_web_sm' loaded.")
-        except OSError:
-            print("spaCy model 'en_core_web_sm' not found. Download: python -m spacy download en_core_web_sm")
+            logger.info(f"Attempting to load spaCy model \'{model_name_to_load}\'...")
+            spacy_nlp = spacy.load(model_name_to_load)
+            # Determine accelerator based on the outcome of prefer_gpu or if require_cpu was called
+            accelerator = "gpu" if gpu_preferred and mps_available else "cpu"
+            print(f"spaCy model \'{model_name_to_load}\' loaded successfully. Using device: {accelerator}") # For immediate stdout
+            logger.info(f"spaCy model \'{model_name_to_load}\' loaded successfully. Using device: {accelerator}")
+        except OSError as ose:
+            print(f"spaCy model '{model_name_to_load}' not found. Please download it: python -m spacy download {model_name_to_load}") # For immediate stdout
+            logger.error(f"spaCy model '{model_name_to_load}' not found. OSError: {ose}", exc_info=True)
             spacy_nlp = None
-    
+        except Exception as e: 
+            print(f"An unexpected error occurred while loading spaCy model '{model_name_to_load}': {e}") # For immediate stdout
+            logger.error(f"An unexpected error occurred while loading spaCy model '{model_name_to_load}': {e}", exc_info=True)
+            spacy_nlp = None
+        except BaseException as be: 
+            print(f"A critical error (BaseException) occurred while loading spaCy model '{model_name_to_load}': {be}") # For immediate stdout
+            logger.critical(f"A critical error (BaseException) occurred while loading spaCy model '{model_name_to_load}': {be}", exc_info=True)
+            spacy_nlp = None 
+    else:
+        logger.warning("spaCy library is not available. Cannot load spaCy model.")
+        print("spaCy library is not available. spaCy model loading skipped.") # For immediate stdout
+
     # Load sentence transformer model
     sentence_transformer_model = None
     if SENTENCE_TRANSFORMERS_AVAILABLE: # Check if sentence_transformers library was imported
         try:
-            sentence_transformer_model = SentenceTransformer(SENTENCE_MODEL_NAME)
-            print(f"SentenceTransformer model '{SENTENCE_MODEL_NAME}' loaded.")
+            sentence_transformer_model = SentenceTransformer(SENTENCE_MODEL_NAME, device=device_to_use)
+            print(f"SentenceTransformer model '{SENTENCE_MODEL_NAME}' loaded on device: {device_to_use}.")
         except Exception as e:
-            print(f"Error loading SentenceTransformer model '{SENTENCE_MODEL_NAME}': {e}")
-            sentence_transformer_model = None
+            print(f"Error loading SentenceTransformer model '{SENTENCE_MODEL_NAME}' on device '{device_to_use}': {e}")
+            # Try CPU as fallback if MPS loading failed
+            if device_to_use == "mps":
+                print("Retrying SentenceTransformer with CPU...")
+                try:
+                    sentence_transformer_model = SentenceTransformer(SENTENCE_MODEL_NAME, device="cpu")
+                    print(f"SentenceTransformer model '{SENTENCE_MODEL_NAME}' loaded on device: cpu (fallback).")
+                except Exception as e_cpu:
+                    print(f"Error loading SentenceTransformer model on CPU (fallback): {e_cpu}")
+                    sentence_transformer_model = None
+            else:
+                sentence_transformer_model = None
             
     # Load QA pipeline (Phase 2)
-    qa_pipeline_model = initialize_qa_model() # Renamed to avoid conflict
+    # Pass the determined device_to_use to initialize_qa_model
+    qa_pipeline_model = initialize_qa_model(device_to_use=device_to_use)
     if qa_pipeline_model:
-        print("Question Answering pipeline loaded successfully.")
-    # else: # initialize_qa_model already logs
-    #     print("QA pipeline not available.")
-
+        # The pipeline object itself doesn't directly expose the device of its internal model easily,
+        # but initialize_qa_model will log the device it attempted to use.
+        print(f"Question Answering pipeline initialized (attempted device: {device_to_use}).")
+    
     return spacy_nlp, sentence_transformer_model, qa_pipeline_model
 
 def train_hierarchical_topic_model(index: List[Dict[str, Any]], spacy_nlp_model) -> Tuple[Any, Any]:
@@ -2222,9 +2464,22 @@ def train_dynamic_topic_model(index: List[Dict[str, Any]]) -> Tuple[Any, Any, Li
             logger.info(f"  Topic {topic_id_iter} evolution:")
             for time_idx, year_val in enumerate(valid_years): # Renamed variable
                 if time_idx < len(time_slices):
-                    terms = dtm_model.show_topic(topic_id_iter, time=time_idx, topn=5)
-                    terms_str = ", ".join([word for word, _ in terms])
+                    try:
+                        # DTM doesn't have show_topic method, use print_topic instead
+                        topic_terms = dtm_model.print_topic(topic_id_iter, time=time_idx, top_terms=5)
+                        logger.info(f"    {year_val}: {topic_terms}")
+                    except Exception as e:
+                        logger.warning(f"    {year_val}: Error getting topic terms: {e}")
+                        # Fallback: try to get terms another way
+                        try:
+                            terms_prob = dtm_model.show_topics(time=time_idx, topics=[topic_id_iter], topn=5, formatted=False)
+                            if terms_prob and len(terms_prob) > 0:
+                                terms_str = ", ".join([word for word, _ in terms_prob[0][1]])
                     logger.info(f"    {year_val}: {terms_str}")
+                            else:
+                                logger.info(f"    {year_val}: No terms available")
+                        except Exception as e2:
+                            logger.info(f"    {year_val}: Unable to retrieve topic terms")
 
         return dtm_model, dtm_dictionary, time_slices # Return original time_slices
 
@@ -2232,9 +2487,12 @@ def train_dynamic_topic_model(index: List[Dict[str, Any]]) -> Tuple[Any, Any, Li
         logger.error(f"Error in dynamic topic modeling: {e}")
         return None, None, None
 
-def initialize_qa_model():
+def initialize_qa_model(device_to_use="cpu"):
     """
     Initialize the Question Answering model for extractive QA.
+
+    Args:
+        device_to_use (str): The device to attempt to load the model on ('mps' or 'cpu').
 
     Returns:
         QA pipeline or None if not available
@@ -2243,19 +2501,37 @@ def initialize_qa_model():
         logger.warning("Transformers library not available - QA features disabled")
         return None
 
+    # Determine the device index for Hugging Face pipeline (0 for GPU, -1 for CPU)
+    # PyTorch device strings ('mps', 'cpu') are different from pipeline device integers.
+    pipeline_device_arg = 0 if device_to_use == "mps" else -1
+
     try:
-        logger.info(f"Loading QA model: {config.QA_MODEL_NAME}")
-        qa_pipeline_model = pipeline( # Renamed variable
+        logger.info(f"Loading QA model: {config.QA_MODEL_NAME} on device: {device_to_use} (pipeline arg: {pipeline_device_arg})")
+        qa_pipeline_model = pipeline(
             "question-answering",
             model=config.QA_MODEL_NAME,
             tokenizer=config.QA_MODEL_NAME,
-            # return_scores=True, # Default for pipeline is to return scores
-            handle_impossible_answer=True # Important for robust QA
+            device=pipeline_device_arg # Use integer device for pipeline
+            # handle_impossible_answer=True # This is often default or can be set at call time
         )
-        logger.info("QA model loaded successfully")
+        logger.info(f"QA model loaded successfully (attempted device: {device_to_use})")
         return qa_pipeline_model
     except Exception as e:
-        logger.error(f"Error loading QA model: {e}")
+        logger.error(f"Error loading QA model on device {device_to_use}: {e}")
+        if device_to_use == "mps": # If MPS loading failed, try CPU as a fallback
+            logger.warning("Retrying QA model loading on CPU as MPS failed...")
+            try:
+                qa_pipeline_model = pipeline(
+                    "question-answering",
+                    model=config.QA_MODEL_NAME,
+                    tokenizer=config.QA_MODEL_NAME,
+                    device=-1 # Explicitly CPU
+                )
+                logger.info("QA model loaded successfully on CPU (fallback)")
+                return qa_pipeline_model
+            except Exception as e_cpu:
+                logger.error(f"Error loading QA model on CPU (fallback): {e_cpu}")
+                return None
         return None
 
 def execute_extractive_qa(letter_index, query_text, qa_pipeline_model, sentence_model, top_n=5): # qa_pipeline renamed
@@ -2280,55 +2556,74 @@ def execute_extractive_qa(letter_index, query_text, qa_pipeline_model, sentence_
     try:
         logger.info(f"Processing QA query: {query_text}")
 
-        # Step 1: Find relevant contexts using semantic search
+        # First, find the most relevant documents using semantic search
+        logger.info(f"Processing QA query: {query_text}")
         relevant_docs = execute_semantic_search(
-            letter_index, query_text, sentence_model,
-            top_n=config.QA_TOP_K_CONTEXTS
+            letter_index, query_text, sentence_model, top_n=config.QA_TOP_K_CONTEXTS
         )
 
         if not relevant_docs:
-            logger.warning("No relevant contexts found for QA")
+            logger.warning("No relevant documents found for QA query")
             return []
 
         answers = []
 
-        # Step 2: Extract answers from each relevant context
         for doc in relevant_docs:
-            try:
-                # Use full text as context for QA
+            # Get the full text content
                 context = doc.get('full_text', '')
-                if not context or len(context.strip()) < 20:
+            
+            if not context or len(context.strip()) < 50:  # Skip very short contexts
                     continue
 
-                # Truncate context if too long for the model
-                # Model's max sequence length is usually 512 tokens.
-                # A simple char limit is a heuristic. Better to use tokenizer.
-                max_context_char_length = 3000 # A conservative character limit
+            # Process in larger chunks for better context
+            max_context_char_length = 3000  # Increased back to 3000 for more context
                 if len(context) > max_context_char_length:
-                    context = context[:max_context_char_length] + "..."
+                # Try to find a good breaking point
+                words = context.split()
+                truncated_words = []
+                char_count = 0
 
+                for word in words:
+                    if char_count + len(word) + 1 > max_context_char_length:
+                        break
+                    truncated_words.append(word)
+                    char_count += len(word) + 1
 
+                context = ' '.join(truncated_words)
+            
+            try:
                 # Get answer from QA model
                 qa_result = qa_pipeline_model(
                     question=query_text,
                     context=context,
                     max_answer_len=config.QA_MAX_ANSWER_LENGTH,
-                    handle_impossible_answer=True
+                    handle_impossible_answer=False  # Changed to False to force answers
+                )
+
+                # Extract answer details
+                answer_text = qa_result.get('answer', '').strip()
+                confidence_score = qa_result.get('score', 0.0)
+
+                # Debug logging
+                logger.info(f"Raw QA result for context {len(context)} chars: answer='{answer_text[:50]}...', score={confidence_score}")
+
+                # Filter out clearly bad answers but be very lenient
+                is_valid_answer = (
+                    answer_text and 
+                    len(answer_text.strip()) > 1 and  # At least 2 characters
+                    answer_text.strip() not in ['...', '.', ',', ';', ':', '!', '?', '-'] and  # Not just punctuation
+                    not answer_text.strip().isdigit() or len(answer_text.strip()) >= 4  # Accept years (4+ digits) but not single digits
                 )
                 
-                # The pipeline returns a dict or a list of dicts. We expect one.
-                if isinstance(qa_result, list): # if top_k > 1 in pipeline
-                    if not qa_result: continue
-                    qa_result = qa_result[0]
+                logger.info(f"Answer validity check: '{answer_text}' -> {is_valid_answer}")
 
-
-                # Check if answer meets quality threshold
-                if qa_result and qa_result.get('score', 0) >= config.QA_MIN_SCORE_THRESHOLD and qa_result.get('answer'):
+                # Accept almost all answers now - no score threshold
+                if is_valid_answer:
                     answer_data = {
-                        'answer': qa_result['answer'],
-                        'confidence': qa_result['score'],
+                        'answer': answer_text,
+                        'confidence': confidence_score,
                         'context_snippet': _extract_answer_context(
-                            context, qa_result['answer'], qa_result.get('start', 0)
+                            context, answer_text, qa_result.get('start', 0)
                         ),
                         'document_title': doc.get('title', 'Unknown'),
                         'document_year': doc.get('year', 'Unknown'),
@@ -2859,48 +3154,537 @@ def display_hybrid_results(results):
     print("-" * 30)
 
 # --- Main Entry Point ---
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Chatbot for querying TEI XML letters with AI and persistent index.")
-    parser.add_argument("--dir", help="Directory containing XML letter files.")
-    parser.add_argument("--files", nargs="+", help="List of specific XML files to process.")
-    parser.add_argument("--reindex", action="store_true", help="Force re-creation of the index, ignoring any saved index file.")
-    args = parser.parse_args()
+def main():
+    """
+    Main entry point for the command-line interface.
+    """
+    parser = argparse.ArgumentParser(
+        description="AI-Powered Historical Document Analyzer",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Create index with optimizations
+  %(prog)s --create-index --xmldir xmlfiles --workers 6 --batch-size 12 --checkpoint-interval 500 --num-topics 30
 
-    # Get files to process
-    files_to_process = get_file_list_from_args(args)
-    
-    # Load NLP models
-    spacy_nlp, sentence_transformer_model, qa_pipeline_model = load_nlp_models()
+  # Force full re-index
+  %(prog)s --create-index --xmldir xmlfiles --force-reindex --verbose
 
-    # Store QA pipeline globally
-    global_qa_pipeline = qa_pipeline_model # Assign to global variable
+  # Create index with sampling for development
+  %(prog)s --create-index --xmldir xmlfiles --sample-size 500 --enable-topic-sampling
 
-    # Determine if we should create a new index
-    # If reindex is forced, files_to_process will be used.
-    # If not reindexing and index file exists, files_for_indexing will be empty (load_or_create handles this).
-    # If not reindexing and index file doesn't exist, files_to_process will be used.
-    if args.reindex:
-        files_for_indexing = files_to_process
-    elif not os.path.exists(SAVED_INDEX_FILE):
-        files_for_indexing = files_to_process
-        if not files_for_indexing: # No files provided and no index exists
-            logger.warning(f"No XML files specified to create an index, and '{SAVED_INDEX_FILE}' not found.")
-            print(f"No XML files specified to create an index, and '{SAVED_INDEX_FILE}' not found.")
-            print("Please specify XML files/directory or ensure a saved index exists.")
-            exit() # Exit if no source for index
-    else: # Not reindexing and index file exists, so we will try to load it.
-        files_for_indexing = [] # Pass empty list, load_or_create_index will handle loading
+  # Run interactive chat interface
+  %(prog)s --xmldir xmlfiles --interactive
 
-    letter_data_index = load_or_create_index(
-        files_for_indexing, # This will be empty if we are loading, populated if creating
-        sentence_transformer_model, 
-        spacy_nlp, 
-        SAVED_INDEX_FILE, 
-        force_reindex=args.reindex
+  # Check index statistics
+  %(prog)s --stats
+        """
     )
     
-    # Start chatbot if we have data
-    if letter_data_index:
-        run_chatbot(letter_data_index, spacy_nlp, sentence_transformer_model)
+    # Mode selection
+    mode_group = parser.add_mutually_exclusive_group(required=True)
+    mode_group.add_argument('--create-index', action='store_true',
+                           help='Create or update the document index')
+    mode_group.add_argument('--interactive', action='store_true',
+                           help='Run interactive chat interface')
+    mode_group.add_argument('--stats', action='store_true',
+                           help='Show index statistics')
+    
+    # XML source configuration
+    parser.add_argument('--xmldir', type=str, default='xmlfiles',
+                       help='Directory containing XML files (default: xmlfiles)')
+    parser.add_argument('--files', nargs='+', type=str,
+                       help='Specific XML files to process')
+    
+    # Index management
+    parser.add_argument('--index-path', type=str, default=config.SAVED_INDEX_FILE,
+                       help=f'Path to save/load index (default: {config.SAVED_INDEX_FILE})')
+    parser.add_argument('--force-reindex', action='store_true',
+                       help='Force complete re-indexing, ignore existing data')
+    parser.add_argument('--no-incremental', action='store_true',
+                       help='Disable incremental updates')
+    
+    # Performance optimization settings
+    parser.add_argument('--workers', type=int, default=config.MAX_WORKERS,
+                       help=f'Number of parallel workers (default: {config.MAX_WORKERS})')
+    parser.add_argument('--batch-size', type=int, default=config.OPTIMAL_BATCH_SIZE_EMBEDDING,
+                       help=f'Batch size for embedding generation (default: {config.OPTIMAL_BATCH_SIZE_EMBEDDING})')
+    parser.add_argument('--checkpoint-interval', type=int, default=config.EMBEDDING_CHECKPOINT_INTERVAL,
+                       help=f'Save checkpoints every N documents (default: {config.EMBEDDING_CHECKPOINT_INTERVAL})')
+    
+    # Topic modeling settings
+    parser.add_argument('--num-topics', type=int, default=config.NUM_TOPICS,
+                       help=f'Number of topics for LDA (default: {config.NUM_TOPICS})')
+    parser.add_argument('--sample-size', type=int,
+                       help='Use subset of documents for development (for topic training)')
+    parser.add_argument('--enable-topic-sampling', action='store_true',
+                       help='Enable topic model sampling for faster development iteration')
+    
+    # Advanced features
+    parser.add_argument('--enable-hierarchical', action='store_true',
+                       help='Enable hierarchical topic modeling (HDP)')
+    parser.add_argument('--enable-dynamic', action='store_true',
+                       help='Enable dynamic topic modeling over time')
+    parser.add_argument('--enable-qa', action='store_true',
+                       help='Enable question answering pipeline')
+    
+    # Logging and output
+    parser.add_argument('--verbose', action='store_true',
+                       help='Enable verbose logging')
+    parser.add_argument('--profile', action='store_true',
+                       help='Enable performance profiling')
+    parser.add_argument('--log-file', type=str, default='chat_analyzer.log',
+                       help='Log file path (default: chat_analyzer.log)')
+    
+    args = parser.parse_args()
+
+    # Configure logging level
+    if args.verbose:
+        logging.getLogger().setLevel(logging.DEBUG)
+        logger.info("Verbose logging enabled")
+    
+    # Update configuration based on arguments
+    config.MAX_WORKERS = args.workers
+    config.OPTIMAL_BATCH_SIZE_EMBEDDING = args.batch_size
+    config.EMBEDDING_CHECKPOINT_INTERVAL = args.checkpoint_interval
+    config.NUM_TOPICS = args.num_topics
+    
+    if args.sample_size:
+        config.SAMPLE_SIZE_FOR_TOPIC_TRAINING = args.sample_size
+    if args.enable_topic_sampling:
+        config.ENABLE_TOPIC_SAMPLING = True
+    
+    logger.info(f"Configuration: workers={config.MAX_WORKERS}, batch_size={config.OPTIMAL_BATCH_SIZE_EMBEDDING}, topics={config.NUM_TOPICS}")
+    
+    # Performance profiling setup
+    if args.profile:
+        import cProfile
+        import pstats
+        profiler = cProfile.Profile()
+        profiler.enable()
+    
+    try:
+        start_time = time.time()
+        
+        if args.stats:
+            # Show index statistics
+            show_index_statistics(args.index_path)
+            
+        elif args.create_index:
+            # Create or update index
+            create_index_cli(args)
+            
+        elif args.interactive:
+            # Run interactive interface
+            run_interactive_cli(args)
+            
+        elapsed_time = time.time() - start_time
+        logger.info(f"Total execution time: {elapsed_time:.2f} seconds")
+        
+    except KeyboardInterrupt:
+        logger.info("Operation interrupted by user")
+        return 1
+    except Exception as e:
+        logger.error(f"Fatal error: {e}")
+        if args.verbose:
+            logger.error(traceback.format_exc())
+        return 1
+    finally:
+        if args.profile:
+            profiler.disable()
+            # Save profiling results
+            profile_file = f"profile_{datetime.now().strftime('%Y%m%d_%H%M%S')}.prof"
+            profiler.dump_stats(profile_file)
+            logger.info(f"Profiling data saved to {profile_file}")
+            
+            # Print top time consumers
+            stats = pstats.Stats(profiler)
+            stats.sort_stats('cumulative')
+            stats.print_stats(10)
+    
+    return 0
+
+def show_index_statistics(index_path: str):
+    """Show statistics about the existing index."""
+    if not os.path.exists(index_path):
+        logger.error(f"Index file not found: {index_path}")
+        return
+    
+    try:
+        with open(index_path, 'rb') as f:
+            comprehensive_index = pickle.load(f)
+        
+        if isinstance(comprehensive_index, dict) and 'documents' in comprehensive_index:
+            # New format with metadata
+            documents = comprehensive_index['documents']
+            metadata = comprehensive_index.get('metadata', {})
+            
+            print(f"\n📊 Index Statistics for {index_path}")
+            print(f"📁 Index file size: {os.path.getsize(index_path) / (1024*1024):.1f} MB")
+            print(f"🕒 Last modified: {datetime.fromtimestamp(os.path.getmtime(index_path))}")
+            print(f"\n📋 Document Statistics:")
+            print(f"   Total documents: {metadata.get('total_documents', len(documents))}")
+            print(f"   Successful embeddings: {metadata.get('successful_embeddings', 'Unknown')}")
+            print(f"   Documents with topics: {metadata.get('documents_with_topics', 'Unknown')}")
+            print(f"   Topics available: {metadata.get('topics_available', 'Unknown')}")
+            
+            if metadata.get('processing_time_seconds'):
+                print(f"   Processing time: {metadata['processing_time_seconds']:.2f} seconds")
+            
+            # Analyze years
+            years = [doc.get('year') for doc in documents if doc.get('year')]
+            if years:
+                print(f"\n📅 Time Period Coverage:")
+                print(f"   Year range: {min(years)} - {max(years)}")
+                print(f"   Documents with dates: {len(years)}")
+            
+            # Analyze senders
+            senders = [doc.get('sender') for doc in documents if doc.get('sender') and doc.get('sender') != 'Unknown']
+            if senders:
+                from collections import Counter
+                top_senders = Counter(senders).most_common(5)
+                print(f"\n✍️ Top Senders:")
+                for sender, count in top_senders:
+                    print(f"   {sender}: {count} letters")
+                    
+        else:
+            # Legacy format
+            documents = comprehensive_index if isinstance(comprehensive_index, list) else []
+            print(f"\n📊 Index Statistics (Legacy Format)")
+            print(f"📁 Index file size: {os.path.getsize(index_path) / (1024*1024):.1f} MB")
+            print(f"📋 Total documents: {len(documents)}")
+            
+    except Exception as e:
+        logger.error(f"Error reading index statistics: {e}")
+
+def create_index_cli(args):
+    """Create or update the document index via CLI."""
+    logger.info("Starting index creation/update...")
+    
+    # Get list of files to process
+    xml_files_to_process = get_file_list_from_args(args)
+    
+    if not xml_files_to_process:
+        logger.error("No XML files found to process")
+        return
+    
+    logger.info(f"Found {len(xml_files_to_process)} XML files to process")
+    
+    # Load NLP models
+    logger.info("Loading NLP models...")
+    spacy_nlp_model, sentence_model, qa_pipeline = load_nlp_models()
+    
+    if not sentence_model:
+        logger.error("Failed to load sentence transformer model")
+        return
+    
+    # Create or update index
+    incremental = not args.no_incremental
+    letter_index = load_or_create_index(
+        xml_files_to_process,
+        sentence_model,
+        spacy_nlp_model,
+        args.index_path,
+        force_reindex=args.force_reindex,
+        incremental=incremental
+    )
+    
+    if letter_index:
+        logger.info(f"Index creation completed successfully with {len(letter_index)} documents")
+        
+        # Load advanced models if requested
+        if args.enable_qa:
+            logger.info("QA model already loaded during initialization")
+            global global_qa_pipeline
+            global_qa_pipeline = qa_pipeline
+            
+        # Show basic statistics
+        show_index_statistics(args.index_path)
     else:
-        print("\nFailed to load or create any letter data. Exiting.")
+        logger.error("Index creation failed")
+
+def run_interactive_cli(args):
+    """Run the interactive chat interface via CLI."""
+    logger.info("Starting interactive chat interface...")
+    
+    # Load existing index
+    if not os.path.exists(args.index_path):
+        logger.error(f"Index file not found: {args.index_path}. Please run --create-index first.")
+        return
+    
+    # Get list of files (for potential updates)
+    xml_files_to_process = get_file_list_from_args(args)
+    
+    # Load NLP models
+    spacy_nlp_model, sentence_model, qa_pipeline = load_nlp_models()
+    
+    # Load index
+    letter_index = load_or_create_index(
+        xml_files_to_process,
+        sentence_model,
+        spacy_nlp_model,
+        args.index_path,
+        force_reindex=False,
+        incremental=True
+    )
+    
+    if not letter_index:
+        logger.error("Failed to load index")
+        return
+    
+    # Initialize advanced models if requested
+    if args.enable_qa:
+        logger.info("QA model already loaded during initialization")
+        global global_qa_pipeline
+        global_qa_pipeline = qa_pipeline
+    
+    # Run chatbot
+    run_chatbot(letter_index, spacy_nlp_model, sentence_model)
+
+# Import the modern topic modeling
+try:
+    from modern_topics import replace_slow_topic_modeling
+    MODERN_TOPICS_AVAILABLE = True
+except ImportError:
+    MODERN_TOPICS_AVAILABLE = False
+
+# Global variable to store results of modern topic modeling for app access
+global_modern_topic_results: Optional[Dict[str, Any]] = None
+
+def run_modern_topic_discovery(current_letter_index: List[Dict[str, Any]]):
+    """
+    Runs the modern topic discovery on a loaded index and stores results globally.
+    This is intended to be called by the Streamlit app after loading an existing index.
+    """
+    global global_modern_topic_results, global_lda_model # We can reuse global_lda_model for the new model object
+
+    if not MODERN_TOPICS_AVAILABLE:
+        logger.warning("Modern topic modeling module not available. Skipping.")
+        global_modern_topic_results = None
+        global_lda_model = None
+        return
+
+    if not current_letter_index:
+        logger.warning("Letter index is empty. Skipping modern topic discovery.")
+        global_modern_topic_results = None
+        global_lda_model = None
+        return
+
+    logger.info(f"Running modern topic discovery on {len(current_letter_index)} loaded documents...")
+    try:
+        # The replace_slow_topic_modeling function returns (model_object, results_dict)
+        model_object, results_dict = replace_slow_topic_modeling(current_letter_index, config) # Pass the global config
+        
+        if model_object and results_dict:
+            global_modern_topic_results = results_dict
+            global_lda_model = model_object # Store the new model object here for compatibility
+            
+            # Assign topic_id and topic_name to documents in the main index
+            # The 'document_topics' in results_dict is a list of (doc_identifier, topic_id)
+            # The 'topics' in results_dict is a dict of topic_id -> {name, keywords}
+            
+            # Create a mapping from file_name to document for efficient update
+            doc_map = {doc.get('file_name'): doc for doc in current_letter_index if doc.get('file_name')}
+
+            if 'document_topics' in results_dict and 'topics' in results_dict:
+                for doc_identifier, topic_id in results_dict['document_topics']:
+                    # Assuming doc_identifier is file_name, which was used in modern_topics.py
+                    if doc_identifier in doc_map:
+                        doc_map[doc_identifier]['topic_id'] = topic_id
+                        topic_info = results_dict['topics'].get(topic_id)
+                        if topic_info:
+                            doc_map[doc_identifier]['topic_name'] = topic_info.get('name', f'Topic {topic_id}')
+                            doc_map[doc_identifier]['topic_terms'] = topic_info.get('keywords', [])
+            
+            logger.info(f"Modern topic discovery successful. Found {model_object.num_topics} topics. Results stored globally.")
+            logger.info(f"Sample modern topics: {list(results_dict.get('topics', {}).values())[:2]}")
+
+    else:
+            logger.error("Modern topic discovery did not return expected model or results.")
+            global_modern_topic_results = None
+            global_lda_model = None
+
+    except Exception as e:
+        logger.error(f"Error during modern topic discovery: {e}", exc_info=True)
+        global_modern_topic_results = None
+        global_lda_model = None
+
+# Add geocoding imports
+from geopy.geocoders import Nominatim
+from geopy.exc import GeocoderTimedOut, GeocoderServiceError
+
+# Geocoding functionality for map integration
+def geocode_locations(place_names: List[str], delay_seconds: float = 1.1) -> List[Dict[str, Any]]:
+    """
+    Convert place names to latitude/longitude coordinates using OpenStreetMap/Nominatim.
+    
+    Args:
+        place_names: List of place names to geocode
+        delay_seconds: Delay between API calls to respect Nominatim usage policy
+        
+    Returns:
+        List of dictionaries with geocoding results
+    """
+    if not place_names:
+        return []
+    
+    geocoded_results = []
+    
+    try:
+        # Initialize geocoder with proper user agent
+        geolocator = Nominatim(user_agent="CivilWarLetterAnalyzer/1.0")
+        
+        logger.info(f"Starting geocoding for {len(place_names)} places...")
+        
+        for i, place_name in enumerate(place_names):
+            if not place_name or not place_name.strip():
+                continue
+                
+            try:
+                # Add delay to respect Nominatim usage policy (max 1 request/second)
+                if i > 0:  # Don't delay before the first request
+                    time.sleep(delay_seconds)
+                
+                logger.debug(f"Geocoding place {i+1}/{len(place_names)}: '{place_name}'")
+                
+                # Perform geocoding with timeout
+                location = geolocator.geocode(place_name, timeout=10)
+                
+                if location:
+                    result = {
+                        'name': place_name,
+                        'lat': location.latitude,
+                        'lon': location.longitude,
+                        'raw_address': location.address,
+                        'geocoded': True
+                    }
+                    logger.debug(f"Successfully geocoded '{place_name}' to ({location.latitude}, {location.longitude})")
+                else:
+                    result = {
+                        'name': place_name,
+                        'lat': None,
+                        'lon': None,
+                        'raw_address': None,
+                        'geocoded': False
+                    }
+                    logger.warning(f"Could not geocode location: '{place_name}'")
+                
+                geocoded_results.append(result)
+                
+            except (GeocoderTimedOut, GeocoderServiceError) as e:
+                logger.warning(f"Geocoding error for '{place_name}': {e}")
+                # Add failed result to maintain consistency
+                geocoded_results.append({
+                    'name': place_name,
+                    'lat': None,
+                    'lon': None,
+                    'raw_address': None,
+                    'geocoded': False,
+                    'error': str(e)
+                })
+                
+            except Exception as e:
+                logger.error(f"Unexpected error geocoding '{place_name}': {e}")
+                geocoded_results.append({
+                    'name': place_name,
+                    'lat': None,
+                    'lon': None,
+                    'raw_address': None,
+                    'geocoded': False,
+                    'error': str(e)
+                })
+        
+        successful_geocodes = sum(1 for r in geocoded_results if r.get('geocoded', False))
+        logger.info(f"Geocoding completed: {successful_geocodes}/{len(geocoded_results)} places successfully geocoded")
+        
+        return geocoded_results
+        
+    except Exception as e:
+        logger.error(f"Fatal error in geocoding process: {e}")
+        return []
+
+# Add a migration function for existing indices
+def migrate_index_with_geocoding(letter_index: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Migrate existing index by adding geocoding to documents that don't have it.
+    
+    Args:
+        letter_index: Existing letter index
+        
+    Returns:
+        Updated letter index with geocoded places
+    """
+    logger.info("Starting geocoding migration for existing index...")
+    
+    docs_updated = 0
+    docs_with_places = 0
+    total_new_geocodes = 0
+    
+    for doc in letter_index:
+        # Skip if already has geocoded places
+        if doc.get('geocoded_places'):
+            continue
+            
+        places = doc.get('places', [])
+        if places:
+            docs_with_places += 1
+            try:
+                logger.info(f"Geocoding places for document: {doc.get('file_name', 'unknown')}")
+                geocoded_places = geocode_locations(places)
+                doc['geocoded_places'] = geocoded_places
+                
+                successful_geocodes = sum(1 for place in geocoded_places if place.get('geocoded', False))
+                total_new_geocodes += successful_geocodes
+                docs_updated += 1
+                
+            except Exception as e:
+                logger.error(f"Error geocoding places for document {doc.get('file_name', 'unknown')}: {e}")
+                # Set empty geocoded_places to indicate attempt was made
+                doc['geocoded_places'] = []
+        else:
+            # No places to geocode
+            doc['geocoded_places'] = []
+    
+    logger.info(f"Geocoding migration completed:")
+    logger.info(f"  - Documents processed: {docs_updated}")
+    logger.info(f"  - Documents with places: {docs_with_places}")
+    logger.info(f"  - Total new geocodes: {total_new_geocodes}")
+    
+    return letter_index
+
+def add_geocoding_to_existing_index(current_letter_index: List[Dict[str, Any]]):
+    """
+    Helper function to add geocoding to an existing index and save it.
+    This function is called from the Streamlit UI.
+    
+    Args:
+        current_letter_index: The current letter index to migrate
+    """
+    if not current_letter_index:
+        logger.warning("Cannot add geocoding: letter index is empty")
+        return False
+    
+    try:
+        logger.info(f"Starting geocoding migration for {len(current_letter_index)} documents...")
+        
+        # Perform the migration
+        migrated_index = migrate_index_with_geocoding(current_letter_index)
+        
+        # Save the updated index
+        logger.info("Saving updated index with geocoding...")
+        with gzip.open(SAVED_INDEX_FILE, 'wb') as f:
+            pickle.dump(migrated_index, f)
+        
+        logger.info(f"Successfully saved updated index to {SAVED_INDEX_FILE}")
+        
+        # Update the current index in place
+        current_letter_index.clear()
+        current_letter_index.extend(migrated_index)
+        
+        return True
+        
+    except Exception as e:
+        logger.error(f"Error during geocoding migration: {e}")
+        return False
+
+if __name__ == "__main__":
+    sys.exit(main())
