@@ -1,0 +1,37 @@
+# Historical Document Analyzer - Working Dependencies
+# Tested and working with Python 3.11 and conda/miniforge
+
+# Core Data Science & ML (compatible versions)
+numpy>=1.21,<2.0  # Must be <2 for compatibility with thinc/spacy
+scipy>=1.11,<1.13  # Must be <1.13 for compatibility with gensim
+scikit-learn>=1.6.0
+pandas>=2.2.0
+openpyxl>=3.1.0
+
+# NLP Libraries (fully working)
+spacy>=3.8.0
+sentence-transformers>=4.1.0
+transformers>=4.52.0
+gensim>=4.3.0,<4.4.0  # Specific version that works with our scipy
+
+# Deep Learning
+torch>=2.2.0
+
+# Web Interface
+streamlit>=1.45.0
+
+# XML Processing & Utilities
+lxml>=5.4.0
+tqdm>=4.67.0
+
+# Working Installation Commands:
+# 1. Install miniforge: curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.sh" && bash Miniforge3-MacOSX-x86_64.sh -b -p $HOME/miniforge3
+# 2. Initialize conda: $HOME/miniforge3/bin/conda init zsh
+# 3. Create environment: conda create -n chatbot python=3.11 -y
+# 4. Activate: conda activate chatbot
+# 5. Install base packages: conda install -c conda-forge streamlit lxml tqdm -y
+# 6. Install AI packages with version constraints: pip install "numpy>=1.21,<2" "scipy>=1.11,<1.13" spacy sentence-transformers gensim transformers torch scikit-learn pandas
+# 7. Download spacy model: python -m spacy download en_core_web_sm
+# 8. Run app: streamlit run app_gui.py
+
+# Or simply run: ./run_app.sh 
