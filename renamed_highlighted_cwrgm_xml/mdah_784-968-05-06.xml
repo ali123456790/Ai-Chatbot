@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Mississippi Governor Adelbert Ames to Captain D. C. Kearns; January 8, 1869</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 9 edits between
+              <date type="first_edit" when="2022-05-03T17:24:45Z">May  3, 2022</date> and
+              <date type="last_edit" when="2024-01-30T17:08:30Z">January 30, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-03-22T18:24:42Z">March 22, 2022</date> and
+              <date type="last_edit" when="2022-03-22T22:50:49Z">March 22, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-03-24T19:02:52Z">March 24, 2022</date> and
+              <date type="last_edit" when="2022-03-24T19:12:49Z">March 24, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32029872">
+          <persName
+            >
+            Ruth Poe White, PH.D.
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2025-03-17T03:58:12Z">March 17, 2025</date> and
+              <date type="last_edit" when="2025-03-17T04:00:53Z">March 17, 2025</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-12-14T19:48:43Z">December 14, 2021</date> and
+              <date type="last_edit" when="2021-12-14T19:49:40Z">December 14, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T15:13:56Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-11-02T14:34:02Z">November  2, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:39:58+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S52648">
+              <persName>Ames, Adelbert, 1835-1933</persName>
+                <idno>https://en.wikipedia.org/wiki/Adelbert_Ames</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52648P0'>Adelbert Ames served as a governor and U.S. senator of Mississippi during the Reconstruction era.  He was born in East Thomaston (modern-day Rockland), Maine, in 1835. As a boy, Ames spent time working on various merchant vessels, receiving training in seamanship. He entered the United States Military Academy at West Point in 1856, graduating in May 1861, at the start of the Civil War. Commissioned as a second lieutenant, the young Ames was promoted to first lieutenant barely over a week later and served with the 5th U.S. Artillery during the battle of First Bull Run at Manassas, Virginia, on July 21, 1861. Despite being wounded in the leg, Ames stayed by his cannons. His actions at Bull Run led him to receive the brevet (honorary) rank of major and, in 1893 (more than thirty years later), the Medal of Honor.
+</p>
+
+<p xml:id='OTPS52648P1'>Ames recovered from his wound and returned to the front lines in 1862, serving with distinction as an artillery officer during the Peninsula Campaign near Richmond. Seeking better promotion potential, Ames sought an infantry command. Through those efforts, in August 1862, he received command of the 20th Maine Infantry Regiment, and led that unit in combat during the Battle of Fredericksburg in December 1862. In May 1863, he volunteered to serve as a staff officer for Major General George G. Meade, which helped him achieve the rank of brigadier general that month. With this promotion, Ames left the 20th Maine to his second-in-command, Lieutenant Colonel Joshua Lawrence Chamberlain, who gained great fame commanding the regiment at Little Round Top during the Battle of Gettysburg in July 1863. Ames’ own performance at Gettysburg was highly praised, as his division successfully defended the Union position at Cemetery Hill.
+</p>
+
+<p xml:id='OTPS52648P2'>After Gettysburg, Ames’ division was transferred to the Department of the South. Over the next two years, he commanded Union troops during campaigns in Florida, South Carolina, North Carolina, and Virginia. He received a brevet promotion to major general for his actions at Fort Fisher, North Carolina, in March 1865.
+</p>
+
+<p xml:id='OTPS52648P3'>After the Civil War, Ames became involved in federal Reconstruction efforts. In 1868, he was appointed the provisional governor of Mississippi. Ames proved sympathetic to the plight of African Americans in the south. He sought to protect Black civil rights and appointed Mississippi’s first African American public officials. In 1870, after Mississippi was readmitted into the Union, Ames ran for U.S. senator for the state as a Republican and won. He served in that capacity from February 1870 to January 1874, achieving the reputation as a strong public speaker. While serving as a senator in Washington, D.C., Ames met and married Blanche Butler, daughter of Union general Benjamin F. Butler, under whom Ames had served during the war. Ames and his wife had six children over the course of their marriage.
+</p>
+
+<p xml:id='OTPS52648P4'>In 1873, Ames ran for governor of Mississippi. His chief rival was James L. Alcorn, a former Confederate general who had been a Whig before the Civil War and joined the Republican Party afterwards. Ames won the election and worked diligently to improve Mississippi’s financial and social situation. In 1874, Democrats in Mississippi coordinated a campaign of violence against African Americans and white Republicans in the state, to secure political control in Mississippi. Unable to militarily suppress the white supremacist terror campaign, Ames signed a truce with Democratic leaders in Mississippi to reduce the violence and allow a peaceful election. Groups of white supremacists abandoned the truce and resumed their intimidation tactics against Republicans and Black Mississippians during the following elections, leading to a surge of Democratic politicians taking office.
+</p>
+
+<p xml:id='OTPS52648P5'>In 1876, the conservative Democrat majority in the Mississippi legislature tried to impeach Ames and many other Republican officials with trumped up charges of corruption. Despite a strong political force against him, Ames’ critics were unable to provide any evidence of impropriety. Nevertheless, because impeachment was politically driven, Ames could see that his future as governor was over and any effort on his part to legally defend himself would be personally and financially taxing. He and his attorneys reached an agreement with Democratic leaders to resign his office in exchange for dropping the legal charges. On March 29, 1876, after Democrats cancelled their legal proceedings, Ames vacated his position.
+</p>
+
+<p xml:id='OTPS52648P6'>Ames left Mississippi and went into business in Minnesota with his father and brother. A short time later, he relocated to New York City and then Massachusetts, overseeing mills and various business interests. When the Spanish-American War erupted in 1898, Ames volunteered for service and was appointed brigadier general of volunteers. Although over sixty years old, Ames joined the field campaign in Cuba and performed well.
+</p>
+
+<p xml:id='OTPS52648P7'>Ames resumed his business ventures in the early twentieth century. He lived until 1933, dying at age 97. He is buried in Lowell, Massachusetts.
+</p>
+
+<p xml:id='OTPS52648P8'>(Wikipedia)
+</p>
+
+<p xml:id='OTPS52648P9'>Adelbert Ames belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32021087">
+              <persName>Kearns, D. C., 1840-1878</persName>
+                <idno>https://www.govinfo.gov/content/pkg/SERIALSET-01626_00_00-063-0674-0000/pdf/SERIALSET-01626_00_00-063-0674-0000.pdf</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002896">Charged with Criminal Activity</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32021087P0'>D. C. Kearns was a Republican official in Mississippi during Reconstruction.
+</p>
+
+<p xml:id='OTPS32021087P1'>Born around 1840 in Virginia, Kearns lived in Ohio at the start of the Civil War and then moved to Mississippi in 1867. He became a clerk in the chancery court of Jefferson County, and involved in Republican party politics over the next several years. In 1869, he served as the governor's private secretary. Kearns’ time as a public official in the Reconstruction government soon proved controversial. Among the most serious incidents involved accusations of him embezzling thousands of dollars while serving as a deputy revenue collector in Mississippi in 1871. Charged and convicted of the crime, he was fined $6,000 and sentenced to twelve months in prison. However, Kearns received a presidential pardon, overturning both the jail time and the fine.
+</p>
+
+<p xml:id='OTPS32021087P2'>Kearns continued to be involved in Republican politics, serving various public and political positions through the 1870s. He testified before the U.S. Senate in 1876 about the disenfranchisement of Black voters in Mississippi. However, when Reconstruction ended in 1877, critics accused him of trying to switch parties and ingratiate himself with Mississippi Democrats. He passed away from an unspecified cause in 1878.
+</p>
+
+<p xml:id='OTPS32021087P3'>(1870 U.S. Census for Fayette, Jefferson County, Mississippi; <hi rend='italic'>Testimony as to Denial of Elective Franchise in Mississippi at the Elections of 1875 and 1876</hi>, 694; “Simon M. Preston,” Report No. 674, House of Representatives, 43rd Congress, 1st Session; <hi rend='italic'>The Clarion-Ledger</hi>, Jackson, MS, October 12, 1871, February 14, 1877, and November 13, 1878; <hi rend='italic'>Daily Mississippi Pilot</hi>, Jackson, MS, October 3, 1875)
+</p>
+
+<p xml:id='OTPS32021087P4'>D. C. Kearns belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32026148">
+              <persName>Martin, Frank</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32026149">
+              <persName>Martin, J. J.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32026150">
+              <persName>Humphreys, John Jr.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32026151">
+              <persName>Humphreys, Eleazar (Asa)</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32005704">
+              <persName>McCormick, N. S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51788">
+              <placeName>Mississippi--Warren County. Vicksburg</placeName>
+                <idno>https://archive.org/details/mississippicomp00rowlgoog/page/858/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51788P0'>Located in Warren County, Mississippi, Vicksburg was founded under the name Fort Nogales as early as 1790 in what was then unincorporated territory. In 1798, upon creation of Mississippi Territory, it was renamed Walnut Hills. On April 1, 1799, Walnut Hills became part of the newly created Pickering County (later renamed Jefferson County on January 10, 1802), until the creation of Claiborne County on January 26, 1802. It then became part of its current county of Warren on December 21, 1809. Upon its incorporation on January 29th, 1825, it was renamed Vicksburg. Vicksburg became the county seat in 1836 and remains today. (Rowland, <hi rend='italic'>Mississippi</hi>, 858; Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.33611, -90.87528</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63926'>
+            <catDesc>
+              <term>Crimes (alleged)--Murder</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/murder?q=Murder</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63926P0'>"The crime of intentionally killing a person." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S63934'>
+            <catDesc>
+              <term>Judges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/judge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63934P0'>"A person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63172'>
+            <catDesc>
+              <term>Judges. Justices of the Peace</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/justice-of-the-peace</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63172P0'>"A public officer who judges local and less important legal cases, and performs marriage ceremonies." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Ames Series 784</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Mississippi Digital Library.; Funding for the project provided by the National Historical Publications and Records Commission of the National Archives; Funding for this project provided by the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1869</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Ames, Adelbert, 1835-1933; McCormick, N. S.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1869-01-08</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Ames Collection. Letter from Mississippi Governor Adelbert Ames at Vicksburg, Mississippi, to Captain D. C. Kearns, authorizing Kearns to offer rewards for the apprehension of Frank Martin&#39;s accessories in a murder case. Attached is a list of physical descriptions of each of Martin&#39;s alleged accomplices by Justice of the Peace N. S. McCormick.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Jackson (Miss.); Vicksburg (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_784-968-05-06</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Hinds County (Miss.); Warren County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Dalton Wood; Michael Singleton; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 968, Folder 5</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Ames, Adelbert, 1835-1933; Justices of the peace; Mississippi. Governor; Murder; Rewards programs (Criminal investigation)</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Mississippi Governor Adelbert Ames to Captain D. C. Kearns; January 8, 1869</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/15918&quot;&gt;Letter from Mississippi Governor Adelbert Ames to Captain D. C. Kearns; January 8, 1869&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG21" who="U32029872" when="2025-03-17T04:00:53Z" target="#P32056034">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U32029872" when="2025-03-17T03:58:12Z" target="#P32056034">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U32019810" when="2024-11-02T14:34:02Z" target="#P32056035">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U2" when="2024-10-25T15:13:56Z" target="#P32056035">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2024-01-30T17:08:30Z" target="#P32056034">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-11-17T17:30:19Z" target="#P32056034">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-11-02T04:28:19Z" target="#P32056034">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-09-03T00:35:03Z" target="#P32056034">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-18T22:10:27Z" target="#P32056035">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-03-18T21:33:40Z" target="#P32056035">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-03-16T20:06:58Z" target="#P32056034">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2023-03-06T03:44:19Z" target="#P32056034">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2022-05-03T17:24:45Z" target="#P32056034">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091356" when="2022-03-24T19:12:49Z" target="#P32056035">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091356" when="2022-03-24T19:02:52Z" target="#P32056034">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091195" when="2022-03-22T22:50:49Z" target="#P32056035">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25091195" when="2022-03-22T22:47:29Z" target="#P32056034">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25091195" when="2022-03-22T18:24:42Z" target="#P32056034">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2021-12-14T19:49:40Z" target="#P32056035">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U231087" when="2021-12-14T19:48:43Z" target="#P32056034">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2021-12-09T15:36:18Z" target="#P32056035">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-12-09T15:36:16Z" target="#P32056034">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32056034" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:15916/full/full/0/default.jpg"/>
+        <div xml:id="OTP32056034">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32056034P0' xml:id='OTP32056034P0'>[seal]
+</p>
+
+<p corresp='TTP32056034P1' xml:id='OTP32056034P1'><rs ref='#S32026148'>Frank Martin</rs>, the <rs ref='#S63926'>murderer</rs>, is about 5 ft. 10 in. high stoutly built weighing about 165. or 170. pounds, brown hair and EyEs no beard; age about 22.
+</p>
+
+<p corresp='TTP32056034P2' xml:id='OTP32056034P2'><rs ref='#S32026149'>J. J. Martin</rs> one of the accessories is about 5 ft. 10 in. hig slenderly built weighing about 140 pounds light hair brown Eyes, high forehead prominent features one or two front teeth gone and has a habitual smile, age about 24 Years
+</p>
+
+<p corresp='TTP32056034P3' xml:id='OTP32056034P3'><rs ref='#S32026150'>Jno. Humphreys Jun</rs> another of the accessories is about 5 ft 6 in high very stoutly built light Hair blue Eyes florid complexion pointed beard usually dyed; age about 24. years.
+</p>
+
+<p corresp='TTP32056034P4' xml:id='OTP32056034P4'><rs ref='#S32026151'>Eleazar Humphreys</rs>, commonly called Asa, is about 5. ft. 8. in high rather stoutly built weighing about 140. pounds light hair blue Eyes, florid complexion; age, about 25 years.
+</p>
+
+<p corresp='TTP32056034P5' xml:id='OTP32056034P5'><rs ref='#S32005704'>N S M<add place='above'>c</add>CormicK</rs> <rs ref='#S63172'>J P</rs>
+</p>
+
+
+        </div>
+        <pb xml:id="F32056035" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:15917/full/full/0/default.jpg"/>
+        <div xml:id="OTP32056035">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32056035P0' xml:id='OTP32056035P0'><rs ref='#S51788'>Vicksburg</rs> Miss<lb/>
+Jan 8<add place='above'>th</add> 1869
+</p>
+
+<p corresp='TTP32056035P1' xml:id='OTP32056035P1'>Dear Captain:
+</p>
+
+<p corresp='TTP32056035P2' xml:id='OTP32056035P2'>You can offer rewards for the apprehension of Martin's accessories in this murder
+</p>
+
+<p corresp='TTP32056035P3' xml:id='OTP32056035P3'><rs ref='#S52648'>Adelbert Ames</rs><lb/>
+Provl Gov.
+</p>
+
+<p corresp='TTP32056035P4' xml:id='OTP32056035P4'>Capt <rs ref='#S32021087'>D C Kearns</rs><lb/>
+<rs ref='#S51785'>Jackson</rs><lb/>
+Miss 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

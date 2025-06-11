@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Q. D. Gibbs to Mississippi Governor John J. Pettus; February 7, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 16 edits between
+              <date type="first_edit" when="2021-05-21T19:55:56Z">May 21, 2021</date> and
+              <date type="last_edit" when="2023-11-17T18:26:31Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U216441">
+          <persName
+            >
+            Robin Horne
+            </persName>
+            <resp>
+              made 16 edits between
+              <date type="first_edit" when="2021-03-08T17:51:04Z">March  8, 2021</date> and
+              <date type="last_edit" when="2021-03-09T02:17:28Z">March  9, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U224896">
+          <persName
+            >
+            Emma Cox 
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-03-13T01:21:14Z">March 13, 2021</date> and
+              <date type="last_edit" when="2021-03-13T01:32:22Z">March 13, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-03-23T12:55:25Z">March 23, 2021</date> and
+              <date type="last_edit" when="2021-03-23T13:07:14Z">March 23, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T15:18:38Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32020358">
+          <persName
+            >
+            Elisabeth Kluin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2025-03-15T01:29:34Z">March 15, 2025</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U217868">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Alec Blaylock </name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:09:55+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S98166">
+              <persName>Gibbs, Q. D.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63022">
+              <placeName>Tennessee</placeName>
+                <idno>https://www.britannica.com/place/Tennessee</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63022P0'>The Territory of Tennessee was established in 1789 after breaking away from North Carolina. Admitted as the 16th state, Tennessee achieved statehood June 1, 1796. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>36.0, -86.0</geo>
+                </note>
+            </place>
+            <place xml:id="S63425">
+              <placeName>Virginia</placeName>
+                <idno>https://www.britannica.com/place/Virginia-state</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63425P0'>The Colony of Virginia was established in May 1607. Admitted as the 10th state, Virginia achieved statehood June 25, 1788. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>38.0, -79.0</geo>
+                </note>
+            </place>
+            <place xml:id="S52521">
+              <placeName>Mississippi--Yazoo County. Yazoo City</placeName>
+                <idno>https://en.wikipedia.org/wiki/Yazoo_City,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52521P0'>Located in Yazoo County, Mississippi, Yazoo City was founded as early as 1824 under the name Hannah's Bluff (or Hanan's Bluff). It was later renamed Manchester in 1830 and Yazoo City in 1838. In 1849, Yazoo City became the county seat and remains so today. (Rowland, <hi rend='italic'>Mississippi</hi>, 998; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.85639, -90.4075</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S98881'>
+            <catDesc>
+              <term>Confederate States of America--Draft</term>
+              <idno>https://mississippiencyclopedia.org/entries/mississippians-in-confederate-army/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98881P0'>By the spring of 1862, the difficulty and bloodshed of fighting the Civil War became a reality to many white southerners, and many soldiers' one-year terms of enlistment expired. Voluntary enlistments slowed and rendered the Confederate Army desperate for troops. The Confederate States of America consequently issued the first compulsory call to military service in American history, also called a "draft" or "conscription" with the First Conscription Act of 1862.
+</p>
+
+<p xml:id='OTPSD98881P1'>A series of other conscription laws followed throughout the Civil War, each containing measures that sparked tensions between southerners and the Confederate government. The First Conscription Act rendered all men between the ages of 18 and 35 subject to military service, though a later act expanded the age range to 45. Men working in occupations deemed essential to the war effort or to preserving the home front could be exempted from the draft, and, after October 11, 1862, white men owning or overseeing twenty or more enslaved persons could also be exempt. These policies isolated small farmers with little investment in preserving slavery, and many southerners evaded the draft in a variety of ways. However, many others both elite and non-elite viewed the draft as a necessary action, and the Twenty Slave Law a necessary protection from enslaved rebellion. Ultimately, however they felt about it, one estimate holds that Mississippi sent roughly 8,000 draftees to fight for the Confederacy (Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S68643'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Military Elections</term>
+              <idno> https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD68643P0'>Military elections were a common practice within volunteer and militia units of both the Union and Confederacy during the Civil War, a tradition with its roots going back to the Revolutionary War. These elections took place at the company and regimental levels. Company officers were elected by the unit’s soldiers, and in turn, these company officers elected the regiment’s Colonel, Lt. Colonel, and Majors. Officially, Governors had the authority to appoint a Colonel to command a regiment but usually deferred to the officer elected by the regiment's men. Often, these elections put men without military experience or otherwise unqualified to lead their units into battle with disastrous outcomes. Also, junior officers found it difficult to enforce military discipline as they were beholden to the soldiers for their position, which they could be voted out of.
+</p>
+
+<p xml:id='OTPSD68643P1'>Union and Confederate authorities sought to limit the detrimental effects of these officer elections. On July 22, 1861, the day after the Union loss at the First Battle of Bull Run, the United States Congress authorized an examination board for officers. Many were deemed unfit and removed, while others resigned. The Confederate Congress established a similar board on October 13, 1862. Military elections continued during the war but to a lesser extent due to government oversight on both sides. They eventually ended in favor of ensuring qualified officers were put in command positions. (James M. McPherson, <hi rend='italic'>Battle Cry of Freedom: The Civil War Era</hi>; <hi rend='italic'>Public Laws of the Confederate States of America</hi>, 1862 Public Laws, S2, 85-87; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25009156'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Recruiting and enlistment</term>
+              <idno>https://encyclopediaofarkansas.net/entries/civil-war-recruitment-6391/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25009156P0'>At the outbreak of the American Civil War in 1861, neither the Union nor the Confederate army struggled to find recruits. Rather, both armies saw far more volunteers than their ranks and provisions could sustain. Many young men of the North and South believed that the war would end quickly and volunteered by the thousands to not miss out on the action. Other motivators for rapid enlistment included a sense of adventure, defense of slavery or the privileges of whiteness, defense of the Union, fear of ostracism in their home communities for not enlisting, or a desire to protect their homes and families.
+</p>
+
+<p xml:id='OTPSD25009156P1'>Widespread enlistment required both the United States and Confederate governments to reshape their militaries that were otherwise unprepared to handle that many recruits. The U.S. possessed only a small standing army of 16,000 men before the war, and the Confederacy needed to build its own from scratch. Both therefore relied heavily on local recruiting to organize men into militia companies then employable in the federal service. Recruiters throughout the war published pamphlets, put up posters, and gave speeches to encourage men to fight.
+</p>
+
+<p xml:id='OTPSD25009156P2'>As the war continued, dreams of a short war ended along with many men's desires to enlist. Both armies (the Confederacy in 1862 and the Union in 1863) resorted to conscription to fill their ranks. Free African Americans, particularly in the North, debated the utility and wisdom of fighting for the United States even after being legally allowed to do so in 1863. Many formerly enslaved African-American men yearned to fight for their own freedom, while others doubted that military service in the Civil War would accomplish their desired goals of emancipation and equality. However, prominent African Americans such as Frederick Douglass encouraged Black men to take up arms, and roughly 200,000 did so.
+</p>
+
+<p xml:id='OTPSD25009156P3'>Ultimately, men enlisted during the Civil War for many reasons, often tied to demographic or personal causes, and, as the war progressed and varied in its popularity and aims, recruiters' tactics likewise changed to adapt to each new situation. (Encyclopedia of Arkansas)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001148'>
+<catDesc>State Level: USA &amp; CSA Military</catDesc>
+          <category xml:id='S63200'>
+            <catDesc>
+              <term>Mississippi. Militia</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63200P0'>A militia is a military unit made up of civilians within a community who could be called up by local (often state) officials to serve temporary military purposes. Militias were separate from regular, or permanent, armies. Because they conducted training only periodically, and provided active military service for short periods of time, militias cost less than regular armies; and because they were manned by local residents, militias were frequently seen as less threatening to early American communities than national military units comprised of strange men born in other counties or states.
+</p>
+
+<p xml:id='OTPSD63200P1'>When Mississippi seceded in 1861, enthusiasm for military service swept across the state. Volunteers filled the ranks of old militia units or created new companies within their communities, eager to repulse any federal attempt to coerce secessionists back into the Union. They also took proactive efforts, securing key positions along the Gulf Coast, including reinforcing other Southern soldiers at Pensacola and Fort Pickens in Florida. Over the next few months, as the Confederate government requested more volunteers, thousands of Mississippians and entire volunteer companies from the state transferred to Confederate service and were sent north, out of state. The units that remained within Mississippi for state defense were left in a convoluted military structure, some considered state reserves (a more formal military force for state defense) and some considered state militia (the more traditional units of citizen-soldiers called up for local, emergency use). The distinctions were not well established, and during the war Mississippians describing state units not within the Confederate army used a variety of terms—such as militia, home guard, state troops—almost interchangeably. However, under this subject tag at CWRGM you will find references to the militia and state troops; references that specifically referred to the home guard can be found separately under the Mississippi Home Guard subject tag.
+</p>
+
+<p xml:id='OTPSD63200P2'>While militia and state defense units technically fell under the governor’s authority, the state government struggled to manage, or even track, these organizations. Some, like the Third Battalion Mississippi Minute Men, were well organized, fell under direct state control, and took part in larger military operations, such as the defense of Vicksburg; others saw no combat, rarely gathered for drill, and were entirely overseen by county or local community officials. Most militia members were older than the average Confederate soldier. They were typically farmers, business owners, or land owners who had families and, in many instances, slaves. Because of these responsibilities at home, militiamen expected their military duties to be periodic, temporary, and only during times of emergency, a reflection of the militia’s original intent. However, state officials occasionally activated militia units for long periods, based upon the military situation. In the summer of 1862, Mississippi’s governor, John J. Pettus, mobilized his state troops, pulling many militia units away from their communities. Held in camp for several weeks, drilling but not seeing combat, many militiamen complained of their treatment and argued that their services were needed more at home, managing farms and their communities. Despite these complaints, the governor mobilized the state troops again in 1864, and again met criticism.
+</p>
+
+<p xml:id='OTPSD63200P3'>Overall, Mississippi’s militia and state defense system during the Civil War was a complicated tangle of formal and informal military units. Infrequently used for combat assignments, these units nevertheless provided some emergency services for the state government and allowed many Mississippians a way to provide military service to the community while remaining at home to manage personal and local interests. (Tracy L. Barnett, “Mississippi ‘Milish’: Militiamen in the Civil War,” <hi rend='italic'>Civil War History</hi>, Vol. 66, No. 4 (Dec 2020), 343-379; Michael B. Ballard, <hi rend='italic'>The Civil War in Mississippi: Major Campaigns and Battles</hi>, 4-8)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S62915'>
+            <catDesc>
+              <term>Mississippi--Legislature</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_Legislature</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD62915P0'>Operating at the state level, the Mississippi State Legislature (originally called the "General Assembly") was established by Article 4 of the Mississippi Constitution on November 1, 1890, and serves as the legislative branch of the state government. It is comprised of the House of Representatives and the Senate. The Legislature is responsible for passing new statewide laws and making amendments to the Constitution. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Gibbs, Q. B.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-02-07</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Yazoo City, Mississippi, concerning efforts to raise military companies in Yazoo County, Mississippi.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Yazoo City (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-941-02-43</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Yazoo County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Amy Myers; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 941, Folder 2</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Confederate States of America. Army--Recruiting, enlistment, etc.; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Q. D. Gibbs to Mississippi Governor John J. Pettus; February 7, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/4602&quot;&gt;Letter from Q. D. Gibbs to Mississippi Governor John J. Pettus; February 7, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG47" who="U32020358" when="2025-03-15T01:29:34Z" target="#P1774064">
+          Version 31 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U2" when="2024-10-25T15:18:38Z" target="#P1774064">
+          Version 30 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U220769" when="2023-11-17T18:26:31Z" target="#P1774064">
+          Version 29 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U220769" when="2023-11-17T17:57:59Z" target="#P1774064">
+          Version 28 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U220769" when="2023-09-02T20:12:46Z" target="#P1774064">
+          Version 27 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2023-09-02T20:01:18Z" target="#P1774064">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-03-19T18:31:07Z" target="#P1774064">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-03-18T22:03:24Z" target="#P1774064">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-03-18T15:28:39Z" target="#P1774064">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2022-12-04T17:25:16Z" target="#P1774064">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2022-12-04T16:05:38Z" target="#P1774064">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2021-06-08T18:28:06Z" target="#P1774064">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2021-06-08T18:05:57Z" target="#P1774064">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2021-06-08T17:05:50Z" target="#P1774064">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2021-05-21T19:57:08Z" target="#P1774064">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2021-05-21T19:56:28Z" target="#P1774065">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2021-05-21T19:56:20Z" target="#P1774065">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2021-05-21T19:55:56Z" target="#P1774064">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U217868" when="2021-03-23T13:07:14Z" target="#P1774066">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U217868" when="2021-03-23T13:05:51Z" target="#P1774065">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U217868" when="2021-03-23T12:56:02Z" target="#P1774064">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U217868" when="2021-03-23T12:55:25Z" target="#P1774064">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U224896" when="2021-03-13T01:32:22Z" target="#P1774066">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U224896" when="2021-03-13T01:32:04Z" target="#P1774065">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U224896" when="2021-03-13T01:21:48Z" target="#P1774064">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U224896" when="2021-03-13T01:21:14Z" target="#P1774064">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U216441" when="2021-03-09T02:17:28Z" target="#P1774065">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U216441" when="2021-03-09T02:17:23Z" target="#P1774065">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U216441" when="2021-03-09T02:03:49Z" target="#P1774065">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U216441" when="2021-03-09T02:02:58Z" target="#P1774064">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U216441" when="2021-03-09T02:02:50Z" target="#P1774064">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U216441" when="2021-03-09T01:59:27Z" target="#P1774064">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U216441" when="2021-03-09T01:41:02Z" target="#P1774064">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U216441" when="2021-03-09T01:37:47Z" target="#P1774064">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U216441" when="2021-03-09T01:36:50Z" target="#P1774064">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U216441" when="2021-03-09T01:18:08Z" target="#P1774064">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U216441" when="2021-03-09T01:16:41Z" target="#P1774066">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U216441" when="2021-03-09T01:15:10Z" target="#P1774065">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U216441" when="2021-03-09T01:00:35Z" target="#P1774065">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U216441" when="2021-03-08T22:52:21Z" target="#P1774064">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U216441" when="2021-03-08T22:27:17Z" target="#P1774064">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U216441" when="2021-03-08T17:51:04Z" target="#P1774064">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2021-02-06T00:43:44Z" target="#P1774066">
+          Version 1 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-02-06T00:43:43Z" target="#P1774065">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-02-06T00:43:29Z" target="#P1774066">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-02-06T00:43:43Z" target="#P1774064">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-02-06T00:43:23Z" target="#P1774065">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-02-06T00:43:16Z" target="#P1774064">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1774064" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/4599/full/full/0/default.jpg"/>
+        <div xml:id="OTP1774064">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1774064P0' xml:id='OTP1774064P0'>[seal]
+</p>
+
+<p corresp='TTP1774064P1' xml:id='OTP1774064P1'><rs ref='#S52521'>Yazoo City</rs> Feb 7<add place='above'>th</add> 1862
+</p>
+
+<p corresp='TTP1774064P2' xml:id='OTP1774064P2'>Gov. <rs ref='#S63111'>Pettus</rs>—
+</p>
+
+<p corresp='TTP1774064P3' xml:id='OTP1774064P3'>I hope you will pardon my Suggestion. I have yet seen no proclamation for the <rs ref='#S68643'>election</rs> of field officers to <rs ref='#S25009156'>organize</rs> the <rs ref='#S63200'>militia</rs> under the late act of the <rs ref='#S62915'>Legis-lature</rs>—If a draft shall become necessary to fill the call for 10000 of course it can only be done after the organization of the militia and that it cannot be done until after the <del rend='overstrike'>organization</del> ^election^ of field officers  I should not have called your attention to this matter but know that you are constantly pressed with the money transactions that are crowding on you &amp; ^might overlook this^ I think we will be able to raise 3 compa-nies in Yazoo under your 2000 Call one is com-pleted, another nearly so—I expect also to raise a company—Whilst I was at <rs ref='#S51785'>Jackson</rs> it was reported here, without any ground or authority that I had or-dered it &amp; truly I lost a good many who would have gone with me. Yet I think I will be able to get up a company, though the material is getting very Scarce here,[gap] I am going upon the ground here that 3 companies will not [?] from a <rs ref='#S98881'>draft</rs>—I wish you would inform me what you construed of the act is where a county has furnished her proportion of volunteers will such county be subjected to dft. 
+</p>
+
+
+        </div>
+        <pb xml:id="F1774065" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/4600/full/full/0/default.jpg"/>
+        <div xml:id="OTP1774065">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1774065P0' xml:id='OTP1774065P0'>P S
+</p>
+
+<p corresp='TTP1774065P1' xml:id='OTP1774065P1'>I wish you would lend me authority to muster in—when I get a fellow on my roll I want to hold him— [gap] Could you not get up and equip for the Coast <del rend='overstrike'>G</del>—2 Companies of light artillery= It is the <hi rend='underline'>most</hi> important branch of the service at not [?]  &amp; could a used to great advantage- G
+</p>
+
+<p corresp='TTP1774065P2' xml:id='OTP1774065P2'>if a dft be necessary to complete the 10000 Call Yazoo has already 9 Companies in the field if she makes up 3 more will be 12 and her outside vote before the war was hit 1250—
+</p>
+
+<p corresp='TTP1774065P3' xml:id='OTP1774065P3'>What can you do in the way of arms for this Yazoo Company? [gap] I think Governor it would be a good move to contract for the manufacture of sword bayonetts any good blacksmith can make them no matter if they are rough. they will do as good execution  We have a good smith here who can make them and in every town Smiths can be found to do it  they could make the blades the handles could be made and the bayonetts adjusted as occasion might require—I think a double barrell shot gun with substance enough to throw a minnie ball with a good hand bayonett the best weapon in the world. and it is the weapon you will have to rely on chiefly to arm the troops now called for—I hope you will put the sheriffs to work soon in Seizing arms with all you can have done by manufacturers it will require a vigilant discharge of each Sheriffs duty to arm the 12.000 now called for—I believe Governor Pettus that unless all the Confederate States use the most active and energetic efforts to put more men in the field by Spring we will be mighty near whipped—<rs ref='#S63022'>Tennessee</rs> <rs ref='#S63425'>Virginia</rs> &amp; Mississippi are doing their duty others are laggard
+</p>
+
+<p corresp='TTP1774065P4' xml:id='OTP1774065P4'>Respy
+</p>
+
+<p corresp='TTP1774065P5' xml:id='OTP1774065P5'><rs ref='#S98166'>Q D Gibbs</rs>
+</p>
+
+
+        </div>
+        <pb xml:id="F1774066" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/4601/full/full/0/default.jpg"/>
+        <div xml:id="OTP1774066">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP1774066P0' xml:id='OTP1774066P0'>Feby 7. 1862
+</p>
+
+<p corresp='TTP1774066P1' xml:id='OTP1774066P1'>Q. D. Gibbs
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

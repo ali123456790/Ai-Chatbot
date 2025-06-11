@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Fannie Lovelady; Undated</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 9 edits between
+              <date type="first_edit" when="2022-01-16T22:34:12Z">January 16, 2022</date> and
+              <date type="last_edit" when="2023-11-02T15:56:07Z">November  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25090807">
+          <persName
+            >
+            Patricia Parrish
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-11-13T19:42:47Z">November 13, 2021</date> and
+              <date type="last_edit" when="2021-11-13T19:46:01Z">November 13, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-11-16T22:35:36Z">November 16, 2021</date> and
+              <date type="last_edit" when="2021-11-16T22:37:25Z">November 16, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-12-07T03:36:31Z">December  7, 2021</date> and
+              <date type="last_edit" when="2021-12-07T03:36:58Z">December  7, 2021</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T16:31:44+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32005802">
+              <persName>Fullham, J.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32005801">
+              <persName>Lovelady, Fannie A.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S96867">
+              <placeName>Mississippi--Pike County. Chatawa</placeName>
+                <idno>https://en.wikipedia.org/wiki/Chatawa,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS96867P0'>Located in Pike County, Chatawa was founded in 1817 and is an unincorporated area that is not governed by a local municipal body. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.0605, -90.4723</geo>
+                </note>
+            </place>
+            <place xml:id="S96866">
+              <placeName>Mississippi--Pike County. Magnolia</placeName>
+                <idno>https://en.wikipedia.org/wiki/Magnolia,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS96866P0'>Located in Pike County, Magnolia was founded in 1856 and serves as the county seat. (Mississippi Encyclopedia; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.1432, -90.4587</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001718'>
+<catDesc>Natural &amp; Human Caused Disasters</catDesc>
+          <category xml:id='S98634'>
+            <catDesc>
+              <term>Starvation</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/starvation?q=Starvation</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001718'>Natural &amp; Human Caused Disasters</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98634P0'>"The state of having no food for a long period, often causing death." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S71495'>
+            <catDesc>
+              <term>Postmasters</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/postmaster</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001724'>Transportation &amp; Infrastructure Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71495P0'>"A person who is in charge of a post office." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001724'>
+<catDesc>Transportation &amp; Infrastructure Occupations</catDesc>
+<category xml:id='C32001724S71495'>
+<catDesc>
+<term><rs ref='S71495'>Postmasters</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S96659'>
+            <catDesc>
+              <term>Impoverished People</term>
+              <idno>https://www.britannica.com/topic/poverty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96659P0'>Impoverished people are those who lack "a usual or socially acceptable amount of money or material possessions," or alternately those who "lack the means to satisfy their basic needs (Britannica). This definition, necessarily subjective and broad, indicates that what one person or society deems "socially acceptable" or what constitutes "basic needs" is malleable.
+</p>
+
+<p xml:id='OTPSD96659P1'>Similarly, impoverished people in the United States in the nineteenth century did not fit one specific category. The rise of industrialism produced an increased number of impoverished people in the U. S., particularly within large urban centers. European immigrants in cities in the East, and Chinese immigrants on the West Coast, and African Americans in the South were disproportionately affected by poverty. Regionally, the highest number of impoverished people came from the U. S. South, where "both whites and African Americans struggled with debt, low cotton prices, laws favorable to employers and creditors, paltry alternatives, and the general post war devastation" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 547).
+</p>
+
+<p xml:id='OTPSD96659P2'>Racism and nativism among employers and employees also made economic advancement more difficult for people of color and immigrants. However, the impoverished made up a comparatively low percentage of Mississippi's antebellum population, given its low number of immigrants and even native residents, lack of industrialization and urbanization, and mobility of those that were impoverished (Mississippi Encyclopedia). Many reform organizations throughout the country took the lead in fighting poverty in the nineteenth century, while state and federal governments by the end of the century also developed its own institutional responses. The status of being impoverished has always carried negative connotations in American history, so CWRGM uses the tag "Impoverished people" to emphasize the personhood of those in poverty rather than their social status. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S63262'>
+            <catDesc>
+              <term>Death</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/death</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63262P0'>While the Cambridge Dictionary defines death as “the end of life,” CWRGM employs this subject tag to refer to human deaths only, both actual and hypothetical. (Cambridge Dictionary)
+</p>
+
+<p xml:id='OTPSD63262P1'>The nation experienced mass loss of life (approximately 2% of the population) during the American Civil War, which changed the way Americans viewed death and resulted in its reconceptualization in highly bureaucratized ways. Often wartime dead were buried without their names and sometimes in poorly-dug graves, which created a powerful, profound social and cultural dislocation for their surviving loved ones. During the 19th century, Americans understood dying as a social and religious experience, and desired a "good death," which they defined as at home surrounded by family, but these ideals were unattainable in war. Consequently, Americans learned to cope with death and memorialize it in new ways. Unionists encouraged the federal government and ex-Confederates pushed their respective state governments to create and fund national cemeteries, rebury deceases soldiers and veterans, and establish veterans' and widows' pensions. These new responses to death were more bureaucratized, nationalistic, and secularized. Wartime and post-war death was also highly impacted by race, as white supremacists desecrated the graves of Union buried in the South, especially the bodies of African Americans who served in U.S. Colored Troops and the white officers that led them, revealing post-war sectionalism and strains on reconciliation. (Drew Gilpin Faust, <hi rend='italic'>This Republic of Suffering</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives and the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Lovelady, Fannie</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>Undated</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Mrs. Fannie Lovelady, the wife of a soldier in Pike County, Mississippi, seeking aid to help feed her family.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 6&quot; x 9&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-945-12-05</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Pike County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 945, Folder 12</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America--Economic conditions; Families of military personnel.; Food.; Mississippi. Governor; Mississippi. Militia; Pettus, John Jones, 1813-1867; Poverty.</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Fannie Lovelady; Undated</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/13850&quot;&gt;Letter from Fannie Lovelady; Undated&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG18" who="U220769" when="2023-11-02T15:56:07Z" target="#P32040774">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-11-02T15:29:57Z" target="#P32040774">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-09-02T20:38:01Z" target="#P32040774">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-04-06T16:26:04Z" target="#P32040774">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-18T14:38:12Z" target="#P32040774">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-18T14:09:22Z" target="#P32040774">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-03-18T04:29:57Z" target="#P32040775">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2022-12-04T00:41:33Z" target="#P32040774">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2022-01-16T22:34:12Z" target="#P32040775">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091253" when="2021-12-07T03:36:58Z" target="#P32040775">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091253" when="2021-12-07T03:36:31Z" target="#P32040774">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091356" when="2021-11-16T22:37:25Z" target="#P32040775">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091356" when="2021-11-16T22:35:36Z" target="#P32040774">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25090807" when="2021-11-13T19:46:01Z" target="#P32040775">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25090807" when="2021-11-13T19:46:00Z" target="#P32040775">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25090807" when="2021-11-13T19:42:48Z" target="#P32040774">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U25090807" when="2021-11-13T19:42:47Z" target="#P32040774">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2021-11-09T23:46:26Z" target="#P32040775">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-11-09T23:46:23Z" target="#P32040774">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32040774" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/13848/full/full/0/default.jpg"/>
+        <div xml:id="OTP32040774">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32040774P0' xml:id='OTP32040774P0'>you will please write to me as early as possible as you know my condition is such that I need assistance as early as possible &amp; I can not ^believe^ your conscience will allow you to pass unnoticed a Soldiers <rs ref='#S96659'>Suffering</rs> <rs ref='#S25013472'>family</rs> if I was well which I hope I would be if I could have attention a little while I would ask no favors from any person only to sell me provision as I will in October have money to buy but then if I had corn I have no person to go to mill for me direct your letter to <rs ref='#S96866'>Magnolia Pike Co</rs> Miss<lb/>
+<hr/><lb/>
+to <rs ref='#S32005801'>Fannie A Lovelady</rs> care <rs ref='#S71495'>Post Master</rs> respectfully yours
+</p>
+
+<p corresp='TTP32040774P1' xml:id='OTP32040774P1'>F. A. Lovelady
+</p>
+
+<p corresp='TTP32040774P2' xml:id='OTP32040774P2'>P S I regret very much having to trouble you with this as I know you have buisness Sufficient to attend to but I do not feel willing to lay here &amp; <rs ref='#S63262'>die</rs> &amp; see my child <rs ref='#S98634'>Starve</rs> without making Some effort to 
+</p>
+
+
+        </div>
+        <pb xml:id="F32040775" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/13849/full/full/0/default.jpg"/>
+        <div xml:id="OTP32040775">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32040775P0' xml:id='OTP32040775P0'>P S dear Sir you will please address my letter to <rs ref='#S96867'>Chatawa</rs> <del rend='overstrike'>[?]</del> Miss care <rs ref='#S32005802'>J Fulham</rs> as I will get it Sooner
+</p>
+
+<p corresp='TTP32040775P1' xml:id='OTP32040775P1'>respectfully
+</p>
+
+<p corresp='TTP32040775P2' xml:id='OTP32040775P2'>F. A Lovelady
+</p>
+
+<p corresp='TTP32040775P3' xml:id='OTP32040775P3'>Mrs Lovelady <lb/>
+the wife of a Soldier wishes Some assistence<lb/>
+<hr/>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

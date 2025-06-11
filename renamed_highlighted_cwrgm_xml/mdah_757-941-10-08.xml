@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Elisha Mosley to Mississippi Governor John Jones Pettus; April 27, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 10 edits between
+              <date type="first_edit" when="2021-07-29T16:43:29Z">July 29, 2021</date> and
+              <date type="last_edit" when="2023-11-02T15:56:08Z">November  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228005">
+          <persName
+            >
+            Heather A Haslem
+            </persName>
+            <resp>
+              made 7 edits between
+              <date type="first_edit" when="2021-04-02T01:14:15Z">April  2, 2021</date> and
+              <date type="last_edit" when="2021-04-02T01:30:52Z">April  2, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-03-15T14:17:44Z">March 15, 2021</date> and
+              <date type="last_edit" when="2021-03-15T14:36:53Z">March 15, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220513">
+          <persName
+            >
+            Jan Pilkington
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-03-15T17:23:10Z">March 15, 2021</date> and
+              <date type="last_edit" when="2021-03-15T17:35:04Z">March 15, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U224896">
+          <persName
+            >
+            Emma Cox 
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-03-20T05:12:47Z">March 20, 2021</date> and
+              <date type="last_edit" when="2021-03-20T05:29:25Z">March 20, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-05-24T15:59:54Z">May 24, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25089434">
+          <persName
+            >
+            James M. Berry
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-07-05T19:56:23Z">July  5, 2021</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U220513">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Jan Pilkington</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T16:28:48+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S101654">
+              <persName>Mosley, Elisha</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S101652">
+              <persName>Maury, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S70030">
+              <persName>Gurley, A. J.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S75053">
+              <placeName>Mississippi--Lauderdale County. Daleville</placeName>
+                <idno>https://en.wikipedia.org/wiki/Daleville,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS75053P0'>Located in Lauderdale County, Daleville was founded in the 1840s. Daleville is an unincorporated area that is not governed by a local municipal body. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.56972, -88.67611</geo>
+                </note>
+            </place>
+            <place xml:id="S75022">
+              <placeName>Mississippi--Kemper County. Wahalak</placeName>
+                <idno>https://archive.org/details/mississippicomp00rowlgoog/page/888/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS75022P0'>Located in Kemper County, Mississippi, Wahalak was founded in 1837. Presently, Wahalak is an unincorporated area that is not governed by a local municipal body. (Rowland, <hi rend='italic'>Mississippi</hi>, 888; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.9057, -88.5298</geo>
+                </note>
+            </place>
+            <place xml:id="S92429">
+              <placeName>Mississippi--Noxubee County. Summerville</placeName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS92429P0'>Summerville is located in Noxubee County, Mississippi.
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.79306, -90.26564</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S96659'>
+            <catDesc>
+              <term>Impoverished People</term>
+              <idno>https://www.britannica.com/topic/poverty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96659P0'>Impoverished people are those who lack "a usual or socially acceptable amount of money or material possessions," or alternately those who "lack the means to satisfy their basic needs (Britannica). This definition, necessarily subjective and broad, indicates that what one person or society deems "socially acceptable" or what constitutes "basic needs" is malleable.
+</p>
+
+<p xml:id='OTPSD96659P1'>Similarly, impoverished people in the United States in the nineteenth century did not fit one specific category. The rise of industrialism produced an increased number of impoverished people in the U. S., particularly within large urban centers. European immigrants in cities in the East, and Chinese immigrants on the West Coast, and African Americans in the South were disproportionately affected by poverty. Regionally, the highest number of impoverished people came from the U. S. South, where "both whites and African Americans struggled with debt, low cotton prices, laws favorable to employers and creditors, paltry alternatives, and the general post war devastation" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 547).
+</p>
+
+<p xml:id='OTPSD96659P2'>Racism and nativism among employers and employees also made economic advancement more difficult for people of color and immigrants. However, the impoverished made up a comparatively low percentage of Mississippi's antebellum population, given its low number of immigrants and even native residents, lack of industrialization and urbanization, and mobility of those that were impoverished (Mississippi Encyclopedia). Many reform organizations throughout the country took the lead in fighting poverty in the nineteenth century, while state and federal governments by the end of the century also developed its own institutional responses. The status of being impoverished has always carried negative connotations in American history, so CWRGM uses the tag "Impoverished people" to emphasize the personhood of those in poverty rather than their social status. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S63262'>
+            <catDesc>
+              <term>Death</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/death</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63262P0'>While the Cambridge Dictionary defines death as “the end of life,” CWRGM employs this subject tag to refer to human deaths only, both actual and hypothetical. (Cambridge Dictionary)
+</p>
+
+<p xml:id='OTPSD63262P1'>The nation experienced mass loss of life (approximately 2% of the population) during the American Civil War, which changed the way Americans viewed death and resulted in its reconceptualization in highly bureaucratized ways. Often wartime dead were buried without their names and sometimes in poorly-dug graves, which created a powerful, profound social and cultural dislocation for their surviving loved ones. During the 19th century, Americans understood dying as a social and religious experience, and desired a "good death," which they defined as at home surrounded by family, but these ideals were unattainable in war. Consequently, Americans learned to cope with death and memorialize it in new ways. Unionists encouraged the federal government and ex-Confederates pushed their respective state governments to create and fund national cemeteries, rebury deceases soldiers and veterans, and establish veterans' and widows' pensions. These new responses to death were more bureaucratized, nationalistic, and secularized. Wartime and post-war death was also highly impacted by race, as white supremacists desecrated the graves of Union buried in the South, especially the bodies of African Americans who served in U.S. Colored Troops and the white officers that led them, revealing post-war sectionalism and strains on reconciliation. (Drew Gilpin Faust, <hi rend='italic'>This Republic of Suffering</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Mosley, Elisha</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-04-27</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Elisha Mosley to Mississippi Governor John Jones Pettus asking if it is legal for men to take horses for use by the Confederate Army.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-941-10-08</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 941, Folder 10</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Horses.; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Elisha Mosley to Mississippi Governor John Jones Pettus; April 27, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/5450&quot;&gt;Letter from Elisha Mosley to Mississippi Governor John Jones Pettus; April 27, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG34" who="U220769" when="2023-11-02T15:56:08Z" target="#P1813597">
+          Version 18 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-11-02T15:30:03Z" target="#P1813597">
+          Version 17 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-09-02T20:38:10Z" target="#P1813597">
+          Version 16 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-04-07T15:23:08Z" target="#P1813597">
+          Version 15 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-18T22:26:52Z" target="#P1813597">
+          Version 14 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-18T14:56:12Z" target="#P1813597">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-17T23:33:29Z" target="#P1813596">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-17T23:25:17Z" target="#P1813597">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2022-12-04T00:27:29Z" target="#P1813597">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2021-07-29T16:43:29Z" target="#P1813597">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U25089434" when="2021-07-05T19:56:23Z" target="#P1813597">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U217868" when="2021-05-24T15:59:54Z" target="#P1813597">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U228005" when="2021-04-02T01:30:52Z" target="#P1813597">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U228005" when="2021-04-02T01:29:51Z" target="#P1813598">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U228005" when="2021-04-02T01:29:36Z" target="#P1813598">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U228005" when="2021-04-02T01:29:09Z" target="#P1813598">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U228005" when="2021-04-02T01:26:09Z" target="#P1813598">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U228005" when="2021-04-02T01:25:26Z" target="#P1813597">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U228005" when="2021-04-02T01:14:15Z" target="#P1813596">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U224896" when="2021-03-20T05:29:25Z" target="#P1813598">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U224896" when="2021-03-20T05:23:34Z" target="#P1813597">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U224896" when="2021-03-20T05:12:47Z" target="#P1813596">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220513" when="2021-03-15T17:35:04Z" target="#P1813598">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220513" when="2021-03-15T17:29:17Z" target="#P1813597">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220513" when="2021-03-15T17:23:10Z" target="#P1813596">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U231087" when="2021-03-15T14:36:53Z" target="#P1813598">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U231087" when="2021-03-15T14:29:19Z" target="#P1813597">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U231087" when="2021-03-15T14:24:09Z" target="#P1813597">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U231087" when="2021-03-15T14:17:44Z" target="#P1813596">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2021-03-11T17:22:16Z" target="#P1813598">
+          Version 1 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-03-11T17:22:15Z" target="#P1813597">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-03-11T17:22:13Z" target="#P1813598">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-11T17:22:15Z" target="#P1813596">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-11T17:22:13Z" target="#P1813597">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-03-11T17:22:12Z" target="#P1813596">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1813596" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/5447/full/full/0/default.jpg"/>
+        <div xml:id="OTP1813596">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1813596P0' xml:id='OTP1813596P0'>[seal]
+</p>
+
+<p corresp='TTP1813596P1' xml:id='OTP1813596P1'><rs ref='#S75053'>Daleville</rs> Miss April 27 1862
+</p>
+
+<p corresp='TTP1813596P2' xml:id='OTP1813596P2'>His Excellency <rs ref='#S63111'>John. J. Pettus</rs>,
+</p>
+
+<p corresp='TTP1813596P3' xml:id='OTP1813596P3'>My dear friend, I have thought proper to address you upon a subject that deeply concerns us (the people) in this section of the state. There are persons going through the country, claiming the right by authority of Law, to press Horses for calvary service. My object is to inquire of you if whether or not there is any Law of this state ^or^ of the confederate states authorising this course on the part of commanders of compa=nies, if there is and the necessities of my <hi rend='underline'>country</hi> require its exercise I readily submit and will not murmur. But if there is no such Law, and therefore no such authority residing in Captains of companies, having suffered myself from its exercise by a company formi-ng under a Mr <rs ref='#S101652'>Maury</rs>, and who
+</p>
+
+
+        </div>
+        <pb xml:id="F1813597" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/5448/full/full/0/default.jpg"/>
+        <div xml:id="OTP1813597">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1813597P0' xml:id='OTP1813597P0'>I believe is captain of the company ^in Kemper county^. A Party of men came to my House and claimed <del rend='overstrike'>to</del> authority from Capt Maury, (though when I challenged the-ir authority, they failed to produce any, but said they were acting by the orders of Capt Maury, and that he had the authority.) to press my Horse, which they did against my protest, the Party was headed by a Mr <rs ref='#S70030'>Gurley</rs>, as he told me that was his name. And I have since learned is one of the <rs ref='#S25013472'>family</rs> of Gurley, liveing on the road from <rs ref='#S75022'>Wahalak</rs> to <rs ref='#S92429'>Summer-ville</rs>, of whose character I imagine you have some kno=wledge. I am not able to loose the Horse, haveing twenty seven in my own family, and besides I have two Daughters with six children, and whose Husbands are in the army, one of them however haveing <rs ref='#S63262'>died</rs> in the army, to support, and out of the twenty seven in my own family there is only seven able to work, and I had but three Horses to do my plowing, and through false pretenses (if there is no authority for it) this Mr Gurley, has deprived me of the best one of them, without any remuneration except his verbal promise of a Government receipt when the Horse is received into service. The same Party took a Horse from one of my neighbours, a <rs ref='#S96659'>poor</rs> man with a large family, who had but the one Horse, leaveing him a very inferior one in its place. Governor Pettus I appeal to you for Protection, and if you shall decide that the Government
+</p>
+
+
+        </div>
+        <pb xml:id="F1813598" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/5449/full/full/0/default.jpg"/>
+        <div xml:id="OTP1813598">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP1813598P0' xml:id='OTP1813598P0'>does not authorise or require that I should be <del rend='overstrike'>the</del> oppressed in this way, and which is the more severe because I have assisted the Government before to the utmost of my ability give=ing my sons and sons in Law to the Army, and all the means that could possibly spare to the country, I desire and entreat you, claiming and as I hope justly, and as all who know me will bear me witness, to be a good and Loyal citizen, to issue your Proclimation if proper, to such offenders to restore such property if they are offenders, or give me author=ity through the proper offices of the Law, to recover my property or if you in your discretion shall deem proper not to take this course I will be under lasting obligations to you for such advice as you will give me in the [?]. Very truly your friend
+</p>
+
+<p corresp='TTP1813598P1' xml:id='OTP1813598P1'><rs ref='#S101654'>Elisha Mosley</rs>
+</p>
+
+<p corresp='TTP1813598P2' xml:id='OTP1813598P2'>E. Mosley—wishes to know if his horses can be <hi rend='underline'>legally</hi> pressed
+</p>
+
+<p corresp='TTP1813598P3' xml:id='OTP1813598P3'>April 1862
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

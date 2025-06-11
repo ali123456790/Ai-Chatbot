@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from J. W. McDonald to Mississippi Governor John J. Pettus; June 25, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U25089538">
+          <persName
+            >
+            Mark A. Miller
+            </persName>
+            <resp>
+              made 10 edits between
+              <date type="first_edit" when="2021-07-04T04:03:48Z">July  4, 2021</date> and
+              <date type="last_edit" when="2021-07-04T04:32:03Z">July  4, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 9 edits between
+              <date type="first_edit" when="2021-08-24T18:00:45Z">August 24, 2021</date> and
+              <date type="last_edit" when="2023-11-02T15:52:51Z">November  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U215767">
+          <persName
+              type="pseudonym"
+            >
+            lucas.somers
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-07-12T20:01:13Z">July 12, 2021</date> and
+              <date type="last_edit" when="2021-07-12T20:09:36Z">July 12, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-07-14T20:13:07Z">July 14, 2021</date> and
+              <date type="last_edit" when="2021-07-14T20:17:01Z">July 14, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-08-21T23:44:42Z">August 21, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-09-02T21:44:18Z">September  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-09-29T01:20:11Z">September 29, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32017648">
+          <persName
+            >
+            Mariah Cosens
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-06-07T17:59:08Z">June  7, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U217868">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Alec Blaylock </name>
+          </respStmt>
+          <respStmt xml:id="U25089538">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Mark A. Miller</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T20:04:41+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S25014302">
+              <persName>McDonald, J. W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S76212">
+              <persName>Walker, LeRoy Pope, 1817-1884</persName>
+                <idno>https://en.wikipedia.org/wiki/LeRoy_Pope_Walker</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS76212P0'>LeRoy Pope Walker was the first Secretary of War for the Confederate States of America.
+</p>
+
+<p xml:id='OTPS76212P1'>Born on February 7, 1817, near Huntsville, Alabama, Walker received a private education before attending the University of Alabama and then the University of Virginia in the 1830s. He studied law and became an attorney before turning 21 years old. Coming from an influential family in Alabama, Walker held various public offices in the state in the 1840s, including serving as a circuit court judge.
+</p>
+
+<p xml:id='OTPS76212P2'>Walker was an outspoken advocate of secession during the 1850s. Following Alabama’s secession in early 1861, Confederate president Jefferson Davis appointed Walker as Secretary of War. He also served as a secession commissioner from Alabama to Tennessee, in an effort to draw the latter state into the Confederacy. Among his most notable actions as a Confederate cabinet member were public speeches in which he made bold—and very wrong—predictions about the fate of the Confederacy. Early in his tenure he rejected the prospect of large war between the Union and the Confederacy, famously claiming he would wipe up all the blood spilled with his handkerchief. After the firing on Fort Sumter and the sudden rush to war, Walker made another speech prophesizing a Confederate flag waving over the White House in Washington, D.C. By the late summer of 1861 he suffered health problems from work-related stress. President Davis offered him the opportunity to travel to Europe as a representative of the Confederate government, but Walker declined. He stepped down as secretary in September 1861, but accepted a commission as brigadier general in the Confederacy army and (despite no military experience) commanded troops at military forts and posts in Alabama. He resigned his commission in March 1862, but returned to the military in April 1864 to serve as a military judge.
+</p>
+
+<p xml:id='OTPS76212P3'>Following the Civil War, Walker was active in opposing Republican Reconstruction in Alabama, including serving as president of the Alabama constitutional convention in 1875 that overturned Reconstruction policies. Following Reconstruction, he worked as an attorney in Alabama. He died on August 23, 1884. Walker was married twice, first to a Miss Hopkins who passed away after bearing him two children. He then married Eliza Dickson Pickett and had three more children. Walker is buried in Maple Hill Cemetery in Huntsville, Alabama.
+</p>
+
+<p xml:id='OTPS76212P4'>(Wikipedia; FindaGrave; Encyclopedia of Alabama)
+</p>
+
+<p xml:id='OTPS76212P5'>LeRoy Poper Walker belonged to the following social groups:<lb/>
+
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S104714">
+              <persName>Wise, Henry A. (Henry Alexander), 1806-1876</persName>
+                <idno>https://encyclopediavirginia.org/entries/wise-henry-a-1806-1876/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS104714P0'>Henry Alexander Wise was a lawyer, Governor of Virginia, U.S. Representative, and Confederate Brigadier General.
+</p>
+
+<p xml:id='OTPS104714P1'>Born on December 3, 1806 in Accomac, Virginia, Wise became a lawyer in 1828. Afterwards, he relocated to Nashville, Tennessee to practice law. For finanical reasons, however, he returned to his farm in Virginia (called Only) in 1830, where he was also an enslaver, including at least nineteen slaves by 1844. He became active in Virginia politics, and by 1833, Wise was elected as a Representative for Virginia in the U.S. House of Representatives. He won five sequential elections, serving until 1844. From 1844 to 1847, he served as the U.S. minister to Brazil under U.S. Presidents John Tyler and James K. Polk.
+</p>
+
+<p xml:id='OTPS104714P2'>Upon his return to the U.S., Wise became active as a lawyer, and he engaged in Virginia politics again. In 1855, he was elected as the Thirty-third Virginian Governor, serving in the midst of escalating tensions over the issue of slavery. Wise's goal was to protect both slavery and the Union, but John Brown's 1859 attempt to ignite a slave revolt in Harper's Ferry, Virginia shifted Wise's stance. Wise was petitioned to commute Brown's execution sentence to life imprisonment on the grounds of insanity, but he moved forward with the execution order, leading some to talk of him as a potential presidential candidate.
+</p>
+
+<p xml:id='OTPS104714P3'>Wise's term as Governor ended in 1860, and he became a vocal pro-seccessionist, advocating for Virginia to secede long before President Abraham Lincoln's call for troops, which triggered Upper South states like Virginia to secede. Wise was a delegate at Virginia's Secession Convention of 1861.
+</p>
+
+<p xml:id='OTPS104714P4'>In 1860, Wise purchased the Rolleston plantation near Norfolk, Virginia, but he moved his family to Rocky Mount, Virginia in 1862, as U.S. forces took control of Norfolk. During the Civil War, despite his lack of military experience, he also served as a Brigadier General in the Confederate Army of Northern Virginia and was initially assigned to the western Virginia region. Following an officer's feud, Confederate President Jefferson Davis reassigned him to Roanoke Island and various areas of North Carolina and Virginia. His command of troops included the Kanawha Valley Campaign (1861), the defense of Petersburg (1864-1865) and the retreat to Appomattox Court House (April 1865). He surrendered at Appomattox.
+</p>
+
+<p xml:id='OTPS104714P5'>After the war, Wise relocated to Richmond, Virginia and resumed his law practice. He was unable to reclaim Rolleston plantation because of his service in the Confederate army. Instead, Rolleston became a school for freedmen. However, Wise joined the Republican Party, celebrated the abolition of slavery, and was a vocal supporter of President Ulyssess S. Grant. He had two counties named after him: Wise County, Virginia and Wise County, Texas.
+</p>
+
+<p xml:id='OTPS104714P6'>Wise was married three times. His first wife was Anne (Jennings) Wise, who died along with one of their children in a fire in 1837. The pair had five children. His second wife was Sarah (Sergeant) Wise, who died due to complications from childbirth in 1850. The pair had at least five children, including an infant who died soon after its birth in 1850. Wise's third wife was Mary Elizabeth (Lyons) Wise, with whom he did not have any children. Wise had up to fourteen children, including four sons and three daughters who lived to adulthood. He died on September 12, 1876 in Richmond, Virginia and was buried in the Hollywood Cemetery in Richmond.
+</p>
+
+<p xml:id='OTPS104714P7'>(Encyclopedia Virginia; Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS104714P8'>Henry Alexander Wise belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S55556">
+              <placeName>Mississippi--Kemper County. Kellis&#39; Store</placeName>
+                <idno>http://genealogytrails.com/miss/kemper/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS55556P0'>Located in Kemper County, Mississippi, Kellis' Store—which was a town and not a local business—was likely founded in the 1830s. Presently, it is an unincorporated area that is not governed by a local municipal body. ("Kemper County," Mississippi Genealogy Trails; "Salem Cemetary," Mississippi GenWeb)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.8718, -88.76644</geo>
+                </note>
+            </place>
+            <place xml:id="S63240">
+              <placeName>Mississippi--Kemper County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/kemper-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63240P0'>Located in east Mississippi, Kemper County was established on December 23, 1833 from Lowndes, Rankin, and Wayne Counties. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.76, -88.65</geo>
+                </note>
+            </place>
+            <place xml:id="S63093">
+              <placeName>Virginia--Independent City. Richmond</placeName>
+                <idno>https://en.wikipedia.org/wiki/Richmond,_Virginia</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63093P0'>Currently an independent city, Richmond was founded in 1737 in what was Henrico County at the time of founding and was incorporated on 1742. It became the state capital of Virginia in 1779. During the American Civil War, Richmond also served as capital of the Confederacy. On July 9, 1902, Richmond became an independent city. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>37.53333, -77.46667</geo>
+                </note>
+            </place>
+            <place xml:id="S25014300">
+              <placeName>Virginia--Independent City. Bristol</placeName>
+                <idno>https://en.wikipedia.org/wiki/Bristol,_Virginia</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS25014300P0'>Surrounded by Washington County, Bristol was founded in 1766 as Sapling Grove and then Goodson. Bristol is an independent city. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>36.6111, -82.1762</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S106417'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 46th</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD106417P0'>The 46th Regiment, Mississippi Infantry (Confederate) was organized on December 2, 1862 from the 6th Battalion, Mississippi Infantry under the command of Lt. Col. William K. Easterling and served in the Western Theater in Lee's, Baldwin's, and Seal's brigades. It was later commanded by Cols. Claudius W. Sears and William H. Clark, Maj. T. D. Magee, and Capts. James B. Hart and J. A Barwick. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 15, 31; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 564-566, 748-753; National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S96659'>
+            <catDesc>
+              <term>Impoverished People</term>
+              <idno>https://www.britannica.com/topic/poverty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96659P0'>Impoverished people are those who lack "a usual or socially acceptable amount of money or material possessions," or alternately those who "lack the means to satisfy their basic needs (Britannica). This definition, necessarily subjective and broad, indicates that what one person or society deems "socially acceptable" or what constitutes "basic needs" is malleable.
+</p>
+
+<p xml:id='OTPSD96659P1'>Similarly, impoverished people in the United States in the nineteenth century did not fit one specific category. The rise of industrialism produced an increased number of impoverished people in the U. S., particularly within large urban centers. European immigrants in cities in the East, and Chinese immigrants on the West Coast, and African Americans in the South were disproportionately affected by poverty. Regionally, the highest number of impoverished people came from the U. S. South, where "both whites and African Americans struggled with debt, low cotton prices, laws favorable to employers and creditors, paltry alternatives, and the general post war devastation" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 547).
+</p>
+
+<p xml:id='OTPSD96659P2'>Racism and nativism among employers and employees also made economic advancement more difficult for people of color and immigrants. However, the impoverished made up a comparatively low percentage of Mississippi's antebellum population, given its low number of immigrants and even native residents, lack of industrialization and urbanization, and mobility of those that were impoverished (Mississippi Encyclopedia). Many reform organizations throughout the country took the lead in fighting poverty in the nineteenth century, while state and federal governments by the end of the century also developed its own institutional responses. The status of being impoverished has always carried negative connotations in American history, so CWRGM uses the tag "Impoverished people" to emphasize the personhood of those in poverty rather than their social status. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>McDonald, J. W.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-06-25</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from J. M. McDonald requesting the state pay the transportation costs to Virginia of the &quot;Kemper Guard,&quot; (Company K, 6th Battalion Mississippi Infantry).</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 10&quot; x 10&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi; Virginia</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-932-09-20</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Cody Turnbaugh; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 932, Folder 9</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Confederate States of America. Army--Appropriations and expenditures; Confederate States of America. Army. Mississippi Infantry Regiment, 6th; Confederate States of America. Army--Transportation; Mississippi. Governor; Mississippi. Militia; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from J. W. McDonald to Mississippi Governor John J. Pettus; June 25, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/7947&quot;&gt;Letter from J. W. McDonald to Mississippi Governor John J. Pettus; June 25, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG33" who="U32019810" when="2024-08-21T23:44:42Z" target="#P25100187">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U32017648" when="2024-06-07T17:59:08Z" target="#P25100187">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-11-02T15:52:51Z" target="#P25100187">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U25091195" when="2023-09-29T01:20:11Z" target="#P25100187">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U25091356" when="2023-09-02T21:44:18Z" target="#P25100187">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-05-27T18:26:06Z" target="#P25100187">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-29T01:33:03Z" target="#P25100187">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-18T22:26:47Z" target="#P25100187">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-18T03:12:58Z" target="#P25100187">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-18T03:09:09Z" target="#P25100187">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-17T22:18:07Z" target="#P25100187">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-04T21:35:53Z" target="#P25100187">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2021-08-24T18:00:45Z" target="#P25100187">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U217868" when="2021-07-14T20:17:01Z" target="#P25100189">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U217868" when="2021-07-14T20:16:17Z" target="#P25100188">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U217868" when="2021-07-14T20:16:08Z" target="#P25100188">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U217868" when="2021-07-14T20:13:07Z" target="#P25100187">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U215767" when="2021-07-12T20:09:36Z" target="#P25100189">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U215767" when="2021-07-12T20:08:30Z" target="#P25100188">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U215767" when="2021-07-12T20:05:51Z" target="#P25100188">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U215767" when="2021-07-12T20:01:13Z" target="#P25100187">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25089538" when="2021-07-04T04:32:03Z" target="#P25100189">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25089538" when="2021-07-04T04:30:38Z" target="#P25100189">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25089538" when="2021-07-04T04:30:33Z" target="#P25100189">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25089538" when="2021-07-04T04:30:28Z" target="#P25100188">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25089538" when="2021-07-04T04:30:22Z" target="#P25100187">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25089538" when="2021-07-04T04:29:36Z" target="#P25100188">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25089538" when="2021-07-04T04:28:29Z" target="#P25100189">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25089538" when="2021-07-04T04:24:36Z" target="#P25100188">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25089538" when="2021-07-04T04:16:39Z" target="#P25100188">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25089538" when="2021-07-04T04:03:48Z" target="#P25100187">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-06-29T23:33:34Z" target="#P25100189">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-06-29T23:33:33Z" target="#P25100188">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-06-29T23:33:31Z" target="#P25100187">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25100187" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/7944/full/full/0/default.jpg"/>
+        <div xml:id="OTP25100187">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25100187P0' xml:id='OTP25100187P0'>[seal]
+</p>
+
+<p corresp='TTP25100187P1' xml:id='OTP25100187P1'><rs ref='#S55556'>Kellis Store</rs><lb/>
+<rs ref='#S63240'>Kemper County</rs> Miss.<lb/>
+June 25<add place='above'>t</add> 1861.
+</p>
+
+<p corresp='TTP25100187P2' xml:id='OTP25100187P2'>His Excellency<lb/>
+Governor <rs ref='#S63111'>Pettus</rs>,
+</p>
+
+<p corresp='TTP25100187P3' xml:id='OTP25100187P3'>Dear Sir:
+</p>
+
+<p corresp='TTP25100187P4' xml:id='OTP25100187P4'>The <rs ref='#S106417'>"Kemper Guards"</rs> dispatched a messenger to <rs ref='#S63093'>Richmond</rs> to offer their services to the government for the war; but the <rs ref='#S76212'>Secretary of war</rs> said he could only receive companies that were armed and Equipped.—Under this condition of course we are Excluded. They then offered themselves to, and were accepted by, Governor <rs ref='#S104714'>Wise</rs>. We take with us our own arms, and must provide our own transportation to the Virginia line—namely, <rs ref='#S25014300'>Bristol</rs>. Horses will be furnished us there.
+</p>
+
+<p corresp='TTP25100187P5' xml:id='OTP25100187P5'>You are sufficiently acquainted with this portion of the County to know that the men who compose this company are <rs ref='#S96659'>poor</rs> and have not the means of transporting themselves.
+</p>
+
+
+        </div>
+        <pb xml:id="F25100188" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/7945/full/full/0/default.jpg"/>
+        <div xml:id="OTP25100188">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25100188P0' xml:id='OTP25100188P0'>But even were it otherwise, is it just that men who thus offer themselves to their country should be forced to pay their own expenses? We ask nothing from the state or the Govern-ment. We provide ourselves with arms, clothing and all other articles: We only ask to be carried to the Virgin-ia line. And shall Our hundred able-bodied, good fighting men be kept from the field of battle at this crisis, for want of means to carry them there?
+</p>
+
+<p corresp='TTP25100188P1' xml:id='OTP25100188P1'>I write on behalf, and at the request of the company, and Earnestly beg you, if it be in your power, to provide us transportation to Bristol. We want to leave in ten days or two weeks.
+</p>
+
+<p corresp='TTP25100188P2' xml:id='OTP25100188P2'>Please let us hear from you by return mail.
+</p>
+
+<p corresp='TTP25100188P3' xml:id='OTP25100188P3'>With respect,<lb/>
+I am, your Ob, Sevt.<lb/>
+<rs ref='#S25014302'>J. W. M<add place='above'>c</add>.Donald</rs>
+</p>
+
+
+        </div>
+        <pb xml:id="F25100189" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/7946/full/full/0/default.jpg"/>
+        <div xml:id="OTP25100189">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP25100189P0' xml:id='OTP25100189P0'>June 25<add place='above'>th</add> 1861<lb/>
+J W M<add place='above'>c</add>Donald
+</p>
+
+<p corresp='TTP25100189P1' xml:id='OTP25100189P1'>requesting Transport-ation to line of Va<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP25100189P2' xml:id='OTP25100189P2'>Company accepted by Gov Wise<lb/>
+<hr/>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

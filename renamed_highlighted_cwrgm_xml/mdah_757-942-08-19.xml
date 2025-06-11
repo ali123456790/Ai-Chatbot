@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from T. J. Scott to Mississippi Governor John J. Pettus; September 6, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 25 edits between
+              <date type="first_edit" when="2022-01-07T18:35:37Z">January  7, 2022</date> and
+              <date type="last_edit" when="2024-02-07T20:08:18Z">February  7, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 10 edits between
+              <date type="first_edit" when="2021-12-14T19:40:00Z">December 14, 2021</date> and
+              <date type="last_edit" when="2023-03-24T17:09:58Z">March 24, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U218069">
+          <persName
+              type="pseudonym"
+            >
+            SusanE
+            </persName>
+            <resp>
+              made 7 edits between
+              <date type="first_edit" when="2021-10-31T14:45:05Z">October 31, 2021</date> and
+              <date type="last_edit" when="2021-10-31T14:49:53Z">October 31, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091404">
+          <persName
+            >
+            Robert Mason
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2021-12-14T23:32:42Z">December 14, 2021</date> and
+              <date type="last_edit" when="2021-12-14T23:35:48Z">December 14, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-10-29T18:57:57Z">October 29, 2021</date> and
+              <date type="last_edit" when="2021-10-29T19:07:57Z">October 29, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32020358">
+          <persName
+            >
+            Elisabeth Kluin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2025-03-15T01:28:29Z">March 15, 2025</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U218069">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>SusanE</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:50:14+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32008672">
+              <persName>Scott, Mrs. A. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32008667">
+              <persName>Scott, A. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32008669">
+              <persName>Scott, Thomas J.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63270">
+              <placeName>Mississippi--Lafayette County. Oxford</placeName>
+                <idno>https://en.wikipedia.org/wiki/Oxford,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63270P0'>Located in Lafayette County, Oxford was founded in 1837 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.35972, -89.52611</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001720'>
+<catDesc>Extraction, Manufacturing, &amp; Production</catDesc>
+          <category xml:id='S99399'>
+            <catDesc>
+              <term>Agricultural Production--Plantations</term>
+              <idno>https://en.wikipedia.org/wiki/Plantation_complexes_in_the_Southern_United_States#Overseer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001720'>Extraction, Manufacturing, &amp; Production</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99399P0'>Plantations are farms that typically grow cash crops, and often specialize in a single product, such as cotton, tobacco, or sugar cane. Plantation farming continues in various parts of the world in the twenty-first century, especially for crops like coffee beans, rubber trees, and cocoa. In American history the term plantation is most often associated with estates in the American south. Historical descriptions of plantations generate images of large farming operations. However, even moderately-sized southern farms that planted cash crops were sometimes referred to as plantations.
+</p>
+
+<p xml:id='OTPSD99399P1'>Southern plantations before the Civil War were strongly tied to the institution of slavery. As profit-driven agricultural operations, plantations required large numbers of laborers. This fed the demand for African slave importation to the British colonies in the seventeenth and eighteenth centuries, and bolstered the defense of slavery among southern planters in the nineteenth century. Plantation crops varied by region within the south, with rice being popular in Georgia and South Carolina along the Atlantic coast, tobacco being an early cash crop in Virginia, and then—after the invention of the cotton gin at the end of the eighteenth century which quickly separated seeds from the cotton fibers—the boom in cotton growing across the Deep South.
+</p>
+
+<p xml:id='OTPSD99399P2'>By 1860, there were approximately 46,200 plantations across the south. More than 20,000 had twenty to thirty slaves. Only about 2,300, or five percent, had one hundred or more slaves. The enslaved African Americans carried out most of the farming, construction, and domestic work. The plantations were their home. The same was not always true for the plantation owners. The very large operations frequently had wealthy absentee owners, who resided in cities or other states, leaving plantation supervision responsibilities to hired white overseers. Smaller plantation owners usually lived on their property, but almost always in separate buildings from the enslaved laborers. Slave cabins, or slave quarters, were a ubiquitous part of a plantation. They represented the heart of the laborers’ community on the property, but were usually of basic construction and few amenities.
+</p>
+
+<p xml:id='OTPSD99399P3'>Following the abolition of slavery after the Civil War, many freed people continued to live on plantations. Sharecropping became a popular arrangement between the landowners and the laborers. The property was often divided into plots with tenants assigned to certain sections. The system involved a contract or arrangement which allowed the laborer, or tenant, to keep a portion of the crop they raised. The system was abused, and developed a negative reputation for the level of poverty many sharecroppers (mostly Black, but some white) experienced on plantations in the late nineteenth and early twentieth centuries. Representatives of the Freedmen’s Bureau sought to protect Black sharecroppers by regulating contracts during Reconstruction, but the withdrawal of federal officials after 1876 left many African American tenants more subject to unfair sharecropping contracts on the old plantations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S86078'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Insurrections</term>
+              <idno>https://en.wikipedia.org/wiki/List_of_rebellions_in_the_United_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD86078P0'>Insurrection is an organized attempt by a group of people to overthrow a government, usually by violence. The cause, participants, and size of an effort to overthrow authority can vary. However, political and military officials typically respond to insurrections with legal and military force.
+</p>
+
+<p xml:id='OTPSD86078P1'>The United States Constitution refers to insurrection in Article 1, Section 8, where it authorizes Congress to “provide for calling forth the Militia to execute the Laws of the Union, suppress insurrections and repel invasions.” Southern secession activities were not called insurrectionary until Confederates fired on Fort Sumter on April 12, 1861, turning the tense political debate over the legality of unilateral state secession into open warfare. At that point, President Abraham Lincoln called for 75,000 volunteers to enforce federal authority in the South and described the seceded states as engaging in insurrection. The term carries important legal connotations. International law does not recognize insurrectionists as legal combatants in war. By late 1861, Lincoln preferred to describe the South as in a state of “rebellion” instead of insurrection—a term with the same technical meaning, but which more strongly characterized the Confederacy as engaging in an unjust resistance to authority.
+</p>
+
+<p xml:id='OTPSD86078P2'>Confederates also feared political insurrection within the South during Civil War. Support for secession was not universal through the Southern states, and numerous communities—particularly in eastern Tennessee, western North Carolina, northern Alabama, and most famously western Virginia (which actually separated and created its own state of West Virginia in 1863)—harbored pro-Union sentiments. Confederate and secessionist state officials frequently described anti-Confederate resistance within these communities and other parts of the South as insurrectionary. They used state and Confederate military forces to suppress such opposition.
+</p>
+
+<p xml:id='OTPSD86078P3'>Nineteenth century Southerners most commonly used the term insurrection to describe physical resistance by slaves against their masters. When the Union Army began to employ African American soldiers in 1863, the Confederate government announced that white Union officers captured while commanding black soldiers would be executed for inciting “servile insurrection.” The Confederacy backed down from that threat when Lincoln’s administration responded that it would execute one Confederate prisoner for each Union soldier killed, but the policy reflected the long-standing Southern fear of slave insurrections or rebellions. Before, during, and even after the Civil War, white Southern officials called out local militias—or even unregulated groups of armed men—to reestablish authority over African Americans suspected or accused of insurrection, often with overly violent methods. (Gaines M. Foster, “What’s Not in a Name: The Naming of the American Civil War,” <hi rend='italic'>Journal of the Civil War Era</hi>, Vol. 8, No. 3 (Sept 2018), 417-419; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S102538'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Military Leaves and Furloughs</term>
+              <idno>https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/leaves-and-furloughs</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD102538P0'>The terms “leave” and “furlough” during the Civil War meant permission for soldiers to be absent from duty. Soldiers on leave were allowed to depart camp and partake in recreational activities or, more often, travel home to visit family. Time off was a privilege for soldiers, and often more available for officers than enlisted men. Soldiers could request leave to handle matters at home in times of hardship or emergency, but permission depended upon the military situation and the commander’s discretion. Furloughs were for limited periods of time—usually no longer than thirty days—and soldiers would be reprimanded for being absent longer than their authorized leave, a violation known as “absent without leave,” or AWOL. Punishments for the crime included loss of pay, additional duties, or temporary imprisonment.
+</p>
+
+<p xml:id='OTPSD102538P1'>The lack of furloughs contributed to low morale, especially early in the war. Some soldiers deserted or accepted the punishment for being AWOL when denied leave, especially after receiving news of hardships at home. In response, Union and Confederate officials provided more furloughs to soldiers during the latter half of the Civil War. Military officers occasionally granted leave as an award for good behavior, or issued furloughs through a lottery to raise spirits. Commanders used these options sparingly, typically allowing no more than five percent of a unit to be on leave, to maintain the unit’s effectiveness and to reduce jealousy or homesickness among those who remained behind.
+</p>
+
+<p xml:id='OTPSD102538P2'>Some soldiers abused the furlough system to avoid military duties. In rare cases, men conspired with unprincipled officers to generate furloughs without authority from higher command. Other soldiers tried to buy furloughs from their comrades who had received them legitimately, offering as much as two months of pay. The more common practice was having family members write letters to an officer, appealing for the soldier to be granted leave. Once home, some soldiers sought ways to extend their leave. A favorite method involved having a doctor send a note to the soldier’s unit attesting to a medical ailment. Others blamed weather, problems with travel, or other acts of nature. The greatest violation of the furlough system involved soldiers failing to return. Officers had to determine, usually after waiting an extended period of time, whether a soldier was AWOL or had deserted. This issue plagued the Confederacy during the final year of the war, as many soldiers lost faith in victory and chose to go home with a furlough or without. (Bell Irvin Wiley, <hi rend='italic'>The Life of Johnny Reb: The Common Soldier of the Confederacy</hi>, 132-143)   
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S32082538'>
+            <catDesc>
+              <term>Legislation. Confederate States of America. Congress</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Congress</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32082538P0'>The Confederate States of America Congress was a legislative and provisional assembly formed on February 18, 1862, and disbanded on March 18, 1865. Its intent was to establish a new governing body for the states seceding from the United States and to support a war effort. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25007174'>
+            <catDesc>
+              <term>Legislation. Confederate States of America. Congress. Twenty Negro Law (1862)</term>
+              <idno>https://en.wikipedia.org/wiki/Twenty_Negro_Law</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25007174P0'>Enacted in 1862 by the Confederate States of America Congress, the Twenty Negro Law exempted one white male from Confederate military service for every twenty enslaved people. (Wikipedia) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S32003250'>
+            <catDesc>
+              <term>Confederate States of America--Military Service (Branch Unspecified)</term>
+              <idno>https://en.wikipedia.org/wiki/Military_forces_of_the_Confederate_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32003250P0'>The military forces of the Confederate States of America (1861-1865) consisted of the Army, Navy, and Marine Corps and were responsible for the defense of the Confederacy and securing the nation's independence. While definitive numbers are not available, the Confederacy's Army ranged between 750,000–1,500,000 soldiers and 483,026 casualties. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001677'>
+<catDesc>Agricultural &amp; Natural Resource Occupations</catDesc>
+          <category xml:id='S53398'>
+            <catDesc>
+              <term>Plantation Overseers</term>
+              <idno>https://www.nps.gov/cari/learn/education/who-was-the-overseer.htm#:~:text=The%20overseer%20on%20a%20plantation,according%20to%20the%20master's%20orders.</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001677'>Agricultural &amp; Natural Resource Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD53398P0'>Plantation overseers were responsible for managing the enslaved labor force on a plantation in accordance with planters' orders, including supervising daily operations and disciplining enslaved people. Overseers lived apart from planters' households, and typically lived near slave quarters. (Library of Congress; National Park Service)<lb/>
+
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001713'>
+<catDesc>C.S.A. Federal Government</catDesc>
+          <category xml:id='S54079'>
+            <catDesc>
+              <term>Confederate States of America--Congress</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD54079P0'>The Congress of the Confederate States of America was established by Article 1 of the Confederate States Constitution on March 11, 1861 in Montgomery, Alabama. Operating at the national level of the Confederacy, it was the Legislative Branch of the Confederate States government responsible for making and amending laws. A bicameral body, the Confederate States Congress was divided into the upper house (Senate) and the lower house (House of Representatives). The Confederate States Congress concluded Its final session on March 18, 1865. (Avalon Project-<hi rend='italic'>Constitution of the Confederate States</hi>; March 11, 1861; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25027475'>
+            <catDesc>
+              <term>Confederate States of America--Congress. Senate</term>
+              <idno>https://avalon.law.yale.edu/19th_century/csa_csa.asp</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.3675, -86.3</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25027475P0'>The Confederate Senate was established by Article 1, Section 3 of the Confederate States Constitution on March 11, 1861 in Montgomery, Alabama. Operating at the national level of the Confederacy, the Senate was the upper house of the Confederate States Congress. The Vice-President of the Confederate States presided over the Senate, but in their absence, the Senate was led by the President Pro-Tempore. Membership was composed of two senators from every state. Members were required to be a minimum of thirty years old and were elected to six-year terms. The Confederate Senate concluded its final session on March 18, 1865. (Avalon Project-<hi rend='italic'>Constitution of the Confederate States</hi>, March 11, 1861; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001669'>
+<catDesc>Family Structures</catDesc>
+          <category xml:id='S91463'>
+            <catDesc>
+              <term>Guardian and Ward</term>
+              <idno>https://en.wikipedia.org/wiki/Legal_guardian</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001669'>Family Structures</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD91463P0'>"A legal guardian is a person who has been appointed by a court or otherwise has the legal authority (and the corresponding duty) to make decisions relevant to the personal and property interests of another person who is deemed incompetent, called a ward" (Wikipedia). Guardian and ward relationships can arise from numerous different circumstances, including a child with deceased parents or parents deemed unfit to care for the child, a person with a mental or physical disability incapable of caring for themselves, or an elderly person incapable of living independently. While guardianships are meant to protect the ward, these relationships have historically been subject to varied forms of physical, psychological, or financial abuse. In the nineteenth century, guardianships arose frequently due to high mortality rates, few legal protections for women, and widespread poverty. Impoverished children particularly fell subject to being placed in guardianships, taken away from living parents, and put into orphanages operated by respective states (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 454-457). 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S63099'>
+            <catDesc>
+              <term>African Americans--Enslaved People</term>
+              <idno>https://en.wikipedia.org/wiki/Slavery_in_the_United_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63099P0'>While Cambridge Dictionary defines an enslaved person as "a person who is legally owned by someone else and has no personal freedom" (Cambridge Dictionary), CWRGM adopts the term for the people who were subjected to the practice of race-based enslavement in the nineteenth-century United States chattel slavery system. Slavery in the United States varied greatly over time and geography. However, its most common form was that of race-based chattel slavery in which people of African descent were viewed and treated as property.
+</p>
+
+<p xml:id='OTPSD63099P1'>Methods of work also varied based on region, but those enslaved in Deep South states like Mississippi typically worked under the gang labor system in which, under the supervision of overseers, "gangs of slaves worked their ways through fields, plowing, thinning, hoeing, chopping, picking, or whatever else the day's assignment might be" (Mississippi Encyclopedia). The U.S.'s slave labor system subjected the enslaved to extreme violence, physical, psychological, and often sexual, and brutal working conditions and decreased individual autonomy.
+</p>
+
+<p xml:id='OTPSD63099P2'>Both state and federal legal systems also rendered escape or freedom nearly impossible in the South. For example, the Fugitive Slave Act at the national level required all people, even northerners, to return runaway slaves, rendering an escape to freedom extremely difficult. Mississippi's slave codes specifically implemented slave patrols, pass systems, corporal punishment, supervision of all religious gatherings, and the requirement that an African American person have proof of freedom at all times to curtail the already few rights of enslaved and free African Americans. Mississippi's status as a hub of the domestic slave trade, the individual autonomy whites possessed to punish the enslaved, and frequent abuse of the law by slave patrols increased the likelihood that even a free Black person could be captured and sold into slavery.
+</p>
+
+<p xml:id='OTPSD63099P3'>Despite this adversity, the enslaved in Mississippi and elsewhere resisted and exercised agency in multiple ways. Some enslaved persons directly resisted by running away or violently rebelling, while others chose indirect methods like breaking tools, intentionally working slowly, or feigning illness or injury. The enslaved also maintained their agency and autonomy by crafting networks of kinship and family both within and across plantations, cultivating gardens for their own use, performing gender roles of their own choosing, and holding social and religious gatherings infused with unique cultural and social elements (Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63948'>
+            <catDesc>
+              <term>Enslavers</term>
+              <idno>https://www.nps.gov/subjects/undergroundrailroad/language-of-slavery.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63948P0'>The term "enslavers"  includes any person (male and female) who enslaved one or more of the more than 12.5 million people sold into the United States' race-based system of human chattel slavery between the 16th and 19th centuries. Enslavers used terms like "master," "owner," or "slaveholder" to imply a natural hierarchy within slavery and/or to imply that certain members of society were more capable than others. CWRGM, along with many other historical and archival resources, instead adopts the term "enslaver" to underscore the active effort on the part of enslavers to create and perpetuate a system of bondage over equally capable human beings deserving of the same natural rights (National Park Service). 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+<category xml:id='C32001674S63099'>
+<catDesc>
+<term><rs ref='S63099'>African Americans--Enslaved People</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001674S91463'>
+<catDesc>
+<term><rs ref='S91463'>Guardian and Ward</rs></term>
+</catDesc>
+</category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001666'>
+<catDesc>Races, Ethnicities, &amp; Nationalities</catDesc>
+          <category xml:id='S62968'>
+            <catDesc>
+              <term>African Americans</term>
+              <idno>https://en.wikipedia.org/wiki/African_Americans</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62968P0'>The Cambridge Dictionary classifies "a person who lives in the U.S. and is a member of a race of people with dark skin that originally came from Africa" as African American, but both the nineteenth-century and modern constructions are more complex (Cambridge Dictionary). Common nineteenth-century racial categories such as "mulatto" referred to persons with both white and black ancestry, and the experiences of mixed-race persons varied based on complexion, degree of African ancestry, and the region in which they lived. In antebellum cities with large populations of free Blacks, the degree of one's African ancestry could determine what rights one possessed or did not possess, and people with lighter skin tones were often considered to be white; this ended under "one drop rule" during the Jim Crow system.
+</p>
+
+<p xml:id='OTPSD62968P1'>Like skin tone, the ethnicity implied by the term "African American" is also problematically broad, as "naming people only by the continent of their origin and ignoring their ethnic identity is a consequence of time and space" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 5). The experience of slavery complicated the term by attempting to strip people of their original distinct African ethnic identities such as Ibo or Ndongan, classifying all persons of African descent together under one term, infusing that term with negative connotation, and disregarding the complex and rich linguistic, cultural, and ethnic histories of varied African people. However, many Black Americans have reclaimed the term "African American" and infused it with positive connotations. One scholar argues that "in using the term 'African Americans,' Black Americans accent the part of their heritage that is not American" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 4).
+</p>
+
+<p xml:id='OTPSD62968P2'>CWRGM — acknowledging the multiplicity of the term's meanings and connotations — includes multiracial and multiethnic people of African descent under the "African Americans" social identifiers subject tag to reflect the diversity of the African American experience and to ensure that the experiences of African Americans of mixed races and ethnicities are discoverable as they are rarely distinguished further in the letters. In the absence of other references, CWRGM also tags racial slurs targeted at African Americans — which were common in nineteenth century documents with white authors — under the "African Americans" tag. CWRGM recognizes the historic and present harm caused by such language and does not condone its use but tags these terms only to ensure the rich history of African Americans are discoverable within the collection.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001666S63099'>
+<catDesc>
+<term><rs ref='S63099'>African Americans--Enslaved People</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives and the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Scott, T. J.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-09-06</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from T. J. Scott in Oxford, Mississippi, to Mississippi Governor John J. Pettus, seeking a discharge from the Confederate Army to manage his brother&#39;s farm and enslaved people.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 9� x 9� 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Oxford (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-942-08-19</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Lafayette County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>A. J. Blaylock; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 942, Folder 8</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>African Americans.; Confederate States of America. Army.; Families of military personnel.; Farms.; Military discharge; Mississippi. Governor; Pettus, John Jones, 1813-1867; Slavery.</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from T. J. Scott to Mississippi Governor John J. Pettus; September 6, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/12815&quot;&gt;Letter from T. J. Scott to Mississippi Governor John J. Pettus; September 6, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG53" who="U32020358" when="2025-03-15T01:28:29Z" target="#P25197999">
+          Version 37 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG52" who="U220769" when="2024-02-07T20:08:18Z" target="#P25197999">
+          Version 36 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG51" who="U220769" when="2023-11-17T18:09:50Z" target="#P25197999">
+          Version 35 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG50" who="U220769" when="2023-11-17T17:59:40Z" target="#P25197999">
+          Version 34 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG49" who="U220769" when="2023-11-02T15:37:00Z" target="#P25197999">
+          Version 33 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG48" who="U220769" when="2023-11-02T04:25:00Z" target="#P25197999">
+          Version 32 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG47" who="U220769" when="2023-11-02T03:29:59Z" target="#P25197999">
+          Version 31 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U220769" when="2023-11-02T02:51:35Z" target="#P25197999">
+          Version 30 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U220769" when="2023-09-02T20:39:46Z" target="#P25197999">
+          Version 29 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U220769" when="2023-09-02T20:04:52Z" target="#P25197999">
+          Version 28 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U220769" when="2023-09-02T19:59:56Z" target="#P25197999">
+          Version 27 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2023-04-07T15:46:03Z" target="#P25197999">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U25091356" when="2023-03-24T17:09:58Z" target="#P25197999">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-03-19T17:43:05Z" target="#P25197999">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-03-19T00:16:01Z" target="#P25197999">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-03-18T16:37:12Z" target="#P25197999">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-03-06T05:02:54Z" target="#P25197999">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-03-04T18:07:29Z" target="#P25197999">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2022-12-04T16:27:53Z" target="#P25197999">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2022-12-04T15:45:14Z" target="#P25197999">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2022-12-04T15:37:35Z" target="#P25197999">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2022-12-04T01:15:26Z" target="#P25197999">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2022-05-31T19:09:50Z" target="#P25197999">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2022-05-31T18:41:21Z" target="#P25197999">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2022-01-07T18:36:28Z" target="#P25198001">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2022-01-07T18:35:59Z" target="#P25198000">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2022-01-07T18:35:37Z" target="#P25197999">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U25091404" when="2021-12-14T23:35:48Z" target="#P25197999">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U25091404" when="2021-12-14T23:35:25Z" target="#P25198001">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U25091404" when="2021-12-14T23:34:23Z" target="#P25198000">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U25091404" when="2021-12-14T23:33:15Z" target="#P25197999">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U25091404" when="2021-12-14T23:32:42Z" target="#P25197999">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U25091356" when="2021-12-14T20:05:12Z" target="#P25198001">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U25091356" when="2021-12-14T20:04:33Z" target="#P25198000">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25091356" when="2021-12-14T20:03:40Z" target="#P25197999">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091356" when="2021-12-14T19:52:54Z" target="#P25198001">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091356" when="2021-12-14T19:51:58Z" target="#P25197999">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091356" when="2021-12-14T19:51:13Z" target="#P25198000">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091356" when="2021-12-14T19:49:49Z" target="#P25197999">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091356" when="2021-12-14T19:49:29Z" target="#P25197999">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091356" when="2021-12-14T19:40:00Z" target="#P25197999">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U218069" when="2021-10-31T14:49:53Z" target="#P25198001">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U218069" when="2021-10-31T14:49:43Z" target="#P25198001">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U218069" when="2021-10-31T14:48:45Z" target="#P25198000">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U218069" when="2021-10-31T14:48:34Z" target="#P25198000">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U218069" when="2021-10-31T14:45:55Z" target="#P25197999">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U218069" when="2021-10-31T14:45:40Z" target="#P25197999">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U218069" when="2021-10-31T14:45:05Z" target="#P25197999">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U226410" when="2021-10-29T19:07:57Z" target="#P25198001">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U226410" when="2021-10-29T19:02:06Z" target="#P25198000">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U226410" when="2021-10-29T18:57:57Z" target="#P25197999">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2021-09-19T16:21:02Z" target="#P25198001">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2021-09-19T16:20:51Z" target="#P25198000">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-09-19T16:20:38Z" target="#P25197999">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25197999" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/12812/full/full/0/default.jpg"/>
+        <div xml:id="OTP25197999">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25197999P0' xml:id='OTP25197999P0'><rs ref='#S63270'>Oxford</rs> Mississippi September the 6<add place='above'>th</add> 1862
+</p>
+
+<p corresp='TTP25197999P1' xml:id='OTP25197999P1'>Hon <rs ref='#S63111'>John J Petus</rs>
+</p>
+
+<p corresp='TTP25197999P2' xml:id='OTP25197999P2'>May it please your Honor Whereas it appears from the foregoing Petition that the <rs ref='#S63099'>Slaves</rs> on the <rs ref='#S99399'>Plantation</rs> belonging to <rs ref='#S32008667'>A M Scott</rs> &amp; <rs ref='#S25013472'>Children</rs>: are becomeing desper=ate and <del rend='overstrike'>and</del> <rs ref='#S86078'>unruly: and Offensive</rs> to the Neighborhood generally: and oweing to the ^almost^ entire depopulation of the County: there can be no one got to <rs ref='#S53398'>manage</rs> said slaves. If your honor please: as there was a <rs ref='#S25007174'>bill</rs> passed the <rs ref='#S25027475'>Senate</rs> providing a detail for every plantation worked by slaves where their <rs ref='#S63948'>owner</rs> is a femme sole minor of a person in the <rs ref='#S32003250'>service of the Confederacy</rs>: I pray that you have me <rs ref='#S102538'>detailed</rs> to manage said slaves: as I am a brother and a <rs ref='#S91463'>Guardian of said children</rs>: and four of them are females and quite small. I consistent let me hear from you as soon as possible: address me at this place.
+</p>
+
+<p corresp='TTP25197999P3' xml:id='OTP25197999P3'>Your humble Servant
+</p>
+
+<p corresp='TTP25197999P4' xml:id='OTP25197999P4'><rs ref='#S32008669'>T J Scott</rs>
+</p>
+
+
+            <note resp="#U226410">Reviewer / Editor: The term &#39;femme sole minor&#39; used in the early part of the document is the general  term used for &quot;a woman alone.&quot; A femme sole minor, depending on the legal interpretation, could mean a married woman, guardian of children, but with the same rights as her husband in his absence. Legal historians might know more detail how this term was used in 1862. </note>
+        </div>
+        <pb xml:id="F25198000" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/12813/full/full/0/default.jpg"/>
+        <div xml:id="OTP25198000">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25198000P0' xml:id='OTP25198000P0'>Oxford Mississippi September the 6<add place='above'>th</add> 1862
+</p>
+
+<p corresp='TTP25198000P1' xml:id='OTP25198000P1'>Hon John J Petus
+</p>
+
+<p corresp='TTP25198000P2' xml:id='OTP25198000P2'>Enclosed you will find a petition from A M Scott signed by what afew neighbors that are left: if Your Hon-or please you will do the best you can with it. Let me hear from you as soon as consistent
+</p>
+
+<p corresp='TTP25198000P3' xml:id='OTP25198000P3'>Your humble Servant
+</p>
+
+<p corresp='TTP25198000P4' xml:id='OTP25198000P4'>Thos J Scott
+</p>
+
+
+        </div>
+        <pb xml:id="F25198001" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/12814/full/full/0/default.jpg"/>
+        <div xml:id="OTP25198001">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP25198001P0' xml:id='OTP25198001P0'>T. J. Scott <lb/>
+writes in regard to negroes on <rs ref='#S32008672'>Mrs. Scott's</rs> plantation &amp; encloses petition.<lb/>
+<hr/><lb/>
+T. J. Scott is in Confederate service &amp;, the Governor has no control.
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

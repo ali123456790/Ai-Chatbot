@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Drury Bynum to Mississippi Governor John J. Pettus; May 30, 1863</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 22 edits between
+              <date type="first_edit" when="2021-12-10T21:02:00Z">December 10, 2021</date> and
+              <date type="last_edit" when="2023-11-17T18:24:23Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25090807">
+          <persName
+            >
+            Patricia Parrish
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2021-10-27T03:59:30Z">October 27, 2021</date> and
+              <date type="last_edit" when="2021-10-27T04:15:48Z">October 27, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-11-05T02:32:45Z">November  5, 2021</date> and
+              <date type="last_edit" when="2023-08-27T00:11:23Z">August 27, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-11-09T23:53:11Z">November  9, 2021</date> and
+              <date type="last_edit" when="2021-11-09T23:54:23Z">November  9, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-03-30T01:42:16Z">March 30, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T17:12:43Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U25091356">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Rachel Brown</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T16:22:56+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S100320">
+              <persName>Bynum, Drury</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32004531">
+              <persName>Bynum, J. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63264">
+              <placeName>Mississippi--Clarke County. Quitman</placeName>
+                <idno>https://en.wikipedia.org/wiki/Quitman,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63264P0'>Located in Clarke County, Quitman was founded in 1839 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.04306, -88.72083</geo>
+                </note>
+            </place>
+            <place xml:id="S51788">
+              <placeName>Mississippi--Warren County. Vicksburg</placeName>
+                <idno>https://archive.org/details/mississippicomp00rowlgoog/page/858/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51788P0'>Located in Warren County, Mississippi, Vicksburg was founded under the name Fort Nogales as early as 1790 in what was then unincorporated territory. In 1798, upon creation of Mississippi Territory, it was renamed Walnut Hills. On April 1, 1799, Walnut Hills became part of the newly created Pickering County (later renamed Jefferson County on January 10, 1802), until the creation of Claiborne County on January 26, 1802. It then became part of its current county of Warren on December 21, 1809. Upon its incorporation on January 29th, 1825, it was renamed Vicksburg. Vicksburg became the county seat in 1836 and remains today. (Rowland, <hi rend='italic'>Mississippi</hi>, 858; Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.33611, -90.87528</geo>
+                </note>
+            </place>
+            <place xml:id="S96746">
+              <placeName>Alabama--Sumter County. Gainesville</placeName>
+                <idno>http://encyclopediaofalabama.org/article/h-3722</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS96746P0'>Located in Sumter County, Alabama, Gainesville was founded in 1832. (Encyclopedia of Alabama; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.821, -88.1589</geo>
+                </note>
+            </place>
+            <place xml:id="S71219">
+              <placeName>Military training camps</placeName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001866">Military Locations</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS71219P0'>Here you will find general references to military camps, including both camps of instruction for recruits and lodging. For more specific references to military camps, see the Military training camps subject tags broken down by camp name and location under the Places category.
+</p>
+
+
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001333'>
+<catDesc>Transportation &amp; Infrastructure Industries</catDesc>
+          <category xml:id='S99413'>
+            <catDesc>
+              <term>Railroads and Railroad Companies</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99413P0'>"A system of transportation using special vehicles whose wheels turn on metal bars fixed to the ground, or a particular company using such a system." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63542'>
+            <catDesc>
+              <term>Railroads and Railroad Companies--Mobile and Ohio Railroad Company (Mobile, Ala.)</term>
+              <idno>https://en.wikipedia.org/wiki/Mobile_and_Ohio_Railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>30.69444, -88.04306</geo>
+              </note>
+              <gloss><p xml:id='OTPSD63542P0'>Located in Mobile, Alabama, the Mobile and Ohio Railroad Company was a railroad company established in 1848 by Alabama, Kentucky, Mississippi, and Tennessee, and operated until 1940 when it merged with Gulf, Mobile and Ohio Railroad. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S25009156'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Recruiting and enlistment</term>
+              <idno>https://encyclopediaofarkansas.net/entries/civil-war-recruitment-6391/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25009156P0'>At the outbreak of the American Civil War in 1861, neither the Union nor the Confederate army struggled to find recruits. Rather, both armies saw far more volunteers than their ranks and provisions could sustain. Many young men of the North and South believed that the war would end quickly and volunteered by the thousands to not miss out on the action. Other motivators for rapid enlistment included a sense of adventure, defense of slavery or the privileges of whiteness, defense of the Union, fear of ostracism in their home communities for not enlisting, or a desire to protect their homes and families.
+</p>
+
+<p xml:id='OTPSD25009156P1'>Widespread enlistment required both the United States and Confederate governments to reshape their militaries that were otherwise unprepared to handle that many recruits. The U.S. possessed only a small standing army of 16,000 men before the war, and the Confederacy needed to build its own from scratch. Both therefore relied heavily on local recruiting to organize men into militia companies then employable in the federal service. Recruiters throughout the war published pamphlets, put up posters, and gave speeches to encourage men to fight.
+</p>
+
+<p xml:id='OTPSD25009156P2'>As the war continued, dreams of a short war ended along with many men's desires to enlist. Both armies (the Confederacy in 1862 and the Union in 1863) resorted to conscription to fill their ranks. Free African Americans, particularly in the North, debated the utility and wisdom of fighting for the United States even after being legally allowed to do so in 1863. Many formerly enslaved African-American men yearned to fight for their own freedom, while others doubted that military service in the Civil War would accomplish their desired goals of emancipation and equality. However, prominent African Americans such as Frederick Douglass encouraged Black men to take up arms, and roughly 200,000 did so.
+</p>
+
+<p xml:id='OTPSD25009156P3'>Ultimately, men enlisted during the Civil War for many reasons, often tied to demographic or personal causes, and, as the war progressed and varied in its popularity and aims, recruiters' tactics likewise changed to adapt to each new situation. (Encyclopedia of Arkansas)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S98996'>
+            <catDesc>
+              <term>Political Office--Appointment to Office</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/appointment</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98996P0'>"The act of officially choosing someone for a job, or the job itself." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S32003250'>
+            <catDesc>
+              <term>Confederate States of America--Military Service (Branch Unspecified)</term>
+              <idno>https://en.wikipedia.org/wiki/Military_forces_of_the_Confederate_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32003250P0'>The military forces of the Confederate States of America (1861-1865) consisted of the Army, Navy, and Marine Corps and were responsible for the defense of the Confederacy and securing the nation's independence. While definitive numbers are not available, the Confederacy's Army ranged between 750,000–1,500,000 soldiers and 483,026 casualties. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001682'>
+<catDesc>Medical Occupations</catDesc>
+          <category xml:id='S32085010'>
+            <catDesc>
+              <term>Medical Profession</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/medical-profession?q=Medical+Profession</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085010P0'>"A person with special training in the medical field." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25004902'>
+            <catDesc>
+              <term>Medical Profession--Hospital Employees</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/orderly</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25004902P0'>A person employed by a hospital, or "a place where people who are sick or injured are treated and taken care of by doctors and nurses," such as an orderly who is "a hospital worker who does jobs for which no training is necessary, such as helping the nurses or carrying heavy things" or a steward who is "a person whose job it is to help people at a particular place or event." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S58699'>
+            <catDesc>
+              <term>Medical Profession--Physicians</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/physician</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58699P0'>"A medical doctor, especially one who has general skill and is not a surgeon." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001724'>
+<catDesc>Transportation &amp; Infrastructure Occupations</catDesc>
+          <category xml:id='S32002771'>
+            <catDesc>
+              <term>Railroad Employees</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/railway</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001724'>Transportation &amp; Infrastructure Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32002771P0'>"The companies, work, and people involved in transporting people and goods by train." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001713'>
+<catDesc>C.S.A. Federal Government</catDesc>
+          <category xml:id='S99586'>
+            <catDesc>
+              <term>Confederate States of America--War Department</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t00z8036q&amp;view=1up&amp;seq=9&amp;skin=2021</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.3675, -86.3</geo>
+              </note>
+              <gloss><p xml:id='OTPSD99586P0'>Operating nationally, the Provisional Confederate Congress established the War Department by an act on February 21, 1861, in Montgomery, Alabama. The department was led by the Secretary of War, appointed by the President with the advice and consent of the Senate. It was initially led by LeRoy Pope Walker from February 25–September 16, 1861 and later led by Judah P. Benjamin (September 17, 1861–March 24, 1862), George W. Randolph (March 24–November 15, 1862), James Seddon (November 21, 1862–February 5, 1865), and Maj. Gen. John C. Breckinridge (February 6–May 10, 1865). The War Department was responsible for the administration of the Confederate Army and managed all matters pertaining to American Indian tribes within the boundaries of the Confederate States. (<hi rend='italic'>Acts and Resolutions of the First Session of the Provisional Congress of the Confederate States</hi>, 1861 Public Laws, S1, 46; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25013611'>
+            <catDesc>
+              <term>Confederate States of America--War Department. Quartermaster Department</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t2z32n83q&amp;view=1up&amp;seq=3&amp;skin=2021</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25013611P0'>The Provisional Confederate Congress established the Confederate Quartermaster Department on February 26, 1861 in Montgomery, Alabama under the War Department. Initially under the command of Col. Abraham C. Myers, Brig Gen. Alexander Lawton assumed command in 1863. Operating at the national level of the Confederacy, the Quartermaster Department was responsible for procuring war materials and other supplies for the Confederate Army. (<hi rend='italic'>Laws of the Provisional Congress of the Confederate States</hi>, 1861, 4; American Battlefield Trust; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+<category xml:id='C32001716S99586'>
+<catDesc>
+<term><rs ref='S99586'>Confederate States of America--War Department</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001716S25013611'>
+<catDesc>
+<term><rs ref='S25013611'>Confederate States of America--War Department. Quartermaster Department</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S69274'>
+            <catDesc>
+              <term>Disease and Illness</term>
+              <idno>https://www.battlefields.org/learn/articles/common-diseases-18th-and-19th-century</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD69274P0'>Approximately 620,000 Americans died during the Civil War. For this reason, the war is often called America’s bloodiest conflict. However, two-thirds of Civil War deaths were caused by disease, not combat. The disparity is greater for non-fatal victims: 400,000 soldiers suffered wounds or injuries compared to 6,000,000 cases of illness. Since a combined 3,000,000 men fought in Union and Confederate armies, this means the average soldier fell ill to disease twice during his military service.
+</p>
+
+<p xml:id='OTPSD69274P1'>Numerous types of diseases afflicted soldiers and civilians during the Civil War and Reconstruction era. Some were ubiquitous, like the common cold and diarrhea, which rarely garnered much attention unless the symptoms worsened into a more severe condition. Pneumonia, typhoid, and malaria were among the most serious diseases in the mid-nineteenth century. Epidemics of yellow fever and small pox also ravaged some civilian communities and military units. Perhaps the most deadly to Civil War soldiers, though, was dysentery, which was diarrhea with blood in the stool. Nearly 60,000 people died from dysentery during the war, and Union officials recorded 1.5 million cases of diarrhea or dysentery between 1861 and 1865.
+</p>
+
+<p xml:id='OTPSD69274P2'>All Americans, regardless of economic status or race, suffered pain and loss due to illness during the era. The President of the United States Abraham Lincoln and President of the Confederate States Jefferson Davis—the two most powerful individuals in North America, with access to the best resources—each lost a child to disease during the Civil War. The problem worsened with the sudden shifting of human populations during and after the war, as outbreaks of diseases spread rapidly. While many soldiers from highly populated areas had developed immunity to childhood diseases such as chicken pox, diphtheria, mumps, measles citizen soldiers from rural areas proved more susceptible to severe reactions when exposed to those diseases. Physicians improved medical care during the Civil War, as many recognized the value of sunlight and fresh airflow. However, they could only provide soldiers such healthy conditions behind the lines, at hospitals or rest areas. In many camps, or in the field during campaigns, soldiers were exposed to poor weather, extreme temperatures, and unsanitary conditions. Those who suffered the worse were in prisoner of war camps, in both north and south, where thousands of soldiers died from dysentery or other diseases. Civil War doctors did not fully understand the spread of diseases, including contaminated water (in the case of typhoid and dysentery) or mosquitos (for malaria and yellow fever). As such, camps, forts, and prisons rarely were constructed with the soldiers’ health in mind, and Civil War medicine most often involved responding to disease rather than preventing it.
+</p>
+
+<p xml:id='OTPSD69274P3'>Another source of illness among soldiers, and civilians in war-torn areas, was dietary deficiencies. Despite efforts by subsistence and commissary personnel in Union and Confederate armies, feeding thousands of troops daily proved a monumental task. Food preservation techniques still relied heavily upon drying and salting, and fresh vegetables and fruits were limited and dependent upon seasons. As a result, most Civil War soldiers likely suffered from a Vitamin C deficiency, the most severe cases resulting in scurvy which caused the loss of teeth and bleeding. Heavy reliance upon corn-based foods, especially within southern military units or Union prisoners held in southern prisoner of war camps, led to high instances of pellagra, a condition caused by the lack of niacin (or vitamin B3). Present in most foods, but not corn, victims suffered from diarrhea, skin sores, and dementia.
+</p>
+
+<p xml:id='OTPSD69274P4'>Often ignored, Americans also suffered from sexually transmitted diseases during the Civil War and afterwards. Although rarely fatal, more than 100,000 soldiers were diagnosed with gonorrhea and nearly 80,000 became infected with syphilis. Unsurprisingly, most of these cases occurred when soldiers were near populated areas, especially during training or time in camp, where they had more opportunities to interact with women. Venereal disease rates were higher at the start and at the end of the Civil War. That trend may reflect the fact that rates went down for armies on campaign in the field. The overall rate of venereal disease in the Union Army fluctuated from about 82 to 87 cases for every 1,000 soldiers, Some Union military units reported extremely high rates of venereal disease, particularly in the west. For instance, military physicians in the Department of the Pacific recorded 461 cases out of 1,000 men in 1862.
+</p>
+
+<p xml:id='OTPSD69274P5'>The Civil War also led to disease outbreaks among civilians. Like country-born soldiers introduced to new diseases in military camps, fugitive or liberated slaves who congregated in refugee camps behind Union lines became exposed to new diseases. Cities besieged by armies, such as Vicksburg, Atlanta, and Richmond, faced problems with sanitation and food supplies, compromising the health and immune systems of local residents, leaving them more susceptible to illness.
+</p>
+
+<p xml:id='OTPSD69274P6'>Finally, while most people survived bouts of illness during the Civil War, countless carried pathogens back to their home communities, or simply carried long-term effects from diseases within their bodies. Respiratory infections, blood borne diseases, and other afflictions obtained during the war decreased the quality of life of many Americans, or led to other health complications and early death. (American Battlefield Trust, Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 205–213; George Worthington Adams, <hi rend='italic'>Doctors in Blue</hi>, 3–5; Thomas P. Lowry, <hi rend='italic'>The Story the Soldiers Wouldn't Tell</hi>, 104–108)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives and the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1863</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Bynum, Drury</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1863-05-30</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Drury Bynum at Quitman, Mississippi, to Mississippi Governor John J. Pettus requesting that his son be appointed a Quartermaster.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 6&quot; x 9.5&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Quitman (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-944-14-35</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Clarke County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 944, Folder 14</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Quartermaster General&#39;s Office; Mississippi. Governor; Mississippi. Militia; Pettus, John Jones, 1813-1867; Quartermasters</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Drury Bynum to Mississippi Governor John J. Pettus; May 30, 1863</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/13762&quot;&gt;Letter from Drury Bynum to Mississippi Governor John J. Pettus; May 30, 1863&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG41" who="U2" when="2024-10-25T17:12:43Z" target="#P25226964">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-11-17T18:24:23Z" target="#P25226964">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-11-02T18:13:10Z" target="#P25226964">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-11-02T15:33:22Z" target="#P25226964">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-11-01T22:37:04Z" target="#P25226964">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-09-02T20:40:24Z" target="#P25226964">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-09-02T20:09:10Z" target="#P25226964">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U25091356" when="2023-08-27T00:11:23Z" target="#P25226965">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U25091195" when="2023-03-30T01:42:16Z" target="#P25226964">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-21T01:47:02Z" target="#P25226965">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-19T20:11:23Z" target="#P25226964">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-18T21:37:45Z" target="#P25226964">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-18T16:45:59Z" target="#P25226964">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-18T03:02:28Z" target="#P25226964">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-16T20:41:43Z" target="#P25226964">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-16T19:15:00Z" target="#P25226964">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-16T19:10:36Z" target="#P25226964">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-06T03:38:07Z" target="#P25226965">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-06T03:29:20Z" target="#P25226964">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-03T17:47:13Z" target="#P25226964">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2022-12-04T17:20:10Z" target="#P25226964">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2022-12-04T00:42:16Z" target="#P25226964">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2021-12-10T21:02:39Z" target="#P25226966">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2021-12-10T21:02:04Z" target="#P25226964">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2021-12-10T21:02:00Z" target="#P25226964">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091253" when="2021-11-09T23:54:23Z" target="#P25226966">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091253" when="2021-11-09T23:54:11Z" target="#P25226965">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091253" when="2021-11-09T23:53:11Z" target="#P25226964">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091356" when="2021-11-05T02:36:46Z" target="#P25226965">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091356" when="2021-11-05T02:32:59Z" target="#P25226964">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091356" when="2021-11-05T02:32:45Z" target="#P25226964">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25090807" when="2021-10-27T04:15:48Z" target="#P25226966">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25090807" when="2021-10-27T04:15:46Z" target="#P25226966">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25090807" when="2021-10-27T04:14:23Z" target="#P25226965">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25090807" when="2021-10-27T04:14:22Z" target="#P25226965">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25090807" when="2021-10-27T04:14:20Z" target="#P25226965">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25090807" when="2021-10-27T04:14:12Z" target="#P25226965">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25090807" when="2021-10-27T03:59:32Z" target="#P25226964">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25090807" when="2021-10-27T03:59:30Z" target="#P25226964">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2021-10-14T21:37:49Z" target="#P25226966">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2021-10-14T21:37:45Z" target="#P25226965">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-10-14T21:37:41Z" target="#P25226964">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25226964" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/13759/full/full/0/default.jpg"/>
+        <div xml:id="OTP25226964">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25226964P0' xml:id='OTP25226964P0'><rs ref='#S63264'>Quitman</rs> Miss<lb/>
+May 30<sub>th</sub>1863
+</p>
+
+<p corresp='TTP25226964P1' xml:id='OTP25226964P1'>His Excellency <rs ref='#S63111'>J J. Pettus</rs> Gov, &amp;C
+</p>
+
+<p corresp='TTP25226964P2' xml:id='OTP25226964P2'>My Dear Sir
+</p>
+
+<p corresp='TTP25226964P3' xml:id='OTP25226964P3'>I have three <rs ref='#S25013472'>sons and two sons-in Law</rs> in the <rs ref='#S32003250'>Confederate servi-ce</rs> and of my sons now in <rs ref='#S51788'>Vicksburg</rs> and one at <rs ref='#S96746'>Gainsville Ala</rs> acting as <rs ref='#S25004902'>Hospital Steward</rs> to wit <rs ref='#S32004531'>J M. Bynum</rs> who from Long Exposure and <rs ref='#S69274'>Infirmity</rs> is not able to go into the field My son has a family who have been with me ever since he <rs ref='#S25009156'>enlisted</rs> at the Commencement of the war I have the family of one other son to provide for <rs ref='#S58699'>Dr J M Bynum</rs> is a Discreat man and as before stated wholy unable to do <rs ref='#S71219'>camp</rs> duty. I Disere him to Receive the <rs ref='#S98996'>appointment</rs> of <rs ref='#S25013611'>Quartermaster</rs> which place tho I say so my self hi can honourably fill. The place would enable him to assist me to provide for his wife &amp; children 
+</p>
+
+
+        </div>
+        <pb xml:id="F25226965" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/13760/full/full/0/default.jpg"/>
+        <div xml:id="OTP25226965">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25226965P0' xml:id='OTP25226965P0'>whereas he now Receives wages which will not clothe himself. If he could get a situation on the <rs ref='#S63542'>Mobile Rail Road</rs> to collect provisions for the Government It would suit him he is well acquainted with the people in this part of the state and would make an Efficient <rs ref='#S32002771'>officer</rs>
+</p>
+
+<p corresp='TTP25226965P1' xml:id='OTP25226965P1'>My Dear Sir If you can do so concestantly be pleased to Recommend him to [?] ware Department as a suitable person for Quartermaster should you Deem it Compatible with the Interest of the state and concestant with your sense of Duty to do this you will Lay your humble servant under Renewed Obligation with greate Respect your Friend &amp; obt servant
+</p>
+
+<p corresp='TTP25226965P2' xml:id='OTP25226965P2'><rs ref='#S100320'>Drury Bynum</rs>
+</p>
+
+
+        </div>
+        <pb xml:id="F25226966" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/13761/full/full/0/default.jpg"/>
+        <div xml:id="OTP25226966">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP25226966P0' xml:id='OTP25226966P0'>Drury Bynum <lb/>
+30<add place='above'>th</add> May 1863
+</p>
+
+<p corresp='TTP25226966P1' xml:id='OTP25226966P1'>Answrd 4<add place='above'>th</add> June
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 9 edits between
+              <date type="first_edit" when="2022-12-04T01:51:15Z">December  4, 2022</date> and
+              <date type="last_edit" when="2023-11-17T17:26:01Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-12-01T17:23:56Z">December  1, 2022</date> and
+              <date type="last_edit" when="2022-12-01T17:24:44Z">December  1, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T16:10:24Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-11-10T16:53:58Z">November 10, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-12-06T17:53:31Z">December  6, 2022</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T04:37:16+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32062515">
+              <persName>Jack, J. N.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25024386">
+              <persName>Clark, C. B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32062516">
+              <persName>Yorke, Patton Jones</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51727">
+              <placeName>Mississippi--Claiborne County. Port Gibson</placeName>
+                <idno>https://www.britannica.com/place/Port-Gibson</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51727P0'>Located in Claiborne County, Port Gibson was founded in 1788 and serves as the county seat. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.95611, -90.98306</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62954'>
+            <catDesc>
+              <term>Criminal Procedures--Arrest</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arrest?q=Arrest</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62954P0'>"The act of using legal authority to catch and take someone to a place where the person may be accused of a crime." (CD)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S32062514'>
+            <catDesc>
+              <term>Special Orders. United States. Army--No. 014</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32062514P0'>Not identified. Contact us at cwrgmproject@gmail.com to provide more information.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S77229'>
+            <catDesc>
+              <term>Law Enforcement--Police</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/police-officer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD77229P0'>"A member of the police force." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001684'>
+<catDesc>Military Roles</catDesc>
+          <category xml:id='S49748'>
+            <catDesc>
+              <term>Provost Marshals</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/military-police</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001684'>Military Roles</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD49748P0'>"The police force within the armed forces, responsible for dealing with members of the armed forces who break the law." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+          <category xml:id='S95870'>
+            <catDesc>
+              <term>Military Headquarters</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/headquarters</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95870P0'>A military headquarters is the main center of control for a unit and typically revolves around that unit’s highest ranking officer. The term headquarters often refers to a physical location, however it is not always a permanent facility. A commanding officer can establish a headquarters anywhere that best allows oversight of the unit. Frequently during the Civil War military leaders relocated their headquarters each day as their armies moved. Union general John Pope famously declared that he would make his “headquarters in the saddle.” The comment was more symbolic than literal, but reflected how a headquarters centered on the commander's location and was subject to his discretion in how and where to conduct official duties. Pope’s critics replied that he was making his headquarters where his “hindquarters” should be, representing the more traditional view of a headquarters being a stationary command center strategically located for the effective management of a staff and army. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Sharkey Series 776</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Endowment for the Humanities; Funding for this project provided by the College of Arts and Sciences at the University of Southern Mississippi; Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1865</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>York, P. Jones</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1865-08-10</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Sharkey Collection. Special Order No. 14 from Lieutenant Colonel P. Jones York, commanding the post of Port Gibson, Mississippi, revoking the authority of C. B. Clark to patrol roads.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_776-960-01-12</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>3303887 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 12.5&quot; 1-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Port Gibson (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>2526</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_776-960-01-12</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Claiborne County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Leela Lavanya Battula; McKenna Fussell; Britany Castilaw; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 960, Folder 1</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Guard duty; Military police; Mississippi. Governor; Police; Roads; Sharkey, William Lewis, 1798-1873; United States. Army; United States. Army--Officers</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>1613</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/23711&quot;&gt;Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG14" who="U2" when="2024-10-25T16:10:24Z" target="#P32579413">
+          Version 14 of page "Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-11-17T17:26:01Z" target="#P32579413">
+          Version 13 of page "Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-09-02T19:41:52Z" target="#P32579413">
+          Version 12 of page "Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-03-19T21:05:41Z" target="#P32579413">
+          Version 11 of page "Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2023-03-19T14:35:27Z" target="#P32579413">
+          Version 10 of page "Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2023-03-19T02:36:24Z" target="#P32579413">
+          Version 9 of page "Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2023-03-18T20:34:53Z" target="#P32579413">
+          Version 8 of page "Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2023-03-04T18:47:54Z" target="#P32579413">
+          Version 7 of page "Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U220769" when="2022-12-16T00:12:32Z" target="#P32579413">
+          Version 6 of page "Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25091195" when="2022-12-06T17:53:31Z" target="#P32579413">
+          Version 5 of page "Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U220769" when="2022-12-04T01:51:15Z" target="#P32579413">
+          Version 4 of page "Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25091356" when="2022-12-01T17:24:44Z" target="#P32579413">
+          Version 3 of page "Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U25091356" when="2022-12-01T17:23:56Z" target="#P32579413">
+          Version 2 of page "Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U231087" when="2022-11-10T16:53:58Z" target="#P32579413">
+          Version 1 of page "Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-09-26T21:21:13Z" target="#P32579413">
+          Version 0 of page "Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32579413" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:23711/full/full/0/default.jpg"/>
+        <div xml:id="OTP32579413">
+        <fw type="pageNum">Special Order No. 14 from Lieutenant Colonel P. Jones York; August 10, 1865</fw>
+          <p corresp='TTP32579413P0' xml:id='OTP32579413P0'>[seal]
+</p>
+
+<p corresp='TTP32579413P1' xml:id='OTP32579413P1'><rs ref='#S95870'>Hd Qrs— Post</rs> of <rs ref='#S51727'>Port Gibson</rs>.<lb/>
+Port Gibson Miss Aug 10 1865
+</p>
+
+<p corresp='TTP32579413P2' xml:id='OTP32579413P2'><rs ref='#S32062514'>Special Order.<lb/>
+No—14</rs>.
+</p>
+
+<p corresp='TTP32579413P3' xml:id='OTP32579413P3'>The permission given from these Hd. Qrs—dated July 3<add place='above'><hi rend='underline'>d</hi></add> 1865, by Capt <rs ref='#S32062515'>J. N. Jack</rs>. <rs ref='#S49748'>Provost Marshal</rs> is hereby revoked. <rs ref='#S25024386'>C. B. Clark</rs> <rs ref='#S77229'>Chief of Police</rs> under that permission, will notify the parties forming the police patrols to discontinue the practice of patroling the roads &amp; Counties armed. All <rs ref='#S62954'>arrests</rs> must be made by the proper military or civil authorities
+</p>
+
+<p corresp='TTP32579413P4' xml:id='OTP32579413P4'><rs ref='#S32062516'>P. Jones Yorke</rs><lb/>
+Lt Colonel Comdg— 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

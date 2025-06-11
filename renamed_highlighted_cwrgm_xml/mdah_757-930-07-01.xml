@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from J. E. Taliaferro to Mississippi Governor John J. Pettus; August 21, 1860</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 16 edits between
+              <date type="first_edit" when="2021-08-09T14:54:48Z">August  9, 2021</date> and
+              <date type="last_edit" when="2024-01-30T17:08:15Z">January 30, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-03-25T22:43:06Z">March 25, 2023</date> and
+              <date type="last_edit" when="2023-03-25T22:43:45Z">March 25, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2023-03-23T15:21:59Z">March 23, 2023</date> and
+              <date type="last_edit" when="2023-03-23T15:22:12Z">March 23, 2023</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T19:53:55+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S25010415">
+              <persName>Taliaferro, J. E.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25018642">
+              <persName>Mooney, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63179">
+              <persName>Moore, A. B. (Andrew Barry), 1807-1873</persName>
+                <idno>https://en.wikipedia.org/wiki/Andrew_B._Moore</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63179P0'>Andrew Barry Moore served as governor of Alabama on the eve of the Civil War. Born on March 7, 1807, in the Spartanburg District of South Carolina. He moved to Perry County, Alabama, in 1826, and initially became a teacher. A short time later, however, he began studying law and in 1833 became a practicing attorney. Almost immediately he pursued public office, serving as the Justice of the Peace for Perry County and then, in 1839, winning a seat in the Alabama House of Representatives as a Democrat.
+</p>
+
+<p xml:id='OTPS63179P1'>Moore served in the Alabama legislature until 1846, at which point he returned to his law practice. He remained active in Democratic circles, serving as a presidential elector for Lewis. Cass’s unsuccessful Democratic run for president in 1848. In 1851, Moore received an appointment by to the First Circuit Court. He spent six years on the bench until he was elected governor of Alabama in 1857. As governor, Moore advocated the improvement of state hospitals, including facilities for blind and deaf patients, as well as those with psychiatric conditions He also labored to expand railroad development in Alabama.
+</p>
+
+<p xml:id='OTPS63179P2'>Moore was strongly pro-slavery, but a moderate on the sectional conflict during the late 1850s. As calls for disunion grew across the south, Moore believed that separation from the Union was not wise for Alabama. However, following Abraham Lincoln’s election to the presidency in November 1860, Moore adopted a more radical stance and supported Alabama’s secession convention in early 1861. In preparation for that secession, Moore ordered state military forces to capture U.S. Army facilities around Alabama, particularly those guarding Mobile harbor. He also sent Alabama militia forces to Florida to aid secessionists there seize U.S. installations at Pensacola.
+</p>
+
+<p xml:id='OTPS63179P3'>Moore time as governor ended in December 1861. He took an appointment as a special aid to the new governor John Gill Shorter, and continued to support the Confederate war effort by procuring and organizing supplies and soldiers. When the Civil War ended, Moore was arrested by federal authorities and temporarily imprisoned at Fort Pulaski, Georgia. After his release, he returned to Alabama and practiced law. He passed away on April 5, 1873, at the age of 66. Moore was married to Mary Goree and had two children. He is buried in Fairview Cemetery in Marion, Alabama.
+</p>
+
+<p xml:id='OTPS63179P4'>(Wikipedia; FindaGrave; Encyclopedia of Alabama)
+</p>
+
+<p xml:id='OTPS63179P5'>Andrew Barry Moore belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S25018641">
+              <placeName>Mississippi--Unidentified County. Eolia</placeName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS25018641P0'>Details about this place could not be located. If you have any information about its history, please email cwrgmproject@gmail.com
+</p>
+
+
+                </note>
+            </place>
+            <place xml:id="S52375">
+              <placeName>Alabama--Madison County. Huntsville</placeName>
+                <idno>http://encyclopediaofalabama.org/article/h-2498</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52375P0'>Located in Madison County, Huntsville was founded on December 22, 1809 under the name Twickenham and was renamed Huntsville in November 1811. Huntsville became the county seat of Madison County on July 5, 1810, and was the temporary state capital of Alabama from 1819 to 1820. (Encyclopedia of Alabama; Wikipedia; Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.73, -86.585</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63926'>
+            <catDesc>
+              <term>Crimes (alleged)--Murder</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/murder?q=Murder</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63926P0'>"The crime of intentionally killing a person." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001677'>
+<catDesc>Agricultural &amp; Natural Resource Occupations</catDesc>
+          <category xml:id='S53398'>
+            <catDesc>
+              <term>Plantation Overseers</term>
+              <idno>https://www.nps.gov/cari/learn/education/who-was-the-overseer.htm#:~:text=The%20overseer%20on%20a%20plantation,according%20to%20the%20master's%20orders.</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001677'>Agricultural &amp; Natural Resource Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD53398P0'>Plantation overseers were responsible for managing the enslaved labor force on a plantation in accordance with planters' orders, including supervising daily operations and disciplining enslaved people. Overseers lived apart from planters' households, and typically lived near slave quarters. (Library of Congress; National Park Service)<lb/>
+
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S63099'>
+            <catDesc>
+              <term>African Americans--Enslaved People</term>
+              <idno>https://en.wikipedia.org/wiki/Slavery_in_the_United_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63099P0'>While Cambridge Dictionary defines an enslaved person as "a person who is legally owned by someone else and has no personal freedom" (Cambridge Dictionary), CWRGM adopts the term for the people who were subjected to the practice of race-based enslavement in the nineteenth-century United States chattel slavery system. Slavery in the United States varied greatly over time and geography. However, its most common form was that of race-based chattel slavery in which people of African descent were viewed and treated as property.
+</p>
+
+<p xml:id='OTPSD63099P1'>Methods of work also varied based on region, but those enslaved in Deep South states like Mississippi typically worked under the gang labor system in which, under the supervision of overseers, "gangs of slaves worked their ways through fields, plowing, thinning, hoeing, chopping, picking, or whatever else the day's assignment might be" (Mississippi Encyclopedia). The U.S.'s slave labor system subjected the enslaved to extreme violence, physical, psychological, and often sexual, and brutal working conditions and decreased individual autonomy.
+</p>
+
+<p xml:id='OTPSD63099P2'>Both state and federal legal systems also rendered escape or freedom nearly impossible in the South. For example, the Fugitive Slave Act at the national level required all people, even northerners, to return runaway slaves, rendering an escape to freedom extremely difficult. Mississippi's slave codes specifically implemented slave patrols, pass systems, corporal punishment, supervision of all religious gatherings, and the requirement that an African American person have proof of freedom at all times to curtail the already few rights of enslaved and free African Americans. Mississippi's status as a hub of the domestic slave trade, the individual autonomy whites possessed to punish the enslaved, and frequent abuse of the law by slave patrols increased the likelihood that even a free Black person could be captured and sold into slavery.
+</p>
+
+<p xml:id='OTPSD63099P3'>Despite this adversity, the enslaved in Mississippi and elsewhere resisted and exercised agency in multiple ways. Some enslaved persons directly resisted by running away or violently rebelling, while others chose indirect methods like breaking tools, intentionally working slowly, or feigning illness or injury. The enslaved also maintained their agency and autonomy by crafting networks of kinship and family both within and across plantations, cultivating gardens for their own use, performing gender roles of their own choosing, and holding social and religious gatherings infused with unique cultural and social elements (Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+<category xml:id='C32001674S63099'>
+<catDesc>
+<term><rs ref='S63099'>African Americans--Enslaved People</rs></term>
+</catDesc>
+</category>
+          <category xml:id='S63177'>
+            <catDesc>
+              <term>Fugitives from Justice</term>
+              <idno>https://en.wikipedia.org/wiki/Fugitive</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63177P0'>The term "fugitive from justice" is defined broadly and covers a multiplicity of experiences under U.S. law, but refers most often to "a person who is fleeing from custody, whether it be from jail, a government arrest, government or non-government questioning, vigilante violence, or outraged private individuals" (Wikipedia). Slightly different than the above definition, a fugitive from justice may also be defined as "a person formally charged with a crime or a convicted criminal whose punishment has not yet been determined or fully served who is currently beyond the custody or control" of the party, be it local, national, or international, interested in their arrest (Wikipedia). In the nineteenth-century United States, fugitive status varied widely based on race. Many white people considered "fugitives from justice" were most often the latter definition, being those charged with or convicted of crimes who then fled across other state lines to try and evade punishment or trial. However, throughout American history up to Emancipation, fugitive status was given to escaped enslaved African Americans under the Fugitive Slave Laws of 1793 and later 1850. These laws also required anyone in the nation to apprehend self-emancipated enslaved people and return them to their owners. The term "fugitives from justice" therefore became another legal mechanism by which enslavers sought to control the movements and freedoms of the enslaved, while contributing heavily to the increasing sectionalism that would lead to the American Civil War (Britannica). To learn more about enslaved people who emancipations themselves and were labeled fugitives, see the "Emancipation and self-emancipation" subject tag under Events.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001666'>
+<catDesc>Races, Ethnicities, &amp; Nationalities</catDesc>
+          <category xml:id='S62968'>
+            <catDesc>
+              <term>African Americans</term>
+              <idno>https://en.wikipedia.org/wiki/African_Americans</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62968P0'>The Cambridge Dictionary classifies "a person who lives in the U.S. and is a member of a race of people with dark skin that originally came from Africa" as African American, but both the nineteenth-century and modern constructions are more complex (Cambridge Dictionary). Common nineteenth-century racial categories such as "mulatto" referred to persons with both white and black ancestry, and the experiences of mixed-race persons varied based on complexion, degree of African ancestry, and the region in which they lived. In antebellum cities with large populations of free Blacks, the degree of one's African ancestry could determine what rights one possessed or did not possess, and people with lighter skin tones were often considered to be white; this ended under "one drop rule" during the Jim Crow system.
+</p>
+
+<p xml:id='OTPSD62968P1'>Like skin tone, the ethnicity implied by the term "African American" is also problematically broad, as "naming people only by the continent of their origin and ignoring their ethnic identity is a consequence of time and space" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 5). The experience of slavery complicated the term by attempting to strip people of their original distinct African ethnic identities such as Ibo or Ndongan, classifying all persons of African descent together under one term, infusing that term with negative connotation, and disregarding the complex and rich linguistic, cultural, and ethnic histories of varied African people. However, many Black Americans have reclaimed the term "African American" and infused it with positive connotations. One scholar argues that "in using the term 'African Americans,' Black Americans accent the part of their heritage that is not American" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 4).
+</p>
+
+<p xml:id='OTPSD62968P2'>CWRGM — acknowledging the multiplicity of the term's meanings and connotations — includes multiracial and multiethnic people of African descent under the "African Americans" social identifiers subject tag to reflect the diversity of the African American experience and to ensure that the experiences of African Americans of mixed races and ethnicities are discoverable as they are rarely distinguished further in the letters. In the absence of other references, CWRGM also tags racial slurs targeted at African Americans — which were common in nineteenth century documents with white authors — under the "African Americans" tag. CWRGM recognizes the historic and present harm caused by such language and does not condone its use but tags these terms only to ensure the rich history of African Americans are discoverable within the collection.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001666S63099'>
+<catDesc>
+<term><rs ref='S63099'>African Americans--Enslaved People</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S63262'>
+            <catDesc>
+              <term>Death</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/death</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63262P0'>While the Cambridge Dictionary defines death as “the end of life,” CWRGM employs this subject tag to refer to human deaths only, both actual and hypothetical. (Cambridge Dictionary)
+</p>
+
+<p xml:id='OTPSD63262P1'>The nation experienced mass loss of life (approximately 2% of the population) during the American Civil War, which changed the way Americans viewed death and resulted in its reconceptualization in highly bureaucratized ways. Often wartime dead were buried without their names and sometimes in poorly-dug graves, which created a powerful, profound social and cultural dislocation for their surviving loved ones. During the 19th century, Americans understood dying as a social and religious experience, and desired a "good death," which they defined as at home surrounded by family, but these ideals were unattainable in war. Consequently, Americans learned to cope with death and memorialize it in new ways. Unionists encouraged the federal government and ex-Confederates pushed their respective state governments to create and fund national cemeteries, rebury deceases soldiers and veterans, and establish veterans' and widows' pensions. These new responses to death were more bureaucratized, nationalistic, and secularized. Wartime and post-war death was also highly impacted by race, as white supremacists desecrated the graves of Union buried in the South, especially the bodies of African Americans who served in U.S. Colored Troops and the white officers that led them, revealing post-war sectionalism and strains on reconciliation. (Drew Gilpin Faust, <hi rend='italic'>This Republic of Suffering</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by The Dale Center for Study of War and Society and the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1860</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Taliaferro, J. E.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1860-08-21</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from J. E. Taliaferro in Viola, Mississippi, to Mississippi Governor John J. Pettus requesting extradition of a man named Mooney from Alabama for murdering an enslaved person.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>392 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; letter.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Alabama; Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-930-07-01</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Jasper County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 930, Folder 7</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Mississippi. Governor; Murder; Pettus, John Jones, 1813-1867; Prisoners.; Slavery..; Trials (Murder)</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from J. E. Taliaferro to Mississippi Governor John J. Pettus; August 21, 1860</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/10723&quot;&gt;Letter from J. E. Taliaferro to Mississippi Governor John J. Pettus; August 21, 1860&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG22" who="U220769" when="2024-01-30T17:08:15Z" target="#P25134871">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-11-17T17:30:05Z" target="#P25134871">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-11-02T04:26:57Z" target="#P25134871">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-11-02T04:14:10Z" target="#P25134871">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-11-02T03:28:49Z" target="#P25134871">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-09-02T20:14:29Z" target="#P25134871">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091195" when="2023-03-25T22:43:45Z" target="#P25134872">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091195" when="2023-03-25T22:43:37Z" target="#P25134872">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091195" when="2023-03-25T22:43:06Z" target="#P25134871">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091356" when="2023-03-23T15:22:12Z" target="#P25134872">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091356" when="2023-03-23T15:21:59Z" target="#P25134871">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-03-18T20:42:35Z" target="#P25134871">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2023-03-18T02:59:31Z" target="#P25134871">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2023-03-06T05:09:25Z" target="#P25134871">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2023-03-05T17:45:20Z" target="#P25134871">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2022-12-04T00:50:51Z" target="#P25134871">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U220769" when="2021-12-15T21:46:04Z" target="#P25134871">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U220769" when="2021-10-28T02:51:52Z" target="#P25134871">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U220769" when="2021-08-31T14:28:53Z" target="#P25134871">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2021-08-09T14:55:33Z" target="#P25134872">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2021-08-09T14:54:48Z" target="#P25134871">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2021-08-09T13:35:59Z" target="#P25134872">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-08-09T13:35:57Z" target="#P25134871">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25134871" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/10721/full/full/0/default.jpg"/>
+        <div xml:id="OTP25134871">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25134871P0' xml:id='OTP25134871P0'>[seal]
+</p>
+
+<p corresp='TTP25134871P1' xml:id='OTP25134871P1'><rs ref='#S25018641'>Volia</rs> Augst: 21<add place='above'>st</add> '60
+</p>
+
+<p corresp='TTP25134871P2' xml:id='OTP25134871P2'>Dear Sir,
+</p>
+
+<p corresp='TTP25134871P3' xml:id='OTP25134871P3'>You will discover from the enclosed paper that I have recently had a <rs ref='#S63099'>negro</rs> most brutally <rs ref='#S63926'>murdered</rs>. It occurred during my absence from the State, and the perpetrator of the <rs ref='#S63262'>deed</rs> was permitted to <rs ref='#S63177'>escape</rs>. It is thought that he is now at ^or about^ <rs ref='#S52375'>Huntsville Ala=bama</rs>, and will remain there for some time.
+</p>
+
+<p corresp='TTP25134871P4' xml:id='OTP25134871P4'>The shooting of negroes by <rs ref='#S53398'>overseers</rs>, and other irresponsible men of the country, is becoming too common a thing among us, and I deem it nothing ^more^ than right that an example shall be made of this man <rs ref='#S25018642'>Mooney</rs>, if he can be found—The safety of our property, and the reputation of our Country (I think) demand that an act such as this shall not go unpunished—
+</p>
+
+<p corresp='TTP25134871P5' xml:id='OTP25134871P5'>What think you then of forwarding your requisition to the <rs ref='#S63179'>Governor of Alabama</rs>, for the usual warrant or writ to be issued to the proper officer of the County in which Huntsville is situ=ated &amp; If you are of the opinion that
+</p>
+
+
+        </div>
+        <pb xml:id="F25134872" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/10722/full/full/0/default.jpg"/>
+        <div xml:id="OTP25134872">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25134872P0' xml:id='OTP25134872P0'>it would be proper to do so, by attending to it, you will greatly oblige many of the people here as well as
+</p>
+
+<p corresp='TTP25134872P1' xml:id='OTP25134872P1'>Your friend and obt svt
+</p>
+
+<p corresp='TTP25134872P2' xml:id='OTP25134872P2'><rs ref='#S25010415'>J. E. Taliaferro</rs>
+</p>
+
+<p corresp='TTP25134872P3' xml:id='OTP25134872P3'>Be good enough to let me hear from you at Volia
+</p>
+
+<p corresp='TTP25134872P4' xml:id='OTP25134872P4'>J.E.T.
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

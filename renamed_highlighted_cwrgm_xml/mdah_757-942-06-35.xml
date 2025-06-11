@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Captain Samuel J. W. Nix to Mississippi Governor John J. Pettus; August 11, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 12 edits between
+              <date type="first_edit" when="2021-08-23T22:24:52Z">August 23, 2021</date> and
+              <date type="last_edit" when="2023-11-17T18:29:20Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U215767">
+          <persName
+              type="pseudonym"
+            >
+            lucas.somers
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-06-15T13:40:43Z">June 15, 2021</date> and
+              <date type="last_edit" when="2021-06-15T13:48:37Z">June 15, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2023-12-31T01:31:44Z">December 31, 2023</date> and
+              <date type="last_edit" when="2024-10-22T22:31:53Z">October 22, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-06-07T19:13:34Z">June  7, 2021</date> and
+              <date type="last_edit" when="2021-06-07T19:19:02Z">June  7, 2021</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T15:35:17+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S25010738">
+              <persName>Nix, Samuel J. W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S53940">
+              <persName>Brown, William H., 1815-1873</persName>
+                <idno>https://www.findagrave.com/memorial/125072913/william-h-brown</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS53940P0'>William H. Brown was a court clerk, state militia officer, and public official in Mississippi during the nineteenth century.
+</p>
+
+<p xml:id='OTPS53940P1'>Born in 1815 in New York, Brown moved to Hinds County, Mississippi, as a young man. By 1850 he was a clerk in the U.S. district court, a job he held for at least a decade. When the Civil War broke out in 1861, Brown was commissioned a colonel and appointed adjutant general of the Mississippi militia, responsible for many administrative duties over the state’s troops. After the war, Brown was appointed Deputy Auditor of Public Accounts. He held that position until his death on December 4, 1873. He was married to Martha Bingham of Mississippi, and had at least one child that survived to adulthood. Brown is buried in Greenwood Cemetery in Jackson, Mississippi.
+</p>
+
+<p xml:id='OTPS53940P2'>(1850 U.S. Census for Hinds County, Mississippi; <hi rend='italic'>The Clarion-Ledger</hi>, Jackson, MS, December 11, 1873; FindaGrave)
+</p>
+
+<p xml:id='OTPS53940P3'>William H. Brown belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S96866">
+              <placeName>Mississippi--Pike County. Magnolia</placeName>
+                <idno>https://en.wikipedia.org/wiki/Magnolia,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS96866P0'>Located in Pike County, Magnolia was founded in 1856 and serves as the county seat. (Mississippi Encyclopedia; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.1432, -90.4587</geo>
+                </note>
+            </place>
+            <place xml:id="S88344">
+              <placeName>Mississippi--Amite County. Liberty</placeName>
+                <idno>https://en.wikipedia.org/wiki/Liberty,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS88344P0'>Located in Amite County, Liberty was founded as early as 1809 and incorporated in 1828. Liberty serves as the county seat. (Wikipedia; Rowland, <hi rend='italic'>Mississippi</hi>, 103-104; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.16083, -90.80389</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S32123713'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Military transfer. Command Reassignment</term>
+              <idno>https://www.battlefields.org/learn/articles/civil-war-army-organization</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32123713P0'>At the start of the American Civil War, military authorities in the Union and Confederacy activated old militia companies, or created new volunteer companies, throughout their respective states. Some companies remained as home guard units under state government authority, while many others were activated for national service and combined with other companies into regiments, which were the standard independent military unit on the Civil War battlefield. Comprised of ten companies, each with one hundred men, a full-strength regiment consisted of one thousand soldiers. Because most regiments were raised at the state level, they typically carried the name of their state as well as a number (that generally indicated their sequence of organization), such as the 9th Mississippi Infantry Regiment.
+</p>
+
+<p xml:id='OTPSD32123713P1'>While the early-war command structure varied, eventually Union and Confederate armies used a system that placed two or more regiments into a brigade. Two or more brigades made a division. Above that, two or more divisions would be placed into a corps, and two or more corps would make up an army. Because of the size and scope of the Civil War, the Union and Confederacy had multiple armies, spread across different states or military theaters.
+</p>
+
+<p xml:id='OTPSD32123713P2'>When activated for national service, state regiments had little control over where they were sent. Many units, especially from the Deep South—far from the initial war front—found themselves transferred far from their home areas and away from other units from their state. For instance, the 9th Mississippi Infantry Regiment and the 11th Mississippi Infantry Regiment were both organized in the spring of 1861 from volunteers around Corinth, Mississippi. The 9th Mississippi was first sent to Florida, then transferred to Tennessee, while the 11th Mississippi was ordered to Virginia upon activation for Confederate service. Regiments, and sometimes brigades or divisions, could see multiple transfers to fill gaps in other armies, or to create new commands as Union and Confederate armies enlarged. Subsequent transfers of units to new commands were more common in the western theaters, where fighting took place over a larger geographical area, forcing military authorities to more frequently divide or detach their available forces. (American Battlefield Trust; Encyclopedia of Virginia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25009156'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Recruiting and enlistment</term>
+              <idno>https://encyclopediaofarkansas.net/entries/civil-war-recruitment-6391/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25009156P0'>At the outbreak of the American Civil War in 1861, neither the Union nor the Confederate army struggled to find recruits. Rather, both armies saw far more volunteers than their ranks and provisions could sustain. Many young men of the North and South believed that the war would end quickly and volunteered by the thousands to not miss out on the action. Other motivators for rapid enlistment included a sense of adventure, defense of slavery or the privileges of whiteness, defense of the Union, fear of ostracism in their home communities for not enlisting, or a desire to protect their homes and families.
+</p>
+
+<p xml:id='OTPSD25009156P1'>Widespread enlistment required both the United States and Confederate governments to reshape their militaries that were otherwise unprepared to handle that many recruits. The U.S. possessed only a small standing army of 16,000 men before the war, and the Confederacy needed to build its own from scratch. Both therefore relied heavily on local recruiting to organize men into militia companies then employable in the federal service. Recruiters throughout the war published pamphlets, put up posters, and gave speeches to encourage men to fight.
+</p>
+
+<p xml:id='OTPSD25009156P2'>As the war continued, dreams of a short war ended along with many men's desires to enlist. Both armies (the Confederacy in 1862 and the Union in 1863) resorted to conscription to fill their ranks. Free African Americans, particularly in the North, debated the utility and wisdom of fighting for the United States even after being legally allowed to do so in 1863. Many formerly enslaved African-American men yearned to fight for their own freedom, while others doubted that military service in the Civil War would accomplish their desired goals of emancipation and equality. However, prominent African Americans such as Frederick Douglass encouraged Black men to take up arms, and roughly 200,000 did so.
+</p>
+
+<p xml:id='OTPSD25009156P3'>Ultimately, men enlisted during the Civil War for many reasons, often tied to demographic or personal causes, and, as the war progressed and varied in its popularity and aims, recruiters' tactics likewise changed to adapt to each new situation. (Encyclopedia of Arkansas)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S79382'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 22nd</term>
+              <idno>https://www.google.com/books/edition/The_Official_and_Statistical_Register_of/wMoGAQAAIAAJ?q=&amp;gbpv=0#f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD79382P0'>The 22nd Regiment, Mississippi Infantry (Confederate) was organized in summer 1861 in Tishomingo County, Mississippi under the command of Col. D. W. C. Bonham and served in the Western Theater under Zollicoffer's, Rust's, and Featherston's Brigades in the Department of Mississippi and East Louisiana. It was later commanded by Cols. Frank Schaller, James D. Lester, Major Martin A. Oatis, Capts. John T. Farmby, and George W. Standley. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 23; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 628-635; National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25004068'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 22nd. Company E</term>
+              <idno>https://www.google.com/books/edition/The_Official_and_Statistical_Register_of/wMoGAQAAIAAJ?q=&amp;gbpv=0#f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25004068P0'>Commonly known as the Liberty Guards, Company E of the 22nd Regiment, Mississippi Infantry (Confederate) was organized on April 29, 1861 in Amite County, Mississippi under the command of Capt. Samuel J. W. Nix and served in the Western Theater. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 23; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 628)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001148'>
+<catDesc>State Level: USA &amp; CSA Military</catDesc>
+          <category xml:id='S63200'>
+            <catDesc>
+              <term>Mississippi. Militia</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63200P0'>A militia is a military unit made up of civilians within a community who could be called up by local (often state) officials to serve temporary military purposes. Militias were separate from regular, or permanent, armies. Because they conducted training only periodically, and provided active military service for short periods of time, militias cost less than regular armies; and because they were manned by local residents, militias were frequently seen as less threatening to early American communities than national military units comprised of strange men born in other counties or states.
+</p>
+
+<p xml:id='OTPSD63200P1'>When Mississippi seceded in 1861, enthusiasm for military service swept across the state. Volunteers filled the ranks of old militia units or created new companies within their communities, eager to repulse any federal attempt to coerce secessionists back into the Union. They also took proactive efforts, securing key positions along the Gulf Coast, including reinforcing other Southern soldiers at Pensacola and Fort Pickens in Florida. Over the next few months, as the Confederate government requested more volunteers, thousands of Mississippians and entire volunteer companies from the state transferred to Confederate service and were sent north, out of state. The units that remained within Mississippi for state defense were left in a convoluted military structure, some considered state reserves (a more formal military force for state defense) and some considered state militia (the more traditional units of citizen-soldiers called up for local, emergency use). The distinctions were not well established, and during the war Mississippians describing state units not within the Confederate army used a variety of terms—such as militia, home guard, state troops—almost interchangeably. However, under this subject tag at CWRGM you will find references to the militia and state troops; references that specifically referred to the home guard can be found separately under the Mississippi Home Guard subject tag.
+</p>
+
+<p xml:id='OTPSD63200P2'>While militia and state defense units technically fell under the governor’s authority, the state government struggled to manage, or even track, these organizations. Some, like the Third Battalion Mississippi Minute Men, were well organized, fell under direct state control, and took part in larger military operations, such as the defense of Vicksburg; others saw no combat, rarely gathered for drill, and were entirely overseen by county or local community officials. Most militia members were older than the average Confederate soldier. They were typically farmers, business owners, or land owners who had families and, in many instances, slaves. Because of these responsibilities at home, militiamen expected their military duties to be periodic, temporary, and only during times of emergency, a reflection of the militia’s original intent. However, state officials occasionally activated militia units for long periods, based upon the military situation. In the summer of 1862, Mississippi’s governor, John J. Pettus, mobilized his state troops, pulling many militia units away from their communities. Held in camp for several weeks, drilling but not seeing combat, many militiamen complained of their treatment and argued that their services were needed more at home, managing farms and their communities. Despite these complaints, the governor mobilized the state troops again in 1864, and again met criticism.
+</p>
+
+<p xml:id='OTPSD63200P3'>Overall, Mississippi’s militia and state defense system during the Civil War was a complicated tangle of formal and informal military units. Infrequently used for combat assignments, these units nevertheless provided some emergency services for the state government and allowed many Mississippians a way to provide military service to the community while remaining at home to manage personal and local interests. (Tracy L. Barnett, “Mississippi ‘Milish’: Militiamen in the Civil War,” <hi rend='italic'>Civil War History</hi>, Vol. 66, No. 4 (Dec 2020), 343-379; Michael B. Ballard, <hi rend='italic'>The Civil War in Mississippi: Major Campaigns and Battles</hi>, 4-8)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Alternate ID</label>
+              <value><id>mdah_757-942-06-35</id></value>
+            </element>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives, the National Endowment for the Humanities, and the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Nix, Samuel J. W.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-08-11</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Captain Samuel J. W. Nix in Liberty, Mississippi, to Mississippi Governor John J. Pettus, concerning seniority and pay for the troops of Confederate Company E of the 22nd Mississippi Infantry.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Liberty (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_757-942-06-34</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Amite County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>A. J. Blaylock; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 942, Folder 6</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Confederate States of America. Army. Mississippi Infantry Regiment, 22nd; Confederate States of America. Army--Pay, allowances, etc.; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Captain Samuel J. W. Nix to Mississippi Governor John J. Pettus; August 11, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/7351&quot;&gt;Letter from Captain Samuel J. W. Nix to Mississippi Governor John J. Pettus; August 11, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG21" who="U32019810" when="2024-10-22T22:31:53Z" target="#P25086217">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U32019810" when="2023-12-31T01:31:44Z" target="#P25086217">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-11-17T18:29:20Z" target="#P25086217">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-11-17T18:12:40Z" target="#P25086217">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-09-02T20:14:48Z" target="#P25086217">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-09-02T20:05:26Z" target="#P25086217">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-29T00:34:53Z" target="#P25086217">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-18T15:29:21Z" target="#P25086217">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-18T14:09:07Z" target="#P25086218">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-03-17T21:52:34Z" target="#P25086217">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2022-12-04T17:29:07Z" target="#P25086217">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2022-12-04T16:22:30Z" target="#P25086217">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2021-11-05T19:03:27Z" target="#P25086217">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2021-08-23T22:24:52Z" target="#P25086217">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U215767" when="2021-06-15T13:48:37Z" target="#P25086218">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U215767" when="2021-06-15T13:40:43Z" target="#P25086217">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2021-06-07T19:19:02Z" target="#P25086218">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2021-06-07T19:13:34Z" target="#P25086217">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-06-01T21:13:11Z" target="#P25086218">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-06-01T21:13:10Z" target="#P25086217">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-06-01T21:13:05Z" target="#P25086218">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-06-01T21:13:02Z" target="#P25086217">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25086217" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/7349/full/full/0/default.jpg"/>
+        <div xml:id="OTP25086217">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25086217P0' xml:id='OTP25086217P0'><rs ref='#S88344'>Liberty, Amite County</rs>, Miss.<lb/>
+Aug—11<add place='above'><hi rend='underline'>th</hi>,,</add> 1862
+</p>
+
+<p corresp='TTP25086217P1' xml:id='OTP25086217P1'>To His Excellency—<lb/>
+<rs ref='#S63111'>John. J. Pettus</rs>, Govener—
+</p>
+
+<p corresp='TTP25086217P2' xml:id='OTP25086217P2'>Sir, permit me to call your attention, for a moment, to a matter, of some interest,—involving the question of Se<hi rend='underline'>nior</hi>ity, &amp; the time, when <hi rend='underline'>pay</hi> sh<hi rend='underline'>ou</hi>ld com<hi rend='underline'>men</hi>ce to tr<hi rend='underline'>oop</hi>s T<hi rend='underline'>ran</hi>=sf<hi rend='underline'>er</hi>ed to the Conf<hi rend='underline'>ed</hi>erate Se<hi rend='underline'>rvi</hi>ce; which you can probably Settle, or throw sufficient light upon to enable others to settle satisfactory—
+</p>
+
+<p corresp='TTP25086217P3' xml:id='OTP25086217P3'>And although I am aware that your time is valuable, &amp; much occupied, in these stirring times—yet, as it will detain you but a moment, &amp; conceiving you to be the proper person to apply to, I am indu-ced to troubled you—
+</p>
+
+<p corresp='TTP25086217P4' xml:id='OTP25086217P4'>By reference to the Adj. Gen<add place='above'>l</add>'s Office, it will be found that my Company (<rs ref='#S25004068'>the Liberty Guards</rs>,) was <rs ref='#S25009156'>mustered</rs> into the <rs ref='#S63200'>State Service</rs> on the 27<add place='above'>th</add> day of Aprail 1861—&amp; that under instructions from you, (See Official Document No. 2,) I reported my Company to the Adj—Gen<add place='above'><hi rend='underline'>l</hi></add>., of the state, <rs ref='#S53940'>W<add place='above'>m</add> H Brown</rs>, as an "Independent Company to serve for &amp; during the war"—&amp; when accepted by you as Confederate Troops "for the war", we considered <del rend='overstrike'>our</del>the Company <rs ref='#S32123713'>Transfered</rs> to the Confederacy, &amp; that a Transfer
+</p>
+
+
+        </div>
+        <pb xml:id="F25086218" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/7350/full/full/0/default.jpg"/>
+        <div xml:id="OTP25086218">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25086218P0' xml:id='OTP25086218P0'>Superceeded the necessity of a second muster &amp;c—
+</p>
+
+<p corresp='TTP25086218P1' xml:id='OTP25086218P1'>Official Document No. 3, shows that the said Company, was accepted by you on the 19<add place='above'><hi rend='underline'>th</hi>,,</add> day of July 1861—Which Official Document No. 4, Shows that marching orders, were issued to me, on the 23<add place='above'><hi rend='underline'>rd</hi>,,</add> day of July 1861—&amp; Official Document No. 5, shows that I was on the march, on the 26<add place='above'><hi rend='underline'>th</hi></add> day of same month &amp; year—having reached <rs ref='#S96866'>Magnolia</rs> on the 25<add place='above'><hi rend='underline'>th</hi>,,</add>—the day previous—
+</p>
+
+<p corresp='TTP25086218P2' xml:id='OTP25086218P2'>In several instances, General Officers, have ordered pay to commence on the day of acceptance, without regard to the time of the regular muster of the Company=
+</p>
+
+<p corresp='TTP25086218P3' xml:id='OTP25086218P3'>Hence, all that I ask at your hands, upon this occasion, is that you make a plain state=ment of the facts, as represented by the Official Documents, in the case—setting forth the accepta=nce Transfer &amp;c—that it may accompany the said Official Documents, which I hope, &amp; believe will result in meeting out, simple &amp; evenhanded Justice, to myself &amp; Company, which is all that we ask—
+</p>
+
+<p corresp='TTP25086218P4' xml:id='OTP25086218P4'>With due regard, I remain your <lb/>
+most Obt—Servt—<rs ref='#S25010738'>S. J. W. Nix</rs> Capt.<lb/>
+Company E,, 22<add place='above'><hi rend='underline'>nd</hi>,,</add> Miss—Regt—
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

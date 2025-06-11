@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from James H. Rives to General John C. Pemberton; March 31, 1863</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 26 edits between
+              <date type="first_edit" when="2021-11-05T20:22:58Z">November  5, 2021</date> and
+              <date type="last_edit" when="2023-11-17T18:11:06Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2021-10-09T03:13:16Z">October  9, 2021</date> and
+              <date type="last_edit" when="2023-03-24T17:11:42Z">March 24, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-10-30T22:24:07Z">October 30, 2021</date> and
+              <date type="last_edit" when="2021-10-30T22:29:49Z">October 30, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-07-26T19:29:17Z">July 26, 2021</date> and
+              <date type="last_edit" when="2021-07-26T19:37:09Z">July 26, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T15:02:27Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T18:04:22Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091404">
+          <persName
+            >
+            Robert Mason
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-05-07T17:35:00Z">May  7, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-23T02:12:20Z">October 23, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T20:08:07+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S97207">
+              <persName>Pemberton, John C. (John Clifford), 1814-1881</persName>
+                <idno>https://en.wikipedia.org/wiki/John_C._Pemberton</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS97207P0'>John C. Pemberton was a Confederate general, most famous for commanding troops in the unsuccessful defense of Vicksburg, Mississippi, in 1863.
+</p>
+
+<p xml:id='OTPS97207P1'>Born in Philadelphia, Pennsylvania, on August 10, 1814, Pemberton was raised and educated in the north. He graduated from the United States Military Academy at West Point, New York, in 1837, and immediately afterwards served as a U.S. artillery officer in the Second Seminole War in Florida. He remained a professional soldier for the next two decades, serving at various forts and posts in the United States, along the Canadian border, and in the west. During the Mexican-American War, from 1846 to 1848, Pemberton served with the 4th U.S. Artillery and took part in the battles of Palo Alto, Resaca de La Palma, and Monterrey. He earned the brevet (honorary) rank of captain for his actions at Monterrey. He continued to serve with distinction at several other engagements in Mexico, including the storming of Chapultepec castle and the battle at Mexico City.
+</p>
+
+<p xml:id='OTPS97207P2'>In 1848, following the Mexican-American War, Pemberton married Martha Thompson of Virginia. The couple had one daughter and three sons, all born in the 1850s. Pemberton continued to serve at a variety of posts in the United States, and saw additional action in Florida against the Seminoles from 1849 to 1850, and then again from 1856 to 1857. After spending a year in New Mexico Territory and three years in Minnesota, Pemberton was sent to Washington, D.C., in the spring of 1861, in the midst of the secession crisis. Despite his northern upbringing, Pemberton resigned his commission from the United States Army when the Civil War erupted in April 1861. He immediately volunteered for Confederate service and received an appointment as assistant adjutant general of Confederate forces at Richmond, Virginia.
+</p>
+
+<p xml:id='OTPS97207P3'>Because of his lengthy military experience, Pemberton rose quickly in Confederate ranks, reaching major general in January 1862. He was placed in command of the military department defending Georgia and South Carolina, but soon ran into conflict with the states’ governors who objected to Pemberton's assertion that the survival of his army was more important than defending the region, and due to mistrust of his northern heritage. Confederate President Jefferson Davis placed the more popular General P. G. T. Beauregard in charge of the defense of Georgia and South Carolina and relocated Pemberton to a new military department in Mississippi.
+</p>
+
+<p xml:id='OTPS97207P4'>At his new assignment in Mississippi, in the fall of 1862, Pemberton received the promotion to lieutenant general. He was responsible for defending the Mississippi River and key port towns, such as Vicksburg, from federal attack. Unlike the more famous Confederate armies to the east, Pemberton’s command was made up of southern troops who had suffered several defeats against aggressive Union commanders at battles like Shiloh and Corinth. Many of Pemberton’s troops were separated, and he struggled to unite his force to stage an effective defense against Ulysses S. Grant’s Union army, which began a campaign for Vicksburg in December 1862. Making matters worse for the Confederate general, his orders were to hold Vicksburg at all cost—meaning that he had limited ability to maneuver or even withdraw to save his army in the face of Grant’s larger force.
+</p>
+
+<p xml:id='OTPS97207P5'>Between December 1862 and July 1863, Grant conducted a slow, creative, but ultimately persistent campaign to surround and capture Vicksburg. Utilizing his aggressive subordinate William T. Sherman, Grant cut Pemberton and his Confederate troops off at Vicksburg and burned Mississippi’s capital of Jackson in May 1863. After being besieged in Vicksburg by Grant’s troops for six weeks, Pemberton realized he had no other choice but to surrender. On July 4, 1863, Pemberton ordered his army to lay down its arms and open Vicksburg to Grant’s army. The defeat occurred one day after Robert E. Lee’s battlefield loss at Gettysburg, Pennsylvania, delivering a double blow to Confederate morale.
+</p>
+
+<p xml:id='OTPS97207P6'>Pemberton and his men were captured and paroled by Union forces—a practice by which prisoners were allowed to return home or to encampments under the sworn oath not to take up arms until formally exchanged for Union prisoners. Pemberton traveled to Richmond where he remained idle for several months. Not receiving a new assignment, he resigned his general’s commission in May 1864. President Davis offered him a conciliatory assignment as a lieutenant colonel of artillery, which he accepted. He temporarily commanded the artillery defense of Richmond before taking an appointment as inspector general of artillery. Pemberton was captured by Union troops in mid-April 1865 during the final days of the war.
+</p>
+
+<p xml:id='OTPS97207P7'>Following the Civil War, Pemberton moved to Warrenton, Virginia. He remained there until 1876, when he moved back to Pennsylvania. He lived quietly on a farm, passing away in 1881. Pemberton is buried in Laurel Hill Cemetery East in Philadelphia, Pennsylvania.
+</p>
+
+<p xml:id='OTPS97207P8'>(Wikipedia; National Park Service, American Battlefield Trust; FindaGrave)
+</p>
+
+<p xml:id='OTPS97207P9'>John Clifford Pemberton belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S52203">
+              <persName>Rives, James H., 1830-1875</persName>
+                <idno>https://www.google.com/books/edition/Report_of_and_Testimony/rIdzgpGcH4kC?hl=en&amp;gbpv=1&amp;dq=%22james+h.+rives%22+mississippi&amp;pg=PA548&amp;printsec=frontcover</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52203P0'>James H. Rives was a Confederate soldier and the Mississippi governor’s private secretary during the Civil War.
+</p>
+
+<p xml:id='OTPS52203P1'>Born in 1830 in Georgia, Rives moved to Noxubee County, Mississippi, as a young man and became a practicing attorney. When the Civil War broke out in 1861, Rives volunteered for military service, and was commissioned as an officer in a militia company named the Noxubee Rifles. He received a commission in the Confederate army when the company was incorporated into the Eleventh Mississippi Infantry Regiment as Company F.
+</p>
+
+<p xml:id='OTPS52203P2'>By late 1862, Rives had left the regiment and accepted an appointment as private secretary to Mississippi governor John J. Pettus. He served in that role for most of 1863. After the war, Rives returned to Noxubee County and practiced law. He married Leona Cotton in 1868 and had at least one daughter. Rives was active in Noxubee County politics in the late 1860s and early 1870s, and was called before the U.S. Congress to testify to about race relations in Mississippi in 1871. He died in 1875.
+</p>
+
+<p xml:id='OTPS52203P3'>(<hi rend='italic'>Vicksburg Whig</hi>, Vicksburg, MS, February 13, 1861; Ancestry.com, Mississippi, U.S., Compiled Marriage Index, 1776-1935; “Copy of a letter from Mississippi Governor John J. Pettus; December 1, 1862,” Civil War and Reconstruction Governors of Mississippi, mdah_757-943-04-02; Wikipedia; Record of Wills [Noxubee County, Mississippi], 1834-1926; <hi rend='italic'>Testimony Taken By The Joint Select Committee To Inquire Into The Condition Of Affairs In The Late Insurrectionary States</hi>, 548)
+</p>
+
+<p xml:id='OTPS52203P4'>James H. Rives belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51788">
+              <placeName>Mississippi--Warren County. Vicksburg</placeName>
+                <idno>https://archive.org/details/mississippicomp00rowlgoog/page/858/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51788P0'>Located in Warren County, Mississippi, Vicksburg was founded under the name Fort Nogales as early as 1790 in what was then unincorporated territory. In 1798, upon creation of Mississippi Territory, it was renamed Walnut Hills. On April 1, 1799, Walnut Hills became part of the newly created Pickering County (later renamed Jefferson County on January 10, 1802), until the creation of Claiborne County on January 26, 1802. It then became part of its current county of Warren on December 21, 1809. Upon its incorporation on January 29th, 1825, it was renamed Vicksburg. Vicksburg became the county seat in 1836 and remains today. (Rowland, <hi rend='italic'>Mississippi</hi>, 858; Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.33611, -90.87528</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001333'>
+<catDesc>Transportation &amp; Infrastructure Industries</catDesc>
+          <category xml:id='S99413'>
+            <catDesc>
+              <term>Railroads and Railroad Companies</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99413P0'>"A system of transportation using special vehicles whose wheels turn on metal bars fixed to the ground, or a particular company using such a system." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S32008490'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Impressment</term>
+              <idno>https://encyclopediavirginia.org/entries/confederate-impressment-during-the-civil-war/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32008490P0'>As the American Civil War extended into its third year, the Confederate government found itself deeply indebted and unable to provide food, clothing, and other necessities for its army. On March 26, 1863, the Confederate government passed the Impressment Law. Under this law, state boards of impressment, with the assistance of local commissioners, impressed food, fuel, enslaved persons, and other commodities to support the war effort and to pay off its debts. Commissioners met with local farmers to fix prices for their commodities, subject to revision every two months. One month later, the Confederate government enacted a tax-in-kind. The tax-in-kind required farmers to donate ten percent (to be judged by a collector) of their produce in lieu of taxes paid in currency.
+</p>
+
+<p xml:id='OTPSD32008490P1'>Both of these policies increased tensions between white southerners and the Confederate government. Farmers and their families often felt cheated by government agents offering far less than market value for their goods. Areas close to fighting also disproportionately experienced impressment, as Confederate armies on the ground often stripped their farms clean. The Confederacy also impressed enslaved persons to perform labor, and the brutality of that labor often resulted in the death, injury, or mistreatment of the enslaved, who, if returned at all, did so in much worse condition than they left. The Confederate government also routinely failed to pay for impressed goods and kept enslaved persons longer than their agreed impressment period. Impressment, then, led to protests among rural white southerners, some of whom hoarded their goods from collectors or impersonated collectors in order to acquire food for themselves and their families. The tax-in-kind alone garnered roughly $62 million for the Confederacy from 1863 to 1865, yet combined with impressment, these policies alienated much of the Confederacy's local support and failed to fully pay its debts or win the war. (Encyclopedia Virginia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25004747'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Impressment. Enslaved People</term>
+              <idno>https://encyclopediavirginia.org/entries/confederate-impressment-during-the-civil-war/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25004747P0'>The Confederacy extended the practice of hiring enslaved persons, common in urban areas of the Upper South throughout the antebellum period, to its war industries during the American Civil War (1861-1865). Early in the war, private companies involved in war industries like ironworks, as well as some military departments and individual soldiers, hired enslaved laborers in the absence of white employees.
+</p>
+
+<p xml:id='OTPSD25004747P1'>However, after the Confederate Impressment Law of March 26, 1863, the Confederate government impressed thousands of enslaved persons to work on its fortifications. Enslaved persons endured awful living and working conditions during their impressments, and the mortality and illness rates among impressed enslaved persons soared. Fearful of an enslaved uprising, Confederate officials restricted the few freedoms previously afforded the enslaved. Impressed enslaved persons also faced increased rates of separation from their wives and children, who were then forced to work harder in their absence.
+</p>
+
+<p xml:id='OTPSD25004747P2'>However, many impressed enslaved persons manipulated the displacement of impressment to their favor, escaping from fortifications and thereby self-emancipating. Impressment also angered many enslaving white Southerners. The Confederate government often failed to pay for or return impressed enslaved persons after their agreed-upon periods of impressment and returned others weakened by sickness and overwork. The Confederacy's widespread impressment of the enslaved thereby created division among Southerners at a pivotal time in the war when battlefield losses had already depleted morale. Regardless, the Confederate government ultimately requested 20,000 enslaved persons in 1864 alone, subject to impressment. (Encyclopedia Virginia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25026123'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Impressment. War Material</term>
+              <idno>https://encyclopediavirginia.org/entries/confederate-impressment-during-the-civil-war/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25026123P0'>As the American Civil War extended into its third year, the Confederate government found itself deeply indebted and unable to provide food, clothing, and other necessities for its army. On March 26, 1863, the Confederate government passed the Impressment Law. Under this law, state boards of impressment, with the assistance of local commissioners, impressed food, fuel, enslaved persons, and other commodities to support the war effort and to pay off its debts. Commissioners met with local farmers to fix prices for their commodities, subject to revision every two months. One month later, the Confederate government enacted a tax-in-kind. The tax-in-kind required farmers to donate ten percent (to be judged by a collector) of their produce in lieu of taxes paid in currency.
+</p>
+
+<p xml:id='OTPSD25026123P1'>Both of these policies increased tensions between white southerners and the Confederate government. Farmers and their families often felt cheated by government agents offering far less than market value for their goods. Areas close to fighting also disproportionately experienced impressment, as Confederate armies on the ground often stripped their farms clean. The Confederacy also impressed enslaved persons to perform labor, and the brutality of that labor often resulted in the death, injury, or mistreatment of the enslaved, who, if returned at all, did so in much worse condition than they left. The Confederate government also routinely failed to pay for impressed goods and kept enslaved persons longer than their agreed impressment period. Impressment, then, led to protests among rural white southerners, some of whom hoarded their goods from collectors or impersonated collectors in order to acquire food for themselves and their families. The tax-in-kind alone garnered roughly $62 million for the Confederacy from 1863 to 1865, yet combined with impressment, these policies alienated much of the Confederacy's local support and failed to fully pay its debts or win the war. (Encyclopedia Virginia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S99666'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Invasions</term>
+              <idno>https://en.wikipedia.org/wiki/American_Civil_War</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99666P0'>In warfare, an army moving into an enemy’s home territory is often described as an invasion. During the American Civil War, most examples of military forces moving into enemy territory involved Union armies advancing into Confederate states. Some of these incursions were temporary, such as small cavalry raids to destroy Confederate supplies and even larger campaigns behind Confederate lines to harm Southern infrastructure (such as William T. Sherman’s “March Through Georgia”). However, Union victory in the Civil War depended upon the United States Army conducting offensive operations and occupying large portions of the South. These efforts split apart the Confederacy, placed secessionist communities back under federal control, and reduced the Confederate armies’ ability to wage war. Pro-secessionist Southerners considered these efforts to be federal invasions, and described communities captured by Union armies as being overrun. However, pro-Union Southerners cheered the arrival of Union soldiers, considering them liberators rather than invaders.
+</p>
+
+<p xml:id='OTPSD99666P1'>Although the Confederacy fought a defensive war, Southern military forces occasionally conducted incursions into northern communities. Robert E. Lee’s Maryland Campaign in 1862 (which culminated in the Battle of Antietam on September 17, 1862) was seen by many Marylanders as an invasion of their state. His second offensive campaign into the North, in the summer of 1863, was widely reported in the Northern press as a Confederate invasion of Pennsylvania. That campaign ultimately resulted in the Confederate defeat at the Battle of Gettysburg. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S32082538'>
+            <catDesc>
+              <term>Legislation. Confederate States of America. Congress</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Congress</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32082538P0'>The Confederate States of America Congress was a legislative and provisional assembly formed on February 18, 1862, and disbanded on March 18, 1865. Its intent was to establish a new governing body for the states seceding from the United States and to support a war effort. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32002735'>
+            <catDesc>
+              <term>Legislation. Confederate States of America. Congress. Impressment Law (1863)</term>
+              <idno>https://encyclopediavirginia.org/entries/confederate-impressment-during-the-civil-war/#:~:text=The%20ongoing%20need%20for%20a,fuel%2C%20and%20other%20needed%20commodities.</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32002735P0'>Enacted on March 26, 1863, the Confederate States of America Congress Legislation Impressment Law (1863)  guided military officials, along with the state board of impressments, on the regulation of the purchase of food, fuel, and other necessities. (Virginia Encyclopedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25012725'>
+            <catDesc>
+              <term>Confederate States of America. Army. Military Departments. Department of Mississippi and East Louisiana</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t08w45996&amp;view=1up&amp;seq=143</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25012725P0'>The Department of Mississippi and East Louisiana was established by General Orders, No. 73 issued by the Adjutant and Inspector-General’s Office on October 1, 1862. It was a geographical command of the Confederate Army encompassing the State of Mississippi and the State of Louisiana east of the Mississippi River. It was subdivided into the 1st, 2nd, 3rd, 4th, and 5th Military Districts. Its first commander was Maj. Gen. John C. Pemberton who commanded the department from October 1, 1862–December 22, 1863, and Lt. Gen. Leonidas Polk later commanded it from December 23, 1863–January 27, 1864. In January 1864 Alabama was merged into the Department and it became known as the Department of Alabama, Mississippi, and East Louisiana. (Beers, <hi rend='italic'>The Confederacy: A Guide to the Archives of the Government of the Confederate States of America</hi>, 263; <hi rend='italic'>Confederate States Army-General Orders from the Adjutant and Inspector General’s Office</hi>, 87; Eicher, <hi rend='italic'>Civil War High Commands</hi>, 873–874)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S71916'>
+            <catDesc>
+              <term>United States. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71916P0'>The United States Army is the military land force of the United States of America. During the American Civil War it was also referred to as the Union Army, Federal Army, or Northern Army. Its primary military objective during the war was the restoration and preservation of the United States through the defeat of secessionist forces. The United States Army traces its roots to the Continental Army, created in 1775 during the American Revolution. Following American independence, the new United States severely reduced the size of the army due to distrust of permanent standing military forces. The small regular army generally handled military operations against Native Americans and for coastal defense. State authorities were expected to support the country’s military needs with their militias, or by raising volunteer units, temporarily activated for federal service.
+</p>
+
+<p xml:id='OTPSD71916P1'>At the outbreak of the Civil War, the United States regular army consisted of barely more than 16,000 soldiers, scattered across the country (primarily at coastal defenses and forts established in the territories) among ten infantry regiments, four artillery regiments, two cavalry regiments, two dragoon regiments, and one regiment of mounted rifles. Roughly 20% of the army’s officers and enlisted resigned their positions to fight for the Confederacy. After Southern troops attacked and captured Fort Sumter in South Carolina, President Abraham Lincoln called for 75,000 volunteers to expand the army and defeat the Confederates. The government continued to issue subsequent requests for volunteers as the war progressed. As with established practice, the states were to recruit the volunteers and provide them for federal service. Initial enlistments were for 90 days, but eventually enlistment terms were expanded, typically for three years. In total, more than 2,000,000 men served in the United States Army during the course of the Civil War. Of those, only around 60,000 were part of the regular army. The overwhelming majority were in state-based units. Most soldiers were volunteers, however the federal government began drafting men in 1862, as the army’s campaigns continued and volunteer numbers dwindled. In total, around 46,000 Union soldiers (about 5.5%) were draftees.
+</p>
+
+<p xml:id='OTPSD71916P2'>Approximately two-thirds of the soldiers in the United States Army during the Civil War were native-born white citizens. Around 100,000 were from states within the Confederacy. Immigrants made up about 25% of Union soldiers, with Germans and Irish immigrants being among the most prominent. The army also included soldiers of different ethnicities, including more than 3,000 Native American soldiers. In 1863, the Union army began formally accepting African American soldiers—in segregated units—and by the end of the war, around than 179,000 had served in the United States Army uniform.
+</p>
+
+<p xml:id='OTPSD71916P3'>When hostilities ended in June 1865, approximately 110,000 had been killed in combat or succumbed to wounds, more than 220,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001677'>
+<catDesc>Agricultural &amp; Natural Resource Occupations</catDesc>
+          <category xml:id='S53398'>
+            <catDesc>
+              <term>Plantation Overseers</term>
+              <idno>https://www.nps.gov/cari/learn/education/who-was-the-overseer.htm#:~:text=The%20overseer%20on%20a%20plantation,according%20to%20the%20master's%20orders.</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001677'>Agricultural &amp; Natural Resource Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD53398P0'>Plantation overseers were responsible for managing the enslaved labor force on a plantation in accordance with planters' orders, including supervising daily operations and disciplining enslaved people. Overseers lived apart from planters' households, and typically lived near slave quarters. (Library of Congress; National Park Service)<lb/>
+
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S63099'>
+            <catDesc>
+              <term>African Americans--Enslaved People</term>
+              <idno>https://en.wikipedia.org/wiki/Slavery_in_the_United_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63099P0'>While Cambridge Dictionary defines an enslaved person as "a person who is legally owned by someone else and has no personal freedom" (Cambridge Dictionary), CWRGM adopts the term for the people who were subjected to the practice of race-based enslavement in the nineteenth-century United States chattel slavery system. Slavery in the United States varied greatly over time and geography. However, its most common form was that of race-based chattel slavery in which people of African descent were viewed and treated as property.
+</p>
+
+<p xml:id='OTPSD63099P1'>Methods of work also varied based on region, but those enslaved in Deep South states like Mississippi typically worked under the gang labor system in which, under the supervision of overseers, "gangs of slaves worked their ways through fields, plowing, thinning, hoeing, chopping, picking, or whatever else the day's assignment might be" (Mississippi Encyclopedia). The U.S.'s slave labor system subjected the enslaved to extreme violence, physical, psychological, and often sexual, and brutal working conditions and decreased individual autonomy.
+</p>
+
+<p xml:id='OTPSD63099P2'>Both state and federal legal systems also rendered escape or freedom nearly impossible in the South. For example, the Fugitive Slave Act at the national level required all people, even northerners, to return runaway slaves, rendering an escape to freedom extremely difficult. Mississippi's slave codes specifically implemented slave patrols, pass systems, corporal punishment, supervision of all religious gatherings, and the requirement that an African American person have proof of freedom at all times to curtail the already few rights of enslaved and free African Americans. Mississippi's status as a hub of the domestic slave trade, the individual autonomy whites possessed to punish the enslaved, and frequent abuse of the law by slave patrols increased the likelihood that even a free Black person could be captured and sold into slavery.
+</p>
+
+<p xml:id='OTPSD63099P3'>Despite this adversity, the enslaved in Mississippi and elsewhere resisted and exercised agency in multiple ways. Some enslaved persons directly resisted by running away or violently rebelling, while others chose indirect methods like breaking tools, intentionally working slowly, or feigning illness or injury. The enslaved also maintained their agency and autonomy by crafting networks of kinship and family both within and across plantations, cultivating gardens for their own use, performing gender roles of their own choosing, and holding social and religious gatherings infused with unique cultural and social elements (Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63948'>
+            <catDesc>
+              <term>Enslavers</term>
+              <idno>https://www.nps.gov/subjects/undergroundrailroad/language-of-slavery.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63948P0'>The term "enslavers"  includes any person (male and female) who enslaved one or more of the more than 12.5 million people sold into the United States' race-based system of human chattel slavery between the 16th and 19th centuries. Enslavers used terms like "master," "owner," or "slaveholder" to imply a natural hierarchy within slavery and/or to imply that certain members of society were more capable than others. CWRGM, along with many other historical and archival resources, instead adopts the term "enslaver" to underscore the active effort on the part of enslavers to create and perpetuate a system of bondage over equally capable human beings deserving of the same natural rights (National Park Service). 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+<category xml:id='C32001674S63099'>
+<catDesc>
+<term><rs ref='S63099'>African Americans--Enslaved People</rs></term>
+</catDesc>
+</category>
+</category>
+<category xml:id='C32001666'>
+<catDesc>Races, Ethnicities, &amp; Nationalities</catDesc>
+          <category xml:id='S62968'>
+            <catDesc>
+              <term>African Americans</term>
+              <idno>https://en.wikipedia.org/wiki/African_Americans</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62968P0'>The Cambridge Dictionary classifies "a person who lives in the U.S. and is a member of a race of people with dark skin that originally came from Africa" as African American, but both the nineteenth-century and modern constructions are more complex (Cambridge Dictionary). Common nineteenth-century racial categories such as "mulatto" referred to persons with both white and black ancestry, and the experiences of mixed-race persons varied based on complexion, degree of African ancestry, and the region in which they lived. In antebellum cities with large populations of free Blacks, the degree of one's African ancestry could determine what rights one possessed or did not possess, and people with lighter skin tones were often considered to be white; this ended under "one drop rule" during the Jim Crow system.
+</p>
+
+<p xml:id='OTPSD62968P1'>Like skin tone, the ethnicity implied by the term "African American" is also problematically broad, as "naming people only by the continent of their origin and ignoring their ethnic identity is a consequence of time and space" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 5). The experience of slavery complicated the term by attempting to strip people of their original distinct African ethnic identities such as Ibo or Ndongan, classifying all persons of African descent together under one term, infusing that term with negative connotation, and disregarding the complex and rich linguistic, cultural, and ethnic histories of varied African people. However, many Black Americans have reclaimed the term "African American" and infused it with positive connotations. One scholar argues that "in using the term 'African Americans,' Black Americans accent the part of their heritage that is not American" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 4).
+</p>
+
+<p xml:id='OTPSD62968P2'>CWRGM — acknowledging the multiplicity of the term's meanings and connotations — includes multiracial and multiethnic people of African descent under the "African Americans" social identifiers subject tag to reflect the diversity of the African American experience and to ensure that the experiences of African Americans of mixed races and ethnicities are discoverable as they are rarely distinguished further in the letters. In the absence of other references, CWRGM also tags racial slurs targeted at African Americans — which were common in nineteenth century documents with white authors — under the "African Americans" tag. CWRGM recognizes the historic and present harm caused by such language and does not condone its use but tags these terms only to ensure the rich history of African Americans are discoverable within the collection.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001666S63099'>
+<catDesc>
+<term><rs ref='S63099'>African Americans--Enslaved People</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives and the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1863</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Rives, James H.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1863-03-31</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from James H. Rives, private secretary of Mississippi Governor John J. Pettus, to Confederate General John C. Pemberton concerning the impressment of enslaved people for government work.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; 4-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-944-08-32</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 944, Folder 8</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>African Americans.; Confederate States of America. Army.; Impressment.; Mississippi. Governor; Pemberton, John C. (John Clifford), 1814-1881; Pettus, John Jones, 1813-1867; Slavery.</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from James H. Rives to General John C. Pemberton; March 31, 1863</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/8935&quot;&gt;Letter from James H. Rives to General John C. Pemberton; March 31, 1863&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG46" who="U2" when="2024-10-25T18:04:22Z" target="#P25106152">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U2" when="2024-10-25T15:02:27Z" target="#P25106150">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U32019810" when="2024-10-23T02:12:20Z" target="#P25106152">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U25091404" when="2024-05-07T17:35:00Z" target="#P25106150">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2023-11-17T18:11:06Z" target="#P25106150">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-11-17T18:07:02Z" target="#P25106150">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-11-17T18:04:24Z" target="#P25106150">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-11-02T04:22:34Z" target="#P25106150">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-11-02T03:28:22Z" target="#P25106151">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-09-02T20:26:20Z" target="#P25106150">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-09-02T20:24:41Z" target="#P25106150">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-09-02T20:00:21Z" target="#P25106150">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U25091356" when="2023-03-24T17:11:42Z" target="#P25106150">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-03-24T02:36:19Z" target="#P25106151">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-21T01:39:34Z" target="#P25106151">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-19T18:23:02Z" target="#P25106150">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-18T21:50:42Z" target="#P25106150">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-18T21:33:32Z" target="#P25106151">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-06T05:09:31Z" target="#P25106150">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-05T19:03:24Z" target="#P25106150">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-04T20:21:33Z" target="#P25106150">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-04T20:21:18Z" target="#P25106150">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-04T18:07:27Z" target="#P25106150">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2022-12-04T15:51:19Z" target="#P25106150">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2022-12-04T15:36:16Z" target="#P25106150">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2022-05-31T18:40:54Z" target="#P25106152">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2021-12-09T20:56:14Z" target="#P25106152">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2021-12-09T20:55:48Z" target="#P25106151">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2021-12-09T20:54:43Z" target="#P25106150">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2021-11-05T20:35:19Z" target="#P25106150">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2021-11-05T20:22:58Z" target="#P25106150">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091253" when="2021-10-30T22:29:49Z" target="#P25106153">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091253" when="2021-10-30T22:29:26Z" target="#P25106152">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091253" when="2021-10-30T22:27:15Z" target="#P25106151">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091253" when="2021-10-30T22:24:07Z" target="#P25106150">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091356" when="2021-10-09T03:22:18Z" target="#P25106153">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091356" when="2021-10-09T03:19:36Z" target="#P25106152">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091356" when="2021-10-09T03:18:17Z" target="#P25106151">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091356" when="2021-10-09T03:13:16Z" target="#P25106150">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U231087" when="2021-07-26T19:37:09Z" target="#P25106153">
+          Version 1 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U231087" when="2021-07-26T19:36:41Z" target="#P25106152">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2021-07-26T19:34:38Z" target="#P25106151">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2021-07-26T19:29:17Z" target="#P25106150">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2021-07-02T21:57:35Z" target="#P25106153">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-07-02T21:57:31Z" target="#P25106152">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-07-02T21:57:27Z" target="#P25106151">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-07-02T21:57:23Z" target="#P25106150">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25106150" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8931/full/full/0/default.jpg"/>
+        <div xml:id="OTP25106150">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25106150P0' xml:id='OTP25106150P0'><b><rs ref='#S25026074'>Executive Office</rs>,</b><lb/>
+<rs ref='#S51785'>Jackson</rs>, Miss., March 31<add place='above'>st</add> 1863
+</p>
+
+<p corresp='TTP25106150P1' xml:id='OTP25106150P1'>Lieut Genl <rs ref='#S97207'>J. C. Pemberton</rs><lb/>
+Comdg <rs ref='#S25012725'>Dept Miss &amp; E. La</rs><lb/>
+Jackson<hr/>
+</p>
+
+<p corresp='TTP25106150P2' xml:id='OTP25106150P2'>Sir
+</p>
+
+<p corresp='TTP25106150P3' xml:id='OTP25106150P3'>I am directed by His Excellency Gov <rs ref='#S63111'>Pettus</rs> to say to you, that he is anxious to call out all the resources of the state and place them in the hands of those whose are defending her from the <rs ref='#S99666'>inroads</rs> of the <rs ref='#S71916'>enemy</rs>—whenever in the opinion of the Lt Genl comdg. these resources are necessary for the defence of the state or the support and com-fort of the <rs ref='#S70882'>army</rs>—but the <rs ref='#S32002735'>law</rs> which places this power in the hands of the executive has ^also^ said that the property, (<rs ref='#S63099'>slaves</rs> or <rs ref='#S25026123'>other property</rs>) shall be <rs ref='#S25004747'>impressed</rs> for the defences ^of the state^ upon such Terms and conditions as may be agreed upon between the comdg Genl and the Governor of the state. His Excel-lency has <del rend='overstrike'>good reason to</del> ^been informed and^ believes that the <del rend='overstrike'>agreement between yourself himself</del> ^conditions^ upon which he first agreed to impress negroes and other property has been disregarded particular by your subordinate officers. He therefore directs my to ask of you the following questions and respectfully request an answer at your— 
+</p>
+
+
+        </div>
+        <pb xml:id="F25106151" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8932/full/full/0/default.jpg"/>
+        <div xml:id="OTP25106151">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25106151P0' xml:id='OTP25106151P0'>earliest convenience, viz
+</p>
+
+<p corresp='TTP25106151P1' xml:id='OTP25106151P1'>When negros are impressed upon your requisition for public service, will they be received by you in the county or counties in which they are impressed, or will you cause transportation to ^be furnished^
+</p>
+
+<p corresp='TTP25106151P2' xml:id='OTP25106151P2'>Will the confederate authorities pay the expenses of these impressments, hire of the negros, and value of property &amp; c, if so when will it be done
+</p>
+
+<p corresp='TTP25106151P3' xml:id='OTP25106151P3'>Will the authority of <rs ref='#S53398'>overseers</rs> employed to superin-tend the labor of negros impressed as the Law provides, be respected &amp; maintained or not.
+</p>
+
+<p corresp='TTP25106151P4' xml:id='OTP25106151P4'>Negros have been impressed and kept <del rend='overstrike'>upon the</del> ^at^ <rs ref='#S99413'>Rail Road</rs> depots for several days and finally sent home for the want of some agent to receive them and ^want of^ transportation, notwithstanding due notice was given that the negros were ready to go to <rs ref='#S51788'>Vicksburg</rs>, because it is said the state must send them to the point of destination. Expenses for impressment &amp; hire of negros remain unpaid.
+</p>
+
+<p corresp='TTP25106151P5' xml:id='OTP25106151P5'>The overseers employed by the proper authorities to superintend the Labor of these negros are disregarded the negros placed under the control of strangers and in many cases badly treated. These action of the officers in charge of this matter, creates confusion
+</p>
+
+
+        </div>
+        <pb xml:id="F25106152" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8933/full/full/0/default.jpg"/>
+        <div xml:id="OTP25106152">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP25106152P0' xml:id='OTP25106152P0'>and unnecessary complication in the accounts of the state, <del rend='overstrike'>rendering</del> ^besides it is^ often difficult for ^the^ state to control transportation, and the failure to pay hire and expenses, and the bad treatment to the negros begets a feeling of discontent and <del rend='overstrike'>unhappiness</del> ^reluctance^ among the <rs ref='#S63948'>owners</rs> <del rend='overstrike'>of the slaves and other property impressed</del> to send forward their property
+</p>
+
+<p corresp='TTP25106152P1' xml:id='OTP25106152P1'>Very Respectfully<lb/>
+your obt servt
+</p>
+
+<p corresp='TTP25106152P2' xml:id='OTP25106152P2'><rs ref='#S52203'>James H. Rives</rs><lb/>
+<rs ref='#S95466'>Private secty</rs> 
+</p>
+
+
+        </div>
+        <pb xml:id="F25106153" n="4" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8934/full/full/0/default.jpg"/>
+        <div xml:id="OTP25106153">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP25106153P0' xml:id='OTP25106153P0'>Copy of Lett to Lt Genl Pemberton in relation to the impressment of negros
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

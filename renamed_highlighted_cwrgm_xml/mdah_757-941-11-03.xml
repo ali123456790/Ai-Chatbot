@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from O. Metcalfe to Mississippi Governor John Jones Pettus; May 1, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 7 edits between
+              <date type="first_edit" when="2022-02-06T19:32:44Z">February  6, 2022</date> and
+              <date type="last_edit" when="2023-09-03T00:32:17Z">September  3, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228005">
+          <persName
+            >
+            Heather A Haslem
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-04-02T15:46:12Z">April  2, 2021</date> and
+              <date type="last_edit" when="2021-04-02T15:50:04Z">April  2, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32029872">
+          <persName
+            >
+            Ruth Poe White, PH.D.
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2025-02-13T04:30:13Z">February 13, 2025</date> and
+              <date type="last_edit" when="2025-02-13T19:19:30Z">February 13, 2025</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U224896">
+          <persName
+            >
+            Emma Cox 
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-03-25T03:28:17Z">March 25, 2021</date> and
+              <date type="last_edit" when="2021-03-25T03:29:15Z">March 25, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228445">
+          <persName
+            >
+            Abby Cawley
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-03-26T21:50:54Z">March 26, 2021</date> and
+              <date type="last_edit" when="2021-03-26T21:51:22Z">March 26, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-05-31T17:41:31Z">May 31, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T15:17:39Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:06:31+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S102908">
+              <persName>Pendleton, B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S82979">
+              <persName>Metcalfe, Oren E., 1810-1895</persName>
+                <idno>https://www.findagrave.com/memorial/98212763/oren-metcalfe</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS82979P0'>Oren E. Metcalfe was the sheriff of Adams County, Mississippi during the Civil War and was an insurance agent during Reconstruction.
+</p>
+
+<p xml:id='OTPS82979P1'>Born on January 28, 1810 in Enfield, Connecticut, Metcalfe moved to Natchez, Mississippi by 1840. In 1846, he opened a retail store called Mason &amp; Metcalfe, but by 1854 he had served as a tax collector and was the sheriff of Adams County. He maintainted this position throughout the Civil War but lost the election in 1866. Metcalfe was also a trustee of Jefferson College, and by 1860, he was the enslaver of at least thirty-three men, women, and children.
+</p>
+
+<p xml:id='OTPS82979P2'>After the Civil War, Metcalfe became an insurance agent. By 1868, he was an agent for the Aetna Life Insurance Company in Natchez, and he continued in the insurance business until the end of his life.
+</p>
+
+<p xml:id='OTPS82979P3'>Metcalfe was married to Zulieka Rosalie (Lyon) Metcalfe, who preceded him in death in 1870. The pair had at least ten children, including three sons and two daughters who lived to adulthood. One son served in the Confederate Army and died during the Civil War. Oren E. Metcalfe died on November 20, 1895 in Natchez, Adams County, Mississippi. He was buried in the Natchez City Cemetery.
+</p>
+
+<p xml:id='OTPS82979P4'>(FindaGrave; <hi rend='italic'>Natchez Democrat</hi>, April 12, 1854; <hi rend='italic'>Natchez Democrat</hi>, September 29, 1866; <hi rend='italic'>Natchez Democrat</hi>, July 14, 1868; <hi rend='italic'>Natchez Democrat</hi>, November 21, 1895; U.S. Census Record for Natchez, Mississippi, 1840; <hi rend='italic'>1860 U.S. Federal Census - Slave Schedules</hi>, 29)
+</p>
+
+<p xml:id='OTPS82979P5'>Oren E. Metcalfe belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63019">
+              <placeName>Mississippi--Adams County. Natchez</placeName>
+                <idno>https://en.wikipedia.org/wiki/Natchez,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63019P0'>Located in Adams County, Natchez was founded in 1716 under the name Fort Rosalie and was renamed Natchez in 1730. It became part of the newly created Adams County on April 1, 1799. It served as the capital of Mississippi Territory from 1798 until 1802, when it was replaced by Washington. It was reinstated as the capital from 1817 until 1820, when the capital was again replaced by Washington (which was later replaced by the current capital Jackson in 1822). Natchez serves as the county seat. (Wikipedia; Britannica; Mississippi Encyclopedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.55444, -91.3875</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001675'>
+<catDesc>Financial Occupations</catDesc>
+          <category xml:id='S82977'>
+            <catDesc>
+              <term>Bankers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/banker?q=bankers</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001675'>Financial Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD82977P0'>"Someone who owns a bank or who has an important position in a bank." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001684'>
+<catDesc>Military Roles</catDesc>
+          <category xml:id='S49748'>
+            <catDesc>
+              <term>Provost Marshals</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/military-police</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001684'>Military Roles</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD49748P0'>"The police force within the armed forces, responsible for dealing with members of the armed forces who break the law." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for the project provided by the National Historical Publications and Records Commission.; Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Metcalfe, O.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-05-01</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Natchez, Mississippi, concerning bank note paper being shipped to Jackson, Mississippi, for use in making state cotton notes.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Jackson (Miss.); Natchez (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-941-11-03</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Adams County (Miss.); Hinds County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>A. J. Blaylock; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 941, Folder 11</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Mississippi. Governor; Money--Confederate States of America; Money supply; Paper money; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from O. Metcalfe to Mississippi Governor John Jones Pettus; May 1, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/5604&quot;&gt;Letter from O. Metcalfe to Mississippi Governor John Jones Pettus; May 1, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG21" who="U32029872" when="2025-02-13T19:19:30Z" target="#P1813634">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U32029872" when="2025-02-13T04:30:13Z" target="#P1813634">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U2" when="2024-10-25T15:17:39Z" target="#P1813634">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-09-03T00:32:17Z" target="#P1813634">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-09-02T19:41:35Z" target="#P1813634">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-03-19T14:44:58Z" target="#P1813634">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-19T14:35:06Z" target="#P1813634">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-18T21:54:33Z" target="#P1813634">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-18T00:14:45Z" target="#P1813634">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2022-02-06T19:32:44Z" target="#P1813634">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U217868" when="2021-05-31T17:41:31Z" target="#P1813634">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U228005" when="2021-04-02T15:50:04Z" target="#P1813635">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U228005" when="2021-04-02T15:49:32Z" target="#P1813634">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U228005" when="2021-04-02T15:46:12Z" target="#P1813634">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U228445" when="2021-03-26T21:51:22Z" target="#P1813635">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U228445" when="2021-03-26T21:50:54Z" target="#P1813634">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U224896" when="2021-03-25T03:29:15Z" target="#P1813635">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U224896" when="2021-03-25T03:28:17Z" target="#P1813634">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-03-11T17:24:49Z" target="#P1813635">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-11T17:24:45Z" target="#P1813635">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-11T17:24:49Z" target="#P1813634">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-03-11T17:24:43Z" target="#P1813634">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1813634" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/5602/full/full/0/default.jpg"/>
+        <div xml:id="OTP1813634">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1813634P0' xml:id='OTP1813634P0'>[seal]
+</p>
+
+<p corresp='TTP1813634P1' xml:id='OTP1813634P1'><rs ref='#S63019'>Natchez</rs> May 1. 1862
+</p>
+
+<p corresp='TTP1813634P2' xml:id='OTP1813634P2'>Gov <rs ref='#S63111'>Jno J. Pettus</rs>
+</p>
+
+<p corresp='TTP1813634P3' xml:id='OTP1813634P3'>Dear Sir
+</p>
+
+<p corresp='TTP1813634P4' xml:id='OTP1813634P4'>I send you a lot Bank note paper, old cotton notes, it is concisdered by out <rs ref='#S82977'>Bankers</rs> very good proper to make the state cotton notes upon, [page torn] paper belongs to <rs ref='#S102908'>B. Pendleton</rs> of this [page torn] he is willing you shall make use of us &amp; pay him what you think is right. that is about 5000 sheets
+</p>
+
+<p corresp='TTP1813634P5' xml:id='OTP1813634P5'>I forwarded by my son with instructions to deliver in person, in order that no delay may happen to it, I was told where in <rs ref='#S51785'>Jackson</rs> paper was very much needed, and I have Examined all of the old, Banks for it, I hope it will be of service to you
+</p>
+
+<p corresp='TTP1813634P6' xml:id='OTP1813634P6'>The guns collected in the this county have been removed by the <rs ref='#S49748'>Provost Marshall</rs> to a safe place in the interior which I trust will meet with your app-robation
+</p>
+
+<p corresp='TTP1813634P7' xml:id='OTP1813634P7'>I am very Respectfully <lb/>
+your obt servt <lb/>
+<rs ref='#S82979'>O Metcalfe</rs>  
+</p>
+
+
+        </div>
+        <pb xml:id="F1813635" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/5603/full/full/0/default.jpg"/>
+        <div xml:id="OTP1813635">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1813635P0' xml:id='OTP1813635P0'>O. Metcalfe offering Bank note paper, <lb/>
+<hr/><lb/>
+May. 1862 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

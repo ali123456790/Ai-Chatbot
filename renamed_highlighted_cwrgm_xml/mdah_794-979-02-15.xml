@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Fannie A. Wisler to Mississippi Governor Ridgley C. Powers; December 19, 1871</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U32020453">
+          <persName
+            >
+            Audrey Dienes
+            </persName>
+            <resp>
+              made 21 edits between
+              <date type="first_edit" when="2024-02-28T15:25:09Z">February 28, 2024</date> and
+              <date type="last_edit" when="2024-03-02T16:11:15Z">March  2, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2023-09-08T17:24:06Z">September  8, 2023</date> and
+              <date type="last_edit" when="2023-09-08T17:28:21Z">September  8, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2024-03-31T02:20:24Z">March 31, 2024</date> and
+              <date type="last_edit" when="2024-03-31T02:23:48Z">March 31, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T14:10:29Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T16:14:57Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-03-01T16:27:29Z">March  1, 2024</date> and
+              <date type="last_edit" when="2025-03-16T22:10:37Z">March 16, 2025</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-13T20:44:10Z">October 13, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U32020453">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Audrey Dienes</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T16:31:43+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32131660">
+              <persName>Wissler, Fannie A.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32082320">
+              <persName>Wissler, Charles</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32077064">
+              <persName>Junkermann, Julius, 1841-1883</persName>
+                <idno>https://www.findagrave.com/memorial/23812043/julius-junkerman</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32077064P0'>Julius Junkermann was a Republican public figure and private secretary to a governor in Reconstruction Mississippi.
+</p>
+
+<p xml:id='OTPS32077064P1'>Born on November 14, 1841, in Dusseldorf, Germany, Junkermann moved to the United States in 1860, settling in New Orleans, Louisiana. When the Civil War broke out the following year, he was forced into Confederate service. He reportedly deserted the Confederate army at the Battle of Corinth, Mississippi, and fled to Union lines, where he volunteered for service. He enlisted in the Forty-third Illinois Infantry Regiment and served in the Union army for the rest of the war.
+</p>
+
+<p xml:id='OTPS32077064P2'>Junkermann resided in Mississippi after the war and was active in Republican Party politics. He married Clara Eggleston, the daughter of Brevet (honorary) Brigadier General Beroth B. Eggleston, a Union officer originally who helped establish the Republican Party in Mississippi during Reconstruction and unsuccessfully ran for governor of the state in the late 1860s. Junkermann and his wife had one daughter.
+</p>
+
+<p xml:id='OTPS32077064P3'>Junkermann served as Superintendent of Public Education in Washington County, Mississippi, in the early 1870s before becoming Governor Ridgley Powers’s private secretary in 1872. He was commissioned as Quartermaster General, at the rank of brigadier general, in the Mississippi State Militia in January 1872 and served a wide variety of public offices over the next several years, including circuit court clerk in Washington County and U.S. deputy tax collector in Jackson, Mississippi. Junkermann was also nominated for Mississippi state legislature in 1875, but does not appear to have won.
+</p>
+
+<p xml:id='OTPS32077064P4'>Junkermann, his wife, and much of his wife’s family, moved to Kansas around 1879, after Reconstruction had ended in the south. He edited a German-language newspaper in Kansas and served as justice of the peace for several years. In the early 1880s, Junkermann experienced unspecified health problems. He traveled to Colorado for treatment in 1883, but his condition worsened and he returned home only a few days later and died on June 1, 1883, in Wichita, Kansas. He is buried in Highland Cemetery in Wichita, Kansas.
+</p>
+
+<p xml:id='OTPS32077064P5'>(FindaGrave; <hi rend='italic'>New Orleans Republican</hi>, New Orleans, LA, December 8, 1870; <hi rend='italic'>The Clarion-Ledger</hi>, Jackson, MS, January 11, 1872; <hi rend='italic'>Daily Mississippi Pilot</hi>, Jackson, MS, October 7, 1875; (<hi rend='italic'>Register of Officers and Agents, Divil, Military, and Naval, in the Service of the United States on the Thirtieth of September 1877,</hi>, 77; <hi rend='italic'>Journal of the Senate of the State of Mississippi, 1873</hi>, 548; Beroth B. Eggleston, Sedgwick County KSGenWeb; <hi rend='italic'>The Wichita Weekly Beacon</hi>, Wichita, KS, June 6, 1883)
+</p>
+
+<p xml:id='OTPS32077064P6'>Julius Junkermann belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32057087">
+              <persName>Powers, Ridgley Ceylon, 1836-1912</persName>
+                <idno>https://en.wikipedia.org/wiki/Ridgley_C._Powers</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32057087P0'>Ridgley C. Powers served as governor of Mississippi from 1871 to 1874.
+</p>
+
+<p xml:id='OTPS32057087P1'>Born in Mecca, Ohio, on December 24, 1836, Powers was raised and educated in the north. In 1862, after receiving a degree from the University of Michigan, and conducting graduate work at Union College in New York, Powers enlisted in the Union Army for service during the Civil War. He was promoted to second lieutenant and then captain in the 125th Ohio Infantry Regiment and saw action in Tennessee and Georgia. By the time the Civil War ended in 1865, Powers had achieved the rank of colonel.
+</p>
+
+<p xml:id='OTPS32057087P2'>Upon separating from the military, Powers settled in Mississippi. He purchased land and began a cotton plantation. He soon became a public figure, serving as sheriff in Noxubee County. By 1868, Powers had gained status in Mississippi’s Republican Party, and was elected lieutenant governor in 1869. Although he was a “carpet bagger” (northerner who settled in the south during Reconstruction), Powers was generally respected by white Mississippians. This was in contrast to Governor James Alcorn, a northern by birth, but who was considered a “scalawag” since he had lived in Mississippi since the 1840s and had served in the Confederacy before joining the Republican Party. When Alcorn resigned the governor’s office in 1871 to take a seat in the U.S. Senate, Powers assumed the state’s executive office. He became active in promoting Mississippi’s economic development and independence, advocating crop variety and lesser dependence upon imported goods. Despite his efforts to maintain a stable political and economic environment in Mississippi, a rift grew among Republicans that led to competing party nominations for governor in 1873. Alcorn was nominated by the more conservative wing of Republicans against Adelbert Ames, former Union general and military governor, who was backed by the radicals. Ames won the election and took the governor’s seat in 1874.
+</p>
+
+<p xml:id='OTPS32057087P3'>In 1875, shortly after leaving office, Powers married Louisa Born. The couple had one child who died in infancy. They moved to Arizona, but Louisa suffered from a mysterious medical condition and began traveling across the United States and Europe for treatment. She passed away in New York in 1882 after undergoing surgery. Powers later remarried (to Mary Wilson) and moved to California. He spent the rest of his life as a rancher and businessman at Los Angeles. He died on November 11, 1912, and is buried in Angelus Rosedale Cemetery in Los Angeles, California.
+</p>
+
+<p xml:id='OTPS32057087P4'>(Wikipedia; Mississippi Encyclopedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS32057087P5'>Ridgley Ceylon Powers belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S25023240">
+              <persName>Buck, J.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51740">
+              <placeName>Mississippi--Noxubee County. Macon</placeName>
+                <idno>https://en.wikipedia.org/wiki/Macon,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51740P0'>Located in Noxubee County, Macon was founded on August 10, 1835, and serves as the county seat. (Wikipedia; Dunbar Rowland, <hi rend='italic'>Mississippi,</hi> Vol. 2, pg. 158)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.1125, -88.56111</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S53668'>
+            <catDesc>
+              <term>Crimes (alleged)--Assassination</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/assassination</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD53668P0'>"The murder of someone famous or important." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62954'>
+            <catDesc>
+              <term>Criminal Procedures--Arrest</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arrest?q=Arrest</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62954P0'>"The act of using legal authority to catch and take someone to a place where the person may be accused of a crime." (CD)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32065746'>
+            <catDesc>
+              <term>Criminal Procedures--Bounty</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/bounty?q=Bounty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32065746P0'>"An amount of money set as a reward," typically to incentivize capturing a fugitive from justice. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S71046'>
+            <catDesc>
+              <term>Criminal Procedures--Convicted</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/convicted?q=Convicted</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71046P0'>"Having officially been found guilty of a crime in a law court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001680'>
+<catDesc>Educational &amp; Academic Occupations</catDesc>
+          <category xml:id='S32079660'>
+            <catDesc>
+              <term>Education Professionals</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/teacher</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001680'>Educational &amp; Academic Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32079660P0'>"A person who specializes in educating," spanning from grade school teachers to administrators. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001682'>
+<catDesc>Medical Occupations</catDesc>
+          <category xml:id='S32085010'>
+            <catDesc>
+              <term>Medical Profession</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/medical-profession?q=Medical+Profession</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085010P0'>"A person with special training in the medical field." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+          <category xml:id='S63177'>
+            <catDesc>
+              <term>Fugitives from Justice</term>
+              <idno>https://en.wikipedia.org/wiki/Fugitive</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63177P0'>The term "fugitive from justice" is defined broadly and covers a multiplicity of experiences under U.S. law, but refers most often to "a person who is fleeing from custody, whether it be from jail, a government arrest, government or non-government questioning, vigilante violence, or outraged private individuals" (Wikipedia). Slightly different than the above definition, a fugitive from justice may also be defined as "a person formally charged with a crime or a convicted criminal whose punishment has not yet been determined or fully served who is currently beyond the custody or control" of the party, be it local, national, or international, interested in their arrest (Wikipedia). In the nineteenth-century United States, fugitive status varied widely based on race. Many white people considered "fugitives from justice" were most often the latter definition, being those charged with or convicted of crimes who then fled across other state lines to try and evade punishment or trial. However, throughout American history up to Emancipation, fugitive status was given to escaped enslaved African Americans under the Fugitive Slave Laws of 1793 and later 1850. These laws also required anyone in the nation to apprehend self-emancipated enslaved people and return them to their owners. The term "fugitives from justice" therefore became another legal mechanism by which enslavers sought to control the movements and freedoms of the enslaved, while contributing heavily to the increasing sectionalism that would lead to the American Civil War (Britannica). To learn more about enslaved people who emancipations themselves and were labeled fugitives, see the "Emancipation and self-emancipation" subject tag under Events.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S63262'>
+            <catDesc>
+              <term>Death</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/death</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63262P0'>While the Cambridge Dictionary defines death as “the end of life,” CWRGM employs this subject tag to refer to human deaths only, both actual and hypothetical. (Cambridge Dictionary)
+</p>
+
+<p xml:id='OTPSD63262P1'>The nation experienced mass loss of life (approximately 2% of the population) during the American Civil War, which changed the way Americans viewed death and resulted in its reconceptualization in highly bureaucratized ways. Often wartime dead were buried without their names and sometimes in poorly-dug graves, which created a powerful, profound social and cultural dislocation for their surviving loved ones. During the 19th century, Americans understood dying as a social and religious experience, and desired a "good death," which they defined as at home surrounded by family, but these ideals were unattainable in war. Consequently, Americans learned to cope with death and memorialize it in new ways. Unionists encouraged the federal government and ex-Confederates pushed their respective state governments to create and fund national cemeteries, rebury deceases soldiers and veterans, and establish veterans' and widows' pensions. These new responses to death were more bureaucratized, nationalistic, and secularized. Wartime and post-war death was also highly impacted by race, as white supremacists desecrated the graves of Union buried in the South, especially the bodies of African Americans who served in U.S. Colored Troops and the white officers that led them, revealing post-war sectionalism and strains on reconciliation. (Drew Gilpin Faust, <hi rend='italic'>This Republic of Suffering</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Powers Series 794</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Endowment for the Humanities; Funding for this project provided by the College of Arts and Sciences at the University of Southern Mississippi.; Funding for this project provided by the National Historical Publications and Records Commission.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1871</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Wisler, Fannie A.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1871-12-19</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Powers Collection. Letter from Fannie A. Wisler to Mississippi Governor Ridgley C. Powers, writing in hopes that he will offer a reward for the capture of the person(s) responsible for the murder of her husband.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8.0&quot; x 12.5&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Macon (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_794-979-02-15</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Noxubee County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Leela Lavanya Battula; McKenna Fussell; Dalton Wood; Sarah West</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 979, Folder 2</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Mississippi. Governor; Murder; Powers, Ridgley Ceylon, 1836-1912; Rewards programs (Criminal investigation)</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Fannie A. Wisler to Mississippi Governor Ridgley C. Powers; December 19, 1871</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/35324&quot;&gt;Letter from Fannie A. Wisler to Mississippi Governor Ridgley C. Powers; December 19, 1871&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG35" who="U220769" when="2025-03-16T22:10:37Z" target="#P33485338">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U2" when="2024-10-25T16:14:57Z" target="#P33485340">
+          Version 13 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U2" when="2024-10-25T14:10:29Z" target="#P33485338">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U32019810" when="2024-10-13T20:44:10Z" target="#P33485340">
+          Version 12 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U25091195" when="2024-03-31T02:23:48Z" target="#P33485340">
+          Version 11 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U25091195" when="2024-03-31T02:21:51Z" target="#P33485339">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U25091195" when="2024-03-31T02:20:24Z" target="#P33485338">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U32020453" when="2024-03-02T16:11:15Z" target="#P33485340">
+          Version 10 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U32020453" when="2024-03-02T16:10:01Z" target="#P33485340">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U32020453" when="2024-03-02T16:08:55Z" target="#P33485340">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U32020453" when="2024-03-02T16:07:21Z" target="#P33485338">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U32020453" when="2024-03-02T16:04:52Z" target="#P33485338">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U32020453" when="2024-03-01T16:48:52Z" target="#P33485340">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U32020453" when="2024-03-01T16:46:20Z" target="#P33485338">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U32020453" when="2024-03-01T16:45:27Z" target="#P33485339">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U32020453" when="2024-03-01T16:45:08Z" target="#P33485338">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U32020453" when="2024-03-01T16:44:36Z" target="#P33485338">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2024-03-01T16:27:29Z" target="#P33485340">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U32020453" when="2024-03-01T16:19:44Z" target="#P33485338">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U32020453" when="2024-03-01T16:17:04Z" target="#P33485338">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U32020453" when="2024-03-01T16:09:57Z" target="#P33485338">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U32020453" when="2024-03-01T16:08:48Z" target="#P33485340">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U32020453" when="2024-03-01T16:00:56Z" target="#P33485340">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U32020453" when="2024-03-01T15:59:12Z" target="#P33485340">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U32020453" when="2024-03-01T15:51:28Z" target="#P33485340">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U32020453" when="2024-03-01T15:50:09Z" target="#P33485339">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U32020453" when="2024-03-01T15:49:00Z" target="#P33485338">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U32020453" when="2024-03-01T15:48:54Z" target="#P33485338">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U32020453" when="2024-02-28T15:25:09Z" target="#P33485338">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U231087" when="2023-09-08T17:28:21Z" target="#P33485339">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2023-09-08T17:28:08Z" target="#P33485340">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2023-09-08T17:25:05Z" target="#P33485339">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2023-09-08T17:24:06Z" target="#P33485338">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2023-09-06T13:50:13Z" target="#P33485340">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2023-09-06T13:50:10Z" target="#P33485339">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2023-09-06T13:50:08Z" target="#P33485338">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F33485338" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:35321/full/full/0/default.jpg"/>
+        <div xml:id="OTP33485338">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP33485338P0' xml:id='OTP33485338P0'>[seal]
+</p>
+
+<p corresp='TTP33485338P1' xml:id='OTP33485338P1'><rs ref='#S51740'>Macon Miss</rs> Dec 19<add place='above'>th</add> 1871
+</p>
+
+<p corresp='TTP33485338P2' xml:id='OTP33485338P2'>Hon <rs ref='#S32057087'>R. C. Powers</rs>
+</p>
+
+<p corresp='TTP33485338P3' xml:id='OTP33485338P3'>Dear Sir
+</p>
+
+<p corresp='TTP33485338P4' xml:id='OTP33485338P4'>I am under many obligations to you, for the prompt attention that my application has met with from you, and may I not hope that you will still exert your influence to speedily effect some arrangement for me with the <rs ref='#S32079660'>Superintendent</rs> of Schools, <del rend='overstrike'>and</del> that I may hear from him, as soon as possible There is evidence and strong suspicion that <rs ref='#S32085010'>Doctor</rs> <rs ref='#S25023240'>J. Buck</rs> of this place is the <rs ref='#S53668'>assassin</rs> or one of them, and I cannot see why he has not been <rs ref='#S62954'>arrested</rs>. He has not been seen on the street for several days, but I do not know whether he has, absconded or not, as there is more suspicion of him than any other one I deem it my duty to inform you of the <hi rend='underline'>fact</hi>, in Confidence, knowing that you can decide what to do, about it.
+</p>
+
+<p corresp='TTP33485338P5' xml:id='OTP33485338P5'>I am so thankful that you are willing to offer a <rs ref='#S32065746'>reward</rs> for the apprehension of my dear husbands <rs ref='#S63177'>murderers</rs>, and hope that you will do so at once. He was <rs ref='#S63262'>assassinated</rs> awhile before eight oclock on Wednesday the first day of November 18,71, at night. 
+</p>
+
+
+        </div>
+        <pb xml:id="F33485339" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:35322/full/full/0/default.jpg"/>
+        <div xml:id="OTP33485339">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP33485339P0' xml:id='OTP33485339P0'>Hoping to hear from you [unclear] am with high regard
+</p>
+
+<p corresp='TTP33485339P1' xml:id='OTP33485339P1'>Your Respectfully
+</p>
+
+<p corresp='TTP33485339P2' xml:id='OTP33485339P2'><rs ref='#S32131660'>Fannie A. Wissler</rs>
+</p>
+
+
+        </div>
+        <pb xml:id="F33485340" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:35323/full/full/0/default.jpg"/>
+        <div xml:id="OTP33485340">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP33485340P0' xml:id='OTP33485340P0'><rs ref='#S32082320'>Chas Wissler</rs> killed at Macon Noxubee County <del rend='overstrike'>[?]</del> the 1<add place='above'>st</add> day of Nov 1871
+</p>
+
+<p corresp='TTP33485340P1' xml:id='OTP33485340P1'>for apprehending &amp; evidence that will lead to <rs ref='#S71046'>conviction</rs>
+</p>
+
+<p corresp='TTP33485340P2' xml:id='OTP33485340P2'>$1000.00 reward
+</p>
+
+<p corresp='TTP33485340P3' xml:id='OTP33485340P3'><hr/>
+</p>
+
+<p corresp='TTP33485340P4' xml:id='OTP33485340P4'><rs ref='#S25026074'><b>EXECUTIVE OFFICE,</b><lb/>
+STATE OF MISSISSIPPI</rs>,<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33485340P5' xml:id='OTP33485340P5'><hi rend='italic'>From</hi> Fannie A. Wissler<lb/>
+<hi rend='italic'>Address</hi> Macon, Miss.<lb/>
+<hi rend='italic'>Dated</hi> December 19, 1871<lb/>
+<hi rend='italic'>Received</hi> December 23 1871<lb/>
+<hi rend='italic'>Answered</hi><lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33485340P6' xml:id='OTP33485340P6'>SUBJECT:
+</p>
+
+<p corresp='TTP33485340P7' xml:id='OTP33485340P7'>States facts connected with the assassination of her husband
+</p>
+
+<p corresp='TTP33485340P8' xml:id='OTP33485340P8'>Reward of $1100 offered [dec?]. 23, 1871
+</p>
+
+<p corresp='TTP33485340P9' xml:id='OTP33485340P9'>File<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33485340P10' xml:id='OTP33485340P10'>RIDGLEY C. POWERS,<lb/>
+<hi rend='italic'>Governor</hi>.
+</p>
+
+<p corresp='TTP33485340P11' xml:id='OTP33485340P11'><rs ref='#S32077064'>JULIUS JUNKERMANN</rs>,<lb/>
+<hi rend='italic'>Private <rs ref='#S95466'>Secretary</rs></hi>. 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

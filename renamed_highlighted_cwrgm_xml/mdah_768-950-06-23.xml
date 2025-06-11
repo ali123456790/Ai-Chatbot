@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Abraham Murdock to Mississippi Governor Charles Clark; March 3, 1865</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2022-12-04T01:08:18Z">December  4, 2022</date> and
+              <date type="last_edit" when="2023-11-02T18:13:32Z">November  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-11-04T16:54:48Z">November  4, 2022</date> and
+              <date type="last_edit" when="2023-03-08T16:15:18Z">March  8, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-10-28T13:57:24Z">October 28, 2022</date> and
+              <date type="last_edit" when="2022-10-28T13:57:39Z">October 28, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-11-22T17:45:20Z">November 22, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T17:11:02Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T15:22:08+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S52436">
+              <persName>Clark, Charles, 1811-1877</persName>
+                <idno>https://en.wikipedia.org/wiki/Charles_Clark_(governor)</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52436P0'>Charles Clark served as Mississippi’s governor during the last two years of the Civil War. Born in Cincinnati, Ohio, on May 24, 1811, Clark later moved to Mississippi, where he became a lawyer and a state representative in the late 1830s. After successfully representing a Mississippi settler in a land dispute with members of the Choctaw Nation in the early 1840s, Clark received a large tract of land near Beulah, Mississippi, as payment. Clark eventually enlarged his property to over five thousand acres, making it one of the largest and most successful plantations in Mississippi. During this time, he married Ann Eliza Darden and between 1840 and 1852 fathered three children.
+</p>
+
+<p xml:id='OTPS52436P1'>Clark volunteered for military service during the Mexican-American War in 1846 and raised a company of volunteers that was placed into the 2nd Mississippi Regiment. After its original commander resigned, Clark was elected colonel. Following the war in 1848, he returned to Mississippi resumed an interest in politics. He was selected as a delegate to a state convention in 1851 that debated the matter of secession in the wake of the Compromise of 1850, which had tried to settle a fierce dispute over the fate of slavery in territories gained by the United States from Mexico. Clark attended the convention as a Unionist, opposed to withdrawing from the Union. Developments over the next ten years changed his mind.
+</p>
+
+<p xml:id='OTPS52436P2'>Clark won a seat in the Mississippi’s House of Representatives as a Whig, serving from 1856 to 1861. Following Abraham Lincoln’s election as president in 1860, Clark embraced Mississippi’s secession. When the Civil War broke out, Clark received a commission as a brigadier general in the Mississippi Militia. He later entered the Confederate Army and eventually took command of a division. Slightly wounded at the Battle of Shiloh in April 1862, he was more seriously wounded and captured during fighting at Baton Rouge, Louisiana, in August 1862. Clark spent a short time as a prisoner of war before he was paroled by Union forces.
+</p>
+
+<p xml:id='OTPS52436P3'>In 1863, Clark ran for governor of Mississippi, in the wake of Confederate defeats at Vicksburg and Jackson. Clark campaigned on continued resistance to the Union and easily won the executive seat. Due to Union campaigns in Mississippi, Clark periodically moved the state government, from Jackson to Macon, then to Columbus, and back to Macon. When Confederate forces in Mississippi surrendered in May 1865, Clark instructed the state legislature to convene for a special session in Jackson. In June 1865, federal troops at Jackson arrested Clark and imprisoned him at Fort Pulaski, Georgia.
+</p>
+
+<p xml:id='OTPS52436P4'>Eventually released from federal custody, Clark returned to Bolivar County, Mississippi. He quietly practiced law and served on the University of Mississippi Board of Trustees during Reconstruction. In 1876, Clark received an appointment as chancellor for the fourth judicial district. He died a year later, on December 17, 1877. Clark is buried in a family cemetery at Beulah, Mississippi.
+</p>
+
+<p xml:id='OTPS52436P5'>(Wikipedia; David Sansing, “Charles Clark: Twenty-fourth Governor of Mississippi: 1863–1865,” Mississippi History Now; FindaGrave)
+</p>
+
+<p xml:id='OTPS52436P6'>Charles Clark belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S100477">
+              <persName>Vasser, William H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S104392">
+              <persName>Murdock, Abraham</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51804">
+              <placeName>Mississippi--Lowndes County. Columbus</placeName>
+                <idno>https://en.wikipedia.org/wiki/Columbus,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51804P0'>Currently located in Lowndes County, Columbus was founded on December 6, 1819 in what was then a "non-county area." When Lowndes County was created on January 30, 1830, Columbus became its county seat. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.50167, -88.415</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S98996'>
+            <catDesc>
+              <term>Political Office--Appointment to Office</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/appointment</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98996P0'>"The act of officially choosing someone for a job, or the job itself." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S62931'>
+            <catDesc>
+              <term>Prisons</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/prison</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62931P0'>"A building where criminals are forced to live as a punishment." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25018594'>
+            <catDesc>
+              <term>Prisons--Military Prisons</term>
+              <idno>https://en.wikipedia.org/wiki/American_Civil_War_prison_camps</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25018594P0'>During the Civil War, Union and Confederate authorities operated prison camps to hold soldiers captured during combat operations between 1861 and 1865. More than 210,000 Union soldiers and more than 460,000 Confederate soldiers became prisoners of war during the conflict. Several prison camps were originally military training camps converted into holding facilities out of necessity. As the war progressed, new camps were constructed specifically to hold prisoners of war. Prison camp conditions deteriorated as large numbers of new detainees arrived, particularly after large battles, stretching existing camps beyond their intended capacities. The most notorious prisons were the Camp Sumter (more popularly known as Andersonville) in Georgia and Camp Douglas in Illinois. More than 30,000 Union prisoners (15%) died in captivity, while almost 26,000 Confederate prisoners (12%) died in Union hands.
+</p>
+
+<p xml:id='OTPSD25018594P1'>Early in the war, Union and Confederate authorities engaged in a parole system, which typically involved exchanging prisoners. The system occasionally involved instances when direct exchanges were not possible, but officials still released prisoners of war under oath to not take up arms again until the opposing governments had processed a legal exchange at a later date. Parolees guilty of violating the conditions of their release were subject to execution. One notable example of widespread parole was Ulysses S. Grant’s release of thousands of Confederate prisoners captured at Vicksburg in July 1863. This parole system was common in European warfare, but was most often used due to practical limitations of field armies detaining large numbers of prisoners.
+</p>
+
+<p xml:id='OTPSD25018594P2'>The parole system broke down in 1863 when the Confederate government refused to recognize African American Union soldiers as legitimate combatants. Additionally, Union officials recognized that the Confederacy, with its smaller pool of manpower, benefitted more from the parole system than the Union. As a result, the parole system almost entirely ceased in 1864 and the numbers of prisoners of war held in camps in the Union and Confederacy increased significantly. It resumed in early 1865, when the Confederate war effort was collapsing. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+<category xml:id='C32001716S25018594'>
+<catDesc>
+<term><rs ref='S25018594'>Prisons--Military Prisons</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S96659'>
+            <catDesc>
+              <term>Impoverished People</term>
+              <idno>https://www.britannica.com/topic/poverty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96659P0'>Impoverished people are those who lack "a usual or socially acceptable amount of money or material possessions," or alternately those who "lack the means to satisfy their basic needs (Britannica). This definition, necessarily subjective and broad, indicates that what one person or society deems "socially acceptable" or what constitutes "basic needs" is malleable.
+</p>
+
+<p xml:id='OTPSD96659P1'>Similarly, impoverished people in the United States in the nineteenth century did not fit one specific category. The rise of industrialism produced an increased number of impoverished people in the U. S., particularly within large urban centers. European immigrants in cities in the East, and Chinese immigrants on the West Coast, and African Americans in the South were disproportionately affected by poverty. Regionally, the highest number of impoverished people came from the U. S. South, where "both whites and African Americans struggled with debt, low cotton prices, laws favorable to employers and creditors, paltry alternatives, and the general post war devastation" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 547).
+</p>
+
+<p xml:id='OTPSD96659P2'>Racism and nativism among employers and employees also made economic advancement more difficult for people of color and immigrants. However, the impoverished made up a comparatively low percentage of Mississippi's antebellum population, given its low number of immigrants and even native residents, lack of industrialization and urbanization, and mobility of those that were impoverished (Mississippi Encyclopedia). Many reform organizations throughout the country took the lead in fighting poverty in the nineteenth century, while state and federal governments by the end of the century also developed its own institutional responses. The status of being impoverished has always carried negative connotations in American history, so CWRGM uses the tag "Impoverished people" to emphasize the personhood of those in poverty rather than their social status. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S57050'>
+            <catDesc>
+              <term>Prisoners of War</term>
+              <idno>https://www.battlefields.org/learn/articles/civil-war-prison-camps#:~:text=Despite%20the%20controversy%2C%20there%20can,many%20camps%20on%20both%20sides.</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD57050P0'>The prisoner of war experience varied across time and geography during the American Civil War. Both Union and Confederate governments, expecting a short war, did not possess the capabilities of maintaining large prisoner of war populations. Early in the war, prisoners were often exchanged on a one-to-one basis through a parole process and returned to their respective armies. However, the Union Army's enlistment of Black troops in 1862 soured the exchange process and led to the creation of large prison camps in both the North and South.
+</p>
+
+<p xml:id='OTPSD57050P1'>As the war continued, and battles grew larger and more frequent, the number of prisoners held in these camps quickly exceeded their capacities, leading to overcrowding by 1863. Civil War prison camps, particularly the Andersonville Prison Camp in Georgia, presented some of the most appalling living conditions of the war, which only deteriorated over time. Prisoners of war during the American Civil War faced inadequate food, water, and shelter while living in cramped and deeply unsanitary conditions. Prisoners of war therefore made up a significant portion of deaths during the war, often dying from starvation or sickness. The experiences of prisoners of war differed depending on which camp they were confined to and depending on their race or ethnicity, particularly as the Confederacy in 1863 adopted a policy of executing Black soldiers who surrendered rather than imprisoning them. Even among whites, hostilities over the experiences of battle also led to abuse and violence within the camps, as prisoners sought revenge on vulnerable prisoners.
+</p>
+
+<p xml:id='OTPSD57050P2'>Ultimately, the prisoner of war experience for those who survived was universally traumatizing and produced one of the most contentious points both during the Civil War and in its commemoration and reconciliation afterword, as the treatment of prisoners of war became a rallying cry for pointing out the cruelties of the enemy for both North and South (National Battlefield Trust; National Park Service).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Clark Series 768</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1865</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Murdock, Abraham</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1865-03-03</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Clark Collection. Letter from Abraham Murdock at Columbus, Mississippi, to Mississippi Governor Charles Clark, recommending Captain W. H. Vasser as a commissioner to distribute funds to Mississippi soldiers held in Federal military prisons.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 11.5&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Columbus (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_768-950-06-23</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Lowndes County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Dalton Wood; Britany Castilaw; McKenna Fussell; Michael Singleton; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 950, Folder 6</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Clark, Charles, 1811-1877; Confederate States of America. Army; Military prisons; Mississippi. Governor; Prisoners of war; Public welfare</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Abraham Murdock to Mississippi Governor Charles Clark; March 3, 1865</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/23097&quot;&gt;Letter from Abraham Murdock to Mississippi Governor Charles Clark; March 3, 1865&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG16" who="U2" when="2024-10-25T17:11:02Z" target="#P32548597">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-11-02T18:13:32Z" target="#P32548597">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-11-02T15:53:30Z" target="#P32548597">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-11-02T03:14:23Z" target="#P32548597">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-09-02T20:29:08Z" target="#P32548597">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-03-19T21:31:22Z" target="#P32548597">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2023-03-18T21:21:23Z" target="#P32548597">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091356" when="2023-03-08T16:15:18Z" target="#P32548597">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2023-03-03T17:40:32Z" target="#P32548597">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2022-12-04T01:08:18Z" target="#P32548597">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091195" when="2022-11-22T17:45:20Z" target="#P32548597">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25091356" when="2022-11-04T16:55:08Z" target="#P32548598">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25091356" when="2022-11-04T16:54:48Z" target="#P32548597">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2022-10-28T13:57:39Z" target="#P32548598">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U231087" when="2022-10-28T13:57:24Z" target="#P32548597">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-09-13T14:08:20Z" target="#P32548598">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-09-13T14:08:14Z" target="#P32548597">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32548597" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:23095/full/full/0/default.jpg"/>
+        <div xml:id="OTP32548597">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32548597P0' xml:id='OTP32548597P0'><rs ref='#S51804'>Columbus</rs> March 3/65
+</p>
+
+<p corresp='TTP32548597P1' xml:id='OTP32548597P1'>Gov <rs ref='#S52436'>Cha<add place='above'>s</add> Clark</rs>
+</p>
+
+<p corresp='TTP32548597P2' xml:id='OTP32548597P2'>Dr Sir
+</p>
+
+<p corresp='TTP32548597P3' xml:id='OTP32548597P3'>I am advised that Capt <rs ref='#S100477'>W H Vasser</rs> is an applicant for the <rs ref='#S98996'>appointment</rs> of Commissioner to distribute funds to our <rs ref='#S96659'>suffering</rs> <rs ref='#S57050'>soldiers</rs> in northern <rs ref='#S25018594'>Prisons</rs>—it affords me pleasure to say that I have known Capt Vasser for many years &amp; that he is an incorruptible man &amp; possessed of talents of no ordinary characted—
+</p>
+
+<p corresp='TTP32548597P4' xml:id='OTP32548597P4'>I can therefore cheerfully &amp; cordially recommend him
+</p>
+
+<p corresp='TTP32548597P5' xml:id='OTP32548597P5'>Yours truly
+</p>
+
+<p corresp='TTP32548597P6' xml:id='OTP32548597P6'><rs ref='#S104392'>Ab<add place='above'><hi rend='underline'>m</hi></add> Murdock</rs> 
+</p>
+
+
+        </div>
+        <pb xml:id="F32548598" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:23096/full/full/0/default.jpg"/>
+        <div xml:id="OTP32548598">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32548598P0' xml:id='OTP32548598P0'>Gov Chas Clark<lb/>
+Columbus<lb/>
+Miss
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

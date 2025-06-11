@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Ration return of Lieutenant Franklin Force; August 16, 1865</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 10 edits between
+              <date type="first_edit" when="2023-03-06T04:29:43Z">March  6, 2023</date> and
+              <date type="last_edit" when="2023-11-02T15:55:06Z">November  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2024-06-05T20:21:19Z">June  5, 2024</date> and
+              <date type="last_edit" when="2024-06-05T20:25:54Z">June  5, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-08-17T14:12:00Z">August 17, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-08-21T02:51:44Z">August 21, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091235">
+          <persName
+            >
+            Amanda Patrick
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-08-25T17:34:55Z">August 25, 2022</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:16:51+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32041094">
+              <persName>Force, Franklin</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32041095">
+              <persName>Cooper, Samuel A.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63046">
+              <placeName>Mississippi--Rankin County. Brandon</placeName>
+                <idno>https://en.wikipedia.org/wiki/Brandon,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63046P0'>Located in Rankin County, Brandon was incorporated on December 19, 1831 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.28028, -89.99833</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001718'>
+<catDesc>Natural &amp; Human Caused Disasters</catDesc>
+          <category xml:id='S98634'>
+            <catDesc>
+              <term>Starvation</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/starvation?q=Starvation</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001718'>Natural &amp; Human Caused Disasters</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98634P0'>"The state of having no food for a long period, often causing death." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S71916'>
+            <catDesc>
+              <term>United States. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71916P0'>The United States Army is the military land force of the United States of America. During the American Civil War it was also referred to as the Union Army, Federal Army, or Northern Army. Its primary military objective during the war was the restoration and preservation of the United States through the defeat of secessionist forces. The United States Army traces its roots to the Continental Army, created in 1775 during the American Revolution. Following American independence, the new United States severely reduced the size of the army due to distrust of permanent standing military forces. The small regular army generally handled military operations against Native Americans and for coastal defense. State authorities were expected to support the country’s military needs with their militias, or by raising volunteer units, temporarily activated for federal service.
+</p>
+
+<p xml:id='OTPSD71916P1'>At the outbreak of the Civil War, the United States regular army consisted of barely more than 16,000 soldiers, scattered across the country (primarily at coastal defenses and forts established in the territories) among ten infantry regiments, four artillery regiments, two cavalry regiments, two dragoon regiments, and one regiment of mounted rifles. Roughly 20% of the army’s officers and enlisted resigned their positions to fight for the Confederacy. After Southern troops attacked and captured Fort Sumter in South Carolina, President Abraham Lincoln called for 75,000 volunteers to expand the army and defeat the Confederates. The government continued to issue subsequent requests for volunteers as the war progressed. As with established practice, the states were to recruit the volunteers and provide them for federal service. Initial enlistments were for 90 days, but eventually enlistment terms were expanded, typically for three years. In total, more than 2,000,000 men served in the United States Army during the course of the Civil War. Of those, only around 60,000 were part of the regular army. The overwhelming majority were in state-based units. Most soldiers were volunteers, however the federal government began drafting men in 1862, as the army’s campaigns continued and volunteer numbers dwindled. In total, around 46,000 Union soldiers (about 5.5%) were draftees.
+</p>
+
+<p xml:id='OTPSD71916P2'>Approximately two-thirds of the soldiers in the United States Army during the Civil War were native-born white citizens. Around 100,000 were from states within the Confederacy. Immigrants made up about 25% of Union soldiers, with Germans and Irish immigrants being among the most prominent. The army also included soldiers of different ethnicities, including more than 3,000 Native American soldiers. In 1863, the Union army began formally accepting African American soldiers—in segregated units—and by the end of the war, around than 179,000 had served in the United States Army uniform.
+</p>
+
+<p xml:id='OTPSD71916P3'>When hostilities ended in June 1865, approximately 110,000 had been killed in combat or succumbed to wounds, more than 220,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S49567'>
+            <catDesc>
+              <term>United States. Army. Colored Infantry Regiment, 50th</term>
+              <idno>https://www.nps.gov/civilwar/search-battle-units-detail.htm?battleUnitCode=UUS0050RI00C</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD49567P0'>The 50th Regiment, United States Colored Infantry (Union) was organized from the 12th Regiment, Louisiana Infantry (African Descent) on March 11, 1864  and served in the Western Theater. It mustered out of service on March 20, 1866. (National Park Service-Battle Units; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001684'>
+<catDesc>Military Roles</catDesc>
+          <category xml:id='S49748'>
+            <catDesc>
+              <term>Provost Marshals</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/military-police</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001684'>Military Roles</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD49748P0'>"The police force within the armed forces, responsible for dealing with members of the armed forces who break the law." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+          <category xml:id='S76355'>
+            <catDesc>
+              <term>United States--War Department</term>
+              <idno>https://en.wikipedia.org/wiki/United_States_Department_of_War</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001145'>U.S. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>38.9101, -77.0147</geo>
+              </note>
+              <gloss><p xml:id='OTPSD76355P0'>The United States Department of War (or War Department) was the office responsible for managing the United States Army during the nineteenth and early twentieth centuries. Its origins date back to the creation of the Board of War and Ordnance in 1776 within the Continental Congress during the American Revolutionary War. The office was refined in 1777 as the Board of War, separating it from the Congress, and then formed into the Department of War by the Congress of the Confederation. Initially the office had oversight over all aspects of military defense and war. However, during George Washington’s administration, the United States Congress created the Navy Department to handle maritime affairs, leaving the War Department in charge of the country’s ground forces. The department was led by the Secretary of War, a member of the president’s cabinet. During the early decades of the nineteenth century, the department periodically expanded with the creation of sub-departments, later refined into bureaus, in response to international crises and increased military operations against Native Americans. This included the Bureau of Indian Affairs, created in 1824. Congress transferred that office to the new Department of the Interior in 1849.
+</p>
+
+<p xml:id='OTPSD76355P1'>During the American Civil War, the War Department took responsibility for the rapid growth and development of the Union army. Over the course of the war, department officials oversaw recruitment, training, supply, medical care, transportation, and pay for more than two million soldiers. During the latter half of the war, the War Department oversaw the administration of federal resources for freed slaves that sought refuge within Union lines with the creation of the Bureau of Refugees, Freedmen and Abandoned Lands. Officials from that bureau continued to support and advocate for Black southerners, while other elements of the department managed the military governing of the former Confederate states, until the end of Reconstruction in 1877. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32039077'>
+            <catDesc>
+              <term>United States--War Department. Subsistence Department</term>
+              <idno>https://history.army.mil/books/r&amp;h/R&amp;H-Sub.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001145'>U.S. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>38.88028, -77.10833</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32039077P0'>Dating back to the commissary-general office in the American Revolutionary War, the Subsistence Department formally came into being by legislation in 1818. It was responsible for procuring, storing, and providing food for the United States Army. The department remained small during the early nineteenth century, except for a temporary expansion during the Mexican War. Then, in July 1861, the department was enlarged to support the rapidly growing Union Army during the Civil War. The commissary-general in charge of the department attained the rank of brigadier general, and, by the end of the war, consisted of over 550 personnel. The department downsized against following the Civil War, but retained its role as the chief supplier of foodstuffs to the U.S. Army. (United States Army Center of Military History)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001145'>
+<catDesc>U.S. Federal Government</catDesc>
+          <category xml:id='S54857'>
+            <catDesc>
+              <term>United States--Bureau of Refugees, Freedmen, and Abandoned Lands</term>
+              <idno>https://en.wikipedia.org/wiki/Freedmen%27s_Bureau</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001145'>U.S. Federal Government</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>38.90472, -77.01639</geo>
+              </note>
+              <gloss><p xml:id='OTPSD54857P0'>Operating at the national level, the Bureau of Refugees, Freedmen, and Abandoned Lands was headquartered in Washington, D. C. Usually referred to as the Freedmen's Bureau, it was formed during early Reconstruction on March 3, 1865 primarily to assist the transition of over four million enslaved people to freedom across the American South. It operated briefly as a U.S. government agency from 1865 to 1872. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001145S76355'>
+<catDesc>
+<term><rs ref='S76355'>United States--War Department</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001145S32039077'>
+<catDesc>
+<term><rs ref='S32039077'>United States--War Department. Subsistence Department</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S32033187'>
+            <catDesc>
+              <term>Homeless or Unhoused Persons</term>
+              <idno>https://en.wikipedia.org/wiki/Homelessness_in_the_United_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32033187P0'>The Cambridge Dictionary defines homeless or unhoused persons as "people who do not have a home, usually because they are [impoverished]" (Cambridge Dictionary), but one scholar notes that classifying homelessness based on the lack of fixed domicile narrows the definition of a varied and diverse experience, arguing instead for a more fluid definition of homeless persons as those experiencing "the lack of a fixed abode, an impoverished lifestyle, and, in most cases, weak or nonexistent family support" (Kusmer, <hi rend='italic'>Down and Out, on the Road</hi>, 16).
+</p>
+
+<p xml:id='OTPSD32033187P1'>Homelessness expanded rapidly in the nineteenth-century United States, in large part due to rapid industrialization and the wide income disparity associated with it. While economic depressions contributed heavily to homelessness, "even during prosperous times workers might be forced into the [homeless] class as a result of seasonal unemployment, automation, or industrial accidents" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 27). Prior to the Civil War, few homeless people lived in the American South. However, homelessness expanded rapidly in the South in the 1870s in part because improved transportation on railroads provided means by which homeless people could easily travel through the region and because the collapse of chattel slavery increased the availability of seasonal agricultural work for both white and Black people in the South.
+</p>
+
+<p xml:id='OTPSD32033187P2'>Reform groups, generally associated with evangelical Christian denominations, often attempted to aid homeless persons by providing temporary shelter and food. Certain states also made institutional efforts to aid homeless persons by establishing almshouses or, most often, so-called "tramp rooms" in local police stations where homeless persons could temporarily stay overnight. However, few municipal or governmental authorities made institutional efforts to alleviate homelessness or to aid homeless persons, often arresting homeless persons as "vagrants" and sentencing them to varied periods in jail.
+</p>
+
+<p xml:id='OTPSD32033187P3'>Homelessness in the nineteenth-century United States, like so much else, was also subject to divisions of race and gender, as men were far more likely to experience homelessness than women, and African Americans of either sex more likely than whites (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 27). While nineteenth-century Americans used many terms to refer to homeless persons, many of such labels came laden with associations of criminality, laziness, or subversiveness and often helped further cement class inequality (Kusmer, <hi rend='italic'>Down and Out, on the Road</hi>, 8, 21). CWRGM uses the tag "Homeless persons" to emphasize one's personhood and not their social or class status.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S96659'>
+            <catDesc>
+              <term>Impoverished People</term>
+              <idno>https://www.britannica.com/topic/poverty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96659P0'>Impoverished people are those who lack "a usual or socially acceptable amount of money or material possessions," or alternately those who "lack the means to satisfy their basic needs (Britannica). This definition, necessarily subjective and broad, indicates that what one person or society deems "socially acceptable" or what constitutes "basic needs" is malleable.
+</p>
+
+<p xml:id='OTPSD96659P1'>Similarly, impoverished people in the United States in the nineteenth century did not fit one specific category. The rise of industrialism produced an increased number of impoverished people in the U. S., particularly within large urban centers. European immigrants in cities in the East, and Chinese immigrants on the West Coast, and African Americans in the South were disproportionately affected by poverty. Regionally, the highest number of impoverished people came from the U. S. South, where "both whites and African Americans struggled with debt, low cotton prices, laws favorable to employers and creditors, paltry alternatives, and the general post war devastation" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 547).
+</p>
+
+<p xml:id='OTPSD96659P2'>Racism and nativism among employers and employees also made economic advancement more difficult for people of color and immigrants. However, the impoverished made up a comparatively low percentage of Mississippi's antebellum population, given its low number of immigrants and even native residents, lack of industrialization and urbanization, and mobility of those that were impoverished (Mississippi Encyclopedia). Many reform organizations throughout the country took the lead in fighting poverty in the nineteenth century, while state and federal governments by the end of the century also developed its own institutional responses. The status of being impoverished has always carried negative connotations in American history, so CWRGM uses the tag "Impoverished people" to emphasize the personhood of those in poverty rather than their social status. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Sharkey Series 773</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.; Funding for this project provided by the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1865</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Cooper, Samuel A.; Force, Franklin</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1865-08-16</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Sharkey Collection. Ration return of Lieutenant Franklin Force, acting Provost Marshal of Freedmen, requesting ten days rations to be issued for one man and nine women, all impoverished African Americans, at Brandon, Mississippi. The return is approved by Captain Samuel A. Cooper of the 50th United States Colored Infantry, thus authorizing the Assistant Commissary of Subsistence to issue the requested rations.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_773-958-05-082</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 12.5&quot; x 5.5&quot; 1-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Brandon (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_773-958-05-082</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Rankin County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Britany Castilaw; Dalton Wood; Michael Singleton; Austin Justice; MICHAELLAPTOP\Michael</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 958, Folder 5</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>African Americans; Food; Freed persons; Mississippi. Governor; Poverty; Public welfare; Rationing; Sharkey, William Lewis, 1798-1873; United States. Army; United States. Army--Commissariat; United States. Army--Officers; United States. Army--Supplies and stores</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Ration return of Lieutenant Franklin Force; August 16, 1865</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/21343&quot;&gt;Ration return of Lieutenant Franklin Force; August 16, 1865&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG17" who="U25091195" when="2024-06-05T20:25:54Z" target="#P32346762">
+          Version 17 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091195" when="2024-06-05T20:25:45Z" target="#P32346762">
+          Version 16 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091195" when="2024-06-05T20:24:31Z" target="#P32346762">
+          Version 15 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091195" when="2024-06-05T20:21:19Z" target="#P32346762">
+          Version 14 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-11-02T15:55:06Z" target="#P32346762">
+          Version 13 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-11-02T04:19:00Z" target="#P32346762">
+          Version 12 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-11-02T02:56:10Z" target="#P32346762">
+          Version 11 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2023-09-02T19:43:20Z" target="#P32346762">
+          Version 10 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2023-08-28T16:14:45Z" target="#P32346762">
+          Version 9 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2023-03-19T20:02:06Z" target="#P32346762">
+          Version 8 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2023-03-19T19:52:43Z" target="#P32346762">
+          Version 7 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U220769" when="2023-03-19T14:34:03Z" target="#P32346762">
+          Version 6 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U220769" when="2023-03-17T22:47:58Z" target="#P32346762">
+          Version 5 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U220769" when="2023-03-06T04:29:43Z" target="#P32346762">
+          Version 4 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25091235" when="2022-08-25T17:34:55Z" target="#P32346762">
+          Version 3 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U25091253" when="2022-08-21T02:51:44Z" target="#P32346762">
+          Version 2 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U25091356" when="2022-08-17T14:12:00Z" target="#P32346762">
+          Version 1 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-06-06T22:28:05Z" target="#P32346762">
+          Version 0 of page "Ration return of Lieutenant Franklin Force; August 16, 1865":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32346762" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:21343/full/full/0/default.jpg"/>
+        <div xml:id="OTP32346762">
+        <fw type="pageNum">Ration return of Lieutenant Franklin Force; August 16, 1865</fw>
+          <p corresp='TTP32346762P0' xml:id='OTP32346762P0'>FORM 13.
+</p>
+
+<p corresp='TTP32346762P1' xml:id='OTP32346762P1'><b>Ration Return of</b> <rs ref='#S54857'>Freedmen</rs> <del rend='overstrike'>Company,</del> [gap] <del rend='overstrike'>Regiment of</del> [gap] for 15 days, commencing the 15 day of August 1865, and ending the 31<add place='above'><hi rend='underline'>st</hi></add><sub>"</sub> day of August 1865:
+</p>
+
+<p corresp='TTP32346762P2' xml:id='OTP32346762P2'><table cols='7' rows='2'><row role='label'/><row><cell role='data'> <b>STATION.</b></cell><cell role='data'>No. of Men.</cell><cell role='data'>No. of Women. &amp; children</cell><cell role='data'>TOTAL.</cell><cell role='data'>No. of Days.</cell><cell role='data'>No. of Rations.</cell><cell role='data'><b>RATIONS OF</b> Pork.</cell><cell role='data'><b>RATIONS OF</b> Bacon.</cell><cell role='data'><b>RATIONS OF</b> Ham.</cell><cell role='data'><b>RATIONS OF</b> Salt Beef.</cell><cell role='data'><b>RATIONS OF</b> Fresh Beef.</cell><cell role='data'><b>RATIONS OF</b> Flour.</cell><cell role='data'><b>RATIONS OF</b> Hard Bread.</cell><cell role='data'><b>RATIONS OF</b> Beans.</cell><cell role='data'><b>RATIONS OF</b> Peas.</cell><cell role='data'><b>RATIONS OF</b> Rice.</cell><cell role='data'><b>RATIONS OF</b> Hominy.</cell><cell role='data'><b>RATIONS OF</b> Coffee. Rye</cell><cell role='data'><b>RATIONS OF</b> Tea.</cell><cell role='data'><b>RATIONS OF</b> Sugar.</cell><cell role='data'><b>RATIONS OF</b> Vinegar.</cell><cell role='data'><b>RATIONS OF</b> Adamantine Candles.</cell><cell role='data'><b>RATIONS OF</b> Soap.</cell><cell role='data'><b>RATIONS OF</b> Salt.</cell><cell role='data'><b>RATIONS OF</b> Pepper.</cell><cell role='data'><b>RATIONS OF</b> Molasses.</cell><cell role='data'><b>RATIONS OF</b> Potatoes.</cell><cell role='data'><b>RATIONS OF</b> <del rend='overstrike'>Mixt Vegetables</del></cell><cell role='data'><b>REMARKS.</b></cell></row><row><cell role='data'> <rs ref='#S63046'>Brandon Miss.</rs></cell><cell role='data'>1</cell><cell role='data'>9</cell><cell role='data'>10</cell><cell role='data'>16</cell><cell role='data'>160</cell><cell role='data'/><cell role='data'>160</cell><cell role='data'/><cell role='data'/><cell role='data'/><cell role='data'>160</cell><cell role='data'/><cell role='data'>160</cell><cell role='data'><del rend='overstrike'>40</del></cell><cell role='data'><del rend='overstrike'>40</del></cell><cell role='data'/><cell role='data'>160</cell><cell role='data'/><cell role='data'>160</cell><cell role='data'><del rend='overstrike'>160</del></cell><cell role='data'><del rend='overstrike'>160</del></cell><cell role='data'>160</cell><cell role='data'>160</cell><cell role='data'><del rend='overstrike'>160</del></cell><cell role='data'/><cell role='data'/><cell role='data'><del rend='overstrike'>160</del></cell><cell role='data'>These people are <rs ref='#S96659'>destitute</rs> of <rs ref='#S32033187'>home</rs> and food and unless fed for the present from the commissary must <rs ref='#S98634'>starve</rs>. </cell></row></table> The <rs ref='#S32039077'>A. C. S.</rs> will issue on the above return.
+</p>
+
+<p corresp='TTP32346762P3' xml:id='OTP32346762P3'><rs ref='#S32041094'>Franklin Force</rs>Lt. and Act. <rs ref='#S49748'>Prov. Mar.</rs> of Freedmen <del rend='overstrike'><hi rend='italic'>Commanding Company</hi></del>.
+</p>
+
+<p corresp='TTP32346762P4' xml:id='OTP32346762P4'><rs ref='#S32041095'>S A Cooper</rs>Capt <rs ref='#S49567'>50<add place='above'>th</add> U S Cold Inft.</rs> <hi rend='italic'>Commanding Post</hi>.
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

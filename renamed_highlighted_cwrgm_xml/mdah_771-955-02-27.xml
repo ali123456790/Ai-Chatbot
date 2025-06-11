@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Captain D. M. Graves to Mississippi Governor William L. Sharkey; July 7, 1865</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 26 edits between
+              <date type="first_edit" when="2022-05-17T18:56:26Z">May 17, 2022</date> and
+              <date type="last_edit" when="2024-03-06T15:23:07Z">March  6, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2022-02-28T23:18:45Z">February 28, 2022</date> and
+              <date type="last_edit" when="2022-02-28T23:19:56Z">February 28, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-03-27T20:21:06Z">March 27, 2022</date> and
+              <date type="last_edit" when="2022-03-27T20:21:20Z">March 27, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-03-25T19:46:01Z">March 25, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T13:16:53Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091404">
+          <persName
+            >
+            Robert Mason
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-12-07T18:48:14Z">December  7, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T15:33:18+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S52215">
+              <persName>Sharkey, William Lewis, 1798-1873</persName>
+                <idno>https://en.wikipedia.org/wiki/William_L._Sharkey</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52215P0'>William Lewis Sharkey served as Mississippi’s governor in 1865, early in the Reconstruction era.
+</p>
+
+<p xml:id='OTPS52215P1'>Born in Sumner County, Tennessee, on July 12, 1798, Sharkey moved with his family to Warren County, Mississippi, in 1804. As an adult, he studied law and began practicing in Natchez, Mississippi, in 1822. Sharkey moved to Vicksburg in 1825 and pursued political office. He won election to the Mississippi House of Representatives and served one term from 1828 to 1829.
+</p>
+
+<p xml:id='OTPS52215P2'>In 1832, Sharkey married Minerva Cage, a widow with two children. The couple had four children over the next several years.  In 1832, Sharkey also became a circuit court judge and was shortly thereafter elected to the High Court of Errors and Appeals, the predecessor to the Supreme Court of Mississippi. He served in that role for 18 years, resigning in 1851. From there, he took a diplomatic appointment for the United States government, serving as U.S. Consul in Havana, Cuba, until 1854. After completing that diplomatic assignment, Sharkey returned to Mississippi and returned to legal and political duties, helping compile the Mississippi Code of 1857.
+</p>
+
+<p xml:id='OTPS52215P3'>During the secession crisis in the winter of 1860 and 1861, following Abraham Lincoln’s election, Sharkey remained a steadfast Unionist. Having been a member of the Whig Party, he retained his opposition to secession and refused to support the Confederacy, even as he remained in Mississippi through the Civil War. Despite his political stance against Mississippi’s secessionist government, Confederate officials left him alone out of respect of his past service to the state as a judge and legal scholar.
+</p>
+
+<p xml:id='OTPS52215P4'>After the Confederacy’s defeat, President Andrew Johnson appointed Sharkey provisional governor of Mississippi in June 1865. In that role, he called forth a constitutional convention to meet Johnson’s goal of swiftly restoring former Confederate states to the Union. In October 1865, Benjamin Humphreys won election as Mississippi’s governor. Sharkey did not vacate the office, though, until December 1865, having served less than a year. Although no longer governor, Sharkey was selected by the Mississippi legislature to serve in the U.S. Senate. Federal officials denied him a seat, and the rest of the Mississippi congressional delegation, following the Republican backlash to Mississippi’s Black Codes—a set of racially discriminatory laws passed by the Mississippi legislature in 1865.
+</p>
+
+<p xml:id='OTPS52215P5'>Having been denied a U.S. Senate seat, Sharkey returned to practicing law, in Jackson, Mississippi. He died in Washington, D.C., on March 30, 1873, and is buried at Greenwood Cemetery in Jackson, Mississippi.
+</p>
+
+<p xml:id='OTPS52215P6'>(Wikipedia; David Sansing, “William Lewis Sharkey: Twenty-fifth Governor of Mississippi: June to December 1865,” Mississippi History Now; FindaGrave)
+</p>
+
+<p xml:id='OTPS52215P7'>William Lewis Sharkey belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S54097">
+              <persName>Ames, David</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32026678">
+              <persName>Janus, W. S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32026679">
+              <persName>Huntley, E.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32026680">
+              <persName>Friday, L. D.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S93017">
+              <persName>Bishop, W. C.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32026681">
+              <persName>Graves, D. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63290">
+              <placeName>Mississippi--Oktibbeha County. Starkville</placeName>
+                <idno>https://www.britannica.com/place/Starkville</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63290P0'>Currently located in Oktibbeha County, Starkville was founded in 1831 in what was Lowndes County at the time of founding under the name Boardtown. On December 23, 1833, it became part of the newly created Oktibbeha County. Boardtown was renamed Starkville in 1835 when it became the county seat, which it remains today. (Britannica; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.4625, -88.82</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25025824'>
+            <catDesc>
+              <term>Criminal Procedures--Amnesty</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/amnesty?q=Amnesty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25025824P0'>Amnesty takes several forms including: "a decision made by government officials to free a prisoner," "a fixed period of time during which people are not punished for committing a particular crime," or "a decision by a government to forgive people who have committed particular illegal acts or crimes, and not to punish them." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S71916'>
+            <catDesc>
+              <term>United States. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71916P0'>The United States Army is the military land force of the United States of America. During the American Civil War it was also referred to as the Union Army, Federal Army, or Northern Army. Its primary military objective during the war was the restoration and preservation of the United States through the defeat of secessionist forces. The United States Army traces its roots to the Continental Army, created in 1775 during the American Revolution. Following American independence, the new United States severely reduced the size of the army due to distrust of permanent standing military forces. The small regular army generally handled military operations against Native Americans and for coastal defense. State authorities were expected to support the country’s military needs with their militias, or by raising volunteer units, temporarily activated for federal service.
+</p>
+
+<p xml:id='OTPSD71916P1'>At the outbreak of the Civil War, the United States regular army consisted of barely more than 16,000 soldiers, scattered across the country (primarily at coastal defenses and forts established in the territories) among ten infantry regiments, four artillery regiments, two cavalry regiments, two dragoon regiments, and one regiment of mounted rifles. Roughly 20% of the army’s officers and enlisted resigned their positions to fight for the Confederacy. After Southern troops attacked and captured Fort Sumter in South Carolina, President Abraham Lincoln called for 75,000 volunteers to expand the army and defeat the Confederates. The government continued to issue subsequent requests for volunteers as the war progressed. As with established practice, the states were to recruit the volunteers and provide them for federal service. Initial enlistments were for 90 days, but eventually enlistment terms were expanded, typically for three years. In total, more than 2,000,000 men served in the United States Army during the course of the Civil War. Of those, only around 60,000 were part of the regular army. The overwhelming majority were in state-based units. Most soldiers were volunteers, however the federal government began drafting men in 1862, as the army’s campaigns continued and volunteer numbers dwindled. In total, around 46,000 Union soldiers (about 5.5%) were draftees.
+</p>
+
+<p xml:id='OTPSD71916P2'>Approximately two-thirds of the soldiers in the United States Army during the Civil War were native-born white citizens. Around 100,000 were from states within the Confederacy. Immigrants made up about 25% of Union soldiers, with Germans and Irish immigrants being among the most prominent. The army also included soldiers of different ethnicities, including more than 3,000 Native American soldiers. In 1863, the Union army began formally accepting African American soldiers—in segregated units—and by the end of the war, around than 179,000 had served in the United States Army uniform.
+</p>
+
+<p xml:id='OTPSD71916P3'>When hostilities ended in June 1865, approximately 110,000 had been killed in combat or succumbed to wounds, more than 220,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32035132'>
+            <catDesc>
+              <term>United States. Army. Indiana. Cavalry Regiment, 12th</term>
+              <idno>https://www.nps.gov/civilwar/search-battle-units.htm#sort=score+desc&amp;q=12th&amp;fq%5B%5D=Side%3A%22Union%22&amp;fq%5B%5D=State%3A%22Indiana%22&amp;fq%5B%5D=Battle_Unit_Function%3A%22Cavalry%22</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32035132P0'>The 12th Regiment, Indiana Cavalry (Union) was organized on December 10, 1863 in LaPorte and Noble Counties, Indiana and served in the Western Theater. It was mustered out of service on November 10, 1865. (National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001675'>
+<catDesc>Financial Occupations</catDesc>
+          <category xml:id='S91163'>
+            <catDesc>
+              <term>Tax Collectors</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/tax-collector</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001675'>Financial Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD91163P0'>"Someone whose job is to collect taxes for the government. The term is often used to refer to the tax authorities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S63934'>
+            <catDesc>
+              <term>Judges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/judge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63934P0'>"A person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63172'>
+            <catDesc>
+              <term>Judges. Justices of the Peace</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/justice-of-the-peace</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63172P0'>"A public officer who judges local and less important legal cases, and performs marriage ceremonies." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S50807'>
+            <catDesc>
+              <term>Clerks</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/clerk</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD50807P0'>"A person who works in an office, dealing with records or performing general office duties." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63395'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/court?topic=law-courts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63395P0'>"A place where trials and other legal cases happen, or the people present in such a place." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S55586'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems--Probate courts</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/probate</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD55586P0'>A court of law for "the legal process of deciding if a person's will has been made correctly and if the information it contains is correct." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+          <category xml:id='S95870'>
+            <catDesc>
+              <term>Military Headquarters</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/headquarters</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95870P0'>A military headquarters is the main center of control for a unit and typically revolves around that unit’s highest ranking officer. The term headquarters often refers to a physical location, however it is not always a permanent facility. A commanding officer can establish a headquarters anywhere that best allows oversight of the unit. Frequently during the Civil War military leaders relocated their headquarters each day as their armies moved. Union general John Pope famously declared that he would make his “headquarters in the saddle.” The comment was more symbolic than literal, but reflected how a headquarters centered on the commander's location and was subject to his discretion in how and where to conduct official duties. Pope’s critics replied that he was making his headquarters where his “hindquarters” should be, representing the more traditional view of a headquarters being a stationary command center strategically located for the effective management of a staff and army. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001717'>
+<catDesc>Voluntary Social &amp; Political Groups</catDesc>
+          <category xml:id='S32082700'>
+            <catDesc>
+              <term>Political Parties</term>
+              <idno>https://en.wikipedia.org/wiki/Political_party</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32082700P0'>"A political party is an organization that coordinates candidates to compete in a particular country's elections. It is common for the members of a party to hold similar ideas about politics, and parties may promote specific ideological or policy goals." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32032255'>
+            <catDesc>
+              <term>Political Parties--Constitutional Union Party (U.S.) </term>
+              <idno>https://en.wikipedia.org/wiki/Constitutional_Union_Party_(United_States)</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32032255P0'>The Constitutional Union Party was a political party that existed only during the contentious 1860 election in the United States. The party was made up primarily of southern conservative members of the dying Whig Party who refused to join the anti-slavery Republican Party or the fractured Democratic Party. Republicans, and their presidential candidate Abraham Lincoln, were almost exclusively northerners who had been Whigs or disgruntled members of the Democratic Party united on a platform that opposed the expansion of slavery into the territories and generally adopted an anti-slavery stance. The Democratic Party had split along north-south territorial lines, with northern Democrats nominating Stephen A. Douglas, who supported popular sovereignty (the policy in which residents of a territory would vote on the matter of slavery within their borders), and southern Democrats nominating John C. Breckinridge as the staunchly pro-slavery candidate. Talk of secession in response to a Republican victory circulated in the south, and particularly among southern Democrats. The Constitutional Union Party tried to take a middle ground stance, opposing secession and avoiding the political battle over slavery. The new party nominated John Bell as its presidential candidate. However, members knew that outright victory in the presidential election was unlikely. They hoped to win enough states in the upper south and lower north to prevent the other candidates from receiving the necessary electoral votes for victory, requiring the U.S. House of Representatives to elect the next president. The Constitutional Union Party leadership believed Congress would select their candidate Bell as the reasonable compromise.
+</p>
+
+<p xml:id='OTPSD32032255P1'>The party won twelve percent of the popular vote, and secured three states in the 1860 election—Tennessee, Kentucky, and Virginia. This was not enough to prevent Lincoln’s victory, as he secured electoral votes from every northern (free) state. Lincoln’s election sparked a wave of secession and then led to the Civil War. The Constitutional Union Party dissolved after the election results made its purpose obsolete. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S71099'>
+            <catDesc>
+              <term>Secessionists</term>
+              <idno>https://www.historynet.com/secession/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71099P0'>The tag "Secessionists" refer to those Americans who supported leaving the Union and establishing an independent Confederate nation. States both North and South had threatened to secede from the United States throughout the nation's history, particularly in New England in 1814 and South Carolina in 1832. However, building tensions between abolitionists and enslavers in the North and South saw an increase in the frequency and fervor of secession threats emanating from southern states in the 1850s. The election of Republican Abraham Lincoln to the presidency in November 1860 provided the impetus many states needed to justify secession. Citing perceived threats to the institution of chattel slavery, on December 20, 1860, South Carolina left the Union, followed by six more lower-South states (Georgia, Florida, Alabama, Mississippi, Texas and Louisiana) over the next four months.
+</p>
+
+<p xml:id='OTPSD71099P1'>After the Confederate attack on Fort Sumter on April 12, 1861, and Abraham Lincoln's call for 75,000 volunteers to put down the rebellion on April 15, four more states from the upper-south (Virginia, Arkansas, North Carolina, and Tennessee) seceded. Throughout the war, politicians and military commanders argued fiercely over the constitutionality of secession and debated whether the Confederate states had indeed seceded or instead remained in the Union, though in rebellion. While the fighting of the Civil War functionally ended the Confederacy's effort at secession, the question of those states' status remained an important one for shaping the prosecution of the war and the process of Reconstruction thereafter (HistoryNet).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Sharkey Series 771</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.; Funding for this project provided by the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1865</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Graves, D. M.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1865-07-07</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Sharkey Collection. Letter from Captain D. M. Graves, commanding the 12th Indiana Cavalry at Starkville, Mississippi, to Mississippi Governor William L. Sharkey, informing Sharkey that he has administered the amnesty oath to several of the officials of Oktibbeha County, Mississippi.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 13&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Starkville (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_771-955-02-27</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Oktibbeha County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Britany Castilaw; Dalton Wood; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 955, Folder 2</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Allegiance; Amnesty; Appraisers; Clerks of court; Judges; Justices of the peace; Loyalty oaths; Mississippi. Governor; Police; Probate courts; Public officers; Secession--Southern States; Sharkey, William Lewis, 1798-1873; Sheriffs; United States. Army; United States. Army. Cavalry; United States. Army--Officers</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Captain D. M. Graves to Mississippi Governor William L. Sharkey; July 7, 1865</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/18438&quot;&gt;Letter from Captain D. M. Graves to Mississippi Governor William L. Sharkey; July 7, 1865&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG36" who="U25091404" when="2024-12-07T18:48:14Z" target="#P32185789">
+          Version 33 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U2" when="2024-10-25T13:16:53Z" target="#P32185789">
+          Version 32 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2024-03-06T15:23:07Z" target="#P32185789">
+          Version 31 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-11-17T17:21:38Z" target="#P32185789">
+          Version 30 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-11-02T04:31:13Z" target="#P32185789">
+          Version 29 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-09-03T00:47:08Z" target="#P32185789">
+          Version 28 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-09-03T00:42:26Z" target="#P32185789">
+          Version 27 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-09-03T00:34:30Z" target="#P32185789">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-09-02T20:27:55Z" target="#P32185789">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-04-09T16:25:36Z" target="#P32185789">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-04-06T17:09:48Z" target="#P32185789">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-19T21:19:46Z" target="#P32185789">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-19T21:05:24Z" target="#P32185789">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-19T02:31:43Z" target="#P32185789">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-18T16:22:38Z" target="#P32185789">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-17T23:28:46Z" target="#P32185789">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-03-16T21:26:48Z" target="#P32185789">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-03-16T20:52:39Z" target="#P32185789">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-03-16T20:29:49Z" target="#P32185789">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-03-06T04:53:25Z" target="#P32185789">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-03-06T03:54:59Z" target="#P32185789">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2022-12-04T17:20:17Z" target="#P32185789">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2022-12-04T17:08:36Z" target="#P32185789">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2022-12-04T02:38:39Z" target="#P32185789">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2022-06-12T20:02:52Z" target="#P32185789">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2022-06-12T19:33:05Z" target="#P32185789">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2022-05-31T18:47:48Z" target="#P32185789">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2022-05-17T18:56:26Z" target="#P32185789">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091253" when="2022-03-27T20:21:20Z" target="#P32185791">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091253" when="2022-03-27T20:21:06Z" target="#P32185789">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091356" when="2022-03-25T19:46:01Z" target="#P32185789">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2022-02-28T23:19:56Z" target="#P32185789">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2022-02-28T23:19:42Z" target="#P32185791">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2022-02-28T23:19:02Z" target="#P32185789">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U231087" when="2022-02-28T23:18:45Z" target="#P32185789">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-02-28T19:27:11Z" target="#P32185791">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-02-28T19:27:08Z" target="#P32185789">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32185789" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:18436/full/full/0/default.jpg"/>
+        <div xml:id="OTP32185789">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32185789P0' xml:id='OTP32185789P0'><rs ref='#S95870'>Head Q<add place='above'>rs</add></rs> Post. <rs ref='#S63290'>Starkville</rs> Miss<lb/>
+July 7<add place='above'>th</add> /65
+</p>
+
+<p corresp='TTP32185789P1' xml:id='OTP32185789P1'>To Gov <rs ref='#S52215'>Sharkey</rs>.
+</p>
+
+<p corresp='TTP32185789P2' xml:id='OTP32185789P2'>Sir.
+</p>
+
+<p corresp='TTP32185789P3' xml:id='OTP32185789P3'>As a military officer at this post in pursuance to your proclamation I this day administered the <rs ref='#S25025824'>Amnesty oath</rs> to <rs ref='#S54097'>David Ames</rs> <rs ref='#S63934'>Judge</rs> of <rs ref='#S55586'>Probates</rs> for Oktibbeha County <rs ref='#S32026678'>W. S. Janus</rs> <rs ref='#S95578'>Sheriff</rs>. <rs ref='#S32026679'>E. Huntley</rs> <rs ref='#S91163'>Assessor</rs> &amp; <rs ref='#S32026680'>L. D. Friday</rs> <rs ref='#S63172'>Justice of the Peace</rs>. I also learn that <rs ref='#S93017'>W. C. Bishop</rs> <rs ref='#S50807'>Clerk</rs> of Probates has had the Oath administered to him by some one else.—I conceive it to be a duty incumbent on me to report that W. S. Janus, (Sheriff,) W. C. Bishop Clerk of Probates, &amp; E. Huntly (Assessor) have been reported to me by sincere <rs ref='#S32032255'>Union</rs> men as having been extremely bitter <rs ref='#S71099'>secessionists</rs> and that they are odious to the truly loyal sentiment of the county
+</p>
+
+<p corresp='TTP32185789P4' xml:id='OTP32185789P4'>These men have also acknowledged themselves to have been very ultra.
+</p>
+
+<p corresp='TTP32185789P5' xml:id='OTP32185789P5'>I believe the report made by these friends of the government and ask that full credence be given them through me.
+</p>
+
+<p corresp='TTP32185789P6' xml:id='OTP32185789P6'>I have the honor to remain <lb/>
+Very Respectfully your Obt Servt.
+</p>
+
+<p corresp='TTP32185789P7' xml:id='OTP32185789P7'><rs ref='#S32026681'>D. M. Graves</rs><lb/>
+Capt <rs ref='#S32035132'>12<add place='above'>th</add> Ind. Cav</rs><lb/>
+Comd'g 
+</p>
+
+
+        </div>
+        <pb xml:id="F32185791" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:18437/full/full/0/default.jpg"/>
+        <div xml:id="OTP32185791">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32185791P0' xml:id='OTP32185791P0'>Capt Graves<lb/>
+Answered
+</p>
+
+<p corresp='TTP32185791P1' xml:id='OTP32185791P1'>D. M. Graves Comdg 12" Ind Cavalry reports ad-ministering the Amnesty Oath to certain indi-viduals
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

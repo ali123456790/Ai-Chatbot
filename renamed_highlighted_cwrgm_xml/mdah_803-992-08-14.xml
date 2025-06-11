@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from S. J. Feemster to Mississippi Governor Adelbert Ames; September 7, 1874</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 15 edits between
+              <date type="first_edit" when="2023-09-02T20:15:26Z">September  2, 2023</date> and
+              <date type="last_edit" when="2024-12-11T19:40:22Z">December 11, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 7 edits between
+              <date type="first_edit" when="2023-04-21T18:50:28Z">April 21, 2023</date> and
+              <date type="last_edit" when="2023-04-21T19:07:08Z">April 21, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2023-04-28T20:32:44Z">April 28, 2023</date> and
+              <date type="last_edit" when="2023-04-29T14:27:26Z">April 29, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2023-02-13T16:44:12Z">February 13, 2023</date> and
+              <date type="last_edit" when="2023-02-13T16:54:39Z">February 13, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2024-10-25T15:21:23Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T16:55:55Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-09-14T18:39:00Z">September 14, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:19:05+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32084975">
+              <persName>Feemster, S. J.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52648">
+              <persName>Ames, Adelbert, 1835-1933</persName>
+                <idno>https://en.wikipedia.org/wiki/Adelbert_Ames</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52648P0'>Adelbert Ames served as a governor and U.S. senator of Mississippi during the Reconstruction era.  He was born in East Thomaston (modern-day Rockland), Maine, in 1835. As a boy, Ames spent time working on various merchant vessels, receiving training in seamanship. He entered the United States Military Academy at West Point in 1856, graduating in May 1861, at the start of the Civil War. Commissioned as a second lieutenant, the young Ames was promoted to first lieutenant barely over a week later and served with the 5th U.S. Artillery during the battle of First Bull Run at Manassas, Virginia, on July 21, 1861. Despite being wounded in the leg, Ames stayed by his cannons. His actions at Bull Run led him to receive the brevet (honorary) rank of major and, in 1893 (more than thirty years later), the Medal of Honor.
+</p>
+
+<p xml:id='OTPS52648P1'>Ames recovered from his wound and returned to the front lines in 1862, serving with distinction as an artillery officer during the Peninsula Campaign near Richmond. Seeking better promotion potential, Ames sought an infantry command. Through those efforts, in August 1862, he received command of the 20th Maine Infantry Regiment, and led that unit in combat during the Battle of Fredericksburg in December 1862. In May 1863, he volunteered to serve as a staff officer for Major General George G. Meade, which helped him achieve the rank of brigadier general that month. With this promotion, Ames left the 20th Maine to his second-in-command, Lieutenant Colonel Joshua Lawrence Chamberlain, who gained great fame commanding the regiment at Little Round Top during the Battle of Gettysburg in July 1863. Ames’ own performance at Gettysburg was highly praised, as his division successfully defended the Union position at Cemetery Hill.
+</p>
+
+<p xml:id='OTPS52648P2'>After Gettysburg, Ames’ division was transferred to the Department of the South. Over the next two years, he commanded Union troops during campaigns in Florida, South Carolina, North Carolina, and Virginia. He received a brevet promotion to major general for his actions at Fort Fisher, North Carolina, in March 1865.
+</p>
+
+<p xml:id='OTPS52648P3'>After the Civil War, Ames became involved in federal Reconstruction efforts. In 1868, he was appointed the provisional governor of Mississippi. Ames proved sympathetic to the plight of African Americans in the south. He sought to protect Black civil rights and appointed Mississippi’s first African American public officials. In 1870, after Mississippi was readmitted into the Union, Ames ran for U.S. senator for the state as a Republican and won. He served in that capacity from February 1870 to January 1874, achieving the reputation as a strong public speaker. While serving as a senator in Washington, D.C., Ames met and married Blanche Butler, daughter of Union general Benjamin F. Butler, under whom Ames had served during the war. Ames and his wife had six children over the course of their marriage.
+</p>
+
+<p xml:id='OTPS52648P4'>In 1873, Ames ran for governor of Mississippi. His chief rival was James L. Alcorn, a former Confederate general who had been a Whig before the Civil War and joined the Republican Party afterwards. Ames won the election and worked diligently to improve Mississippi’s financial and social situation. In 1874, Democrats in Mississippi coordinated a campaign of violence against African Americans and white Republicans in the state, to secure political control in Mississippi. Unable to militarily suppress the white supremacist terror campaign, Ames signed a truce with Democratic leaders in Mississippi to reduce the violence and allow a peaceful election. Groups of white supremacists abandoned the truce and resumed their intimidation tactics against Republicans and Black Mississippians during the following elections, leading to a surge of Democratic politicians taking office.
+</p>
+
+<p xml:id='OTPS52648P5'>In 1876, the conservative Democrat majority in the Mississippi legislature tried to impeach Ames and many other Republican officials with trumped up charges of corruption. Despite a strong political force against him, Ames’ critics were unable to provide any evidence of impropriety. Nevertheless, because impeachment was politically driven, Ames could see that his future as governor was over and any effort on his part to legally defend himself would be personally and financially taxing. He and his attorneys reached an agreement with Democratic leaders to resign his office in exchange for dropping the legal charges. On March 29, 1876, after Democrats cancelled their legal proceedings, Ames vacated his position.
+</p>
+
+<p xml:id='OTPS52648P6'>Ames left Mississippi and went into business in Minnesota with his father and brother. A short time later, he relocated to New York City and then Massachusetts, overseeing mills and various business interests. When the Spanish-American War erupted in 1898, Ames volunteered for service and was appointed brigadier general of volunteers. Although over sixty years old, Ames joined the field campaign in Cuba and performed well.
+</p>
+
+<p xml:id='OTPS52648P7'>Ames resumed his business ventures in the early twentieth century. He lived until 1933, dying at age 97. He is buried in Lowell, Massachusetts.
+</p>
+
+<p xml:id='OTPS52648P8'>(Wikipedia)
+</p>
+
+<p xml:id='OTPS52648P9'>Adelbert Ames belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32084973">
+              <persName>Thomas, Ann</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32084974">
+              <persName>Barrantine, Thomas</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32084760">
+              <persName>Dowsing, Wallace</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32076240">
+              <persName>Davis, A. K. (Alexander Kelso), u.-1884</persName>
+                <idno>https://mississippiencyclopedia.org/entries/alexander-k-davis/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002630">African Americans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32076240P0'>Alexander K. Davis was a representative in the Mississippi legislature and served as the state’s lieutenant governor from 1874 to 1876, during Reconstruction. He was the first African American lieutenant governor of Mississippi.
+</p>
+
+<p xml:id='OTPS32076240P1'>Little was recorded of Davis’ past. His date and place of birth are not known. During testimony before Congress in 1871 he explained that he moved to Noxubee County, Mississippi, from Tennessee in 1869, and said he had been admitted to the bar (a reference that he had been accepted as a practicing attorney in a city or county), but did not specify in which state. He won a seat in Mississippi’s House of Representatives shortly after coming to Mississippi and became a leading figure in the state’s Republican Party circles. In 1873, Radical Republicans backed by a majority of African American voters in Mississippi, won a series of state elections. Davis was one of three African Americans elected to statewide office that year, winning the lieutenant governor seat. (The other Black figures to win statewide election were James Hill as secretary of state and T. W. Cardozo as state superintendent of education.) The following year, white conservatives carried out a campaign of intimidation and violence to suppress Republican and African American voting and put Democrats into political power. The effort worked and by 1875, Democrats held a majority of state legislative seats. Emboldened by their political power, Democrats tried to rid Republicans from many state positions. They specifically targeted Davis and northern-born and Radical Republican Governor Adelbert Ames, accusing both men of improprieties in office. Davis was charged with illegal granting of pardons. Despite his effort to fight the trumped-up charges, Mississippi Democrats impeached Davis in March 1876. Knowing that the conviction would result in him being removed from office, Davis resigned. Governor Ames, also facing politically-driven impeachment proceedings that would require extensive time and financial resources to fight, resigned as well. Following his resignation, Davis abandoned politics. He moved to Canton, Mississippi and worked as a pastor. He died on November 21, 1884.
+</p>
+
+<p xml:id='OTPS32076240P2'>(Wikipedia; Dernoral Davis, "Alexander K. Davis," Mississippi Encyclopedia; Clyde Tucker, “Alexander K. Davis (?-1884),” Black Past)
+</p>
+
+<p xml:id='OTPS32076240P3'>Alexander Kelso Davis belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32077302">
+              <persName>Barrett, Fred, 1843-1895</persName>
+                <idno>https://www.findagrave.com/memorial/70080631/fred-barrett</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32077302P0'>Dr. Fred Barrett was the private secretary of Mississippi governor Adelbert Ames during Reconstruction and a newspaper editor. Born on November 5, 1843, in Clearfield, Pennsylvania, Barrett graduated with a medical degree from Jefferson College in Philadelphia, Pennsylvania, in 1866, and practiced medicine in Pennsylvania for two years before moving to Mississippi during the Reconstruction era. He was an active member of the Republican Party and served in the Mississippi legislature for four years, before working as the private secretary of northern-born governor Adelbert Ames. Barrett also became involved in newspaper editing, managing the <hi rend='italic'>Southern Republican</hi> in the 1870s.
+</p>
+
+<p xml:id='OTPS32077302P1'>Barrett received a government job in Washington, D.C., after Reconstruction. He later moved to Wisconsin and then Minnesota, where he operated various newspapers. Barrett died in Tower, Minnesota, in 1895 at the age of 51 from Bright’s Disease. He was married to Caroline Redmond and had four children. He is buried in Lake View Cemetery in Tower, Minnesota.
+</p>
+
+<p xml:id='OTPS32077302P2'>(FindaGrave)
+</p>
+
+<p xml:id='OTPS32077302P3'>Fred Barrett belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51804">
+              <placeName>Mississippi--Lowndes County. Columbus</placeName>
+                <idno>https://en.wikipedia.org/wiki/Columbus,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51804P0'>Currently located in Lowndes County, Columbus was founded on December 6, 1819 in what was then a "non-county area." When Lowndes County was created on January 30, 1830, Columbus became its county seat. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.50167, -88.415</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S87998">
+              <placeName>Mississippi--Lowndes County. Caledonia</placeName>
+                <idno>https://en.wikipedia.org/wiki/Caledonia,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS87998P0'>Located in Lowndes County, Caledonia was founded in the 1830s under the name Yeggerstown. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.68278, -88.32444</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63926'>
+            <catDesc>
+              <term>Crimes (alleged)--Murder</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/murder?q=Murder</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63926P0'>"The crime of intentionally killing a person." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S53924'>
+            <catDesc>
+              <term>Crimes (alleged)--Shooting</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/shooting?q=Shooting</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD53924P0'>"An occasion when someone is injured or killed by a bullet shot from a gun." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62954'>
+            <catDesc>
+              <term>Criminal Procedures--Arrest</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arrest?q=Arrest</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62954P0'>"The act of using legal authority to catch and take someone to a place where the person may be accused of a crime." (CD)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32065746'>
+            <catDesc>
+              <term>Criminal Procedures--Bounty</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/bounty?q=Bounty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32065746P0'>"An amount of money set as a reward," typically to incentivize capturing a fugitive from justice. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S63934'>
+            <catDesc>
+              <term>Judges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/judge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63934P0'>"A person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63172'>
+            <catDesc>
+              <term>Judges. Justices of the Peace</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/justice-of-the-peace</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63172P0'>"A public officer who judges local and less important legal cases, and performs marriage ceremonies." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63395'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/court?topic=law-courts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63395P0'>"A place where trials and other legal cases happen, or the people present in such a place." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63440'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems--Criminal Juries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/jury</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63440P0'>"A group of people who have been chosen to listen to the facts in a court action and decide whether a person is guilty or not guilty or whether a claim has been proved." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001669'>
+<catDesc>Family Structures</catDesc>
+          <category xml:id='S64105'>
+            <catDesc>
+              <term>Marital Status--Widows</term>
+              <idno>https://www.essentialcivilwarcurriculum.com/civil-war-widows.html</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001669'>Family Structures</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD64105P0'>Widows were classified as women whose legal husband died and they had not legally remarried (Cambridge Dictionary). Due to the bloodshed of the American Civil War, the United States saw a rapid increase in widowhood in the mid-to-late-nineteenth century; one estimate puts the number of widows at over 200,000 (Essential Civil War Curriculum). The Civil War altered antebellum patterns of widowhood by lowering the average age of widows, since many of those who lost their husbands to the war were in their twenties or thirties, and increasing the number of pregnant widows. Since American coverture legally subsumed a woman's identity under her husbands', many widows had no choice but to quickly remarry for social and economic protection.
+</p>
+
+<p xml:id='OTPSD64105P1'>The Civil War also altered antebellum grieving traditions in that the presence of so many widows, often many within the same community, became more visible due to their numbers. Antebellum social etiquette also stipulated that a woman grieve her husband for roughly two and a half years, while the experience of war often led widows not only to stop mourning but to start rebuilding their lives (and finding other partners) far quicker. In the South, many women inherited large estates and numerous enslaved people upon their husbands' death, becoming solely responsible for maintaining operations and adopting the role of enslaver.
+</p>
+
+<p xml:id='OTPSD64105P2'>Widows in both the North and South played outsized roles in commemorating the Civil War and deeply impacted the war's popular memory. Women were societally expected to remember their husbands as honorable, infusing that memory into the statuary and literature of the late-nineteenth and early-twentieth centuries. Antebellum social and legal practices also ensured that women were generally financially dependent upon their husbands, and widowhood thereby faced many women with poverty. Reform agencies therefore often targeted widows in their charitable work, and the widows themselves sought financial assistance from the federal government by applying for pensions, expanding the American welfare state. While widowhood existed prominently throughout the nineteenth century, the Civil War ultimately increased the number of widows and radically altered their places in American life (Essential Civil War Curriculum).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S58310'>
+            <catDesc>
+              <term>Orphans</term>
+              <idno>https://en.wikipedia.org/wiki/Orphan</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001669'>Family Structures</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58310P0'>The status of "orphan" is defined in the United States as "a minor bereft through death or disappearance of, abandonment or desertion by, or separation or loss from, both parents" (Wikipedia). CWRGM also applies this term to identify military orphans, or a child whose mother is still living but whose father died in military service. Orphans in the nineteenth-century often came from a variety of backgrounds and had an equal variety of experiences. While the death of both parents, usually from disease, certainly left many children orphaned, poverty remained the primary cause by which a child could be sent to live at an orphanage. The rise of industrialism in the U. S. brought about a concurrent rise in poverty, particularly in the nation's cities. Many impoverished parents either abandoned their children at orphanages or asked that orphanages take in their children to provide them with the food, shelter, medicine, and in certain cases education that working-class parents could not. Children could spend months or years in orphanages, though many forced them to return to their families or go out on their own by age 15 or 16. Most orphanages were privately owned and operated by religious or reform organizations, though some states increasingly sponsored institutional homes for orphans by the end of the nineteenth century. While the vast majority of orphanages operated in major eastern cities, the so-called "orphan train" process sent orphans by train to rural areas of the country, where reformers thought that family life and agricultural work would keep them from the moral corruption of the city. Orphans of different races, religions, and ethnicities also experienced orphanages differently, as many excluded non-white, immigrant, and Jewish orphans. Ultimately, the devastation of the Civil War and the widespread poverty of industrialism in the U. S. produced an unprecedented number of orphans, and their care became a principal cause among reformers throughout the nineteenth century (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 454-6).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+          <category xml:id='S63177'>
+            <catDesc>
+              <term>Fugitives from Justice</term>
+              <idno>https://en.wikipedia.org/wiki/Fugitive</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63177P0'>The term "fugitive from justice" is defined broadly and covers a multiplicity of experiences under U.S. law, but refers most often to "a person who is fleeing from custody, whether it be from jail, a government arrest, government or non-government questioning, vigilante violence, or outraged private individuals" (Wikipedia). Slightly different than the above definition, a fugitive from justice may also be defined as "a person formally charged with a crime or a convicted criminal whose punishment has not yet been determined or fully served who is currently beyond the custody or control" of the party, be it local, national, or international, interested in their arrest (Wikipedia). In the nineteenth-century United States, fugitive status varied widely based on race. Many white people considered "fugitives from justice" were most often the latter definition, being those charged with or convicted of crimes who then fled across other state lines to try and evade punishment or trial. However, throughout American history up to Emancipation, fugitive status was given to escaped enslaved African Americans under the Fugitive Slave Laws of 1793 and later 1850. These laws also required anyone in the nation to apprehend self-emancipated enslaved people and return them to their owners. The term "fugitives from justice" therefore became another legal mechanism by which enslavers sought to control the movements and freedoms of the enslaved, while contributing heavily to the increasing sectionalism that would lead to the American Civil War (Britannica). To learn more about enslaved people who emancipations themselves and were labeled fugitives, see the "Emancipation and self-emancipation" subject tag under Events.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S63262'>
+            <catDesc>
+              <term>Death</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/death</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63262P0'>While the Cambridge Dictionary defines death as “the end of life,” CWRGM employs this subject tag to refer to human deaths only, both actual and hypothetical. (Cambridge Dictionary)
+</p>
+
+<p xml:id='OTPSD63262P1'>The nation experienced mass loss of life (approximately 2% of the population) during the American Civil War, which changed the way Americans viewed death and resulted in its reconceptualization in highly bureaucratized ways. Often wartime dead were buried without their names and sometimes in poorly-dug graves, which created a powerful, profound social and cultural dislocation for their surviving loved ones. During the 19th century, Americans understood dying as a social and religious experience, and desired a "good death," which they defined as at home surrounded by family, but these ideals were unattainable in war. Consequently, Americans learned to cope with death and memorialize it in new ways. Unionists encouraged the federal government and ex-Confederates pushed their respective state governments to create and fund national cemeteries, rebury deceases soldiers and veterans, and establish veterans' and widows' pensions. These new responses to death were more bureaucratized, nationalistic, and secularized. Wartime and post-war death was also highly impacted by race, as white supremacists desecrated the graves of Union buried in the South, especially the bodies of African Americans who served in U.S. Colored Troops and the white officers that led them, revealing post-war sectionalism and strains on reconciliation. (Drew Gilpin Faust, <hi rend='italic'>This Republic of Suffering</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Ames Series 803</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1874</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Feemster, S. J.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1874-09-07</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Ames Collection. Letter from S. J. Feemster in Columbus, Mississippi to Mississippi Governor Adelbert Ames, requesting a reward offered for the capture of Thomas Barrantine and Wallace Dowsing.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8.0&quot; x 10.0&quot; 4-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Columbus (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_803-992-08-14</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Lowndes County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Britany Castilaw; McKenna Fussell; Dalton Wood</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 992, Folder 8</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Ames, Adelbert, 1835-1933; Fugitives from justice; Justices of the peace; Mississippi. Governor; Rewards programs (Criminal investigation)</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from S. J. Feemster to Mississippi Governor Adelbert Ames; September 7, 1874</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/28421&quot;&gt;Letter from S. J. Feemster to Mississippi Governor Adelbert Ames; September 7, 1874&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG39" who="U220769" when="2024-12-11T19:40:22Z" target="#P32919680">
+          Version 8 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U2" when="2024-10-25T16:55:55Z" target="#P32919680">
+          Version 7 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U2" when="2024-10-25T16:07:40Z" target="#P32919678">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U2" when="2024-10-25T15:21:23Z" target="#P32919677">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U32019810" when="2024-09-14T18:39:00Z" target="#P32919680">
+          Version 6 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2024-03-06T15:20:03Z" target="#P32919678">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2024-01-30T17:08:33Z" target="#P32919677">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2024-01-30T17:02:13Z" target="#P32919678">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-11-17T17:42:22Z" target="#P32919678">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-11-17T17:30:29Z" target="#P32919677">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-11-17T17:28:33Z" target="#P32919678">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-11-17T17:18:28Z" target="#P32919678">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-11-02T04:32:14Z" target="#P32919677">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-11-02T04:12:44Z" target="#P32919678">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-11-01T13:56:33Z" target="#P32919677">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-10-30T22:39:39Z" target="#P32919677">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-10-30T22:31:22Z" target="#P32919677">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-09-03T00:37:51Z" target="#P32919677">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-09-02T20:15:26Z" target="#P32919678">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U25091195" when="2023-04-29T14:27:26Z" target="#P32919680">
+          Version 5 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25091195" when="2023-04-28T20:42:28Z" target="#P32919680">
+          Version 4 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091195" when="2023-04-28T20:37:07Z" target="#P32919679">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091195" when="2023-04-28T20:36:38Z" target="#P32919678">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091195" when="2023-04-28T20:33:46Z" target="#P32919677">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091195" when="2023-04-28T20:32:44Z" target="#P32919678">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091356" when="2023-04-21T19:07:08Z" target="#P32919678">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091356" when="2023-04-21T19:05:03Z" target="#P32919680">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091356" when="2023-04-21T19:04:21Z" target="#P32919680">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091356" when="2023-04-21T19:00:20Z" target="#P32919679">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091356" when="2023-04-21T18:58:20Z" target="#P32919678">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091356" when="2023-04-21T18:52:42Z" target="#P32919677">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091356" when="2023-04-21T18:50:28Z" target="#P32919677">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U231087" when="2023-02-13T16:54:39Z" target="#P32919680">
+          Version 1 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U231087" when="2023-02-13T16:52:49Z" target="#P32919679">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2023-02-13T16:48:41Z" target="#P32919678">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2023-02-13T16:44:12Z" target="#P32919677">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2023-02-08T21:11:44Z" target="#P32919680">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2023-02-08T21:11:38Z" target="#P32919679">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2023-02-08T21:11:31Z" target="#P32919678">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2023-02-08T21:11:25Z" target="#P32919677">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32919677" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:28417/full/full/0/default.jpg"/>
+        <div xml:id="OTP32919677">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32919677P0' xml:id='OTP32919677P0'>[seal]
+</p>
+
+<p corresp='TTP32919677P1' xml:id='OTP32919677P1'>Sep 7/74
+</p>
+
+<p corresp='TTP32919677P2' xml:id='OTP32919677P2'>Office of. <rs ref='#S63172'>J. P.</rs><lb/>
+Dist. No. 1.<lb/>
+<rs ref='#S51804'>Lowndes.<lb/>
+Co.<lb/>
+(Columbus,) Miss.</rs>
+</p>
+
+<p corresp='TTP32919677P3' xml:id='OTP32919677P3'>To his Excellency Gov <rs ref='#S52648'>A. Ames</rs><lb/>
+<rs ref='#S51785'>Jackson Miss</rs>
+</p>
+
+<p corresp='TTP32919677P4' xml:id='OTP32919677P4'>Dear Sir
+</p>
+
+<p corresp='TTP32919677P5' xml:id='OTP32919677P5'>I presume you are aware before this of the dreadful <rs ref='#S63926'>murder</rs> ^on the 25<add place='above'>th</add> of Aug^ of one of our citizens of this County 3 miles North of <rs ref='#S87998'>Caledonia</rs> viz Mrs <rs ref='#S32084973'>Ann. Thomas</rs> (<rs ref='#S64105'>widow</rs>) I have endeavored to discharge my duty in that case as a civil Officer according to law 
+</p>
+
+
+        </div>
+        <pb xml:id="F32919678" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:28418/full/full/0/default.jpg"/>
+        <div xml:id="OTP32919678">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32919678P0' xml:id='OTP32919678P0'>I held an inquest on the day after she was <rs ref='#S63262'>murdered</rs> &amp; the <rs ref='#S63440'>jury</rs> rendered a verdict v.s <rs ref='#S32084974'>Thomas. Barrantine</rs> principal &amp; <rs ref='#S32084760'>Wallace Dowsing</rs> accessory &amp; <rs ref='#S63177'>both parties are still at large</rs> My Warrants are out for them but have not been <rs ref='#S62954'>captured</rs> as yet For such character as they to run at large is hazardous to the lives &amp; property of citizens in our country The testimony of her <rs ref='#S58310'>children</rs> who were in the house with her clearly shows that Mrs Ann Thomas was draged or forced from her bed &amp; forced outside the door &amp; her brains <rs ref='#S53924'>shot</rs> out &amp; left her lying there And I appeal to you to know
+</p>
+
+<p corresp='TTP32919678P1' xml:id='OTP32919678P1'>if you have taken any steps for the takeing of <del rend='overstrike'>murder</del> those parties &amp; bringing them to justice It has been rumored that you have <rs ref='#S32065746'>offered a large reward</rs> for those two parties viz Thomas Barrentine &amp; Wallace Dowsing for their arrest &amp; delivery to the proper authorities I hope such is the case but I have not seen anything of it yet As an Officer I am very anxious that they may have justice given them the full extent of the law &amp; for the sake of peace &amp; protection of our lives &amp; property I am anxious that you may take such 
+</p>
+
+
+        </div>
+        <pb xml:id="F32919679" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:28419/full/full/0/default.jpg"/>
+        <div xml:id="OTP32919679">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32919679P0' xml:id='OTP32919679P0'>steps that may be best that will bring those parties Justice I would be glad to know from you if there has been a reward amount if so,
+</p>
+
+<p corresp='TTP32919679P1' xml:id='OTP32919679P1'>If there has not been a ^reward^ offered by you I hope you will offer a large one soon Discription as near as I can tell Thomas Barrentine Heighth about 4 ft 5 or 6 in<lb/>
+Weight about 135 <add place='above'>lbs</add> Complexion black hair Black eyes &amp; dark skin age perhaps about 30 wore a black mustash &amp; sides of face &amp; chin I am told he wears a truss
+</p>
+
+<p corresp='TTP32919679P2' xml:id='OTP32919679P2'>Wallace Dowsing about 4 ft high Weight perhaps about 120 or 25 complexion fair skin large<del rend='overstrike'>&amp; ful</del> full eyes light hair<lb/>
+Age perhaps about 18 or 20
+</p>
+
+<p corresp='TTP32919679P3' xml:id='OTP32919679P3'>hopeing to hear from you soon<lb/>
+Respect'ly Yours
+</p>
+
+<p corresp='TTP32919679P4' xml:id='OTP32919679P4'><rs ref='#S32084975'>S. J. Feemster</rs><lb/>
+Justice of the Peace
+</p>
+
+
+        </div>
+        <pb xml:id="F32919680" n="4" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:28420/full/full/0/default.jpg"/>
+        <div xml:id="OTP32919680">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP32919680P0' xml:id='OTP32919680P0'><hr/><lb/>
+<b><rs ref='#S25026074'>EXECUTIVE OFFICE,<lb/>
+STATE OF MISSISSIPPI</rs>.</b><lb/>
+Lowndes <hi rend='italic'><b>County.</b></hi><lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32919680P1' xml:id='OTP32919680P1'><hi rend='italic'>From</hi> S. J. Feemster<lb/>
+<hi rend='italic'>Address</hi> Columbus<lb/>
+<hi rend='italic'>Dated</hi> Sept 7<add place='above'>th</add> 1874<lb/>
+<hi rend='italic'>Received</hi> [gap]<lb/>
+<hi rend='italic'>Answered</hi> ,, 19 ,, ,,<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32919680P2' xml:id='OTP32919680P2'><b>SUBJECT:</b>
+</p>
+
+<p corresp='TTP32919680P3' xml:id='OTP32919680P3'>Wishes reward offered for arrest of murders of Mrs Thomas, Barrentine &amp; Dowsing<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32919680P4' xml:id='OTP32919680P4'><add place='above'>$</add>500<add place='above'><hi rend='underline'>00</hi></add> each off<add place='above'>d</add> today<lb/>
+[gap]<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32919680P5' xml:id='OTP32919680P5'><del rend='overstrike'><b>ADELBERT AMES,</b></del>^<rs ref='#S32076240'>A. K Davis</rs>^<lb/>
+Actg <hi rend='italic'>Governor.</hi>
+</p>
+
+<p corresp='TTP32919680P6' xml:id='OTP32919680P6'><b><rs ref='#S32077302'>FRED. BARRETT</rs>,</b><lb/>
+<hi rend='italic'><rs ref='#S95466'>Private Secretary</rs>.</hi><lb/>
+<hr/> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

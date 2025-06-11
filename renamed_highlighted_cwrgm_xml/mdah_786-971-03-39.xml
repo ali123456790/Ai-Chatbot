@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Murray Peyton to Mississippi Governor James L. Alcorn; June 30, 1870</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 26 edits between
+              <date type="first_edit" when="2023-02-06T00:47:30Z">February  6, 2023</date> and
+              <date type="last_edit" when="2024-03-06T15:20:03Z">March  6, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2023-01-23T23:10:13Z">January 23, 2023</date> and
+              <date type="last_edit" when="2023-01-23T23:15:26Z">January 23, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-01-22T20:18:58Z">January 22, 2023</date> and
+              <date type="last_edit" when="2023-01-22T20:20:11Z">January 22, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-11-04T21:38:04Z">November  4, 2022</date> and
+              <date type="last_edit" when="2022-11-04T21:39:16Z">November  4, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-09-15T01:25:50Z">September 15, 2024</date> and
+              <date type="last_edit" when="2024-10-17T16:43:45Z">October 17, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T13:57:17Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:45:54+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S94280">
+              <persName>Alcorn, J. L. (James Lusk), 1816-1894</persName>
+                <idno>https://en.wikipedia.org/wiki/James_L._Alcorn</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS94280P0'>James L. Alcorn served as governor and then U.S. senator for Mississippi in the 1870s.
+</p>
+
+<p xml:id='OTPS94280P1'>Born November 4, 1816, in Illinois Territory, Alcorn spent much of his young adulthood in Kentucky. After attending Cumberland College in Princeton, Kentucky, Alcorn was deputy sheriff of Livingston County, Kentucky, and then entered legal practice in the state in the 1830s. He served a short stint in the Kentucky House of Representatives in the early 1840s and then relocated to Mississippi, where he practiced law in Coahoma County. Financial success as an attorney enabled Alcorn to buy land and establish Mound Place Plantation in the Mississippi Delta region. By 1860, Alcorn owned nearly one hundred slaves; his land holdings alone were valued at approximately $9.5 million in today’s currency. Alcorn married Mary C. Stewart of Kentucky in 1839. The couple had five children before Mary passed away in 1849. Alcorn married Amelia Walton Glover of Alabama in 1850. He fathered three children with his second wife.
+</p>
+
+<p xml:id='OTPS94280P2'>Alcorn was a Unionist during the 1850s. He served as a delegate to a special Mississippi convention to debate the south’s response to the Compromise of 1850—legislation passed in the U.S. Congress designed to settle a fierce dispute over the fate of slavery in territories gained by the United States from Mexico. He warned that secession would lead to war, with federal soldiers invading the south, liberating slaves, and a destroying southern society. Alcorn and other Unionists carried the day during the 1851 convention.
+</p>
+
+<p xml:id='OTPS94280P3'>During the 1850s, Alcorn served in the Mississippi House of Representatives and Senate as a Whig. He led a legislative effort to establish levees to reduce flooding in the Delta region, and was elected the first president of the levee board. As his standing in Mississippi politics increased, he ran for election to U.S. Congress in 1856 but lost. Whigs in Mississippi subsequently considered him for a gubernatorial run in 1857, but Alcorn turned it down.
+</p>
+
+<p xml:id='OTPS94280P4'>During the secession crisis following Abraham Lincoln’s election to the U.S. presidency in 1860, Alcorn initially maintained his Unionist leanings. However, when Mississippi issued its ordnance of secession, Alcorn pledged his loyalty to the state and volunteered for military service in Mississippi. He received an appointment as brigadier general for the state militia in 1861, but his military advancement was hindered by powerful political rivals.  Alcorn led a brigade of three Mississippi militia regiments into the field in October 1861. His brigade spent three months Kentucky—experiencing miserable weather and mud, but no combat—before disbanding in January 1862 when their enlistments expired.
+</p>
+
+<p xml:id='OTPS94280P5'>Alcorn returned home from Kentucky embittered and embroiled in disputes with his personal and political rivals. Although he backed Mississippi following secession, Alcorn was not particularly committed to the Confederate cause. After federal soldiers entered Mississippi in 1862, his plantation was among those raided. However, Alcorn established contacts within the Union army and began trading cotton with federal authorities against Confederate policy. As a result, his wealth grew and his plantation was spared the same level of destruction meted out to notable secessionists.
+</p>
+
+<p xml:id='OTPS94280P6'>Alcorn reentered Mississippi politics immediately upon the defeat of the Confederacy. He was elected to the U.S. Senate in 1865 by the postwar Mississippi government’s effort to earn readmission into the Union under President Andrew Johnson’s lenient Reconstruction plan. However, the Mississippi legislature passed a series of highly discriminatory laws (known as the Black Codes) against recently emancipated African Americans, prompting Republicans in the United States Congress to refuse Mississippi back into the Union. As a result, Alcorn was denied his seat in the Senate.
+</p>
+
+<p xml:id='OTPS94280P7'>Alcorn became a leading member of the Republican Party in Mississippi as Reconstruction developed. He embraced Black civil rights, including African American suffrage. Although born in the north, his long residency in, and service to, Mississippi before and during the Civil War made him a “scalawag” (white southerner who joined the Republican Party) to conservative whites in the south. Nevertheless, he gained enough political support to win the Republican nomination for governor and then the gubernatorial election in 1869 as Mississippi reentered the Union. He entered office in 1870 and oversaw the development of a state public education system, the creation of a land-grant college for African Americans (named Alcorn University in his honor), and pro-business acts to improve economic development in the state.
+</p>
+
+<p xml:id='OTPS94280P8'>Alcorn resigned as governor in 1871 to take a seat in the U.S. Senate for Mississippi. Though still a Republican, Alcorn represented a more conservative side of the party. Though supporting Black civil rights, he resisted some federal intervention in Mississippi affairs, and generally held white supremacist views. This put him in opposition to the other senator from Mississippi, Adelbert Ames, a former Union general who had served as a military governor in Reconstruction Mississippi and led the more radical faction of Republicans in Mississippi that pushed total racial equality. Alcorn and Ames ran against each other for governor of Mississippi in 1873. Ames won by carrying most African American votes.
+</p>
+
+<p xml:id='OTPS94280P9'>Alcorn left the U.S. Senate in 1877 and returned to Mississippi. He did not take part in most state political matters, but did stay active in the levee system and governing. In 1890, he was selected to be a delegate to the Mississippi constitutional convention. He was among the delegates the supported new restrictions against Black Mississippi rights.  Alcorn died on December 19, 1894. He is buried in Friars Point, Mississippi.
+</p>
+
+<p xml:id='OTPS94280P10'>(Wikipedia; Timothy B. Smith, <hi rend='italic'>Mississippi in the Civil War</hi>, 134-135; David Sansing, “James Lusk Alcorn: Twenty-eighth Governor of Mississippi: March 180 to November 1871,” Mississippi History Now)
+</p>
+
+<p xml:id='OTPS94280P11'>James Lusk Alcorn belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S25012842">
+              <persName>Christian, Thomas</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32022568">
+              <persName>Shackleford, Charles C., 1813-1878</persName>
+                <idno>https://www.google.com/books/edition/Biographical_and_Historical_Memoirs_of_M/i-REAQAAMAAJ?hl=en&amp;gbpv=1&amp;bsq=charles%20c.%20shackleford</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32022568P0'>Charles Clarke Shackleford was an attorney, state political figure, and judge in Mississippi during the nineteenth century.
+</p>
+
+<p xml:id='OTPS32022568P1'>Born on September 15, 1813, in Kentucky, Shackleford moved to Mississippi in 1836, after receiving a law degree from Transylvania College. He became a successful attorney and plantation owner, acquiring several enslaved laborers. By the 1840s he entered state politics, serving in the Mississippi House of Representatives and participating in the several political conventions throughout the 1850s. After the Civil War, Shackleford gained prominence as judge over the Eleventh Judicial District in Mississippi. He died on June 22, 1878. Shackleford was married to Francis A. Irvin and had at least four children.
+</p>
+
+<p xml:id='OTPS32022568P2'>(<hi rend='italic'>Vicksburg Weekly Sentinel</hi>, Vicksburg, MS, February 22, 1851; <hi rend='italic'>The Yazoo Democrat</hi>, Yazoo City, MS, August 13, 1859; <hi rend='italic'>The Clarion-Ledger</hi>, Jackson, MS, July 3, 1878; <hi rend='italic'>Biographical and Historical Memoirs of Mississippi, Vol. II</hi>, 32; <hi rend='italic'>Daily Mississippi Pilot</hi>, Jackson, MS, October 13, 1875)
+</p>
+
+<p xml:id='OTPS32022568P3'>Charles C. Shackleford belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32072011">
+              <persName>Freeman, W. S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32072012">
+              <persName>McLaughlin, J. R.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32003178">
+              <persName>Griffin, J.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S99820">
+              <persName>Ward, John W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32072013">
+              <persName>Hill, M. B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32072014">
+              <persName>Marshall, Raphael</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32067863">
+              <persName>Alexander, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32072015">
+              <persName>Logan, A. C.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32055095">
+              <persName>Peyton, Murray M., 1837-1914</persName>
+                <idno>https://www.findagrave.com/memorial/16953151/murray-milton-peyton</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32055095P0'>Murray Milton Peyton was a Confederate officer, Secretary of the Mississippi Senate during Reconstruction, and then a Chancery Clerk.
+</p>
+
+<p xml:id='OTPS32055095P1'>Born on September 20, 1837, in Tennessee, Peyton moved to Mississippi as a young man and served as Deputy Circuit Clerk in Hinds County in the late 1850s. He volunteered for Confederate service during the Civil War and was commissioned as an officer in the Third Mississippi Infantry Regiment. After the war, in 1870, Peyton was appointed Secretary of the Mississippi State Senate. He served in that position only briefly before becoming Chancery Clerk of Hinds County. Finally, Peyton was Clerk of Issaquena County for more than twenty years.
+</p>
+
+<p xml:id='OTPS32055095P2'>He was married to Malvina Fitzallan Alston and had at least two children that survived to adulthood. Peyton died on February 13, 1914, and is buried in Greenfield Cemetery in Glen Allan, Mississippi.
+</p>
+
+<p xml:id='OTPS32055095P3'>(<hi rend='italic'>Jackson Daily News</hi>, Jackson, MS, February 25, 1914; FindaGrave; Dunbar Rowland, <hi rend='italic'>The Official and Statistical Register of the State of Mississippi, 1908</hi>, 1053)
+</p>
+
+<p xml:id='OTPS32055095P4'>Murray M. Peyton belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S63302">
+              <placeName>Mississippi--Madison County. Canton</placeName>
+                <idno>https://www.britannica.com/place/Canton-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63302P0'>Located in Madison County, Canton was incorporated in 1836 and serves as the county seat. (Britannica; Atlas of Historical County Boundaries; Rowland, <hi rend='italic'>Mississippi</hi>, 350)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.61194, -90.03167</geo>
+                </note>
+            </place>
+            <place xml:id="S63254">
+              <placeName>Mississippi--Lowndes County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/lowndes-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63254P0'>Located in northeast Mississippi, Lowndes County was established on January 30, 1830 from Monroe County. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.47, -88.44</geo>
+                </note>
+            </place>
+            <place xml:id="S62919">
+              <placeName>Mississippi--Washington County. Greenville</placeName>
+                <idno>https://en.wikipedia.org/wiki/Greenville,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS62919P0'>Currently located in Washington County, Greenville was founded in 1824 in what was then Yazoo County. Washington County was created on January 29, 1827, and in 1844, Greenville became its county seat. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.3997, -91.0377</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001675'>
+<catDesc>Financial Occupations</catDesc>
+          <category xml:id='S32030036'>
+            <catDesc>
+              <term>Tax Assessors</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/tax-assessor</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001675'>Financial Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32030036P0'>"Someone whose job is to calculate the tax that a person or business has to pay." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S63934'>
+            <catDesc>
+              <term>Judges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/judge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63934P0'>"A person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S70145'>
+            <catDesc>
+              <term>Law Enforcement--Constables</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/constable?q=constables</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70145P0'>"An official in a town or village having some of the responsibilities of a police officer." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S77229'>
+            <catDesc>
+              <term>Law Enforcement--Police</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/police-officer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD77229P0'>"A member of the police force." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001681'>
+<catDesc>Political Occupations</catDesc>
+          <category xml:id='S32026840'>
+            <catDesc>
+              <term>City Council Members</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/city-councilmember</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001681'>Political Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32026840P0'>"A person who is a member of the local government of a city" (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63935'>
+            <catDesc>
+              <term>Mayors</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/mayor</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001681'>Political Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63935P0'>"A person who is elected or chosen to lead the government of a town or city." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+          <category xml:id='S70054'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems--Circuit Courts</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2789'>Organizations</ptr></ab>
+              </note>
+            </catDesc>
+          </category>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63395'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/court?topic=law-courts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63395P0'>"A place where trials and other legal cases happen, or the people present in such a place." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S62915'>
+            <catDesc>
+              <term>Mississippi--Legislature</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_Legislature</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD62915P0'>Operating at the state level, the Mississippi State Legislature (originally called the "General Assembly") was established by Article 4 of the Mississippi Constitution on November 1, 1890, and serves as the legislative branch of the state government. It is comprised of the House of Representatives and the Senate. The Legislature is responsible for passing new statewide laws and making amendments to the Constitution. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25026277'>
+            <catDesc>
+              <term>Mississippi--Legislature. Senate</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_State_Senate</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.30417, -90.18232</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026277P0'>Operating at the state level, the Mississippi Senate was established by Article 4 of the Mississippi State Constitution on November 1, 1890, and serves as the upper house of the Mississippi Legislature. It is led by the Senate President and is responsible for drafting new statewide laws and conducting trials of impeachment. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Alcorn Series 786</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1870</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Peyton, Murray</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1870-06-30</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Alcorn Collection. Letter from Murray Peyton, secretary of the Mississippi State Senate, to Mississippi Governor James L. Alcorn, informing Alcorn of the Senate&#39;s confirmation of his nominations for county and municipal officers in Washington and Lowndes Counties, Mississippi, as well as 4th District Chancellor and the 11th District Circuit Court Judge.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Canton (Miss.); Greenville (Miss.); Jackson (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_786-971-03-39</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Hinds County (Miss.); Lowndes County (Miss.); Washington County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Britany Castilaw; Dalton Wood; McKenna Fussell; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 971, Folder 3</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Alcorn, J. L. (James Lusk), 1816-1894; Appraisers; Circuit courts; City council members; Constables; Judges; Mayors; Mississippi. Governor; Mississippi. Legislature; Mississippi. Legislature. Senate; Nominations for office; Police</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Murray Peyton to Mississippi Governor James L. Alcorn; June 30, 1870</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/23907&quot;&gt;Letter from Murray Peyton to Mississippi Governor James L. Alcorn; June 30, 1870&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG39" who="U2" when="2024-10-25T13:57:17Z" target="#P32592641">
+          Version 35 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U32019810" when="2024-10-17T16:43:45Z" target="#P32592641">
+          Version 34 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U32019810" when="2024-09-15T01:25:50Z" target="#P32592641">
+          Version 33 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2024-03-06T15:20:03Z" target="#P32592641">
+          Version 32 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-11-01T13:59:25Z" target="#P32592641">
+          Version 31 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-10-30T22:39:35Z" target="#P32592641">
+          Version 30 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-10-30T22:39:34Z" target="#P32592641">
+          Version 29 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-10-30T22:31:16Z" target="#P32592641">
+          Version 28 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-10-30T22:25:22Z" target="#P32592641">
+          Version 27 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-09-03T00:46:38Z" target="#P32592641">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-09-03T00:32:23Z" target="#P32592641">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-04-05T01:54:18Z" target="#P32592641">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-28T23:23:10Z" target="#P32592641">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-19T20:58:32Z" target="#P32592641">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-19T20:33:08Z" target="#P32592641">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-19T20:25:04Z" target="#P32592641">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-19T18:35:56Z" target="#P32592641">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-19T02:37:01Z" target="#P32592641">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-19T02:35:11Z" target="#P32592641">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-03-19T02:08:06Z" target="#P32592641">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-03-18T22:03:08Z" target="#P32592641">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-03-18T15:19:25Z" target="#P32592641">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-03-18T14:30:31Z" target="#P32592641">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-03-18T00:58:21Z" target="#P32592641">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-17T23:30:44Z" target="#P32592641">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-16T21:32:50Z" target="#P32592641">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-16T20:19:52Z" target="#P32592641">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-03-16T19:33:08Z" target="#P32592641">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-02-06T00:47:30Z" target="#P32592641">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091195" when="2023-01-23T23:15:26Z" target="#P32592642">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091195" when="2023-01-23T23:13:06Z" target="#P32592641">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091195" when="2023-01-23T23:11:38Z" target="#P32592641">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091195" when="2023-01-23T23:10:13Z" target="#P32592641">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091356" when="2023-01-22T20:20:11Z" target="#P32592642">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25091356" when="2023-01-22T20:19:32Z" target="#P32592641">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25091356" when="2023-01-22T20:18:58Z" target="#P32592641">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2022-11-04T21:39:16Z" target="#P32592642">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U231087" when="2022-11-04T21:38:04Z" target="#P32592641">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-10-12T15:11:26Z" target="#P32592642">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-10-12T15:11:22Z" target="#P32592641">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32592641" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:23905/full/full/0/default.jpg"/>
+        <div xml:id="OTP32592641">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32592641P0' xml:id='OTP32592641P0'>[seal]
+</p>
+
+<p corresp='TTP32592641P1' xml:id='OTP32592641P1'><rs ref='#S25026277'><b>Legislative Department of Mississippi.SENATE CHAMBER.</b></rs><hi rend='italic'><rs ref='#S51785'>Jackson</rs>,</hi> June 30 <hi rend='italic'>187</hi>0.<hr/>His Excellency Governor <rs ref='#S94280'>Alcorn</rs>
+</p>
+
+<p corresp='TTP32592641P2' xml:id='OTP32592641P2'>Sir
+</p>
+
+<p corresp='TTP32592641P3' xml:id='OTP32592641P3'>I have the honor to inform Your Excellency, that the Senate on yesterday confirmed the following nominations made by Your Excellency:
+</p>
+
+<p corresp='TTP32592641P4' xml:id='OTP32592641P4'>Chancellor 4<add place='above'><hi rend='underline'>th</hi></add> District—<rs ref='#S25012842'>Thomas Christian</rs><rs ref='#S70054'>Circuit</rs> <rs ref='#S63934'>Judge</rs> 11<add place='above'><hi rend='underline'>th</hi></add> "—<rs ref='#S32022568'>C. C. Shackleford</rs><rs ref='#S77229'>Marshal</rs> of <rs ref='#S63302'>Canton</rs>—<rs ref='#S32072011'>W. S. Freeman</rs><rs ref='#S32030036'>Assessor</rs> <rs ref='#S63254'>Lowndes County</rs>—<rs ref='#S32072012'>J. R. M<add place='above'>c</add>Laughlin</rs>
+</p>
+
+<p corresp='TTP32592641P5' xml:id='OTP32592641P5'><table cols='5' rows='8'><row role='label'/><row><cell role='data'> —For Washington County—</cell><cell role='data'/></row><row><cell role='data'/><cell role='data'/></row><row><cell role='data'> For <rs ref='#S63935'>Mayor</rs> of <rs ref='#S62919'>Greenville</rs>—</cell><cell role='data'><rs ref='#S32003178'>J. Griffin</rs> </cell></row><row><cell role='data'> ,, <rs ref='#S32026840'>Councilman</rs> ,,</cell><cell role='data'><rs ref='#S99820'>John W. Ward</rs> </cell></row><row><cell role='data'/><cell role='data'><rs ref='#S32072013'>M B Hill</rs> </cell></row><row><cell role='data'/><cell role='data'><rs ref='#S32072014'>Raphael Marshall</rs> </cell></row><row><cell role='data'/><cell role='data'>Major <rs ref='#S32067863'>Alexander</rs> </cell></row><row><cell role='data'> <rs ref='#S70145'>Constable</rs>, Greenville Beat—</cell><cell role='data'><rs ref='#S32072015'>A. C. Logan</rs> </cell></row></table> Respectfully
+</p>
+
+<p corresp='TTP32592641P6' xml:id='OTP32592641P6'><rs ref='#S32055095'>Murray Peyton</rs><rs ref='#S95466'>sec</rs> sen 
+</p>
+
+
+        </div>
+        <pb xml:id="F32592642" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:23906/full/full/0/default.jpg"/>
+        <div xml:id="OTP32592642">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32592642P0' xml:id='OTP32592642P0'>Confirmations<lb/>
+<hi rend='underline'>June 29</hi>
+</p>
+
+<p corresp='TTP32592642P1' xml:id='OTP32592642P1'>Entered July 1.<lb/>
+<hr/><lb/>
+Chancellor 4<add place='above'><hi rend='underline'>th</hi></add>.., Thos. Christian<lb/>
+Circuit 11<add place='above'><hi rend='underline'>th</hi></add>,,. C. C. Shackleford<lb/>
+Marshal. Canton. W. S. Freeman<lb/>
+Assessor Lowndes. J. R. M<add place='above'>c</add>Laughlin<lb/>
+and<lb/>
+<hi rend='underline'>Washington County</hi>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

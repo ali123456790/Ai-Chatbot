@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from J. C. Winn to Colonel C. M. Hooker; June 26, 1866</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U112030">
+          <persName
+            >
+            sfemet
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2023-12-04T00:15:59Z">December  4, 2023</date> and
+              <date type="last_edit" when="2023-12-04T00:16:08Z">December  4, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T14:56:25Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32011852">
+          <persName
+            >
+            Rose Doyle
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-01-27T04:28:21Z">January 27, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-03-09T02:35:37Z">March  9, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T19:52:58+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S51701">
+              <persName>Hooker, Charles E. (Charles Edward), 1825-1914</persName>
+                <idno>https://en.wikipedia.org/wiki/Charles_E._Hooker</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51701P0'>Charles Edward Hooker was a Mississippi state representative, Confederate officer, the state’s attorney general, and a member of the U.S. House of Representatives from Mississippi.
+</p>
+
+<p xml:id='OTPS51701P1'>Born on April 9, 1825, in Union, South Carolina, Hooker was raised in the south but graduated from Harvard Law School in 1846. He moved to Jackson, Mississippi, and in 1848 became a practicing attorney. By 1850 he secured a position as district attorney in Mississippi, serving in that role until 1854. In 1859 he won election to the Mississippi state legislature.
+</p>
+
+<p xml:id='OTPS51701P2'>During the secession crisis following Abraham Lincoln’s election in November 1860, Hooker was appointed as a secession commissioner to South Carolina. He strongly supported southern separation from the Union, and upon Mississippi's secession he resigned his political seat to enlist in the military. Rising to the rank of captain, Hooker served with the First Regiment of Mississippi Light Artillery and took part in the Vicksburg campaign. He was severely wounded, resulting in the loss of an arm, during the fighting at Vicksburg in the summer of 1863. Despite the severity of his wound, Hooker remained in the army and received a promotion to colonel, commanding cavalry soldiers for the rest of the war.
+</p>
+
+<p xml:id='OTPS51701P3'>After the Civil War, Hooker reentered politics, and secured election in 1865 as attorney general for Mississippi. However, federal authorities overturned much of Mississippi’s rebuilt civil government due to efforts by former Confederates to enact harsh restriction against African American civil rights. As a result Hooker was removed from office, along with several other conservative white Democrats. In 1868, Hooker was again elected attorney general.
+</p>
+
+<p xml:id='OTPS51701P4'>In the 1870s Hooker pursued national level political office. He won election to the U.S. House of Representatives, serving from March 1875 to March 1883. In 1884, he served as a delegate to the Democratic National Convention, where he stood out compared to many of his former Confederate colleagues with his more progressive approach to race relations. He opposed policies against Chinese immigration (an issue driven by large numbers of Chinese immigrants being used for labor on railroads in the U.S. west), and declared that African Americans were full citizens—a particularly radical position in the post-Reconstruction south.
+</p>
+
+<p xml:id='OTPS51701P5'>Hooker continued to serve various terms in the U.S. House of Representatives, holding a seat from 1887 to 1895, and then again from 1901 to 1903. When he was not in office, Hooker practiced law in Jackson, Mississippi.
+</p>
+
+<p xml:id='OTPS51701P6'>He was married to Francis Cecilia LeBreton. The couple had four children. He died on January 3, 1914. Hooker is buried in Greenwood Cemetery in Jackson, Mississippi.
+</p>
+
+<p xml:id='OTPS51701P7'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS51701P8'>Charles E. Hooker belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32126619">
+              <persName>Gourly, John</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32126620">
+              <persName>Winn, J. C.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63015">
+              <placeName>Alabama--Mobile County. Mobile</placeName>
+                <idno>http://encyclopediaofalabama.org/article/h-1794</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63015P0'>Located in Mobile County, Mobile was founded in 1702 and serves as the county seat. (Encyclopedia of Alabama; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.69444, -88.04306</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001675'>
+<catDesc>Financial Occupations</catDesc>
+          <category xml:id='S63013'>
+            <catDesc>
+              <term>Bookkeepers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/bookkeeper?q=bookkeepers</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001675'>Financial Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63013P0'>"Someone whose job is keeping an exact record of the money that has been spent or received by a business or other organization." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Humphreys Series 779</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1866</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Winn, J. C.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1866-06-26</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Humphreys Collection. Letter from J. C. Winn in Mobile, Alabama to Colonel C. M. Hooker, asking for assistance for Mr. John G.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_779-963-07-13</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>3194592 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8.0&quot; x 10.0&quot; 1-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi; Mobile (Ala.)</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>1972</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_779-963-07-13</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Rachael Packer; Britany Castilaw; Dalton Wood</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 963, Folder 7</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army; Confederate States of America. Army--Officers; Humphreys, Benjamin Grubb, 1808-1882; Mississippi. Governor</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from J. C. Winn to Colonel C. M. Hooker; June 26, 1866</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>1561</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/37755&quot;&gt;Letter from J. C. Winn to Colonel C. M. Hooker; June 26, 1866&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG5" who="U2" when="2024-10-25T14:56:25Z" target="#P33745183">
+          Version 5 of page "Letter from J. C. Winn to Colonel C. M. Hooker; June 26, 1866":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25091195" when="2024-03-09T02:35:37Z" target="#P33745183">
+          Version 4 of page "Letter from J. C. Winn to Colonel C. M. Hooker; June 26, 1866":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U32011852" when="2024-01-27T04:28:21Z" target="#P33745183">
+          Version 3 of page "Letter from J. C. Winn to Colonel C. M. Hooker; June 26, 1866":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U112030" when="2023-12-04T00:16:08Z" target="#P33745183">
+          Version 2 of page "Letter from J. C. Winn to Colonel C. M. Hooker; June 26, 1866":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U112030" when="2023-12-04T00:15:59Z" target="#P33745183">
+          Version 1 of page "Letter from J. C. Winn to Colonel C. M. Hooker; June 26, 1866":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2023-10-25T14:12:29Z" target="#P33745183">
+          Version 0 of page "Letter from J. C. Winn to Colonel C. M. Hooker; June 26, 1866":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F33745183" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:37755/full/full/0/default.jpg"/>
+        <div xml:id="OTP33745183">
+        <fw type="pageNum">Letter from J. C. Winn to Colonel C. M. Hooker; June 26, 1866</fw>
+          <p corresp='TTP33745183P0' xml:id='OTP33745183P0'><rs ref='#S63015'>Mobile</rs> June 26" 1866
+</p>
+
+<p corresp='TTP33745183P1' xml:id='OTP33745183P1'>Col. <rs ref='#S51701'>C. A. Hooker</rs><lb/>
+<rs ref='#S51785'>Jackson</rs>
+</p>
+
+<p corresp='TTP33745183P2' xml:id='OTP33745183P2'>Dear Col,
+</p>
+
+<p corresp='TTP33745183P3' xml:id='OTP33745183P3'>I this morning take the liberty of addressing you, in behalf of Mr. <rs ref='#S32126619'>John Gourly</rs>, our <rs ref='#S63013'>Book Keeper</rs>. Mr. Gourly is a man of family and served faithfully in our cause. I am close his papers which will explain themselves. Any assistance that you may render him will I I assure you meet with due appreciation and compensation. Hoping that I am not asking for [?] a favor.
+</p>
+
+<p corresp='TTP33745183P4' xml:id='OTP33745183P4'>I am Ca.
+</p>
+
+<p corresp='TTP33745183P5' xml:id='OTP33745183P5'>Very Truly
+</p>
+
+<p corresp='TTP33745183P6' xml:id='OTP33745183P6'><rs ref='#S32126620'>J. C. Winn</rs> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

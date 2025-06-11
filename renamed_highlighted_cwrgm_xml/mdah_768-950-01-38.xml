@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from North Carolina Governor Zebulon B. Vance to Mississippi Governor Charles Clark; September 23, 1864</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 19 edits between
+              <date type="first_edit" when="2022-11-27T01:40:24Z">November 27, 2022</date> and
+              <date type="last_edit" when="2023-11-17T18:05:17Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091235">
+          <persName
+            >
+            Amanda Patrick
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2022-10-21T19:17:54Z">October 21, 2022</date> and
+              <date type="last_edit" when="2022-10-21T19:32:53Z">October 21, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2022-10-22T23:34:44Z">October 22, 2022</date> and
+              <date type="last_edit" when="2022-10-22T23:37:02Z">October 22, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U704">
+          <persName
+              type="pseudonym"
+            >
+            catslover
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2022-10-14T13:31:40Z">October 14, 2022</date> and
+              <date type="last_edit" when="2022-10-14T13:49:48Z">October 14, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T15:17:22Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32020358">
+          <persName
+            >
+            Elisabeth Kluin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2025-03-15T01:21:20Z">March 15, 2025</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-03-29T18:21:32Z">March 29, 2023</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:47:52+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32051204">
+              <persName>Vance, Zebulon B. (Zebulon Baird), 1830-1894</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52436">
+              <persName>Clark, Charles, 1811-1877</persName>
+                <idno>https://en.wikipedia.org/wiki/Charles_Clark_(governor)</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52436P0'>Charles Clark served as Mississippi’s governor during the last two years of the Civil War. Born in Cincinnati, Ohio, on May 24, 1811, Clark later moved to Mississippi, where he became a lawyer and a state representative in the late 1830s. After successfully representing a Mississippi settler in a land dispute with members of the Choctaw Nation in the early 1840s, Clark received a large tract of land near Beulah, Mississippi, as payment. Clark eventually enlarged his property to over five thousand acres, making it one of the largest and most successful plantations in Mississippi. During this time, he married Ann Eliza Darden and between 1840 and 1852 fathered three children.
+</p>
+
+<p xml:id='OTPS52436P1'>Clark volunteered for military service during the Mexican-American War in 1846 and raised a company of volunteers that was placed into the 2nd Mississippi Regiment. After its original commander resigned, Clark was elected colonel. Following the war in 1848, he returned to Mississippi resumed an interest in politics. He was selected as a delegate to a state convention in 1851 that debated the matter of secession in the wake of the Compromise of 1850, which had tried to settle a fierce dispute over the fate of slavery in territories gained by the United States from Mexico. Clark attended the convention as a Unionist, opposed to withdrawing from the Union. Developments over the next ten years changed his mind.
+</p>
+
+<p xml:id='OTPS52436P2'>Clark won a seat in the Mississippi’s House of Representatives as a Whig, serving from 1856 to 1861. Following Abraham Lincoln’s election as president in 1860, Clark embraced Mississippi’s secession. When the Civil War broke out, Clark received a commission as a brigadier general in the Mississippi Militia. He later entered the Confederate Army and eventually took command of a division. Slightly wounded at the Battle of Shiloh in April 1862, he was more seriously wounded and captured during fighting at Baton Rouge, Louisiana, in August 1862. Clark spent a short time as a prisoner of war before he was paroled by Union forces.
+</p>
+
+<p xml:id='OTPS52436P3'>In 1863, Clark ran for governor of Mississippi, in the wake of Confederate defeats at Vicksburg and Jackson. Clark campaigned on continued resistance to the Union and easily won the executive seat. Due to Union campaigns in Mississippi, Clark periodically moved the state government, from Jackson to Macon, then to Columbus, and back to Macon. When Confederate forces in Mississippi surrendered in May 1865, Clark instructed the state legislature to convene for a special session in Jackson. In June 1865, federal troops at Jackson arrested Clark and imprisoned him at Fort Pulaski, Georgia.
+</p>
+
+<p xml:id='OTPS52436P4'>Eventually released from federal custody, Clark returned to Bolivar County, Mississippi. He quietly practiced law and served on the University of Mississippi Board of Trustees during Reconstruction. In 1876, Clark received an appointment as chancellor for the fourth judicial district. He died a year later, on December 17, 1877. Clark is buried in a family cemetery at Beulah, Mississippi.
+</p>
+
+<p xml:id='OTPS52436P5'>(Wikipedia; David Sansing, “Charles Clark: Twenty-fourth Governor of Mississippi: 1863–1865,” Mississippi History Now; FindaGrave)
+</p>
+
+<p xml:id='OTPS52436P6'>Charles Clark belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S104425">
+              <persName>Lee, Robert E. (Robert Edward), 1807-1870</persName>
+                <idno>https://en.wikipedia.org/wiki/Robert_E._Lee</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS104425P0'>Robert Edward Lee was the Confederacy’s most famous general, commanding the primary southern army in the eastern theater from 1862 to 1865.
+</p>
+
+<p xml:id='OTPS104425P1'>Born on January 19, 1807, at Stratford Hall, Virginia, Lee was the son of a famed veteran of the American Revolution. Although his father fell into financial despair and abandoned the family, Lee maintained a good reputation and received an appointment to the United States Military Academy at West Point, New York. He graduated second in his class in 1829 and shortly afterwards married Mary Anna Randolph Custis, the great-grand daughter of Mary Washington (George Washington’s wife). The couple eventually had seven children.
+</p>
+
+<p xml:id='OTPS104425P2'>Lee served in the U.S. Army Corps of Engineers for nearly two decades before serving on the staff of General Winfield Scott during the Mexican-American War in the mid-1840s. He performed very well during the war, receiving three brevet (honorary) promotions (major, lieutenant colonel, and then colonel) for his actions Cerro Gordo, Contreras, Churubusco, and Chapultepec. After the war, Lee served at various army posts before receiving an administrative position at West Point. He was the superintendent of the military academy from 1852 to 1855. He then received a field assignment as second-in-command of the Second Cavalry Regiment in Texas, under future Confederate general Albert Sidney Johnston.
+</p>
+
+<p xml:id='OTPS104425P3'>In 1857, Lee’s father-in-law passed away, leaving Lee and his wife Mary to inherit significant amounts of land—including a large plantation and home in Arlington, Virginia, across the river from Washington, D.C.—hundreds of slaves, and a large debt. Lee took time away from the military to get the properties and finances in order, which involved overseeing the work, discipline, and sale of enslaved laborers. In 1859, while in Virginia, Lee was called to lead military forces against John Brown’s abolitionists who had attacked the U.S. arsenal at Harper’s Ferry as part of an effort to spark a slave rebellion in the south. When Lee arrived, Brown’s group was surrounded in a brick building. When Brown refused orders to surrender, Lee instructed his troops to attack, and they captured Brown and killed or captured his followers within minutes. The event made national news in the already tense political battle between pro-slavery and anti-slavery interests in the United States.
+</p>
+
+<p xml:id='OTPS104425P4'>When southern states began declaring their separation from the Union following Abraham Lincoln’s election to the presidency in November 1860, Lee initially opposed secession. However, after Confederate forces attacked Fort Sumter in April 1861, prompting Lincoln to call for volunteers to defeat the secessionists, Lee’s home state of Virginia officially joined the Confederacy. Lee was offered high ranking command in the Union, but he declined. He resigned from the U.S. Army and volunteered for military service within Virginia.
+</p>
+
+<p xml:id='OTPS104425P5'>Lee’s first military assignment was command of Confederate troops in modern-day western Virginia. He suffered defeats in small battles there in 1861, but retained his reputation as an able officer and took a position as an advisor to Confederate president Jefferson Davis in Richmond. Then, in the summer of 1862, Lee was placed in command of an army defending the Confederate capital from Union forces, after General Joseph E. Johnston was wounded. Lee’s aggressive attacks prompted the Union army, under cautious commander General George B. McClellan, to withdraw, thereby elevating Lee’s reputation as a savior of the Confederacy. For the rest of the war, Lee and his Army of Northern Virginia were the Confederacy’s most famous and successful military force.
+</p>
+
+<p xml:id='OTPS104425P6'>Lee proved to be a creative commander, willing to take risks and attack aggressively to overcome his opponents’ superiority in size. Lee often chose good positions to defend, and then ordered strategic counterattacks to disrupt and defeat Union forces. Among his greatest victories were the Battle of Second Manassas in August 1862 and the Battle of Chancellorsville in 1863, in which he thoroughly defeated much larger Union armies through surprise flank attacks.
+</p>
+
+<p xml:id='OTPS104425P7'>Lee’s military gambles did not always succeed. He conducted only two offensive campaigns during the Civil War—into Maryland in September 1862 and into Pennsylvania in 1863. Both were intended to draw Union forces away from Virginia. He also hoped military victories on battlefields further north would more effectively harm the Union war effort, and possibly draw the border state of Maryland into the Confederacy. However, Lee lost both campaigns after a single major battle (Antietam in Maryland, and Gettysburg in Pennsylvania), in turn invigorating the Union war effort. President Abraham Lincoln used the Union victory of Lee at Antietam in September 1862 to announce his intention to issue an Emancipation Proclamation declaring freedom for all enslaved people within Confederate territories.
+</p>
+
+<p xml:id='OTPS104425P8'>By 1864, Lee had abandoned plans for offensive strategic operations. Other than ordering limited and diversionary assaults, he spent the rest of the war using the Army of Northern Virginia to defend Richmond. That spring, Ulysses S. Grant was placed in charge of Union forces in Virginia and began a stubborn advance to capture the Confederate capital. The result was a series of deadly battles in northern Virginia, followed by a lengthy stand off around Petersburg, Virginia. In the spring of 1865, Grant’s forces broke Lee’s defensive line, forcing the Confederates to abandon Richmond and retreat southward. Overwhelmed and cut off by superior numbers, Lee formally surrendered in April 1865 at Appomattox Courthouse in Virginia. Although not the last Confederate army to surrender, Lee’s capitulation signaled to most people in the north and south that the Confederacy had been defeated.
+</p>
+
+<p xml:id='OTPS104425P9'>After the war, Lee returned to Virginia. The U.S. government had confiscated his family home at Arlington and turned it into a war cemetery. Lee’s family sued the federal government and eventually received some financial compensation. The estate is now preserved by the U.S. government as Arlington National Cemetery.
+</p>
+
+<p xml:id='OTPS104425P10'>In October 1865, Lee accepted an appointment as president of Washington College (modern-day Washington and Lee University) in Lexington, Virginia. His fame helped draw money to the school, and he proved to be a very capable administrator. Lee died on October 12, 1870, from complications of a stroke and pneumonia. He is entombed in the University Chapel Museum at Washington and Lee University in Lexington, Virginia.
+</p>
+
+<p xml:id='OTPS104425P11'>(Wikipedia; American Battlefield Trust; FindaGrave)
+</p>
+
+<p xml:id='OTPS104425P12'>Robert Edward Lee belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32049569">
+              <persName>Hood, John Bell, 1831-1879</persName>
+                <idno>https://en.wikipedia.org/wiki/John_Bell_Hood</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32049569P0'>John Bell Hood was a Confederate general during the Civil War.
+</p>
+
+<p xml:id='OTPS32049569P1'>Born in June 1831 in Owingsville, Kentucky, Hood graduated from the United States Military Academy at West Point, New York, in 1853. Not a particularly good student, as he graduated forty-fourth out of fifty-two students, Hood was nonetheless a competent soldier, and was even offered the position of chief cavalry instructor at West Point several years later (although he turned it down). Hood was initially commissioned as a lieutenant in the Fourth U.S. Infantry Regiment, but later joined the Second U.S. Cavalry Regiment in Texas. Within that unit he served under Colonel Albert Sidney Johnston and Lieutenant Colonel Robert E. Lee, both future Confederate generals. Hood saw his first combat while with the cavalry regiment in Texas. In 1857, he was wounded in the hand by an arrow while battling Comanches at Devil’s River, Texas.
+</p>
+
+<p xml:id='OTPS32049569P2'>Hood was still on active duty with the U.S. Army when the Civil War broke out in 1861. Although his native state of Kentucky remained in the Union, he sympathized with the Confederacy and resigned his commission. He initially entered the Confederate army as a cavalry officer and won a skirmish against Union troops near Newport News, Virginia, in the summer of 1861. That September, he was promoted to colonel and placed in command of the Fourth Texas Infantry Regiment.
+</p>
+
+<p xml:id='OTPS32049569P3'>Hood proved to be a good and popular commander. By February 1862 he received command of a new brigade, made up mostly of Texas Regiments—leading it to be called the Texas Brigade. Promoted to brigadier general in March 1862, he personally led his Texans in several battles in Virginia that year. Confederate leaders appreciated Hood’s aggression and success, rewarding him with division command in July 1862 and the promotion to major general. He and his brigade were prominent in several notable battles, such as Second Bull Run and Antietam, earning a reputation as hard fighters. That notoriety, though, came at the cost of heavy casualties.
+</p>
+
+<p xml:id='OTPS32049569P4'>Hood was seriously wounded in the arm by a Union artillery shell at the Battle of Gettysburg in July 1863. He spent several weeks recuperating in Richmond, Virginia, before being sent to Tennessee with his division to support Confederate general Braxton Bragg. He participated in the Battle of Chickamauga in September 1863 and again was severely wounded in the right leg. Doctors amputated the leg four inches below the hip. Although not expected to survive the wound and surgery, Hood made a strong recovery. During his second time recuperating in Richmond, Virginia, he made a good impression on President Jefferson Davis. Additionally, Hood was promoted to lieutenant general after his actions at Chickamauga.
+</p>
+
+<p xml:id='OTPS32049569P5'>Although missing a leg and unable to fully use his left arm, Hood returned to the field in the spring of 1864 and participated in the Confederate efforts to defend Atlanta, Georgia, from William Tecumseh Sherman’s Union army. Hood’s army commander, General Joseph E. Johnston, fought a tactical withdrawal over several weeks, allowing Sherman to slowly approach the Georgia city. Hood advocated for more aggression, worried of the frequent retreats. He expressed his concerns of Johnston’s tactics to President Davis and others in Richmond. Sharing his concern, Confederate officials relieved Johnston’s from command and placed Hood in command of the Army of Tennessee. True to his reputation of aggression, Hood launched several attacks against Sherman’s army, but ultimately failed to keep the Union force from surrounding Atlanta. In September 1864, Hood abandoned the city, resulting in Sherman scoring one of the biggest Union victories of the war.
+</p>
+
+<p xml:id='OTPS32049569P6'>Unable to defeat Sherman’s army in direct combat, Hood led his army north into Tennessee, intending to draw the Union troops out of Georgia. The effort did not work, though, as other Union armies moved forward to contest Hood while Sherman led most of his army in a march across Georgia to Savannah in late 1864. Hood fought seven battles in Tennessee in late 1864—the last two being costly defeats at Franklin and Nashville. Failing to achieve any notable success, Hood led his survivors to Tupelo, Mississippi, for the winter, and was relieved of his command in January 1865.
+</p>
+
+<p xml:id='OTPS32049569P7'>In March 1865, Hood traveled to the Trans-Mississippi Theater, hoping to bring soldiers from the far west to support fighting in the east. However, before he could carry out his plan, Confederate forces across the south began surrendering to Union armies. Hood surrendered to federal soldiers in Natchez, Mississippi, and was paroled shortly afterwards.
+</p>
+
+<p xml:id='OTPS32049569P8'>Hood worked as a cotton broker and insurance executive in Louisiana after the Civil War. He began writing an autobiography, largely intended to justify his wartime actions, but did not finish the book before his death. Hood married Anna Marie Hennen in 1868 and the couple had eleven children in those ten years (including three sets of twins). In 1878, a yellow fever epidemic struck the Mississippi and Louisiana area. Hood died of the disease on August 30, 1878; his wife and his oldest daughter also passed away. Hood’s ten orphan children were adopted out to seven families. He is buried in Metairie Cemetery in New Orleans, Louisiana.
+</p>
+
+<p xml:id='OTPS32049569P9'>(Wikipedia; American Battlefield Trust; FindaGrave)
+</p>
+
+<p xml:id='OTPS32049569P10'>John Bell Hood belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63143">
+              <placeName>Bodies of Water--Interstate. Mississippi River</placeName>
+                <idno>https://www.britannica.com/place/Mississippi-River</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001864">Bodies of Water</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63143P0'>The Mississippi River is a 2340-mile-long river in the north to southeast United States that flows into the Gulf of Mexico. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>29.15111, -89.25333</geo>
+                </note>
+            </place>
+            <place xml:id="S69863">
+              <placeName>Georgia--Richmond County. Augusta</placeName>
+                <idno>https://www.georgiaencyclopedia.org/articles/counties-cities-neighborhoods/augusta/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS69863P0'>Located in Richmond County, Augusta was founded on June 14, 1736 and became the county seat in 1779. (New Georgia Encyclopedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.46667, -81.96667</geo>
+                </note>
+            </place>
+            <place xml:id="S58317">
+              <placeName>North Carolina--Wake County. Raleigh</placeName>
+                <idno>https://www.ncpedia.org/geography/raleigh </idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS58317P0'>Located in Wake County, Raleigh was founded in 1792 and serves as the county seat and the state capital of North Carolina. (NCpedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>35.76667, -78.63333</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001333'>
+<catDesc>Transportation &amp; Infrastructure Industries</catDesc>
+          <category xml:id='S99413'>
+            <catDesc>
+              <term>Railroads and Railroad Companies</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99413P0'>"A system of transportation using special vehicles whose wheels turn on metal bars fixed to the ground, or a particular company using such a system." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S71783'>
+            <catDesc>
+              <term>Telegraph Companies</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/telegraph</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71783P0'>An organization that "send[s] and receiv[es] messages by electrical or radio signals, or the special equipment used for this purpose." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S98881'>
+            <catDesc>
+              <term>Confederate States of America--Draft</term>
+              <idno>https://mississippiencyclopedia.org/entries/mississippians-in-confederate-army/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98881P0'>By the spring of 1862, the difficulty and bloodshed of fighting the Civil War became a reality to many white southerners, and many soldiers' one-year terms of enlistment expired. Voluntary enlistments slowed and rendered the Confederate Army desperate for troops. The Confederate States of America consequently issued the first compulsory call to military service in American history, also called a "draft" or "conscription" with the First Conscription Act of 1862.
+</p>
+
+<p xml:id='OTPSD98881P1'>A series of other conscription laws followed throughout the Civil War, each containing measures that sparked tensions between southerners and the Confederate government. The First Conscription Act rendered all men between the ages of 18 and 35 subject to military service, though a later act expanded the age range to 45. Men working in occupations deemed essential to the war effort or to preserving the home front could be exempted from the draft, and, after October 11, 1862, white men owning or overseeing twenty or more enslaved persons could also be exempt. These policies isolated small farmers with little investment in preserving slavery, and many southerners evaded the draft in a variety of ways. However, many others both elite and non-elite viewed the draft as a necessary action, and the Twenty Slave Law a necessary protection from enslaved rebellion. Ultimately, however they felt about it, one estimate holds that Mississippi sent roughly 8,000 draftees to fight for the Confederacy (Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S94826'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Military Desertion</term>
+              <idno>https://www.essentialcivilwarcurriculum.com/desertion,-cowardice-and-punishment.html</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD94826P0'>Desertion is the act of a military service member permanently leaving a unit without permission. It is considered a worse offense than being temporarily absent without leave (AWOL). Deserters were often accused of cowardice, especially during the early part of the Civil War, when enthusiasm for battle ran high. While soldiers arrested for desertion very early in the war faced loss of pay, Union and Confederate officers treated it more harshly as the war progressed. Some deserters faced corporal punishment and humiliation, while most others were imprisoned. In some instances, military authorities recommended the death penalty for desertion. However, most saw their death sentence commuted and instead faced imprisonment with hard labor. For example, the Union’s Army of Potomac captured roughly 2,000 deserters between July and November 1863. Of those, 80 received death sentences but only 21 were actually executed—around one percent of the total number of deserters. Those that were executed most often had their sentence carried out in front of their fellow soldiers, as a warning to other, would-be deserters.
+</p>
+
+<p xml:id='OTPSD94826P1'>Reasons for desertion differed. Some soldiers fled from fear of battle, while many others ran away due to issues at home. Some Confederate soldiers deserted when their units were sent on campaigns outside their native state. This was not a problem among Union soldiers, who largely expected to march away from home to battle secessionists in the South. But, in the midst of the South’s highly charged climate of state sovereignty and home defense, not all Southern volunteers approved of being transferred for Confederate military service. One Mississippi soldier reported that as many as 125 members of his regiment deserted after they were sent to support Confederate forces in northern Georgia. Similar incidents happened with units across the Confederacy.
+</p>
+
+<p xml:id='OTPSD94826P2'>The two most common reasons for desertion were unfavorable conditions within the military (such as poor quality food, shoddy equipment, or discontent with military leadership) and loss of faith in the war effort. The latter reason plagued the Confederacy in particular toward the end of the war. Concerned for their families as Union armies occupied much of the South, or believing that victory was impossible, tens of thousands of Confederate soldiers slipped away from their units in late 1864 and early 1865 never to return. These desertions severely weakened Confederate armies and contributed to lower morale, which in turn led to more desertions. In all, an estimated 103,000 Confederate soldiers and 200,000 Union soldiers deserted during the Civil War. (Wikipedia; Encyclopedia of Virginia; Mark A. Weitz, “Desertion, Cowardice and Punishment,” <hi rend='italic'>Essential Civil War Curriculum</hi>; Bell Irvin Wiley, <hi rend='italic'>The Life of Johnny Reb: The Common Soldier of the Confederacy</hi>,135-139; Wiley, <hi rend='italic'>The Life of Billy Yank: The Common Soldier of the Union</hi>, 205-207)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001713'>
+<catDesc>C.S.A. Federal Government</catDesc>
+          <category xml:id='S54079'>
+            <catDesc>
+              <term>Confederate States of America--Congress</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD54079P0'>The Congress of the Confederate States of America was established by Article 1 of the Confederate States Constitution on March 11, 1861 in Montgomery, Alabama. Operating at the national level of the Confederacy, it was the Legislative Branch of the Confederate States government responsible for making and amending laws. A bicameral body, the Confederate States Congress was divided into the upper house (Senate) and the lower house (House of Representatives). The Confederate States Congress concluded Its final session on March 18, 1865. (Avalon Project-<hi rend='italic'>Constitution of the Confederate States</hi>; March 11, 1861; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S32051201'>
+            <catDesc>
+              <term>North Carolina--Executive Department</term>
+              <idno>https://www.nc.gov/your-government/executive</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>36.0, -80.0</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32051201P0'>Operating at the state level, the Executive Department of the State of North Carolina consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, and attorney general. Other officials oversee departments including agriculture, public instruction, labor, insurance, and justice. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. ("Executive Branch," NC.Gov)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S96659'>
+            <catDesc>
+              <term>Impoverished People</term>
+              <idno>https://www.britannica.com/topic/poverty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96659P0'>Impoverished people are those who lack "a usual or socially acceptable amount of money or material possessions," or alternately those who "lack the means to satisfy their basic needs (Britannica). This definition, necessarily subjective and broad, indicates that what one person or society deems "socially acceptable" or what constitutes "basic needs" is malleable.
+</p>
+
+<p xml:id='OTPSD96659P1'>Similarly, impoverished people in the United States in the nineteenth century did not fit one specific category. The rise of industrialism produced an increased number of impoverished people in the U. S., particularly within large urban centers. European immigrants in cities in the East, and Chinese immigrants on the West Coast, and African Americans in the South were disproportionately affected by poverty. Regionally, the highest number of impoverished people came from the U. S. South, where "both whites and African Americans struggled with debt, low cotton prices, laws favorable to employers and creditors, paltry alternatives, and the general post war devastation" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 547).
+</p>
+
+<p xml:id='OTPSD96659P2'>Racism and nativism among employers and employees also made economic advancement more difficult for people of color and immigrants. However, the impoverished made up a comparatively low percentage of Mississippi's antebellum population, given its low number of immigrants and even native residents, lack of industrialization and urbanization, and mobility of those that were impoverished (Mississippi Encyclopedia). Many reform organizations throughout the country took the lead in fighting poverty in the nineteenth century, while state and federal governments by the end of the century also developed its own institutional responses. The status of being impoverished has always carried negative connotations in American history, so CWRGM uses the tag "Impoverished people" to emphasize the personhood of those in poverty rather than their social status. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25004889'>
+            <catDesc>
+              <term>Draftees</term>
+              <idno>https://www.battlefields.org/learn/articles/twenty-negro-law</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25004889P0'>In the nineteenth-century United States, the first military drafts occurred during the American Civil War, in which both the Union and Confederate governments issued conscription laws.
+</p>
+
+<p xml:id='OTPSD25004889P1'>The Confederacy, receiving fewer enlistments than it expected at the beginning of the war, passed the First Conscription Act in April 1862, rendering all able-bodied white males between the ages of 18 and 35 eligible to be compelled into military service, but it included a provision by which a draftee could hire a substitute or obtain an exemption. Fearing insurrections by the enslaved population, the Confederacy passed a Second Conscription Act in September 1862 exempting one white enslaver for every twenty enslaved persons on a property, also known as the "Twenty Slave Law". Both the substitute and twenty slave laws isolated impoverished white southerners and rendered the draft deeply unpopular among non-elite southerners.
+</p>
+
+<p xml:id='OTPSD25004889P2'>In the North, conscription began in July 1862 when Congress authorized the president to enlist any militia company into the United States' service. Conscription extended to the general public in March 1863 with the Enrollment Act, rendering any able-bodied white male citizen or immigrant between the ages of 20 and 45 subject to the draft. This law similarly included a provision allowing one to purchase a substitute or commutation for the then-sizeable fee of $300. Draftees could also be exempt by proving that they were the sole support of family members or other dependents.
+</p>
+
+<p xml:id='OTPSD25004889P3'>Many individuals in the North and South saw their respective drafts as affronts to the freedom and individual liberties upon which the United States was founded, while tensions also arose between those of different races, ethnicities, religions, and social classes that were differently represented in the draft. The draft also brought home the realities of war to many families, North and South, who relied on men to support them, as fathers, husbands, sons, and brothers were sent to fight, where they would make the little money paid to soldiers and possibly lose their lives. Conscription in the American Civil War led to the violence of the New York Draft Riots of July 1863, and resulted in widespread and varied resistance in North and South (Bill of Rights Institute).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S69274'>
+            <catDesc>
+              <term>Disease and Illness</term>
+              <idno>https://www.battlefields.org/learn/articles/common-diseases-18th-and-19th-century</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD69274P0'>Approximately 620,000 Americans died during the Civil War. For this reason, the war is often called America’s bloodiest conflict. However, two-thirds of Civil War deaths were caused by disease, not combat. The disparity is greater for non-fatal victims: 400,000 soldiers suffered wounds or injuries compared to 6,000,000 cases of illness. Since a combined 3,000,000 men fought in Union and Confederate armies, this means the average soldier fell ill to disease twice during his military service.
+</p>
+
+<p xml:id='OTPSD69274P1'>Numerous types of diseases afflicted soldiers and civilians during the Civil War and Reconstruction era. Some were ubiquitous, like the common cold and diarrhea, which rarely garnered much attention unless the symptoms worsened into a more severe condition. Pneumonia, typhoid, and malaria were among the most serious diseases in the mid-nineteenth century. Epidemics of yellow fever and small pox also ravaged some civilian communities and military units. Perhaps the most deadly to Civil War soldiers, though, was dysentery, which was diarrhea with blood in the stool. Nearly 60,000 people died from dysentery during the war, and Union officials recorded 1.5 million cases of diarrhea or dysentery between 1861 and 1865.
+</p>
+
+<p xml:id='OTPSD69274P2'>All Americans, regardless of economic status or race, suffered pain and loss due to illness during the era. The President of the United States Abraham Lincoln and President of the Confederate States Jefferson Davis—the two most powerful individuals in North America, with access to the best resources—each lost a child to disease during the Civil War. The problem worsened with the sudden shifting of human populations during and after the war, as outbreaks of diseases spread rapidly. While many soldiers from highly populated areas had developed immunity to childhood diseases such as chicken pox, diphtheria, mumps, measles citizen soldiers from rural areas proved more susceptible to severe reactions when exposed to those diseases. Physicians improved medical care during the Civil War, as many recognized the value of sunlight and fresh airflow. However, they could only provide soldiers such healthy conditions behind the lines, at hospitals or rest areas. In many camps, or in the field during campaigns, soldiers were exposed to poor weather, extreme temperatures, and unsanitary conditions. Those who suffered the worse were in prisoner of war camps, in both north and south, where thousands of soldiers died from dysentery or other diseases. Civil War doctors did not fully understand the spread of diseases, including contaminated water (in the case of typhoid and dysentery) or mosquitos (for malaria and yellow fever). As such, camps, forts, and prisons rarely were constructed with the soldiers’ health in mind, and Civil War medicine most often involved responding to disease rather than preventing it.
+</p>
+
+<p xml:id='OTPSD69274P3'>Another source of illness among soldiers, and civilians in war-torn areas, was dietary deficiencies. Despite efforts by subsistence and commissary personnel in Union and Confederate armies, feeding thousands of troops daily proved a monumental task. Food preservation techniques still relied heavily upon drying and salting, and fresh vegetables and fruits were limited and dependent upon seasons. As a result, most Civil War soldiers likely suffered from a Vitamin C deficiency, the most severe cases resulting in scurvy which caused the loss of teeth and bleeding. Heavy reliance upon corn-based foods, especially within southern military units or Union prisoners held in southern prisoner of war camps, led to high instances of pellagra, a condition caused by the lack of niacin (or vitamin B3). Present in most foods, but not corn, victims suffered from diarrhea, skin sores, and dementia.
+</p>
+
+<p xml:id='OTPSD69274P4'>Often ignored, Americans also suffered from sexually transmitted diseases during the Civil War and afterwards. Although rarely fatal, more than 100,000 soldiers were diagnosed with gonorrhea and nearly 80,000 became infected with syphilis. Unsurprisingly, most of these cases occurred when soldiers were near populated areas, especially during training or time in camp, where they had more opportunities to interact with women. Venereal disease rates were higher at the start and at the end of the Civil War. That trend may reflect the fact that rates went down for armies on campaign in the field. The overall rate of venereal disease in the Union Army fluctuated from about 82 to 87 cases for every 1,000 soldiers, Some Union military units reported extremely high rates of venereal disease, particularly in the west. For instance, military physicians in the Department of the Pacific recorded 461 cases out of 1,000 men in 1862.
+</p>
+
+<p xml:id='OTPSD69274P5'>The Civil War also led to disease outbreaks among civilians. Like country-born soldiers introduced to new diseases in military camps, fugitive or liberated slaves who congregated in refugee camps behind Union lines became exposed to new diseases. Cities besieged by armies, such as Vicksburg, Atlanta, and Richmond, faced problems with sanitation and food supplies, compromising the health and immune systems of local residents, leaving them more susceptible to illness.
+</p>
+
+<p xml:id='OTPSD69274P6'>Finally, while most people survived bouts of illness during the Civil War, countless carried pathogens back to their home communities, or simply carried long-term effects from diseases within their bodies. Respiratory infections, blood borne diseases, and other afflictions obtained during the war decreased the quality of life of many Americans, or led to other health complications and early death. (American Battlefield Trust, Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 205–213; George Worthington Adams, <hi rend='italic'>Doctors in Blue</hi>, 3–5; Thomas P. Lowry, <hi rend='italic'>The Story the Soldiers Wouldn't Tell</hi>, 104–108)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Clark Series 768</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Endowment for the Humanities; Funding for this project provided by the National Historical Publications and Records Commission.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1864</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Vance, Zebulon Baird, 1830-1894</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1864-09-23</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Clark Collection. Letter from North Carolina Governor Zebulon B. Vance at Raleigh, North Carolina, to Mississippi Governor Charles Clark at Jackson, Mississippi, concerning the need to send more men to the armies of Confederate Generals Robert E. Lee and John B. Hood.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; 4-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Jackson (Miss.); Raleigh (N.C.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_768-950-01-38</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Hinds County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Michael Singleton; Dalton Wood; Britany Castilaw; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 950, Folder 1</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Clark, Charles, 1811-1877; Confederate States of America. Army; Confederate States of America. Army--Officers; Draft; Draft--Confederate States of America; Hood, John Bell, 1831-1879; Lee, Robert E. (Robert Edward), 1807-1870; Military deserters; Mississippi. Governor; North Carolina. Governor; Poverty</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from North Carolina Governor Zebulon B. Vance to Mississippi Governor Charles Clark; September 23, 1864</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/22535&quot;&gt;Letter from North Carolina Governor Zebulon B. Vance to Mississippi Governor Charles Clark; September 23, 1864&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG40" who="U32020358" when="2025-03-15T01:21:20Z" target="#P32519483">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U2" when="2024-10-25T15:17:22Z" target="#P32519483">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-11-17T18:05:17Z" target="#P32519483">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-11-17T16:41:31Z" target="#P32519486">
+          Version 4 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-11-02T15:53:08Z" target="#P32519483">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-11-01T22:34:03Z" target="#P32519483">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-09-02T20:32:41Z" target="#P32519484">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-09-02T20:00:16Z" target="#P32519483">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-30T18:43:15Z" target="#P32519483">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U25091356" when="2023-03-29T18:21:32Z" target="#P32519485">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-24T02:36:10Z" target="#P32519485">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-21T01:39:24Z" target="#P32519485">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-19T19:02:56Z" target="#P32519483">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-19T17:41:19Z" target="#P32519483">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-18T21:55:42Z" target="#P32519483">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-18T20:16:32Z" target="#P32519485">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-18T01:23:44Z" target="#P32519483">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-17T21:57:57Z" target="#P32519485">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2022-12-04T15:57:32Z" target="#P32519483">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2022-12-04T01:20:54Z" target="#P32519484">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2022-11-27T01:40:59Z" target="#P32519484">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2022-11-27T01:40:24Z" target="#P32519483">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091253" when="2022-10-22T23:37:02Z" target="#P32519483">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091253" when="2022-10-22T23:36:39Z" target="#P32519486">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091253" when="2022-10-22T23:35:59Z" target="#P32519485">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091253" when="2022-10-22T23:35:22Z" target="#P32519484">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091253" when="2022-10-22T23:34:44Z" target="#P32519483">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091235" when="2022-10-21T19:32:53Z" target="#P32519483">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091235" when="2022-10-21T19:31:58Z" target="#P32519486">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091235" when="2022-10-21T19:30:30Z" target="#P32519485">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091235" when="2022-10-21T19:29:46Z" target="#P32519485">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091235" when="2022-10-21T19:22:15Z" target="#P32519484">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091235" when="2022-10-21T19:17:54Z" target="#P32519483">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U704" when="2022-10-14T13:49:48Z" target="#P32519486">
+          Version 1 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U704" when="2022-10-14T13:47:11Z" target="#P32519485">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U704" when="2022-10-14T13:40:43Z" target="#P32519484">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U704" when="2022-10-14T13:31:40Z" target="#P32519483">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2022-09-06T16:15:52Z" target="#P32519486">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2022-09-06T16:15:46Z" target="#P32519485">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-09-06T16:15:39Z" target="#P32519484">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-09-06T16:15:32Z" target="#P32519483">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32519483" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:22531/full/full/0/default.jpg"/>
+        <div xml:id="OTP32519483">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32519483P0' xml:id='OTP32519483P0'>[seal]
+</p>
+
+<p corresp='TTP32519483P1' xml:id='OTP32519483P1'><b>State of North Carolina</b>,<lb/>
+<rs ref='#S32051201'>EXECUTIVE DEPARTMENT</rs>,<lb/>
+<rs ref='#S58317'>Raleigh</rs> Sept. 23<add place='above'>d</add><sub>"</sub> 1864.
+</p>
+
+<p corresp='TTP32519483P2' xml:id='OTP32519483P2'>His Excellency<lb/>
+Gov. <rs ref='#S52436'>Clark</rs><lb/>
+<rs ref='#S51785'>Jackson</rs>, Miss.
+</p>
+
+<p corresp='TTP32519483P3' xml:id='OTP32519483P3'>Dear Sir:
+</p>
+
+<p corresp='TTP32519483P4' xml:id='OTP32519483P4'>The <rs ref='#S54079'>Legislatures</rs> of the various states will soon be in session. It will become them to take such steps in aid of the common cause as the perilous and straightened condition of the country demands. The Great evil of <rs ref='#S94826'>desertion</rs> must be broken up if possible provisions must be made to feed the <rs ref='#S96659'>poor</rs>, and the <rs ref='#S69274'>feeble and desponding</rs> must be en=couraged and inspired with hope; and beyond all els, <hi rend='underline'>men must be sent to the <rs ref='#S70882'>Armies</rs> of Genls <rs ref='#S104425'>Lee</rs> and <rs ref='#S32049569'>Hood</rs></hi>. To find where and how to get these men is the Great Object of enquiry. Large numbers no doubt, are in the various departments of the Confederate Government, who could be sent to the field, and their pla=ces filled by non=combatants.
+</p>
+
+<p corresp='TTP32519483P5' xml:id='OTP32519483P5'>It will be for the confederate Government to look after these. 
+</p>
+
+
+        </div>
+        <pb xml:id="F32519484" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:22532/full/full/0/default.jpg"/>
+        <div xml:id="OTP32519484">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32519484P0' xml:id='OTP32519484P0'>There are also numbers eng<del rend='overstrike'>e</del>aged in the various state departments, who might be spared, And there is yet a large number of state officers in all the states, withheld from service, not only on account of the necessity for thim in administering the Government but also becaus the principles of state sovereignty, rendered it improper to allow the confederate Government to <rs ref='#S98881'>conscript</rs> <rs ref='#S25004889'>them</rs>. This latter class I suppose to be quite numerous in all the states; and could thier be away prescribed to put at least a portion of them into service without injuring the efficiency of the state Governments, and without infringing upon the rights of the states and their dignity, as sovereigns, they would constitue quite a material re=inforcement to our hard pres<del rend='overstrike'>e</del>sed Armies.
+</p>
+
+<p corresp='TTP32519484P1' xml:id='OTP32519484P1'>It seems indeed desireable.
+</p>
+
+<p corresp='TTP32519484P2' xml:id='OTP32519484P2'>Beyond doubt, however, it is especially desireable that action on this and all kindred matters, should be uniform, or as nearly, so as possible. It would avoid much discontent, for every man to know that he was required to do only that which
+</p>
+
+
+        </div>
+        <pb xml:id="F32519485" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:22533/full/full/0/default.jpg"/>
+        <div xml:id="OTP32519485">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32519485P0' xml:id='OTP32519485P0'>every one els has to do, and that the burthens of the war are fairly distributed.
+</p>
+
+<p corresp='TTP32519485P1' xml:id='OTP32519485P1'>In order to attain this uniformity, as well as to consult on any other matter of public concern which might present itself, I beg leave respectfully to suggest a meeting of all the southern Executives on this side of the <rs ref='#S63143'>Mississippi</rs>, at some such place as <rs ref='#S69863'>Augusta, Ga.</rs> during the coming month of October, when and where some general plan of action might be agreed upon for the releif of the country, and recommended to our several Legislatures.
+</p>
+
+<p corresp='TTP32519485P2' xml:id='OTP32519485P2'>Should such a suggestion meet with favor at your hands, I would be gre=atly pleased to hear from You in regard to the time and place of meeting.
+</p>
+
+<p corresp='TTP32519485P3' xml:id='OTP32519485P3'>Any time so far as I can now see will suit me and any place within three days travel by <rs ref='#S99413'>rail</rs>.
+</p>
+
+<p corresp='TTP32519485P4' xml:id='OTP32519485P4'>I am Gov<add place='above'><hi rend='underline'>r</hi></add><lb/>
+Very Resp<add place='above'><hi rend='underline'>tl</hi>y</add><lb/>
+yr obt sv<add place='above'>t</add>
+</p>
+
+<p corresp='TTP32519485P5' xml:id='OTP32519485P5'><rs ref='#S32051204'>Z. B. Vance</rs><hr/>
+</p>
+
+
+        </div>
+        <pb xml:id="F32519486" n="4" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:22534/full/full/0/default.jpg"/>
+        <div xml:id="OTP32519486">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP32519486P0' xml:id='OTP32519486P0'>Gov Z B Vance<lb/>
+N.C.
+</p>
+
+<p corresp='TTP32519486P1' xml:id='OTP32519486P1'>Ansd (Approv<add place='above'>i</add>ng) by <rs ref='#S71783'>telegram</rs>
+</p>
+
+<p corresp='TTP32519486P2' xml:id='OTP32519486P2'>Oct 9, 64
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

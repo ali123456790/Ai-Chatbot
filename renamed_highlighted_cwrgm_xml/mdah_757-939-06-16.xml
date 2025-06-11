@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2021-04-13T17:08:12Z">April 13, 2021</date> and
+              <date type="last_edit" when="2023-12-07T21:26:31Z">December  7, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228445">
+          <persName
+            >
+            Abby Cawley
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-04-11T07:09:46Z">April 11, 2021</date> and
+              <date type="last_edit" when="2021-04-11T07:10:26Z">April 11, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217816">
+          <persName
+            >
+            Gracie Breland
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-04-14T21:06:50Z">April 14, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-04-07T17:24:02Z">April  7, 2021</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:45:26+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32121317">
+              <persName>Smith, J. O.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51788">
+              <placeName>Mississippi--Warren County. Vicksburg</placeName>
+                <idno>https://archive.org/details/mississippicomp00rowlgoog/page/858/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51788P0'>Located in Warren County, Mississippi, Vicksburg was founded under the name Fort Nogales as early as 1790 in what was then unincorporated territory. In 1798, upon creation of Mississippi Territory, it was renamed Walnut Hills. On April 1, 1799, Walnut Hills became part of the newly created Pickering County (later renamed Jefferson County on January 10, 1802), until the creation of Claiborne County on January 26, 1802. It then became part of its current county of Warren on December 21, 1809. Upon its incorporation on January 29th, 1825, it was renamed Vicksburg. Vicksburg became the county seat in 1836 and remains today. (Rowland, <hi rend='italic'>Mississippi</hi>, 858; Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.33611, -90.87528</geo>
+                </note>
+            </place>
+            <place xml:id="S100578">
+              <placeName>Virginia--York County. Yorktown</placeName>
+                <idno>https://www.britannica.com/place/Yorktown-historical-Virginia</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS100578P0'>Located in York County, Virginia, Yorktown was settled in 1630 and officially founded in 1691 and became the county seat in 1696. (Britannica; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>37.2388, -76.5097</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001682'>
+<catDesc>Medical Occupations</catDesc>
+          <category xml:id='S32085010'>
+            <catDesc>
+              <term>Medical Profession</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/medical-profession?q=Medical+Profession</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085010P0'>"A person with special training in the medical field." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S49744'>
+            <catDesc>
+              <term>Medical Profession--Nurses</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/nurse</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD49744P0'>"The title given to a person whose job is to care for people who are sick or injured, especially in a hospital." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001669'>
+<catDesc>Family Structures</catDesc>
+          <category xml:id='S64105'>
+            <catDesc>
+              <term>Marital Status--Widows</term>
+              <idno>https://www.essentialcivilwarcurriculum.com/civil-war-widows.html</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001669'>Family Structures</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD64105P0'>Widows were classified as women whose legal husband died and they had not legally remarried (Cambridge Dictionary). Due to the bloodshed of the American Civil War, the United States saw a rapid increase in widowhood in the mid-to-late-nineteenth century; one estimate puts the number of widows at over 200,000 (Essential Civil War Curriculum). The Civil War altered antebellum patterns of widowhood by lowering the average age of widows, since many of those who lost their husbands to the war were in their twenties or thirties, and increasing the number of pregnant widows. Since American coverture legally subsumed a woman's identity under her husbands', many widows had no choice but to quickly remarry for social and economic protection.
+</p>
+
+<p xml:id='OTPSD64105P1'>The Civil War also altered antebellum grieving traditions in that the presence of so many widows, often many within the same community, became more visible due to their numbers. Antebellum social etiquette also stipulated that a woman grieve her husband for roughly two and a half years, while the experience of war often led widows not only to stop mourning but to start rebuilding their lives (and finding other partners) far quicker. In the South, many women inherited large estates and numerous enslaved people upon their husbands' death, becoming solely responsible for maintaining operations and adopting the role of enslaver.
+</p>
+
+<p xml:id='OTPSD64105P2'>Widows in both the North and South played outsized roles in commemorating the Civil War and deeply impacted the war's popular memory. Women were societally expected to remember their husbands as honorable, infusing that memory into the statuary and literature of the late-nineteenth and early-twentieth centuries. Antebellum social and legal practices also ensured that women were generally financially dependent upon their husbands, and widowhood thereby faced many women with poverty. Reform agencies therefore often targeted widows in their charitable work, and the widows themselves sought financial assistance from the federal government by applying for pensions, expanding the American welfare state. While widowhood existed prominently throughout the nineteenth century, the Civil War ultimately increased the number of widows and radically altered their places in American life (Essential Civil War Curriculum).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32119115'>
+            <catDesc>
+              <term>Women</term>
+              <idno>https://encyclopediavirginia.org/entries/women-during-the-civil-war/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001669'>Family Structures</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001930'>Sex &amp; Gender</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32119115P0'>In the nineteenth century, across the United States, women’s opportunities were limited. The vestiges of an element of English common law called coverture ensured women did not have a legal identity. Their fathers covered them until they married, at which point they fell under the legal identity of their husbands. In practice, this meant that women did not legally own property and did not even control their own children. They could not own businesses and could not bring suit to court. Rather, they had to rely on a husband, father, or other male relative. The concept of “Republican Motherhood,” however, ensured that some education was necessary. This ideal, which emerged after the American Revolution, held that mothers were central to raising virtuous boys who would one day shape the Republic.
+</p>
+
+<p xml:id='OTPSD32119115P1'>In the North, the Second Great Awakening and the rise of the middle class expanded women’s opportunities further. Heavily centered around the family, the middle class celebrated not an authoritative father but a loving mother. Separate spheres ideology held that men and women occupied different elements of society. Men were responsible for the public sphere, including politics and work outside of the home. Women took care of the domestic sphere, pushing temperance, self-control, hard work, honesty, and frugality. They had considerable power within this space, including nurturing children. Embracing these domestic ideals also pushed northern women into the public domain through such crusades as temperance and moral reform.
+</p>
+
+<p xml:id='OTPSD32119115P2'>In the agrarian South, patriarchy reigned supreme, where a male patriarchal “master” headed a family of dependents – women, children, and enslaved people, when financially possible. Here, men were virtually the law within the household. This hierarchy – and the dependent role women maintained – played a crucial role in uniting the South in its defense of slavery, for all white men were essentially “masters.” Operating with very little personal freedom, elite white women in the South also played a central role in managing the plantation household, overseeing large staffs of enslaved men and women within the domestic sphere. This expectation included embracing the violence that was necessary to maintaining the institution of slavery. Completely dependent on a male patriarch, women working outside of the home were limited to the occupations of the domestic realm, including working as a seamstress or milliner, teaching, domestic service, and sex work. Significantly lower paid than their male counterparts, these limitations ensured that poor white women often carried the burden of poverty in the South.
+</p>
+
+<p xml:id='OTPSD32119115P3'>The institution of slavery ensured that Black women faced still more limited circumstances. As chattel, they were defined by their productive capacity – their ability to produce in the field, the enslaver’s household, or reproductively. Subject to violence, rape, and the inability to control even their own children, enslaved women found ways to carve out elements of independency. Although enslavers sometimes forced enslaved men and women to engage in marital unions with spouses of the enslaver’s choosing, Black women often selected their own husbands, resisting the fact that these unions were only rarely enshrined in law and were subordinate to an enslaver’s desires. As far as was possible, these marriages followed the gendered division of labor typical throughout the U.S., where women were responsible for cooking, cleaning, and caring for children. Within these private households and the slave quarters more generally, enslaved women also engaged in the religions and cultural practices of their ancestry, including Caribbean and African influences.
+</p>
+
+<p xml:id='OTPSD32119115P4'>The Civil War expanded women’s roles in society. Still within the realm of the domestic sphere, women in both regions formed Ladies Military Aid Societies, with an eye towards supporting soldiers. These groups sent domestic necessities, including clothing, socks, and bandages, and they eventually embraced nursing. In the South, societies even began making cartridges and preparing sandbags. Such work and the broader need for women to maintain the household without a male counterpart ensured that women took on new responsibilities, many of which pushed them deeper into the public sphere than was possible before the war. In the South, poor women even became active in demanding that the Confederacy support their families, even rioting publicly in places like Richmond. As many Black women escaped to the U.S. Army during the war, marriage often became their first goal, even forcing the federal government to implement new policies that protected and supported their families. They seized this opportunity to rebuild the families that had long-been severed by the institution of slavery.
+</p>
+
+<p xml:id='OTPSD32119115P5'>After the war, many of these expansions in women’s roles declined, but they did not disappear entirely. Northern women became active in providing support for veterans and their families, even helping navigating the pension system, while southern white women became active in burying the dead, memorialization, and the emergence of the Lost Cause mythology. This idea downplayed the role of slavery in the war and celebrated the Confederacy for its protection of families, within which, women were vital. Black women continued to lobby the U.S. government, including utilizing the Freedman’s Bureau to relocate members of their families and to solidify those unions. With intimate knowledge of the skills and length of individual tasks, they also played pivotal roles in negotiating the financial value of their labor and of negotiating the terms of free labor more generally. Nevertheless, the sexual victimization of Black women continued, becoming a prominent feature of the postwar South.
+</p>
+
+<p xml:id='OTPSD32119115P6'>(Linda K. Kerber, <hi rend='italic'>Women of the Republic: Intellect &amp; Ideology in Revolutionary America</hi>; Christine Stansell, <hi rend='italic'>City of Women: Sex and Class in New York 1780-1860</hi>; Mary P. Ryan, <hi rend='italic'>Cradle of the Middle Class: The Family in Oneida County, New York, 1790-1865</hi>; Stephanie McCurry, <hi rend='italic'>Masters of Small Worlds: Yeoman Households, Gender Relations, and the Political Culture of the Antebellum South Carolina Low Country</hi>; Elizabeth Fox-Genovese, <hi rend='italic'>Within the Plantation Household: Black and White Women of the Old South</hi>; Ruth Poe White, “Orphans, White Unity, and the Charleston Orphan House, 1860-1870; Tera W. Hunter, <hi rend='italic'>Bound in Wedlock: Slave and Free Black Marriage in the Nineteenth Century</hi>; Thavolia Glymph, <hi rend='italic'>Out of the House of Bondage: The Transformation of the Plantation Household</hi>; Anthony E. Kaye, <hi rend='italic'>Joining Places: Slave Neighborhoods in the Old South</hi>; Nina Silber, <hi rend='italic'>Gender &amp; the Sectional Conflict</hi>; Catherine Clinton and Nina Silber, eds., <hi rend='italic'>Battle Scars: Gender and Sexuality in the American Civil War</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001930'>
+<catDesc>Sex &amp; Gender</catDesc>
+<category xml:id='C32001930S32119115'>
+<catDesc>
+<term><rs ref='S32119115'>Women</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Smith, Mrs. J. O.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-09-05</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Vicksburg, Mississippi, by Mrs. J. O. Smith, offering to serve as a nurse in Virginia.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_757-939-06-16</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>192525 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Vicksburg (Miss.); Virginia</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>1666</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_757-939-06-16</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Warren County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Cody Turnbaugh; Lindsey Peterson</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 939, Folder 6</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Military nursing; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>1030</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/2664&quot;&gt;Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG13" who="U220769" when="2023-12-07T21:26:31Z" target="#P1832739">
+          Version 13 of page "Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-12-07T21:25:57Z" target="#P1832739">
+          Version 12 of page "Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-03-29T01:39:11Z" target="#P1832739">
+          Version 11 of page "Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2023-03-18T21:35:33Z" target="#P1832739">
+          Version 10 of page "Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2023-03-18T01:17:41Z" target="#P1832739">
+          Version 9 of page "Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2023-03-16T19:06:29Z" target="#P1832739">
+          Version 8 of page "Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2023-03-06T04:35:36Z" target="#P1832739">
+          Version 7 of page "Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U217816" when="2021-04-14T21:06:50Z" target="#P1832739">
+          Version 6 of page "Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U220769" when="2021-04-13T17:08:12Z" target="#P1832739">
+          Version 5 of page "Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U228445" when="2021-04-11T07:10:26Z" target="#P1832739">
+          Version 4 of page "Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U228445" when="2021-04-11T07:09:46Z" target="#P1832739">
+          Version 3 of page "Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U231087" when="2021-04-07T17:24:02Z" target="#P1832739">
+          Version 2 of page "Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-30T13:53:40Z" target="#P1832739">
+          Version 1 of page "Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-03-30T13:53:37Z" target="#P1832739">
+          Version 0 of page "Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1832739" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2664/full/full/0/default.jpg"/>
+        <div xml:id="OTP1832739">
+        <fw type="pageNum">Letter from Mrs. J. O. Smith to Mississippi Governor John Jones Pettus; September 5, 1861</fw>
+          <p corresp='TTP1832739P0' xml:id='OTP1832739P0'>[seal]
+</p>
+
+<p corresp='TTP1832739P1' xml:id='OTP1832739P1'><rs ref='#S51788'>Vicksburg</rs> Sep 5 1861
+</p>
+
+<p corresp='TTP1832739P2' xml:id='OTP1832739P2'>Govener <rs ref='#S63111'>Pittes</rs>
+</p>
+
+<p corresp='TTP1832739P3' xml:id='OTP1832739P3'>Dear Sir. Pardon the liberty I take in thus adresing you I am a <rs ref='#S64105'>Widow</rs> and offer my serves to the confederat states as a <rs ref='#S49744'>nurse</rs> I can furnish every thing I want but have not got the means to go to Va if you will acept me I am wiling to go for the <hi rend='underline'>War</hi> or for one year I am alone in the world and think it my dutey to go I have told <rs ref='#S32119115'>Ladiy friends</rs> that are wiling to go if you ar wiling to send us to <rs ref='#S100578'>york town</rs> we will go amadately let me know as soon as posobel and am wiling to go any place you send us if you answer this direct to the name below
+</p>
+
+<p corresp='TTP1832739P4' xml:id='OTP1832739P4'>Respectfully
+</p>
+
+<p corresp='TTP1832739P5' xml:id='OTP1832739P5'><rs ref='#S32121317'>Mrs J, O, Smith</rs>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

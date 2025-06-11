@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from General Nathan Bedford Forrest to Mississippi Governor Charles Clark; September 6, 1864</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2022-11-22T19:57:33Z">November 22, 2022</date> and
+              <date type="last_edit" when="2023-11-01T22:26:34Z">November  1, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-10-22T21:41:42Z">October 22, 2022</date> and
+              <date type="last_edit" when="2022-10-22T21:42:33Z">October 22, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U704">
+          <persName
+              type="pseudonym"
+            >
+            catslover
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-10-12T15:21:55Z">October 12, 2022</date> and
+              <date type="last_edit" when="2022-10-12T15:28:18Z">October 12, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-10-22T15:03:48Z">October 22, 2022</date> and
+              <date type="last_edit" when="2022-10-22T15:05:03Z">October 22, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T17:27:30Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T19:00:48+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S54036">
+              <persName>Forrest, Nathan Bedford, 1821-1877</persName>
+                <idno>https://en.wikipedia.org/wiki/Nathan_Bedford_Forrest</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS54036P0'>Nathan Bedford Forrest was a Confederate cavalry commander and later the first Grand Wizard of the Ku Klux Klan.
+</p>
+
+<p xml:id='OTPS54036P1'>Born on July 13, 1821, in Bedford County, Tennessee, he became his family’s caretaker at age sixteen when his father died. He pursued numerous types of business as a young man, including gambling, farming, and slave trading. When the Civil War began in 1861, Forrest was one of the wealthiest men in the south, owning more than three thousand acres in Mississippi, as well as plantations in Tennessee and Arkansas.
+</p>
+
+<p xml:id='OTPS54036P2'>He volunteered for Confederate service in 1861 and soon received command of the Third Tennessee Cavalry Regiment. He had no formal military training—and little formal education—yet, proved a natural leader and military tactician. He scored numerous military victories as a cavalry commander, and showed skill in avoiding capture or defeat by Union troops. In February 1862, when Ulysses S. Grant’s troops besieged Confederate troops at Fort Donelson, Forrest led nearly four thousand southern soldiers in escaping across the Cumberland River before the fort fell to the federal units. During the Vicksburg Campaign in Mississippi in 1863, Forrest was a brigadier general leading Confederate raids on Grant’s supply lines, causing havoc and frustrating federal efforts to stop his cavalry force.
+</p>
+
+<p xml:id='OTPS54036P3'>By 1864, Forrest had been promoted to major general. He continued to see great success in raids behind Union lines and through mounting attacks against smaller contingents of Union soldiers. In April 1864, he led Confederate troops against a federal garrison at Fort Pillow, Tennessee. Forrest’s men overran the fort and, according to many witness accounts, began murdering Black Union soldiers who had surrendered to the Confederates. The event became one of the most famous atrocities of the Civil War, widely publicized and investigated by federal officials.
+</p>
+
+<p xml:id='OTPS54036P4'>While much of the Confederacy’s military future grew dim in 1864, as William Tecumseh Sherman’s Union army advanced upon Atlanta, and Grant’s Union forces backed Robert E. Lee into a defensive position around Richmond, Virginia, Forrest remained mobile and dangerous, scoring notable victories even when outnumbered, such as the Battle of Brice’s Cross Roads in June 1864 in Mississippi. He was promoted to lieutenant general in February 1865, and remained in the field until April 1865, when he surrendered to Union forces in the wake of the Confederacy’s collapse. By the time the Civil War ended, Forrest had been wounded four times, reportedly had twenty-nine horses shot out from under him, and claimed to have killed or defeated thirty Union soldiers in hand-to-hand combat.
+</p>
+
+<p xml:id='OTPS54036P5'>Following the war, Forrest lived in Memphis, Tennessee, and pursued a career in railroad development. His ventures ultimately were not successful, and he was nearly bankrupt. He moved onto a large plantation on the Mississippi River that used convicts for labor, in a system similar to slavery. Apart from his financial efforts, Forrest’s early postwar activities involved a prominent role in the Ku Klux Klan. Elected the terror organization’s first Grand Wizard in 1867. He helped recruit former Confederates and white southern men to the group as an effort to resist Reconstruction and Republican policies. However, Forrest became disenchanted with the lack of order and discipline he saw during the Klan’s its rapid expansion. In 1869, he tried to dissolve the Klan and ordered its members to destroy their robes and hoods. By the mid-1870s, Forrest began making public speeches advocating for better protection of Black civil rights. These actions caused rebuke from many of his former Confederate colleagues.
+</p>
+
+<p xml:id='OTPS54036P6'>Forrest died of diabetes October 29, 1877. He was married to Mary Ann Montgomery and had two children. Forrest was initially buried at Elmwood Cemetery in Memphis, Tennessee. Then, in 1904, city officials moved his remains (and those of his wife) to a city park named in his honor. In 2021, his remains were moved again, this time to Columbia, Tennessee.
+</p>
+
+<p xml:id='OTPS54036P7'>(Wikipedia; FindaGrave; American Battlefield Trust)
+</p>
+
+<p xml:id='OTPS54036P8'>Nathan Bedford Forrest belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S52436">
+              <persName>Clark, Charles, 1811-1877</persName>
+                <idno>https://en.wikipedia.org/wiki/Charles_Clark_(governor)</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52436P0'>Charles Clark served as Mississippi’s governor during the last two years of the Civil War. Born in Cincinnati, Ohio, on May 24, 1811, Clark later moved to Mississippi, where he became a lawyer and a state representative in the late 1830s. After successfully representing a Mississippi settler in a land dispute with members of the Choctaw Nation in the early 1840s, Clark received a large tract of land near Beulah, Mississippi, as payment. Clark eventually enlarged his property to over five thousand acres, making it one of the largest and most successful plantations in Mississippi. During this time, he married Ann Eliza Darden and between 1840 and 1852 fathered three children.
+</p>
+
+<p xml:id='OTPS52436P1'>Clark volunteered for military service during the Mexican-American War in 1846 and raised a company of volunteers that was placed into the 2nd Mississippi Regiment. After its original commander resigned, Clark was elected colonel. Following the war in 1848, he returned to Mississippi resumed an interest in politics. He was selected as a delegate to a state convention in 1851 that debated the matter of secession in the wake of the Compromise of 1850, which had tried to settle a fierce dispute over the fate of slavery in territories gained by the United States from Mexico. Clark attended the convention as a Unionist, opposed to withdrawing from the Union. Developments over the next ten years changed his mind.
+</p>
+
+<p xml:id='OTPS52436P2'>Clark won a seat in the Mississippi’s House of Representatives as a Whig, serving from 1856 to 1861. Following Abraham Lincoln’s election as president in 1860, Clark embraced Mississippi’s secession. When the Civil War broke out, Clark received a commission as a brigadier general in the Mississippi Militia. He later entered the Confederate Army and eventually took command of a division. Slightly wounded at the Battle of Shiloh in April 1862, he was more seriously wounded and captured during fighting at Baton Rouge, Louisiana, in August 1862. Clark spent a short time as a prisoner of war before he was paroled by Union forces.
+</p>
+
+<p xml:id='OTPS52436P3'>In 1863, Clark ran for governor of Mississippi, in the wake of Confederate defeats at Vicksburg and Jackson. Clark campaigned on continued resistance to the Union and easily won the executive seat. Due to Union campaigns in Mississippi, Clark periodically moved the state government, from Jackson to Macon, then to Columbus, and back to Macon. When Confederate forces in Mississippi surrendered in May 1865, Clark instructed the state legislature to convene for a special session in Jackson. In June 1865, federal troops at Jackson arrested Clark and imprisoned him at Fort Pulaski, Georgia.
+</p>
+
+<p xml:id='OTPS52436P4'>Eventually released from federal custody, Clark returned to Bolivar County, Mississippi. He quietly practiced law and served on the University of Mississippi Board of Trustees during Reconstruction. In 1876, Clark received an appointment as chancellor for the fourth judicial district. He died a year later, on December 17, 1877. Clark is buried in a family cemetery at Beulah, Mississippi.
+</p>
+
+<p xml:id='OTPS52436P5'>(Wikipedia; David Sansing, “Charles Clark: Twenty-fourth Governor of Mississippi: 1863–1865,” Mississippi History Now; FindaGrave)
+</p>
+
+<p xml:id='OTPS52436P6'>Charles Clark belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S52728">
+              <placeName>Mississippi--Lauderdale County. Meridian</placeName>
+                <idno>https://www.britannica.com/place/Meridian-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52728P0'>Located in Lauderdale County, Meridian was founded in 1854 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.37472, -88.70417</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S32003250'>
+            <catDesc>
+              <term>Confederate States of America--Military Service (Branch Unspecified)</term>
+              <idno>https://en.wikipedia.org/wiki/Military_forces_of_the_Confederate_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32003250P0'>The military forces of the Confederate States of America (1861-1865) consisted of the Army, Navy, and Marine Corps and were responsible for the defense of the Confederacy and securing the nation's independence. While definitive numbers are not available, the Confederacy's Army ranged between 750,000–1,500,000 soldiers and 483,026 casualties. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S62915'>
+            <catDesc>
+              <term>Mississippi--Legislature</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_Legislature</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD62915P0'>Operating at the state level, the Mississippi State Legislature (originally called the "General Assembly") was established by Article 4 of the Mississippi Constitution on November 1, 1890, and serves as the legislative branch of the state government. It is comprised of the House of Representatives and the Senate. The Legislature is responsible for passing new statewide laws and making amendments to the Constitution. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S25003265'>
+            <catDesc>
+              <term>Wounds and Injuries</term>
+              <idno>https://www.civilwarmed.org/surgeons-call/amputation1/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25003265P0'>Medical treatment of wounds and injuries during the nineteenth century was fairly primitive, and not substantially different than medical practices over the preceding few centuries. Doctors had little knowledge of bacteria, and therefore did not understand the importance of washing hands or sterilizing medical instruments when treating open wounds. Physicians learned that some substances seemed to aid recovery, such as iodine and bromine, but their properties were more mystery than scientifically understood. Additionally, antibiotics had not yet been discovered. As a result, even minor cuts could become infected and lead to severe disability or death.
+</p>
+
+<p xml:id='OTPSD25003265P1'>During the Civil War, more than 475,000 soldiers were wounded in battle.  Thousands more suffered injuries in camp or on the march.  Medical care for wounded and injured soldiers typically involved closing wounds and setting broken bones. After suturing or bandaging these injuries, physicians would carefully observe their patients and try to offer some medical support, but recovery most often depended upon the wounded man’s natural healing. Some medical practices had unintended consequences, both positive and negative. Horsehair proved to be a popular material for sutures, due to its length and strength. To improve its elasticity, Civil War doctors boiled the horsehair, thereby disinfecting it. Wounds stitched closed with boiled horsehair were less likely to grow infected from the sutures, although this benefit was not fully understood until after the war. On the other hand, physicians probing for bullets or foreign objects inside a wound often introduced more bacteria and generated worse infections than the patient may have experienced without the procedure. This practice continued well after the Civil War, and likely contributed to President James Garfield’s death in 1881, when doctors repeatedly used unsterilized fingers and instruments while searching for the assassin’s bullet lodged in his body.
+</p>
+
+<p xml:id='OTPSD25003265P2'>Doctors understood the danger of blood loss to wounded men, but devices such as the Petit Tourniquet—a French screw-tightened tourniquet designed in 1718—were typically found at a surgeon’s tent rather than with the soldiers along the front lines. Some physicians recommended supplying tourniquets among the soldiers, but others suggested much simpler practices, such as each soldier carrying a handkerchief or cloth strip and a six-inch long piece of wood in his pocket to function as a makeshift tourniquet. These life-saving practices were not mandated among Union and Confederate armies, though, and many wounded men died of blood loss before reaching medical help.
+</p>
+
+<p xml:id='OTPSD25003265P3'>The most iconic treatment of battlefield wounds during the Civil War was amputation. Most casualties during the war were caused by musket fire. The large caliber lead balls often shattered bones upon impact. Unable to splint or repair bones so damaged, physicians frequently chose to amputate the wounded person’s limb above the injury. Doctors typically sewed a flap of skin over the stump. Unfortunately, due to the high incidents of infection for reasons described above, amputated limbs often became infected. Gangrene was among the most dangerous conditions, which could lead to death. The only method of combatting gangrene was to perform another amputation further up the limb (if possible) and hope it healed properly. Confederate and Union physicians performed around 50,000 amputations during the Civil War. Contrary to some popular myths, anesthesia, such as chloroform and ether, was in use during the Civil War, and around 95% of wounded soldiers were afforded some comfort before amputation.
+</p>
+
+<p xml:id='OTPSD25003265P4'>Hundreds of thousands of soldiers returned home from the Civil War with scars or permanent disabilities from wartime wounds and injuries. The large number of amputees also led to new developments in prosthetics. Lessons learned from the war improved medical care a bit, as Union and Confederate doctors recorded their observations of wounds and treatments. Published reports provided a new wealth of information. However, only after scientists better understood microbes and accepted the Germ Theory in the late nineteenth and early twentieth century did medical practice substantially improve from the Civil War era practices. (Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 41–50; Terry Reimer, “Wounds, Ammunition, and Amputation,” National Museum of Civil War Medicine; Paige Gibbons Backus, “Amputation and the Civil War,” American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Clark Series 768</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Endowment for the Humanities; Funding for this project provided by the National Historical Publications and Records Commission.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1864</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Forrest, Nathan Bedford, 1821-1877</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1864-09-06</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Clark Collection. Letter from Confederate Major General Nathan Bedford Forrest at Meridian, Mississippi, to Mississippi Governor Charles Clark, thanking Clark for the complimentary resolution passed by the state legislature.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10.5&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Meridian (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_768-950-01-22</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Lauderdale County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Michael Singleton; Dalton Wood; Britany Castilaw; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 950, Folder 1</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Clark, Charles, 1811-1877; Confederate States of America. Army; Confederate States of America. Army--Officers; Forrest, Nathan Bedford, 1821-1877; Mississippi. Governor; Mississippi. Legislature; Resolutions (Law); War wounds</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from General Nathan Bedford Forrest to Mississippi Governor Charles Clark; September 6, 1864</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/22557&quot;&gt;Letter from General Nathan Bedford Forrest to Mississippi Governor Charles Clark; September 6, 1864&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG13" who="U2" when="2024-10-25T17:27:30Z" target="#P32519442">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-11-01T22:26:34Z" target="#P32519443">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-03-19T18:29:45Z" target="#P32519442">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2023-03-18T13:52:21Z" target="#P32519442">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2022-11-22T19:57:33Z" target="#P32519442">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091253" when="2022-10-22T21:42:33Z" target="#P32519442">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091253" when="2022-10-22T21:41:53Z" target="#P32519442">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091253" when="2022-10-22T21:41:42Z" target="#P32519443">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25091356" when="2022-10-22T15:05:03Z" target="#P32519443">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25091356" when="2022-10-22T15:03:48Z" target="#P32519442">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U704" when="2022-10-12T15:28:18Z" target="#P32519443">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U704" when="2022-10-12T15:21:55Z" target="#P32519442">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-09-06T16:05:26Z" target="#P32519443">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-09-06T16:05:19Z" target="#P32519442">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32519442" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:22555/full/full/0/default.jpg"/>
+        <div xml:id="OTP32519442">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32519442P0' xml:id='OTP32519442P0'><rs ref='#S52728'>Meridian</rs> Miss<lb/>
+Sept 6<add place='above'>th</add> 1864
+</p>
+
+<p corresp='TTP32519442P1' xml:id='OTP32519442P1'>Govenor <rs ref='#S52436'>Charles Clark</rs>
+</p>
+
+<p corresp='TTP32519442P2' xml:id='OTP32519442P2'>Dr Sir—
+</p>
+
+<p corresp='TTP32519442P3' xml:id='OTP32519442P3'>I have the honor to acknowledge the receipt of your kind favour of yesterday, Enclosing the resolutions of the <rs ref='#S62915'>Legislature of Mississippi</rs>.
+</p>
+
+<p corresp='TTP32519442P4' xml:id='OTP32519442P4'>For the Complimentary terms in which the Legislature of your State has been pleased to Speak of my Services, permit me through you Governor, to return my Sincere thanks.
+</p>
+
+<p corresp='TTP32519442P5' xml:id='OTP32519442P5'>The compliment is the more highly apprec=iated Since it comes from the State of my Early adoption, the home of my youth &amp; Early manhood.
+</p>
+
+<p corresp='TTP32519442P6' xml:id='OTP32519442P6'>A promise of Continued devotion to the intrests of the State and her people, is all that I can offer in return for the high Estimate placed upon my Services. But it has been through the instrumentality of the brave <rs ref='#S32003250'>troops</rs> which the Legislature has so justly complimented, that I have been Enabled to Serve the Country. To them all the praise is due. It has been through Their gallantry, courage and Endurance that These victories have been achieved.
+</p>
+
+<p corresp='TTP32519442P7' xml:id='OTP32519442P7'>I remember with pride and pleasure the associations to which you refer in your letter. It was under your order Governor, That 
+</p>
+
+
+        </div>
+        <pb xml:id="F32519443" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:22556/full/full/0/default.jpg"/>
+        <div xml:id="OTP32519443">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32519443P0' xml:id='OTP32519443P0'>I first drew my maiden Sword.
+</p>
+
+<p corresp='TTP32519443P1' xml:id='OTP32519443P1'>I regret That our intercourse was of Such Short duration, for it was one of unalloyed pleasure and harmony.
+</p>
+
+<p corresp='TTP32519443P2' xml:id='OTP32519443P2'>I have often mourned your absence from active field Service where you were doing Such valuable Service to the Country, and often have I Sympathised with you in the Suffering you have endured from <rs ref='#S25003265'>wounds</rs> received in defence of the Sacred cause.
+</p>
+
+<p corresp='TTP32519443P3' xml:id='OTP32519443P3'>Hoping your life may long be Spared to the Country you have Served so faithfully, and thanking you for the kind terms in which you have discharged the duty imposed by the resolutions.
+</p>
+
+<p corresp='TTP32519443P4' xml:id='OTP32519443P4'>I remain Governor<lb/>
+Very Respectully<lb/>
+Your friend &amp; Obdt Svt,
+</p>
+
+<p corresp='TTP32519443P5' xml:id='OTP32519443P5'><rs ref='#S54036'>N. B. Forrest</rs><lb/>
+Maj Genl<lb/>
+<hr/>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

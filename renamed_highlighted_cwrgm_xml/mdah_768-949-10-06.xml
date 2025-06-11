@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Legal documents from J. W. Scarborough to General A. M. West; August 8, 1864</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 34 edits between
+              <date type="first_edit" when="2022-11-22T01:10:55Z">November 22, 2022</date> and
+              <date type="last_edit" when="2024-11-12T17:51:28Z">November 12, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 18 edits between
+              <date type="first_edit" when="2022-10-01T03:54:02Z">October  1, 2022</date> and
+              <date type="last_edit" when="2022-10-05T22:14:43Z">October  5, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 7 edits between
+              <date type="first_edit" when="2022-10-13T16:16:42Z">October 13, 2022</date> and
+              <date type="last_edit" when="2022-10-13T16:24:51Z">October 13, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2022-10-17T03:03:09Z">October 17, 2022</date> and
+              <date type="last_edit" when="2022-10-17T03:06:58Z">October 17, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T14:08:57Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U704">
+          <persName
+              type="pseudonym"
+            >
+            catslover
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-10-01T14:23:25Z">October  1, 2022</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T15:13:21+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S102194">
+              <persName>Young, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32009408">
+              <persName>Scarborough, J. W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32049456">
+              <persName>Ellington, James B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S84072">
+              <persName>West, Absalom Madden, 1818-1894</persName>
+                <idno>https://en.wikipedia.org/wiki/Absolom_M._West</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS84072P0'>Absolom Madden West was a Confederate general, a Mississippi politician, railroad executive, and vice presidential candidate. Born in Alabama in 1818, West moved to Mississippi around 1837 to establish a plantation with property he acquired from federal land grants. He entered Mississippi state politics as a Whig and won a seat in the Mississippi Senate in 1847. He married Caroline O. Glover in the 1840s and the couple had four surviving children, born between 1849 and 1862.
+</p>
+
+<p xml:id='OTPS84072P1'>In 1853, he took an office job with the new Mississippi Central Railroad, gaining experience not only in railroad development but corporate and logistical operations. As a Whig, West originally opposed secession. However, after Mississippi left the Union in 1861, during the secession crisis that split the country following Abraham Lincon’s election to president in November 1860, West offered his loyalty and services to the state. He was promoted a brigadier general in the Mississippi state militia, and helped raised a regiment of volunteers. Recognizing his skill and experience in administrative and logistical work, state officials appointed him to several different managerial roles, such as quartermaster general, paymaster general, and commissary general of the militia. He made recommendations to the state legislature to improve the accounting of funds, and was the only state officer to have his accounting books in order and submitted at the end of the war.
+</p>
+
+<p xml:id='OTPS84072P2'>West took the role of president over the Mississippi Central Railroad around 1864. He remained in that position until around the end of the war, then returned to state politics—again serving in the Mississippi Senate—after the Illinois Central purchased the Mississippi Central. West was elected to the U.S. House of Representatives during the early effort by the Mississippi government in 1865 to earn readmission to the Union under President Andrew Johnson’s lenient Reconstruction plan. However, he was among the Mississippi delegation refused seats in Congress when Republicans in Washington, D.C., objected to Mississippi’s “Black Codes”—a series of highly discriminatory laws passed in the summer of 1865 to restrict the civil rights of African Americans.
+</p>
+
+<p xml:id='OTPS84072P3'>West became involved in labor rights during Reconstruction, helping form a branch of the National Labor Union. Reentering the Mississippi Senate in the early 1870s, around 1876 he broke away from the Democratic Party and joined the emerging “Greenback Party”—an independent, anti-monopoly political party. It united many state-level politicians in the north and the south on economic matters, namely the expansion of paper currency believed to help farmers and small businesses. Attesting to the party’s ability to bring former enemies together, the party’s national convention in 1884 nominated former Union general Benjamin Butler (who had been despised within the Confederacy during his occupation of New Orleans during the Civil War) for its presidential candidate and the former Confederate militia general West as vice president. The party polled only a 1.7% of the popular vote in 1884.
+</p>
+
+<p xml:id='OTPS84072P4'>West’s wife Caroline died in 1889 after a long bout of poor health. He died five years later, in 1894.  The couple is buried in Hill Crest Cemetery in Holly Springs, Mississippi.
+</p>
+
+<p xml:id='OTPS84072P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS84072P6'>Absalom Madden West belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32007037">
+              <persName>Sallis, Thomas D.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52436">
+              <persName>Clark, Charles, 1811-1877</persName>
+                <idno>https://en.wikipedia.org/wiki/Charles_Clark_(governor)</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52436P0'>Charles Clark served as Mississippi’s governor during the last two years of the Civil War. Born in Cincinnati, Ohio, on May 24, 1811, Clark later moved to Mississippi, where he became a lawyer and a state representative in the late 1830s. After successfully representing a Mississippi settler in a land dispute with members of the Choctaw Nation in the early 1840s, Clark received a large tract of land near Beulah, Mississippi, as payment. Clark eventually enlarged his property to over five thousand acres, making it one of the largest and most successful plantations in Mississippi. During this time, he married Ann Eliza Darden and between 1840 and 1852 fathered three children.
+</p>
+
+<p xml:id='OTPS52436P1'>Clark volunteered for military service during the Mexican-American War in 1846 and raised a company of volunteers that was placed into the 2nd Mississippi Regiment. After its original commander resigned, Clark was elected colonel. Following the war in 1848, he returned to Mississippi resumed an interest in politics. He was selected as a delegate to a state convention in 1851 that debated the matter of secession in the wake of the Compromise of 1850, which had tried to settle a fierce dispute over the fate of slavery in territories gained by the United States from Mexico. Clark attended the convention as a Unionist, opposed to withdrawing from the Union. Developments over the next ten years changed his mind.
+</p>
+
+<p xml:id='OTPS52436P2'>Clark won a seat in the Mississippi’s House of Representatives as a Whig, serving from 1856 to 1861. Following Abraham Lincoln’s election as president in 1860, Clark embraced Mississippi’s secession. When the Civil War broke out, Clark received a commission as a brigadier general in the Mississippi Militia. He later entered the Confederate Army and eventually took command of a division. Slightly wounded at the Battle of Shiloh in April 1862, he was more seriously wounded and captured during fighting at Baton Rouge, Louisiana, in August 1862. Clark spent a short time as a prisoner of war before he was paroled by Union forces.
+</p>
+
+<p xml:id='OTPS52436P3'>In 1863, Clark ran for governor of Mississippi, in the wake of Confederate defeats at Vicksburg and Jackson. Clark campaigned on continued resistance to the Union and easily won the executive seat. Due to Union campaigns in Mississippi, Clark periodically moved the state government, from Jackson to Macon, then to Columbus, and back to Macon. When Confederate forces in Mississippi surrendered in May 1865, Clark instructed the state legislature to convene for a special session in Jackson. In June 1865, federal troops at Jackson arrested Clark and imprisoned him at Fort Pulaski, Georgia.
+</p>
+
+<p xml:id='OTPS52436P4'>Eventually released from federal custody, Clark returned to Bolivar County, Mississippi. He quietly practiced law and served on the University of Mississippi Board of Trustees during Reconstruction. In 1876, Clark received an appointment as chancellor for the fourth judicial district. He died a year later, on December 17, 1877. Clark is buried in a family cemetery at Beulah, Mississippi.
+</p>
+
+<p xml:id='OTPS52436P5'>(Wikipedia; David Sansing, “Charles Clark: Twenty-fourth Governor of Mississippi: 1863–1865,” Mississippi History Now; FindaGrave)
+</p>
+
+<p xml:id='OTPS52436P6'>Charles Clark belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32049457">
+              <persName>Woods, William</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63224">
+              <placeName>Mississippi--Attala County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/attala-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63224P0'>Located in central Mississippi, Attala County was established December 23, 1833 from Madison County. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.09, -89.58</geo>
+                </note>
+            </place>
+            <place xml:id="S51740">
+              <placeName>Mississippi--Noxubee County. Macon</placeName>
+                <idno>https://en.wikipedia.org/wiki/Macon,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51740P0'>Located in Noxubee County, Macon was founded on August 10, 1835, and serves as the county seat. (Wikipedia; Dunbar Rowland, <hi rend='italic'>Mississippi,</hi> Vol. 2, pg. 158)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.1125, -88.56111</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001686'>
+<catDesc>Labor &amp; Financial Events</catDesc>
+          <category xml:id='S32082629'>
+            <catDesc>
+              <term>Finances</term>
+              <idno>https://en.wikipedia.org/wiki/Finance</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001686'>Labor &amp; Financial Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32082629P0'>"Finance is the study and discipline of money, currency and capital assets." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95150'>
+            <catDesc>
+              <term>Finances--Collecting of Accounts</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/debt-collection</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001686'>Labor &amp; Financial Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95150P0'>"The job of collecting payments from people who have failed to pay the money they owe for goods, services, etc. that they have already received." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S32008490'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Impressment</term>
+              <idno>https://encyclopediavirginia.org/entries/confederate-impressment-during-the-civil-war/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32008490P0'>As the American Civil War extended into its third year, the Confederate government found itself deeply indebted and unable to provide food, clothing, and other necessities for its army. On March 26, 1863, the Confederate government passed the Impressment Law. Under this law, state boards of impressment, with the assistance of local commissioners, impressed food, fuel, enslaved persons, and other commodities to support the war effort and to pay off its debts. Commissioners met with local farmers to fix prices for their commodities, subject to revision every two months. One month later, the Confederate government enacted a tax-in-kind. The tax-in-kind required farmers to donate ten percent (to be judged by a collector) of their produce in lieu of taxes paid in currency.
+</p>
+
+<p xml:id='OTPSD32008490P1'>Both of these policies increased tensions between white southerners and the Confederate government. Farmers and their families often felt cheated by government agents offering far less than market value for their goods. Areas close to fighting also disproportionately experienced impressment, as Confederate armies on the ground often stripped their farms clean. The Confederacy also impressed enslaved persons to perform labor, and the brutality of that labor often resulted in the death, injury, or mistreatment of the enslaved, who, if returned at all, did so in much worse condition than they left. The Confederate government also routinely failed to pay for impressed goods and kept enslaved persons longer than their agreed impressment period. Impressment, then, led to protests among rural white southerners, some of whom hoarded their goods from collectors or impersonated collectors in order to acquire food for themselves and their families. The tax-in-kind alone garnered roughly $62 million for the Confederacy from 1863 to 1865, yet combined with impressment, these policies alienated much of the Confederacy's local support and failed to fully pay its debts or win the war. (Encyclopedia Virginia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25026123'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Impressment. War Material</term>
+              <idno>https://encyclopediavirginia.org/entries/confederate-impressment-during-the-civil-war/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25026123P0'>As the American Civil War extended into its third year, the Confederate government found itself deeply indebted and unable to provide food, clothing, and other necessities for its army. On March 26, 1863, the Confederate government passed the Impressment Law. Under this law, state boards of impressment, with the assistance of local commissioners, impressed food, fuel, enslaved persons, and other commodities to support the war effort and to pay off its debts. Commissioners met with local farmers to fix prices for their commodities, subject to revision every two months. One month later, the Confederate government enacted a tax-in-kind. The tax-in-kind required farmers to donate ten percent (to be judged by a collector) of their produce in lieu of taxes paid in currency.
+</p>
+
+<p xml:id='OTPSD25026123P1'>Both of these policies increased tensions between white southerners and the Confederate government. Farmers and their families often felt cheated by government agents offering far less than market value for their goods. Areas close to fighting also disproportionately experienced impressment, as Confederate armies on the ground often stripped their farms clean. The Confederacy also impressed enslaved persons to perform labor, and the brutality of that labor often resulted in the death, injury, or mistreatment of the enslaved, who, if returned at all, did so in much worse condition than they left. The Confederate government also routinely failed to pay for impressed goods and kept enslaved persons longer than their agreed impressment period. Impressment, then, led to protests among rural white southerners, some of whom hoarded their goods from collectors or impersonated collectors in order to acquire food for themselves and their families. The tax-in-kind alone garnered roughly $62 million for the Confederacy from 1863 to 1865, yet combined with impressment, these policies alienated much of the Confederacy's local support and failed to fully pay its debts or win the war. (Encyclopedia Virginia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S98996'>
+            <catDesc>
+              <term>Political Office--Appointment to Office</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/appointment</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98996P0'>"The act of officially choosing someone for a job, or the job itself." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S71916'>
+            <catDesc>
+              <term>United States. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71916P0'>The United States Army is the military land force of the United States of America. During the American Civil War it was also referred to as the Union Army, Federal Army, or Northern Army. Its primary military objective during the war was the restoration and preservation of the United States through the defeat of secessionist forces. The United States Army traces its roots to the Continental Army, created in 1775 during the American Revolution. Following American independence, the new United States severely reduced the size of the army due to distrust of permanent standing military forces. The small regular army generally handled military operations against Native Americans and for coastal defense. State authorities were expected to support the country’s military needs with their militias, or by raising volunteer units, temporarily activated for federal service.
+</p>
+
+<p xml:id='OTPSD71916P1'>At the outbreak of the Civil War, the United States regular army consisted of barely more than 16,000 soldiers, scattered across the country (primarily at coastal defenses and forts established in the territories) among ten infantry regiments, four artillery regiments, two cavalry regiments, two dragoon regiments, and one regiment of mounted rifles. Roughly 20% of the army’s officers and enlisted resigned their positions to fight for the Confederacy. After Southern troops attacked and captured Fort Sumter in South Carolina, President Abraham Lincoln called for 75,000 volunteers to expand the army and defeat the Confederates. The government continued to issue subsequent requests for volunteers as the war progressed. As with established practice, the states were to recruit the volunteers and provide them for federal service. Initial enlistments were for 90 days, but eventually enlistment terms were expanded, typically for three years. In total, more than 2,000,000 men served in the United States Army during the course of the Civil War. Of those, only around 60,000 were part of the regular army. The overwhelming majority were in state-based units. Most soldiers were volunteers, however the federal government began drafting men in 1862, as the army’s campaigns continued and volunteer numbers dwindled. In total, around 46,000 Union soldiers (about 5.5%) were draftees.
+</p>
+
+<p xml:id='OTPSD71916P2'>Approximately two-thirds of the soldiers in the United States Army during the Civil War were native-born white citizens. Around 100,000 were from states within the Confederacy. Immigrants made up about 25% of Union soldiers, with Germans and Irish immigrants being among the most prominent. The army also included soldiers of different ethnicities, including more than 3,000 Native American soldiers. In 1863, the Union army began formally accepting African American soldiers—in segregated units—and by the end of the war, around than 179,000 had served in the United States Army uniform.
+</p>
+
+<p xml:id='OTPSD71916P3'>When hostilities ended in June 1865, approximately 110,000 had been killed in combat or succumbed to wounds, more than 220,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001675'>
+<catDesc>Financial Occupations</catDesc>
+          <category xml:id='S32024377'>
+            <catDesc>
+              <term>Collection Agents</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/collector</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001675'>Financial Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32024377P0'>"Someone whose job is to collect money from people" such as a tax or debt collector. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S63934'>
+            <catDesc>
+              <term>Judges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/judge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63934P0'>"A person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32003247'>
+            <catDesc>
+              <term>Judges. Probate Law and Practice</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/probate?q=probate+</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32003247P0'>A person who oversees "the process of managing the property, money, etc. of someone who has died and giving it to the beneficiaries." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001684'>
+<catDesc>Military Roles</catDesc>
+          <category xml:id='S32003297'>
+            <catDesc>
+              <term>Impressing Agents</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/commandeer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001684'>Military Roles</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32003297P0'>"A person who takes possession of or control private property by force or for military use." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S50807'>
+            <catDesc>
+              <term>Clerks</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/clerk</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD50807P0'>"A person who works in an office, dealing with records or performing general office duties." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63395'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/court?topic=law-courts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63395P0'>"A place where trials and other legal cases happen, or the people present in such a place." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S55586'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems--Probate courts</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/probate</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD55586P0'>A court of law for "the legal process of deciding if a person's will has been made correctly and if the information it contains is correct." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S32086550'>
+            <catDesc>
+              <term>Mississippi--Auditor&#39;s Office</term>
+              <idno>https://en.wikipedia.org/wiki/State_Auditor_of_Mississippi</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>33.0, -90.0</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32086550P0'>Operating at the state level, the Mississippi State Auditor is an appointed official of the state's executive branch and responsible for overseeing the financial operations of the state. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+          <category xml:id='S25011749'>
+            <catDesc>
+              <term>Power of Attorney</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/power-of-attorney</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25011749P0'>A power of attorney is "the legal right to act for someone else in their financial or business matters, or the document that gives you this right" (Cambridge Dictionary). Power of attorney can be granted for numerous and varied reasons, generally to those whose relatives or legal dependents are deemed incapable of managing their own affairs due to disability, age, or other factors. Power of attorney privileges in the nineteenth-century United States most often had negative effects on women. American law placed men at the head of their households, and at marriage a woman's political and legal identity  was subsumed into her husband's in a process known as "coverture." While not technically a power of attorney agreement, this arrangement provided the same practical powers and granted men full control of their wives' property, finances, and often, in the case of divorce, custody of children. Powers of attorney in the nineteenth-century U. S. therefore highlight the level of legally protected patriarchal authority exercised by men North and South (Encyclopedia of the United States in the Nineteenth Century, Vol.1, 533-537).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Clark Series 768</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Endowment for the Humanities; Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1863; 1864</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Scarborough, J. W.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1864-08-08</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Clark Collection. Legal documents from J. W. Scarborough to Confederate Brigadier General A. M. West, concerning property impressed by the state of Mississippi from J. B. Ellington.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 11&quot; x 10&quot; 4-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Macon (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_768-949-10-06</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Attala County (Miss.); Noxubee County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Brian Valimont; Michael Singleton; Britany Castilaw; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 949, Folder 10</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Auditors; Clark, Charles, 1811-1877; Clerks of court; Confederate States of America. Army; Confederate States of America. Army--Officers; Confederate States of America--Economic conditions; Horses; Impressment; Mississippi. Governor; Mississippi. Militia; Power of attorney; Probate courts; Requisitions, Military; West, Absalom Madden, 1818-1894</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Legal documents from J. W. Scarborough to General A. M. West; August 8, 1864</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/22275&quot;&gt;Legal documents from J. W. Scarborough to General A. M. West; August 8, 1864&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG68" who="U220769" when="2024-11-12T17:51:28Z" target="#P32519323">
+          Version 16 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG67" who="U220769" when="2024-11-12T17:47:42Z" target="#P32519323">
+          Version 15 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG66" who="U2" when="2024-10-25T14:08:57Z" target="#P32519322">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG65" who="U220769" when="2024-03-06T15:23:53Z" target="#P32519322">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG64" who="U220769" when="2024-03-06T15:20:21Z" target="#P32519324">
+          Version 16 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG63" who="U220769" when="2023-11-17T18:10:24Z" target="#P32519322">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG62" who="U220769" when="2023-11-17T18:09:38Z" target="#P32519323">
+          Version 14 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG61" who="U220769" when="2023-11-02T18:09:57Z" target="#P32519322">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG60" who="U220769" when="2023-11-02T03:50:53Z" target="#P32519322">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG59" who="U220769" when="2023-11-02T03:42:40Z" target="#P32519324">
+          Version 15 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG58" who="U220769" when="2023-11-02T03:32:27Z" target="#P32519322">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG57" who="U220769" when="2023-09-03T00:35:25Z" target="#P32519324">
+          Version 14 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG56" who="U220769" when="2023-09-03T00:30:29Z" target="#P32519322">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG55" who="U220769" when="2023-09-02T20:26:00Z" target="#P32519323">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG54" who="U220769" when="2023-09-02T20:25:31Z" target="#P32519322">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG53" who="U220769" when="2023-09-02T19:44:16Z" target="#P32519323">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG52" who="U220769" when="2023-09-02T19:41:08Z" target="#P32519323">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG51" who="U220769" when="2023-03-19T21:18:48Z" target="#P32519322">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG50" who="U220769" when="2023-03-19T20:50:07Z" target="#P32519324">
+          Version 13 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG49" who="U220769" when="2023-03-19T14:49:49Z" target="#P32519323">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG48" who="U220769" when="2023-03-19T14:46:23Z" target="#P32519322">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG47" who="U220769" when="2023-03-18T15:46:05Z" target="#P32519322">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U220769" when="2023-03-17T22:05:39Z" target="#P32519322">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U220769" when="2023-03-16T19:57:57Z" target="#P32519324">
+          Version 12 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U220769" when="2023-03-06T03:31:50Z" target="#P32519324">
+          Version 11 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U220769" when="2023-03-04T20:20:40Z" target="#P32519322">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2023-03-04T20:18:02Z" target="#P32519323">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-03-03T17:59:34Z" target="#P32519322">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-03-03T17:21:15Z" target="#P32519322">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-03-03T00:11:25Z" target="#P32519322">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2022-11-22T01:14:22Z" target="#P32519325">
+          Version 10 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2022-11-22T01:13:24Z" target="#P32519324">
+          Version 10 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2022-11-22T01:12:23Z" target="#P32519323">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2022-11-22T01:12:02Z" target="#P32519323">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2022-11-22T01:10:55Z" target="#P32519322">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U25091253" when="2022-10-17T03:06:58Z" target="#P32519325">
+          Version 9 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U25091253" when="2022-10-17T03:06:07Z" target="#P32519324">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U25091253" when="2022-10-17T03:04:09Z" target="#P32519323">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U25091253" when="2022-10-17T03:03:09Z" target="#P32519322">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U25091356" when="2022-10-13T16:24:51Z" target="#P32519325">
+          Version 8 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U25091356" when="2022-10-13T16:23:37Z" target="#P32519324">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U25091356" when="2022-10-13T16:23:18Z" target="#P32519324">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U25091356" when="2022-10-13T16:22:17Z" target="#P32519324">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U25091356" when="2022-10-13T16:20:04Z" target="#P32519323">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U25091356" when="2022-10-13T16:18:22Z" target="#P32519323">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U25091356" when="2022-10-13T16:16:42Z" target="#P32519322">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U25091195" when="2022-10-05T22:14:43Z" target="#P32519325">
+          Version 7 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U25091195" when="2022-10-05T22:12:09Z" target="#P32519325">
+          Version 6 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U25091195" when="2022-10-05T22:10:14Z" target="#P32519325">
+          Version 5 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25091195" when="2022-10-05T20:38:51Z" target="#P32519325">
+          Version 4 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091195" when="2022-10-05T20:37:09Z" target="#P32519325">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091195" when="2022-10-05T20:35:52Z" target="#P32519324">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091195" when="2022-10-05T20:35:12Z" target="#P32519324">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091195" when="2022-10-05T20:34:44Z" target="#P32519324">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091195" when="2022-10-05T20:32:29Z" target="#P32519323">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091195" when="2022-10-05T20:28:05Z" target="#P32519322">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091195" when="2022-10-05T01:50:28Z" target="#P32519325">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091195" when="2022-10-05T01:49:42Z" target="#P32519325">
+          Version 1 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091195" when="2022-10-05T01:28:07Z" target="#P32519324">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091195" when="2022-10-04T18:40:14Z" target="#P32519323">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091195" when="2022-10-04T18:40:00Z" target="#P32519323">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091195" when="2022-10-04T18:28:59Z" target="#P32519322">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091195" when="2022-10-04T18:28:32Z" target="#P32519322">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U704" when="2022-10-01T14:23:25Z" target="#P32519324">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25091195" when="2022-10-01T03:54:02Z" target="#P32519322">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2022-09-06T15:42:53Z" target="#P32519325">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2022-09-06T15:42:52Z" target="#P32519324">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-09-06T15:42:50Z" target="#P32519323">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-09-06T15:42:49Z" target="#P32519322">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32519322" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:22271/full/full/0/default.jpg"/>
+        <div xml:id="OTP32519322">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32519322P0' xml:id='OTP32519322P0'>Know all men by these presents that I <rs ref='#S32049456'>James B Ellington</rs> of the <rs ref='#S63224'>County of Attala</rs> State of Mississippi have this day Constituted and <rs ref='#S98996'>appointed</rs> and by these presents do constitute and appoint <rs ref='#S84072'>A M West</rs> of <rs ref='#S51740'>Macon</rs> Mississippi my <rs ref='#S32024377'>agent</rs> and <rs ref='#S25011749'>attorney</rs> for me and in my Stead to <rs ref='#S95150'>Collect any and all money</rs> due me by the State of Mississippi for <rs ref='#S25026123'>property impressed</rs> for the use of the State and to receipt therefor and give any other Satisfaction assurances of pay-ment that may be necessary this preises &amp;c and to do any and all other things in the premisis that I Could do if personally present
+</p>
+
+<p corresp='TTP32519322P1' xml:id='OTP32519322P1'>Given under my hand and seal this 3<add place='above'>rd</add> day of August 1864
+</p>
+
+<p corresp='TTP32519322P2' xml:id='OTP32519322P2'>J B Ellington [seal]
+</p>
+
+<p corresp='TTP32519322P3' xml:id='OTP32519322P3'>State of Mississippi<lb/>
+Attala County<hr/>
+</p>
+
+<p corresp='TTP32519322P4' xml:id='OTP32519322P4'>Personally appeared before me <rs ref='#S32007037'>T D Sallis</rs> <rs ref='#S50807'>Clerk</rs> of the <rs ref='#S55586'>Probate Court</rs> of said county James B Ellington who acknowledges that Co Signer sealed and delivered the forgoing power of Attorny on this day and date thereof and for the uses and purposes therein mentioned
+</p>
+
+<p corresp='TTP32519322P5' xml:id='OTP32519322P5'>Given under my hand and private seal my office seal having been carried away by the <rs ref='#S71916'>Yankies</rs> this 3<add place='above'>RD</add> day of Aug AD 1864 J D Sallis Clerk
+</p>
+
+<p corresp='TTP32519322P6' xml:id='OTP32519322P6'>(J D) 
+</p>
+
+
+        </div>
+        <pb xml:id="F32519323" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:22272/full/full/0/default.jpg"/>
+        <div xml:id="OTP32519323">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32519323P0' xml:id='OTP32519323P0'>Vou. 600
+</p>
+
+<p corresp='TTP32519323P1' xml:id='OTP32519323P1'>J Ellington<lb/>
+1 horse<lb/>
+$275<lb/>
+pd 8<add place='above'>th</add> Aug 1864
+</p>
+
+<p corresp='TTP32519323P2' xml:id='OTP32519323P2'>Received of Gov <rs ref='#S52436'>Clark</rs> [?] requisition on <rs ref='#S32086550'>Auditor of public accts</rs> for two hundred &amp; seventy five dolls being appraised value of one <rs ref='#S25026123'>horse impressed</rs> by <rs ref='#S32049457'>W<add place='above'><hi rend='underline'>m</hi></add> Woods</rs> Lt &amp; <rs ref='#S32003297'>imp office</rs> on 19<add place='above'>th</add> May 1863, of J. Ellington for whom I am authorized attorney
+</p>
+
+<p corresp='TTP32519323P3' xml:id='OTP32519323P3'>A M West<lb/>
+Attorney
+</p>
+
+<p corresp='TTP32519323P4' xml:id='OTP32519323P4'>Ex. Off.<lb/>
+8<add place='above'>th</add> Aug 1864
+</p>
+
+
+        </div>
+        <pb xml:id="F32519324" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:22273/full/full/0/default.jpg"/>
+        <div xml:id="OTP32519324">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32519324P0' xml:id='OTP32519324P0'>State of Mississippi<lb/>
+Attala County <hr/>
+</p>
+
+<p corresp='TTP32519324P1' xml:id='OTP32519324P1'>Personally appeared before me Tho<add place='above'>s</add> D Sallis Clerk of the <rs ref='#S32003247'>Probate</rs> <rs ref='#S63395'>Court</rs> of Said ^county^ James. B. Ellington who being duly Sworn deposed and Said that Some time in the Spring of the year 1863—a man by the name of William Woods (a Citizen of this County) impressed a mare for the use and benefit of the State of Mississippi Estimated &amp; Valued at Two hundred &amp; Seventy five dollars ($275 <add place='above'><hi rend='underline'>00</hi></add><sub>100</sub>) for which he give affiant a Certificate &amp; that he place said certificate in the hands of <rs ref='#S32009408'>J W Scarborough</rs> to send up for Collection.
+</p>
+
+<p corresp='TTP32519324P2' xml:id='OTP32519324P2'>Also appeared J W Scarborough who being duly Sworn deposed &amp; Said that said Certificate has been lost or mislaid so that he cannot find it &amp;c
+</p>
+
+<p corresp='TTP32519324P3' xml:id='OTP32519324P3'>Sworn to &amp; Subscribed before me this 28<add place='above'>th</add> June AD 1864.
+</p>
+
+<p corresp='TTP32519324P4' xml:id='OTP32519324P4'>T D Sallis Clerk<hr/>
+</p>
+
+<p corresp='TTP32519324P5' xml:id='OTP32519324P5'>J B Ellington<lb/>
+J W Scarborough
+</p>
+
+<p corresp='TTP32519324P6' xml:id='OTP32519324P6'>J W Scarborough
+</p>
+
+
+        </div>
+        <pb xml:id="F32519325" n="4" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:22274/full/full/0/default.jpg"/>
+        <div xml:id="OTP32519325">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP32519325P0' xml:id='OTP32519325P0'>Genl A M West
+</p>
+
+<p corresp='TTP32519325P1' xml:id='OTP32519325P1'>DearSir
+</p>
+
+<p corresp='TTP32519325P2' xml:id='OTP32519325P2'>I here,send you Mr J B Ellington<add place='above'>s</add> Claim on the State together with his power making you his agent to Collect the Same—he request me to say to you he wants the amount is the new issue, that he now has more of the Old issue then he can profitably use—the Old man has but little Capacity for intricate business, you will therefore is posable procure the Kind of money wanted. we have within the past hour had a fine Corn making rain move home in from ^your^ section of County to day than was on yes-terday and day before raining at your homestead or that direc-tion—Send Mr Ellingtons money by Mr <rs ref='#S102194'>Young</rs> on his return home if it is direct
+</p>
+
+<p corresp='TTP32519325P3' xml:id='OTP32519325P3'>Yours truly
+</p>
+
+<p corresp='TTP32519325P4' xml:id='OTP32519325P4'>JW Scarborough
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

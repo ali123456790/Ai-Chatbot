@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from John McAulis to Mississippi Governor John J. Pettus; April 10, 1863</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 25 edits between
+              <date type="first_edit" when="2021-10-24T22:37:29Z">October 24, 2021</date> and
+              <date type="last_edit" when="2023-11-17T18:22:16Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-07-27T20:28:20Z">July 27, 2021</date> and
+              <date type="last_edit" when="2021-07-27T20:38:12Z">July 27, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-10-03T21:59:25Z">October  3, 2021</date> and
+              <date type="last_edit" when="2021-10-03T22:10:24Z">October  3, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32020358">
+          <persName
+            >
+            Elisabeth Kluin
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2025-03-15T01:28:10Z">March 15, 2025</date> and
+              <date type="last_edit" when="2025-03-15T01:34:25Z">March 15, 2025</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T20:17:51+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S56029">
+              <persName>McAulis, John</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63365">
+              <placeName>Mississippi--Carroll County. Vaiden</placeName>
+                <idno>https://en.wikipedia.org/wiki/Vaiden,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63365P0'>Located in Carroll County, Vaiden was founded in 1857 and incorporated on February 10, 1860. Presently, Vaiden serves as one of two county seats along with Carrollton. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.33167, -89.74694</geo>
+                </note>
+            </place>
+            <place xml:id="S104178">
+              <placeName>Mississippi--Leflore County. Greenwood</placeName>
+                <idno>https://en.wikipedia.org/wiki/Greenwood,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS104178P0'>Located in Leflore County, Greenwood was founded in 1830 in what was then a "non-county area." On February 12, 1830, it was annexed into Yazoo County until May 6, 1833, when the area was dissolved back into a "non-county area." On December 23, 1833, Greenwood was merged into the newly created Carroll County until March 15, 1871, when it became part of Leflore County, where it remains today. It was incorporated in April 1845 and serves as the county seat. (Wikipedia; Rowland, <hi rend='italic'>Mississippi</hi>, 803-804; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.5162, -90.1795</geo>
+                </note>
+            </place>
+            <place xml:id="S63228">
+              <placeName>Mississippi--Hinds County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/hinds-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63228P0'>Located in west-central Mississippi, Hinds County was established on February 12, 1821. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.26, -90.44</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S98881'>
+            <catDesc>
+              <term>Confederate States of America--Draft</term>
+              <idno>https://mississippiencyclopedia.org/entries/mississippians-in-confederate-army/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98881P0'>By the spring of 1862, the difficulty and bloodshed of fighting the Civil War became a reality to many white southerners, and many soldiers' one-year terms of enlistment expired. Voluntary enlistments slowed and rendered the Confederate Army desperate for troops. The Confederate States of America consequently issued the first compulsory call to military service in American history, also called a "draft" or "conscription" with the First Conscription Act of 1862.
+</p>
+
+<p xml:id='OTPSD98881P1'>A series of other conscription laws followed throughout the Civil War, each containing measures that sparked tensions between southerners and the Confederate government. The First Conscription Act rendered all men between the ages of 18 and 35 subject to military service, though a later act expanded the age range to 45. Men working in occupations deemed essential to the war effort or to preserving the home front could be exempted from the draft, and, after October 11, 1862, white men owning or overseeing twenty or more enslaved persons could also be exempt. These policies isolated small farmers with little investment in preserving slavery, and many southerners evaded the draft in a variety of ways. However, many others both elite and non-elite viewed the draft as a necessary action, and the Twenty Slave Law a necessary protection from enslaved rebellion. Ultimately, however they felt about it, one estimate holds that Mississippi sent roughly 8,000 draftees to fight for the Confederacy (Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S102538'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Military Leaves and Furloughs</term>
+              <idno>https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/leaves-and-furloughs</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD102538P0'>The terms “leave” and “furlough” during the Civil War meant permission for soldiers to be absent from duty. Soldiers on leave were allowed to depart camp and partake in recreational activities or, more often, travel home to visit family. Time off was a privilege for soldiers, and often more available for officers than enlisted men. Soldiers could request leave to handle matters at home in times of hardship or emergency, but permission depended upon the military situation and the commander’s discretion. Furloughs were for limited periods of time—usually no longer than thirty days—and soldiers would be reprimanded for being absent longer than their authorized leave, a violation known as “absent without leave,” or AWOL. Punishments for the crime included loss of pay, additional duties, or temporary imprisonment.
+</p>
+
+<p xml:id='OTPSD102538P1'>The lack of furloughs contributed to low morale, especially early in the war. Some soldiers deserted or accepted the punishment for being AWOL when denied leave, especially after receiving news of hardships at home. In response, Union and Confederate officials provided more furloughs to soldiers during the latter half of the Civil War. Military officers occasionally granted leave as an award for good behavior, or issued furloughs through a lottery to raise spirits. Commanders used these options sparingly, typically allowing no more than five percent of a unit to be on leave, to maintain the unit’s effectiveness and to reduce jealousy or homesickness among those who remained behind.
+</p>
+
+<p xml:id='OTPSD102538P2'>Some soldiers abused the furlough system to avoid military duties. In rare cases, men conspired with unprincipled officers to generate furloughs without authority from higher command. Other soldiers tried to buy furloughs from their comrades who had received them legitimately, offering as much as two months of pay. The more common practice was having family members write letters to an officer, appealing for the soldier to be granted leave. Once home, some soldiers sought ways to extend their leave. A favorite method involved having a doctor send a note to the soldier’s unit attesting to a medical ailment. Others blamed weather, problems with travel, or other acts of nature. The greatest violation of the furlough system involved soldiers failing to return. Officers had to determine, usually after waiting an extended period of time, whether a soldier was AWOL or had deserted. This issue plagued the Confederacy during the final year of the war, as many soldiers lost faith in victory and chose to go home with a furlough or without. (Bell Irvin Wiley, <hi rend='italic'>The Life of Johnny Reb: The Common Soldier of the Confederacy</hi>, 132-143)   
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25009736'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Military Service Exemption</term>
+              <idno>https://perma.cc/54WJ-7G6Q</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25009736P0'>By 1862 the initial waves of men who enlisted into Confederate military service diminished as enthusiasm for the war diminished, and both the Union and Confederacy enacted drafts to fill their armies. Nearly one year before the Union (March 1863), the Confederacy instituted a national draft in April 1862. There were important social implications to this policy, especially within the exemptions the Union and Confederacy provided. Similar to the Union, the Confederate act allowed drafted men to hire substitutes to serve in their place (often lower-class men willing to serve for much-needed income) and excused men from military service for medical reasons, "workers deemed necessary to maintain society," including select government employees. And unlike the Union, beginning in October 1862, men who enslaved a minimum of twenty (later fifteen) people were exempt.
+</p>
+
+<p xml:id='OTPSD25009736P1'>The Twenty-Slave Law exemption was a reaction to President Abraham Lincoln's recent announcement of the<lb/>
+Emancipation Proclamation. While many southern whites worried about enslaved people uprising with so many white men away at war, these policies cultivated a feeling among impoverished people that they were doing the majority of fighting and suffering for a “rich man's war.” Scholars like Joseph Glathaar proved this was not the case in Robert E. Lee's Army of Northern Virginia where the wealthy were overrepresented compared with impoverished soldiers, but it is unclear if this was the case in areas like Mississippi, and the perception of unfair protections for the wealthy fueled resentment. (William Marvel, "A Poor Man's Fight," National Park Service) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25009156'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Recruiting and enlistment</term>
+              <idno>https://encyclopediaofarkansas.net/entries/civil-war-recruitment-6391/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25009156P0'>At the outbreak of the American Civil War in 1861, neither the Union nor the Confederate army struggled to find recruits. Rather, both armies saw far more volunteers than their ranks and provisions could sustain. Many young men of the North and South believed that the war would end quickly and volunteered by the thousands to not miss out on the action. Other motivators for rapid enlistment included a sense of adventure, defense of slavery or the privileges of whiteness, defense of the Union, fear of ostracism in their home communities for not enlisting, or a desire to protect their homes and families.
+</p>
+
+<p xml:id='OTPSD25009156P1'>Widespread enlistment required both the United States and Confederate governments to reshape their militaries that were otherwise unprepared to handle that many recruits. The U.S. possessed only a small standing army of 16,000 men before the war, and the Confederacy needed to build its own from scratch. Both therefore relied heavily on local recruiting to organize men into militia companies then employable in the federal service. Recruiters throughout the war published pamphlets, put up posters, and gave speeches to encourage men to fight.
+</p>
+
+<p xml:id='OTPSD25009156P2'>As the war continued, dreams of a short war ended along with many men's desires to enlist. Both armies (the Confederacy in 1862 and the Union in 1863) resorted to conscription to fill their ranks. Free African Americans, particularly in the North, debated the utility and wisdom of fighting for the United States even after being legally allowed to do so in 1863. Many formerly enslaved African-American men yearned to fight for their own freedom, while others doubted that military service in the Civil War would accomplish their desired goals of emancipation and equality. However, prominent African Americans such as Frederick Douglass encouraged Black men to take up arms, and roughly 200,000 did so.
+</p>
+
+<p xml:id='OTPSD25009156P3'>Ultimately, men enlisted during the Civil War for many reasons, often tied to demographic or personal causes, and, as the war progressed and varied in its popularity and aims, recruiters' tactics likewise changed to adapt to each new situation. (Encyclopedia of Arkansas)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S71916'>
+            <catDesc>
+              <term>United States. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71916P0'>The United States Army is the military land force of the United States of America. During the American Civil War it was also referred to as the Union Army, Federal Army, or Northern Army. Its primary military objective during the war was the restoration and preservation of the United States through the defeat of secessionist forces. The United States Army traces its roots to the Continental Army, created in 1775 during the American Revolution. Following American independence, the new United States severely reduced the size of the army due to distrust of permanent standing military forces. The small regular army generally handled military operations against Native Americans and for coastal defense. State authorities were expected to support the country’s military needs with their militias, or by raising volunteer units, temporarily activated for federal service.
+</p>
+
+<p xml:id='OTPSD71916P1'>At the outbreak of the Civil War, the United States regular army consisted of barely more than 16,000 soldiers, scattered across the country (primarily at coastal defenses and forts established in the territories) among ten infantry regiments, four artillery regiments, two cavalry regiments, two dragoon regiments, and one regiment of mounted rifles. Roughly 20% of the army’s officers and enlisted resigned their positions to fight for the Confederacy. After Southern troops attacked and captured Fort Sumter in South Carolina, President Abraham Lincoln called for 75,000 volunteers to expand the army and defeat the Confederates. The government continued to issue subsequent requests for volunteers as the war progressed. As with established practice, the states were to recruit the volunteers and provide them for federal service. Initial enlistments were for 90 days, but eventually enlistment terms were expanded, typically for three years. In total, more than 2,000,000 men served in the United States Army during the course of the Civil War. Of those, only around 60,000 were part of the regular army. The overwhelming majority were in state-based units. Most soldiers were volunteers, however the federal government began drafting men in 1862, as the army’s campaigns continued and volunteer numbers dwindled. In total, around 46,000 Union soldiers (about 5.5%) were draftees.
+</p>
+
+<p xml:id='OTPSD71916P2'>Approximately two-thirds of the soldiers in the United States Army during the Civil War were native-born white citizens. Around 100,000 were from states within the Confederacy. Immigrants made up about 25% of Union soldiers, with Germans and Irish immigrants being among the most prominent. The army also included soldiers of different ethnicities, including more than 3,000 Native American soldiers. In 1863, the Union army began formally accepting African American soldiers—in segregated units—and by the end of the war, around than 179,000 had served in the United States Army uniform.
+</p>
+
+<p xml:id='OTPSD71916P3'>When hostilities ended in June 1865, approximately 110,000 had been killed in combat or succumbed to wounds, more than 220,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001148'>
+<catDesc>State Level: USA &amp; CSA Military</catDesc>
+          <category xml:id='S63200'>
+            <catDesc>
+              <term>Mississippi. Militia</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63200P0'>A militia is a military unit made up of civilians within a community who could be called up by local (often state) officials to serve temporary military purposes. Militias were separate from regular, or permanent, armies. Because they conducted training only periodically, and provided active military service for short periods of time, militias cost less than regular armies; and because they were manned by local residents, militias were frequently seen as less threatening to early American communities than national military units comprised of strange men born in other counties or states.
+</p>
+
+<p xml:id='OTPSD63200P1'>When Mississippi seceded in 1861, enthusiasm for military service swept across the state. Volunteers filled the ranks of old militia units or created new companies within their communities, eager to repulse any federal attempt to coerce secessionists back into the Union. They also took proactive efforts, securing key positions along the Gulf Coast, including reinforcing other Southern soldiers at Pensacola and Fort Pickens in Florida. Over the next few months, as the Confederate government requested more volunteers, thousands of Mississippians and entire volunteer companies from the state transferred to Confederate service and were sent north, out of state. The units that remained within Mississippi for state defense were left in a convoluted military structure, some considered state reserves (a more formal military force for state defense) and some considered state militia (the more traditional units of citizen-soldiers called up for local, emergency use). The distinctions were not well established, and during the war Mississippians describing state units not within the Confederate army used a variety of terms—such as militia, home guard, state troops—almost interchangeably. However, under this subject tag at CWRGM you will find references to the militia and state troops; references that specifically referred to the home guard can be found separately under the Mississippi Home Guard subject tag.
+</p>
+
+<p xml:id='OTPSD63200P2'>While militia and state defense units technically fell under the governor’s authority, the state government struggled to manage, or even track, these organizations. Some, like the Third Battalion Mississippi Minute Men, were well organized, fell under direct state control, and took part in larger military operations, such as the defense of Vicksburg; others saw no combat, rarely gathered for drill, and were entirely overseen by county or local community officials. Most militia members were older than the average Confederate soldier. They were typically farmers, business owners, or land owners who had families and, in many instances, slaves. Because of these responsibilities at home, militiamen expected their military duties to be periodic, temporary, and only during times of emergency, a reflection of the militia’s original intent. However, state officials occasionally activated militia units for long periods, based upon the military situation. In the summer of 1862, Mississippi’s governor, John J. Pettus, mobilized his state troops, pulling many militia units away from their communities. Held in camp for several weeks, drilling but not seeing combat, many militiamen complained of their treatment and argued that their services were needed more at home, managing farms and their communities. Despite these complaints, the governor mobilized the state troops again in 1864, and again met criticism.
+</p>
+
+<p xml:id='OTPSD63200P3'>Overall, Mississippi’s militia and state defense system during the Civil War was a complicated tangle of formal and informal military units. Infrequently used for combat assignments, these units nevertheless provided some emergency services for the state government and allowed many Mississippians a way to provide military service to the community while remaining at home to manage personal and local interests. (Tracy L. Barnett, “Mississippi ‘Milish’: Militiamen in the Civil War,” <hi rend='italic'>Civil War History</hi>, Vol. 66, No. 4 (Dec 2020), 343-379; Michael B. Ballard, <hi rend='italic'>The Civil War in Mississippi: Major Campaigns and Battles</hi>, 4-8)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001715'>
+<catDesc>Medical Organizations</catDesc>
+          <category xml:id='S58320'>
+            <catDesc>
+              <term>Hospitals</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/hospital?q=hospitals</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001715'>Medical Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58320P0'>"A place where people who are sick or injured are treated and taken care of by doctors and nurses." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001672'>
+<catDesc>Health</catDesc>
+          <category xml:id='S73740'>
+            <catDesc>
+              <term>People with Disabilities</term>
+              <idno>https://www.nps.gov/articles/disabilityhistoryearlytreatment.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001672'>Health</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD73740P0'>People with disabilities are defined as those people experiencing "any condition that makes it more difficult for a person to do certain activities or have equitable access within a given society" (Wikipedia). People with disabilities in nineteenth-century America faced a variety of different options and experiences based on both their region, age, and specific disability.
+</p>
+
+<p xml:id='OTPSD73740P1'>Early in the nineteenth century, many communities saw supporting people with disabilities as a local matter; however, as the nineteenth century progressed and cities and their populations (including people with disabilities) grew exponentially, many state governments took responsibility for supporting people with disabilities. That support most often took the form of almshouses or hospitals in which residents lived permanently, usually in rural areas for fear of urban environments' negative impacts on health. Different religious, medical, and reform organizations took different approaches to the treatment of disabilities, including the treatment of a person's morals in addition to medical care. Like many other branches of medicine, popular medical understandings of many disabilities remained incorrect and even harmful in the nineteenth century, particularly the concept of eugenics, or the idea that controlling genetics could improve or even perfect humanity. Doctors espousing these beliefs sometimes conducted forced sterilizations and lobotomies on their patients, either to prevent their reproduction or to reduce mental health issues.
+</p>
+
+<p xml:id='OTPSD73740P2'>The devastation of the American Civil War and the increase of people with war-related disabilities brought much more attention to the study of disabilities and their treatment, but ultimately humane and ethical methods of caring for people with disabilities remained far in the future. CWRGM adopts the term "People with disabilities" to foreground individuals' personhood over their status or physical condition (National Park Service; Wikipedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S96659'>
+            <catDesc>
+              <term>Impoverished People</term>
+              <idno>https://www.britannica.com/topic/poverty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96659P0'>Impoverished people are those who lack "a usual or socially acceptable amount of money or material possessions," or alternately those who "lack the means to satisfy their basic needs (Britannica). This definition, necessarily subjective and broad, indicates that what one person or society deems "socially acceptable" or what constitutes "basic needs" is malleable.
+</p>
+
+<p xml:id='OTPSD96659P1'>Similarly, impoverished people in the United States in the nineteenth century did not fit one specific category. The rise of industrialism produced an increased number of impoverished people in the U. S., particularly within large urban centers. European immigrants in cities in the East, and Chinese immigrants on the West Coast, and African Americans in the South were disproportionately affected by poverty. Regionally, the highest number of impoverished people came from the U. S. South, where "both whites and African Americans struggled with debt, low cotton prices, laws favorable to employers and creditors, paltry alternatives, and the general post war devastation" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 547).
+</p>
+
+<p xml:id='OTPSD96659P2'>Racism and nativism among employers and employees also made economic advancement more difficult for people of color and immigrants. However, the impoverished made up a comparatively low percentage of Mississippi's antebellum population, given its low number of immigrants and even native residents, lack of industrialization and urbanization, and mobility of those that were impoverished (Mississippi Encyclopedia). Many reform organizations throughout the country took the lead in fighting poverty in the nineteenth century, while state and federal governments by the end of the century also developed its own institutional responses. The status of being impoverished has always carried negative connotations in American history, so CWRGM uses the tag "Impoverished people" to emphasize the personhood of those in poverty rather than their social status. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S71099'>
+            <catDesc>
+              <term>Secessionists</term>
+              <idno>https://www.historynet.com/secession/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71099P0'>The tag "Secessionists" refer to those Americans who supported leaving the Union and establishing an independent Confederate nation. States both North and South had threatened to secede from the United States throughout the nation's history, particularly in New England in 1814 and South Carolina in 1832. However, building tensions between abolitionists and enslavers in the North and South saw an increase in the frequency and fervor of secession threats emanating from southern states in the 1850s. The election of Republican Abraham Lincoln to the presidency in November 1860 provided the impetus many states needed to justify secession. Citing perceived threats to the institution of chattel slavery, on December 20, 1860, South Carolina left the Union, followed by six more lower-South states (Georgia, Florida, Alabama, Mississippi, Texas and Louisiana) over the next four months.
+</p>
+
+<p xml:id='OTPSD71099P1'>After the Confederate attack on Fort Sumter on April 12, 1861, and Abraham Lincoln's call for 75,000 volunteers to put down the rebellion on April 15, four more states from the upper-south (Virginia, Arkansas, North Carolina, and Tennessee) seceded. Throughout the war, politicians and military commanders argued fiercely over the constitutionality of secession and debated whether the Confederate states had indeed seceded or instead remained in the Union, though in rebellion. While the fighting of the Civil War functionally ended the Confederacy's effort at secession, the question of those states' status remained an important one for shaping the prosecution of the war and the process of Reconstruction thereafter (HistoryNet).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S69274'>
+            <catDesc>
+              <term>Disease and Illness</term>
+              <idno>https://www.battlefields.org/learn/articles/common-diseases-18th-and-19th-century</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD69274P0'>Approximately 620,000 Americans died during the Civil War. For this reason, the war is often called America’s bloodiest conflict. However, two-thirds of Civil War deaths were caused by disease, not combat. The disparity is greater for non-fatal victims: 400,000 soldiers suffered wounds or injuries compared to 6,000,000 cases of illness. Since a combined 3,000,000 men fought in Union and Confederate armies, this means the average soldier fell ill to disease twice during his military service.
+</p>
+
+<p xml:id='OTPSD69274P1'>Numerous types of diseases afflicted soldiers and civilians during the Civil War and Reconstruction era. Some were ubiquitous, like the common cold and diarrhea, which rarely garnered much attention unless the symptoms worsened into a more severe condition. Pneumonia, typhoid, and malaria were among the most serious diseases in the mid-nineteenth century. Epidemics of yellow fever and small pox also ravaged some civilian communities and military units. Perhaps the most deadly to Civil War soldiers, though, was dysentery, which was diarrhea with blood in the stool. Nearly 60,000 people died from dysentery during the war, and Union officials recorded 1.5 million cases of diarrhea or dysentery between 1861 and 1865.
+</p>
+
+<p xml:id='OTPSD69274P2'>All Americans, regardless of economic status or race, suffered pain and loss due to illness during the era. The President of the United States Abraham Lincoln and President of the Confederate States Jefferson Davis—the two most powerful individuals in North America, with access to the best resources—each lost a child to disease during the Civil War. The problem worsened with the sudden shifting of human populations during and after the war, as outbreaks of diseases spread rapidly. While many soldiers from highly populated areas had developed immunity to childhood diseases such as chicken pox, diphtheria, mumps, measles citizen soldiers from rural areas proved more susceptible to severe reactions when exposed to those diseases. Physicians improved medical care during the Civil War, as many recognized the value of sunlight and fresh airflow. However, they could only provide soldiers such healthy conditions behind the lines, at hospitals or rest areas. In many camps, or in the field during campaigns, soldiers were exposed to poor weather, extreme temperatures, and unsanitary conditions. Those who suffered the worse were in prisoner of war camps, in both north and south, where thousands of soldiers died from dysentery or other diseases. Civil War doctors did not fully understand the spread of diseases, including contaminated water (in the case of typhoid and dysentery) or mosquitos (for malaria and yellow fever). As such, camps, forts, and prisons rarely were constructed with the soldiers’ health in mind, and Civil War medicine most often involved responding to disease rather than preventing it.
+</p>
+
+<p xml:id='OTPSD69274P3'>Another source of illness among soldiers, and civilians in war-torn areas, was dietary deficiencies. Despite efforts by subsistence and commissary personnel in Union and Confederate armies, feeding thousands of troops daily proved a monumental task. Food preservation techniques still relied heavily upon drying and salting, and fresh vegetables and fruits were limited and dependent upon seasons. As a result, most Civil War soldiers likely suffered from a Vitamin C deficiency, the most severe cases resulting in scurvy which caused the loss of teeth and bleeding. Heavy reliance upon corn-based foods, especially within southern military units or Union prisoners held in southern prisoner of war camps, led to high instances of pellagra, a condition caused by the lack of niacin (or vitamin B3). Present in most foods, but not corn, victims suffered from diarrhea, skin sores, and dementia.
+</p>
+
+<p xml:id='OTPSD69274P4'>Often ignored, Americans also suffered from sexually transmitted diseases during the Civil War and afterwards. Although rarely fatal, more than 100,000 soldiers were diagnosed with gonorrhea and nearly 80,000 became infected with syphilis. Unsurprisingly, most of these cases occurred when soldiers were near populated areas, especially during training or time in camp, where they had more opportunities to interact with women. Venereal disease rates were higher at the start and at the end of the Civil War. That trend may reflect the fact that rates went down for armies on campaign in the field. The overall rate of venereal disease in the Union Army fluctuated from about 82 to 87 cases for every 1,000 soldiers, Some Union military units reported extremely high rates of venereal disease, particularly in the west. For instance, military physicians in the Department of the Pacific recorded 461 cases out of 1,000 men in 1862.
+</p>
+
+<p xml:id='OTPSD69274P5'>The Civil War also led to disease outbreaks among civilians. Like country-born soldiers introduced to new diseases in military camps, fugitive or liberated slaves who congregated in refugee camps behind Union lines became exposed to new diseases. Cities besieged by armies, such as Vicksburg, Atlanta, and Richmond, faced problems with sanitation and food supplies, compromising the health and immune systems of local residents, leaving them more susceptible to illness.
+</p>
+
+<p xml:id='OTPSD69274P6'>Finally, while most people survived bouts of illness during the Civil War, countless carried pathogens back to their home communities, or simply carried long-term effects from diseases within their bodies. Respiratory infections, blood borne diseases, and other afflictions obtained during the war decreased the quality of life of many Americans, or led to other health complications and early death. (American Battlefield Trust, Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 205–213; George Worthington Adams, <hi rend='italic'>Doctors in Blue</hi>, 3–5; Thomas P. Lowry, <hi rend='italic'>The Story the Soldiers Wouldn't Tell</hi>, 104–108)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives and the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1863</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>McAulis, John</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1863-04-10</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from John McAulis, a militia enrolling officer at Greenwood, Mississippi, to Mississippi Governor John J. Pettus explaining why he is having trouble getting men to join the Confederate Army.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 5&quot; x 8&quot; 4-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Greenwood (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-944-10-11</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Leflore County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 944, Folder 10</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Confederate States of America. Army--Recruiting, enlistment, etc.; Mississippi. Governor; Mississippi. Militia; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from John McAulis to Mississippi Governor John J. Pettus; April 10, 1863</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/8985&quot;&gt;Letter from John McAulis to Mississippi Governor John J. Pettus; April 10, 1863&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG38" who="U32020358" when="2025-03-15T01:34:25Z" target="#P25106254">
+          Version 14 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U32020358" when="2025-03-15T01:28:10Z" target="#P25106254">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-11-17T18:22:16Z" target="#P25106253">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-11-17T18:17:04Z" target="#P25106254">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-11-17T17:58:53Z" target="#P25106254">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-11-02T15:55:44Z" target="#P25106256">
+          Version 7 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-11-02T15:28:47Z" target="#P25106256">
+          Version 6 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-11-02T03:24:12Z" target="#P25106254">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-11-01T22:32:37Z" target="#P25106255">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-09-02T20:35:43Z" target="#P25106256">
+          Version 5 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-09-02T20:27:58Z" target="#P25106253">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-09-02T20:07:21Z" target="#P25106254">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-09-02T20:06:36Z" target="#P25106253">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-09-02T20:03:18Z" target="#P25106254">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-18T22:46:37Z" target="#P25106255">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-18T01:04:32Z" target="#P25106254">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-18T00:38:32Z" target="#P25106253">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-06T04:48:36Z" target="#P25106253">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2022-12-04T16:57:36Z" target="#P25106253">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2022-12-04T16:46:48Z" target="#P25106254">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2022-12-04T16:10:02Z" target="#P25106254">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2022-12-04T00:38:32Z" target="#P25106256">
+          Version 4 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2021-10-24T22:46:04Z" target="#P25106256">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2021-10-24T22:43:35Z" target="#P25106255">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2021-10-24T22:41:34Z" target="#P25106254">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2021-10-24T22:41:11Z" target="#P25106254">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2021-10-24T22:37:29Z" target="#P25106253">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091253" when="2021-10-03T22:10:24Z" target="#P25106256">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091253" when="2021-10-03T22:04:23Z" target="#P25106255">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091253" when="2021-10-03T22:01:39Z" target="#P25106254">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091253" when="2021-10-03T21:59:25Z" target="#P25106253">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U231087" when="2021-07-27T20:38:12Z" target="#P25106256">
+          Version 1 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U231087" when="2021-07-27T20:35:11Z" target="#P25106255">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2021-07-27T20:32:18Z" target="#P25106254">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2021-07-27T20:28:20Z" target="#P25106253">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2021-07-02T22:19:12Z" target="#P25106256">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-07-02T22:19:06Z" target="#P25106255">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-07-02T22:19:00Z" target="#P25106254">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-07-02T22:18:53Z" target="#P25106253">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25106253" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8981/full/full/0/default.jpg"/>
+        <div xml:id="OTP25106253">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25106253P0' xml:id='OTP25106253P0'><rs ref='#S104178'>Greenwood</rs> Miss April 10/63
+</p>
+
+<p corresp='TTP25106253P1' xml:id='OTP25106253P1'>Gov <rs ref='#S63111'>J. J. Pettus</rs>
+</p>
+
+<p corresp='TTP25106253P2' xml:id='OTP25106253P2'>Honoured Sir
+</p>
+
+<p corresp='TTP25106253P3' xml:id='OTP25106253P3'>I take the honour of adressing you a few lines which I hope that you will have Spare time to look over. You are aware of my being at home as <rs ref='#S25009156'>enrolling officer</rs> and with all the exertions I could make,, to put men into our companies they would Slip through as. fast. as. I. would. take them up "Well what was the cause" The causes are many" the principal cause is the lack of Paitrotism with the People who prefer others to do the work while they recline at home at their ease careless of what the result of this war may be providing that they are left unmolested These very men have been they loudest mouthed <rs ref='#S71099'>Secessionists</rs> and rail at you for you trying to do your duty &amp; presere a country over them.
+</p>
+
+
+        </div>
+        <pb xml:id="F25106254" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8982/full/full/0/default.jpg"/>
+        <div xml:id="OTP25106254">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25106254P0' xml:id='OTP25106254P0'>Now there is yet over 300 men enrolled in <rs ref='#S63228'>hinds county</rs> which as yet has not been calleded upon under the late <rs ref='#S98881'>draft</rs> I am satisfied that Some of these <rs ref='#S25009736'>Should justly be left at home</rs> for reason of <rs ref='#S73740'>disability</rs> &amp; public good but I think that the county Should Spair at least 100 of this number which would fill the companies to the Number required Now what is the result of these men b^e^ing at home Why it creates dissatisfaction with those who are out &amp; they Say why dont these men be put into the comp=anies &amp; let us have companies instead of squads no man likes to Serve in a Small company He can take no pride in it &amp; officers cannot take any pride in commanding it But you will ask How am I going to remidy this In this way If you find that the state of things would justify you in <rs ref='#S102538'>forloughing</rs> the State
+</p>
+
+
+        </div>
+        <pb xml:id="F25106255" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8983/full/full/0/default.jpg"/>
+        <div xml:id="OTP25106255">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP25106255P0' xml:id='OTP25106255P0'>Troops for a month more or less let each Capt. be recruiting officer in his own beat, &amp; let him control his men &amp; officers at his own discretion paying them only for the days which he would have them on duty &amp; require them to drill once a week &amp; let the Capt enforce the law upon absentees from drill strictly If upon calling out the <rs ref='#S63200'>militia</rs> that they companies is still minus their quantity let them <del rend='overstrike'>rendezvouse</del> ^rendesvouze^ at some apointed place &amp; reorganize into full companies &amp; Rgts. Pardon me If I have said any thing that do not meet your approbation in these sug=gestions they are given in a full spirit of Paitrotism. There is yet another thing which I would bring before you and that is my own condition in case the companies be not filled up My company here is only 17 all told there is 4 <rs ref='#S69274'>sick</rs> at <rs ref='#S63365'>Vaiden</rs> in the <rs ref='#S58320'>Hospital</rs> &amp; 4 sick
+</p>
+
+
+        </div>
+        <pb xml:id="F25106256" n="4" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8984/full/full/0/default.jpg"/>
+        <div xml:id="OTP25106256">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP25106256P0' xml:id='OTP25106256P0'>Capt <rs ref='#S56029'>John M<add place='above'>c</add>Aulis</rs>
+</p>
+
+<p corresp='TTP25106256P1' xml:id='OTP25106256P1'>at their Homes there is more than this on our Roll but 25 is the full amount If all was well &amp; able for duty Now I will ask you is this not humilating to an officer to have to command" and when I was ordered out, I came &amp; left a <rs ref='#S25013472'>wife</rs> who has not been well for 6 years &amp; also a sister in law &amp; little Brother in law to make a support for and is a <rs ref='#S96659'>poor man</rs> with nothing but my heath to provide for these yet I refused situations which would have kept me at home prefering to lend my aid along with my fellow citizens to repell the <rs ref='#S71916'>invader</rs> &amp; return to a peaceful home I know that I can serve my couny better than commanding a squad but am willing to await your pleasure &amp; orders in this however grating it may be to my feelings With my best &amp; kindnest regards &amp; hopeing that all things will yet turn out for the best I remain Dear Sir your humble &amp; obt sert
+</p>
+
+<p corresp='TTP25106256P2' xml:id='OTP25106256P2'><hi rend='underline'><rs ref='#S56029'>John M<add place='above'>c</add>Aulis</rs></hi>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

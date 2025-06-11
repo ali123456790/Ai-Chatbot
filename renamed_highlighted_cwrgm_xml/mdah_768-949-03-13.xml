@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letters from R. W. Edmondson to Mississippi Governor Charles Clark; January 14, 1864</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 25 edits between
+              <date type="first_edit" when="2022-09-18T19:59:50Z">September 18, 2022</date> and
+              <date type="last_edit" when="2023-11-06T22:32:45Z">November  6, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25090807">
+          <persName
+            >
+            Patricia Parrish
+            </persName>
+            <resp>
+              made 9 edits between
+              <date type="first_edit" when="2022-07-04T04:42:09Z">July  4, 2022</date> and
+              <date type="last_edit" when="2022-07-04T22:30:38Z">July  4, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2022-08-22T20:54:32Z">August 22, 2022</date> and
+              <date type="last_edit" when="2022-08-22T21:03:39Z">August 22, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T17:30:55Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:38:15+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32041899">
+              <persName>Bowles, James R.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52436">
+              <persName>Clark, Charles, 1811-1877</persName>
+                <idno>https://en.wikipedia.org/wiki/Charles_Clark_(governor)</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52436P0'>Charles Clark served as Mississippi’s governor during the last two years of the Civil War. Born in Cincinnati, Ohio, on May 24, 1811, Clark later moved to Mississippi, where he became a lawyer and a state representative in the late 1830s. After successfully representing a Mississippi settler in a land dispute with members of the Choctaw Nation in the early 1840s, Clark received a large tract of land near Beulah, Mississippi, as payment. Clark eventually enlarged his property to over five thousand acres, making it one of the largest and most successful plantations in Mississippi. During this time, he married Ann Eliza Darden and between 1840 and 1852 fathered three children.
+</p>
+
+<p xml:id='OTPS52436P1'>Clark volunteered for military service during the Mexican-American War in 1846 and raised a company of volunteers that was placed into the 2nd Mississippi Regiment. After its original commander resigned, Clark was elected colonel. Following the war in 1848, he returned to Mississippi resumed an interest in politics. He was selected as a delegate to a state convention in 1851 that debated the matter of secession in the wake of the Compromise of 1850, which had tried to settle a fierce dispute over the fate of slavery in territories gained by the United States from Mexico. Clark attended the convention as a Unionist, opposed to withdrawing from the Union. Developments over the next ten years changed his mind.
+</p>
+
+<p xml:id='OTPS52436P2'>Clark won a seat in the Mississippi’s House of Representatives as a Whig, serving from 1856 to 1861. Following Abraham Lincoln’s election as president in 1860, Clark embraced Mississippi’s secession. When the Civil War broke out, Clark received a commission as a brigadier general in the Mississippi Militia. He later entered the Confederate Army and eventually took command of a division. Slightly wounded at the Battle of Shiloh in April 1862, he was more seriously wounded and captured during fighting at Baton Rouge, Louisiana, in August 1862. Clark spent a short time as a prisoner of war before he was paroled by Union forces.
+</p>
+
+<p xml:id='OTPS52436P3'>In 1863, Clark ran for governor of Mississippi, in the wake of Confederate defeats at Vicksburg and Jackson. Clark campaigned on continued resistance to the Union and easily won the executive seat. Due to Union campaigns in Mississippi, Clark periodically moved the state government, from Jackson to Macon, then to Columbus, and back to Macon. When Confederate forces in Mississippi surrendered in May 1865, Clark instructed the state legislature to convene for a special session in Jackson. In June 1865, federal troops at Jackson arrested Clark and imprisoned him at Fort Pulaski, Georgia.
+</p>
+
+<p xml:id='OTPS52436P4'>Eventually released from federal custody, Clark returned to Bolivar County, Mississippi. He quietly practiced law and served on the University of Mississippi Board of Trustees during Reconstruction. In 1876, Clark received an appointment as chancellor for the fourth judicial district. He died a year later, on December 17, 1877. Clark is buried in a family cemetery at Beulah, Mississippi.
+</p>
+
+<p xml:id='OTPS52436P5'>(Wikipedia; David Sansing, “Charles Clark: Twenty-fourth Governor of Mississippi: 1863–1865,” Mississippi History Now; FindaGrave)
+</p>
+
+<p xml:id='OTPS52436P6'>Charles Clark belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32041894">
+              <persName>Bowles, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32041896">
+              <persName>Edmondson, R. W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51804">
+              <placeName>Mississippi--Lowndes County. Columbus</placeName>
+                <idno>https://en.wikipedia.org/wiki/Columbus,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51804P0'>Currently located in Lowndes County, Columbus was founded on December 6, 1819 in what was then a "non-county area." When Lowndes County was created on January 30, 1830, Columbus became its county seat. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.50167, -88.415</geo>
+                </note>
+            </place>
+            <place xml:id="S53534">
+              <placeName>Mississippi--Chickasaw County. Okolona</placeName>
+                <idno>https://en.wikipedia.org/wiki/Okolona,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS53534P0'>Located in Chickasaw County, Okolona was settled in 1845 under the name Rose Hill and was renamed Okolona when it was established in 1859. Okolona serves as county co-seat (with Houston). (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.00583, -88.75056</geo>
+                </note>
+            </place>
+            <place xml:id="S62960">
+              <placeName>North Carolina--New Hanover County. Wilmington</placeName>
+                <idno>https://en.wikipedia.org/wiki/Wilmington,_North_Carolina</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS62960P0'>Located in New Hanover County, North Carolina, Wilmington was founded in the 1730s. Previously known as New Carthage, New London, and Newton, it was renamed Wilmington upon its incorporation in 1740. Presently, Wilmington serves as the county seat. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.22333, -77.91222</geo>
+                </note>
+            </place>
+            <place xml:id="S56367">
+              <placeName>Alabama--Dallas County. Selma</placeName>
+                <idno>http://encyclopediaofalabama.org/article/h-1635</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS56367P0'>Currently located in Dallas County, Selma was founded under the name Moore’s Bluff in 1815 in what was Monroe County, Mississippi, at the time of founding. It became part of the newly created Montgomery County, Mississippi, on December 5, 1816, which was changed to Alabama territory on March 2, 1817. On February 8, 1818, Moore's Bluff became part of the newly created Dallas County. It was renamed Selma on December 4, 1820, when it was incorporated. Selma became the county seat in 1866. (Encyclopedia of Alabama; Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.41639, -87.02472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001686'>
+<catDesc>Labor &amp; Financial Events</catDesc>
+          <category xml:id='S32083485'>
+            <catDesc>
+              <term>Property Management</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/property-management?q=Property+Management</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001686'>Labor &amp; Financial Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32083485P0'>"The act of overseeing an owned property." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32047578'>
+            <catDesc>
+              <term>Property Management--Confiscations</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/confiscation?q=Confiscations</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001686'>Labor &amp; Financial Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32047578P0'>"The act of taking someone else's possessions including but not limited to the property or what is located on it." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S32069789'>
+            <catDesc>
+              <term>Legislation. Mississippi</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_Legislature</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32069789P0'>While the Mississippi <hi rend='italic'>Constitution</hi> grants each chamber some unique power, the House and Senate are equal partners in the legislative process as both chambers are required to enact legislation. Bills are originated in either house, and to become law, must receive a simple majority in both chambers. Once passed, it is sent to the Mississippi state governor for passage, veto, or pocket-veto, and the state legislature can overcome the veto with a two-thirds majority vote. (Wikipedia)<lb/>
+
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32044880'>
+            <catDesc>
+              <term>Legislation. Mississippi. Chapter XXVII (1863)</term>
+              <idno>https://cwrgm.org/item/mdah_768-949-02-12</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32044880P0'>Mississippi Legislation, Chapter XXVII (1863), was enacted December 9, 1863 and allowed the procurement of cotton and wool cards for impoverished families in Mississippi. ("Letter from Robert Edmundson to Mississippi Governor Charles Clark; December 23, 1863," Civil War and Reconstruction Governors of Mississippi, mdah_768-949-02-12)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001713'>
+<catDesc>C.S.A. Federal Government</catDesc>
+          <category xml:id='S99586'>
+            <catDesc>
+              <term>Confederate States of America--War Department</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t00z8036q&amp;view=1up&amp;seq=9&amp;skin=2021</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.3675, -86.3</geo>
+              </note>
+              <gloss><p xml:id='OTPSD99586P0'>Operating nationally, the Provisional Confederate Congress established the War Department by an act on February 21, 1861, in Montgomery, Alabama. The department was led by the Secretary of War, appointed by the President with the advice and consent of the Senate. It was initially led by LeRoy Pope Walker from February 25–September 16, 1861 and later led by Judah P. Benjamin (September 17, 1861–March 24, 1862), George W. Randolph (March 24–November 15, 1862), James Seddon (November 21, 1862–February 5, 1865), and Maj. Gen. John C. Breckinridge (February 6–May 10, 1865). The War Department was responsible for the administration of the Confederate Army and managed all matters pertaining to American Indian tribes within the boundaries of the Confederate States. (<hi rend='italic'>Acts and Resolutions of the First Session of the Provisional Congress of the Confederate States</hi>, 1861 Public Laws, S1, 46; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25013612'>
+            <catDesc>
+              <term>Confederate States of America--War Department. Commissary Department</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t2z32n83q&amp;view=1up&amp;seq=3&amp;skin=2021</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25013612P0'>The Provisional Confederate Congress established the Confederate Commissary Department on February 26, 1861 in Montgomery, Alabama under the War Department. Initially under the command of Col. Lucius B. Northrop, Brig. Gen. Isaac M. St. John assumed command on February 16, 1865. Operating at the national level of the Confederacy, the Commissary Department was responsible for the procurement and distribution of food for the Confederate Army. (<hi rend='italic'>Laws of the Provisional Congress of the Confederate States</hi>, 1861, 4; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25013611'>
+            <catDesc>
+              <term>Confederate States of America--War Department. Quartermaster Department</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t2z32n83q&amp;view=1up&amp;seq=3&amp;skin=2021</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25013611P0'>The Provisional Confederate Congress established the Confederate Quartermaster Department on February 26, 1861 in Montgomery, Alabama under the War Department. Initially under the command of Col. Abraham C. Myers, Brig Gen. Alexander Lawton assumed command in 1863. Operating at the national level of the Confederacy, the Quartermaster Department was responsible for procuring war materials and other supplies for the Confederate Army. (<hi rend='italic'>Laws of the Provisional Congress of the Confederate States</hi>, 1861, 4; American Battlefield Trust; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+<category xml:id='C32001716S99586'>
+<catDesc>
+<term><rs ref='S99586'>Confederate States of America--War Department</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001716S25013612'>
+<catDesc>
+<term><rs ref='S25013612'>Confederate States of America--War Department. Commissary Department</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001716S25013611'>
+<catDesc>
+<term><rs ref='S25013611'>Confederate States of America--War Department. Quartermaster Department</rs></term>
+</catDesc>
+</category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S62915'>
+            <catDesc>
+              <term>Mississippi--Legislature</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_Legislature</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD62915P0'>Operating at the state level, the Mississippi State Legislature (originally called the "General Assembly") was established by Article 4 of the Mississippi Constitution on November 1, 1890, and serves as the legislative branch of the state government. It is comprised of the House of Representatives and the Senate. The Legislature is responsible for passing new statewide laws and making amendments to the Constitution. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S96659'>
+            <catDesc>
+              <term>Impoverished People</term>
+              <idno>https://www.britannica.com/topic/poverty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96659P0'>Impoverished people are those who lack "a usual or socially acceptable amount of money or material possessions," or alternately those who "lack the means to satisfy their basic needs (Britannica). This definition, necessarily subjective and broad, indicates that what one person or society deems "socially acceptable" or what constitutes "basic needs" is malleable.
+</p>
+
+<p xml:id='OTPSD96659P1'>Similarly, impoverished people in the United States in the nineteenth century did not fit one specific category. The rise of industrialism produced an increased number of impoverished people in the U. S., particularly within large urban centers. European immigrants in cities in the East, and Chinese immigrants on the West Coast, and African Americans in the South were disproportionately affected by poverty. Regionally, the highest number of impoverished people came from the U. S. South, where "both whites and African Americans struggled with debt, low cotton prices, laws favorable to employers and creditors, paltry alternatives, and the general post war devastation" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 547).
+</p>
+
+<p xml:id='OTPSD96659P2'>Racism and nativism among employers and employees also made economic advancement more difficult for people of color and immigrants. However, the impoverished made up a comparatively low percentage of Mississippi's antebellum population, given its low number of immigrants and even native residents, lack of industrialization and urbanization, and mobility of those that were impoverished (Mississippi Encyclopedia). Many reform organizations throughout the country took the lead in fighting poverty in the nineteenth century, while state and federal governments by the end of the century also developed its own institutional responses. The status of being impoverished has always carried negative connotations in American history, so CWRGM uses the tag "Impoverished people" to emphasize the personhood of those in poverty rather than their social status. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Clark Series 768</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission.; Funding for this project provided by the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1864</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Edmondson, R. W.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1864-01-14</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Clark Collection. Letters from R. W. Edmundson at Columbus, Mississippi, to Mississippi Governor Charles Clark, concerning his proposition to supply the state with wool and cotton cards.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 12.5&quot; 5-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Columbus (Miss.); Okolona (Miss.); Selma (Ala.); Wilmington (N.C.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_768-949-03-13</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Chickasaw County (Miss.); Lowndes County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Michael Singleton; Miranda Williamson; Britany Castilaw; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 949, Folder 3</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Clark, Charles, 1811-1877; Confederate States of America. Army; Confederate States of America. Army--Supplies and stores; Cotton; Families of military personnel; Government purchasing; Mississippi. Governor; Mississippi. Legislature; Wool</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letters from R. W. Edmondson to Mississippi Governor Charles Clark; January 14, 1864</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/21668&quot;&gt;Letters from R. W. Edmondson to Mississippi Governor Charles Clark; January 14, 1864&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG44" who="U2" when="2024-10-25T17:30:55Z" target="#P32417841">
+          Version 18 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U220769" when="2023-11-06T22:32:45Z" target="#P32417839">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2023-11-02T15:55:57Z" target="#P32417841">
+          Version 17 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-11-02T15:29:28Z" target="#P32417841">
+          Version 16 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-09-02T20:37:10Z" target="#P32417841">
+          Version 15 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-03-19T20:16:54Z" target="#P32417841">
+          Version 14 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-03-19T20:13:15Z" target="#P32417841">
+          Version 13 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-03-19T18:29:09Z" target="#P32417841">
+          Version 12 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-03-18T21:22:36Z" target="#P32417839">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-03-18T13:54:29Z" target="#P32417839">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-03-18T01:25:35Z" target="#P32417839">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-03-18T01:24:41Z" target="#P32417839">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-17T23:08:09Z" target="#P32417839">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-06T04:21:04Z" target="#P32417841">
+          Version 11 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-04T18:28:58Z" target="#P32417841">
+          Version 10 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-04T18:27:45Z" target="#P32417841">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2022-12-04T18:10:05Z" target="#P32417841">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2022-12-04T03:52:37Z" target="#P32417841">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2022-12-04T01:24:03Z" target="#P32417841">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2022-09-18T20:17:46Z" target="#P32417842">
+          Version 4 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2022-09-18T20:16:40Z" target="#P32417841">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2022-09-18T20:13:55Z" target="#P32417841">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2022-09-18T20:09:54Z" target="#P32417841">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2022-09-18T20:04:51Z" target="#P32417840">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2022-09-18T20:04:21Z" target="#P32417839">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2022-09-18T19:59:50Z" target="#P32417839">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091253" when="2022-08-22T21:03:39Z" target="#P32417843">
+          Version 3 of page "Page 5":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091253" when="2022-08-22T21:02:52Z" target="#P32417842">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091253" when="2022-08-22T21:01:17Z" target="#P32417841">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091253" when="2022-08-22T20:56:56Z" target="#P32417840">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091253" when="2022-08-22T20:54:32Z" target="#P32417839">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25090807" when="2022-07-04T22:30:38Z" target="#P32417843">
+          Version 2 of page "Page 5":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25090807" when="2022-07-04T22:30:37Z" target="#P32417843">
+          Version 1 of page "Page 5":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25090807" when="2022-07-04T22:29:24Z" target="#P32417842">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25090807" when="2022-07-04T22:29:24Z" target="#P32417842">
+          Version 1 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25090807" when="2022-07-04T22:22:34Z" target="#P32417841">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25090807" when="2022-07-04T21:58:14Z" target="#P32417840">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25090807" when="2022-07-04T21:58:13Z" target="#P32417840">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25090807" when="2022-07-04T04:42:10Z" target="#P32417839">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25090807" when="2022-07-04T04:42:09Z" target="#P32417839">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U220769" when="2022-06-27T19:19:33Z" target="#P32417843">
+          Version 0 of page "Page 5":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2022-06-27T19:19:31Z" target="#P32417842">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2022-06-27T19:19:29Z" target="#P32417841">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-06-27T19:19:26Z" target="#P32417840">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-06-27T19:19:24Z" target="#P32417839">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32417839" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:21663/full/full/0/default.jpg"/>
+        <div xml:id="OTP32417839">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32417839P0' xml:id='OTP32417839P0'>[Seal]
+</p>
+
+<p corresp='TTP32417839P1' xml:id='OTP32417839P1'><rs ref='#S51804'>Columbus</rs> Jany. 14. 1864
+</p>
+
+<p corresp='TTP32417839P2' xml:id='OTP32417839P2'>His Excellency Gov. <rs ref='#S52436'>Chas,, Clark</rs>
+</p>
+
+<p corresp='TTP32417839P3' xml:id='OTP32417839P3'>Sir
+</p>
+
+<p corresp='TTP32417839P4' xml:id='OTP32417839P4'>As understood between us I might do, I have changed in some respects the proposi=tion made by Mr <rs ref='#S32041894'>Bowles</rs> &amp; myself for furnishing the State with Cotton &amp; wool Cards &amp; Army Stores. It Explains itself &amp; will be fully understood by you. Upon the terms proposed we are willing to accept any por=tion of the contract you may think it would be to the interest of the State to Entrust us with but at the same time we prefer having the whole contract awarded to us although it is one of great magnitude.
+</p>
+
+<p corresp='TTP32417839P5' xml:id='OTP32417839P5'>We believe we have at our Command the means &amp; the ability to carry out the undertaking or we would not submit to you the prop-osition we do. We confess however that it is one of far greater mag=nitude than it first presented but of Easy accomplishment if fol=lowed with Energy industry &amp; perseverence with the means at our hands.
+</p>
+
+<p corresp='TTP32417839P6' xml:id='OTP32417839P6'>Mr Bowles has gon to <rs ref='#S53534'>Okalona</rs> to perfect Some arrangements he has on hand for Securing a lot of cards through our <rs ref='#S70882'>lines</rs> north upon the Conditions of our getting the Contract.
+</p>
+
+<p corresp='TTP32417839P7' xml:id='OTP32417839P7'>My brother will Sail from <rs ref='#S62960'>Willmington</rs> during the dark of this present Moon if his arrangements can be by that time perfected to that End to take command of one of our new Privateers that he Expects to put afloat within the next few weeks. The crew Except himself Sailed from that port two weeks ago. He arrived in <rs ref='#S56367'>Selma</rs> Monday last &amp; I have written him to meet me in Columbus during this week. Through him I hope to make all the arrangements neces=sary for furnishing any amount of Army Stores &amp; Cotton Cards that may be needed by the State in a shorter time than through the other agencies we can command. Many of the parties to this privateering Enterprise are Mississippians and will known to you as among her most prominent trusted &amp; worthy citizens. If I can Effect this point it will save time trouble and Expense to the State in her Supply of Army Stores. More I could say to you did I not fear trepassing on your time and patience.
+</p>
+
+<p corresp='TTP32417839P8' xml:id='OTP32417839P8'>Very Respectfully &amp;<add place='above'>c</add>.
+</p>
+
+<p corresp='TTP32417839P9' xml:id='OTP32417839P9'><rs ref='#S32041896'>R W. Edmondson</rs>
+</p>
+
+
+        </div>
+        <pb xml:id="F32417840" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:21664/full/full/0/default.jpg"/>
+        <div xml:id="OTP32417840">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32417840P0' xml:id='OTP32417840P0'>Cotton Cards<lb/>
+J R Edmondson
+</p>
+
+
+        </div>
+        <pb xml:id="F32417841" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:21665/full/full/0/default.jpg"/>
+        <div xml:id="OTP32417841">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32417841P0' xml:id='OTP32417841P0'>[Seal]
+</p>
+
+<p corresp='TTP32417841P1' xml:id='OTP32417841P1'>To His Excellency
+</p>
+
+<p corresp='TTP32417841P2' xml:id='OTP32417841P2'>Gov. Charles Clarke
+</p>
+
+<p corresp='TTP32417841P3' xml:id='OTP32417841P3'>We Submit to you the following proposition modifying to some Extent the one heretofore submitted by us to furnish you with Cotton &amp; wool cards for the use of the <rs ref='#S96659'>indigent</rs> <rs ref='#S25013472'>families of Soldiers</rs> and other Citizens of the State under an <rs ref='#S32044880'>act</rs> of the last Session of the <rs ref='#S62915'>Legislature of Miss<add place='above'>i</add></rs>.
+</p>
+
+<p corresp='TTP32417841P4' xml:id='OTP32417841P4'>We hereby propose and will obligate ourselves to deliver within the Confederate lines in the State of Miss<add place='above'>i</add>. Forty thousand pair of Cotton and ten thousand pair of wool cards for the One hundred Thousand Dollars appropriated for this purpose by the Legislation of Mi. the said sum to be paid to us in State or Confederate money:—The governor of Mi. allowing to us the privilege of shipping and be protecting the same from <rs ref='#S32047578'>seizure</rs> within the Confederate ^lines^ Fifteen hun=dred Bales of Cotton. Or, we will furnish Cotton &amp; wool cards in proportion to the number of Bales we get the privilege of Shipping, if the privilege does not Extend to Fifteen hundred Bales—we receiving pay for the Cards in proportion to the number furnished the State.
+</p>
+
+<p corresp='TTP32417841P5' xml:id='OTP32417841P5'>We further agree that if desired by the governor we will furnish the State of Miss<add place='above'>i</add>. with Five hundred Thou=sand Dollars worth of <rs ref='#S25013611'>Quarter Master</rs> and <rs ref='#S25013612'>Comissary</rs> Stores Such as may be wanted by the governor at a cost of Fifty percent upon the Origonal Cost and Carriage:—The governor allowing to us the privilege of shipping cotton in pro=portion to the value furnished and protecting from Seizure within the Confederate lines the Cotton and Stores. Or we will furnish the State of Mi. with Quarter Master and Comissary Stores to any ^reasonable^ amount desired by the governor Either greater or less than the above amount upon the terms and conditions above set forth.
+</p>
+
+<p corresp='TTP32417841P6' xml:id='OTP32417841P6'>If the governor thinks it will 
+</p>
+
+
+        </div>
+        <pb xml:id="F32417842" n="4" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:21666/full/full/0/default.jpg"/>
+        <div xml:id="OTP32417842">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP32417842P0' xml:id='OTP32417842P0'>be to the interest of the State to sever the Contract for Cards and Army Stores giving it to two or more bidders then we are willing to accept one half the contract for Each upon the terms and conditions given above, or we will accept any portion the governor may think will promote the interest of the State.
+</p>
+
+<p corresp='TTP32417842P1' xml:id='OTP32417842P1'>R W. Edmondson<lb/>
+<rs ref='#S32041899'>Jas. R. Bowles</rs> &amp; <lb/>
+Anv. J Bowles by <lb/>
+R. W. Edmondson
+</p>
+
+<p corresp='TTP32417842P2' xml:id='OTP32417842P2'>Columbus Mi. Jany. 14. 1864.
+</p>
+
+
+        </div>
+        <pb xml:id="F32417843" n="5" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:21667/full/full/0/default.jpg"/>
+        <div xml:id="OTP32417843">
+        <fw type="pageNum">Page 5</fw>
+          <p corresp='TTP32417843P0' xml:id='OTP32417843P0'>Proposition to furnish the State of Mi. with Cotton &amp; Wool Cards by James R. Bowles [unclear] Bowles &amp; [unclear] Edmondson
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

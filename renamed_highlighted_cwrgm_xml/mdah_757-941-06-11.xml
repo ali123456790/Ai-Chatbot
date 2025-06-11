@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from B. F. Fox to Mississippi Governor John J. Pettus; March 19, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2021-03-29T12:13:21Z">March 29, 2021</date> and
+              <date type="last_edit" when="2021-03-29T12:17:43Z">March 29, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2021-03-30T14:56:24Z">March 30, 2021</date> and
+              <date type="last_edit" when="2024-03-12T16:59:33Z">March 12, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-03-11T15:24:53Z">March 11, 2021</date> and
+              <date type="last_edit" when="2021-03-11T15:40:00Z">March 11, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U224896">
+          <persName
+            >
+            Emma Cox 
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-03-14T20:37:07Z">March 14, 2021</date> and
+              <date type="last_edit" when="2021-03-14T20:38:59Z">March 14, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-09-29T00:39:44Z">September 29, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-26T23:04:10Z">October 26, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220513">
+          <persName
+            >
+            Jan Pilkington
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-03-11T15:26:46Z">March 11, 2021</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U217868">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Alec Blaylock </name>
+          </respStmt>
+          <respStmt xml:id="U220513">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Jan Pilkington</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T15:25:32+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S100156">
+              <persName>Fox, B. F.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S99295">
+              <persName>Hicks, Edward Herndon, 1823-1885</persName>
+                <idno>https://www.findagrave.com/memorial/223085716/edward-herndon-hicks</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002896">Charged with Criminal Activity</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS99295P0'>Edward Herndon Hicks was an attorney and politician in Mississippi during the nineteenth century.
+</p>
+
+<p xml:id='OTPS99295P1'>Born in Lexington, Kentucky, in 1823, Hicks moved to Mississippi in the 1840s. He began practicing law in Jefferson County and soon became active in local Democratic politics. He was elected district attorney in 1849 and served in that role into the early 1850s. During the late 1850s, he operated a law firm in Fayette, Mississippi. During the Civil War, Hicks served in the Mississippi legislature, and he remained in office until 1866 when he resigned for unspecified reasons.
+</p>
+
+<p xml:id='OTPS99295P2'>Hicks was charged with embezzlement in 1872, but it is unclear if he was convicted. He remained out of the public eye for several years, before he temporarily ran for the state legislature on an independent ticket in 1877, but dropped his campaign before the general election. He died on January 23, 1885. Hicks was married to Elixabeth Stowers and had at least seven children. He is buried in Darden Cemetery in Fayette, Mississippi.
+</p>
+
+<p xml:id='OTPS99295P3'>(FindaGrave; <hi rend='italic'>Mississippi Free Trader</hi>, Natchez, MS, May 5, 1847; <hi rend='italic'>The Semi-Weekly Mississippi Free Trader</hi>, November 28, 1849, and May 4, 1850; <hi rend='italic'>Daily Southern Reveille</hi>, Port Gibson, MS, February 15, 1859; <hi rend='italic'>Journal of the House of Representatives of the State of Mississippi, December Session of 1862, and November Session of 1863</hi>; <hi rend='italic'>The Daily Mississippian</hi>, Jackson, MS, October 20, 1865; <hi rend='italic'>Natchez Democrat</hi>, Natchez, MS, September 26, 1866; <hi rend='italic'>The Weekly Democrat</hi>, Natchez, MS, December 4, 1872; <hi rend='italic'>The Clarion-Ledger</hi>, Jackson, MS, September 19, 1877)
+</p>
+
+<p xml:id='OTPS99295P4'>Edward Herndon Hicks belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S75035">
+              <persName>Jones, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52436">
+              <persName>Clark, Charles, 1811-1877</persName>
+                <idno>https://en.wikipedia.org/wiki/Charles_Clark_(governor)</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52436P0'>Charles Clark served as Mississippi’s governor during the last two years of the Civil War. Born in Cincinnati, Ohio, on May 24, 1811, Clark later moved to Mississippi, where he became a lawyer and a state representative in the late 1830s. After successfully representing a Mississippi settler in a land dispute with members of the Choctaw Nation in the early 1840s, Clark received a large tract of land near Beulah, Mississippi, as payment. Clark eventually enlarged his property to over five thousand acres, making it one of the largest and most successful plantations in Mississippi. During this time, he married Ann Eliza Darden and between 1840 and 1852 fathered three children.
+</p>
+
+<p xml:id='OTPS52436P1'>Clark volunteered for military service during the Mexican-American War in 1846 and raised a company of volunteers that was placed into the 2nd Mississippi Regiment. After its original commander resigned, Clark was elected colonel. Following the war in 1848, he returned to Mississippi resumed an interest in politics. He was selected as a delegate to a state convention in 1851 that debated the matter of secession in the wake of the Compromise of 1850, which had tried to settle a fierce dispute over the fate of slavery in territories gained by the United States from Mexico. Clark attended the convention as a Unionist, opposed to withdrawing from the Union. Developments over the next ten years changed his mind.
+</p>
+
+<p xml:id='OTPS52436P2'>Clark won a seat in the Mississippi’s House of Representatives as a Whig, serving from 1856 to 1861. Following Abraham Lincoln’s election as president in 1860, Clark embraced Mississippi’s secession. When the Civil War broke out, Clark received a commission as a brigadier general in the Mississippi Militia. He later entered the Confederate Army and eventually took command of a division. Slightly wounded at the Battle of Shiloh in April 1862, he was more seriously wounded and captured during fighting at Baton Rouge, Louisiana, in August 1862. Clark spent a short time as a prisoner of war before he was paroled by Union forces.
+</p>
+
+<p xml:id='OTPS52436P3'>In 1863, Clark ran for governor of Mississippi, in the wake of Confederate defeats at Vicksburg and Jackson. Clark campaigned on continued resistance to the Union and easily won the executive seat. Due to Union campaigns in Mississippi, Clark periodically moved the state government, from Jackson to Macon, then to Columbus, and back to Macon. When Confederate forces in Mississippi surrendered in May 1865, Clark instructed the state legislature to convene for a special session in Jackson. In June 1865, federal troops at Jackson arrested Clark and imprisoned him at Fort Pulaski, Georgia.
+</p>
+
+<p xml:id='OTPS52436P4'>Eventually released from federal custody, Clark returned to Bolivar County, Mississippi. He quietly practiced law and served on the University of Mississippi Board of Trustees during Reconstruction. In 1876, Clark received an appointment as chancellor for the fourth judicial district. He died a year later, on December 17, 1877. Clark is buried in a family cemetery at Beulah, Mississippi.
+</p>
+
+<p xml:id='OTPS52436P5'>(Wikipedia; David Sansing, “Charles Clark: Twenty-fourth Governor of Mississippi: 1863–1865,” Mississippi History Now; FindaGrave)
+</p>
+
+<p xml:id='OTPS52436P6'>Charles Clark belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51725">
+              <placeName>Mississippi--Jefferson County. Fayette</placeName>
+                <idno>https://archive.org/details/mississippicomp01rowlgoog/page/698/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51725P0'>Located in Jefferson County, Fayette was founded in 1825 and serves as the county seat. (Rowland, <hi rend='italic'>Mississippi</hi>, 699; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.71111, -91.06222</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001328'>
+<catDesc>Commerce &amp; Trade</catDesc>
+          <category xml:id='S96732'>
+            <catDesc>
+              <term>Drugstores &amp; Pharmaceuticals</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/drugstore?q=drugstores</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001328'>Commerce &amp; Trade</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96732P0'>"A store that sells medicines and usually other goods, esp. products relating to cleaning and caring for the body." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S98881'>
+            <catDesc>
+              <term>Confederate States of America--Draft</term>
+              <idno>https://mississippiencyclopedia.org/entries/mississippians-in-confederate-army/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98881P0'>By the spring of 1862, the difficulty and bloodshed of fighting the Civil War became a reality to many white southerners, and many soldiers' one-year terms of enlistment expired. Voluntary enlistments slowed and rendered the Confederate Army desperate for troops. The Confederate States of America consequently issued the first compulsory call to military service in American history, also called a "draft" or "conscription" with the First Conscription Act of 1862.
+</p>
+
+<p xml:id='OTPSD98881P1'>A series of other conscription laws followed throughout the Civil War, each containing measures that sparked tensions between southerners and the Confederate government. The First Conscription Act rendered all men between the ages of 18 and 35 subject to military service, though a later act expanded the age range to 45. Men working in occupations deemed essential to the war effort or to preserving the home front could be exempted from the draft, and, after October 11, 1862, white men owning or overseeing twenty or more enslaved persons could also be exempt. These policies isolated small farmers with little investment in preserving slavery, and many southerners evaded the draft in a variety of ways. However, many others both elite and non-elite viewed the draft as a necessary action, and the Twenty Slave Law a necessary protection from enslaved rebellion. Ultimately, however they felt about it, one estimate holds that Mississippi sent roughly 8,000 draftees to fight for the Confederacy (Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001715'>
+<catDesc>Medical Organizations</catDesc>
+          <category xml:id='S58320'>
+            <catDesc>
+              <term>Hospitals</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/hospital?q=hospitals</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001715'>Medical Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58320P0'>"A place where people who are sick or injured are treated and taken care of by doctors and nurses." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S69274'>
+            <catDesc>
+              <term>Disease and Illness</term>
+              <idno>https://www.battlefields.org/learn/articles/common-diseases-18th-and-19th-century</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD69274P0'>Approximately 620,000 Americans died during the Civil War. For this reason, the war is often called America’s bloodiest conflict. However, two-thirds of Civil War deaths were caused by disease, not combat. The disparity is greater for non-fatal victims: 400,000 soldiers suffered wounds or injuries compared to 6,000,000 cases of illness. Since a combined 3,000,000 men fought in Union and Confederate armies, this means the average soldier fell ill to disease twice during his military service.
+</p>
+
+<p xml:id='OTPSD69274P1'>Numerous types of diseases afflicted soldiers and civilians during the Civil War and Reconstruction era. Some were ubiquitous, like the common cold and diarrhea, which rarely garnered much attention unless the symptoms worsened into a more severe condition. Pneumonia, typhoid, and malaria were among the most serious diseases in the mid-nineteenth century. Epidemics of yellow fever and small pox also ravaged some civilian communities and military units. Perhaps the most deadly to Civil War soldiers, though, was dysentery, which was diarrhea with blood in the stool. Nearly 60,000 people died from dysentery during the war, and Union officials recorded 1.5 million cases of diarrhea or dysentery between 1861 and 1865.
+</p>
+
+<p xml:id='OTPSD69274P2'>All Americans, regardless of economic status or race, suffered pain and loss due to illness during the era. The President of the United States Abraham Lincoln and President of the Confederate States Jefferson Davis—the two most powerful individuals in North America, with access to the best resources—each lost a child to disease during the Civil War. The problem worsened with the sudden shifting of human populations during and after the war, as outbreaks of diseases spread rapidly. While many soldiers from highly populated areas had developed immunity to childhood diseases such as chicken pox, diphtheria, mumps, measles citizen soldiers from rural areas proved more susceptible to severe reactions when exposed to those diseases. Physicians improved medical care during the Civil War, as many recognized the value of sunlight and fresh airflow. However, they could only provide soldiers such healthy conditions behind the lines, at hospitals or rest areas. In many camps, or in the field during campaigns, soldiers were exposed to poor weather, extreme temperatures, and unsanitary conditions. Those who suffered the worse were in prisoner of war camps, in both north and south, where thousands of soldiers died from dysentery or other diseases. Civil War doctors did not fully understand the spread of diseases, including contaminated water (in the case of typhoid and dysentery) or mosquitos (for malaria and yellow fever). As such, camps, forts, and prisons rarely were constructed with the soldiers’ health in mind, and Civil War medicine most often involved responding to disease rather than preventing it.
+</p>
+
+<p xml:id='OTPSD69274P3'>Another source of illness among soldiers, and civilians in war-torn areas, was dietary deficiencies. Despite efforts by subsistence and commissary personnel in Union and Confederate armies, feeding thousands of troops daily proved a monumental task. Food preservation techniques still relied heavily upon drying and salting, and fresh vegetables and fruits were limited and dependent upon seasons. As a result, most Civil War soldiers likely suffered from a Vitamin C deficiency, the most severe cases resulting in scurvy which caused the loss of teeth and bleeding. Heavy reliance upon corn-based foods, especially within southern military units or Union prisoners held in southern prisoner of war camps, led to high instances of pellagra, a condition caused by the lack of niacin (or vitamin B3). Present in most foods, but not corn, victims suffered from diarrhea, skin sores, and dementia.
+</p>
+
+<p xml:id='OTPSD69274P4'>Often ignored, Americans also suffered from sexually transmitted diseases during the Civil War and afterwards. Although rarely fatal, more than 100,000 soldiers were diagnosed with gonorrhea and nearly 80,000 became infected with syphilis. Unsurprisingly, most of these cases occurred when soldiers were near populated areas, especially during training or time in camp, where they had more opportunities to interact with women. Venereal disease rates were higher at the start and at the end of the Civil War. That trend may reflect the fact that rates went down for armies on campaign in the field. The overall rate of venereal disease in the Union Army fluctuated from about 82 to 87 cases for every 1,000 soldiers, Some Union military units reported extremely high rates of venereal disease, particularly in the west. For instance, military physicians in the Department of the Pacific recorded 461 cases out of 1,000 men in 1862.
+</p>
+
+<p xml:id='OTPSD69274P5'>The Civil War also led to disease outbreaks among civilians. Like country-born soldiers introduced to new diseases in military camps, fugitive or liberated slaves who congregated in refugee camps behind Union lines became exposed to new diseases. Cities besieged by armies, such as Vicksburg, Atlanta, and Richmond, faced problems with sanitation and food supplies, compromising the health and immune systems of local residents, leaving them more susceptible to illness.
+</p>
+
+<p xml:id='OTPSD69274P6'>Finally, while most people survived bouts of illness during the Civil War, countless carried pathogens back to their home communities, or simply carried long-term effects from diseases within their bodies. Respiratory infections, blood borne diseases, and other afflictions obtained during the war decreased the quality of life of many Americans, or led to other health complications and early death. (American Battlefield Trust, Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 205–213; George Worthington Adams, <hi rend='italic'>Doctors in Blue</hi>, 3–5; Thomas P. Lowry, <hi rend='italic'>The Story the Soldiers Wouldn't Tell</hi>, 104–108)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Fox, B. F.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-03-19</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from B. F. Fox at Fayette, Mississippi, to Mississippi Governor John J. Pettus seeking to be excused from the draft so that he can work in a hospital.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Fayette (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-941-06-11</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Jefferson County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 941, Folder 6</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Draft.; Draft--Confederate States of America; Exemption (Law); Hospitals--Confederate States of America; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from B. F. Fox to Mississippi Governor John J. Pettus; March 19, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/5195&quot;&gt;Letter from B. F. Fox to Mississippi Governor John J. Pettus; March 19, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG27" who="U32019810" when="2024-10-26T23:04:10Z" target="#P1797762">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2024-03-12T16:59:33Z" target="#P1797762">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-11-01T22:39:24Z" target="#P1797762">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U25091195" when="2023-09-29T00:39:44Z" target="#P1797762">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-09-03T14:36:08Z" target="#P1797762">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-09-02T23:16:59Z" target="#P1797762">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-17T23:36:41Z" target="#P1797762">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2021-03-30T14:56:24Z" target="#P1797762">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U217868" when="2021-03-29T12:17:43Z" target="#P1797762">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U217868" when="2021-03-29T12:15:18Z" target="#P1797764">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U217868" when="2021-03-29T12:15:12Z" target="#P1797764">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U217868" when="2021-03-29T12:14:57Z" target="#P1797763">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U217868" when="2021-03-29T12:13:57Z" target="#P1797762">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U217868" when="2021-03-29T12:13:21Z" target="#P1797762">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U224896" when="2021-03-14T20:38:59Z" target="#P1797764">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U224896" when="2021-03-14T20:38:22Z" target="#P1797763">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U224896" when="2021-03-14T20:37:07Z" target="#P1797762">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U231087" when="2021-03-11T15:40:00Z" target="#P1797762">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U231087" when="2021-03-11T15:38:38Z" target="#P1797762">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220513" when="2021-03-11T15:26:46Z" target="#P1797764">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U231087" when="2021-03-11T15:26:27Z" target="#P1797763">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U231087" when="2021-03-11T15:24:53Z" target="#P1797764">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2021-03-01T14:50:40Z" target="#P1797764">
+          Version 1 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-03-01T14:50:39Z" target="#P1797763">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-03-01T14:50:29Z" target="#P1797764">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-01T14:50:24Z" target="#P1797763">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-01T14:50:39Z" target="#P1797762">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-03-01T14:50:19Z" target="#P1797762">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1797762" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/5192/full/full/0/default.jpg"/>
+        <div xml:id="OTP1797762">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1797762P0' xml:id='OTP1797762P0'>[seal]
+</p>
+
+<p corresp='TTP1797762P1' xml:id='OTP1797762P1'><rs ref='#S51725'>Fayette</rs> Mch 19<hi rend='underline'><add place='above'>th</add></hi>,, 1862
+</p>
+
+<p corresp='TTP1797762P2' xml:id='OTP1797762P2'>Hon <rs ref='#S63111'>Jno J. Pettus</rs>
+</p>
+
+<p corresp='TTP1797762P3' xml:id='OTP1797762P3'>Governor of Mississippi
+</p>
+
+<p corresp='TTP1797762P4' xml:id='OTP1797762P4'>Dear Sir
+</p>
+
+<p corresp='TTP1797762P5' xml:id='OTP1797762P5'>I requested Mr <rs ref='#S99295'>E H Hicks</rs> to write you on the subject of procuring or granting me a release from <rs ref='#S98881'>Draft</rs>. I have an <rs ref='#S69274'>incomplete fistula</rs> &amp; a painful one which precluded my being fit for field duties. But wish to hold myself in readiness to go as a volunteer as soon as my country needs me,
+</p>
+
+<p corresp='TTP1797762P6' xml:id='OTP1797762P6'>I would like my dear sir, a posi-tion in a <rs ref='#S58320'>Hospital</rs>. I could furnish my own servants &amp; have now a nice stock of many useful medicines which I would like to dispose of—I do not know how the Community will flour-ish if leave Home as I leave the only <rs ref='#S96732'>Drug store</rs>—I can refer you to Gen <rs ref='#S75035'>Jones</rs> H Hicks. Gen <rs ref='#S52436'>Chas Clarke</rs> &amp; many others for my character
+</p>
+
+
+        </div>
+        <pb xml:id="F1797763" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/5193/full/full/0/default.jpg"/>
+        <div xml:id="OTP1797763">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1797763P0' xml:id='OTP1797763P0'>I have been a practitioner here for 16 years.
+</p>
+
+<p corresp='TTP1797763P1' xml:id='OTP1797763P1'>Hoping that you will keep this in mind &amp; answer me at your earliest convenience
+</p>
+
+<p corresp='TTP1797763P2' xml:id='OTP1797763P2'>Yours with great respect
+</p>
+
+<p corresp='TTP1797763P3' xml:id='OTP1797763P3'><hi rend='underline'><rs ref='#S100156'>B. F. Fox</rs></hi>
+</p>
+
+
+        </div>
+        <pb xml:id="F1797764" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/5194/full/full/0/default.jpg"/>
+        <div xml:id="OTP1797764">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP1797764P0' xml:id='OTP1797764P0'>B, F, Fox to be excused from draft<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP1797764P1' xml:id='OTP1797764P1'>March 1862
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

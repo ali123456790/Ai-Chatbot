@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 12 edits between
+              <date type="first_edit" when="2022-11-28T02:36:08Z">November 28, 2022</date> and
+              <date type="last_edit" when="2023-11-17T17:30:08Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32011909">
+          <persName
+            >
+            Jaxon Weber
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-11-03T18:11:23Z">November  3, 2022</date> and
+              <date type="last_edit" when="2022-11-03T18:11:31Z">November  3, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T15:22:04Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-11-07T15:58:30Z">November  7, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-11-09T20:20:19Z">November  9, 2022</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:21:02+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S52436">
+              <persName>Clark, Charles, 1811-1877</persName>
+                <idno>https://en.wikipedia.org/wiki/Charles_Clark_(governor)</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52436P0'>Charles Clark served as Mississippi’s governor during the last two years of the Civil War. Born in Cincinnati, Ohio, on May 24, 1811, Clark later moved to Mississippi, where he became a lawyer and a state representative in the late 1830s. After successfully representing a Mississippi settler in a land dispute with members of the Choctaw Nation in the early 1840s, Clark received a large tract of land near Beulah, Mississippi, as payment. Clark eventually enlarged his property to over five thousand acres, making it one of the largest and most successful plantations in Mississippi. During this time, he married Ann Eliza Darden and between 1840 and 1852 fathered three children.
+</p>
+
+<p xml:id='OTPS52436P1'>Clark volunteered for military service during the Mexican-American War in 1846 and raised a company of volunteers that was placed into the 2nd Mississippi Regiment. After its original commander resigned, Clark was elected colonel. Following the war in 1848, he returned to Mississippi resumed an interest in politics. He was selected as a delegate to a state convention in 1851 that debated the matter of secession in the wake of the Compromise of 1850, which had tried to settle a fierce dispute over the fate of slavery in territories gained by the United States from Mexico. Clark attended the convention as a Unionist, opposed to withdrawing from the Union. Developments over the next ten years changed his mind.
+</p>
+
+<p xml:id='OTPS52436P2'>Clark won a seat in the Mississippi’s House of Representatives as a Whig, serving from 1856 to 1861. Following Abraham Lincoln’s election as president in 1860, Clark embraced Mississippi’s secession. When the Civil War broke out, Clark received a commission as a brigadier general in the Mississippi Militia. He later entered the Confederate Army and eventually took command of a division. Slightly wounded at the Battle of Shiloh in April 1862, he was more seriously wounded and captured during fighting at Baton Rouge, Louisiana, in August 1862. Clark spent a short time as a prisoner of war before he was paroled by Union forces.
+</p>
+
+<p xml:id='OTPS52436P3'>In 1863, Clark ran for governor of Mississippi, in the wake of Confederate defeats at Vicksburg and Jackson. Clark campaigned on continued resistance to the Union and easily won the executive seat. Due to Union campaigns in Mississippi, Clark periodically moved the state government, from Jackson to Macon, then to Columbus, and back to Macon. When Confederate forces in Mississippi surrendered in May 1865, Clark instructed the state legislature to convene for a special session in Jackson. In June 1865, federal troops at Jackson arrested Clark and imprisoned him at Fort Pulaski, Georgia.
+</p>
+
+<p xml:id='OTPS52436P4'>Eventually released from federal custody, Clark returned to Bolivar County, Mississippi. He quietly practiced law and served on the University of Mississippi Board of Trustees during Reconstruction. In 1876, Clark received an appointment as chancellor for the fourth judicial district. He died a year later, on December 17, 1877. Clark is buried in a family cemetery at Beulah, Mississippi.
+</p>
+
+<p xml:id='OTPS52436P5'>(Wikipedia; David Sansing, “Charles Clark: Twenty-fourth Governor of Mississippi: 1863–1865,” Mississippi History Now; FindaGrave)
+</p>
+
+<p xml:id='OTPS52436P6'>Charles Clark belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32024790">
+              <persName>Livingston, Samuel</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32021053'>
+            <catDesc>
+              <term>Criminal Procedures--Sentencing</term>
+              <idno>https://en.wikipedia.org/wiki/Sentence_(law)</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32021053P0'>"In law, a sentence is the punishment for a crime ordered by a trial court after conviction in a criminal procedure, normally at the conclusion of a trial. A sentence may consist of imprisonment, a fine, or other sanctions." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S32069789'>
+            <catDesc>
+              <term>Legislation. Mississippi</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_Legislature</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32069789P0'>While the Mississippi <hi rend='italic'>Constitution</hi> grants each chamber some unique power, the House and Senate are equal partners in the legislative process as both chambers are required to enact legislation. Bills are originated in either house, and to become law, must receive a simple majority in both chambers. Once passed, it is sent to the Mississippi state governor for passage, veto, or pocket-veto, and the state legislature can overcome the veto with a two-thirds majority vote. (Wikipedia)<lb/>
+
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32028334'>
+            <catDesc>
+              <term>Legislation. Mississippi. Revised Code of the Statute Laws of the State of Mississippi (1857)</term>
+              <idno>https://books.google.com/books?id=u1qwAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32028334P0'>The Mississippi Legislation Revised Code of the Statute Laws of the State of Mississippi (1857) was passed by the state legislature to revise the state laws to be executed in 1857. Special commissioners William L Sharkey, Henry T. Ellett, and Samuel S. Boyd, who later resigned and was replaced by William L. Harris, were appointed on March 1, 1854, to oversee changes to current laws, and to make amendments, create new laws, or remove outdated statutes from the Mississippi law books. These amendments were produced for the legislature where they were further scrutinized and amended, finally passing after three years of adjudication. (<hi rend='italic'>The Revised Code of the Statute Laws of the State of Mississippi</hi>, 1857)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S25012895'>
+            <catDesc>
+              <term>Prison Guard</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/prison-officer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25012895P0'>"A person whose job is to care for and control people who are in prison, and to make sure prison rules are followed." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S32045110'>
+            <catDesc>
+              <term>Mississippi--Judiciary</term>
+              <idno>https://mississippiencyclopedia.org/entries/judiciary/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.30417, -90.18232</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32045110P0'>Operating at the state level, the Mississippi judiciary was established by Article 6 of the Mississippi Constitution on November 1, 1890. It is one of three branches of the Mississippi state government, along with the executive branch and the legislative branch. The judiciary branch is composed of four tiers of court: limited jurisdiction, general jurisdiction, intermediate appellate, and last resort. (Mississippi Encyclopedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32032260'>
+            <catDesc>
+              <term>Mississippi--Judiciary. High Court of Errors and Appeals</term>
+              <idno>https://mississippiencyclopedia.org/entries/appellate-courts/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32032260P0'>Operating at the state level, the Mississippi High Court of Errors and Appeals was created by the 1832 state constitution and was comprised of three popularly-elected justices. It remained the highest appellate court in the state until 1869, when it was replaced by the state Supreme Court. (Mississippi Encyclopedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+<category xml:id='C32001144S32045110'>
+<catDesc>
+<term><rs ref='S32045110'>Mississippi--Judiciary</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001144S32032260'>
+<catDesc>
+<term><rs ref='S32032260'>Mississippi--Judiciary. High Court of Errors and Appeals</rs></term>
+</catDesc>
+</category>
+          <category xml:id='S54861'>
+            <catDesc>
+              <term>Mississippi--State Penitentiary (Jackson)</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_State_Penitentiary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>33.93167, -90.55083</geo>
+              </note>
+              <gloss><p xml:id='OTPSD54861P0'>"Mississippi State Penitentiary, also known as Parchman Farm, is a maximum-security prison farm located in unincorporated Sunflower County, Mississippi, in the Mississippi Delta region. Occupying about 28 square miles (73 km2) of land, Parchman is the only maximum security prison for men in the state of Mississippi, and is the state's oldest prison." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Clark Series 768</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1865</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Livingston, Samuel</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1865-04-21</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Clark Collection. Letter from Samuel Livingston at Jackson, Mississippi, to Mississippi Governor Charles Clark, concerning a judgement and sentence by the Mississippi High Court of Errors and Appeals.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_768-950-08-27</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>2361877 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 7.5&quot; x 7&quot; 1-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Jackson (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>1363</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_768-950-08-27</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Hinds County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Dalton Wood; Britany Castilaw; McKenna Fussell; Michael Singleton; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 950, Folder 8</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Appellate courts; Clark, Charles, 1811-1877; Mississippi. Governor; Mississippi. High Court of Errors and Appeals; Mississippi State Penitentiary (Jackson, Miss.); Sentences (Criminal procedure)</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>1471</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/23612&quot;&gt;Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG17" who="U2" when="2024-10-25T15:22:04Z" target="#P32549356">
+          Version 17 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-11-17T17:30:08Z" target="#P32549356">
+          Version 16 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-10-30T22:28:26Z" target="#P32549356">
+          Version 15 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-09-03T00:37:26Z" target="#P32549356">
+          Version 14 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-19T18:51:35Z" target="#P32549356">
+          Version 13 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-03-19T18:26:52Z" target="#P32549356">
+          Version 12 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-03-19T02:38:21Z" target="#P32549356">
+          Version 11 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2023-03-18T21:49:29Z" target="#P32549356">
+          Version 10 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2023-03-04T18:28:11Z" target="#P32549356">
+          Version 9 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2022-12-04T20:27:30Z" target="#P32549356">
+          Version 8 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2022-12-04T18:13:31Z" target="#P32549356">
+          Version 7 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U220769" when="2022-12-04T02:01:46Z" target="#P32549356">
+          Version 6 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U220769" when="2022-11-28T02:36:08Z" target="#P32549356">
+          Version 5 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25091356" when="2022-11-09T20:20:19Z" target="#P32549356">
+          Version 4 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25091253" when="2022-11-07T15:58:30Z" target="#P32549356">
+          Version 3 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U32011909" when="2022-11-03T18:11:31Z" target="#P32549356">
+          Version 2 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U32011909" when="2022-11-03T18:11:23Z" target="#P32549356">
+          Version 1 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-09-13T15:10:16Z" target="#P32549356">
+          Version 0 of page "Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32549356" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:23612/full/full/0/default.jpg"/>
+        <div xml:id="OTP32549356">
+        <fw type="pageNum">Letter from Samuel Livingston to Mississippi Governor Charles Clark; April 21, 1865</fw>
+          <p corresp='TTP32549356P0' xml:id='OTP32549356P0'><rs ref='#S51785'>Jackson</rs> Miss<add place='above'><hi rend='underline'>i</hi></add> Apl 21<add place='above'>st</add> 1865
+</p>
+
+<p corresp='TTP32549356P1' xml:id='OTP32549356P1'>Hon: <rs ref='#S52436'>Charles Clark</rs> Gov&amp;c
+</p>
+
+<p corresp='TTP32549356P2' xml:id='OTP32549356P2'>Sir—
+</p>
+
+<p corresp='TTP32549356P3' xml:id='OTP32549356P3'>Enclosed is a certificate of a judgement <rs ref='#S32021053'>sentence</rs> of the <rs ref='#S32032260'>high court of Errors Appeals</rs>, which I am required by <rs ref='#S32028334'>Art. 313. P.623. of the Rev Code</rs> to furnish to you. I also enclose to you one for the <rs ref='#S25012895'>Keeper</rs> of the <rs ref='#S54861'>Penitentiary</rs>. I do not know the address of the Keeper of the Penitentiary nor where to send it by mail so that it will reach him. I therefore send it to you, with the one for your self, with the request that you will forward it to him.
+</p>
+
+<p corresp='TTP32549356P4' xml:id='OTP32549356P4'>By doing so you will confer a favor on <del rend='overstrike'>yours</del><lb/>
+Yrs Truly
+</p>
+
+<p corresp='TTP32549356P5' xml:id='OTP32549356P5'><hi rend='underline'><rs ref='#S32024790'>Samuel Livingston</rs></hi> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

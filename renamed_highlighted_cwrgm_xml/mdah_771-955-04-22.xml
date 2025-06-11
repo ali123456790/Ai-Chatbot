@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from W. Wallace Davis to Mississippi Governor William L. Sharkey; July 17, 1865</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2023-03-16T20:10:02Z">March 16, 2023</date> and
+              <date type="last_edit" when="2023-09-03T00:43:55Z">September  3, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-04-04T01:33:15Z">April  4, 2022</date> and
+              <date type="last_edit" when="2022-04-04T01:34:34Z">April  4, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-03-09T18:04:47Z">March  9, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091235">
+          <persName
+            >
+            Amanda Patrick
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-03-31T23:45:26Z">March 31, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T14:01:10Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:24:51+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S52215">
+              <persName>Sharkey, William Lewis, 1798-1873</persName>
+                <idno>https://en.wikipedia.org/wiki/William_L._Sharkey</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52215P0'>William Lewis Sharkey served as Mississippi’s governor in 1865, early in the Reconstruction era.
+</p>
+
+<p xml:id='OTPS52215P1'>Born in Sumner County, Tennessee, on July 12, 1798, Sharkey moved with his family to Warren County, Mississippi, in 1804. As an adult, he studied law and began practicing in Natchez, Mississippi, in 1822. Sharkey moved to Vicksburg in 1825 and pursued political office. He won election to the Mississippi House of Representatives and served one term from 1828 to 1829.
+</p>
+
+<p xml:id='OTPS52215P2'>In 1832, Sharkey married Minerva Cage, a widow with two children. The couple had four children over the next several years.  In 1832, Sharkey also became a circuit court judge and was shortly thereafter elected to the High Court of Errors and Appeals, the predecessor to the Supreme Court of Mississippi. He served in that role for 18 years, resigning in 1851. From there, he took a diplomatic appointment for the United States government, serving as U.S. Consul in Havana, Cuba, until 1854. After completing that diplomatic assignment, Sharkey returned to Mississippi and returned to legal and political duties, helping compile the Mississippi Code of 1857.
+</p>
+
+<p xml:id='OTPS52215P3'>During the secession crisis in the winter of 1860 and 1861, following Abraham Lincoln’s election, Sharkey remained a steadfast Unionist. Having been a member of the Whig Party, he retained his opposition to secession and refused to support the Confederacy, even as he remained in Mississippi through the Civil War. Despite his political stance against Mississippi’s secessionist government, Confederate officials left him alone out of respect of his past service to the state as a judge and legal scholar.
+</p>
+
+<p xml:id='OTPS52215P4'>After the Confederacy’s defeat, President Andrew Johnson appointed Sharkey provisional governor of Mississippi in June 1865. In that role, he called forth a constitutional convention to meet Johnson’s goal of swiftly restoring former Confederate states to the Union. In October 1865, Benjamin Humphreys won election as Mississippi’s governor. Sharkey did not vacate the office, though, until December 1865, having served less than a year. Although no longer governor, Sharkey was selected by the Mississippi legislature to serve in the U.S. Senate. Federal officials denied him a seat, and the rest of the Mississippi congressional delegation, following the Republican backlash to Mississippi’s Black Codes—a set of racially discriminatory laws passed by the Mississippi legislature in 1865.
+</p>
+
+<p xml:id='OTPS52215P5'>Having been denied a U.S. Senate seat, Sharkey returned to practicing law, in Jackson, Mississippi. He died in Washington, D.C., on March 30, 1873, and is buried at Greenwood Cemetery in Jackson, Mississippi.
+</p>
+
+<p xml:id='OTPS52215P6'>(Wikipedia; David Sansing, “William Lewis Sharkey: Twenty-fifth Governor of Mississippi: June to December 1865,” Mississippi History Now; FindaGrave)
+</p>
+
+<p xml:id='OTPS52215P7'>William Lewis Sharkey belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32027562">
+              <persName>Davis, W. Wallace</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32027563">
+              <persName>McKeever, C.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S62914">
+              <placeName>Washington (D.C.)</placeName>
+                <idno>https://en.wikipedia.org/wiki/Timeline_of_Washington,_D.C.</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS62914P0'>Located between Maryland &amp; Virginia on the Potomac River, the Territory of Columbia was established on July 16, 1790 under the name Federal City and was renamed Washington City in the 1800s. The city of Washington became the federal capital on February 27, 1801 and established as Washington, D.C. on February 24, 1801, when the city boundaries were expanded to include the entire Federal District of Columbia. Washington, D.C. has never achieved statehood. (Wikipedia, Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>38.90472, -77.01639</geo>
+                </note>
+            </place>
+            <place xml:id="S63197">
+              <placeName>Alabama</placeName>
+                <idno>http://encyclopediaofalabama.org/article/h-1598</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63197P0'>The Territory of Alabama was established March 3, 1817. Admitted as the 22nd state, Alabama achieved statehood December 14, 1819. (Encyclopedia of Alabama; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.7, -86.7</geo>
+                </note>
+            </place>
+            <place xml:id="S71112">
+              <placeName>Florida</placeName>
+                <idno>https://en.wikipedia.org/wiki/Florida </idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS71112P0'>The Territory of Florida was established 1513 and was incorporated March 30, 1822. Admitted as the 27th state, Florida achieved statehood March 3, 1845. (Britannica; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>28.1, -81.6</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S63934'>
+            <catDesc>
+              <term>Judges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/judge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63934P0'>"A person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001684'>
+<catDesc>Military Roles</catDesc>
+          <category xml:id='S49748'>
+            <catDesc>
+              <term>Provost Marshals</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/military-police</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001684'>Military Roles</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD49748P0'>"The police force within the armed forces, responsible for dealing with members of the armed forces who break the law." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S50807'>
+            <catDesc>
+              <term>Clerks</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/clerk</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD50807P0'>"A person who works in an office, dealing with records or performing general office duties." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+          <category xml:id='S76355'>
+            <catDesc>
+              <term>United States--War Department</term>
+              <idno>https://en.wikipedia.org/wiki/United_States_Department_of_War</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001145'>U.S. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>38.9101, -77.0147</geo>
+              </note>
+              <gloss><p xml:id='OTPSD76355P0'>The United States Department of War (or War Department) was the office responsible for managing the United States Army during the nineteenth and early twentieth centuries. Its origins date back to the creation of the Board of War and Ordnance in 1776 within the Continental Congress during the American Revolutionary War. The office was refined in 1777 as the Board of War, separating it from the Congress, and then formed into the Department of War by the Congress of the Confederation. Initially the office had oversight over all aspects of military defense and war. However, during George Washington’s administration, the United States Congress created the Navy Department to handle maritime affairs, leaving the War Department in charge of the country’s ground forces. The department was led by the Secretary of War, a member of the president’s cabinet. During the early decades of the nineteenth century, the department periodically expanded with the creation of sub-departments, later refined into bureaus, in response to international crises and increased military operations against Native Americans. This included the Bureau of Indian Affairs, created in 1824. Congress transferred that office to the new Department of the Interior in 1849.
+</p>
+
+<p xml:id='OTPSD76355P1'>During the American Civil War, the War Department took responsibility for the rapid growth and development of the Union army. Over the course of the war, department officials oversaw recruitment, training, supply, medical care, transportation, and pay for more than two million soldiers. During the latter half of the war, the War Department oversaw the administration of federal resources for freed slaves that sought refuge within Union lines with the creation of the Bureau of Refugees, Freedmen and Abandoned Lands. Officials from that bureau continued to support and advocate for Black southerners, while other elements of the department managed the military governing of the former Confederate states, until the end of Reconstruction in 1877. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001145'>
+<catDesc>U.S. Federal Government</catDesc>
+<category xml:id='C32001145S76355'>
+<catDesc>
+<term><rs ref='S76355'>United States--War Department</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Sharkey Series 771</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Endowment for the Humanities; Funding for this project provided by the College of Arts and Sciences at the University of Southern Mississippi.; Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1865</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Davis, W. Wallace</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1865-07-17</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Sharkey Collection. Letter from W. Wallace Davis, a clerk for the United States War Department in Washington, District of Columbia, to Mississippi Governor William L. Sharkey, asking for Sharkey&#39;s autograph. Davis states that Sharkey&#39;s autograph will be included a collection of autographs being compiled &quot;for historical purposes.&quot;</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_771-955-04-22</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>3704428 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; 1-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Alabama; Florida; Mississippi; Washington (D.C.)</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>2013</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_771-955-04-22</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Leela Lavanya Battula; Dalton Wood; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 955, Folder 4</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Archives; Autographs; Clerks; Military police; Mississippi. Governor; Sharkey, William Lewis, 1798-1873; United States. Army; United States. Army--Officers; United States. Office of the Provost Marshal General; United States. War Department</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from W. Wallace Davis to Mississippi Governor William L. Sharkey; July 17, 1865</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>1587</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/18658&quot;&gt;Letter from W. Wallace Davis to Mississippi Governor William L. Sharkey; July 17, 1865&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG10" who="U2" when="2024-10-25T14:01:10Z" target="#P32192468">
+          Version 10 of page "Letter from W. Wallace Davis to Mississippi Governor William L. Sharkey; July 17, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2023-09-03T00:43:55Z" target="#P32192468">
+          Version 9 of page "Letter from W. Wallace Davis to Mississippi Governor William L. Sharkey; July 17, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2023-09-02T19:41:42Z" target="#P32192468">
+          Version 8 of page "Letter from W. Wallace Davis to Mississippi Governor William L. Sharkey; July 17, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2023-03-19T19:54:39Z" target="#P32192468">
+          Version 7 of page "Letter from W. Wallace Davis to Mississippi Governor William L. Sharkey; July 17, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U220769" when="2023-03-19T14:33:53Z" target="#P32192468">
+          Version 6 of page "Letter from W. Wallace Davis to Mississippi Governor William L. Sharkey; July 17, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U220769" when="2023-03-16T20:10:02Z" target="#P32192468">
+          Version 5 of page "Letter from W. Wallace Davis to Mississippi Governor William L. Sharkey; July 17, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25091253" when="2022-04-04T01:34:34Z" target="#P32192468">
+          Version 4 of page "Letter from W. Wallace Davis to Mississippi Governor William L. Sharkey; July 17, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25091253" when="2022-04-04T01:33:15Z" target="#P32192468">
+          Version 3 of page "Letter from W. Wallace Davis to Mississippi Governor William L. Sharkey; July 17, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U25091235" when="2022-03-31T23:45:26Z" target="#P32192468">
+          Version 2 of page "Letter from W. Wallace Davis to Mississippi Governor William L. Sharkey; July 17, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U231087" when="2022-03-09T18:04:47Z" target="#P32192468">
+          Version 1 of page "Letter from W. Wallace Davis to Mississippi Governor William L. Sharkey; July 17, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-03-04T02:59:56Z" target="#P32192468">
+          Version 0 of page "Letter from W. Wallace Davis to Mississippi Governor William L. Sharkey; July 17, 1865":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32192468" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:18658/full/full/0/default.jpg"/>
+        <div xml:id="OTP32192468">
+        <fw type="pageNum">Letter from W. Wallace Davis to Mississippi Governor William L. Sharkey; July 17, 1865</fw>
+          <p corresp='TTP32192468P0' xml:id='OTP32192468P0'>[seal]
+</p>
+
+<p corresp='TTP32192468P1' xml:id='OTP32192468P1'><rs ref='#S76355'>War Department</rs>.<lb/>
+<rs ref='#S49748'>Provost Marshal</rs> Generals Office<lb/>
+<rs ref='#S62914'>Washington D. C.</rs> July 17<add place='above'>th</add><sub>,,</sub> 1865.
+</p>
+
+<p corresp='TTP32192468P2' xml:id='OTP32192468P2'><rs ref='#S63934'>Hon</rs>: <rs ref='#S52215'>William L Sharkey</rs><lb/>
+Governor of Mississippi.
+</p>
+
+<p corresp='TTP32192468P3' xml:id='OTP32192468P3'>Sir:
+</p>
+
+<p corresp='TTP32192468P4' xml:id='OTP32192468P4'>I have the honor to request that you will enclose me your autograph with a sentiment under the Great Seal and arms of the State of Mississippi to place among a most valueable collection of autographs now being compiled for historical purposes. The like favor has already been received from all the states except <rs ref='#S63197'>Alabama</rs> and <rs ref='#S71112'>Florida</rs>, &amp; I am in expectation daily of their receipt. Without yours, the collection is incomplete, and I earnestly beg you will accede to the request at your earliest convenience. I shall be greatly obliged for the favor, and wishing you entire success in your noble efforts to reorganize the State Government, with high regard, I am your obt svt,
+</p>
+
+<p corresp='TTP32192468P5' xml:id='OTP32192468P5'><rs ref='#S32027562'>W. Wallace Davis</rs>.<lb/>
+<rs ref='#S50807'>Clerk</rs> War Department,<lb/>
+Care, Colonel <rs ref='#S32027563'>C. M<add place='above'>c</add>Keever</rs>, Washington, D. C. 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

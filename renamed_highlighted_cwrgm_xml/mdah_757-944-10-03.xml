@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Charles Bonner to Mississippi Governor John J. Pettus; April 8, 1863</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 19 edits between
+              <date type="first_edit" when="2021-10-26T17:52:43Z">October 26, 2021</date> and
+              <date type="last_edit" when="2024-12-11T19:23:20Z">December 11, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U215767">
+          <persName
+              type="pseudonym"
+            >
+            lucas.somers
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2021-07-21T12:18:53Z">July 21, 2021</date> and
+              <date type="last_edit" when="2021-07-21T12:25:04Z">July 21, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2021-07-09T13:36:48Z">July  9, 2021</date> and
+              <date type="last_edit" when="2021-07-09T13:45:57Z">July  9, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-07-16T16:04:10Z">July 16, 2021</date> and
+              <date type="last_edit" when="2021-07-16T16:10:17Z">July 16, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T14:41:09Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T17:04:43Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-11-09T23:11:18Z">November  9, 2024</date> and
+              <date type="last_edit" when="2024-11-09T23:12:54Z">November  9, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32020358">
+          <persName
+            >
+            Elisabeth Kluin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2025-03-14T21:49:07Z">March 14, 2025</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T16:13:40+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S104419">
+              <persName>Ford, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25015400">
+              <persName>Sorrell, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S86445">
+              <persName>Bragg, Braxton, 1817-1876</persName>
+                <idno>https://en.wikipedia.org/wiki/Braxton_Bragg</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS86445P0'>Braxton Bragg was a Confederate general during the Civil War.
+</p>
+
+<p xml:id='OTPS86445P1'>Born on March 22, 1817, in Warrenton, North Carolina, Bragg attended the prestigious Warrenton Male Academy as a young teenager and then entered the United States Military Academy at West Point, New York, at the age of 16. He performed well at the academy, reportedly due to an exceptional memory and good discipline, and graduated in 1837. His first military assignment was in Florida during the Second Seminole War, but he served as a commissary officer and adjutant, seeing no combat. He later commanded a company of the Third United States Artillery and was stationed at St. Augustine, Florida, and then Fort Moultrie outside of Charleston, South Carolina.
+</p>
+
+<p xml:id='OTPS86445P2'>During his first few years of service, Bragg quarreled with other officers and proved outspoken. He wrote a series of essays in the <hi rend='italic'>Southern Literary Messenger</hi> criticizing army leadership. For this he was court martialed upon charges of disobedience and received an official reprimand and temporary suspension of rank. Despite this punishment, Bragg continued to be argumentative. This trait, along with his propensity for strict discipline and obedience to regulations, made him unpopular and the target of stories and rumors among fellow officers. In his memoirs, Ulysses S. Grant, who knew Bragg at West Point and in the Army in the 1840s, recalled hearing of an incident in which Bragg served as a company commander at an Army post, and was made acting quartermaster while his another officer was on detached duty. As company commander, Bragg submitted a formal request for supplies from the quartermaster’s office. As acting quartermaster, he rejected his own request, with a written note on the order explaining his reasons. Bragg, in his role as company commander, protested that his supply request was appropriate, to which he, as acting quartermaster, again rejected the request a second time. Bragg then elevated the matter to the post commander, who reportedly exclaimed, “My God, Mr. Bragg, you have quarrelled [<hi rend='italic'>sic</hi>] with every officer in the army, and now you are quarrelling with yourself!” While possibly apocryphal, the story reflected Bragg’s reputation among his army colleagues.
+</p>
+
+<p xml:id='OTPS86445P3'>Bragg’s performance during the Mexican-American War, from 1846 to 1848, boosted his army career and reputation. He earned repeated promotions for bravery. His obsession with discipline served the American army well, as his troops were among the best trained on the battlefield. He was brevetted (honorarily promoted) to captain after the Battle of Fort Brown in May 1846, brevetted to major after the Battle of Monterrey in September 1846, and then again to lieutenant colonel after Buena Vista in February 1847. His actions at Buena Vista were especially celebrated, as Bragg positioned his artillery at a key gap in the American line and repulsed a larger Mexican force. Among those who admired Bragg’s actions during the battle was Jefferson Davis, who commanded a Mississippi regiment, but later became secretary of war for the United States and then president of the Confederate States of America.
+</p>
+
+<p xml:id='OTPS86445P4'>In 1849, Bragg married Eliza Brooks Ellis, the daughter of a wealthy sugar planter from Louisiana. She followed Bragg to his next military assignments, but by 1855 the couple chose to pursue a life outside of the army. Bragg resigned from the army in 1856 and he and his wife purchased a massive sugar plantation in Louisiana. He managed the sugar cultivation and production with the same adherence to discipline, overseeing more than one hundred slaves on the property. He became active in Louisiana affairs, receiving an appointment as colonel in the Louisiana militia. Bragg initially opposed talk of secession in the south, but followed Louisiana into the Confederacy. He received a commission as brigadier general in the Confederate army in March 1861 and was promoted to major general in September 1861. His first assignment involved commanding Confederate troops at Pensacola, Florida. Later, he was transferred to the Army of Mississippi where he commanded a corps under Albert Sidney Johnston.
+</p>
+
+<p xml:id='OTPS86445P5'>Bragg’s first major engagement during the Civil War was Shiloh, Tennessee, in April 1862. Although Confederate forces were forced to retreat, Bragg performed well at the battle and received a promotion to full general in the Confederacy Army only a week afterwards. He was given command of the Army of Mississippi, renamed the Army of Tennessee. His performance as an army commander afterwards in 1862 and 1863 had mixed results. At battles like Murfreesboro and Chickamauga, Bragg scored early tactical victories but failed to defeat his Union opponents. His brash personality and quarrelsome behavior aggravated subordinates, who called for his removal. However Jefferson Davis remained committed to Bragg and kept him in command of Confederate troops in Tennessee until November 1863, when Bragg offered his resignation following the Confederate defeat at Chattanooga.
+</p>
+
+<p xml:id='OTPS86445P6'>Even without a field command, Bragg remained a powerful military figure in the Confederacy. He served as an advisor to Davis and proved an able administrator for the Confederate prison system and medical system. In late 1864, he temporarily commanded Confederate troops in the Carolinas and Georgia coastline. Initially successful, a Union victory at Wilmington, North Carolina, in early 1865 undermined his standing, and he spent the final months commanding a corps commander under Joseph E. Johnston. He surrendered to Union forces in early May 1865.
+</p>
+
+<p xml:id='OTPS86445P7'>Bragg’s sugar plantation had been confiscated by federal troops during the Civil War, leaving Bragg and his wife homeless at the end of the war. The couple briefly lived in Alabama, but moved to New Orleans, Louisiana, in 1867 where Bragg became superintendent of the New Orleans waterworks. When he lost his job to a Republican appointee, Bragg received an offer from former Confederate president Jefferson Davis to work for the Carolina Life Insurance Company. He left the job after a few months and undertook a series of other positions with public works and railroad companies in Alabama and Texas, many lasting only a few months before he resigned following disagreements with other executives.
+</p>
+
+<p xml:id='OTPS86445P8'>Bragg died suddenly on September 27, 1876, in Galveston, Texas, possibly from a stroke or aneurism. He was 59 years old. He is buried in Magnolia Cemetery in Mobile, Alabama.
+</p>
+
+<p xml:id='OTPS86445P9'>(Wikipedia; American Battlefield Trust; FindaGrave; C. E. Pitts, “Bragg, Braxton,” NCPedia; Ulysses S. Grant, <hi rend='italic'>Personal Memoirs of U.S. Grant, Vol. 2</hi>, 86-87)
+</p>
+
+<p xml:id='OTPS86445P10'>Braxton Bragg belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S25015401">
+              <persName>Bonner, Charles</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S89459">
+              <persName>Barbour, William A., u.-u.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS89459P0'>William A. Barbour was a businessman, a Confederate soldier, and a private secretary to Mississippi’s governor during the Civil War.
+</p>
+
+<p xml:id='OTPS89459P1'>Little is known of Barbour’s background before 1860. By that year, he held a minor public office as a chancery court commissioner in Vicksburg, assisting in sales of property from court decisions. He also was appointed quartermaster general of the Mississippi militia at the rank of major. When the Civil War broke out in 1861, Barbour volunteered for military service, and served in the Twenty-first Mississippi Infantry Regiment. In 1863, he received an appointment as Governor John J. Pettus’s private secretary in Jackson, and served in that role for several weeks.
+</p>
+
+<p xml:id='OTPS89459P2'>Shortly after the war ended, Barbour partnered with J. W. Stratton to form a commission merchant and wholesale grocery business in Vicksburg. His fate after 1866 is not clear, as his business ventures no longer appeared in Mississippi, nor did he appear in any other state or local office.
+</p>
+
+<p xml:id='OTPS89459P3'>(<hi rend='italic'>Vicksburg Whig</hi>, Vicksburg, MS, September 5, 1860; <hi rend='italic'>The Ripley Advertiser</hi>, Ripley, MS, January 18, 1860; <hi rend='italic'>Compiled Service Records of Confederate Soldiers Who Served in Organizations from the State of Mississippi</hi>, Record Group 109, Reference 1371.jp2, Series M269, Roll 293; “Legal. Document from Susan Ashley to Mississippi Governor John J. Pettus; April 11, 1863,” Civil War and Reconstruction Governors of Mississippi, mdah_757-944-10-18; <hi rend='italic'>The Vicksburg Herald</hi>, Vicksburg, MS, January 21, 1866)
+</p>
+
+<p xml:id='OTPS89459P4'>William A. Barbour belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S25015397">
+              <persName>Boling, Spires</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S102902">
+              <persName>Caskey, Thomas W., 1816-1896</persName>
+                <idno>https://www.therestorationmovement.com/_states/mississippi/caskey.htm</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS102902P0'>Thomas Withers Caskey was a Christian pastor and Confederate soldier during the Civil War.
+</p>
+
+<p xml:id='OTPS102902P1'>Born on January 12, 1816, in Maury County, Tennessee, Caskey moved to Mississippi as a young man and initially studied to become a Methodist preacher. In the late 1830s, he married Lucy Jones and the couple had seven children. Caskey found work as a blacksmith to support his growing family, and in 1841 the family moved to Alabama. In 1843, his wife passed away during childbirth. Distraught, Caskey turned back to his religious faith. He left the Methodist Church for the Church of Christ and took up full time ministry work. Caskey served as a traveling minister, preaching in Alabama, Mississippi, Kentucky, and Tennessee in the 1840s.
+</p>
+
+<p xml:id='OTPS102902P2'>In 1845, he married Harriet Elizabeth Foreman, and four years later he moved his family to Mississippi. Caskey’s fame as a preacher grew, and he reportedly served as one of the Church of Christ’s best orators and debaters, reportedly engaging in more than fifty public debates against representatives from other churches across the south.
+</p>
+
+<p xml:id='OTPS102902P3'>When the Civil War broke out, Caskey volunteered for military service. He served as a chaplain for the Eighteenth Mississippi Infantry Regiment. Caskey earned the nickname of the “Fighting Parson” for his willingness to join his unit on the front lines and even shooting at the enemy. However, he reportedly chose to only wound Union troops, for ethical reasons and, supposedly, because it weakened the opposing force even more by requiring one or two other soldiers to leave the fight to carry off their wounded comrade. Caskey also worked in Confederate hospitals, tending to the wounded.
+</p>
+
+<p xml:id='OTPS102902P4'>After the war, Caskey moved to Meridian, Mississippi. He continued preaching, and traveled frequently to Texas for evangelical and business purposes. Eventually he moved his family to Texas and became a practicing attorney, on the side of his preaching. He saw only moderate success in the legal profession, and eventually fell back on his preaching as a career.
+</p>
+
+<p xml:id='OTPS102902P5'>Caskey died on August 10, 1896, while visiting family in Mississippi. He is buried in Greenwood Cemetery in Jackson, Mississippi.
+</p>
+
+<p xml:id='OTPS102902P6'>(“Thomas Withers Caskey,” History of the Restoration Movement; FindaGrave; “Biographical Sketch of Thomas W. Caskey,” Restoration Movement)
+</p>
+
+<p xml:id='OTPS102902P7'>Thomas W. Caskey belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63093">
+              <placeName>Virginia--Independent City. Richmond</placeName>
+                <idno>https://en.wikipedia.org/wiki/Richmond,_Virginia</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63093P0'>Currently an independent city, Richmond was founded in 1737 in what was Henrico County at the time of founding and was incorporated on 1742. It became the state capital of Virginia in 1779. During the American Civil War, Richmond also served as capital of the Confederacy. On July 9, 1902, Richmond became an independent city. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>37.53333, -77.46667</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S63000">
+              <placeName>Mississippi--Marshall County. Holly Springs</placeName>
+                <idno>https://archive.org/details/mississippicomp01rowlgoog/page/874/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63000P0'>Currently located in Marshall County, Holly Springs was founded in 1836 in what was then Monroe County. When Marshall County was created on March 1, 1836, Holly Springs became its county seat. (Rowland, <hi rend='italic'>Mississippi</hi>, 874; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.77333, -89.44639</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S98996'>
+            <catDesc>
+              <term>Political Office--Appointment to Office</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/appointment</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98996P0'>"The act of officially choosing someone for a job, or the job itself." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001148'>
+<catDesc>State Level: USA &amp; CSA Military</catDesc>
+          <category xml:id='S63200'>
+            <catDesc>
+              <term>Mississippi. Militia</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63200P0'>A militia is a military unit made up of civilians within a community who could be called up by local (often state) officials to serve temporary military purposes. Militias were separate from regular, or permanent, armies. Because they conducted training only periodically, and provided active military service for short periods of time, militias cost less than regular armies; and because they were manned by local residents, militias were frequently seen as less threatening to early American communities than national military units comprised of strange men born in other counties or states.
+</p>
+
+<p xml:id='OTPSD63200P1'>When Mississippi seceded in 1861, enthusiasm for military service swept across the state. Volunteers filled the ranks of old militia units or created new companies within their communities, eager to repulse any federal attempt to coerce secessionists back into the Union. They also took proactive efforts, securing key positions along the Gulf Coast, including reinforcing other Southern soldiers at Pensacola and Fort Pickens in Florida. Over the next few months, as the Confederate government requested more volunteers, thousands of Mississippians and entire volunteer companies from the state transferred to Confederate service and were sent north, out of state. The units that remained within Mississippi for state defense were left in a convoluted military structure, some considered state reserves (a more formal military force for state defense) and some considered state militia (the more traditional units of citizen-soldiers called up for local, emergency use). The distinctions were not well established, and during the war Mississippians describing state units not within the Confederate army used a variety of terms—such as militia, home guard, state troops—almost interchangeably. However, under this subject tag at CWRGM you will find references to the militia and state troops; references that specifically referred to the home guard can be found separately under the Mississippi Home Guard subject tag.
+</p>
+
+<p xml:id='OTPSD63200P2'>While militia and state defense units technically fell under the governor’s authority, the state government struggled to manage, or even track, these organizations. Some, like the Third Battalion Mississippi Minute Men, were well organized, fell under direct state control, and took part in larger military operations, such as the defense of Vicksburg; others saw no combat, rarely gathered for drill, and were entirely overseen by county or local community officials. Most militia members were older than the average Confederate soldier. They were typically farmers, business owners, or land owners who had families and, in many instances, slaves. Because of these responsibilities at home, militiamen expected their military duties to be periodic, temporary, and only during times of emergency, a reflection of the militia’s original intent. However, state officials occasionally activated militia units for long periods, based upon the military situation. In the summer of 1862, Mississippi’s governor, John J. Pettus, mobilized his state troops, pulling many militia units away from their communities. Held in camp for several weeks, drilling but not seeing combat, many militiamen complained of their treatment and argued that their services were needed more at home, managing farms and their communities. Despite these complaints, the governor mobilized the state troops again in 1864, and again met criticism.
+</p>
+
+<p xml:id='OTPSD63200P3'>Overall, Mississippi’s militia and state defense system during the Civil War was a complicated tangle of formal and informal military units. Infrequently used for combat assignments, these units nevertheless provided some emergency services for the state government and allowed many Mississippians a way to provide military service to the community while remaining at home to manage personal and local interests. (Tracy L. Barnett, “Mississippi ‘Milish’: Militiamen in the Civil War,” <hi rend='italic'>Civil War History</hi>, Vol. 66, No. 4 (Dec 2020), 343-379; Michael B. Ballard, <hi rend='italic'>The Civil War in Mississippi: Major Campaigns and Battles</hi>, 4-8)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001682'>
+<catDesc>Medical Occupations</catDesc>
+          <category xml:id='S32085010'>
+            <catDesc>
+              <term>Medical Profession</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/medical-profession?q=Medical+Profession</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085010P0'>"A person with special training in the medical field." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S58699'>
+            <catDesc>
+              <term>Medical Profession--Physicians</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/physician</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58699P0'>"A medical doctor, especially one who has general skill and is not a surgeon." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S51103'>
+            <catDesc>
+              <term>Medical Profession--Surgeons</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/surgeon</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD51103P0'>"A doctor who is specially trained to perform medical operations." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001678'>
+<catDesc>Skilled Labor</catDesc>
+          <category xml:id='S72745'>
+            <catDesc>
+              <term>Contractors</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/contractor?q=contractors</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001678'>Skilled Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD72745P0'>"A person or company that arranges to supply materials or workers for building or for moving goods." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001713'>
+<catDesc>C.S.A. Federal Government</catDesc>
+          <category xml:id='S80032'>
+            <catDesc>
+              <term>Confederate States of America--Surgeon-General&#39;s Office</term>
+              <idno>https://en.wikipedia.org/wiki/Samuel_P._Moore</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD80032P0'>The Confederate Surgeon-General’s Office was the head of the Confederate Army Medical Department. Established in 1861, the office was responsible for the oversight of medical personnel, medical supplies, and medical care standards for the Confederate Army. Dr. Samuel P. Moore, a former U.S. Army physician, became the Surgeon-General for the Confederate Army in March 1861 and served in that role until the collapse of the Confederacy in 1865. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001343'>
+<catDesc>Educational Organizations</catDesc>
+          <category xml:id='S63002'>
+            <catDesc>
+              <term>Schools</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/school?q=schools</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001343'>Educational Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63002P0'>"A place where people, esp. young people, are educated." (Cambridge Dictionary) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32081620'>
+            <catDesc>
+              <term>Schools--Mississippi</term>
+              <idno>https://en.wikipedia.org/wiki/Education_in_Mississippi</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001343'>Educational Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>33.0, -90.0</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32081620P0'>Mississippi historically lagged behind most American states when it came to public education. Although some individuals, including territorial governor W. C. C. Claiborne in 1802, advocated for public education during its earliest territorial days, most officials within Mississippi territory did not endorse a broad system of public schools. The territorial legislature did establish Jefferson College, but made no effort to provide free education to Mississippi children. During the early nineteenth century, most Mississippi children received instruction at home. Some families pooled their resources or were able to direct town funds to pay for local schools, which became the earliest public schools in the state. In 1830, only thirteen percent of Mississippi children attended public schools. Families with more money sent their children to private schools, and the wealthiest often chose to send their children to secondary schools or universities in the north due to the quality of the programs there.
+</p>
+
+<p xml:id='OTPSD32081620P1'>Several small colleges emerged in Mississippi during the nineteenth century, including some women’s colleges. Some of these programs tailored the curriculum to courses seen as appropriate for females in society. This meant heavy emphasis on domestic interests and arts. However, a few of the women’s academies offered a more traditional university course load, including Whitworth College, whose president argued that women were as capable of handling the same intellectual and technical pursuits as men.
+</p>
+
+<p xml:id='OTPSD32081620P2'>The Civil War substantially changed public education in Mississippi. The conflict interrupted most Mississippi schools and universities, but federal intervention in Mississippi political and social events after the war led to new emphasis in public schools. Northern Republicans and philanthropic volunteers in Mississippi sought to integrate former slaves into Mississippi society and opened free schools for children, regardless of race. The Mississippi constitution of 1868 directed that the state government provide a public school system funded by taxes for Mississippians between the ages of five and twenty-one. The Reconstruction legislature founded the black land-grant college in the country, Alcorn Agricultural and Mechanical College.
+</p>
+
+<p xml:id='OTPSD32081620P3'>The end of Reconstruction led to a downturn in public education across Mississippi. As conservative white southerners regained control of state politics, funding for African American education programs dwindled, and by the 1890s the state formally segregated schools. The Mississippi school system remained segregated well into the twentieth century. Educational support for white children was not a priority for state officials either, and Mississippi did not require school attendance for children until 1918, making it the last state in the United States to enact such law. (Wikipedia; Mississippi Encyclopedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63001'>
+            <catDesc>
+              <term>Schools--Mississippi. St. Thomas&#39; Hall (Holly Springs)</term>
+              <idno>https://hillcountryhistory.org/2016/01/30/lost-history-st-thomas-hall/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001343'>Educational Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>34.77333, -89.44639</geo>
+              </note>
+              <gloss><p xml:id='OTPSD63001P0'>St. Thomas’ Hall Military Institute was an Episcopalian boy’s school established in Holly Springs, Mississippi, in 1844 by Reverend Francis L. Hawks. It was one of two military schools for boys in Holly Springs, directly competing against the Chalmers Institute. St. Thomas’ Hall was a well-respected institution for seventeen years, at which point the Civil War broke out. The school shut down as many students and faculty volunteered for the Confederate army. The school buildings served as a hospital for Confederate soldiers until Union troops captured Holly Springs and destroyed most of the campus in 1865. An effort to reopen the school in 1867 failed. An Episcopalian minister tried one more time to open St. Thomas Hall in 1893, purchasing a different building in Holly Springs. That school remained open for approximately five years before a fire burned the main building and forcing the institute to permanently close. (Phillip Knecht, “St. Thomas Hall (1844),” Hillcountryhistory.org) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001715'>
+<catDesc>Medical Organizations</catDesc>
+          <category xml:id='S58320'>
+            <catDesc>
+              <term>Hospitals</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/hospital?q=hospitals</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001715'>Medical Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58320P0'>"A place where people who are sick or injured are treated and taken care of by doctors and nurses." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives and the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1863</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Bonner, Charles</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1863-04-08</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Charles Bonner, a surgeon at St. Thomas Hall Hospital in Holly Springs, Mississippi, to Mississippi Governor John J. Pettus concerning the additions made to the hospital.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Holly Springs (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-944-10-03</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Marshall County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 944, Folder 10</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Hospitals--Confederate States of America; Mississippi. Governor; Pettus, John Jones, 1813-1867; Surgeons</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Charles Bonner to Mississippi Governor John J. Pettus; April 8, 1863</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/8980&quot;&gt;Letter from Charles Bonner to Mississippi Governor John J. Pettus; April 8, 1863&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG40" who="U32020358" when="2025-03-14T21:49:07Z" target="#P25106234">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2024-12-11T19:23:20Z" target="#P25106236">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U32019810" when="2024-11-09T23:12:54Z" target="#P25106236">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U32019810" when="2024-11-09T23:11:18Z" target="#P25106236">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U2" when="2024-10-25T17:04:43Z" target="#P25106236">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U2" when="2024-10-25T14:41:09Z" target="#P25106234">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-11-02T18:06:27Z" target="#P25106234">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-09-03T13:46:43Z" target="#P25106234">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-05-27T18:25:18Z" target="#P25106235">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-04-06T19:46:56Z" target="#P25106234">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-19T18:23:43Z" target="#P25106234">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-19T17:48:05Z" target="#P25106235">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-18T22:01:57Z" target="#P25106234">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-18T14:27:24Z" target="#P25106234">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-18T02:56:39Z" target="#P25106235">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-18T02:53:40Z" target="#P25106235">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-18T01:52:59Z" target="#P25106234">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-16T19:13:53Z" target="#P25106235">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-16T19:12:31Z" target="#P25106235">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-16T19:09:00Z" target="#P25106235">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-03-03T17:18:39Z" target="#P25106234">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2021-11-05T20:35:24Z" target="#P25106234">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2021-11-05T20:24:17Z" target="#P25106234">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2021-10-26T17:52:43Z" target="#P25106236">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U215767" when="2021-07-21T12:25:04Z" target="#P25106236">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U215767" when="2021-07-21T12:24:00Z" target="#P25106236">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U215767" when="2021-07-21T12:22:47Z" target="#P25106235">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U215767" when="2021-07-21T12:22:31Z" target="#P25106235">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U215767" when="2021-07-21T12:19:40Z" target="#P25106235">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U215767" when="2021-07-21T12:18:53Z" target="#P25106234">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U217868" when="2021-07-16T16:10:17Z" target="#P25106236">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U217868" when="2021-07-16T16:08:39Z" target="#P25106235">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U217868" when="2021-07-16T16:04:10Z" target="#P25106234">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U231087" when="2021-07-09T13:45:57Z" target="#P25106236">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U231087" when="2021-07-09T13:44:34Z" target="#P25106235">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2021-07-09T13:41:01Z" target="#P25106234">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2021-07-09T13:40:40Z" target="#P25106235">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2021-07-09T13:36:48Z" target="#P25106234">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-07-02T22:14:25Z" target="#P25106236">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-07-02T22:14:19Z" target="#P25106235">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-07-02T22:14:13Z" target="#P25106234">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25106234" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8977/full/full/0/default.jpg"/>
+        <div xml:id="OTP25106234">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25106234P0' xml:id='OTP25106234P0'>[seal]
+</p>
+
+<p corresp='TTP25106234P1' xml:id='OTP25106234P1'><rs ref='#S25026074'>Executive Office</rs>,<lb/>
+<rs ref='#S51785'>Jackson</rs>, Miss, April 8<add place='above'>th</add> 1863
+</p>
+
+<p corresp='TTP25106234P2' xml:id='OTP25106234P2'>To His Excellency<lb/>
+<rs ref='#S63111'>John J. Pettus</rs> Governor<lb/>
+of Mississippi
+</p>
+
+<p corresp='TTP25106234P3' xml:id='OTP25106234P3'>Sir
+</p>
+
+<p corresp='TTP25106234P4' xml:id='OTP25106234P4'>Having been <rs ref='#S98996'>appointed</rs> by you in March 1862, to establish and con-duct a <rs ref='#S58320'>Hospital</rs> for <rs ref='#S63200'>Mississippi Troops</rs> in the Town of <rs ref='#S63000'>Holly Springs in Marshall County</rs> I have to report, that in pursuance to your orders I contracted with one <rs ref='#S25015397'>Spires Boling</rs> to build and additional wing and Kitchen to <rs ref='#S63001'>St Thomas' Hall</rs>, The dimentions of said buildings being as follows new wing being one hundred and twenty (120) feet in length, and twenty (20) in bredth or width Kitchen thirty two (32) feet in length and eighteen (18) feet in width. The cost of the new wing was $1100 and that of the Kitchen including Chimney $342, making total for both buildings $1442. I re-ceived from the state agent Capt <rs ref='#S102902'>Caskey</rs> $1000, which I paid over to said Boling as <rs ref='#S72745'>Contracr</rs>, leaving a balance still due of $442 unpaid. I receved also from the state 1000 yards Osnaburgs for mattresses. It will be perceived by the foregoing statement that, the State of Mississippi 
+</p>
+
+
+            <note resp="#U231087">https://en.wikipedia.org/wiki/Spires_Boling</note>
+            <note resp="#U220769">Perfect, thank you!</note>
+        </div>
+        <pb xml:id="F25106235" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8978/full/full/0/default.jpg"/>
+        <div xml:id="OTP25106235">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25106235P0' xml:id='OTP25106235P0'>has furnished this hospital $1000 in Cash and 1000 yards Osnaburgs. In April I received a visit from <rs ref='#S58699'>D<add place='above'>rs</add></rs> <rs ref='#S104419'>Ford</rs> and <rs ref='#S25015400'>Sorrell</rs> the former medical director of Genl <rs ref='#S86445'>Bragg</rs> and the latter, a General agent sent out by <rs ref='#S80032'>Surgeon General</rs> at <rs ref='#S63093'>Richmond</rs> to establish Hospitals These Gentlemen stated that the policy of the Confed-erate aid not recognize State Hospitals, and that our Hospital should be under Confederate controll and used as a general Hospital. I therefore turned over to the Hospital accordingly with the osnaburgs and all other articles I had provided to the Confederate Government. The Confederate Government now owes the State, having never paid anything there on the money advanced $1000 and the 1000 yards of osnaburgs together with the balance due, and owing to said Spires Boling of $442, as above stated.
+</p>
+
+<p corresp='TTP25106235P1' xml:id='OTP25106235P1'>Resply Submitted<lb/>
+<rs ref='#S25015401'>Charles Bonner</rs><lb/>
+<rs ref='#S51103'>Asst Surgeon</rs> St Thomas Hall Hospital<lb/>
+Holly Springs Miss
+</p>
+
+
+        </div>
+        <pb xml:id="F25106236" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8979/full/full/0/default.jpg"/>
+        <div xml:id="OTP25106236">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP25106236P0' xml:id='OTP25106236P0'>Report of<lb/>
+Charles Bonner<lb/>
+Asst Surgeon<lb/>
+St Thomas' Hall Hospital<lb/>
+Holly Springs Miss
+</p>
+
+<p corresp='TTP25106236P1' xml:id='OTP25106236P1'><del rend='overstrike'>To be refered to Capt Caskey</del><lb/>
+Referred to Capt. Caskey by order of Gov Pettus<lb/>
+<rs ref='#S89459'>W A Barbour</rs><lb/>
+<rs ref='#S95466'>Secy</rs> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

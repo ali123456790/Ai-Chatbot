@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from William Vannenson as dictated to H. C. Fairman to Mississippi Governor James L. Alcorn; February 3, 1871</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 16 edits between
+              <date type="first_edit" when="2023-02-12T20:36:22Z">February 12, 2023</date> and
+              <date type="last_edit" when="2023-11-17T17:25:26Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 9 edits between
+              <date type="first_edit" when="2022-12-14T22:07:59Z">December 14, 2022</date> and
+              <date type="last_edit" when="2022-12-14T22:53:16Z">December 14, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25090807">
+          <persName
+            >
+            Patricia Parrish
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2022-11-20T05:30:23Z">November 20, 2022</date> and
+              <date type="last_edit" when="2022-11-20T05:41:30Z">November 20, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2022-12-16T22:09:51Z">December 16, 2022</date> and
+              <date type="last_edit" when="2022-12-16T22:13:40Z">December 16, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2024-10-25T13:33:22Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T18:01:31Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-22T00:23:30Z">October 22, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:31:39+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32065227">
+              <persName>Buckley, James M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32065228">
+              <persName>Eivers, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S90394">
+              <persName>Vannerson, William</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32065231">
+              <persName>Fairman, H. C.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S54240">
+              <persName>Hewson, Harry Francis, 1849-1891</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS54240P0'>Harry Francis Hewson was a governor’s private secretary in Mississippi during the Reconstruction era.
+</p>
+
+<p xml:id='OTPS54240P1'>Born to Irish immigrant parents in New Jersey in 1849, Hewson moved to Mississippi as a young man and became the private secretary to Governor James L. Alcorn in 1870. He served in that capacity for over a year and then moved to New York where he worked as an attorney. A few years later, he moved in with his mother and several siblings in New Jersey, and continued to practice law.
+</p>
+
+<p xml:id='OTPS54240P2'>He passed away in 1891, in North Bergen, New Jersey, at the age of 42.
+</p>
+
+<p xml:id='OTPS54240P3'>(“Harry F. Hewson” New Jersey, U.S. Births and Christenings Index, 1660-1931; <hi rend='italic'>The Weekly Mississippi Pilot</hi>, Jackson, MS, May 28, 1870; 1870 U. S. Census for Jackson, Mississippi; Brooklyn Ward 21, 1875 New York State Census; 1880 U.S. Census for Jersey City, New Jersey; Church of the Ascension, Jersey City, 1887-1891, Episcopal Diocese of Newark Church Records, 1800-1970)
+</p>
+
+<p xml:id='OTPS54240P4'>Harry Francis Hewson belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63212">
+              <placeName>Mississippi--Lawrence County. Monticello</placeName>
+                <idno>https://archive.org/details/mississippicompr02rowl/page/n277/mode/2up?q=monticello</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63212P0'>Located in Lawrence County, Monticello was founded as early as 1815 and serves as the county seat. (Rowland, <hi rend='italic'>Mississippi</hi>, 278; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.55417, -90.11</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32047319'>
+            <catDesc>
+              <term>Criminal Procedures--Deputize</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/deputize?q=Deputize</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32047319P0'>"The act of a ranked official appointing someone to stand in for them." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S98996'>
+            <catDesc>
+              <term>Political Office--Appointment to Office</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/appointment</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98996P0'>"The act of officially choosing someone for a job, or the job itself." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S63934'>
+            <catDesc>
+              <term>Judges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/judge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63934P0'>"A person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32003247'>
+            <catDesc>
+              <term>Judges. Probate Law and Practice</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/probate?q=probate+</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32003247P0'>A person who oversees "the process of managing the property, money, etc. of someone who has died and giving it to the beneficiaries." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001682'>
+<catDesc>Medical Occupations</catDesc>
+          <category xml:id='S32085010'>
+            <catDesc>
+              <term>Medical Profession</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/medical-profession?q=Medical+Profession</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085010P0'>"A person with special training in the medical field." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S58699'>
+            <catDesc>
+              <term>Medical Profession--Physicians</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/physician</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58699P0'>"A medical doctor, especially one who has general skill and is not a surgeon." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S50807'>
+            <catDesc>
+              <term>Clerks</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/clerk</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD50807P0'>"A person who works in an office, dealing with records or performing general office duties." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S69274'>
+            <catDesc>
+              <term>Disease and Illness</term>
+              <idno>https://www.battlefields.org/learn/articles/common-diseases-18th-and-19th-century</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD69274P0'>Approximately 620,000 Americans died during the Civil War. For this reason, the war is often called America’s bloodiest conflict. However, two-thirds of Civil War deaths were caused by disease, not combat. The disparity is greater for non-fatal victims: 400,000 soldiers suffered wounds or injuries compared to 6,000,000 cases of illness. Since a combined 3,000,000 men fought in Union and Confederate armies, this means the average soldier fell ill to disease twice during his military service.
+</p>
+
+<p xml:id='OTPSD69274P1'>Numerous types of diseases afflicted soldiers and civilians during the Civil War and Reconstruction era. Some were ubiquitous, like the common cold and diarrhea, which rarely garnered much attention unless the symptoms worsened into a more severe condition. Pneumonia, typhoid, and malaria were among the most serious diseases in the mid-nineteenth century. Epidemics of yellow fever and small pox also ravaged some civilian communities and military units. Perhaps the most deadly to Civil War soldiers, though, was dysentery, which was diarrhea with blood in the stool. Nearly 60,000 people died from dysentery during the war, and Union officials recorded 1.5 million cases of diarrhea or dysentery between 1861 and 1865.
+</p>
+
+<p xml:id='OTPSD69274P2'>All Americans, regardless of economic status or race, suffered pain and loss due to illness during the era. The President of the United States Abraham Lincoln and President of the Confederate States Jefferson Davis—the two most powerful individuals in North America, with access to the best resources—each lost a child to disease during the Civil War. The problem worsened with the sudden shifting of human populations during and after the war, as outbreaks of diseases spread rapidly. While many soldiers from highly populated areas had developed immunity to childhood diseases such as chicken pox, diphtheria, mumps, measles citizen soldiers from rural areas proved more susceptible to severe reactions when exposed to those diseases. Physicians improved medical care during the Civil War, as many recognized the value of sunlight and fresh airflow. However, they could only provide soldiers such healthy conditions behind the lines, at hospitals or rest areas. In many camps, or in the field during campaigns, soldiers were exposed to poor weather, extreme temperatures, and unsanitary conditions. Those who suffered the worse were in prisoner of war camps, in both north and south, where thousands of soldiers died from dysentery or other diseases. Civil War doctors did not fully understand the spread of diseases, including contaminated water (in the case of typhoid and dysentery) or mosquitos (for malaria and yellow fever). As such, camps, forts, and prisons rarely were constructed with the soldiers’ health in mind, and Civil War medicine most often involved responding to disease rather than preventing it.
+</p>
+
+<p xml:id='OTPSD69274P3'>Another source of illness among soldiers, and civilians in war-torn areas, was dietary deficiencies. Despite efforts by subsistence and commissary personnel in Union and Confederate armies, feeding thousands of troops daily proved a monumental task. Food preservation techniques still relied heavily upon drying and salting, and fresh vegetables and fruits were limited and dependent upon seasons. As a result, most Civil War soldiers likely suffered from a Vitamin C deficiency, the most severe cases resulting in scurvy which caused the loss of teeth and bleeding. Heavy reliance upon corn-based foods, especially within southern military units or Union prisoners held in southern prisoner of war camps, led to high instances of pellagra, a condition caused by the lack of niacin (or vitamin B3). Present in most foods, but not corn, victims suffered from diarrhea, skin sores, and dementia.
+</p>
+
+<p xml:id='OTPSD69274P4'>Often ignored, Americans also suffered from sexually transmitted diseases during the Civil War and afterwards. Although rarely fatal, more than 100,000 soldiers were diagnosed with gonorrhea and nearly 80,000 became infected with syphilis. Unsurprisingly, most of these cases occurred when soldiers were near populated areas, especially during training or time in camp, where they had more opportunities to interact with women. Venereal disease rates were higher at the start and at the end of the Civil War. That trend may reflect the fact that rates went down for armies on campaign in the field. The overall rate of venereal disease in the Union Army fluctuated from about 82 to 87 cases for every 1,000 soldiers, Some Union military units reported extremely high rates of venereal disease, particularly in the west. For instance, military physicians in the Department of the Pacific recorded 461 cases out of 1,000 men in 1862.
+</p>
+
+<p xml:id='OTPSD69274P5'>The Civil War also led to disease outbreaks among civilians. Like country-born soldiers introduced to new diseases in military camps, fugitive or liberated slaves who congregated in refugee camps behind Union lines became exposed to new diseases. Cities besieged by armies, such as Vicksburg, Atlanta, and Richmond, faced problems with sanitation and food supplies, compromising the health and immune systems of local residents, leaving them more susceptible to illness.
+</p>
+
+<p xml:id='OTPSD69274P6'>Finally, while most people survived bouts of illness during the Civil War, countless carried pathogens back to their home communities, or simply carried long-term effects from diseases within their bodies. Respiratory infections, blood borne diseases, and other afflictions obtained during the war decreased the quality of life of many Americans, or led to other health complications and early death. (American Battlefield Trust, Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 205–213; George Worthington Adams, <hi rend='italic'>Doctors in Blue</hi>, 3–5; Thomas P. Lowry, <hi rend='italic'>The Story the Soldiers Wouldn't Tell</hi>, 104–108)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Alcorn Series 786</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Mississippi Digital Library and the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1871</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Vannerson, William</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1871-02-03</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Alcorn Collection. Letter from William Vannerson to Mississippi Governor James L. Alcorn, informing Alcorn that he is discharging his current Deputy Sheriff of Lawrence County, Mississippi, due to his lack of ability to operate without strict supervision.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 11&quot; x 8.5&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Monticello (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_786-972-05-05</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Lawrence County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Britany Castilaw; Dalton Wood; McKenna Fussell; Sarah West</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 972, Folder 5</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Alcorn, J. L. (James Lusk), 1816-1894; Employees--Dismissal of; Mississippi. Governor; Paralysis; Physicians; Police; Sheriffs</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from William Vannerson as dictated to H. C. Fairman to Mississippi Governor James L. Alcorn; February 3, 1871</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/24376&quot;&gt;Letter from William Vannerson as dictated to H. C. Fairman to Mississippi Governor James L. Alcorn; February 3, 1871&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG42" who="U2" when="2024-10-25T18:01:31Z" target="#P32787781">
+          Version 13 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U2" when="2024-10-25T17:22:04Z" target="#P32787780">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U2" when="2024-10-25T13:33:22Z" target="#P32787779">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U32019810" when="2024-10-22T00:23:30Z" target="#P32787781">
+          Version 12 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-11-17T17:25:26Z" target="#P32787779">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-11-02T18:01:27Z" target="#P32787780">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-11-02T03:43:44Z" target="#P32787779">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-11-01T22:37:47Z" target="#P32787779">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-09-03T00:35:22Z" target="#P32787779">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-04-07T16:35:03Z" target="#P32787781">
+          Version 11 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-19T18:22:11Z" target="#P32787781">
+          Version 10 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-19T02:29:53Z" target="#P32787779">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-18T04:16:04Z" target="#P32787781">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-17T23:59:20Z" target="#P32787779">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-16T20:43:08Z" target="#P32787779">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-16T20:09:35Z" target="#P32787779">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-06T03:41:43Z" target="#P32787779">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-03T17:51:25Z" target="#P32787780">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-03T00:21:02Z" target="#P32787779">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-02-12T20:36:22Z" target="#P32787781">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U25091356" when="2022-12-16T22:13:40Z" target="#P32787781">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U25091356" when="2022-12-16T22:11:40Z" target="#P32787780">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U25091356" when="2022-12-16T22:10:49Z" target="#P32787779">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25091356" when="2022-12-16T22:10:13Z" target="#P32787780">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091356" when="2022-12-16T22:09:51Z" target="#P32787779">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091195" when="2022-12-14T22:53:16Z" target="#P32787781">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091195" when="2022-12-14T22:38:38Z" target="#P32787781">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091195" when="2022-12-14T22:38:19Z" target="#P32787781">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091195" when="2022-12-14T22:36:20Z" target="#P32787780">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091195" when="2022-12-14T22:30:48Z" target="#P32787779">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091195" when="2022-12-14T22:30:26Z" target="#P32787779">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091195" when="2022-12-14T22:23:50Z" target="#P32787781">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091195" when="2022-12-14T22:15:06Z" target="#P32787780">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091195" when="2022-12-14T22:07:59Z" target="#P32787779">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25090807" when="2022-11-20T05:41:30Z" target="#P32787781">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25090807" when="2022-11-20T05:41:29Z" target="#P32787781">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25090807" when="2022-11-20T05:38:48Z" target="#P32787780">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25090807" when="2022-11-20T05:38:48Z" target="#P32787780">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25090807" when="2022-11-20T05:30:24Z" target="#P32787779">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25090807" when="2022-11-20T05:30:23Z" target="#P32787779">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2022-11-14T21:42:21Z" target="#P32787781">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-11-14T21:42:18Z" target="#P32787780">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-11-14T21:42:14Z" target="#P32787779">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32787779" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:24373/full/full/0/default.jpg"/>
+        <div xml:id="OTP32787779">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32787779P0' xml:id='OTP32787779P0'>[seal]
+</p>
+
+<p corresp='TTP32787779P1' xml:id='OTP32787779P1'><rs ref='#S63212'>Monticello</rs> February 3" 1871
+</p>
+
+<p corresp='TTP32787779P2' xml:id='OTP32787779P2'>To His Excellency, [Alcorn, J. L. (James Lusk), 1816-1894|J, L, Alcorn]]<lb/>
+G<hi rend='underline'>ov</hi>, State of Miss
+</p>
+
+<p corresp='TTP32787779P3' xml:id='OTP32787779P3'>Dear Sir
+</p>
+
+<p corresp='TTP32787779P4' xml:id='OTP32787779P4'>I have been recently stricken down by <rs ref='#S69274'>paralysis</rs>; it is supposed to be a slight case, &amp; I may be able to be out in a few days; Such is the flattering report of my <rs ref='#S58699'>physician</rs> &amp; friends; in the mean time, I have found it necessary to <rs ref='#S32047319'>change my deputy for another</rs>, as I conceive for the public interest. He proves to be wholly incompeten to discharge the duties of the <rs ref='#S95578'>office</rs> alone, and without constant instruction; I have not forbid him the office, nor has there been any disagreeable feeling between us, but he comes and goes as usual; I have placed Mr <rs ref='#S32065227'>James M. Buckley</rs> in the office for his known competency. Mr <rs ref='#S32065228'>Eivers</rs> has taken from the office, without my consent a large number of papers, and some record books, from the <rs ref='#S32003247'>Probate</rs> office proper, with a view as he says to put 
+</p>
+
+
+        </div>
+        <pb xml:id="F32787780" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:24374/full/full/0/default.jpg"/>
+        <div xml:id="OTP32787780">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32787780P0' xml:id='OTP32787780P0'>them in order, at different times, &amp; to a distance of two miles—this was very much disapproved of by me—as a dereliction of duty—
+</p>
+
+<p corresp='TTP32787780P1' xml:id='OTP32787780P1'>My purpose in the premises has been to subserve the public good, &amp; could I have continued to give my personal supervision to the offices would have had no occasion to make this change—but during my present infirmity have thought this action proper—indeed inoperative—and hope it will meet the approbation of your Excellency—
+</p>
+
+<p corresp='TTP32787780P2' xml:id='OTP32787780P2'>I have never been absent from the office <hi rend='underline'>one</hi> day since my <rs ref='#S98996'>appointment</rs>; I am noted for my strictness and order in the management of business, and in all things relating to the orderly conducting of the same—<hi rend='underline'>Mr</hi> Eivers is a good <rs ref='#S50807'>copyist</rs> but will not do to leave in the office by himself
+</p>
+
+<p corresp='TTP32787780P3' xml:id='OTP32787780P3'>Very Respectfully
+</p>
+
+<p corresp='TTP32787780P4' xml:id='OTP32787780P4'><rs ref='#S90394'>Wm Vannerson</rs><lb/>
+per. <rs ref='#S32065231'>H C. Fairman</rs>. 
+</p>
+
+
+        </div>
+        <pb xml:id="F32787781" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:24375/full/full/0/default.jpg"/>
+        <div xml:id="OTP32787781">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32787781P0' xml:id='OTP32787781P0'><b>PRECIS.</b><lb/>
+[gap]
+</p>
+
+<p corresp='TTP32787781P1' xml:id='OTP32787781P1'><hr/><lb/>
+<hi rend='italic'>No'.</hi> [gap]<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32787781P2' xml:id='OTP32787781P2'><b><rs ref='#S25026074'>Executive Office</rs>,</b><lb/>
+<b>State of Mississippi,</b><lb/>
+<hi rend='italic'>County of</hi> Lawrence<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32787781P3' xml:id='OTP32787781P3'><hi rend='italic'>From</hi> W<add place='above'><hi rend='underline'>m</hi></add>,, Vannerson <lb/>
+<hi rend='italic'>Address</hi> Monticello<lb/>
+<hi rend='italic'>Dated</hi> February. 3. "71<lb/>
+<hi rend='italic'>Received</hi> —<lb/>
+<hi rend='italic'>Answered</hi> —<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32787781P4' xml:id='OTP32787781P4'>Has employed a new deputy. Mr. Eivers had taken books from the office without his permission &amp;c &amp;c
+</p>
+
+<p corresp='TTP32787781P5' xml:id='OTP32787781P5'><b>JAMES L. ALCORN,</b><lb/>
+<b>Governor.</b>
+</p>
+
+<p corresp='TTP32787781P6' xml:id='OTP32787781P6'><b><rs ref='#S54240'>H. F. HEWSON</rs>,</b><lb/>
+<hi rend='italic'><rs ref='#S95466'>Private Secretary</rs>.</hi><lb/>
+<hr/> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

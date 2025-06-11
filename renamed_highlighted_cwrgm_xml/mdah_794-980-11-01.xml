@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from L. W. Mackey to C. W. Loomis; May 1, 1873</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U32020358">
+          <persName
+            >
+            Elisabeth Kluin
+            </persName>
+            <resp>
+              made 22 edits between
+              <date type="first_edit" when="2024-03-09T23:54:34Z">March  9, 2024</date> and
+              <date type="last_edit" when="2024-03-10T00:15:05Z">March 10, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32011493">
+          <persName
+            >
+            Amiracle Funches
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2024-05-19T04:31:14Z">May 19, 2024</date> and
+              <date type="last_edit" when="2024-05-19T04:37:39Z">May 19, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25090807">
+          <persName
+            >
+            Patricia Parrish
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-10-27T05:19:58Z">October 27, 2023</date> and
+              <date type="last_edit" when="2023-10-27T05:27:36Z">October 27, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-05-21T15:10:17Z">May 21, 2024</date> and
+              <date type="last_edit" when="2024-05-21T15:10:47Z">May 21, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-13T20:45:58Z">October 13, 2024</date> and
+              <date type="last_edit" when="2024-10-16T21:30:12Z">October 16, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T16:11:51Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T16:53:26Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T20:26:10+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32132652">
+              <persName>Jonston, Henry</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32057087">
+              <persName>Powers, Ridgley Ceylon, 1836-1912</persName>
+                <idno>https://en.wikipedia.org/wiki/Ridgley_C._Powers</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32057087P0'>Ridgley C. Powers served as governor of Mississippi from 1871 to 1874.
+</p>
+
+<p xml:id='OTPS32057087P1'>Born in Mecca, Ohio, on December 24, 1836, Powers was raised and educated in the north. In 1862, after receiving a degree from the University of Michigan, and conducting graduate work at Union College in New York, Powers enlisted in the Union Army for service during the Civil War. He was promoted to second lieutenant and then captain in the 125th Ohio Infantry Regiment and saw action in Tennessee and Georgia. By the time the Civil War ended in 1865, Powers had achieved the rank of colonel.
+</p>
+
+<p xml:id='OTPS32057087P2'>Upon separating from the military, Powers settled in Mississippi. He purchased land and began a cotton plantation. He soon became a public figure, serving as sheriff in Noxubee County. By 1868, Powers had gained status in Mississippi’s Republican Party, and was elected lieutenant governor in 1869. Although he was a “carpet bagger” (northerner who settled in the south during Reconstruction), Powers was generally respected by white Mississippians. This was in contrast to Governor James Alcorn, a northern by birth, but who was considered a “scalawag” since he had lived in Mississippi since the 1840s and had served in the Confederacy before joining the Republican Party. When Alcorn resigned the governor’s office in 1871 to take a seat in the U.S. Senate, Powers assumed the state’s executive office. He became active in promoting Mississippi’s economic development and independence, advocating crop variety and lesser dependence upon imported goods. Despite his efforts to maintain a stable political and economic environment in Mississippi, a rift grew among Republicans that led to competing party nominations for governor in 1873. Alcorn was nominated by the more conservative wing of Republicans against Adelbert Ames, former Union general and military governor, who was backed by the radicals. Ames won the election and took the governor’s seat in 1874.
+</p>
+
+<p xml:id='OTPS32057087P3'>In 1875, shortly after leaving office, Powers married Louisa Born. The couple had one child who died in infancy. They moved to Arizona, but Louisa suffered from a mysterious medical condition and began traveling across the United States and Europe for treatment. She passed away in New York in 1882 after undergoing surgery. Powers later remarried (to Mary Wilson) and moved to California. He spent the rest of his life as a rancher and businessman at Los Angeles. He died on November 11, 1912, and is buried in Angelus Rosedale Cemetery in Los Angeles, California.
+</p>
+
+<p xml:id='OTPS32057087P4'>(Wikipedia; Mississippi Encyclopedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS32057087P5'>Ridgley Ceylon Powers belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32077064">
+              <persName>Junkermann, Julius, 1841-1883</persName>
+                <idno>https://www.findagrave.com/memorial/23812043/julius-junkerman</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32077064P0'>Julius Junkermann was a Republican public figure and private secretary to a governor in Reconstruction Mississippi.
+</p>
+
+<p xml:id='OTPS32077064P1'>Born on November 14, 1841, in Dusseldorf, Germany, Junkermann moved to the United States in 1860, settling in New Orleans, Louisiana. When the Civil War broke out the following year, he was forced into Confederate service. He reportedly deserted the Confederate army at the Battle of Corinth, Mississippi, and fled to Union lines, where he volunteered for service. He enlisted in the Forty-third Illinois Infantry Regiment and served in the Union army for the rest of the war.
+</p>
+
+<p xml:id='OTPS32077064P2'>Junkermann resided in Mississippi after the war and was active in Republican Party politics. He married Clara Eggleston, the daughter of Brevet (honorary) Brigadier General Beroth B. Eggleston, a Union officer originally who helped establish the Republican Party in Mississippi during Reconstruction and unsuccessfully ran for governor of the state in the late 1860s. Junkermann and his wife had one daughter.
+</p>
+
+<p xml:id='OTPS32077064P3'>Junkermann served as Superintendent of Public Education in Washington County, Mississippi, in the early 1870s before becoming Governor Ridgley Powers’s private secretary in 1872. He was commissioned as Quartermaster General, at the rank of brigadier general, in the Mississippi State Militia in January 1872 and served a wide variety of public offices over the next several years, including circuit court clerk in Washington County and U.S. deputy tax collector in Jackson, Mississippi. Junkermann was also nominated for Mississippi state legislature in 1875, but does not appear to have won.
+</p>
+
+<p xml:id='OTPS32077064P4'>Junkermann, his wife, and much of his wife’s family, moved to Kansas around 1879, after Reconstruction had ended in the south. He edited a German-language newspaper in Kansas and served as justice of the peace for several years. In the early 1880s, Junkermann experienced unspecified health problems. He traveled to Colorado for treatment in 1883, but his condition worsened and he returned home only a few days later and died on June 1, 1883, in Wichita, Kansas. He is buried in Highland Cemetery in Wichita, Kansas.
+</p>
+
+<p xml:id='OTPS32077064P5'>(FindaGrave; <hi rend='italic'>New Orleans Republican</hi>, New Orleans, LA, December 8, 1870; <hi rend='italic'>The Clarion-Ledger</hi>, Jackson, MS, January 11, 1872; <hi rend='italic'>Daily Mississippi Pilot</hi>, Jackson, MS, October 7, 1875; (<hi rend='italic'>Register of Officers and Agents, Divil, Military, and Naval, in the Service of the United States on the Thirtieth of September 1877,</hi>, 77; <hi rend='italic'>Journal of the Senate of the State of Mississippi, 1873</hi>, 548; Beroth B. Eggleston, Sedgwick County KSGenWeb; <hi rend='italic'>The Wichita Weekly Beacon</hi>, Wichita, KS, June 6, 1883)
+</p>
+
+<p xml:id='OTPS32077064P6'>Julius Junkermann belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32077102">
+              <persName>Loomis, Charles Warren, 1840-1911</persName>
+                <idno>https://www.findagrave.com/memorial/78140020/charles-warren-loomis</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32077102P0'>Charles Warren Loomis held various public offices in Mississippi during Reconstruction, most notably superintendent of the state penitentiary. Born in Huntsburg Township, Ohio, on October 5, 1840, Warren relocated to Mississippi after the Civil War. He took a series of local and state government positions, including deputy tax collector in Jackson, state representative of Hinds County, and School Director for Jackson’s North Ward.
+</p>
+
+<p xml:id='OTPS32077102P1'>He was married to Caroline Powers, sister of Ridgley Powers, a fellow Ohioan who served as governor of Mississippi from 1871 to 1874. Governor Powers appointed Loomis superintendent of the Mississippi penitentiary in 1872. By the late 1870s, Loomis returned to Ohio with his wife and daughter, who had been born in Mississippi. Loomis died on June 30, 1911, and is buried in Lake View Cemetery in Cleveland, Ohio.
+</p>
+
+<p xml:id='OTPS32077102P2'>(<hi rend='italic'>Tri-Weekly Clarion</hi>, Jackson, MS, July 8, 1869; <hi rend='italic'>Hinds County Gazette</hi>, Raymond, MS, December 8, 1869; <hi rend='italic'>The Semi-Weekly Clarion</hi>, Jackson, MS, October 10, 1871; <hi rend='italic'>The Clarion</hi>, Jackson, MS, April 18, 1872;  FindaGrave)
+</p>
+
+<p xml:id='OTPS32077102P3'>Charles Warren Loomis belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S105532">
+              <persName>Johnson, Henry</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32106121">
+              <persName>Mackey, L. W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32021622">
+              <persName>Jackson, Henry</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32132651">
+              <persName>Powers, J. H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63430">
+              <placeName>Mississippi--DeSoto County. Hernando</placeName>
+                <idno>https://en.wikipedia.org/wiki/Hernando,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63430P0'>Currently located in DeSoto County, Hernando was founded in the early 1830s under the name Jefferson in what were then Washington and Monroe counties and was renamed Hernando in 1832. When DeSoto County was created on March 1, 1836, Hernando became its county seat. (Rowland, <hi rend='italic'>Mississippi</hi>, 859-860; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.83083, -89.99361</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001333'>
+<catDesc>Transportation &amp; Infrastructure Industries</catDesc>
+          <category xml:id='S99413'>
+            <catDesc>
+              <term>Railroads and Railroad Companies</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99413P0'>"A system of transportation using special vehicles whose wheels turn on metal bars fixed to the ground, or a particular company using such a system." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32115224'>
+            <catDesc>
+              <term>Railroads and Railroad Companies--Selma, Marion &amp; Memphis Railroad Company</term>
+              <idno>https://en.wikipedia.org/wiki/Cahaba,_Marion_and_Greensboro_Railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>33.0, -87.0</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32115224P0'>https://authorities.loc.gov/cgi-bin/Pwebrecon.cgi?AuthRecID=11678986&amp;v1=1&amp;HC=1&amp;SEQ=20231020124953&amp;PID=COsySndxMGS5GvsUBIQwEHqsqDMu
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32061378'>
+            <catDesc>
+              <term>Crimes (alleged)--Jail Escapes</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32061378P0'>"To become free or get free from, or to avoid something," especially to escape from custody. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63925'>
+            <catDesc>
+              <term>Crimes (alleged)--Larceny</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/larceny?q=Larceny</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63925P0'>"The crime of taking something that does not belong to you, but not in a way that involves force or the threat of force." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32065746'>
+            <catDesc>
+              <term>Criminal Procedures--Bounty</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/bounty?q=Bounty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32065746P0'>"An amount of money set as a reward," typically to incentivize capturing a fugitive from justice. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S71046'>
+            <catDesc>
+              <term>Criminal Procedures--Convicted</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/convicted?q=Convicted</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71046P0'>"Having officially been found guilty of a crime in a law court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32021053'>
+            <catDesc>
+              <term>Criminal Procedures--Sentencing</term>
+              <idno>https://en.wikipedia.org/wiki/Sentence_(law)</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32021053P0'>"In law, a sentence is the punishment for a crime ordered by a trial court after conviction in a criminal procedure, normally at the conclusion of a trial. A sentence may consist of imprisonment, a fine, or other sanctions." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+          <category xml:id='S70054'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems--Circuit Courts</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2789'>Organizations</ptr></ab>
+              </note>
+            </catDesc>
+          </category>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63395'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/court?topic=law-courts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63395P0'>"A place where trials and other legal cases happen, or the people present in such a place." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S54861'>
+            <catDesc>
+              <term>Mississippi--State Penitentiary (Jackson)</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_State_Penitentiary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>33.93167, -90.55083</geo>
+              </note>
+              <gloss><p xml:id='OTPSD54861P0'>"Mississippi State Penitentiary, also known as Parchman Farm, is a maximum-security prison farm located in unincorporated Sunflower County, Mississippi, in the Mississippi Delta region. Occupying about 28 square miles (73 km2) of land, Parchman is the only maximum security prison for men in the state of Mississippi, and is the state's oldest prison." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+          <category xml:id='S63177'>
+            <catDesc>
+              <term>Fugitives from Justice</term>
+              <idno>https://en.wikipedia.org/wiki/Fugitive</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63177P0'>The term "fugitive from justice" is defined broadly and covers a multiplicity of experiences under U.S. law, but refers most often to "a person who is fleeing from custody, whether it be from jail, a government arrest, government or non-government questioning, vigilante violence, or outraged private individuals" (Wikipedia). Slightly different than the above definition, a fugitive from justice may also be defined as "a person formally charged with a crime or a convicted criminal whose punishment has not yet been determined or fully served who is currently beyond the custody or control" of the party, be it local, national, or international, interested in their arrest (Wikipedia). In the nineteenth-century United States, fugitive status varied widely based on race. Many white people considered "fugitives from justice" were most often the latter definition, being those charged with or convicted of crimes who then fled across other state lines to try and evade punishment or trial. However, throughout American history up to Emancipation, fugitive status was given to escaped enslaved African Americans under the Fugitive Slave Laws of 1793 and later 1850. These laws also required anyone in the nation to apprehend self-emancipated enslaved people and return them to their owners. The term "fugitives from justice" therefore became another legal mechanism by which enslavers sought to control the movements and freedoms of the enslaved, while contributing heavily to the increasing sectionalism that would lead to the American Civil War (Britannica). To learn more about enslaved people who emancipations themselves and were labeled fugitives, see the "Emancipation and self-emancipation" subject tag under Events.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Powers Series 794</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Endowment for the Humanities; Funding for this project provided by the College of Arts and Sciences at the University of Southern Mississippi.; Funding for this project provided by the National Historical Publications and Records Commission.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1873</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Mackey, L. W.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1873-05-01</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Powers Collection. Letter from L. W. Mackey to C. W. Loomis, in regards to a possible reward offered for the capture of Henry Johnson, a suspected escapee from the Penitentiary.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8.0&quot; x 12.5&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Hernando (Miss.); Jackson (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_794-980-11-01</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>De Soto County (Miss.); Hinds County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Leela Lavanya Battula; Dalton Wood; McKenna Fussell</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 980, Folder 11</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Escaped prisoners; Mississippi State Penitentiary; Mississippi. Governor; Powers, Ridgley Ceylon, 1836-1912; Rewards programs (Criminal investigation)</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from L. W. Mackey to C. W. Loomis; May 1, 1873</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/36546&quot;&gt;Letter from L. W. Mackey to C. W. Loomis; May 1, 1873&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG37" who="U2" when="2024-10-25T16:53:26Z" target="#P33732054">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U2" when="2024-10-25T16:11:51Z" target="#P33732053">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U32019810" when="2024-10-16T21:30:12Z" target="#P33732053">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U32019810" when="2024-10-13T20:45:58Z" target="#P33732055">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2024-05-21T15:10:47Z" target="#P33732054">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2024-05-21T15:10:17Z" target="#P33732053">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U32011493" when="2024-05-19T04:37:39Z" target="#P33732055">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U32011493" when="2024-05-19T04:35:23Z" target="#P33732054">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U32011493" when="2024-05-19T04:33:11Z" target="#P33732053">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U32011493" when="2024-05-19T04:31:14Z" target="#P33732053">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U32020358" when="2024-03-10T00:15:05Z" target="#P33732055">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U32020358" when="2024-03-10T00:14:50Z" target="#P33732054">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U32020358" when="2024-03-10T00:12:42Z" target="#P33732053">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U32020358" when="2024-03-10T00:12:15Z" target="#P33732055">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U32020358" when="2024-03-10T00:12:02Z" target="#P33732055">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U32020358" when="2024-03-10T00:11:16Z" target="#P33732053">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U32020358" when="2024-03-10T00:11:10Z" target="#P33732054">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U32020358" when="2024-03-10T00:11:01Z" target="#P33732054">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U32020358" when="2024-03-10T00:09:49Z" target="#P33732054">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U32020358" when="2024-03-10T00:09:39Z" target="#P33732054">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U32020358" when="2024-03-10T00:09:14Z" target="#P33732054">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U32020358" when="2024-03-10T00:08:27Z" target="#P33732053">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U32020358" when="2024-03-10T00:07:03Z" target="#P33732053">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U32020358" when="2024-03-10T00:06:40Z" target="#P33732053">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U32020358" when="2024-03-10T00:06:36Z" target="#P33732053">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U32020358" when="2024-03-10T00:02:42Z" target="#P33732054">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U32020358" when="2024-03-10T00:02:30Z" target="#P33732055">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U32020358" when="2024-03-10T00:02:07Z" target="#P33732053">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U32020358" when="2024-03-10T00:00:48Z" target="#P33732053">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U32020358" when="2024-03-10T00:00:17Z" target="#P33732055">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U32020358" when="2024-03-09T23:57:05Z" target="#P33732054">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U32020358" when="2024-03-09T23:54:34Z" target="#P33732053">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25090807" when="2023-10-27T05:27:36Z" target="#P33732055">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25090807" when="2023-10-27T05:24:54Z" target="#P33732054">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25090807" when="2023-10-27T05:19:58Z" target="#P33732053">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2023-10-19T15:36:50Z" target="#P33732055">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2023-10-19T15:36:47Z" target="#P33732054">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2023-10-19T15:36:44Z" target="#P33732053">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F33732053" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:36543/full/full/0/default.jpg"/>
+        <div xml:id="OTP33732053">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP33732053P0' xml:id='OTP33732053P0'><rs ref='#S63430'>Hernando, Miss.</rs><lb/>
+May 1 1873,
+</p>
+
+<p corresp='TTP33732053P1' xml:id='OTP33732053P1'>Mr. <rs ref='#S32077102'>Loomis</rs><lb/>
+Supt <rs ref='#S54861'>Penitentiary</rs>—
+</p>
+
+<p corresp='TTP33732053P2' xml:id='OTP33732053P2'>Dear Sir—
+</p>
+
+<p corresp='TTP33732053P3' xml:id='OTP33732053P3'><rs ref='#S105532'>Henry Johnson</rs> who was <rs ref='#S71046'>convicted</rs> of <rs ref='#S63925'>Grand Larceny</rs> at the March Term of our <rs ref='#S70054'>Circuit Court</rs> 1872 and <rs ref='#S32021053'>sentenced</rs> to the Penitentiary is <rs ref='#S63177'>at large</rs>, whether he <rs ref='#S32061378'>escaped</rs> from you or not I cannot say—The party who informs me refuses to take any steps to Secure him without <rs ref='#S32065746'>compensation</rs>, As it will take some time and money to get him. Write me at once stating reward if any, and inform me what to do in the matter. There is no doubt about his identity—We think he must have escaped from <rs ref='#S32115224'>Memphis &amp; Selma Railroad</rs>—
+</p>
+
+<p corresp='TTP33732053P4' xml:id='OTP33732053P4'>Yours truly
+</p>
+
+<p corresp='TTP33732053P5' xml:id='OTP33732053P5'><rs ref='#S32106121'>L. W. Mackey</rs>— 
+</p>
+
+
+        </div>
+        <pb xml:id="F33732054" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:36544/full/full/0/default.jpg"/>
+        <div xml:id="OTP33732054">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP33732054P0' xml:id='OTP33732054P0'>L. W. Mackey<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33732054P1' xml:id='OTP33732054P1'>Hernando DeSoto Co—<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33732054P2' xml:id='OTP33732054P2'>Making Enquiry concerning <rs ref='#S32021622'>Henry Jackson</rs> an Escaped Convict<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33732054P3' xml:id='OTP33732054P3'>Record in Supts office<lb/>
+May 2" 1873<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33732054P4' xml:id='OTP33732054P4'>Respectfully Refered to <rs ref='#S25026074'>Executive Department</rs> to Ascertain if there has been a Reward, offered for the capure of the within named Convict
+</p>
+
+<p corresp='TTP33732054P5' xml:id='OTP33732054P5'>C. W. Loomis<lb/>
+Supt Miss Penitentiary<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33732054P6' xml:id='OTP33732054P6'>Recd Executive office<lb/>
+May 6: th. 1873<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33732054P7' xml:id='OTP33732054P7'>No record of Reward being offered in this case.
+</p>
+
+<p corresp='TTP33732054P8' xml:id='OTP33732054P8'><rs ref='#S32132651'>J. H. Powers</rs><lb/>
+Govs. <rs ref='#S95466'>P. S.</rs> 
+</p>
+
+
+        </div>
+        <pb xml:id="F33732055" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:36545/full/full/0/default.jpg"/>
+        <div xml:id="OTP33732055">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP33732055P0' xml:id='OTP33732055P0'><b>PRECIS.</b><lb/>
+[gap]<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33732055P1' xml:id='OTP33732055P1'><hi rend='italic'>No.</hi> [gap]<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33732055P2' xml:id='OTP33732055P2'><b>EXECUTIVE OFFICE,</b><lb/>
+STATE OF MISSISSIPPI.<lb/>
+<hi rend='italic'>County of</hi> DeSoto<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33732055P3' xml:id='OTP33732055P3'><hi rend='italic'>From</hi> L. W. McKey<lb/>
+<hi rend='italic'>Address</hi> Hernando<lb/>
+<hi rend='italic'>Dated</hi> [gap]<lb/>
+<hi rend='italic'>Received</hi> [gap]<lb/>
+<hi rend='italic'>Answered</hi> [gap]<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33732055P4' xml:id='OTP33732055P4'>Regarding a Reward offered for on <rs ref='#S32132652'>Henry Jonston</rs>.
+</p>
+
+<p corresp='TTP33732055P5' xml:id='OTP33732055P5'><rs ref='#S32057087'>R. C. POWERS</rs>,<lb/>
+<hi rend='italic'>Governor.</hi>
+</p>
+
+<p corresp='TTP33732055P6' xml:id='OTP33732055P6'><rs ref='#S32077064'>JULIUS JUNKERMANN</rs>,<lb/>
+<hi rend='italic'>Private Secretary.</hi><lb/>
+<hr/>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

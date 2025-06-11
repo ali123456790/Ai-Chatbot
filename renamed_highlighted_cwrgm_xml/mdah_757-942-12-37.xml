@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Thomas Weldon to General John C. Pemberton; October 29, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 18 edits between
+              <date type="first_edit" when="2021-07-06T19:22:57Z">July  6, 2021</date> and
+              <date type="last_edit" when="2023-11-06T19:42:23Z">November  6, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U216441">
+          <persName
+            >
+            Robin Horne
+            </persName>
+            <resp>
+              made 14 edits between
+              <date type="first_edit" when="2021-05-09T01:36:18Z">May  9, 2021</date> and
+              <date type="last_edit" when="2021-05-10T00:48:12Z">May 10, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25089434">
+          <persName
+            >
+            James M. Berry
+            </persName>
+            <resp>
+              made 9 edits between
+              <date type="first_edit" when="2021-06-16T23:08:13Z">June 16, 2021</date> and
+              <date type="last_edit" when="2021-06-16T23:16:09Z">June 16, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-06-17T13:44:35Z">June 17, 2021</date> and
+              <date type="last_edit" when="2021-06-17T13:46:05Z">June 17, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-08-31T23:48:57Z">August 31, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091404">
+          <persName
+            >
+            Robert Mason
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-05-07T17:34:30Z">May  7, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T15:26:42Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U217868">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Alec Blaylock </name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:56:06+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S97207">
+              <persName>Pemberton, John C. (John Clifford), 1814-1881</persName>
+                <idno>https://en.wikipedia.org/wiki/John_C._Pemberton</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS97207P0'>John C. Pemberton was a Confederate general, most famous for commanding troops in the unsuccessful defense of Vicksburg, Mississippi, in 1863.
+</p>
+
+<p xml:id='OTPS97207P1'>Born in Philadelphia, Pennsylvania, on August 10, 1814, Pemberton was raised and educated in the north. He graduated from the United States Military Academy at West Point, New York, in 1837, and immediately afterwards served as a U.S. artillery officer in the Second Seminole War in Florida. He remained a professional soldier for the next two decades, serving at various forts and posts in the United States, along the Canadian border, and in the west. During the Mexican-American War, from 1846 to 1848, Pemberton served with the 4th U.S. Artillery and took part in the battles of Palo Alto, Resaca de La Palma, and Monterrey. He earned the brevet (honorary) rank of captain for his actions at Monterrey. He continued to serve with distinction at several other engagements in Mexico, including the storming of Chapultepec castle and the battle at Mexico City.
+</p>
+
+<p xml:id='OTPS97207P2'>In 1848, following the Mexican-American War, Pemberton married Martha Thompson of Virginia. The couple had one daughter and three sons, all born in the 1850s. Pemberton continued to serve at a variety of posts in the United States, and saw additional action in Florida against the Seminoles from 1849 to 1850, and then again from 1856 to 1857. After spending a year in New Mexico Territory and three years in Minnesota, Pemberton was sent to Washington, D.C., in the spring of 1861, in the midst of the secession crisis. Despite his northern upbringing, Pemberton resigned his commission from the United States Army when the Civil War erupted in April 1861. He immediately volunteered for Confederate service and received an appointment as assistant adjutant general of Confederate forces at Richmond, Virginia.
+</p>
+
+<p xml:id='OTPS97207P3'>Because of his lengthy military experience, Pemberton rose quickly in Confederate ranks, reaching major general in January 1862. He was placed in command of the military department defending Georgia and South Carolina, but soon ran into conflict with the states’ governors who objected to Pemberton's assertion that the survival of his army was more important than defending the region, and due to mistrust of his northern heritage. Confederate President Jefferson Davis placed the more popular General P. G. T. Beauregard in charge of the defense of Georgia and South Carolina and relocated Pemberton to a new military department in Mississippi.
+</p>
+
+<p xml:id='OTPS97207P4'>At his new assignment in Mississippi, in the fall of 1862, Pemberton received the promotion to lieutenant general. He was responsible for defending the Mississippi River and key port towns, such as Vicksburg, from federal attack. Unlike the more famous Confederate armies to the east, Pemberton’s command was made up of southern troops who had suffered several defeats against aggressive Union commanders at battles like Shiloh and Corinth. Many of Pemberton’s troops were separated, and he struggled to unite his force to stage an effective defense against Ulysses S. Grant’s Union army, which began a campaign for Vicksburg in December 1862. Making matters worse for the Confederate general, his orders were to hold Vicksburg at all cost—meaning that he had limited ability to maneuver or even withdraw to save his army in the face of Grant’s larger force.
+</p>
+
+<p xml:id='OTPS97207P5'>Between December 1862 and July 1863, Grant conducted a slow, creative, but ultimately persistent campaign to surround and capture Vicksburg. Utilizing his aggressive subordinate William T. Sherman, Grant cut Pemberton and his Confederate troops off at Vicksburg and burned Mississippi’s capital of Jackson in May 1863. After being besieged in Vicksburg by Grant’s troops for six weeks, Pemberton realized he had no other choice but to surrender. On July 4, 1863, Pemberton ordered his army to lay down its arms and open Vicksburg to Grant’s army. The defeat occurred one day after Robert E. Lee’s battlefield loss at Gettysburg, Pennsylvania, delivering a double blow to Confederate morale.
+</p>
+
+<p xml:id='OTPS97207P6'>Pemberton and his men were captured and paroled by Union forces—a practice by which prisoners were allowed to return home or to encampments under the sworn oath not to take up arms until formally exchanged for Union prisoners. Pemberton traveled to Richmond where he remained idle for several months. Not receiving a new assignment, he resigned his general’s commission in May 1864. President Davis offered him a conciliatory assignment as a lieutenant colonel of artillery, which he accepted. He temporarily commanded the artillery defense of Richmond before taking an appointment as inspector general of artillery. Pemberton was captured by Union troops in mid-April 1865 during the final days of the war.
+</p>
+
+<p xml:id='OTPS97207P7'>Following the Civil War, Pemberton moved to Warrenton, Virginia. He remained there until 1876, when he moved back to Pennsylvania. He lived quietly on a farm, passing away in 1881. Pemberton is buried in Laurel Hill Cemetery East in Philadelphia, Pennsylvania.
+</p>
+
+<p xml:id='OTPS97207P8'>(Wikipedia; National Park Service, American Battlefield Trust; FindaGrave)
+</p>
+
+<p xml:id='OTPS97207P9'>John Clifford Pemberton belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S107438">
+              <persName>Weldon, Thomas</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S52521">
+              <placeName>Mississippi--Yazoo County. Yazoo City</placeName>
+                <idno>https://en.wikipedia.org/wiki/Yazoo_City,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52521P0'>Located in Yazoo County, Mississippi, Yazoo City was founded as early as 1824 under the name Hannah's Bluff (or Hanan's Bluff). It was later renamed Manchester in 1830 and Yazoo City in 1838. In 1849, Yazoo City became the county seat and remains so today. (Rowland, <hi rend='italic'>Mississippi</hi>, 998; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.85639, -90.4075</geo>
+                </note>
+            </place>
+            <place xml:id="S63134">
+              <placeName>Bodies of Water--Mississippi. Yazoo River</placeName>
+                <idno>https://www.britannica.com/place/Yazoo-River</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001864">Bodies of Water</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63134P0'>The Yazoo River is a 190-mile-long tributary of the Mississippi River in western Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.33556, -90.89722</geo>
+                </note>
+            </place>
+            <place xml:id="S51788">
+              <placeName>Mississippi--Warren County. Vicksburg</placeName>
+                <idno>https://archive.org/details/mississippicomp00rowlgoog/page/858/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51788P0'>Located in Warren County, Mississippi, Vicksburg was founded under the name Fort Nogales as early as 1790 in what was then unincorporated territory. In 1798, upon creation of Mississippi Territory, it was renamed Walnut Hills. On April 1, 1799, Walnut Hills became part of the newly created Pickering County (later renamed Jefferson County on January 10, 1802), until the creation of Claiborne County on January 26, 1802. It then became part of its current county of Warren on December 21, 1809. Upon its incorporation on January 29th, 1825, it was renamed Vicksburg. Vicksburg became the county seat in 1836 and remains today. (Rowland, <hi rend='italic'>Mississippi</hi>, 858; Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.33611, -90.87528</geo>
+                </note>
+            </place>
+            <place xml:id="S25003120">
+              <placeName>Louisiana--Red River Parish</placeName>
+                <idno>https://en.wikipedia.org/wiki/Red_River_Parish,_Louisiana</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS25003120P0'>Located in northeast Louisiana, Red River Parish was established March 2, 1871 from Bienville, Bossier, Caddo, DeSoto, and Natchitoches parishes. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.09, -93.33</geo>
+                </note>
+            </place>
+            <place xml:id="S25011055">
+              <placeName>Bodies of Water--Mississippi. Big Sunflower River</placeName>
+                <idno>https://en.wikipedia.org/wiki/Sunflower_River</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001864">Bodies of Water</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS25011055P0'>The Big Sunflower River is a 214-mile-long tributary of the Yazoo River in western Mississippi. (Wikipedia; United States Geological Survey)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.67028, -90.66778</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S102542'>
+            <catDesc>
+              <term>Confederate States of America. Army. Army of Mississippi (1862 Mar. 5-Nov. 20)</term>
+              <idno>https://en.wikipedia.org/wiki/Army_of_Mississippi</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD102542P0'>The Army of Mississippi (also known as the Army of the West) was organized on March 5, 1862 under the command of Gen. P. G. T. Beauregard and served in the Western Theater. On March 13, 1862 units of the Army of Pensacola were added to it, and it was consolidated with the Army of Central Kentucky and the Army of Louisiana on March 29, 1862. It was later commanded by Gen. Albert Sidney Johnston, Gen. Braxton Bragg, Maj. Gen. William J. Hardee, and Lt. Gen. Leonidas Polk. It was renamed the Army of Tennessee on November 20, 1862. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25012725'>
+            <catDesc>
+              <term>Confederate States of America. Army. Military Departments. Department of Mississippi and East Louisiana</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t08w45996&amp;view=1up&amp;seq=143</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25012725P0'>The Department of Mississippi and East Louisiana was established by General Orders, No. 73 issued by the Adjutant and Inspector-General’s Office on October 1, 1862. It was a geographical command of the Confederate Army encompassing the State of Mississippi and the State of Louisiana east of the Mississippi River. It was subdivided into the 1st, 2nd, 3rd, 4th, and 5th Military Districts. Its first commander was Maj. Gen. John C. Pemberton who commanded the department from October 1, 1862–December 22, 1863, and Lt. Gen. Leonidas Polk later commanded it from December 23, 1863–January 27, 1864. In January 1864 Alabama was merged into the Department and it became known as the Department of Alabama, Mississippi, and East Louisiana. (Beers, <hi rend='italic'>The Confederacy: A Guide to the Archives of the Government of the Confederate States of America</hi>, 263; <hi rend='italic'>Confederate States Army-General Orders from the Adjutant and Inspector General’s Office</hi>, 87; Eicher, <hi rend='italic'>Civil War High Commands</hi>, 873–874)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S70883'>
+            <catDesc>
+              <term>Confederate States of America. Navy</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Navy</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70883P0'>The Confederate Navy was the military naval force of the Confederate States of America during the American Civil War. It was established by the Confederate Congress on February 21, 1861, and was primarily responsible for protecting the Confederacy’s coastlines and harbors from federal attack and disrupting the United States Navy’s blockade of Southern ports. At its creation, the Confederate Navy had thirty ships, only fourteen of which were seaworthy. In contrast, the United States Navy had approximately ninety ships ready for service. Despite manufacturing limitations, the Confederate Navy eventually increased its size to slightly over one hundred ships and approximately 5,000 sailors. Still, it could not compete directly with the Union Navy, which enlarged to more than 650 ships and around 20,000 sailors.
+</p>
+
+<p xml:id='OTPSD70883P1'>Because of its smaller size, the Confederate Navy sought new and unconventional methods to challenge Union naval supremacy. This included inviting privateers—privately owned ships that engaged in warfare—to attack Union ships, particularly merchant vessels, for the Confederate cause. More famously, the Confederate Navy built ironclad vessels (wooden ships protected by iron plates) and the first submarine (named the <hi rend='italic'>Hunley</hi>) in an effort to defeat Union ships through technological innovation. These efforts did not change the trajectory of the war, though, due in part to the Confederacy’s inability to build these new ships in great number and by the Union Navy’s own development of ironclad warships.
+</p>
+
+<p xml:id='OTPSD70883P2'>Confederate Navy ships also performed blockade running operations and attacked Union vessels traversing the Atlantic to and from Europe. These efforts were intended to open avenues for Confederate merchant vessels to carry on foreign trade and to draw Union ships away from the Confederacy’s coast. However, efforts to overcome the Union blockade proved ineffective. Federal ships managed to reduce the South’s trade to only five percent of its pre-war levels.
+</p>
+
+<p xml:id='OTPSD70883P3'>The Confederate Navy was the last vestige of the Confederacy. It ceased to exist on November 6, 1865, with the surrender of the CSS <I>Shenandoah</I> in Liverpool, England. That event also marked the end of the Civil War. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+          <category xml:id='S95870'>
+            <catDesc>
+              <term>Military Headquarters</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/headquarters</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95870P0'>A military headquarters is the main center of control for a unit and typically revolves around that unit’s highest ranking officer. The term headquarters often refers to a physical location, however it is not always a permanent facility. A commanding officer can establish a headquarters anywhere that best allows oversight of the unit. Frequently during the Civil War military leaders relocated their headquarters each day as their armies moved. Union general John Pope famously declared that he would make his “headquarters in the saddle.” The comment was more symbolic than literal, but reflected how a headquarters centered on the commander's location and was subject to his discretion in how and where to conduct official duties. Pope’s critics replied that he was making his headquarters where his “hindquarters” should be, representing the more traditional view of a headquarters being a stationary command center strategically located for the effective management of a staff and army. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives, the National Endowment for the Humanities, and the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Weldon, Thomas</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-10-29</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Thomas Weldon in Yazoo City, Mississippi, to Confederate General John C. Pemberton, concerning his work to build a raft to obstruct the Yazoo River.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 13&quot; x 13&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Yazoo City (Miss.); Yazoo River (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-942-12-37</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Yazoo County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>A. J. Blaylock; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 942, Folder 12</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Confederate States of America--Defenses; Mississippi. Governor; Pemberton, John C. (John Clifford), 1814-1881; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Thomas Weldon to General John C. Pemberton; October 29, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/6822&quot;&gt;Letter from Thomas Weldon to General John C. Pemberton; October 29, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG49" who="U2" when="2024-10-25T15:26:42Z" target="#P25063482">
+          Version 17 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG48" who="U25091404" when="2024-05-07T17:34:30Z" target="#P25063482">
+          Version 16 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG47" who="U220769" when="2023-11-06T19:42:23Z" target="#P25063481">
+          Version 31 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U25091356" when="2023-08-31T23:48:57Z" target="#P25063481">
+          Version 30 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U220769" when="2023-04-14T16:47:50Z" target="#P25063481">
+          Version 29 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U220769" when="2023-03-19T21:04:24Z" target="#P25063482">
+          Version 15 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U220769" when="2023-03-18T21:44:53Z" target="#P25063482">
+          Version 14 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2023-03-18T21:38:09Z" target="#P25063481">
+          Version 28 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-03-18T19:42:59Z" target="#P25063481">
+          Version 27 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-03-18T19:36:36Z" target="#P25063481">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-03-18T15:55:38Z" target="#P25063481">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-03-18T03:18:05Z" target="#P25063481">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2022-12-14T00:45:05Z" target="#P25063481">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2022-06-07T21:14:24Z" target="#P25063481">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2021-12-09T22:38:14Z" target="#P25063481">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2021-12-09T22:38:01Z" target="#P25063481">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2021-07-06T22:54:12Z" target="#P25063481">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2021-07-06T22:53:58Z" target="#P25063481">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2021-07-06T19:23:45Z" target="#P25063482">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2021-07-06T19:23:03Z" target="#P25063482">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2021-07-06T19:22:57Z" target="#P25063482">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U217868" when="2021-06-17T13:46:05Z" target="#P25063482">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U217868" when="2021-06-17T13:44:35Z" target="#P25063481">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U25089434" when="2021-06-16T23:16:09Z" target="#P25063482">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U25089434" when="2021-06-16T23:15:43Z" target="#P25063482">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U25089434" when="2021-06-16T23:12:47Z" target="#P25063481">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U25089434" when="2021-06-16T23:12:30Z" target="#P25063481">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U25089434" when="2021-06-16T23:11:07Z" target="#P25063481">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U25089434" when="2021-06-16T23:09:29Z" target="#P25063481">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U25089434" when="2021-06-16T23:09:00Z" target="#P25063481">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25089434" when="2021-06-16T23:08:38Z" target="#P25063481">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25089434" when="2021-06-16T23:08:13Z" target="#P25063481">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U216441" when="2021-05-10T00:48:12Z" target="#P25063482">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U216441" when="2021-05-10T00:47:59Z" target="#P25063481">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U216441" when="2021-05-10T00:47:43Z" target="#P25063482">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U216441" when="2021-05-10T00:45:09Z" target="#P25063482">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U216441" when="2021-05-10T00:41:25Z" target="#P25063482">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U216441" when="2021-05-10T00:40:39Z" target="#P25063482">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U216441" when="2021-05-10T00:35:38Z" target="#P25063482">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U216441" when="2021-05-10T00:18:52Z" target="#P25063481">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U216441" when="2021-05-10T00:16:37Z" target="#P25063481">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U216441" when="2021-05-09T02:06:05Z" target="#P25063481">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U216441" when="2021-05-09T02:04:16Z" target="#P25063481">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U216441" when="2021-05-09T01:59:27Z" target="#P25063481">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U216441" when="2021-05-09T01:53:24Z" target="#P25063481">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U216441" when="2021-05-09T01:36:18Z" target="#P25063481">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-04-29T14:31:14Z" target="#P25063482">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-04-29T14:31:13Z" target="#P25063481">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-04-29T14:31:08Z" target="#P25063482">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-04-29T14:31:05Z" target="#P25063481">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25063481" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/6820/full/full/0/default.jpg"/>
+        <div xml:id="OTP25063481">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25063481P0' xml:id='OTP25063481P0'>187
+</p>
+
+<p corresp='TTP25063481P1' xml:id='OTP25063481P1'><rs ref='#S52521'>Yazoo City</rs> Oct 29th 1862
+</p>
+
+<p corresp='TTP25063481P2' xml:id='OTP25063481P2'>Sir,
+</p>
+
+<p corresp='TTP25063481P3' xml:id='OTP25063481P3'>At the time of entering upon the work of obstructing the <rs ref='#S63134'>Yazoo River</rs> at <rs ref='#S51788'>Snyder Mill</rs>, in compliance with instructions from Genl Smith to procure means to push the work to a speedy completion, a special order was sent for the Steamers "Dew Drop" and "Dixie" their capacity being that best suited for the work, the latter Boat has arrived and her commander desires to proceed to <rs ref='#S25003120'>Red River</rs> for the purpose of bringing out Salt, purpoting to have authority from you to do so.
+</p>
+
+<p corresp='TTP25063481P4' xml:id='OTP25063481P4'>Believing you were not apprised of the importance of her service in this work, permit me to present the facts for your consideration,
+</p>
+
+<p corresp='TTP25063481P5' xml:id='OTP25063481P5'>The amount of Timber required will be great, which is mostly to be obtained from the two <rs ref='#S25011055'>Sunflower Rivers</rs> tributaries of the Yazoo, and insuficient for the navigation of larger Boats than the ones in question.
+</p>
+
+<p corresp='TTP25063481P6' xml:id='OTP25063481P6'>At present the Current is forced from the mouth by the influence of back water, thus rendering the assistance of a <rs ref='#S70883'>Boat</rs> indispensable to avoid great delay.
+</p>
+
+<p corresp='TTP25063481P7' xml:id='OTP25063481P7'>I therefore respectfully request that she be permitted to remain in this service until she can be dispensed with, which will be at the earliest period when done without detriment to the progress of the Work,
+</p>
+
+<p corresp='TTP25063481P8' xml:id='OTP25063481P8'>To <rs ref='#S97207'>Lieut Gen<add place='above'>l</add> Pemberton</rs><lb/>
+Commanding<lb/>
+<rs ref='#S102542'>Army of the Mississippi</rs><lb/>
+<hr/>
+</p>
+
+<p corresp='TTP25063481P9' xml:id='OTP25063481P9'>Respectfully<lb/>
+Your Obt Servt<lb/>
+<rs ref='#S107438'>Thos Weldon</rs><lb/>
+In charge of River obstruction in <hi rend='underline'>Yazoo</hi>
+</p>
+
+<p corresp='TTP25063481P10' xml:id='OTP25063481P10'/>
+        </div>
+        <pb xml:id="F25063482" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/6821/full/full/0/default.jpg"/>
+        <div xml:id="OTP25063482">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25063482P0' xml:id='OTP25063482P0'>X 267—61
+</p>
+
+<p corresp='TTP25063482P1' xml:id='OTP25063482P1'><rs ref='#S95870'>H<hi rend='underline'><add place='above'>d</add></hi> Q<hi rend='underline'><add place='above'>tr</add></hi></rs> <rs ref='#S25012725'>Dep<add place='above'>t</add> Miss<add place='above'>i</add> E &amp; Lou<add place='above'>a</add></rs> &amp;c<lb/>
+<rs ref='#S51785'>Jackson</rs>—Nov 7<add place='above'>th</add>/62
+</p>
+
+<p corresp='TTP25063482P2' xml:id='OTP25063482P2'>Resply replied to His Excy Gov Pettus Who he views of the great importance of the work upon which it is desired to employ the two  boats named within is requested to inform me whether other boats will not answer his purpose—
+</p>
+
+<p corresp='TTP25063482P3' xml:id='OTP25063482P3'>J C Pemberton<lb/>
+Lt Ge<hi rend='underline'><add place='above'>l</add></hi> [?]
+</p>
+
+<p corresp='TTP25063482P4' xml:id='OTP25063482P4'>188 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

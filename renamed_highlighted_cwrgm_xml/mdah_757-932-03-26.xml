@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter to Mississippi Governor John J. Pettus; May 16, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 15 edits between
+              <date type="first_edit" when="2021-02-02T19:08:05Z">February  2, 2021</date> and
+              <date type="last_edit" when="2023-03-19T17:40:10Z">March 19, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2021-01-25T13:20:39Z">January 25, 2021</date> and
+              <date type="last_edit" when="2021-01-25T13:40:36Z">January 25, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228005">
+          <persName
+            >
+            Heather A Haslem
+            </persName>
+            <resp>
+              made 7 edits between
+              <date type="first_edit" when="2021-02-12T01:42:27Z">February 12, 2021</date> and
+              <date type="last_edit" when="2021-02-12T02:10:03Z">February 12, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217816">
+          <persName
+            >
+            Gracie Breland
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2021-03-09T16:03:52Z">March  9, 2021</date> and
+              <date type="last_edit" when="2021-03-09T16:05:59Z">March  9, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T15:34:18Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T16:00:22Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-09-17T00:54:09Z">September 17, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:36:05+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S25004154">
+              <persName>Scruggs, Lewis S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S87528">
+              <persName>McRaven, William L.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S87522">
+              <persName>Richmond, C. L.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S56354">
+              <persName>McGuirk, John, 1827-1870</persName>
+                <idno>https://www.findagrave.com/memorial/12353463/john-mcguirk</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS56354P0'>John McGuirk was a Confederate officer from Mississippi.
+</p>
+
+<p xml:id='OTPS56354P1'>Born on June 24, 1827, McGuirk lived in Holly Springs, Mississippi, and was involved in the state militia on the eve of the Civil War. When the war broke out, McGuirk was commissioned a lieutenant colonel in the Seventeenth Mississippi Infantry Regiment and saw combat in the Eastern Theater in 1861 and 1862. In June 1863, he took command of a Mississippi militia unit designated the Third Mississippi State Cavalry Regiment, which mustered into Confederate service as the Third Mississippi Cavalry Regiment in 1864. The regiment fought against Union forces campaigning in Mississippi and Tennessee for the rest of the war, eventually retreating through Alabama and then disbanding in Florida.
+</p>
+
+<p xml:id='OTPS56354P2'>McGuirk became involved in railroad development after the Civil War. He was also involved in a personal dispute with another former officer, Colonel Harvey W. Walker, which reportedly led to at least two violent interactions and the death of Walker. McGuirk moved to Tennessee after the war and passed away near Memphis on October 16, 1871 at the age of 44. He was married to Louisa Virginia Mahaffey and had at least three children that survived to adulthood. McGuirk is buried in Hill Crest Cemetery in Holly Springs, Mississippi.
+</p>
+
+<p xml:id='OTPS56354P3'>(<hi rend='italic'>The Vicksburg Herald</hi>, Vicksburg, MS, February 10, 1866; <hi rend='italic'>The Clarion-Ledger</hi>, Jackson, MS, December 1 1870; FindaGrave; Wikipedia)
+</p>
+
+<p xml:id='OTPS56354P4'>John McGuirk belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S63185">
+              <persName>Davis, Jefferson, 1808-1889</persName>
+                <idno>https://en.wikipedia.org/wiki/Jefferson_Davis</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63185P0'>"Jefferson Davis was a politician and military officer who served in the U.S. House of Representatives, in the U.S. Senate, as U.S. Secretary of War, and finally as president of the Confederate States of America.
+</p>
+
+<p xml:id='OTPS63185P1'>Born on June 3, 1808, in Fairview Kentucky, Davis moved to Louisiana and then Mississippi as a child with his family. He attended various schools in Mississippi and Kentucky before attending Transylvania University in Lexington, Kentucky. He transferred to the United States Military Academy at West Point, graduating in 1826. He served in the U.S. Army for nine years, participating in the Black Hawk War and seeing assignments at various western outposts. He resigned in 1835 and returned to Mississippi to become a cotton planter with money and land loaned to him by an older brother.
+</p>
+
+<p xml:id='OTPS63185P2'>Davis married Sarah Taylor, daughter of General (and future president) Zachary Taylor, in 1835. However, the couple contracted malaria and Sarah died three months after their wedding. Davis focused on developing his plantation in Mississippi over the next few years, purchasing additional slaves, and expanding his planting operations. By 1840 he owned 40 people, and over the next twenty years he nearly tripled the number of slaves on his property, owning 113 slaves by 1860.
+</p>
+
+<p xml:id='OTPS63185P3'>In 1840 Davis became active in Democratic politics in Mississippi. He served as a delegate to various state conventions, and was selected to be a Democratic elector for the 1844 presidential election. That same year, the 35-year old Davis met 18-year old Varina Banks Howell, the daughter of another Mississippi planter. They married in 1845 and ultimately had six children. In 1845, Davis also won his first election to political office, a seat in the U.S. House of Representatives for Mississippi. The next year, he voted for the United States to go to war against Mexico, and left Congress to raise a regiment of Mississippians for the Mexican-American War. Davis and his First Mississippi Regiment, nicknamed the “Mississippi Rifles,” served under his former father-in-law, General Taylor, in Mexico, seeing action in several battles.
+</p>
+
+<p xml:id='OTPS63185P4'>In 1847, before the Mexican-American War ended, Davis accepted an appointment to the U.S. Senate, to fill a vacancy created by the death of Mississippian Jesse Speight. He used his position within the Senate to advocate the expansion of slavery into the western territories. By the time famed South Carolina senator John C. Calhoun passed away in 1850, Davis was among the most prominent defenders of southern interests in Washington, D.C., and he argued against policies and legislation that limited or restricted slavery. He resigned from his Senate seat in 1851 to run for governor of Mississippi, but lost a narrow election to Henry S. Foote. Instead of returning to the Senate, Davis resumed life on his plantation in Mississippi, but remained in touch with his Democratic colleagues.
+</p>
+
+<p xml:id='OTPS63185P5'>In 1853, Davis received an appointment as Secretary of War by newly elected president Franklin Pierce. In that position, he advocated for greater westward expansion and railroad development. Davis also supported the annexation of Cuba, in part for its strategic value in protecting American interests in the Gulf of Mexico, but also as a potential new slave state. That effort failed, but Davis continued to advocate for additional slave states in the west, particularly in 1854 with his support of the Kansas-Nebraska Act, which struck down the Missouri Compromise’s limitation of slavery in the northern half of the federal territories. With President Pierce’s presidential term ending, Davis again ran for, and won, a seat in the U.S. Senate. He was absent from his duties in the Capitol for several months due to recurring health problems, but continued to influence southern politics through letters and speeches in Mississippi.
+</p>
+
+<p xml:id='OTPS63185P6'>When Abraham Lincoln was elected president in 1860, Davis cautioned against extreme action by southern secessionists. He was still in Washington, D.C., when Mississippi formally declared its separation from the Union in January 1861, and he resigned his seat and gave a farewell address lamenting the sadness of the situation. Less than a month later, a Confederate constitutional convention in Alabama unanimously elected Davis as president of the Confederate States of America due to his military and political experience, and his steadfast defense of slavery. Additionally, many Confederate delegates believed Davis’s reputation as a moderate, compared to the more extreme secessionists, would appeal to southerners who had not yet embraced disunion.
+</p>
+
+<p xml:id='OTPS63185P7'>Davis was selection as president was widely hailed during the first months of the Confederacy. However, his popularity declined as the Civil War progressed, in part due to the unavoidable hardships that the south faced while carrying out a war against a larger and better equipped Union military, and because of the strong states rights sentiment within the south that denounced federal authority—even when it was the Confederate national government. Davis also proved to be less skilled than his Union counterpart, Abraham Lincoln, in resolving personal disputes and handling prickly political and military officials. He was loyal to friends or those he admired, assigning them key positions even when their performances were questionable, and he was accused of rejecting promotions or appointments for individuals he disliked.
+</p>
+
+<p xml:id='OTPS63185P8'>In March 1865, when Union forces broke through Confederate lines outside of the Confederacy’s capital of Richmond, Virginia, Davis fled southward. He remained on the run over the next few weeks, desperately trying to maintain a war effort while Confederate armies were crumbling under the weight of federal military forces. In early May 1865, after Robert E. Lee and most other Confederates had surrendered, Davis dissolved the Confederate government. He tried to flee westward toward Texas, where the last Confederate troops held out, but he was captured on May 10, 1865, in Georgia. Federal authorities imprisoned Davis in Fort Monroe, Virginia, for two years. The U.S. government released him in 1867, having never formally tried him, but after President Andrew Johnson had already paroled other Confederate officials.
+</p>
+
+<p xml:id='OTPS63185P9'>Davis and his family traveled to Europe shortly after his release, but eventually returned to the United States and settled down in a large manor along Mississippi’s southern coast. Despite some offers to return to the U.S. Senate, Davis did not hold political office again. He was legally disqualified since he had never received—nor asked for—an official pardon. Instead, Davis remained retired, writing a book about the Civil War. He passed away in New Orleans, Louisiana, on December 6, 1889. He is buried in Hollywood Cemetery in Richmond, Virginia.
+</p>
+
+<p xml:id='OTPS63185P10'>(Wikipedia; American Battlefield Trust; United States Senate; FindaGrave)"
+</p>
+
+<p xml:id='OTPS63185P11'>Jefferson Davis belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63000">
+              <placeName>Mississippi--Marshall County. Holly Springs</placeName>
+                <idno>https://archive.org/details/mississippicomp01rowlgoog/page/874/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63000P0'>Currently located in Marshall County, Holly Springs was founded in 1836 in what was then Monroe County. When Marshall County was created on March 1, 1836, Holly Springs became its county seat. (Rowland, <hi rend='italic'>Mississippi</hi>, 874; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.77333, -89.44639</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S25009399'>
+            <catDesc>
+              <term>Conventions</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/convention?q=Conventionss</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25009399P0'>"A large formal meeting of people who do a particular job or have a similar interest, or a large meeting for a political party." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32100013'>
+            <catDesc>
+              <term>Conventions--Mississippi</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/convention</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32100013P0'>"A large formal meeting of people who do a particular job or have a similar interest, or a large meeting for a political party" in the state of Mississippi. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S57068'>
+            <catDesc>
+              <term>Conventions--Mississippi. Convention (1861)</term>
+              <idno>https://www.nps.gov/articles/ms-secession.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD57068P0'>Many southern states viewed Republican Abraham Lincoln's election to the presidency in November 1860 as a threat to the institution of slavery and the climax of a series of sectional crises throughout the 1850s. Mississippians had debated the merits of secession as early as 1850, and Lincoln's election renewed calls for secession. A week after Lincoln's election, Governor John J. Pettus encouraged the state's politicians to hold a secession convention. South Carolina's secession in December 1860 provoked further calls for Mississippi to follow. Delegates met in the Mississippi House of Representatives in Jackson, Mississippi on January 7, 1861 to decide the state's future. Only two days into the Convention, on January 9, 1861, delegates voted 83-15 to secede from the United States, making Mississippi the second state to do so. The Convention then passed an ordinance of secession laying out the state's motivations, each of which tied directly to the institution of slavery (National Park Service).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S82988'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 17th</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD82988P0'>The 17th Regiment, Mississippi Infantry (Confederate) was organized on June 4‚ 1861 in Alcorn County, Mississippi under the command of Col. Winfield S. Featherston and served in the Eastern Theater under Beauregard's and Clark's Mississippi Brigades. It was reorganized in 1862 and was later commanded by Cols. William D. Holder, John C. Fiser, A. J. Pulliam under Magruder's and Barksdale's Brigades. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 22; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 467-475; National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25004086'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 17th. Company B</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25004086P0'>Commonly known as the Mississippi Rangers, Company B of the 17th Regiment, Mississippi Infantry (Confederate) was organized on May 8, 1861 in Marshall County, Mississippi under the command of Capt. John McGuirk and served in the Eastern Theater. It was later commanded by Capts. Lewis S. Scruggs, Wiley A. P. Jones, Columbus M. Franklin, Andrew R. Govan, G. Edward Thurmond, and James C. Ramseur. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 22; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 468)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001713'>
+<catDesc>C.S.A. Federal Government</catDesc>
+          <category xml:id='S54079'>
+            <catDesc>
+              <term>Confederate States of America--Congress</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD54079P0'>The Congress of the Confederate States of America was established by Article 1 of the Confederate States Constitution on March 11, 1861 in Montgomery, Alabama. Operating at the national level of the Confederacy, it was the Legislative Branch of the Confederate States government responsible for making and amending laws. A bicameral body, the Confederate States Congress was divided into the upper house (Senate) and the lower house (House of Representatives). The Confederate States Congress concluded Its final session on March 18, 1865. (Avalon Project-<hi rend='italic'>Constitution of the Confederate States</hi>; March 11, 1861; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by The Dale Center for Study of War and Society and the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Unknown</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-05-16</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from the citizens of Holly Springs, Mississippi, to Mississippi Governor John J. Pettus from the &quot;Mississippi Rangers,&quot; about their call into active service. (Company B, 17th Mississippi Infantry)</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 13&quot; letter.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Holly Springs (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-932-03-26</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Marshall County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 932, Folder 3</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army; Confederate States of America. Army. Mississippi Infantry Regiment, 17th. Company B; Mississippi. Governor; Mississippi. Militia; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter to Mississippi Governor John J. Pettus; May 16, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/2994&quot;&gt;Letter to Mississippi Governor John J. Pettus; May 16, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG48" who="U2" when="2024-10-25T16:00:22Z" target="#P1661291">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG47" who="U2" when="2024-10-25T15:34:18Z" target="#P1661289">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U32019810" when="2024-09-17T00:54:09Z" target="#P1661289">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U220769" when="2023-03-19T17:40:10Z" target="#P1661291">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U220769" when="2023-03-18T21:55:37Z" target="#P1661289">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U220769" when="2023-03-18T01:15:27Z" target="#P1661289">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2021-12-10T23:58:38Z" target="#P1661289">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2021-08-23T22:13:33Z" target="#P1661289">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2021-05-21T20:31:25Z" target="#P1661289">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2021-05-08T20:38:24Z" target="#P1661292">
+          Version 8 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2021-05-06T02:02:03Z" target="#P1661289">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2021-05-06T02:01:19Z" target="#P1661290">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2021-05-06T02:01:09Z" target="#P1661290">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2021-05-06T02:00:37Z" target="#P1661289">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2021-03-24T20:29:39Z" target="#P1661292">
+          Version 7 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2021-03-24T20:29:03Z" target="#P1661290">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2021-03-24T20:28:26Z" target="#P1661289">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U217816" when="2021-03-09T16:05:59Z" target="#P1661293">
+          Version 4 of page "Page 5":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U217816" when="2021-03-09T16:05:31Z" target="#P1661292">
+          Version 6 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U217816" when="2021-03-09T16:05:17Z" target="#P1661291">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U217816" when="2021-03-09T16:04:58Z" target="#P1661290">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U217816" when="2021-03-09T16:04:41Z" target="#P1661290">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U217816" when="2021-03-09T16:03:52Z" target="#P1661289">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U228005" when="2021-02-12T02:10:03Z" target="#P1661292">
+          Version 5 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U228005" when="2021-02-12T02:04:10Z" target="#P1661293">
+          Version 3 of page "Page 5":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U228005" when="2021-02-12T02:03:49Z" target="#P1661292">
+          Version 4 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U228005" when="2021-02-12T01:59:35Z" target="#P1661291">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U228005" when="2021-02-12T01:56:09Z" target="#P1661290">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U228005" when="2021-02-12T01:49:52Z" target="#P1661289">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U228005" when="2021-02-12T01:42:27Z" target="#P1661289">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2021-02-02T19:08:05Z" target="#P1661289">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U217868" when="2021-01-25T13:40:36Z" target="#P1661290">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U217868" when="2021-01-25T13:39:52Z" target="#P1661293">
+          Version 2 of page "Page 5":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U217868" when="2021-01-25T13:39:16Z" target="#P1661292">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U217868" when="2021-01-25T13:39:01Z" target="#P1661292">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U217868" when="2021-01-25T13:36:20Z" target="#P1661291">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U217868" when="2021-01-25T13:34:51Z" target="#P1661291">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U217868" when="2021-01-25T13:29:46Z" target="#P1661290">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U217868" when="2021-01-25T13:20:39Z" target="#P1661289">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U215567" when="2020-12-18T01:16:35Z" target="#P1661293">
+          Version 1 of page "Page 5":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG8" who="U215567" when="2020-12-18T01:16:35Z" target="#P1661292">
+          Version 1 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG7" who="U215567" when="2020-12-18T01:16:34Z" target="#P1661291">
+          Version 1 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG6" who="U215567" when="2020-12-18T01:16:34Z" target="#P1661290">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG5" who="U215567" when="2020-12-18T01:16:34Z" target="#P1661289">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG4" who="U215567" when="2020-12-18T01:16:30Z" target="#P1661293">
+          Version 0 of page "Page 5":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2020-12-18T01:16:29Z" target="#P1661292">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2020-12-18T01:16:29Z" target="#P1661291">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2020-12-18T01:16:29Z" target="#P1661290">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2020-12-18T01:16:28Z" target="#P1661289">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1661289" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2989/full/full/0/default.jpg"/>
+        <div xml:id="OTP1661289">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1661289P0' xml:id='OTP1661289P0'>[seal]
+</p>
+
+<p corresp='TTP1661289P1' xml:id='OTP1661289P1'><rs ref='#S63000'>Holly Springs</rs> miss may 16/61
+</p>
+
+<p corresp='TTP1661289P2' xml:id='OTP1661289P2'>To his Excellency <lb/>
+Gov <rs ref='#S63111'>John J. Pettus</rs>,
+</p>
+
+<p corresp='TTP1661289P3' xml:id='OTP1661289P3'><rs ref='#S51785'>Jackson</rs> miss
+</p>
+
+<p corresp='TTP1661289P4' xml:id='OTP1661289P4'><del rend='overstrike'>member</del> [gap] We the undersigned members of a Volunteer Company called "<rs ref='#S25004086'>Miss Rangers</rs>" under command of Cap<add place='above'><hi rend='underline'>t</hi></add> <rs ref='#S56354'>Jno M<add place='above'>c</add>Guirk</rs> which Company was tendered and by Your Excellency accepted into the army of miss as a component part of the Requisition made by the Post of the Confederate States of america on Your excellency as commander in chief of the army of miss<hi rend='underline'><add place='above'>i</add></hi> for 8000 Troops, and we Your excellencys friends esteeming it a prividege to sustain the dignity of our state and support to the best of our ability Your excellency in the position Your excellency, boldly took as the honored chief magistrate of ^an^ indpendent people have promptly responded, and feel Your excellency will by advice and good Council protect us—we therefore with Confidence approach Your excellency. The members of our Company (which was tendered and by Your excellency accepted on 18<add place='above'>th</add> April 1861) mustered  into the army of miss under ordinance of Jany 23<add place='above'>rd</add>/61 together with the ordinance passed in <rs ref='#S57068'>Convention</rs> March 30/61 as Volunteer soldiers to support the honor by dignity of our State—are anxious to have Your excellency answer the two questions appended for the Reason that there are Rumors circulated in our Community prejudicial to our organization
+</p>
+
+<p corresp='TTP1661289P5' xml:id='OTP1661289P5'><hi rend='underline'>over</hi> 
+</p>
+
+
+        </div>
+        <pb xml:id="F1661290" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2990/full/full/0/default.jpg"/>
+        <div xml:id="OTP1661290">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1661290P0' xml:id='OTP1661290P0'>and we are assured by <hi rend='underline'>our commander</hi> that Your excellency will promptly disipate all doubts this company may have relative to our Status as a component part of the requisition for <hi rend='underline'>8000</hi> troops and grant us the assurance that notwithstan=ding—no more 12 months Volunteers will be received We as a part of the Requisition for 8000 thousand from miss will be called into the field—
+</p>
+
+<p corresp='TTP1661290P1' xml:id='OTP1661290P1'>The chairman of the committee who is delegated by the company to present this matter to your excellency will give to Your excellency additional reasons why Your excellency should give at least a portion of Your valuable time to the consideration of this subject which so deeply interests your excellencys personal friends we with this communication desire to assure your excellency that the "miss<hi rend='underline'><add place='above'>i</add></hi> Rangers" if called into the field on what they understand to be their <hi rend='underline'>status</hi> as Volunteers in the army of miss that they will "emulate" those who have heretofore Reflected honor upon the military arm of the state of which Your excellency is the esteemed chief magistrate we have the honor to be
+</p>
+
+<p corresp='TTP1661290P2' xml:id='OTP1661290P2'>Your excellencys <lb/>
+Ob<add place='above'>t</add> Servants <lb/>
+<rs ref='#S25004154'>L. S. Scruggs</rs><lb/>
+<rs ref='#S87528'>W<add place='above'>m</add> L. M<add place='above'>c</add>Raven</rs><lb/>
+<rs ref='#S87522'>C. L. Richmond</rs>
+</p>
+
+
+        </div>
+        <pb xml:id="F1661291" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2991/full/full/0/default.jpg"/>
+        <div xml:id="OTP1661291">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP1661291P0' xml:id='OTP1661291P0'>Question 2<add place='above'><hi rend='underline'>nd</hi></add>
+</p>
+
+<p corresp='TTP1661291P1' xml:id='OTP1661291P1'>Is it your opinion, that the recent acts of the <rs ref='#S54079'>congress</rs> of the Confederate states only authorizing the <rs ref='#S63185'>president</rs>, to accept Volunteer troops "for during the war," will exclude the remainder of the requisition for eight Thousand Volunteer troops from Mississippi who have not been already ordered by Your excellency to the field from performing actual service in the Confederate army
+</p>
+
+<p corresp='TTP1661291P2' xml:id='OTP1661291P2'>Answer  
+</p>
+
+
+        </div>
+        <pb xml:id="F1661292" n="4" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2992/full/full/0/default.jpg"/>
+        <div xml:id="OTP1661292">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP1661292P0' xml:id='OTP1661292P0'><hi rend='underline'>Question</hi> 1<add place='above'>st</add>
+</p>
+
+<p corresp='TTP1661292P1' xml:id='OTP1661292P1'>Is it at all probable that the "Miss<add place='above'>i</add> Rangers" will be called on actual service into The Confederate army in completion of the of the requisition from the President of the Confederate States of america on the State of Mississippi for <hi rend='underline'>Eight</hi> Thousand Troops to serve for the period of twelve months from the date of such actual service
+</p>
+
+<p corresp='TTP1661292P2' xml:id='OTP1661292P2'>answer 
+</p>
+
+
+        </div>
+        <pb xml:id="F1661293" n="5" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2993/full/full/0/default.jpg"/>
+        <div xml:id="OTP1661293">
+        <fw type="pageNum">Page 5</fw>
+          <p corresp='TTP1661293P0' xml:id='OTP1661293P0'><hi rend='underline'>Scruggs M<add place='above'>c</add>Raven &amp; others</hi> <lb/>
+<hr/>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

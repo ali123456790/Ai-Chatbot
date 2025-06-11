@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from D. B. Grant to Mississippi Governor John Jones Pettus; July 18, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 26 edits between
+              <date type="first_edit" when="2021-02-23T23:50:08Z">February 23, 2021</date> and
+              <date type="last_edit" when="2024-01-20T21:40:07Z">January 20, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228005">
+          <persName
+            >
+            Heather A Haslem
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2021-02-22T15:45:02Z">February 22, 2021</date> and
+              <date type="last_edit" when="2021-02-22T15:55:23Z">February 22, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-02-26T17:25:59Z">February 26, 2021</date> and
+              <date type="last_edit" when="2021-02-26T17:28:06Z">February 26, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U222457">
+          <persName
+            >
+            Racy Ming Copley
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-02-13T21:40:44Z">February 13, 2021</date> and
+              <date type="last_edit" when="2021-02-13T21:45:13Z">February 13, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32020358">
+          <persName
+            >
+            Elisabeth Kluin
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2025-03-15T01:21:02Z">March 15, 2025</date> and
+              <date type="last_edit" when="2025-03-15T01:32:48Z">March 15, 2025</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T16:18:34+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S94827">
+              <persName>Grant, D. B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S25001625">
+              <placeName>Mississippi--Calhoun County. Sarepta</placeName>
+                <idno>https://en.wikipedia.org/wiki/Sarepta,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS25001625P0'>Currently located in Calhoun County, Sarepta was founded as early as 1838. Formerly located in Lafayette County, it became part of the newly created Calhoun County on June 7, 1852. Presently, Sarepta is an unincorporated area that is not governed by a local municipal body. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.1246, -89.2876</geo>
+                </note>
+            </place>
+            <place xml:id="S63270">
+              <placeName>Mississippi--Lafayette County. Oxford</placeName>
+                <idno>https://en.wikipedia.org/wiki/Oxford,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63270P0'>Located in Lafayette County, Oxford was founded in 1837 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.35972, -89.52611</geo>
+                </note>
+            </place>
+            <place xml:id="S63425">
+              <placeName>Virginia</placeName>
+                <idno>https://www.britannica.com/place/Virginia-state</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63425P0'>The Colony of Virginia was established in May 1607. Admitted as the 10th state, Virginia achieved statehood June 25, 1788. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>38.0, -79.0</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S94826'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Military Desertion</term>
+              <idno>https://www.essentialcivilwarcurriculum.com/desertion,-cowardice-and-punishment.html</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD94826P0'>Desertion is the act of a military service member permanently leaving a unit without permission. It is considered a worse offense than being temporarily absent without leave (AWOL). Deserters were often accused of cowardice, especially during the early part of the Civil War, when enthusiasm for battle ran high. While soldiers arrested for desertion very early in the war faced loss of pay, Union and Confederate officers treated it more harshly as the war progressed. Some deserters faced corporal punishment and humiliation, while most others were imprisoned. In some instances, military authorities recommended the death penalty for desertion. However, most saw their death sentence commuted and instead faced imprisonment with hard labor. For example, the Union’s Army of Potomac captured roughly 2,000 deserters between July and November 1863. Of those, 80 received death sentences but only 21 were actually executed—around one percent of the total number of deserters. Those that were executed most often had their sentence carried out in front of their fellow soldiers, as a warning to other, would-be deserters.
+</p>
+
+<p xml:id='OTPSD94826P1'>Reasons for desertion differed. Some soldiers fled from fear of battle, while many others ran away due to issues at home. Some Confederate soldiers deserted when their units were sent on campaigns outside their native state. This was not a problem among Union soldiers, who largely expected to march away from home to battle secessionists in the South. But, in the midst of the South’s highly charged climate of state sovereignty and home defense, not all Southern volunteers approved of being transferred for Confederate military service. One Mississippi soldier reported that as many as 125 members of his regiment deserted after they were sent to support Confederate forces in northern Georgia. Similar incidents happened with units across the Confederacy.
+</p>
+
+<p xml:id='OTPSD94826P2'>The two most common reasons for desertion were unfavorable conditions within the military (such as poor quality food, shoddy equipment, or discontent with military leadership) and loss of faith in the war effort. The latter reason plagued the Confederacy in particular toward the end of the war. Concerned for their families as Union armies occupied much of the South, or believing that victory was impossible, tens of thousands of Confederate soldiers slipped away from their units in late 1864 and early 1865 never to return. These desertions severely weakened Confederate armies and contributed to lower morale, which in turn led to more desertions. In all, an estimated 103,000 Confederate soldiers and 200,000 Union soldiers deserted during the Civil War. (Wikipedia; Encyclopedia of Virginia; Mark A. Weitz, “Desertion, Cowardice and Punishment,” <hi rend='italic'>Essential Civil War Curriculum</hi>; Bell Irvin Wiley, <hi rend='italic'>The Life of Johnny Reb: The Common Soldier of the Confederacy</hi>,135-139; Wiley, <hi rend='italic'>The Life of Billy Yank: The Common Soldier of the Union</hi>, 205-207)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S77079'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Military Discharges</term>
+              <idno>https://en.wikipedia.org/wiki/Military_discharge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD77079P0'>Military discharges are formal notices issued to members of the armed forces confirming that they are formally released from their obligation to serve. During the American Civil War, soldiers and officers were honorably discharged from service for a variety of reasons, including severe injuries or diseases, resignation, or their unit mustering out, among other reasons. Those who were honorably discharged were eligible to reenlist or receive veterans' benefits after the war. (Wikipedia)
+</p>
+
+<p xml:id='OTPSD77079P1'>The end of the Civil War, which began with the surrender of Confederate forces at Appomattox Court House in April 1865, led to the largest number of military discharges. Once captured, Confederate forces became prisoners of war and parole did not formally discharge them from Confederate armies. As Union and Confederate troops demobilized, authorities moved to formally discharge troops. On June 6, 1865, U.S. President Andrew Johnson ordered the discharge of most remaining Confederate prisoners of war, a process that took two months to complete. For the significant number of soldiers who returned home without going through formal discharge processes, they had difficulty proving they had been honorably discharged from the military, which was a core requirement for many veterans' benefits and membership in veterans' associations. (Caroline E. Janney, <hi rend='italic'>Ends of War</hi>, p. 217)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25009156'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Recruiting and enlistment</term>
+              <idno>https://encyclopediaofarkansas.net/entries/civil-war-recruitment-6391/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25009156P0'>At the outbreak of the American Civil War in 1861, neither the Union nor the Confederate army struggled to find recruits. Rather, both armies saw far more volunteers than their ranks and provisions could sustain. Many young men of the North and South believed that the war would end quickly and volunteered by the thousands to not miss out on the action. Other motivators for rapid enlistment included a sense of adventure, defense of slavery or the privileges of whiteness, defense of the Union, fear of ostracism in their home communities for not enlisting, or a desire to protect their homes and families.
+</p>
+
+<p xml:id='OTPSD25009156P1'>Widespread enlistment required both the United States and Confederate governments to reshape their militaries that were otherwise unprepared to handle that many recruits. The U.S. possessed only a small standing army of 16,000 men before the war, and the Confederacy needed to build its own from scratch. Both therefore relied heavily on local recruiting to organize men into militia companies then employable in the federal service. Recruiters throughout the war published pamphlets, put up posters, and gave speeches to encourage men to fight.
+</p>
+
+<p xml:id='OTPSD25009156P2'>As the war continued, dreams of a short war ended along with many men's desires to enlist. Both armies (the Confederacy in 1862 and the Union in 1863) resorted to conscription to fill their ranks. Free African Americans, particularly in the North, debated the utility and wisdom of fighting for the United States even after being legally allowed to do so in 1863. Many formerly enslaved African-American men yearned to fight for their own freedom, while others doubted that military service in the Civil War would accomplish their desired goals of emancipation and equality. However, prominent African Americans such as Frederick Douglass encouraged Black men to take up arms, and roughly 200,000 did so.
+</p>
+
+<p xml:id='OTPSD25009156P3'>Ultimately, men enlisted during the Civil War for many reasons, often tied to demographic or personal causes, and, as the war progressed and varied in its popularity and aims, recruiters' tactics likewise changed to adapt to each new situation. (Encyclopedia of Arkansas)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32013717'>
+            <catDesc>
+              <term>Confederate States of America. Army. Cavalry</term>
+              <idno>https://en.wikipedia.org/wiki/Cavalry_in_the_American_Civil_War</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32013717P0'>The term cavalry referred to horse-mounted soldiers. Although cavalry was a fundamental part of Civil War armies, by the American Civil War, weapons and tactics limited the role cavalry soldiers played on the battlefield. Disciplined infantry soldiers in tight ranks with muskets and bayonets could repel cavalry charges. Therefore, Civil War armies typically used the speed and mobility of cavalry troops for scouting and raiding behind enemy lines. Additionally, cavalry soldiers could fight on foot in loose, or skirmish, formations to harass enemy positions or delay enemy attacks. Overall, because cavalry units required greater logistical support in order to feed and care for their horses, and due to their relatively limited role in open battle, cavalry units made up a much smaller part of the army than their infantry counterparts.
+</p>
+
+<p xml:id='OTPSD32013717P1'>Confederate cavalrymen enjoyed a reputation of superiority over their Union counterparts during the first half of the Civil War. One popular explanation for this is that Confederate cavalry soldiers often had to provide their own horses (something less common in the Union army) and therefore were more experienced and comfortable with their steeds. Two other theories are that Southern aristocratic culture placed higher value on horsemanship than northern communities, and that men who grew up in the South’s largely agricultural society were more familiar with horses than those from the industrial North. All of these explanations may have some merit, but exaggerate the differences between North and South, and cannot account for any great disparity in cavalry actions within the Civil War.
+</p>
+
+<p xml:id='OTPSD32013717P2'>More important reasons for Confederate cavalry’s positive reputation included some high-profile leaders and notable early war victories. J.E.B. Stuart’s battlefield success in the Eastern Theater during the first two years, coupled with his flamboyant style, made him and his horse soldiers celebrities in the South, while other cavalry commanders, like John Hunt Morgan, John Singleton Mosby, and Nathan Bedford Forrest, used aggressive and rapid cavalry raids to disrupt northern supply lines, defeat isolated federal troops, and generally tie up exponentially larger Union forces. Despite these early and famous Confederate successes, Union cavalry forces improved in quality and quantity during the course of the war, culminating in a fight to a draw at Brandy Station—the largest cavalry battle in North America—in June 1863. During the last two years of the war, Confederate cavalry did not enjoy its reputation of dominance, although it still managed to play a large role in scouting, raiding, and resisting Union forces. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S82988'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 17th</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD82988P0'>The 17th Regiment, Mississippi Infantry (Confederate) was organized on June 4‚ 1861 in Alcorn County, Mississippi under the command of Col. Winfield S. Featherston and served in the Eastern Theater under Beauregard's and Clark's Mississippi Brigades. It was reorganized in 1862 and was later commanded by Cols. William D. Holder, John C. Fiser, A. J. Pulliam under Magruder's and Barksdale's Brigades. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 22; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 467-475; National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25004090'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 17th. Company K</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25004090P0'>Commonly known as the Magnolia Guards, Company K of the 17th Regiment, Mississippi Infantry (Confederate) was organized on April 23, 1861 in Calhoun County, Mississippi under the command of Capt. John W. Lyles and served in the Eastern Theater. It was later commanded by Capts. William L. Duff, Thomas J. Williams, and W. A. Everett. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 22; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 470)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S79836'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 19th</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=onepage&amp;q=%22Nineteenth%20Regiment-Infantry&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD79836P0'>The 19th Regiment, Mississippi Infantry (Confederate), also known as Pope Walker Legion, was organized May 14, 1861 in Richmond, Virginia under the command of Col. Christopher H. Mott and served in the Eastern Theater under Wilcox's, Featherston's, Posey's, and Harris' Brigades in the Army of Northern Virginia. It was later commanded by Cols. Lucius Quintus Cincinnatus Lamar, Nathaniel H. Harris, Thomas J. Hardin, and Richard W. Phipps. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 22; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 484-494; Confederate Military Service Record)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S69274'>
+            <catDesc>
+              <term>Disease and Illness</term>
+              <idno>https://www.battlefields.org/learn/articles/common-diseases-18th-and-19th-century</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD69274P0'>Approximately 620,000 Americans died during the Civil War. For this reason, the war is often called America’s bloodiest conflict. However, two-thirds of Civil War deaths were caused by disease, not combat. The disparity is greater for non-fatal victims: 400,000 soldiers suffered wounds or injuries compared to 6,000,000 cases of illness. Since a combined 3,000,000 men fought in Union and Confederate armies, this means the average soldier fell ill to disease twice during his military service.
+</p>
+
+<p xml:id='OTPSD69274P1'>Numerous types of diseases afflicted soldiers and civilians during the Civil War and Reconstruction era. Some were ubiquitous, like the common cold and diarrhea, which rarely garnered much attention unless the symptoms worsened into a more severe condition. Pneumonia, typhoid, and malaria were among the most serious diseases in the mid-nineteenth century. Epidemics of yellow fever and small pox also ravaged some civilian communities and military units. Perhaps the most deadly to Civil War soldiers, though, was dysentery, which was diarrhea with blood in the stool. Nearly 60,000 people died from dysentery during the war, and Union officials recorded 1.5 million cases of diarrhea or dysentery between 1861 and 1865.
+</p>
+
+<p xml:id='OTPSD69274P2'>All Americans, regardless of economic status or race, suffered pain and loss due to illness during the era. The President of the United States Abraham Lincoln and President of the Confederate States Jefferson Davis—the two most powerful individuals in North America, with access to the best resources—each lost a child to disease during the Civil War. The problem worsened with the sudden shifting of human populations during and after the war, as outbreaks of diseases spread rapidly. While many soldiers from highly populated areas had developed immunity to childhood diseases such as chicken pox, diphtheria, mumps, measles citizen soldiers from rural areas proved more susceptible to severe reactions when exposed to those diseases. Physicians improved medical care during the Civil War, as many recognized the value of sunlight and fresh airflow. However, they could only provide soldiers such healthy conditions behind the lines, at hospitals or rest areas. In many camps, or in the field during campaigns, soldiers were exposed to poor weather, extreme temperatures, and unsanitary conditions. Those who suffered the worse were in prisoner of war camps, in both north and south, where thousands of soldiers died from dysentery or other diseases. Civil War doctors did not fully understand the spread of diseases, including contaminated water (in the case of typhoid and dysentery) or mosquitos (for malaria and yellow fever). As such, camps, forts, and prisons rarely were constructed with the soldiers’ health in mind, and Civil War medicine most often involved responding to disease rather than preventing it.
+</p>
+
+<p xml:id='OTPSD69274P3'>Another source of illness among soldiers, and civilians in war-torn areas, was dietary deficiencies. Despite efforts by subsistence and commissary personnel in Union and Confederate armies, feeding thousands of troops daily proved a monumental task. Food preservation techniques still relied heavily upon drying and salting, and fresh vegetables and fruits were limited and dependent upon seasons. As a result, most Civil War soldiers likely suffered from a Vitamin C deficiency, the most severe cases resulting in scurvy which caused the loss of teeth and bleeding. Heavy reliance upon corn-based foods, especially within southern military units or Union prisoners held in southern prisoner of war camps, led to high instances of pellagra, a condition caused by the lack of niacin (or vitamin B3). Present in most foods, but not corn, victims suffered from diarrhea, skin sores, and dementia.
+</p>
+
+<p xml:id='OTPSD69274P4'>Often ignored, Americans also suffered from sexually transmitted diseases during the Civil War and afterwards. Although rarely fatal, more than 100,000 soldiers were diagnosed with gonorrhea and nearly 80,000 became infected with syphilis. Unsurprisingly, most of these cases occurred when soldiers were near populated areas, especially during training or time in camp, where they had more opportunities to interact with women. Venereal disease rates were higher at the start and at the end of the Civil War. That trend may reflect the fact that rates went down for armies on campaign in the field. The overall rate of venereal disease in the Union Army fluctuated from about 82 to 87 cases for every 1,000 soldiers, Some Union military units reported extremely high rates of venereal disease, particularly in the west. For instance, military physicians in the Department of the Pacific recorded 461 cases out of 1,000 men in 1862.
+</p>
+
+<p xml:id='OTPSD69274P5'>The Civil War also led to disease outbreaks among civilians. Like country-born soldiers introduced to new diseases in military camps, fugitive or liberated slaves who congregated in refugee camps behind Union lines became exposed to new diseases. Cities besieged by armies, such as Vicksburg, Atlanta, and Richmond, faced problems with sanitation and food supplies, compromising the health and immune systems of local residents, leaving them more susceptible to illness.
+</p>
+
+<p xml:id='OTPSD69274P6'>Finally, while most people survived bouts of illness during the Civil War, countless carried pathogens back to their home communities, or simply carried long-term effects from diseases within their bodies. Respiratory infections, blood borne diseases, and other afflictions obtained during the war decreased the quality of life of many Americans, or led to other health complications and early death. (American Battlefield Trust, Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 205–213; George Worthington Adams, <hi rend='italic'>Doctors in Blue</hi>, 3–5; Thomas P. Lowry, <hi rend='italic'>The Story the Soldiers Wouldn't Tell</hi>, 104–108)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Grant, D. B.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-07-18</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from D. B. Grant at Sarepta, Mississippi, to Mississippi Governor John Jones Pettus requesting authority to recruit 10 or 15 men for the &quot;Magnolia Guards,&quot; (Company K, 17th Mississippi Infantry).</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Sarepta (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-932-12-27</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Calhoun County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 932, Folder 12</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Confederate States of America. Army. Mississippi Infantry Regiment, 17th. Co. K; Confederate States of America. Army--Recruiting, enlistment, etc.; Mississippi. Governor; Mississippi. Militia; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from D. B. Grant to Mississippi Governor John Jones Pettus; July 18, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/3723&quot;&gt;Letter from D. B. Grant to Mississippi Governor John Jones Pettus; July 18, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG48" who="U32020358" when="2025-03-15T01:32:48Z" target="#P1691061">
+          Version 31 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG47" who="U32020358" when="2025-03-15T01:21:02Z" target="#P1691061">
+          Version 30 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U220769" when="2024-01-20T21:40:07Z" target="#P1691061">
+          Version 29 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U220769" when="2023-11-17T18:28:16Z" target="#P1691061">
+          Version 28 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U220769" when="2023-11-17T18:05:48Z" target="#P1691061">
+          Version 27 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U220769" when="2023-11-17T17:59:23Z" target="#P1691061">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2023-11-01T22:34:55Z" target="#P1691061">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-09-02T20:14:14Z" target="#P1691061">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-09-02T20:04:40Z" target="#P1691061">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-09-02T20:00:01Z" target="#P1691061">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-03-18T16:56:37Z" target="#P1691061">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-03-17T22:53:56Z" target="#P1691061">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2022-12-04T17:31:49Z" target="#P1691061">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2022-12-04T16:37:35Z" target="#P1691061">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2022-12-04T15:57:04Z" target="#P1691061">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2022-03-26T19:14:36Z" target="#P1691062">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2021-08-24T15:52:26Z" target="#P1691061">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2021-08-23T21:54:53Z" target="#P1691061">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2021-06-08T18:31:38Z" target="#P1691062">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2021-06-08T16:58:14Z" target="#P1691062">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2021-06-08T16:10:52Z" target="#P1691061">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2021-05-05T23:07:21Z" target="#P1691061">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2021-04-23T17:44:52Z" target="#P1691061">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2021-03-11T21:56:44Z" target="#P1691062">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2021-03-11T21:56:09Z" target="#P1691061">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2021-03-11T21:55:31Z" target="#P1691061">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2021-03-09T21:49:23Z" target="#P1691061">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U217868" when="2021-02-26T17:28:06Z" target="#P1691063">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U217868" when="2021-02-26T17:27:33Z" target="#P1691063">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U217868" when="2021-02-26T17:27:05Z" target="#P1691062">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U217868" when="2021-02-26T17:25:59Z" target="#P1691061">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2021-02-23T23:50:08Z" target="#P1691062">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U228005" when="2021-02-22T15:55:23Z" target="#P1691062">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U228005" when="2021-02-22T15:54:56Z" target="#P1691061">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U228005" when="2021-02-22T15:52:45Z" target="#P1691061">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U228005" when="2021-02-22T15:51:27Z" target="#P1691061">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U228005" when="2021-02-22T15:50:27Z" target="#P1691063">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U228005" when="2021-02-22T15:48:38Z" target="#P1691062">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U228005" when="2021-02-22T15:45:31Z" target="#P1691061">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U228005" when="2021-02-22T15:45:02Z" target="#P1691061">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U222457" when="2021-02-13T21:45:13Z" target="#P1691063">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U222457" when="2021-02-13T21:43:42Z" target="#P1691062">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U222457" when="2021-02-13T21:40:44Z" target="#P1691061">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U215567" when="2021-01-20T21:53:02Z" target="#P1691063">
+          Version 1 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG4" who="U215567" when="2021-01-20T21:53:02Z" target="#P1691062">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2021-01-20T21:53:02Z" target="#P1691061">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-01-20T21:52:57Z" target="#P1691063">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-01-20T21:52:57Z" target="#P1691062">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-01-20T21:52:56Z" target="#P1691061">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1691061" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/3720/full/full/0/default.jpg"/>
+        <div xml:id="OTP1691061">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1691061P0' xml:id='OTP1691061P0'>[seal]
+</p>
+
+<p corresp='TTP1691061P1' xml:id='OTP1691061P1'><rs ref='#S25001625'>Sarepta</rs> Miss<lb/>
+July 18<add place='above'>th</add> 1861
+</p>
+
+<p corresp='TTP1691061P2' xml:id='OTP1691061P2'>Sir
+</p>
+
+<p corresp='TTP1691061P3' xml:id='OTP1691061P3'>The <rs ref='#S25004090'>Magnolia Guards. 17<hi rend='underline'><add place='above'>th</add></hi> Reg. Miss. Vol.</rs> are in want of ten or fifteen recruits, to <rs ref='#S25009156'>fill ranks</rs>. The Company has lost two by <rs ref='#S94826'>desertion</rs>—Three by death,—some five to Eight <rs ref='#S77079'>discharged</rs> for <rs ref='#S69274'>ill health</rs>—The recruits can be raised here forthwith.—If you wish them mustered into service here before leaving. furnish me with the authority and it shall be done.—Can you provide transporation for the men from <rs ref='#S63270'>Oxford</rs> Miss. by Rail Road to the <rs ref='#S79836'>19th Reg</rs> in <rs ref='#S63425'>Virginia</rs>—Any order from you that will give the soldiers through transporation will be sufficient.
+</p>
+
+
+        </div>
+        <pb xml:id="F1691062" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/3721/full/full/0/default.jpg"/>
+        <div xml:id="OTP1691062">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1691062P0' xml:id='OTP1691062P0'>Five days feed will be forwarded.
+</p>
+
+<p corresp='TTP1691062P1' xml:id='OTP1691062P1'>An immediate reply is respectfully solicited.
+</p>
+
+<p corresp='TTP1691062P2' xml:id='OTP1691062P2'>I hope to raise a <rs ref='#S32013717'>Cavalry</rs> Company out of the number I have been dwelling as Cavalry the last month
+</p>
+
+<p corresp='TTP1691062P3' xml:id='OTP1691062P3'>Respectfully<lb/>
+<rs ref='#S94827'>D B Grant</rs>
+</p>
+
+<p corresp='TTP1691062P4' xml:id='OTP1691062P4'>To his Excellency<lb/>
+Gov. <rs ref='#S63111'>Pettus</rs>
+</p>
+
+
+        </div>
+        <pb xml:id="F1691063" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/3722/full/full/0/default.jpg"/>
+        <div xml:id="OTP1691063">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP1691063P0' xml:id='OTP1691063P0'>July 18<add place='above'>th</add> 1861<lb/>
+D B Grant
+</p>
+
+<p corresp='TTP1691063P1' xml:id='OTP1691063P1'>wants authority to recruit and transport for soldiers<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP1691063P2' xml:id='OTP1691063P2'>Ans<add place='above'>d</add> on Sept 7<add place='above'>th</add> 61
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

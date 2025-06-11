@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Hancock Lazuer to General Irvin McDowell; July 20, 1868</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 33 edits between
+              <date type="first_edit" when="2022-05-03T14:54:18Z">May  3, 2022</date> and
+              <date type="last_edit" when="2024-12-11T19:28:10Z">December 11, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091404">
+          <persName
+            >
+            Robert Mason
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2023-12-15T16:20:46Z">December 15, 2023</date> and
+              <date type="last_edit" when="2024-08-22T16:06:13Z">August 22, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2022-02-27T21:22:51Z">February 27, 2022</date> and
+              <date type="last_edit" when="2022-02-27T22:02:08Z">February 27, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091235">
+          <persName
+            >
+            Amanda Patrick
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-02-25T23:37:27Z">February 25, 2022</date> and
+              <date type="last_edit" when="2022-02-25T23:56:52Z">February 25, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-12-10T16:00:31Z">December 10, 2021</date> and
+              <date type="last_edit" when="2021-12-10T16:17:25Z">December 10, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T02:10:28Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T19:12:31+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32022654">
+              <persName>Sellers, H. L.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32022655">
+              <persName>Lazarus, Hancock</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32122414">
+              <persName>McDowell, Irvin, 1818-1885</persName>
+                <idno>https://en.wikipedia.org/wiki/Irvin_McDowell</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32122414P0'>Irvin McDowell was a U.S. Army officer who served as a Union general during the Civil War.
+</p>
+
+<p xml:id='OTPS32122414P1'>Born on October 15, 1818, in Columbus, Ohio, McDowell was partly educated in France before graduating from the United States Military Academy at West Point, New York, in 1838. He was commissioned as a lieutenant in the U.S. Army and served in the First U.S. Artillery. Among McDowell’s military assignments was an instructor of tactics at West Point, before he served on the staff of General John Wool during the Mexican-American War in the late 1840s. He received the brevet (honorary) rank of captain following the Battle of Buena Vista. Following the war, McDowell remained in the U.S. Army and served in the adjutant general’s department, where he worked closely with several officers who would become notable figures in the Civil War, including future Confederate general Joseph E. Johnston.
+</p>
+
+<p xml:id='OTPS32122414P2'>When the Civil War broke out in 1861, McDowell was rapidly promoted from major to brigadier general. Although most of his military career had been as a staff officer, he received command of the Army of Northeastern Virginia in May 1861 with expectations of leading it against Confederate soldiers defending the the Confederate capital of Richmond, Virginia. Feeling pressure from President Abraham Lincoln's administration, McDowell led his army in an attack against Confederate troops near the town of Manassas, Virginia, in July 1861. The subsequent battle—known as the First Battle of Bull Run, or the Battle of Manassas—began well for McDowell’s Union troops, but turned into a staggering defeat after Confederate reinforcements counterattacked late in the day. McDowell was relieved of command of the army and was given a division in the new Army of the Potomac under General George B. McClellan.
+</p>
+
+<p xml:id='OTPS32122414P3'>McDowell continued to lead Union soldiers in Virginia for the next year, receiving the promotion to major general of volunteers and command of a corps. He performed well at the Battle of Cedar Mountain in western Virginia, but was heavily criticized for the Union defeat at the Battle of Second Bull Run in August 1862. After sitting without command for nearly two years, McDowell was sent out west to take charge of the Department of the Pacific in 1864. He remained on the Pacific coast after the Civil War ended, heading the Department of California from 1865 to 1867. His postwar career went well, and he received the rank of major general in the regular U.S. Army, leading various military departments in the east in the late 1860s and through the 1870s. Among these assignments was a four year period, from 1872 to 1876, as commander of the Military Division of the South. He returned to the west coast in 1876 to lead the Division of the Pacific until he left the army in 1882.
+</p>
+
+<p xml:id='OTPS32122414P4'>McDowell lived in San Francisco, California, following his retirement. He died of a heart attack on May 4, 1885. He was married to Helen Burden and had at least five children. He is buried in San Francisco National Cemetery in San Francisco, California.
+</p>
+
+<p xml:id='OTPS32122414P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS32122414P6'>Irvin McDowell belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32020850">
+              <persName>Tyler, John, 1841-1889</persName>
+                <idno>https://bentley.umich.edu/legacy-support/civilwar/civilwar_search.php?nameid=797</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32020850P0'>John Tyler was a Union officer during the Civil War and during Reconstruction.
+</p>
+
+<p xml:id='OTPS32020850P1'>Born on July 19, 1841, in Michigan, Tyler grew up in Detroit and volunteered for military service during the Civil War. Commissioned as an officer in the Seventeenth Michigan Infantry Regiment, he rose from the rank of lieutenant to brevet (honorary) major by the end of the war. After being discharged from the volunteer Union forces, Tyler was commissioned as a lieutenant in the regular U.S. Army’s 43rd Infantry Regiment, and served as an assistant adjutant in Mississippi during occupation duty in the late 1860s.
+</p>
+
+<p xml:id='OTPS32020850P2'>He was discharged from the army in the 1870s and moved to Buffalo, New York, where he received an appointment as a U.S. customs collector. He died in 1889 at the age of 48. Tyler was married to Frances Annie Barrows and had at least one child. He is buried in Elmwood Cemetery in Detroit, Michigan.
+</p>
+
+<p xml:id='OTPS32020850P3'>(“Michigan in the Civil War,” Bentley Historical Library: University of Michigan; 1st Regiment of Infantry, 1873, <hi rend='italic'>U.S. Army Registers, 1798-1969</hi>; FindaGrave; 1880 U.S. Census, Buffalo, New York, District 163, p. 147D)
+</p>
+
+<p xml:id='OTPS32020850P4'>John Tyler belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S82506">
+              <placeName>Mississippi--Adams County. Washington</placeName>
+                <idno>https://en.wikipedia.org/wiki/Washington,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS82506P0'>Located in Adams County, Mississippi, Washington was founded as early as 1797 in what was then unincorporated territory. It became part of the newly created Adams County on April 1, 1799. Washington served as the capital of the Territory of Mississippi from 1802 to 1817 and the capital of the State of Mississippi from 1817 until 1822, when it was replaced by Jackson. Presently, Washington is an unincorporated area that is not governed by a local municipal body. (Wikipedia; Rowland, <hi rend='italic'>Mississippi</hi>, 932; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.5788, -91.2993</geo>
+                </note>
+            </place>
+            <place xml:id="S51788">
+              <placeName>Mississippi--Warren County. Vicksburg</placeName>
+                <idno>https://archive.org/details/mississippicomp00rowlgoog/page/858/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51788P0'>Located in Warren County, Mississippi, Vicksburg was founded under the name Fort Nogales as early as 1790 in what was then unincorporated territory. In 1798, upon creation of Mississippi Territory, it was renamed Walnut Hills. On April 1, 1799, Walnut Hills became part of the newly created Pickering County (later renamed Jefferson County on January 10, 1802), until the creation of Claiborne County on January 26, 1802. It then became part of its current county of Warren on December 21, 1809. Upon its incorporation on January 29th, 1825, it was renamed Vicksburg. Vicksburg became the county seat in 1836 and remains today. (Rowland, <hi rend='italic'>Mississippi</hi>, 858; Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.33611, -90.87528</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25025824'>
+            <catDesc>
+              <term>Criminal Procedures--Amnesty</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/amnesty?q=Amnesty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25025824P0'>Amnesty takes several forms including: "a decision made by government officials to free a prisoner," "a fixed period of time during which people are not punished for committing a particular crime," or "a decision by a government to forgive people who have committed particular illegal acts or crimes, and not to punish them." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62927'>
+            <catDesc>
+              <term>Criminal Procedures--Pardon</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/pardon?q=Pardon</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62927P0'>"If someone who has committed a crime is pardoned, that person is officially forgiven and their punishment is stopped." (Cambridge Dictionary)"An act of mercy by a person in authority toward someone who has committed a crime, esp. by reducing a punishment." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S86078'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Insurrections</term>
+              <idno>https://en.wikipedia.org/wiki/List_of_rebellions_in_the_United_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD86078P0'>Insurrection is an organized attempt by a group of people to overthrow a government, usually by violence. The cause, participants, and size of an effort to overthrow authority can vary. However, political and military officials typically respond to insurrections with legal and military force.
+</p>
+
+<p xml:id='OTPSD86078P1'>The United States Constitution refers to insurrection in Article 1, Section 8, where it authorizes Congress to “provide for calling forth the Militia to execute the Laws of the Union, suppress insurrections and repel invasions.” Southern secession activities were not called insurrectionary until Confederates fired on Fort Sumter on April 12, 1861, turning the tense political debate over the legality of unilateral state secession into open warfare. At that point, President Abraham Lincoln called for 75,000 volunteers to enforce federal authority in the South and described the seceded states as engaging in insurrection. The term carries important legal connotations. International law does not recognize insurrectionists as legal combatants in war. By late 1861, Lincoln preferred to describe the South as in a state of “rebellion” instead of insurrection—a term with the same technical meaning, but which more strongly characterized the Confederacy as engaging in an unjust resistance to authority.
+</p>
+
+<p xml:id='OTPSD86078P2'>Confederates also feared political insurrection within the South during Civil War. Support for secession was not universal through the Southern states, and numerous communities—particularly in eastern Tennessee, western North Carolina, northern Alabama, and most famously western Virginia (which actually separated and created its own state of West Virginia in 1863)—harbored pro-Union sentiments. Confederate and secessionist state officials frequently described anti-Confederate resistance within these communities and other parts of the South as insurrectionary. They used state and Confederate military forces to suppress such opposition.
+</p>
+
+<p xml:id='OTPSD86078P3'>Nineteenth century Southerners most commonly used the term insurrection to describe physical resistance by slaves against their masters. When the Union Army began to employ African American soldiers in 1863, the Confederate government announced that white Union officers captured while commanding black soldiers would be executed for inciting “servile insurrection.” The Confederacy backed down from that threat when Lincoln’s administration responded that it would execute one Confederate prisoner for each Union soldier killed, but the policy reflected the long-standing Southern fear of slave insurrections or rebellions. Before, during, and even after the Civil War, white Southern officials called out local militias—or even unregulated groups of armed men—to reestablish authority over African Americans suspected or accused of insurrection, often with overly violent methods. (Gaines M. Foster, “What’s Not in a Name: The Naming of the American Civil War,” <hi rend='italic'>Journal of the Civil War Era</hi>, Vol. 8, No. 3 (Sept 2018), 417-419; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S32089812'>
+            <catDesc>
+              <term>Loyalty Oaths--United States of America. Oaths of Allegiance</term>
+              <idno>https://www.senate.gov/about/origins-foundations/senate-and-constitution/protest-loyalty-oath.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32089812P0'>In 1862, in the midst of the Civil War and heightened emotions regarding loyalty among military and political officials, Republicans in the United States Congress created an oath in which participants not only promised future faith and allegiance to the United States and the Constitution, but also denied any past support of secession and the Confederacy. Nicknamed the “Ironclad Oath,” Radical Republicans intended to require it for all incoming members of Congress and federal appointees. The oath generated controversy among Democrat and more moderate Republican representatives, who saw it as unjustly harsh and punitive for past actions.
+</p>
+
+<p xml:id='OTPSD32089812P1'>Following the war, Radical Republicans sought to use the Ironclad Oath to prevent former Confederates from reestablishing pre-war political regimes and policies, and in 1867 Congress passed the Supplementary Reconstruction Act which required all voters in the South to take a similar oath of past loyalty to the Union. That same year, the Supreme Court ruled that the federal Ironclad Oath violated the Constitution’s prohibitions against <hi rend='italic'>ex post facto</hi> laws (or laws that retroactively punish Americans). In 1868, Congress created an alternate oath for Southerners, which omitted vows of past loyalty. This prompted a surge of Southern men taking the oath to regain voting and office eligibility. Ironically, Northern officials were still required to take the Ironclad Oath until 1884, at which point it was repealed. (Wikipedia; United States Senate)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32084955'>
+            <catDesc>
+              <term>Voting</term>
+              <idno>https://americanhistory.si.edu/democracy-exhibition/machinery-democracy/voting-and-electioneering-1789%E2%80%931899</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32084955P0'>Voting is the activity of choosing someone or something in an election. The United States Constitution left the states with the responsibility of managing elections, leading to a wide variety of voting practices. Initially, the two most common forms of voting in the United States involved voice vote and paper ballots. Most paper ballots during the early nineteenth century through the Civil War involved “party tickets,” which included the names of candidates of only one party. The voter provided the ballot to election officials, meaning voting was a public display of the voter’s selection. This practice made voters more susceptible to public pressure or intimidation during contentious elections or in communities dominated by one political party. During Reconstruction, some communities began using blank ballots, also known as the “Australian ballot,” which provided more secrecy for voters.
+</p>
+
+<p xml:id='OTPSD32084955P1'>During the Civil War, many northern states began changing voting practices to account for the thousands of men in the Union army and away from home. Before the war, only Pennsylvania allowed soldiers to vote by mail-in or absentee ballots. The election of 1864 was the first time since 1812 that a presidential election occurred during a war. With so many residents on the war front, between 1862 and 1864 twenty northern states passed laws to grant their soldiers the right to vote through mail-in ballots. The issue was contentious, in part because many Democrats argued that Republican officials would tamper with the military votes. Democrats were also more aligned with anti-war sentiment and opposition to emancipation of African Americans. Many Democrats feared that frontline soldiers would boost electoral support for the President Abraham Lincoln’s reelection. Indeed, most Union soldiers voted for Lincoln, helping secure his reelection.
+</p>
+
+<p xml:id='OTPSD32084955P2'>Voting rights changed dramatically in the South after the Civil War. Federal Reconstruction laws prohibited former Confederates from voting until they took a loyalty oath, or, in some cases, appealed to President Andrew Johnson personally. Many ex-Confederates undertook these steps and managed to regain voting rights and run for office shortly after the war. These white officials passed highly discriminatory laws, starting with Mississippi in late 1865, known as the “Black Codes,” which restricted African American rights. Republicans in the U.S. Congress then implemented more oversight in Reconstruction and better protected Black civil rights including the right to vote. This included the passage and ultimate ratification of the Fifteenth Amendment, which prohibited states from denying any person the right to vote based upon race, color, or previous condition of servitude. These protections only covered men, as women were still not allowed to vote in most elections in most states. As a result, African Americans played a large part in southern elections, boosting Republican Party success and leading to African American politicians winning seats in local, state, and national offices. Conservative white voters in the South responded by engaging in voter suppression through violence and intimidation. The “Mississippi Plan” in 1875 was one such effort, which led to a dramatic drop in Republican votes, leading to the Democratic Party takeover of Mississippi’s state legislature.
+</p>
+
+<p xml:id='OTPSD32084955P3'>The end of Reconstruction in 1877 led to a new wave of restrictions against Black voting in the South. Many southern states began implementing poll taxes, literacy tests, and the “grandfather clause” designed to disenfranchise African American voters. Many southern Blacks could not afford the poll taxes or were not literate enough to pass voter reading requirements. The “grandfather clause” prohibited voting for anyone whose grandfather had not been eligible to vote, a policy aimed directly at the descendants of the formerly enslaved. These laws lasted well into the twentieth century. (Cambridge Dictionary, Smithsonian Institute, National Geographic, Wikipedia, National Archives and Records Administration)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32030992'>
+            <catDesc>
+              <term>Voting--Voter Registration</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/registration</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32030992P0'>"The act of recording a name" of "a person who votes or who has a legal right to vote, especially in an election," "on an official list." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S71916'>
+            <catDesc>
+              <term>United States. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71916P0'>The United States Army is the military land force of the United States of America. During the American Civil War it was also referred to as the Union Army, Federal Army, or Northern Army. Its primary military objective during the war was the restoration and preservation of the United States through the defeat of secessionist forces. The United States Army traces its roots to the Continental Army, created in 1775 during the American Revolution. Following American independence, the new United States severely reduced the size of the army due to distrust of permanent standing military forces. The small regular army generally handled military operations against Native Americans and for coastal defense. State authorities were expected to support the country’s military needs with their militias, or by raising volunteer units, temporarily activated for federal service.
+</p>
+
+<p xml:id='OTPSD71916P1'>At the outbreak of the Civil War, the United States regular army consisted of barely more than 16,000 soldiers, scattered across the country (primarily at coastal defenses and forts established in the territories) among ten infantry regiments, four artillery regiments, two cavalry regiments, two dragoon regiments, and one regiment of mounted rifles. Roughly 20% of the army’s officers and enlisted resigned their positions to fight for the Confederacy. After Southern troops attacked and captured Fort Sumter in South Carolina, President Abraham Lincoln called for 75,000 volunteers to expand the army and defeat the Confederates. The government continued to issue subsequent requests for volunteers as the war progressed. As with established practice, the states were to recruit the volunteers and provide them for federal service. Initial enlistments were for 90 days, but eventually enlistment terms were expanded, typically for three years. In total, more than 2,000,000 men served in the United States Army during the course of the Civil War. Of those, only around 60,000 were part of the regular army. The overwhelming majority were in state-based units. Most soldiers were volunteers, however the federal government began drafting men in 1862, as the army’s campaigns continued and volunteer numbers dwindled. In total, around 46,000 Union soldiers (about 5.5%) were draftees.
+</p>
+
+<p xml:id='OTPSD71916P2'>Approximately two-thirds of the soldiers in the United States Army during the Civil War were native-born white citizens. Around 100,000 were from states within the Confederacy. Immigrants made up about 25% of Union soldiers, with Germans and Irish immigrants being among the most prominent. The army also included soldiers of different ethnicities, including more than 3,000 Native American soldiers. In 1863, the Union army began formally accepting African American soldiers—in segregated units—and by the end of the war, around than 179,000 had served in the United States Army uniform.
+</p>
+
+<p xml:id='OTPSD71916P3'>When hostilities ended in June 1865, approximately 110,000 had been killed in combat or succumbed to wounds, more than 220,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32122534'>
+            <catDesc>
+              <term>United States. Army. Infantry Regiment, 43rd (1866-1869)</term>
+              <idno>https://play.google.com/books/reader?id=NU4WAAAAYAAJ&amp;pg=GBS.PA98&amp;hl=en</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32122534P0'>The 43rd Regiment, United States Infantry (1866–1869) was organized on September 21, 1866 as part of the Veteran Reserve Corps under the command of Bvt. Maj. Gen. J. C. Robinson. It was formed under an act of Congress dated July 28, 1866 and was comprised of soldiers who were wounded during the war to garrison cities, fortifications, and perform other non-frontline duties. Under the act of Congress dated March 3, 1869 to reduce the Army’s post-war manpower, it was consolidated with the 1st Regiment, United States Infantry on April 8, 1869. (Heitman, <hi rend='italic'>Historical Register of the United States Army</hi>, 69; United States Army Center of Military History)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32124056'>
+            <catDesc>
+              <term>United States. Army. Military District, 4th </term>
+              <idno>https://encyclopediaofarkansas.net/entries/fourth-military-district-9123/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32124056P0'>The 4th Military District of the United States Army was established by the First Reconstruction Act, passed by the Fortieth United States Congress on March 2, 1867. It encompassed the states of Arkansas and Mississippi with its headquarters at Vicksburg, Mississippi under the command of Maj. Gen. Edward O. C. Ord. It was later commanded by Maj. Gens. Alvan C. Gillem, Irvin McDowell, and Adelbert Ames. It was one of five military districts that placed ten of the former Confederate states under military authority. Its function was to protect the rights of freedmen, keep the peace, and oversee the election and formation of new state governments in Arkansas and Mississippi loyal to the federal government in Washington D. C. During its existence it combated the rampant post-war racial and political violence experienced throughout the South during that time. Arkansas ratified the Fourteenth Amendment and adopted a new state constitution in the spring of 1868 and on June 22, 1868 was readmitted to the Union, leaving Mississippi the sole state of the district. It disbanded when Mississippi returned to civil government and was readmitted to the Union on February 23, 1870. (Bradley, <hi rend='italic'>The Army and Reconstruction 1865-1877</hi>; Eicher,<hi rend='italic'>Civil War High Commands</hi>; Encyclopedia of Arkansas; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32003248'>
+            <catDesc>
+              <term>Attorneys General</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/attorney-general</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32003248P0'>"The top legal officer in some countries, whose job is to provide legal advice to the government and to represent the government." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S70145'>
+            <catDesc>
+              <term>Law Enforcement--Constables</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/constable?q=constables</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70145P0'>"An official in a town or village having some of the responsibilities of a police officer." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001684'>
+<catDesc>Military Roles</catDesc>
+          <category xml:id='S25007624'>
+            <catDesc>
+              <term>Adjutants</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/adjutant?q=adjutants</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001684'>Military Roles</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25007624P0'>"A military officer who does office work and who is responsible for rules and punishment among the lower ranks." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63950'>
+            <catDesc>
+              <term>Boards of Police</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/commission</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63950P0'>"An official organization whose job is to manage a particular activity, suggest laws related to the activity, and make certain that laws are obeyed" concerning law enforcement. (Cambridge Dictionary) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+          <category xml:id='S95870'>
+            <catDesc>
+              <term>Military Headquarters</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/headquarters</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95870P0'>A military headquarters is the main center of control for a unit and typically revolves around that unit’s highest ranking officer. The term headquarters often refers to a physical location, however it is not always a permanent facility. A commanding officer can establish a headquarters anywhere that best allows oversight of the unit. Frequently during the Civil War military leaders relocated their headquarters each day as their armies moved. Union general John Pope famously declared that he would make his “headquarters in the saddle.” The comment was more symbolic than literal, but reflected how a headquarters centered on the commander's location and was subject to his discretion in how and where to conduct official duties. Pope’s critics replied that he was making his headquarters where his “hindquarters” should be, representing the more traditional view of a headquarters being a stationary command center strategically located for the effective management of a staff and army. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25024541'>
+            <catDesc>
+              <term>Unionists (United States Civil War)</term>
+              <idno>https://www.americanheritage.com/souths-inner-civil-war-0</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25024541P0'>A Unionist was "a member or supporter of the twenty-three Northern states that were not part of the seceding Confederacy during the American Civil War" (Wikipedia). Unionism in the South took on a variety of forms and encompassed many different beliefs. While most northerners sided with the Union, many southerners did as well. Even prior to secession, no solid white South existed, as many white southerners in mountainous and upcountry areas of the South did not own enslaved persons. While some areas like eastern Tennessee and parts of northern Alabama rejected secession outright for the entire war, secession produced renewed patriotism for many non-enslaving whites in the South. That patriotism faltered for many as the awful realities of wartime violence and poverty struck even as early as 1861. Many poor white southerners viewed the Confederacy's conscription, impressment, and taxation policies as elitist, forcing many families to, if not support the Union per se, at least oppose the Confederacy.
+</p>
+
+<p xml:id='OTPSD25024541P1'>Entire unionist communities developed throughout the war to shield those loyal to the Union or opposed to the Confederacy, as well as deserters from the Confederate Army and, in certain cases, escaped enslaved persons. Southern unionism often led to internal armed conflict between southerners, as bands of guerilla fighters raided Confederate depots and shipping for supplies and even attacked some Confederate units. While unionist strongholds most frequently developed in the mountainous regions of the South and the border states, Unionism spread throughout the entire Confederacy, including one of the most notable in Jones County, Mississippi, where ex-Confederate soldier Newton Knight and roughly 500 others formed the so-called "Free State of Jones" and opposed Confederate forces until the war's end. The presence of Unionism across the South stifled the Confederate war effort in many ways and revealed that tensions of national loyalty, race, class, and gender remained complicated even for southern whites (American Heritage; Essential Civil War Curriculum).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Ames Series 784</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Mississippi Digital Library.; Funding for the project provided by the National Historical Publications and Records Commission of the National Archives; Funding for this project provided by the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1865; 1868</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Lazuer, Hancock</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1868-07-20</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Ames Collection. Letter from Hancock Lazuer, a former constable, in Adams County, Mississippi, to Brevet Major General Irvin McDowell, the Commander of the Fourth Military District, concerning his right to vote.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 8.5&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Washington (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_784-968-01-40</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Adams County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Dalton Wood; Michael Singleton; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 968, Folder 1</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Allegiance; Ames, Adelbert, 1835-1933; Amnesty; Constables; Loyalty oaths; McDowell, Irvin, 1818-1885; Mississippi. Governor; Police; Unionists (United States Civil War); United States. Army; United States. Army--Officers; United States. Attorney-General; United States. Constitution; Voting</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Hancock Lazuer to General Irvin McDowell; July 20, 1868</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/15974&quot;&gt;Letter from Hancock Lazuer to General Irvin McDowell; July 20, 1868&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG49" who="U220769" when="2024-12-11T19:28:10Z" target="#P32056012">
+          Version 28 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG48" who="U32019810" when="2024-10-25T02:10:28Z" target="#P32056012">
+          Version 27 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG47" who="U25091404" when="2024-08-22T16:06:13Z" target="#P32056012">
+          Version 26 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U220769" when="2024-01-20T21:55:20Z" target="#P32056012">
+          Version 25 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U220769" when="2024-01-20T21:54:51Z" target="#P32056012">
+          Version 24 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U25091404" when="2024-01-03T16:25:17Z" target="#P32056012">
+          Version 23 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U25091404" when="2023-12-16T15:34:23Z" target="#P32056011">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U25091404" when="2023-12-16T15:33:18Z" target="#P32056011">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U25091404" when="2023-12-15T16:20:46Z" target="#P32056012">
+          Version 22 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-11-17T18:09:45Z" target="#P32056012">
+          Version 21 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-11-17T17:37:38Z" target="#P32056012">
+          Version 20 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-11-17T17:21:54Z" target="#P32056011">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-11-02T17:23:27Z" target="#P32056011">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-11-01T16:16:20Z" target="#P32056012">
+          Version 19 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-09-03T00:35:05Z" target="#P32056011">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-09-02T20:27:12Z" target="#P32056012">
+          Version 18 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-09-02T19:59:39Z" target="#P32056012">
+          Version 17 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-29T00:14:43Z" target="#P32056011">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-19T21:08:33Z" target="#P32056012">
+          Version 16 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-19T20:22:00Z" target="#P32056012">
+          Version 15 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-19T20:07:38Z" target="#P32056012">
+          Version 14 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-19T02:34:27Z" target="#P32056011">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-18T21:34:33Z" target="#P32056012">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-18T14:56:56Z" target="#P32056011">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-17T21:55:53Z" target="#P32056011">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-16T20:05:18Z" target="#P32056011">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-16T19:55:11Z" target="#P32056011">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-06T04:45:53Z" target="#P32056012">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-03T00:20:17Z" target="#P32056011">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2022-12-04T19:34:25Z" target="#P32056012">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2022-12-04T15:45:08Z" target="#P32056012">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2022-12-04T02:35:49Z" target="#P32056011">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2022-12-04T02:32:44Z" target="#P32056012">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2022-06-10T03:30:47Z" target="#P32056012">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2022-06-10T03:30:49Z" target="#P32056012">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2022-06-09T02:42:49Z" target="#P32056012">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2022-05-31T18:47:10Z" target="#P32056011">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2022-05-03T14:55:51Z" target="#P32056012">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2022-05-03T14:54:18Z" target="#P32056011">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091195" when="2022-02-27T22:02:08Z" target="#P32056012">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091195" when="2022-02-27T22:00:36Z" target="#P32056012">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091195" when="2022-02-27T21:41:24Z" target="#P32056011">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091195" when="2022-02-27T21:22:51Z" target="#P32056011">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091235" when="2022-02-25T23:56:52Z" target="#P32056012">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25091235" when="2022-02-25T23:56:29Z" target="#P32056012">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25091235" when="2022-02-25T23:37:27Z" target="#P32056011">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2021-12-10T16:17:25Z" target="#P32056012">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U231087" when="2021-12-10T16:00:31Z" target="#P32056011">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2021-12-09T15:34:35Z" target="#P32056012">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-12-09T15:34:34Z" target="#P32056011">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32056011" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:15972/full/full/0/default.jpg"/>
+        <div xml:id="OTP32056011">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32056011P0' xml:id='OTP32056011P0'>The within named applicant has taken the <rs ref='#S32089812'>oath</rs> and is duly registered this day and voted
+</p>
+
+<p corresp='TTP32056011P1' xml:id='OTP32056011P1'>Respectfully—<rs ref='#S32022654'>H L Sellers</rs> Prest of Board<lb/>
+July 27, 1868<lb/>
+<hr/><lb/>
+<rs ref='#S32022655'>Hancock Lazuar</rs> of <rs ref='#S82506'>Washington Adams County</rs> Mississippi comes &amp; presents the proof of his having Taken the Oath of <rs ref='#S25025824'>Amnesty</rs> on 1<add place='above'>st</add> of August 1864 claims to be Registered under the common law of the Land the constitution of the United States &amp; of the State of Mississippi &amp; the recent decision of the <rs ref='#S32003248'>attorney General</rs> of the United States that having taken the Oath of Amnesty is sufficient to intitle one to <rs ref='#S32030992'>register</rs> &amp; to vote
+</p>
+
+<p corresp='TTP32056011P2' xml:id='OTP32056011P2'>The only grounds on whitch it can be pretended that he is excluded from his right to register &amp; vote are that he previous to the late war held the office of <rs ref='#S70145'>constable</rs> in &amp; for Said Country was not in the <rs ref='#S70882'>Army</rs>
+</p>
+
+<p corresp='TTP32056011P3' xml:id='OTP32056011P3'>Lazarus
+</p>
+
+<p corresp='TTP32056011P4' xml:id='OTP32056011P4'>Lazarus
+</p>
+
+<p corresp='TTP32056011P5' xml:id='OTP32056011P5'>X all of which he might have done without being in the Army
+</p>
+
+
+        </div>
+        <pb xml:id="F32056012" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:15973/full/full/0/default.jpg"/>
+        <div xml:id="OTP32056012">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32056012P0' xml:id='OTP32056012P0'>L. 100 Vol A. / C. A. 4. M. D / 1868<lb/>
+<hr/><lb/>
+Statement of Hancock Lazuer applied to be registered Constable before the war<lb/>
+<hr/><lb/>
+Claims to be a <rs ref='#S25024541'>Union Man</rs><lb/>
+<hr/><lb/>
+<rs ref='#S95870'>Head Quarters</rs><lb/>
+<rs ref='#S32124056'>4" Military District</rs><lb/>
+<rs ref='#S51788'>Vicksburg</rs> Miss. June 13" 1868.
+</p>
+
+<p corresp='TTP32056012P1' xml:id='OTP32056012P1'>(1) The acts of Congress are the guides by which the District Commander is obliged to be governed in deciding this case.
+</p>
+
+<p corresp='TTP32056012P2' xml:id='OTP32056012P2'>(2) The act of July 19" 1867 section 7 provides that "No "person shall at any time "be entitled to be registered "or to vote by any <rs ref='#S62927'>executive "pardon</rs> or amnestry for any "act or thing which with-"out such pardon or amnesty "would disqualify him from
+</p>
+
+<p corresp='TTP32056012P3' xml:id='OTP32056012P3'>registration or voting."
+</p>
+
+<p corresp='TTP32056012P4' xml:id='OTP32056012P4'>(3) The same act section 6 pro-vides that—"No person who has held any executive or judicial office in any State and has afterwards engaged in <rs ref='#S86078'>insur-rection</rs> or rebellion against the United States or given aid or comfort to the enemies thereof is not entitled to be registered or to vote
+</p>
+
+<p corresp='TTP32056012P5' xml:id='OTP32056012P5'>(4) Hancock Lazner held an off-ice as member of the <rs ref='#S63950'>Board of Police</rs> of Adams County Miss. But it does not appear from the record sent to District Head Quar-ters whether or not after hold-ing said office he engaged in insurrection or rebellion a-gainst the United States or gave aid and comfort to the enemies thereof
+</p>
+
+<p corresp='TTP32056012P6' xml:id='OTP32056012P6'>(5) It might be inferred that he did so on account of his having subsequently taken the oath of
+</p>
+
+<p corresp='TTP32056012P7' xml:id='OTP32056012P7'>E B C A 1. P 344—4" M. D. 1868.
+</p>
+
+<p corresp='TTP32056012P8' xml:id='OTP32056012P8'>but the District Command-er is informed there was a class of persons who took this oath of amnesty who had not been en-gaged in the Rebellion or given aid an comfort to the enemies of the United States
+</p>
+
+<p corresp='TTP32056012P9' xml:id='OTP32056012P9'>(6) If this is a fact the Board should determine (see Section 5 act of July 19" 1867) and it will as soon after the receipt hereof as practicable determine whether or not said Hancock Lazner did after hold-ing office as before stated engage in insurrection or re-bellion against the United States or given aid and com-fort to the enemies thereof
+</p>
+
+<p corresp='TTP32056012P10' xml:id='OTP32056012P10'>If not and if there are no o-ther causes than the one he states in his paper he is entitled to register otherwise vote. The Board will so inform him and please return these papers to Dist. Head Quars.
+</p>
+
+<p corresp='TTP32056012P11' xml:id='OTP32056012P11'>By command of Brt. Maj. Genl. <rs ref='#S32122414'>M<add place='above'>c</add>Dowell</rs>.
+</p>
+
+<p corresp='TTP32056012P12' xml:id='OTP32056012P12'><rs ref='#S32020850'>Jno Tyler</rs><lb/>
+1" Lieut <rs ref='#S32122534'>43" Infty.</rs> Brt. Maj. U S A<lb/>
+Actg. Asst. <rs ref='#S25007624'>Adjt Genl</rs>.
+</p>
+
+<p corresp='TTP32056012P13' xml:id='OTP32056012P13'>P 373—4—4 M. D. 8 B C A
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

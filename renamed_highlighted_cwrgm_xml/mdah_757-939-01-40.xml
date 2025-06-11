@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from George A. Cox; July 28, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U228005">
+          <persName
+            >
+            Heather A Haslem
+            </persName>
+            <resp>
+              made 15 edits between
+              <date type="first_edit" when="2021-02-22T17:47:26Z">February 22, 2021</date> and
+              <date type="last_edit" when="2021-02-22T18:29:02Z">February 22, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 14 edits between
+              <date type="first_edit" when="2021-02-23T22:47:05Z">February 23, 2021</date> and
+              <date type="last_edit" when="2024-12-11T19:27:28Z">December 11, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 9 edits between
+              <date type="first_edit" when="2021-03-03T00:36:48Z">March  3, 2021</date> and
+              <date type="last_edit" when="2021-05-25T16:27:35Z">May 25, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U229216">
+          <persName
+            >
+            Denise Dzuck
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-02-07T06:46:55Z">February  7, 2021</date> and
+              <date type="last_edit" when="2021-02-07T07:00:37Z">February  7, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-02T00:42:10Z">October  2, 2024</date> and
+              <date type="last_edit" when="2024-10-13T12:22:01Z">October 13, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T14:50:58Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T19:02:45+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S84368">
+              <persName>Cox, George A.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32012689">
+              <persName>Deason, John B., 1824-1900</persName>
+                <idno>https://www.findagrave.com/memorial/54567846/john-b-deason</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32012689P0'>John B. Deason was an attorney, politician, and Confederate officer during the Civil War.
+</p>
+
+<p xml:id='OTPS32012689P1'>Born on July 21, 1824, in Trigg County, Kentucky, Deason moved to Mississippi as a young man. He served as an officer during the Mexican American War, and returned to Mississippi where he practiced law and became an emerging public figure in Copiah County. Deason was a delegate to Mississippi’s secession convention in January 1861, following Abraham Lincoln’s election to the presidency. Like nearly all attendees, he voted in support of the state separating from the Union. He volunteered for military service, helped raise volunteers for the Mississippi state troops, and was eventually commissioned as a colonel in command of the Third Mississippi Infantry Regiment, a unit comprised of volunteers from Mississippi’s gulf coast area. He led the regiment in a coastal defense assignment, and engaged Union troops at Biloxi in April 1862. The Third Mississippi’s enlistments ended in May 1862, at which point it was reorganized and most of the soldiers reenlisted. However, Deason departed the regiment at that time.
+</p>
+
+<p xml:id='OTPS32012689P2'>After the Civil War, Deason served as a chancellor and district attorney during most of the Reconstruction period. Around 1875, he moved to Brookhaven, where he held a variety of public positions, including mayor, postmaster, and represented Lincoln County in the Mississippi legislature. He died on March 29, 1900. Deason was married to Mary Ann Keller and had at least five children that lived to adulthood. He is buried in Rose Hill Cemetery in Brookhaven, Mississippi.
+</p>
+
+<p xml:id='OTPS32012689P3'>(<hi rend='italic'>The Semi-Weekly Leader</hi>, Brookhaven, MS, April 4, 1900; <hi rend='italic'>The Democratic-Herald</hi>, Charleston, MS, April 12, 1900; FindaGrave; Dunbar Rowland, <hi rend='italic'>The Official and Statistical Register of the State of Mississippi, 1908</hi>, 536)
+</p>
+
+<p xml:id='OTPS32012689P4'>John B. Deason belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S70457">
+              <persName>Glenn, D. C.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S55219">
+              <persName>Haynes, M. D. u.-1865</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS55219P0'>M. D. Haynes was a public official in Mississippi before and during the Civil War.
+</p>
+
+<p xml:id='OTPS55219P1'>An active member of the Democratic Party in the 1840s and 1850s, Haynes worked as an editor of the <hi rend='italic'>Mississippian</hi>, a newspaper in Jackson, before seeking the office of State Treasurer in 1859. He won the position and served in that role through the Civil War. Haynes tried very hard to keep Mississippi’s finances in order through the war years, but faced significant hardships due to the strain of war and from Union army campaigns. He moved the treasury office from Jackson to Meridian in May 1863 to avoid Union troops under William Tecumseh Sherman, and then to Mobile, Alabama, for fear of Union cavalry raids.
+</p>
+
+<p xml:id='OTPS55219P2'>In late 1864, as the Confederacy was falling apart, an audit of Mississippi’s state funds discovered a substantial discrepancy, and officials accused Haynes of owing the state more than $93,000. Governor Charles Clark demanded Haynes’ resignation based upon assumptions that the treasurer had stolen or embezzled the money. On January 2, 1865, Haynes resigned from his position as State Treasurer and committed suicide the same day. Adding to this tragedy was news from a later examination that found Haynes was innocent of the charges. The money shortfall had been the fault of a previous treasurer. Long after his death, Mississippi officials occasionally referenced Haynes’ untimely death, positing that his well-known and frequent use of opium may have contributed to his suicide.
+</p>
+
+<p xml:id='OTPS55219P3'>(<hi rend='italic'>Semi-Weekly Mississippian</hi>, Jackson, MS, July 8, 1859; <hi rend='italic'>Natchez Democrat</hi>, Natchez, MS, November 29, 1865; Timothy B. Smith, <hi rend='italic'>Mississippi in the Civil War: The Home Front</hi>, 92, 98; <hi rend='italic'>Clarion-Ledger</hi>, Jackson, MS, July 25, 1894)
+</p>
+
+<p xml:id='OTPS55219P4'>M. D. Haynes belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S94859">
+              <placeName>Mississippi--Harrison County. Deer Island</placeName>
+                <idno>https://en.wikipedia.org/wiki/Deer_Island_(Mississippi)</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS94859P0'>Located in Harrison County, Deer Island is an unincorporated area that is not governed by a local municipal body. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.3716, -88.8395</geo>
+                </note>
+            </place>
+            <place xml:id="S69070">
+              <placeName>Mississippi--Hancock County. Bay Saint Louis</placeName>
+                <idno>https://en.wikipedia.org/wiki/Bay_St._Louis,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS69070P0'>Located in Hancock County, Bay Saint Louis was incorporated under the name Shieldsborough in 1818 and renamed Bay St. Louis in 1882. Bay Saint Louis serves as the county seat. (Britannica; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.31472, -89.34417</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S91448">
+              <placeName>Mississippi--Jackson County. Ocean Springs</placeName>
+                <idno>https://en.wikipedia.org/wiki/Ocean_Springs,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS91448P0'>Located in Jackson County, Ocean Springs was settled in 1699 under the name Fort Maurepas/Old Biloxi and it became part of Mississippi Territory on April 29, 1812. Fort Maurepas/Old Biloxi briefly became part of the newly created Mobile County on July 31, 1812 until December 17, 1812, when Jackson County was created. It was incorporated as a village in 1843. Fort Maurepas/Old Biloxi was renamed to Lynchburg in 1853 and again renamed to Ocean Springs around 1854. On September 9, 1892 Ocean Springs was incorporated as a city. (Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.41, -88.7975</geo>
+                </note>
+            </place>
+            <place xml:id="S63017">
+              <placeName>Louisiana--Orleans Parish. New Orleans</placeName>
+                <idno>https://en.wikipedia.org/wiki/New_Orleans</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63017P0'>Located in Orleans Parish, New Orleans was founded in 1718. It became the capital of French Louisiana in 1722 and continued as the capital when Louisiana achieved statehood on April 30, 1812. It became part of Orleans County (now extinct) on the same day. In 1849 it was replaced by Baton Rouge as the state capital, although it temporarily served as the capital again from 1865 until 1880. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>29.95, -90.08</geo>
+                </note>
+            </place>
+            <place xml:id="S63988">
+              <placeName>Mississippi--Harrison County. Mississippi City</placeName>
+                <idno>https://en.wikipedia.org/wiki/Mississippi_City,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63988P0'>Located in Harrison County, Mississippi City was founded as early as 1841 and served as the county seat from 1841 to 1902. Gulfport annexed Mississippi City in 1965. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.38186, -89.04392</geo>
+                </note>
+            </place>
+            <place xml:id="S69099">
+              <placeName>Sectors of Land--Mississippi. Gulf Coast</placeName>
+                <idno>https://en.wikipedia.org/wiki/Mississippi_Gulf_Coast</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001865">Sectors of Land</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS69099P0'>Located in south Mississippi, the Gulf Coast is an 80-mile long and 55-miles wide coastline along the Gulf of Mexico. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.36742, -89.09282</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001713'>
+<catDesc>C.S.A. Federal Government</catDesc>
+          <category xml:id='S99586'>
+            <catDesc>
+              <term>Confederate States of America--War Department</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t00z8036q&amp;view=1up&amp;seq=9&amp;skin=2021</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.3675, -86.3</geo>
+              </note>
+              <gloss><p xml:id='OTPSD99586P0'>Operating nationally, the Provisional Confederate Congress established the War Department by an act on February 21, 1861, in Montgomery, Alabama. The department was led by the Secretary of War, appointed by the President with the advice and consent of the Senate. It was initially led by LeRoy Pope Walker from February 25–September 16, 1861 and later led by Judah P. Benjamin (September 17, 1861–March 24, 1862), George W. Randolph (March 24–November 15, 1862), James Seddon (November 21, 1862–February 5, 1865), and Maj. Gen. John C. Breckinridge (February 6–May 10, 1865). The War Department was responsible for the administration of the Confederate Army and managed all matters pertaining to American Indian tribes within the boundaries of the Confederate States. (<hi rend='italic'>Acts and Resolutions of the First Session of the Provisional Congress of the Confederate States</hi>, 1861 Public Laws, S1, 46; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25013611'>
+            <catDesc>
+              <term>Confederate States of America--War Department. Quartermaster Department</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t2z32n83q&amp;view=1up&amp;seq=3&amp;skin=2021</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25013611P0'>The Provisional Confederate Congress established the Confederate Quartermaster Department on February 26, 1861 in Montgomery, Alabama under the War Department. Initially under the command of Col. Abraham C. Myers, Brig Gen. Alexander Lawton assumed command in 1863. Operating at the national level of the Confederacy, the Quartermaster Department was responsible for procuring war materials and other supplies for the Confederate Army. (<hi rend='italic'>Laws of the Provisional Congress of the Confederate States</hi>, 1861, 4; American Battlefield Trust; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+<category xml:id='C32001716S99586'>
+<catDesc>
+<term><rs ref='S99586'>Confederate States of America--War Department</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001716S25013611'>
+<catDesc>
+<term><rs ref='S25013611'>Confederate States of America--War Department. Quartermaster Department</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Cox, George A.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-07-28</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Ocean Springs, Mississippi, by George A. Cox, to an unnamed individual requesting supplies for his company.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Ocean Springs (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-939-01-40</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Jackson County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Cody Turnbaugh; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 939, Folder 1</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army; Confederate States of America. Army--Supplies and stores; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from George A. Cox; July 28, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/2157&quot;&gt;Letter from George A. Cox; July 28, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG50" who="U220769" when="2024-12-11T19:27:28Z" target="#P1653639">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG49" who="U2" when="2024-10-25T14:50:58Z" target="#P1653640">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG48" who="U32019810" when="2024-10-13T12:22:01Z" target="#P1653639">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG47" who="U32019810" when="2024-10-02T00:42:10Z" target="#P1653639">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U220769" when="2023-03-19T20:12:28Z" target="#P1653639">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U220769" when="2023-03-18T23:06:52Z" target="#P1653639">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U220769" when="2023-03-18T21:53:21Z" target="#P1653640">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U220769" when="2023-03-18T20:38:54Z" target="#P1653641">
+          Version 10 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2023-03-18T04:54:21Z" target="#P1653639">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-03-18T04:22:56Z" target="#P1653639">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-03-18T00:18:38Z" target="#P1653639">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-03-17T22:36:49Z" target="#P1653640">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2021-10-22T20:36:45Z" target="#P1653639">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2021-07-06T22:30:48Z" target="#P1653639">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U217868" when="2021-05-25T16:27:35Z" target="#P1653639">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U217868" when="2021-05-21T21:28:16Z" target="#P1653639">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2021-05-10T16:23:03Z" target="#P1653640">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2021-05-07T02:58:30Z" target="#P1653639">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U217868" when="2021-03-09T16:07:05Z" target="#P1653639">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U217868" when="2021-03-09T16:06:46Z" target="#P1653639">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U217868" when="2021-03-03T00:46:32Z" target="#P1653640">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U217868" when="2021-03-03T00:45:53Z" target="#P1653640">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U217868" when="2021-03-03T00:45:02Z" target="#P1653641">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U217868" when="2021-03-03T00:42:39Z" target="#P1653640">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U217868" when="2021-03-03T00:36:48Z" target="#P1653639">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2021-02-23T22:47:05Z" target="#P1653639">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U228005" when="2021-02-22T18:29:02Z" target="#P1653641">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U228005" when="2021-02-22T18:28:52Z" target="#P1653641">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U228005" when="2021-02-22T18:27:44Z" target="#P1653639">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U228005" when="2021-02-22T18:27:15Z" target="#P1653641">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U228005" when="2021-02-22T18:25:30Z" target="#P1653641">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U228005" when="2021-02-22T18:25:49Z" target="#P1653641">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U228005" when="2021-02-22T18:25:49Z" target="#P1653641">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U228005" when="2021-02-22T18:25:28Z" target="#P1653641">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U228005" when="2021-02-22T18:21:40Z" target="#P1653640">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U228005" when="2021-02-22T18:21:21Z" target="#P1653640">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U228005" when="2021-02-22T18:20:55Z" target="#P1653640">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U228005" when="2021-02-22T18:18:35Z" target="#P1653640">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U228005" when="2021-02-22T18:08:10Z" target="#P1653639">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U228005" when="2021-02-22T18:00:35Z" target="#P1653639">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U228005" when="2021-02-22T17:47:26Z" target="#P1653639">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U229216" when="2021-02-07T07:00:37Z" target="#P1653641">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U229216" when="2021-02-07T07:00:23Z" target="#P1653641">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U229216" when="2021-02-07T06:57:28Z" target="#P1653640">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U229216" when="2021-02-07T06:46:55Z" target="#P1653639">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U215567" when="2020-12-10T18:08:31Z" target="#P1653641">
+          Version 1 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG4" who="U215567" when="2020-12-10T18:08:31Z" target="#P1653640">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2020-12-10T18:08:30Z" target="#P1653639">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2020-12-10T18:08:26Z" target="#P1653641">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2020-12-10T18:08:26Z" target="#P1653640">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2020-12-10T18:08:25Z" target="#P1653639">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1653639" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2154/full/full/0/default.jpg"/>
+        <div xml:id="OTP1653639">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1653639P0' xml:id='OTP1653639P0'>[seal]
+</p>
+
+<p corresp='TTP1653639P1' xml:id='OTP1653639P1'><rs ref='#S91448'>ocean Springs</rs> July 28—1861
+</p>
+
+<p corresp='TTP1653639P2' xml:id='OTP1653639P2'>Dear Sir
+</p>
+
+<p corresp='TTP1653639P3' xml:id='OTP1653639P3'>I had an interview with Gov—<rs ref='#S63111'>Pettus</rs> on thursday night just before leaving your City and he agreed to Receive my <rs ref='#S70882'>Company</rs> and order them into encampment at ocean Springs. This arrangment was mad too late for me to attend to the matter further without loosening the train, and it was imperitive for me to Reach home last night. I however Sent back the tender of my Company (<hi rend='underline'>drawn up by you</hi>) from <rs ref='#S63017'>New orleans</rs> to the Governor with a request that he would forward my Supplies as Soon as practicable together with an order for Capt <rs ref='#S32012689'>Deason</rs> or Some other officer to muster us in the Service also an order on Col,, <rs ref='#S70457'>Glenn</rs> <rs ref='#S25013611'>quarter master</rs> at <rs ref='#S63988'>Mississippi City</rs> for provisions. Now Mr—<rs ref='#S55219'>Haynes</rs> I know that Gov—Pettus is annoyed almost to death with business matters and perhaps he may overlook or forget this matter, and it is of much importance to <hi rend='underline'>me</hi> my <hi rend='underline'>Company</hi> and I believe also to this part of the <hi rend='underline'><rs ref='#S69099'>Coast</rs></hi> for I mean to have a Company of men that will do good service for our State when the chance is offered I therefore beg of you as a great favor personally,—That you will See the Gov—
+</p>
+
+
+        </div>
+        <pb xml:id="F1653640" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2155/full/full/0/default.jpg"/>
+        <div xml:id="OTP1653640">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1653640P0' xml:id='OTP1653640P0'>and beg in my name that he will give the necessary orders in the premises at once to have my accoutrements and Suplies forwarded, let them be forwarded to Care of <hi rend='underline'>McFarlan &amp; Barksdale</hi> they will ship to me by <hi rend='underline'>Steamer Creole</hi> I paying expenses of shipment &amp;c I saw Capt Deason yesterday at the <rs ref='#S69070'>Bay St Louis</rs> he will come at any moment to muster is in when he Receives the order, I also saw Col. Glenn yesterday at Mississippi City he States he is Ready to furnish provisions at once—every one thinks I will have the best fighting Company on the Coast if allowed a fair Chance. What I Require in my Requisition on the State is
+</p>
+
+<p corresp='TTP1653640P1' xml:id='OTP1653640P1'>80 Knapsacks<lb/>
+80 Bayonet Scabbards<lb/>
+Tents &amp; Camp equipage for 80 men<lb/>
+Provisions &amp;c according to regulations
+</p>
+
+<p corresp='TTP1653640P2' xml:id='OTP1653640P2'>Please offer to Gov. Pettus my Sincere thanks for this kindness when in <rs ref='#S51785'> Jackson</rs> with a further Request to forward my Commissions as early as convenient
+</p>
+
+<p corresp='TTP1653640P3' xml:id='OTP1653640P3'>Very Respectfully<lb/>
+Yr friend<lb/>
+<rs ref='#S84368'>Geo. a. Cox</rs> 
+</p>
+
+
+        </div>
+        <pb xml:id="F1653641" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2156/full/full/0/default.jpg"/>
+        <div xml:id="OTP1653641">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP1653641P0' xml:id='OTP1653641P0'>Please dispatch me at once what will be done. I feel much anxiety in regard to this Subject my men are all here and are being drilled by Competent drill Masters every day and it is involving me individually in much expense and well as trouble. I will encamp my men opposite the east end of <rs ref='#S94859'>Deer Island</rs> where I will be able to hold a Constant watch over Small Craft plying in the inner Channel between Deer Island and the Main Land
+</p>
+
+<p corresp='TTP1653641P1' xml:id='OTP1653641P1'>G a C
+</p>
+
+<p corresp='TTP1653641P2' xml:id='OTP1653641P2'>Geo. A. Cox
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

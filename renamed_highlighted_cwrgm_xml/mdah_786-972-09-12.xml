@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Thomas McLeod to Mississippi Governor James L. Alcorn; March 7, 1871</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 15 edits between
+              <date type="first_edit" when="2023-03-06T03:57:42Z">March  6, 2023</date> and
+              <date type="last_edit" when="2024-01-30T17:08:37Z">January 30, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2023-02-09T20:38:15Z">February  9, 2023</date> and
+              <date type="last_edit" when="2023-03-25T23:01:39Z">March 25, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-03-24T20:37:36Z">March 24, 2023</date> and
+              <date type="last_edit" when="2023-03-24T20:39:13Z">March 24, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-01-28T04:30:46Z">January 28, 2023</date> and
+              <date type="last_edit" when="2023-01-28T22:27:24Z">January 28, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T13:31:27Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T18:00:34Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-11-21T17:07:54Z">November 21, 2022</date> and
+              <date type="last_edit" when="2022-11-21T17:08:39Z">November 21, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-11-21T23:50:52Z">November 21, 2022</date> and
+              <date type="last_edit" when="2022-11-22T00:09:56Z">November 22, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-22T00:22:10Z">October 22, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U226410">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Bernard Murphy, Jr.</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:54:38+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S94280">
+              <persName>Alcorn, J. L. (James Lusk), 1816-1894</persName>
+                <idno>https://en.wikipedia.org/wiki/James_L._Alcorn</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS94280P0'>James L. Alcorn served as governor and then U.S. senator for Mississippi in the 1870s.
+</p>
+
+<p xml:id='OTPS94280P1'>Born November 4, 1816, in Illinois Territory, Alcorn spent much of his young adulthood in Kentucky. After attending Cumberland College in Princeton, Kentucky, Alcorn was deputy sheriff of Livingston County, Kentucky, and then entered legal practice in the state in the 1830s. He served a short stint in the Kentucky House of Representatives in the early 1840s and then relocated to Mississippi, where he practiced law in Coahoma County. Financial success as an attorney enabled Alcorn to buy land and establish Mound Place Plantation in the Mississippi Delta region. By 1860, Alcorn owned nearly one hundred slaves; his land holdings alone were valued at approximately $9.5 million in today’s currency. Alcorn married Mary C. Stewart of Kentucky in 1839. The couple had five children before Mary passed away in 1849. Alcorn married Amelia Walton Glover of Alabama in 1850. He fathered three children with his second wife.
+</p>
+
+<p xml:id='OTPS94280P2'>Alcorn was a Unionist during the 1850s. He served as a delegate to a special Mississippi convention to debate the south’s response to the Compromise of 1850—legislation passed in the U.S. Congress designed to settle a fierce dispute over the fate of slavery in territories gained by the United States from Mexico. He warned that secession would lead to war, with federal soldiers invading the south, liberating slaves, and a destroying southern society. Alcorn and other Unionists carried the day during the 1851 convention.
+</p>
+
+<p xml:id='OTPS94280P3'>During the 1850s, Alcorn served in the Mississippi House of Representatives and Senate as a Whig. He led a legislative effort to establish levees to reduce flooding in the Delta region, and was elected the first president of the levee board. As his standing in Mississippi politics increased, he ran for election to U.S. Congress in 1856 but lost. Whigs in Mississippi subsequently considered him for a gubernatorial run in 1857, but Alcorn turned it down.
+</p>
+
+<p xml:id='OTPS94280P4'>During the secession crisis following Abraham Lincoln’s election to the U.S. presidency in 1860, Alcorn initially maintained his Unionist leanings. However, when Mississippi issued its ordnance of secession, Alcorn pledged his loyalty to the state and volunteered for military service in Mississippi. He received an appointment as brigadier general for the state militia in 1861, but his military advancement was hindered by powerful political rivals.  Alcorn led a brigade of three Mississippi militia regiments into the field in October 1861. His brigade spent three months Kentucky—experiencing miserable weather and mud, but no combat—before disbanding in January 1862 when their enlistments expired.
+</p>
+
+<p xml:id='OTPS94280P5'>Alcorn returned home from Kentucky embittered and embroiled in disputes with his personal and political rivals. Although he backed Mississippi following secession, Alcorn was not particularly committed to the Confederate cause. After federal soldiers entered Mississippi in 1862, his plantation was among those raided. However, Alcorn established contacts within the Union army and began trading cotton with federal authorities against Confederate policy. As a result, his wealth grew and his plantation was spared the same level of destruction meted out to notable secessionists.
+</p>
+
+<p xml:id='OTPS94280P6'>Alcorn reentered Mississippi politics immediately upon the defeat of the Confederacy. He was elected to the U.S. Senate in 1865 by the postwar Mississippi government’s effort to earn readmission into the Union under President Andrew Johnson’s lenient Reconstruction plan. However, the Mississippi legislature passed a series of highly discriminatory laws (known as the Black Codes) against recently emancipated African Americans, prompting Republicans in the United States Congress to refuse Mississippi back into the Union. As a result, Alcorn was denied his seat in the Senate.
+</p>
+
+<p xml:id='OTPS94280P7'>Alcorn became a leading member of the Republican Party in Mississippi as Reconstruction developed. He embraced Black civil rights, including African American suffrage. Although born in the north, his long residency in, and service to, Mississippi before and during the Civil War made him a “scalawag” (white southerner who joined the Republican Party) to conservative whites in the south. Nevertheless, he gained enough political support to win the Republican nomination for governor and then the gubernatorial election in 1869 as Mississippi reentered the Union. He entered office in 1870 and oversaw the development of a state public education system, the creation of a land-grant college for African Americans (named Alcorn University in his honor), and pro-business acts to improve economic development in the state.
+</p>
+
+<p xml:id='OTPS94280P8'>Alcorn resigned as governor in 1871 to take a seat in the U.S. Senate for Mississippi. Though still a Republican, Alcorn represented a more conservative side of the party. Though supporting Black civil rights, he resisted some federal intervention in Mississippi affairs, and generally held white supremacist views. This put him in opposition to the other senator from Mississippi, Adelbert Ames, a former Union general who had served as a military governor in Reconstruction Mississippi and led the more radical faction of Republicans in Mississippi that pushed total racial equality. Alcorn and Ames ran against each other for governor of Mississippi in 1873. Ames won by carrying most African American votes.
+</p>
+
+<p xml:id='OTPS94280P9'>Alcorn left the U.S. Senate in 1877 and returned to Mississippi. He did not take part in most state political matters, but did stay active in the levee system and governing. In 1890, he was selected to be a delegate to the Mississippi constitutional convention. He was among the delegates the supported new restrictions against Black Mississippi rights.  Alcorn died on December 19, 1894. He is buried in Friars Point, Mississippi.
+</p>
+
+<p xml:id='OTPS94280P10'>(Wikipedia; Timothy B. Smith, <hi rend='italic'>Mississippi in the Civil War</hi>, 134-135; David Sansing, “James Lusk Alcorn: Twenty-eighth Governor of Mississippi: March 180 to November 1871,” Mississippi History Now)
+</p>
+
+<p xml:id='OTPS94280P11'>James Lusk Alcorn belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32072969">
+              <persName>Owens, F. S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32073045">
+              <persName>Patton, Wash</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32073046">
+              <persName>Magrew, A. P.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S98691">
+              <persName>Brown, James</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32073047">
+              <persName>Rodgers, Vince</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32073048">
+              <persName>Carr, Thomas</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32073049">
+              <persName>Magee, George</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32073050">
+              <persName>McGill, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32073051">
+              <persName>McLeod, Thomas</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S54240">
+              <persName>Hewson, Harry Francis, 1849-1891</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS54240P0'>Harry Francis Hewson was a governor’s private secretary in Mississippi during the Reconstruction era.
+</p>
+
+<p xml:id='OTPS54240P1'>Born to Irish immigrant parents in New Jersey in 1849, Hewson moved to Mississippi as a young man and became the private secretary to Governor James L. Alcorn in 1870. He served in that capacity for over a year and then moved to New York where he worked as an attorney. A few years later, he moved in with his mother and several siblings in New Jersey, and continued to practice law.
+</p>
+
+<p xml:id='OTPS54240P2'>He passed away in 1891, in North Bergen, New Jersey, at the age of 42.
+</p>
+
+<p xml:id='OTPS54240P3'>(“Harry F. Hewson” New Jersey, U.S. Births and Christenings Index, 1660-1931; <hi rend='italic'>The Weekly Mississippi Pilot</hi>, Jackson, MS, May 28, 1870; 1870 U. S. Census for Jackson, Mississippi; Brooklyn Ward 21, 1875 New York State Census; 1880 U.S. Census for Jersey City, New Jersey; Church of the Ascension, Jersey City, 1887-1891, Episcopal Diocese of Newark Church Records, 1800-1970)
+</p>
+
+<p xml:id='OTPS54240P4'>Harry Francis Hewson belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63470">
+              <placeName>Mississippi--Covington County. Williamsburg</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/covington-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63470P0'>Located in Covington County, Mississippi, Williamsburg was founded as early as 1819. When Covington County was created on February 4, 1819, it became its county seat until 1906. Presently, Williamsburg is an unincorporated area that is not governed by a local municipal body. (Rowland, <hi rend='italic'>Mississippi</hi>, 970; Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.61944, -89.61083</geo>
+                </note>
+            </place>
+            <place xml:id="S91519">
+              <placeName>Alabama--Limestone County</placeName>
+                <idno>http://encyclopediaofalabama.org/article/h-1289</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS91519P0'>Located in northwest Alabama, Limestone County was established on February 6, 1818 from Madison County. (Encyclopedia of Alabama; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.78, -86.9424</geo>
+                </note>
+            </place>
+            <place xml:id="S63020">
+              <placeName>Louisiana</placeName>
+                <idno>https://www.britannica.com/place/Louisiana-state</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63020P0'>The Territory of Louisiana was established on July 4, 1805. Admitted as the 18th state, Louisiana achieved statehood on April 30, 1812. (Britannica; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.0, -92.0</geo>
+                </note>
+            </place>
+            <place xml:id="S63018">
+              <placeName>Texas</placeName>
+                <idno>https://en.wikipedia.org/wiki/Republic_of_Texas</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63018P0'>The Republic of Texas was established on March 2, 1836. Admitted as the 28th state, Texas achieved statehood December 29, 1845. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.0, -100.0</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63926'>
+            <catDesc>
+              <term>Crimes (alleged)--Murder</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/murder?q=Murder</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63926P0'>"The crime of intentionally killing a person." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S63934'>
+            <catDesc>
+              <term>Judges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/judge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63934P0'>"A person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63172'>
+            <catDesc>
+              <term>Judges. Justices of the Peace</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/justice-of-the-peace</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63172P0'>"A public officer who judges local and less important legal cases, and performs marriage ceremonies." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S62926'>
+            <catDesc>
+              <term>Jails</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/jail?q=jails</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62926P0'>"A place where criminals are kept as a punishment for their crimes or while waiting for trials." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S57096'>
+            <catDesc>
+              <term>African Americans--Historically Free and Newly Freed</term>
+              <idno>https://mississippiencyclopedia.org/entries/free-blacks-in-antebellum-mississippi/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD57096P0'>Historically free African Americans included people who were both African American and lived as and/or were legally free before the American Civil War. They may or may not have previously been enslaved. In recognition of African American military service during the Revolutionary War, a number of states moved to gradually abolish slavery leading to a growing body of free African Americans.
+</p>
+
+<p xml:id='OTPSD57096P1'>Freedom, however, did not mean citizenship, and despite efforts by free Black activists to settle this question and affirm their citizenship, it was largely left to state lawmakers who otherwise failed to settle the question. Consequently, during the Antebellum era, each southern state passed different laws governing the place and rights of free African Americans. Home to the nation's largest free African American community, for example, Baltimore, Maryland registered 25,000 free Black residents by 1850. (Martha S. Jones, <hi rend='italic'>Birthright Citizens: A History of Race and Rights in Antebellum America</hi>, p. 13)
+</p>
+
+<p xml:id='OTPSD57096P2'>In another example, South Carolina's Act of 1820 distinguished between those freed before and after 1820, and classified free African Americans as "denizens," which limited citizenship rights by a series of Black Codes. In response to rebellions, numerous states passed legal restrictions that made manumission virtually impossible by the mid-nineteenth century. Loved ones who purchased family members were forced to legally hold them in bondage, leading to a body of people who "were free by practice, but not by law." (Amrita Chakrabarti Myers, <hi rend='italic'>Forging Freedom</hi>, 3–4, 207)
+</p>
+
+<p xml:id='OTPSD57096P3'>Unlike South Carolina, Mississippi's judiciary ruled that “free negroes . . . are to be regarded as alien enemies or strangers prohibited, and without the pale of comity, and incapable of acquiring or maintaining property in this State which will be recognized by our courts.” (<hi rend='italic'>Heirn v. Bridault</hi>, 37 Miss. 209, 224–25, 1859 in Jones, <hi rend='italic'>Birthright Citizens</hi>, p. 213) The state's strict provisions on manumission led to an extremely small population of free African Americans (773 people by 1860) during the antebellum era ("Free Blacks in Antebellum Mississippi," Mississippi Encyclopedia)
+</p>
+
+<p xml:id='OTPSD57096P4'>Newly freed African Americans includes people who were enslaved but became free by the passage of the Emancipation Proclamation and/or the Thirteenth Amendment. While neither was comprehensive, the Emancipation Proclamation of 1863 freed the enslaved in territories under rebellion, and later the Thirteenth Amendment of 1865 abolished slavery altogether, except when used as a punishment for those who committed a crime and did not apply to Native Nations who practices slavery. (American Battlefield Trust; Wikipedia) In the CWRGM collection, African Americans after December 6, 1865 are classified as historically free or newly freed.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+<category xml:id='C32001674S57096'>
+<catDesc>
+<term><rs ref='S57096'>African Americans--Historically Free and Newly Freed</rs></term>
+</catDesc>
+</category>
+          <category xml:id='S63177'>
+            <catDesc>
+              <term>Fugitives from Justice</term>
+              <idno>https://en.wikipedia.org/wiki/Fugitive</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63177P0'>The term "fugitive from justice" is defined broadly and covers a multiplicity of experiences under U.S. law, but refers most often to "a person who is fleeing from custody, whether it be from jail, a government arrest, government or non-government questioning, vigilante violence, or outraged private individuals" (Wikipedia). Slightly different than the above definition, a fugitive from justice may also be defined as "a person formally charged with a crime or a convicted criminal whose punishment has not yet been determined or fully served who is currently beyond the custody or control" of the party, be it local, national, or international, interested in their arrest (Wikipedia). In the nineteenth-century United States, fugitive status varied widely based on race. Many white people considered "fugitives from justice" were most often the latter definition, being those charged with or convicted of crimes who then fled across other state lines to try and evade punishment or trial. However, throughout American history up to Emancipation, fugitive status was given to escaped enslaved African Americans under the Fugitive Slave Laws of 1793 and later 1850. These laws also required anyone in the nation to apprehend self-emancipated enslaved people and return them to their owners. The term "fugitives from justice" therefore became another legal mechanism by which enslavers sought to control the movements and freedoms of the enslaved, while contributing heavily to the increasing sectionalism that would lead to the American Civil War (Britannica). To learn more about enslaved people who emancipations themselves and were labeled fugitives, see the "Emancipation and self-emancipation" subject tag under Events.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001666'>
+<catDesc>Races, Ethnicities, &amp; Nationalities</catDesc>
+          <category xml:id='S62968'>
+            <catDesc>
+              <term>African Americans</term>
+              <idno>https://en.wikipedia.org/wiki/African_Americans</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62968P0'>The Cambridge Dictionary classifies "a person who lives in the U.S. and is a member of a race of people with dark skin that originally came from Africa" as African American, but both the nineteenth-century and modern constructions are more complex (Cambridge Dictionary). Common nineteenth-century racial categories such as "mulatto" referred to persons with both white and black ancestry, and the experiences of mixed-race persons varied based on complexion, degree of African ancestry, and the region in which they lived. In antebellum cities with large populations of free Blacks, the degree of one's African ancestry could determine what rights one possessed or did not possess, and people with lighter skin tones were often considered to be white; this ended under "one drop rule" during the Jim Crow system.
+</p>
+
+<p xml:id='OTPSD62968P1'>Like skin tone, the ethnicity implied by the term "African American" is also problematically broad, as "naming people only by the continent of their origin and ignoring their ethnic identity is a consequence of time and space" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 5). The experience of slavery complicated the term by attempting to strip people of their original distinct African ethnic identities such as Ibo or Ndongan, classifying all persons of African descent together under one term, infusing that term with negative connotation, and disregarding the complex and rich linguistic, cultural, and ethnic histories of varied African people. However, many Black Americans have reclaimed the term "African American" and infused it with positive connotations. One scholar argues that "in using the term 'African Americans,' Black Americans accent the part of their heritage that is not American" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 4).
+</p>
+
+<p xml:id='OTPSD62968P2'>CWRGM — acknowledging the multiplicity of the term's meanings and connotations — includes multiracial and multiethnic people of African descent under the "African Americans" social identifiers subject tag to reflect the diversity of the African American experience and to ensure that the experiences of African Americans of mixed races and ethnicities are discoverable as they are rarely distinguished further in the letters. In the absence of other references, CWRGM also tags racial slurs targeted at African Americans — which were common in nineteenth century documents with white authors — under the "African Americans" tag. CWRGM recognizes the historic and present harm caused by such language and does not condone its use but tags these terms only to ensure the rich history of African Americans are discoverable within the collection.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001666S57096'>
+<catDesc>
+<term><rs ref='S57096'>African Americans--Historically Free and Newly Freed</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S63262'>
+            <catDesc>
+              <term>Death</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/death</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63262P0'>While the Cambridge Dictionary defines death as “the end of life,” CWRGM employs this subject tag to refer to human deaths only, both actual and hypothetical. (Cambridge Dictionary)
+</p>
+
+<p xml:id='OTPSD63262P1'>The nation experienced mass loss of life (approximately 2% of the population) during the American Civil War, which changed the way Americans viewed death and resulted in its reconceptualization in highly bureaucratized ways. Often wartime dead were buried without their names and sometimes in poorly-dug graves, which created a powerful, profound social and cultural dislocation for their surviving loved ones. During the 19th century, Americans understood dying as a social and religious experience, and desired a "good death," which they defined as at home surrounded by family, but these ideals were unattainable in war. Consequently, Americans learned to cope with death and memorialize it in new ways. Unionists encouraged the federal government and ex-Confederates pushed their respective state governments to create and fund national cemeteries, rebury deceases soldiers and veterans, and establish veterans' and widows' pensions. These new responses to death were more bureaucratized, nationalistic, and secularized. Wartime and post-war death was also highly impacted by race, as white supremacists desecrated the graves of Union buried in the South, especially the bodies of African Americans who served in U.S. Colored Troops and the white officers that led them, revealing post-war sectionalism and strains on reconciliation. (Drew Gilpin Faust, <hi rend='italic'>This Republic of Suffering</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Alcorn Series 786</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Endowment for the Humanities; Funding for this project provided by the College of Arts and Sciences at the University of Southern Mississippi.; Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1871</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>McLeod, Thomas</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1871-03-07</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Alcorn Collection. Letter from Sheriff Thomas McLeod to Mississippi Governor James L. Alcorn, reporting a list of persons who have murdered others within Covington County, Mississippi, and who are on the run and have escaped to other states. (The letter includes names and brief descriptions of the offenders.)</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 12.5&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Williamsburg (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_786-972-09-12</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Covington County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Leela Lavanya Battula; McKenna Fussell; Dalton Wood; Sarah West</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 972, Folder 9</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Alcorn, J. L. (James Lusk), 1816-1894; Escaped prisoners; Mississippi. Governor; Murder; Sheriffs</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Thomas McLeod to Mississippi Governor James L. Alcorn; March 7, 1871</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/24713&quot;&gt;Letter from Thomas McLeod to Mississippi Governor James L. Alcorn; March 7, 1871&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG34" who="U2" when="2024-10-25T18:00:34Z" target="#P32787937">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U2" when="2024-10-25T13:31:27Z" target="#P32787936">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U32019810" when="2024-10-22T00:22:10Z" target="#P32787937">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2024-01-30T17:08:37Z" target="#P32787936">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-11-17T17:30:40Z" target="#P32787936">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-11-02T04:35:12Z" target="#P32787936">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-11-02T04:20:09Z" target="#P32787936">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-11-02T04:13:15Z" target="#P32787936">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-09-03T00:40:15Z" target="#P32787936">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-09-02T20:14:30Z" target="#P32787936">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U25091356" when="2023-03-25T23:01:39Z" target="#P32787936">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U25091195" when="2023-03-24T20:39:13Z" target="#P32787937">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U25091195" when="2023-03-24T20:38:39Z" target="#P32787936">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U25091195" when="2023-03-24T20:37:36Z" target="#P32787936">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-03-19T18:20:28Z" target="#P32787937">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-03-19T02:31:04Z" target="#P32787936">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-03-18T15:12:59Z" target="#P32787936">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-03-18T14:46:21Z" target="#P32787936">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-03-18T02:51:31Z" target="#P32787936">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-16T20:53:28Z" target="#P32787936">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-06T04:59:32Z" target="#P32787936">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-06T03:57:42Z" target="#P32787936">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091356" when="2023-02-10T16:41:36Z" target="#P32787937">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091356" when="2023-02-09T20:41:30Z" target="#P32787937">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091356" when="2023-02-09T20:40:22Z" target="#P32787937">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091356" when="2023-02-09T20:38:15Z" target="#P32787936">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091253" when="2023-01-28T22:27:24Z" target="#P32787937">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091253" when="2023-01-28T22:23:28Z" target="#P32787936">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091253" when="2023-01-28T04:30:46Z" target="#P32787936">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U226410" when="2022-11-22T00:09:56Z" target="#P32787937">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U226410" when="2022-11-21T23:50:52Z" target="#P32787936">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2022-11-21T17:08:39Z" target="#P32787937">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U231087" when="2022-11-21T17:07:54Z" target="#P32787936">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-11-14T22:20:19Z" target="#P32787937">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-11-14T22:20:10Z" target="#P32787936">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32787936" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:24711/full/full/0/default.jpg"/>
+        <div xml:id="OTP32787936">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32787936P0' xml:id='OTP32787936P0'>[seal]
+</p>
+
+<p corresp='TTP32787936P1' xml:id='OTP32787936P1'><rs ref='#S63470'>Williamsburg Covington county Mi<add place='above'>ss</add></rs> March 7<add place='above'>th</add> 1871
+</p>
+
+<p corresp='TTP32787936P2' xml:id='OTP32787936P2'>His Exelency Govenor <rs ref='#S94280'>J. L. Alcorn</rs>
+</p>
+
+<p corresp='TTP32787936P3' xml:id='OTP32787936P3'>Dear Sir
+</p>
+
+<p corresp='TTP32787936P4' xml:id='OTP32787936P4'>I have Just received yours of the 28 ult And hasten to reply <rs ref='#S32072969'>F S Owins</rs> <rs ref='#S63926'>Murdered</rs> <rs ref='#S32073045'>Wash Patton</rs> in this county on the 10 day of May AD 1868 and is and have been <rs ref='#S63177'>at Large</rs> and it is said is Living in <rs ref='#S91519'>Limestone county Alabama</rs> his dscription is a bout 5 feet 10 inches high dark hair and Black eys dark complexion ^their is a true bill for <rs ref='#S63262'>murder</rs>^
+</p>
+
+<p corresp='TTP32787936P5' xml:id='OTP32787936P5'>The next case <rs ref='#S32073046'>A. P. Magrew</rs> Murdered <rs ref='#S98691'>James Brown</rs> in AD 1865 and is now Removed to <rs ref='#S63020'>Louisiana</rs> or <rs ref='#S63018'>Texas</rs> his description is a a bout 5 feet 8 or 9 inches high a ^dark complexion dark hair &amp; blue eyes^ True bill for Murder was found against him last Nov term 1870 case 3<add place='above'>rd</add> <rs ref='#S32073047'>Vince Rodgers</rs> <rs ref='#S57096'>coulerd</rs> was Killed by <rs ref='#S32073048'>Thomas Carr</rs> ^11 day of January 1868^ whom was taken up before 2 <rs ref='#S63172'>Justices of the peace</rs> and Acquitted
+</p>
+
+<p corresp='TTP32787936P6' xml:id='OTP32787936P6'>Case 4<add place='above'>th</add> <rs ref='#S32073049'>George Magee</rs> coulered. Killed his Father on the 28<add place='above'>th</add> day of Februay AD 1871 who is now in <rs ref='#S62926'>Jail</rs> in said county. Case 5 their was one other case of Murder in this county in the fall of 1868 killed by a crowd of unknown persons This surname Was <rs ref='#S32073050'>M<add place='above'>c</add>Gill</rs> I am not able now to learn.
+</p>
+
+<p corresp='TTP32787936P7' xml:id='OTP32787936P7'>Theas are all of the cases I now know of
+</p>
+
+<p corresp='TTP32787936P8' xml:id='OTP32787936P8'>Your Friend
+</p>
+
+<p corresp='TTP32787936P9' xml:id='OTP32787936P9'><rs ref='#S32073051'>T<add place='above'>h</add> S. M<add place='above'>c</add>Leod</rs> <rs ref='#S95578'>shff</rs> 
+</p>
+
+
+        </div>
+        <pb xml:id="F32787937" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:24712/full/full/0/default.jpg"/>
+        <div xml:id="OTP32787937">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32787937P0' xml:id='OTP32787937P0'><b>PRECIS.</b><lb/>
+[gap]
+</p>
+
+<p corresp='TTP32787937P1' xml:id='OTP32787937P1'><hr/><lb/>
+<hi rend='italic'>No'.</hi> [gap]<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32787937P2' xml:id='OTP32787937P2'><b><rs ref='#S25026074'>Executive Office,<lb/>
+State of Mississippi</rs>,</b><lb/>
+<hi rend='italic'>County of</hi> Covington<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32787937P3' xml:id='OTP32787937P3'><hi rend='italic'>From</hi> Sheriff M<add place='above'>c</add>Leod<lb/>
+<hi rend='italic'>Address</hi> Williamsburg<lb/>
+<hi rend='italic'>Dated</hi> March 7/71.<lb/>
+<hi rend='italic'>Received</hi> [gap]<lb/>
+<hi rend='italic'>Answered</hi> [gap]<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32787937P4' xml:id='OTP32787937P4'>Reports crimes committed in the county<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32787937P5' xml:id='OTP32787937P5'><b>JAMES L. ALCORN,<lb/>
+Governor.</b>
+</p>
+
+<p corresp='TTP32787937P6' xml:id='OTP32787937P6'><b><rs ref='#S54240'>H. F. HEWSON</rs>,</b><lb/>
+<hi rend='italic'><rs ref='#S95466'>Private Secretary</rs>.</hi><lb/>
+<hr/> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

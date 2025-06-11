@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Petition to Mississippi Governor John J. Pettus; November 6, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U25090807">
+          <persName
+            >
+            Patricia Parrish
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2022-05-18T21:17:51Z">May 18, 2022</date> and
+              <date type="last_edit" when="2022-05-19T00:52:25Z">May 19, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2022-06-01T22:39:13Z">June  1, 2022</date> and
+              <date type="last_edit" when="2023-11-02T03:59:40Z">November  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2022-05-22T17:22:27Z">May 22, 2022</date> and
+              <date type="last_edit" when="2022-05-22T17:34:51Z">May 22, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-06-01T02:59:37Z">June  1, 2022</date> and
+              <date type="last_edit" when="2022-06-01T03:05:14Z">June  1, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T17:31:36Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:10:38+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32033528">
+              <persName>Collier, G. W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033529">
+              <persName>Mathews, W. F.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033530">
+              <persName>Alexander, G. H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033531">
+              <persName>Adams, H. B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033532">
+              <persName>Deterley, J. L.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033533">
+              <persName>Slater, B. J.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033534">
+              <persName>McBroom, D. T.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033535">
+              <persName>Bradshaw, A. H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033536">
+              <persName>Ross, U. B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033537">
+              <persName>Roblin, C. W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033538">
+              <persName>McCain, W. G.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033539">
+              <persName>Hooter, W. L.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033540">
+              <persName>Bell, W. T.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033541">
+              <persName>Fears, R. L.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033542">
+              <persName>Bell, J. F.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033543">
+              <persName>Goff, R. C.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033544">
+              <persName>Brute, James</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033545">
+              <persName>Shiegler, W. D.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033546">
+              <persName>Webster, Jacob</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033547">
+              <persName>Mason, Henry</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033548">
+              <persName>Leggett, Samuel</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033549">
+              <persName>Green, A.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033550">
+              <persName>Kitchens, J. B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033551">
+              <persName>Kitchens, B. F.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033552">
+              <persName>Sanders, J. G.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033553">
+              <persName>Bruce, T. P.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033554">
+              <persName>Felkey, S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033555">
+              <persName>Reiff, Louis</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033556">
+              <persName>Deterley, M. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033557">
+              <persName>McBroom, W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033558">
+              <persName>Webster, N. B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033559">
+              <persName>McAlister, Alexander</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033560">
+              <persName>Webster, W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033561">
+              <persName>Lakeman, F. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S95611">
+              <persName>Johnston, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033562">
+              <persName>Buck, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S62975">
+              <placeName>Mississippi--Warren County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/warren-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS62975P0'>Located in southwest Mississippi, Warren County was established December 22, 1809. (Mississippi Encyclopedia; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.36, -90.85</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S95151'>
+            <catDesc>
+              <term>Political Elections</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/election?q=elections</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95151P0'>"A time when people vote in order to choose someone for a political or official job." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001680'>
+<catDesc>Educational &amp; Academic Occupations</catDesc>
+          <category xml:id='S56589'>
+            <catDesc>
+              <term>Teachers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/teacher</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001680'>Educational &amp; Academic Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD56589P0'>"Someone whose job is to teach in a school...." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001343'>
+<catDesc>Educational Organizations</catDesc>
+          <category xml:id='S63002'>
+            <catDesc>
+              <term>Schools</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/school?q=schools</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001343'>Educational Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63002P0'>"A place where people, esp. young people, are educated." (Cambridge Dictionary) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63950'>
+            <catDesc>
+              <term>Boards of Police</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/commission</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63950P0'>"An official organization whose job is to manage a particular activity, suggest laws related to the activity, and make certain that laws are obeyed" concerning law enforcement. (Cambridge Dictionary) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S62915'>
+            <catDesc>
+              <term>Mississippi--Legislature</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_Legislature</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD62915P0'>Operating at the state level, the Mississippi State Legislature (originally called the "General Assembly") was established by Article 4 of the Mississippi Constitution on November 1, 1890, and serves as the legislative branch of the state government. It is comprised of the House of Representatives and the Senate. The Legislature is responsible for passing new statewide laws and making amendments to the Constitution. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Watson-Brown Foundation; Funding for this project provided by the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861; 1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Citizens of Warren County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-11-06</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Petition from several citizens of Warren County, Mississippi, to Mississippi Governor John J. Pettus, asking Pettus&#39;s help to get a special legislative act passed specifying rules for school trustee elections in the county as well as the duties of elected trustees.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 7.5&quot; x 12&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-25880-940-01</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Warren County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Lindsey Peterson; Austin Justice; Michael Singleton</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 25880, Folder 940</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Debt; Local elections; Mississippi. Governor; Mississippi. Legislature; Pettus, John Jones, 1813-1867; Police; School boards; Teachers; Voting</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Petition to Mississippi Governor John J. Pettus; November 6, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/20880&quot;&gt;Petition to Mississippi Governor John J. Pettus; November 6, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG24" who="U2" when="2024-10-25T17:31:36Z" target="#P32303414">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-11-02T03:59:40Z" target="#P32303414">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-09-03T00:26:45Z" target="#P32303415">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-19T18:29:56Z" target="#P32303414">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-03-18T14:58:24Z" target="#P32303414">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-03-16T19:31:36Z" target="#P32303415">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2022-06-01T22:39:13Z" target="#P32303414">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091253" when="2022-06-01T03:05:14Z" target="#P32303416">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091253" when="2022-06-01T03:03:59Z" target="#P32303415">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091253" when="2022-06-01T02:59:37Z" target="#P32303414">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091356" when="2022-05-22T17:34:51Z" target="#P32303416">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091356" when="2022-05-22T17:34:46Z" target="#P32303416">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091356" when="2022-05-22T17:24:41Z" target="#P32303415">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091356" when="2022-05-22T17:22:27Z" target="#P32303414">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25090807" when="2022-05-19T00:52:25Z" target="#P32303416">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25090807" when="2022-05-19T00:51:25Z" target="#P32303416">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25090807" when="2022-05-19T00:51:24Z" target="#P32303416">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25090807" when="2022-05-19T00:39:43Z" target="#P32303415">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25090807" when="2022-05-19T00:39:43Z" target="#P32303415">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25090807" when="2022-05-19T00:24:27Z" target="#P32303414">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25090807" when="2022-05-18T21:17:52Z" target="#P32303414">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25090807" when="2022-05-18T21:17:51Z" target="#P32303414">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2022-05-16T20:07:40Z" target="#P32303416">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-05-16T20:07:38Z" target="#P32303415">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-05-16T20:07:36Z" target="#P32303414">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32303414" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:20877/full/full/0/default.jpg"/>
+        <div xml:id="OTP32303414">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32303414P0' xml:id='OTP32303414P0'><rs ref='#S62975'>Warren County</rs><lb/>
+State of Mississippi<lb/>
+November 6<add place='above'>th</add> 1861
+</p>
+
+<p corresp='TTP32303414P1' xml:id='OTP32303414P1'>To His Excellency, <lb/>
+<rs ref='#S63111'>John J Pettus</rs>
+</p>
+
+<p corresp='TTP32303414P2' xml:id='OTP32303414P2'>Sir
+</p>
+
+<p corresp='TTP32303414P3' xml:id='OTP32303414P3'>We the undersigned citizens of Township Eighteen, North of Range Five East would respectfully request your Excellency to lay before the <rs ref='#S62915'>Legislature</rs> our petition for a Special act for the above Mentioned Township to read as follows,
+</p>
+
+<p corresp='TTP32303414P4' xml:id='OTP32303414P4'>Section 1<add place='above'><hi rend='underline'>st</hi></add><sub>,,</sub> Be it enacted by the Legislature of the State of Mississippi that hereafter there shall be five <rs ref='#S63002'>School</rs> Trustees <rs ref='#S95151'>Elected</rs> in the County of Warren State of Mississippi on the first Monday in January 1862 and there-after in each year in and for said Township, 18 North of range five East, being and lying in the County of Warren, and shall hold their office for one year and no longer, without being re-elected
+</p>
+
+<p corresp='TTP32303414P5' xml:id='OTP32303414P5'>Section 2<add place='above'><hi rend='underline'>nd</hi></add><sub>,,</sub> No Man shall be entitled to Vote for Trustees except he be a Married or has been a Married [?] and a settled Citizen of Said Township
+</p>
+
+<p corresp='TTP32303414P6' xml:id='OTP32303414P6'>Section 3<add place='above'><hi rend='underline'>rd</hi></add><sub>,,</sub> The Trustees shall only be lenders of said Moneys belonging to Said Township and not borrowers of the same themselves and shall Make all Moneys Loaned by them on account of Said Township, payable on the 1<add place='above'><hi rend='underline'>st</hi></add><sub>,,</sub> day of January in each and every year there after with principal and Instant and shall secure the same with safe Security and all Moneys or other evidence of debt either 
+</p>
+
+
+        </div>
+        <pb xml:id="F32303415" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:20878/full/full/0/default.jpg"/>
+        <div xml:id="OTP32303415">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32303415P0' xml:id='OTP32303415P0'>principal or Interest or by Illegal Management herretofore committed by other Trustees or any person or persons shall be fully settled for, and or refusal to do so, suit shall be brought against all persons so offending by the Trustees as is heretofore provided for by Law
+</p>
+
+<p corresp='TTP32303415P1' xml:id='OTP32303415P1'>Section 4<add place='above'><hi rend='underline'>th</hi></add><sub>,,</sub> The Said Trustees shall not employ any <rs ref='#S56589'>Teacher</rs> to Teach a School in and for Said Township except he be of good moral Character and be qualified to teach the various branches of an English education, and that all Children from the age of 6 years to 21 years old shall be entitled to go to Said School So teached in and for Said Township
+</p>
+
+<p corresp='TTP32303415P2' xml:id='OTP32303415P2'>Section 5 <add place='above'><hi rend='underline'>th</hi></add><sub>,,</sub> It shall be the duty of Said Trustees, before they or either of these proceed to the discharge of the duties required of them by this act, to enter in Bond with security as may be approved of by "The <rs ref='#S63950'>Board of County Police</rs>" of the County in which they may reside, payable to the President of Said Board of County Police and his Successors in Office, Conditioned for the faithful discharge of the duties required of them by this act, and Said Board of County Police shall direct and Said Trustees shall also take an oath before Said Board of County Police that [unclear] do such Trustees according to Law, to the best of their skill and Judgement
+</p>
+
+<p corresp='TTP32303415P3' xml:id='OTP32303415P3'>The above together witth the undermentiond Signatures is a Copy of the original the Single Men (altho Citizens) relinguishing their rights to married portion of the Community.
+</p>
+
+
+        </div>
+        <pb xml:id="F32303416" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:20879/full/full/0/default.jpg"/>
+        <div xml:id="OTP32303416">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32303416P0' xml:id='OTP32303416P0'>Married Men
+</p>
+
+<p corresp='TTP32303416P1' xml:id='OTP32303416P1'><rs ref='#S32033528'>G. W Collier</rs><lb/>
+<rs ref='#S32033529'>W. F. Mathews</rs><lb/>
+<rs ref='#S32033530'>G. H. Alexander</rs><lb/>
+<rs ref='#S32033531'>H. B. Adams</rs><lb/>
+<rs ref='#S32033532'>J. L. Deterley</rs><lb/>
+<rs ref='#S32033533'>B. J Slater</rs><lb/>
+<rs ref='#S32033534'>D. T. M<add place='above'>c</add>Broom</rs><lb/>
+<rs ref='#S32033535'>A H Bradshaw</rs><lb/>
+<rs ref='#S32033536'>U. B. Ross</rs><lb/>
+<rs ref='#S32033537'>C. W Roblin</rs><lb/>
+<rs ref='#S32033538'>W. G. M<add place='above'>c</add>Cain</rs><lb/>
+<rs ref='#S32033539'>W. L. Hooter</rs><lb/>
+<rs ref='#S32033540'>W. T. Bell</rs><lb/>
+<rs ref='#S32033541'>R. L. Fears</rs><lb/>
+<rs ref='#S32033542'>J. F. Bell</rs><lb/>
+<rs ref='#S32033543'>R. C Goff</rs><lb/>
+<rs ref='#S32033544'>James Brute</rs><lb/>
+<rs ref='#S32033545'>W. D. Shiegler</rs><lb/>
+<rs ref='#S32033546'>Jacob Webster</rs><lb/>
+<rs ref='#S32033547'>Henry Mason</rs><lb/>
+<rs ref='#S32033548'>Samuel Leggett</rs><lb/>
+<rs ref='#S32033549'>A [Paper folded] Green</rs><lb/>
+<rs ref='#S32033550'>J. B. Kitchens</rs><lb/>
+<rs ref='#S32033551'>B. F Kitchens</rs><lb/>
+<rs ref='#S32033552'>J. G. Sanders</rs><lb/>
+<rs ref='#S32033553'>T. P. Bruce</rs><lb/>
+<rs ref='#S32033554'>S. Felkey</rs><lb/>
+<rs ref='#S32033555'>Louis Reiff</rs><lb/>
+<hr/><lb/>
+Single Men<lb/>
+[gap]<lb/>
+<rs ref='#S32033556'>M M Deterley</rs><lb/>
+<rs ref='#S32033557'>W. M<add place='above'>c</add>Broom</rs><lb/>
+<rs ref='#S32033558'>N. B Webster</rs><lb/>
+<rs ref='#S32033559'>Alx<add place='above'>s</add> M<add place='above'>c</add>Alister</rs><lb/>
+<rs ref='#S32033560'>W. Webster</rs><lb/>
+<rs ref='#S32033561'>F. M. Lakeman</rs><lb/>
+[gap]<lb/>
+N. B.
+</p>
+
+<p corresp='TTP32303416P2' xml:id='OTP32303416P2'>This is the entire voting population of this Township with the exception of Four, Two absent and Two to whom it has not been presented <del rend='overstrike'>to</del>
+</p>
+
+<p corresp='TTP32303416P3' xml:id='OTP32303416P3'>The Petitioners respe-ctfully presents their compliments to Messr. <rs ref='#S95611'>Johnston</rs> and <rs ref='#S32033562'>Buck</rs> their Representatives and [unclear]—able Consideration
+</p>
+
+<p corresp='TTP32303416P4' xml:id='OTP32303416P4'>The above is a true Copy of the Signatures—See original attached
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

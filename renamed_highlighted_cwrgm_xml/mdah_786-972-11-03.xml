@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from A. W. Dowling to Mississippi Governor James L. Alcorn; March 16, 1871</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 18 edits between
+              <date type="first_edit" when="2023-02-03T23:06:01Z">February  3, 2023</date> and
+              <date type="last_edit" when="2024-01-30T17:07:59Z">January 30, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2022-12-27T15:45:29Z">December 27, 2022</date> and
+              <date type="last_edit" when="2022-12-27T15:57:22Z">December 27, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2023-01-13T17:03:27Z">January 13, 2023</date> and
+              <date type="last_edit" when="2023-01-13T17:04:59Z">January 13, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-11-16T18:25:53Z">November 16, 2022</date> and
+              <date type="last_edit" when="2022-11-16T18:27:24Z">November 16, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T13:15:41Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T16:41:11Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-12-01T14:58:56Z">December  1, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T15:21:11+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S94280">
+              <persName>Alcorn, J. L. (James Lusk), 1816-1894</persName>
+                <idno>https://en.wikipedia.org/wiki/James_L._Alcorn</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS94280P0'>James L. Alcorn served as governor and then U.S. senator for Mississippi in the 1870s.
+</p>
+
+<p xml:id='OTPS94280P1'>Born November 4, 1816, in Illinois Territory, Alcorn spent much of his young adulthood in Kentucky. After attending Cumberland College in Princeton, Kentucky, Alcorn was deputy sheriff of Livingston County, Kentucky, and then entered legal practice in the state in the 1830s. He served a short stint in the Kentucky House of Representatives in the early 1840s and then relocated to Mississippi, where he practiced law in Coahoma County. Financial success as an attorney enabled Alcorn to buy land and establish Mound Place Plantation in the Mississippi Delta region. By 1860, Alcorn owned nearly one hundred slaves; his land holdings alone were valued at approximately $9.5 million in today’s currency. Alcorn married Mary C. Stewart of Kentucky in 1839. The couple had five children before Mary passed away in 1849. Alcorn married Amelia Walton Glover of Alabama in 1850. He fathered three children with his second wife.
+</p>
+
+<p xml:id='OTPS94280P2'>Alcorn was a Unionist during the 1850s. He served as a delegate to a special Mississippi convention to debate the south’s response to the Compromise of 1850—legislation passed in the U.S. Congress designed to settle a fierce dispute over the fate of slavery in territories gained by the United States from Mexico. He warned that secession would lead to war, with federal soldiers invading the south, liberating slaves, and a destroying southern society. Alcorn and other Unionists carried the day during the 1851 convention.
+</p>
+
+<p xml:id='OTPS94280P3'>During the 1850s, Alcorn served in the Mississippi House of Representatives and Senate as a Whig. He led a legislative effort to establish levees to reduce flooding in the Delta region, and was elected the first president of the levee board. As his standing in Mississippi politics increased, he ran for election to U.S. Congress in 1856 but lost. Whigs in Mississippi subsequently considered him for a gubernatorial run in 1857, but Alcorn turned it down.
+</p>
+
+<p xml:id='OTPS94280P4'>During the secession crisis following Abraham Lincoln’s election to the U.S. presidency in 1860, Alcorn initially maintained his Unionist leanings. However, when Mississippi issued its ordnance of secession, Alcorn pledged his loyalty to the state and volunteered for military service in Mississippi. He received an appointment as brigadier general for the state militia in 1861, but his military advancement was hindered by powerful political rivals.  Alcorn led a brigade of three Mississippi militia regiments into the field in October 1861. His brigade spent three months Kentucky—experiencing miserable weather and mud, but no combat—before disbanding in January 1862 when their enlistments expired.
+</p>
+
+<p xml:id='OTPS94280P5'>Alcorn returned home from Kentucky embittered and embroiled in disputes with his personal and political rivals. Although he backed Mississippi following secession, Alcorn was not particularly committed to the Confederate cause. After federal soldiers entered Mississippi in 1862, his plantation was among those raided. However, Alcorn established contacts within the Union army and began trading cotton with federal authorities against Confederate policy. As a result, his wealth grew and his plantation was spared the same level of destruction meted out to notable secessionists.
+</p>
+
+<p xml:id='OTPS94280P6'>Alcorn reentered Mississippi politics immediately upon the defeat of the Confederacy. He was elected to the U.S. Senate in 1865 by the postwar Mississippi government’s effort to earn readmission into the Union under President Andrew Johnson’s lenient Reconstruction plan. However, the Mississippi legislature passed a series of highly discriminatory laws (known as the Black Codes) against recently emancipated African Americans, prompting Republicans in the United States Congress to refuse Mississippi back into the Union. As a result, Alcorn was denied his seat in the Senate.
+</p>
+
+<p xml:id='OTPS94280P7'>Alcorn became a leading member of the Republican Party in Mississippi as Reconstruction developed. He embraced Black civil rights, including African American suffrage. Although born in the north, his long residency in, and service to, Mississippi before and during the Civil War made him a “scalawag” (white southerner who joined the Republican Party) to conservative whites in the south. Nevertheless, he gained enough political support to win the Republican nomination for governor and then the gubernatorial election in 1869 as Mississippi reentered the Union. He entered office in 1870 and oversaw the development of a state public education system, the creation of a land-grant college for African Americans (named Alcorn University in his honor), and pro-business acts to improve economic development in the state.
+</p>
+
+<p xml:id='OTPS94280P8'>Alcorn resigned as governor in 1871 to take a seat in the U.S. Senate for Mississippi. Though still a Republican, Alcorn represented a more conservative side of the party. Though supporting Black civil rights, he resisted some federal intervention in Mississippi affairs, and generally held white supremacist views. This put him in opposition to the other senator from Mississippi, Adelbert Ames, a former Union general who had served as a military governor in Reconstruction Mississippi and led the more radical faction of Republicans in Mississippi that pushed total racial equality. Alcorn and Ames ran against each other for governor of Mississippi in 1873. Ames won by carrying most African American votes.
+</p>
+
+<p xml:id='OTPS94280P9'>Alcorn left the U.S. Senate in 1877 and returned to Mississippi. He did not take part in most state political matters, but did stay active in the levee system and governing. In 1890, he was selected to be a delegate to the Mississippi constitutional convention. He was among the delegates the supported new restrictions against Black Mississippi rights.  Alcorn died on December 19, 1894. He is buried in Friars Point, Mississippi.
+</p>
+
+<p xml:id='OTPS94280P10'>(Wikipedia; Timothy B. Smith, <hi rend='italic'>Mississippi in the Civil War</hi>, 134-135; David Sansing, “James Lusk Alcorn: Twenty-eighth Governor of Mississippi: March 180 to November 1871,” Mississippi History Now)
+</p>
+
+<p xml:id='OTPS94280P11'>James Lusk Alcorn belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32050551">
+              <persName>Eskridge, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32066670">
+              <persName>Brantly, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32066673">
+              <persName>Stewart, Charley</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32078005">
+              <persName>Stewart, Isham, 1810-1893</persName>
+                <idno>https://much-ado.net/legislators/legislators/isham-stewart/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002630">African Americans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002817">Enslaved/Previously Enslaved</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32078005P0'>Isham (or Isom) Stewart was an African American politician in Mississippi during Reconstruction.
+</p>
+
+<p xml:id='OTPS32078005P1'>Born on April 10, 1810, in Virginia, Stewart was likely enslaved in his youth and reportedly received little education. He was relocated to North Carolina and then Mississippi by the 1840s. Stewart was likely freed during the Civil War, and may have served in the Third United States Colored Cavalry Regiment during the latter half of the conflict, which recruited Black men from western Mississippi.
+</p>
+
+<p xml:id='OTPS32078005P2'>After the Civil War, Stewart became active in Republican Party politics in Mississippi. Despite his lack of education, he was well regarded by many in the party and among the state’s African American population for his intelligence and speaking ability. He reportedly told one newspaper reporter that he was a Baptist minister before being encouraged to run for political office. Stewart served for several years in the Mississippi House of Representatives and Mississippi Senate, and was a delegate to the 1868 state constitutional convention.
+</p>
+
+<p xml:id='OTPS32078005P3'>Stewart died on January 15, 1893. He was married to Ginsey Ingall, who was twenty years younger than him. He likely had been married before, while a slave in North Carolina, as census records indicate that he had a child only two years younger than Ginsey.  Overall, he had at least nine children. Stewart is buried in United Methodist Cemetery in Macon, Mississippi.
+</p>
+
+<p xml:id='OTPS32078005P4'>(1870 U.S. Census for Macon, Noxubee County, Mississippi; Historical Data Systems, <hi rend='italic'>U.S. Civil War Soldier Records and Profiles, 1861-1865</hi>, Ancestry.com; <hi rend='italic'>Weekly Clarion-Ledger</hi>, Jackson, MS, Februsry 28, 1895; Wikipedia; FindaGrave; “Isham Stewart,” Against All Odds: The first Black legislators in Mississippi, Much-ado.net)
+</p>
+
+<p xml:id='OTPS32078005P5'>Isham Stewart belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S52737">
+              <persName>Dowling, A. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51740">
+              <placeName>Mississippi--Noxubee County. Macon</placeName>
+                <idno>https://en.wikipedia.org/wiki/Macon,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51740P0'>Located in Noxubee County, Macon was founded on August 10, 1835, and serves as the county seat. (Wikipedia; Dunbar Rowland, <hi rend='italic'>Mississippi,</hi> Vol. 2, pg. 158)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.1125, -88.56111</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001334'>
+<catDesc>Services &amp; Entertainment Industries</catDesc>
+          <category xml:id='S32033198'>
+            <catDesc>
+              <term>Restaurants</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/restaurant</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001334'>Services &amp; Entertainment Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32033198P0'>"A place where meals are prepared and served to paying customers." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63926'>
+            <catDesc>
+              <term>Crimes (alleged)--Murder</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/murder?q=Murder</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63926P0'>"The crime of intentionally killing a person." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32074731'>
+            <catDesc>
+              <term>Criminal Procedures--Charges and Specifications (Civil and Criminal)</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/charge?q=Charges</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32074731P0'>"To make a formal statement saying that someone is accused of a crime." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S63934'>
+            <catDesc>
+              <term>Judges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/judge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63934P0'>"A person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S77229'>
+            <catDesc>
+              <term>Law Enforcement--Police</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/police-officer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD77229P0'>"A member of the police force." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32022564'>
+            <catDesc>
+              <term>Prison Wardens</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/warden</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32022564P0'>"The person in charge of a prison." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S62926'>
+            <catDesc>
+              <term>Jails</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/jail?q=jails</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62926P0'>"A place where criminals are kept as a punishment for their crimes or while waiting for trials." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Alcorn Series 786</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1871</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Dowling, A. W.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1871-03-16</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Alcorn Collection. Letter from A. W. Dowling to Mississippi Governor James L. Alcorn, informing Alcorn that M. Eskridge was in jail on the suspicion of having murdered a Mr. Brantly in Macon, Mississippi but was seen out with several town law enforcement officials last night.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 10.5&quot; x 8.5&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Macon (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_786-972-11-03</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Noxubee County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>McKenna Fussell; Britany Castilaw; Dalton Wood; Sarah West</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 972, Folder 11</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Alcorn, J. L. (James Lusk), 1816-1894; Crime; Jails; Mississippi. Governor; Murder; Sheriffs</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from A. W. Dowling to Mississippi Governor James L. Alcorn; March 16, 1871</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/24700&quot;&gt;Letter from A. W. Dowling to Mississippi Governor James L. Alcorn; March 16, 1871&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG33" who="U32019810" when="2024-12-01T14:58:56Z" target="#P32788005">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U2" when="2024-10-25T16:41:11Z" target="#P32788006">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U2" when="2024-10-25T13:15:41Z" target="#P32788005">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2024-01-30T17:07:59Z" target="#P32788005">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-11-17T17:28:10Z" target="#P32788005">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-11-17T17:25:18Z" target="#P32788005">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-11-02T04:04:32Z" target="#P32788005">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-11-02T03:40:40Z" target="#P32788005">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-09-03T00:40:51Z" target="#P32788005">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-09-03T00:36:43Z" target="#P32788005">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-04-06T18:41:03Z" target="#P32788006">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-19T18:22:13Z" target="#P32788006">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-19T02:39:27Z" target="#P32788005">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-03-19T02:37:00Z" target="#P32788005">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-03-19T02:34:16Z" target="#P32788005">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-03-18T22:03:27Z" target="#P32788005">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-03-18T15:30:23Z" target="#P32788005">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-03-18T04:40:02Z" target="#P32788006">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-16T20:52:17Z" target="#P32788005">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-02-12T22:23:34Z" target="#P32788006">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-02-03T23:06:01Z" target="#P32788005">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091356" when="2023-01-13T17:04:59Z" target="#P32788006">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091356" when="2023-01-13T17:04:49Z" target="#P32788005">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091356" when="2023-01-13T17:04:20Z" target="#P32788006">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091356" when="2023-01-13T17:03:27Z" target="#P32788005">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091253" when="2022-12-27T15:57:22Z" target="#P32788006">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091253" when="2022-12-27T15:54:48Z" target="#P32788005">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091253" when="2022-12-27T15:54:07Z" target="#P32788005">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25091253" when="2022-12-27T15:45:29Z" target="#P32788005">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2022-11-16T18:27:24Z" target="#P32788006">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2022-11-16T18:26:36Z" target="#P32788005">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U231087" when="2022-11-16T18:25:53Z" target="#P32788005">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-11-14T22:45:20Z" target="#P32788006">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-11-14T22:45:11Z" target="#P32788005">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32788005" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:24698/full/full/0/default.jpg"/>
+        <div xml:id="OTP32788005">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32788005P0' xml:id='OTP32788005P0'><rs ref='#S51740'>Macon</rs> Miss<lb/>
+Mch 16. 1871
+</p>
+
+<p corresp='TTP32788005P1' xml:id='OTP32788005P1'>Gov. <rs ref='#S94280'>Alcorn</rs><lb/>
+<rs ref='#S51785'>Jackson</rs>
+</p>
+
+<p corresp='TTP32788005P2' xml:id='OTP32788005P2'>Sir.
+</p>
+
+<p corresp='TTP32788005P3' xml:id='OTP32788005P3'>Believing it proper that you be advised, and doubting whether any one else will do it, inform you that the report to day is, and seems to be True, that a M<add place='above'>r</add> <rs ref='#S32050551'>Eskridge</rs> who was in <rs ref='#S62926'>Jail</rs> here, <rs ref='#S32074731'>charged</rs> with the <rs ref='#S63926'>Murder</rs> of a M<add place='above'>r</add> <rs ref='#S32066670'>Brantly</rs>, visited a <rs ref='#S32033198'>Restaurant</rs> and other places last night in Company with the <rs ref='#S95578'>Town Marshall</rs>. <rs ref='#S32066673'>Charley Stewart</rs>, the <rs ref='#S77229'>Beat Constable</rs>, or his father, <rs ref='#S63934'>Hon<add place='above'>l</add></rs> <rs ref='#S32078005'>Isham Stewart</rs>, now at Jackson, is <rs ref='#S32022564'>Jailor</rs>
+</p>
+
+<p corresp='TTP32788005P4' xml:id='OTP32788005P4'>Very Respectfully
+</p>
+
+<p corresp='TTP32788005P5' xml:id='OTP32788005P5'><rs ref='#S52737'>A M Dowling</rs> 
+</p>
+
+
+            <note resp="#U231087">https://much-ado.net/legislators/legislators/isham-stewart/</note>
+        </div>
+        <pb xml:id="F32788006" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:24699/full/full/0/default.jpg"/>
+        <div xml:id="OTP32788006">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32788006P0' xml:id='OTP32788006P0'><b>PRECIS.</b><lb/>
+[ga[]
+</p>
+
+<p corresp='TTP32788006P1' xml:id='OTP32788006P1'><hr/><lb/>
+No! [gap]<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32788006P2' xml:id='OTP32788006P2'><rs ref='#S25026074'>Executive Office</rs>,<lb/>
+<b>State of Mississippi,</b><lb/>
+County of Noxubee<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32788006P3' xml:id='OTP32788006P3'><hi rend='italic'>From</hi> A. W. Dowling<lb/>
+<hi rend='italic'>Address</hi> Macon<lb/>
+<hi rend='italic'>Dated</hi> March. 16/71<lb/>
+<hi rend='italic'>Received</hi> ⁠—<lb/>
+<hi rend='italic'>Answered</hi> ⁠—<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32788006P4' xml:id='OTP32788006P4'>Says it was re-ported that a murderer was on the streets of Macon<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32788006P5' xml:id='OTP32788006P5'><b>JAMES L. ALCORN,<lb/>
+Governor.</b>
+</p>
+
+<p corresp='TTP32788006P6' xml:id='OTP32788006P6'><b>H. F. HEWSON,</b><lb/>
+<rs ref='#S95466'>Private Secretary</rs>.<lb/>
+<hr/> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from M. M. Fortinberry to Mississippi Governor John J. Pettus; December 1, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 23 edits between
+              <date type="first_edit" when="2021-10-24T17:11:14Z">October 24, 2021</date> and
+              <date type="last_edit" when="2024-02-07T20:06:15Z">February  7, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2021-10-14T14:59:00Z">October 14, 2021</date> and
+              <date type="last_edit" when="2021-10-14T16:37:47Z">October 14, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-10-09T20:30:04Z">October  9, 2021</date> and
+              <date type="last_edit" when="2021-10-09T21:00:22Z">October  9, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-10-23T22:35:37Z">October 23, 2021</date> and
+              <date type="last_edit" when="2021-10-23T22:38:13Z">October 23, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32020358">
+          <persName
+            >
+            Elisabeth Kluin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2025-03-15T01:28:01Z">March 15, 2025</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:33:05+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S25027221">
+              <persName>Wilson, G. W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25026802">
+              <persName>Quin, D. H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25027224">
+              <persName>Fortinberry, M. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S25005258">
+              <placeName>Military training camps--Mississippi. Camp Milldale</placeName>
+                <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=snippet&amp;q=camp%20milldale&amp;f=false</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001866">Military Locations</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS25005258P0'>Located near Vicksburg in Warren County, Mississippi, Camp Milldale was a Confederate training camp established as early as 1862. (Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 888; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.46414, -90.7788</geo>
+                </note>
+            </place>
+            <place xml:id="S68623">
+              <placeName>Bodies of Water--Interstate. Pearl River</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/pearl-river/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001864">Bodies of Water</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS68623P0'>The Pearl River is a 485-mile-long River in south Mississippi and southeastern Louisiana. (Mississippi Encyclopedia; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.77, -89.59</geo>
+                </note>
+            </place>
+            <place xml:id="S63022">
+              <placeName>Tennessee</placeName>
+                <idno>https://www.britannica.com/place/Tennessee</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63022P0'>The Territory of Tennessee was established in 1789 after breaking away from North Carolina. Admitted as the 16th state, Tennessee achieved statehood June 1, 1796. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>36.0, -86.0</geo>
+                </note>
+            </place>
+            <place xml:id="S63212">
+              <placeName>Mississippi--Lawrence County. Monticello</placeName>
+                <idno>https://archive.org/details/mississippicompr02rowl/page/n277/mode/2up?q=monticello</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63212P0'>Located in Lawrence County, Monticello was founded as early as 1815 and serves as the county seat. (Rowland, <hi rend='italic'>Mississippi</hi>, 278; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.55417, -90.11</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001720'>
+<catDesc>Extraction, Manufacturing, &amp; Production</catDesc>
+          <category xml:id='S91218'>
+            <catDesc>
+              <term>Agricultural Production--Farms</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/farm#google_vignette</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001720'>Extraction, Manufacturing, &amp; Production</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD91218P0'>"'An area of land, together with a house and buildings, used for growing crops and/or keeping animals as a business.' (Cambridge Dictionary)"
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25023908'>
+            <catDesc>
+              <term>Criminal Procedures--Parole</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/parole?q=Parole</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25023908P0'>"Permission for a prisoner to be released before their period in prison is finished, with the agreement that they will behave well." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S102538'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Military Leaves and Furloughs</term>
+              <idno>https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/leaves-and-furloughs</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD102538P0'>The terms “leave” and “furlough” during the Civil War meant permission for soldiers to be absent from duty. Soldiers on leave were allowed to depart camp and partake in recreational activities or, more often, travel home to visit family. Time off was a privilege for soldiers, and often more available for officers than enlisted men. Soldiers could request leave to handle matters at home in times of hardship or emergency, but permission depended upon the military situation and the commander’s discretion. Furloughs were for limited periods of time—usually no longer than thirty days—and soldiers would be reprimanded for being absent longer than their authorized leave, a violation known as “absent without leave,” or AWOL. Punishments for the crime included loss of pay, additional duties, or temporary imprisonment.
+</p>
+
+<p xml:id='OTPSD102538P1'>The lack of furloughs contributed to low morale, especially early in the war. Some soldiers deserted or accepted the punishment for being AWOL when denied leave, especially after receiving news of hardships at home. In response, Union and Confederate officials provided more furloughs to soldiers during the latter half of the Civil War. Military officers occasionally granted leave as an award for good behavior, or issued furloughs through a lottery to raise spirits. Commanders used these options sparingly, typically allowing no more than five percent of a unit to be on leave, to maintain the unit’s effectiveness and to reduce jealousy or homesickness among those who remained behind.
+</p>
+
+<p xml:id='OTPSD102538P2'>Some soldiers abused the furlough system to avoid military duties. In rare cases, men conspired with unprincipled officers to generate furloughs without authority from higher command. Other soldiers tried to buy furloughs from their comrades who had received them legitimately, offering as much as two months of pay. The more common practice was having family members write letters to an officer, appealing for the soldier to be granted leave. Once home, some soldiers sought ways to extend their leave. A favorite method involved having a doctor send a note to the soldier’s unit attesting to a medical ailment. Others blamed weather, problems with travel, or other acts of nature. The greatest violation of the furlough system involved soldiers failing to return. Officers had to determine, usually after waiting an extended period of time, whether a soldier was AWOL or had deserted. This issue plagued the Confederacy during the final year of the war, as many soldiers lost faith in victory and chose to go home with a furlough or without. (Bell Irvin Wiley, <hi rend='italic'>The Life of Johnny Reb: The Common Soldier of the Confederacy</hi>, 132-143)   
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001718'>
+<catDesc>Natural &amp; Human Caused Disasters</catDesc>
+          <category xml:id='S98634'>
+            <catDesc>
+              <term>Starvation</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/starvation?q=Starvation</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001718'>Natural &amp; Human Caused Disasters</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98634P0'>"The state of having no food for a long period, often causing death." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001148'>
+<catDesc>State Level: USA &amp; CSA Military</catDesc>
+          <category xml:id='S63200'>
+            <catDesc>
+              <term>Mississippi. Militia</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63200P0'>A militia is a military unit made up of civilians within a community who could be called up by local (often state) officials to serve temporary military purposes. Militias were separate from regular, or permanent, armies. Because they conducted training only periodically, and provided active military service for short periods of time, militias cost less than regular armies; and because they were manned by local residents, militias were frequently seen as less threatening to early American communities than national military units comprised of strange men born in other counties or states.
+</p>
+
+<p xml:id='OTPSD63200P1'>When Mississippi seceded in 1861, enthusiasm for military service swept across the state. Volunteers filled the ranks of old militia units or created new companies within their communities, eager to repulse any federal attempt to coerce secessionists back into the Union. They also took proactive efforts, securing key positions along the Gulf Coast, including reinforcing other Southern soldiers at Pensacola and Fort Pickens in Florida. Over the next few months, as the Confederate government requested more volunteers, thousands of Mississippians and entire volunteer companies from the state transferred to Confederate service and were sent north, out of state. The units that remained within Mississippi for state defense were left in a convoluted military structure, some considered state reserves (a more formal military force for state defense) and some considered state militia (the more traditional units of citizen-soldiers called up for local, emergency use). The distinctions were not well established, and during the war Mississippians describing state units not within the Confederate army used a variety of terms—such as militia, home guard, state troops—almost interchangeably. However, under this subject tag at CWRGM you will find references to the militia and state troops; references that specifically referred to the home guard can be found separately under the Mississippi Home Guard subject tag.
+</p>
+
+<p xml:id='OTPSD63200P2'>While militia and state defense units technically fell under the governor’s authority, the state government struggled to manage, or even track, these organizations. Some, like the Third Battalion Mississippi Minute Men, were well organized, fell under direct state control, and took part in larger military operations, such as the defense of Vicksburg; others saw no combat, rarely gathered for drill, and were entirely overseen by county or local community officials. Most militia members were older than the average Confederate soldier. They were typically farmers, business owners, or land owners who had families and, in many instances, slaves. Because of these responsibilities at home, militiamen expected their military duties to be periodic, temporary, and only during times of emergency, a reflection of the militia’s original intent. However, state officials occasionally activated militia units for long periods, based upon the military situation. In the summer of 1862, Mississippi’s governor, John J. Pettus, mobilized his state troops, pulling many militia units away from their communities. Held in camp for several weeks, drilling but not seeing combat, many militiamen complained of their treatment and argued that their services were needed more at home, managing farms and their communities. Despite these complaints, the governor mobilized the state troops again in 1864, and again met criticism.
+</p>
+
+<p xml:id='OTPSD63200P3'>Overall, Mississippi’s militia and state defense system during the Civil War was a complicated tangle of formal and informal military units. Infrequently used for combat assignments, these units nevertheless provided some emergency services for the state government and allowed many Mississippians a way to provide military service to the community while remaining at home to manage personal and local interests. (Tracy L. Barnett, “Mississippi ‘Milish’: Militiamen in the Civil War,” <hi rend='italic'>Civil War History</hi>, Vol. 66, No. 4 (Dec 2020), 343-379; Michael B. Ballard, <hi rend='italic'>The Civil War in Mississippi: Major Campaigns and Battles</hi>, 4-8)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25003784'>
+            <catDesc>
+              <term>Mississippi. Militia. Minute Men Infantry Regiment, 2nd (1862-1863)</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25003784P0'>The 2nd Regiment, Mississippi Militia (Minute Men) (1862-1863) (Confederate) was organized on August 11, 1862 at Camp Tupper in Hinds County, Mississippi under the command of Col. D. H. Quin and served in the Western Theater under Hebert's Brigade. It was later commanded by Majs. H. F. Cook and J. D. Fairley. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 10; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 888-889)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25027222'>
+            <catDesc>
+              <term>Mississippi. Militia. Minute Men Infantry Regiment, 2nd (1862-1863). Company A</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25027222P0'>Company A of the 2nd Regiment, Mississippi Militia (Minute Men) (1862-1863) (Confederate) was organized on July 28, 1862 in Lawrence County, Mississippi under the command of Capt. G. W. Wilson and served in the Western Theater. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 10; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 888)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001677'>
+<catDesc>Agricultural &amp; Natural Resource Occupations</catDesc>
+          <category xml:id='S58612'>
+            <catDesc>
+              <term>Farmers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/farmer?q=farmers</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001677'>Agricultural &amp; Natural Resource Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58612P0'>"Someone who owns or takes care of a farm, especially as a business." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S96659'>
+            <catDesc>
+              <term>Impoverished People</term>
+              <idno>https://www.britannica.com/topic/poverty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96659P0'>Impoverished people are those who lack "a usual or socially acceptable amount of money or material possessions," or alternately those who "lack the means to satisfy their basic needs (Britannica). This definition, necessarily subjective and broad, indicates that what one person or society deems "socially acceptable" or what constitutes "basic needs" is malleable.
+</p>
+
+<p xml:id='OTPSD96659P1'>Similarly, impoverished people in the United States in the nineteenth century did not fit one specific category. The rise of industrialism produced an increased number of impoverished people in the U. S., particularly within large urban centers. European immigrants in cities in the East, and Chinese immigrants on the West Coast, and African Americans in the South were disproportionately affected by poverty. Regionally, the highest number of impoverished people came from the U. S. South, where "both whites and African Americans struggled with debt, low cotton prices, laws favorable to employers and creditors, paltry alternatives, and the general post war devastation" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 547).
+</p>
+
+<p xml:id='OTPSD96659P2'>Racism and nativism among employers and employees also made economic advancement more difficult for people of color and immigrants. However, the impoverished made up a comparatively low percentage of Mississippi's antebellum population, given its low number of immigrants and even native residents, lack of industrialization and urbanization, and mobility of those that were impoverished (Mississippi Encyclopedia). Many reform organizations throughout the country took the lead in fighting poverty in the nineteenth century, while state and federal governments by the end of the century also developed its own institutional responses. The status of being impoverished has always carried negative connotations in American history, so CWRGM uses the tag "Impoverished people" to emphasize the personhood of those in poverty rather than their social status. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S57050'>
+            <catDesc>
+              <term>Prisoners of War</term>
+              <idno>https://www.battlefields.org/learn/articles/civil-war-prison-camps#:~:text=Despite%20the%20controversy%2C%20there%20can,many%20camps%20on%20both%20sides.</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD57050P0'>The prisoner of war experience varied across time and geography during the American Civil War. Both Union and Confederate governments, expecting a short war, did not possess the capabilities of maintaining large prisoner of war populations. Early in the war, prisoners were often exchanged on a one-to-one basis through a parole process and returned to their respective armies. However, the Union Army's enlistment of Black troops in 1862 soured the exchange process and led to the creation of large prison camps in both the North and South.
+</p>
+
+<p xml:id='OTPSD57050P1'>As the war continued, and battles grew larger and more frequent, the number of prisoners held in these camps quickly exceeded their capacities, leading to overcrowding by 1863. Civil War prison camps, particularly the Andersonville Prison Camp in Georgia, presented some of the most appalling living conditions of the war, which only deteriorated over time. Prisoners of war during the American Civil War faced inadequate food, water, and shelter while living in cramped and deeply unsanitary conditions. Prisoners of war therefore made up a significant portion of deaths during the war, often dying from starvation or sickness. The experiences of prisoners of war differed depending on which camp they were confined to and depending on their race or ethnicity, particularly as the Confederacy in 1863 adopted a policy of executing Black soldiers who surrendered rather than imprisoning them. Even among whites, hostilities over the experiences of battle also led to abuse and violence within the camps, as prisoners sought revenge on vulnerable prisoners.
+</p>
+
+<p xml:id='OTPSD57050P2'>Ultimately, the prisoner of war experience for those who survived was universally traumatizing and produced one of the most contentious points both during the Civil War and in its commemoration and reconciliation afterword, as the treatment of prisoners of war became a rallying cry for pointing out the cruelties of the enemy for both North and South (National Battlefield Trust; National Park Service).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for the project provided by the National Historical Publications and Records Commission and the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Fortinberry, M. M.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-12-01</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from M. M. Fortinberry of the militia at Monticello, Mississippi, informing Mississippi Governor John J. Pettus of the poor conditions for families in Lawrence County, Mississippi.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 10.5&quot; x 8.5&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Monticello (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-943-04-06</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Lawrence County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>A. J. Blaylock; Amy Myers; Austin Justice; MICHAELLAPTOP\Michael</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 943, Folder 4</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America--Economic conditions; Mississippi. Governor; Mississippi. Militia; Pettus, John Jones, 1813-1867; Poverty.</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from M. M. Fortinberry to Mississippi Governor John J. Pettus; December 1, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/12403&quot;&gt;Letter from M. M. Fortinberry to Mississippi Governor John J. Pettus; December 1, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG40" who="U32020358" when="2025-03-15T01:28:01Z" target="#P25195438">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2024-02-07T20:06:15Z" target="#P25195440">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-11-17T18:00:59Z" target="#P25195438">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-11-17T17:33:18Z" target="#P25195438">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-11-02T15:57:09Z" target="#P25195438">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-11-02T15:34:02Z" target="#P25195438">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-11-02T03:15:16Z" target="#P25195438">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-09-02T20:41:53Z" target="#P25195438">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-09-02T20:29:38Z" target="#P25195438">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-09-02T20:04:24Z" target="#P25195438">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-04-07T16:30:18Z" target="#P25195438">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-18T19:28:56Z" target="#P25195439">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-18T18:59:32Z" target="#P25195439">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-18T04:14:28Z" target="#P25195438">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-17T23:58:24Z" target="#P25195440">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2022-12-04T16:23:44Z" target="#P25195438">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2022-12-04T01:59:06Z" target="#P25195438">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2022-12-04T01:11:29Z" target="#P25195438">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2022-12-04T00:38:02Z" target="#P25195438">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2022-06-07T19:53:08Z" target="#P25195439">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2021-12-10T23:36:39Z" target="#P25195439">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2021-10-24T20:19:55Z" target="#P25195439">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2021-10-24T17:12:23Z" target="#P25195440">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2021-10-24T17:11:14Z" target="#P25195438">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091253" when="2021-10-23T22:38:13Z" target="#P25195440">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091253" when="2021-10-23T22:37:48Z" target="#P25195438">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091253" when="2021-10-23T22:36:56Z" target="#P25195439">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091253" when="2021-10-23T22:35:37Z" target="#P25195438">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091356" when="2021-10-14T16:37:47Z" target="#P25195439">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091356" when="2021-10-14T15:12:04Z" target="#P25195440">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091356" when="2021-10-14T15:09:11Z" target="#P25195440">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091356" when="2021-10-14T15:07:00Z" target="#P25195439">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091356" when="2021-10-14T14:59:26Z" target="#P25195439">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091356" when="2021-10-14T14:59:00Z" target="#P25195438">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U226410" when="2021-10-09T21:00:22Z" target="#P25195440">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U226410" when="2021-10-09T20:45:49Z" target="#P25195439">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U226410" when="2021-10-09T20:38:10Z" target="#P25195439">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U226410" when="2021-10-09T20:30:04Z" target="#P25195438">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2021-09-13T15:37:01Z" target="#P25195440">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2021-09-13T15:36:52Z" target="#P25195439">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-09-13T15:36:43Z" target="#P25195438">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25195438" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/12400/full/full/0/default.jpg"/>
+        <div xml:id="OTP25195438">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25195438P0' xml:id='OTP25195438P0'>[seal]
+</p>
+
+<p corresp='TTP25195438P1' xml:id='OTP25195438P1'>Dec. 1<add place='above'>th</add> 1862
+</p>
+
+<p corresp='TTP25195438P2' xml:id='OTP25195438P2'>Mr <rs ref='#S63111'>John J. Pettus</rs><lb/>
+Governor of the State sir.
+</p>
+
+<p corresp='TTP25195438P3' xml:id='OTP25195438P3'>I seat myself to write you a few lines to inform you of the condition of the Country here in Laurence County.
+</p>
+
+<p corresp='TTP25195438P4' xml:id='OTP25195438P4'>first we have failed to make a crop <rs ref='#S96659'>poor men</rs> have been compelled to <rs ref='#S102538'>leave</rs> the <rs ref='#S70882'>army</rs> to come home to provide for their <rs ref='#S25013472'>families</rs> we have corn for bread we have hogs for meat but no salt to save it Some of us is <rs ref='#S25023908'>paroled</rs> <rs ref='#S57050'>prisonir</rs> got home and found our families with <del rend='overstrike'>ald</del> out any thing at all has been out 15 months come home without a dollars and now pay 1.25 cents for a birrel of corn that would 
+</p>
+
+
+        </div>
+        <pb xml:id="F25195439" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/12401/full/full/0/default.jpg"/>
+        <div xml:id="OTP25195439">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25195439P0' xml:id='OTP25195439P0'>make about three pecks to the barrel I am myself at home on furlough failed to make a crop I belong to Capt <rs ref='#S25027221'>Wilsons</rs> <rs ref='#S25027222'>Co: of minute men</rs> under Capt <rs ref='#S25026802'>Quin</rs> at <rs ref='#S25005258'>mill, Dale</rs> we are compelled to ask you for protection untill we can provide for our families to stay in the army at eleven Dollars monthy and if we live to get home pay Sixty Dollars for a sack of salt if we can get it at that and corn at two Dollars per bushels. I now have to find my Brother and family untill we can make a crop and by that time my means are gone
+</p>
+
+<p corresp='TTP25195439P1' xml:id='OTP25195439P1'>We are poor men and are willing to defend our Country but our families first and then our country I see volunteer wifes two miles from home in <rs ref='#S68623'>Pearl river</rs> swamp Calling their hogs and their husbands in <rs ref='#S63022'>Tennesse</rs> now their are men enough that has help to provide for their families and asking two Dollars per barrel for corn to take our places untill we can make a crop as suffer we are bound to it we dont make a crop their is no [one?] to depend on the charity of our neigh-bours for they are all in our condition I no of Soldiers [wifes?] to be turned 
+</p>
+
+
+        </div>
+        <pb xml:id="F25195440" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/12402/full/full/0/default.jpg"/>
+        <div xml:id="OTP25195440">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP25195440P0' xml:id='OTP25195440P0'><rs ref='#S25027224'>M. M. Fortinberry</rs><lb/>
+<rs ref='#S63212'>Manticillo</rs><lb/>
+To Gov Pettes 1862
+</p>
+
+<p corresp='TTP25195440P1' xml:id='OTP25195440P1'>by men that had thousand of corn without any This is the general feeling of the community in which I live determe to make a crop if we can now we ask you to protect us while <rs ref='#S58612'>we</rs> work our <rs ref='#S91218'>farms</rs> your immediate attention is invited to this note and an answer returned as we are force to this or <rs ref='#S98634'>starve</rs>
+</p>
+
+<p corresp='TTP25195440P2' xml:id='OTP25195440P2'>Fight we cant untill our families are better cared for wivs are writing for Their husband and they are coming to them on the account of Their suffering condition answer soon <hi rend='underline'>M. M. Fortinberry</hi> direct to monticello Miss
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Joseph M. Jayne to Captain Pettus; May 21, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2021-02-02T19:09:03Z">February  2, 2021</date> and
+              <date type="last_edit" when="2023-11-02T03:14:13Z">November  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-02-01T14:17:01Z">February  1, 2021</date> and
+              <date type="last_edit" when="2021-06-07T21:45:01Z">June  7, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T15:07:13Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U215773">
+          <persName
+            >
+            Miranda Williamson
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-03-02T20:44:51Z">March  2, 2021</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T20:21:15+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S83293">
+              <persName>Sumner, John F.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S89586">
+              <persName>Jayne, Joseph M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S57050'>
+            <catDesc>
+              <term>Prisoners of War</term>
+              <idno>https://www.battlefields.org/learn/articles/civil-war-prison-camps#:~:text=Despite%20the%20controversy%2C%20there%20can,many%20camps%20on%20both%20sides.</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD57050P0'>The prisoner of war experience varied across time and geography during the American Civil War. Both Union and Confederate governments, expecting a short war, did not possess the capabilities of maintaining large prisoner of war populations. Early in the war, prisoners were often exchanged on a one-to-one basis through a parole process and returned to their respective armies. However, the Union Army's enlistment of Black troops in 1862 soured the exchange process and led to the creation of large prison camps in both the North and South.
+</p>
+
+<p xml:id='OTPSD57050P1'>As the war continued, and battles grew larger and more frequent, the number of prisoners held in these camps quickly exceeded their capacities, leading to overcrowding by 1863. Civil War prison camps, particularly the Andersonville Prison Camp in Georgia, presented some of the most appalling living conditions of the war, which only deteriorated over time. Prisoners of war during the American Civil War faced inadequate food, water, and shelter while living in cramped and deeply unsanitary conditions. Prisoners of war therefore made up a significant portion of deaths during the war, often dying from starvation or sickness. The experiences of prisoners of war differed depending on which camp they were confined to and depending on their race or ethnicity, particularly as the Confederacy in 1863 adopted a policy of executing Black soldiers who surrendered rather than imprisoning them. Even among whites, hostilities over the experiences of battle also led to abuse and violence within the camps, as prisoners sought revenge on vulnerable prisoners.
+</p>
+
+<p xml:id='OTPSD57050P2'>Ultimately, the prisoner of war experience for those who survived was universally traumatizing and produced one of the most contentious points both during the Civil War and in its commemoration and reconciliation afterword, as the treatment of prisoners of war became a rallying cry for pointing out the cruelties of the enemy for both North and South (National Battlefield Trust; National Park Service).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Jayne, Joseph M.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-05-21</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Joseph M. Jayne at Jackson, Mississippi, to Mississippi Governor John Jones Pettus granting Mr. John F. Sumner permission to transfer to Confederate Captain Pettus&#39; company.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_757-932-04-35</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>172080 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Jackson (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>1619</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_757-932-04-35</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Hinds County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 932, Folder 4</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Joseph M. Jayne to Captain Pettus; May 21, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>1032</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/3222&quot;&gt;Letter from Joseph M. Jayne to Captain Pettus; May 21, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG11" who="U2" when="2024-10-25T15:07:13Z" target="#P1661386">
+          Version 11 of page "Letter from Joseph M. Jayne to Captain Pettus; May 21, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2023-11-02T03:14:13Z" target="#P1661386">
+          Version 10 of page "Letter from Joseph M. Jayne to Captain Pettus; May 21, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2023-09-02T20:28:57Z" target="#P1661386">
+          Version 9 of page "Letter from Joseph M. Jayne to Captain Pettus; May 21, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2023-03-18T21:47:12Z" target="#P1661386">
+          Version 8 of page "Letter from Joseph M. Jayne to Captain Pettus; May 21, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2022-12-04T00:45:04Z" target="#P1661386">
+          Version 7 of page "Letter from Joseph M. Jayne to Captain Pettus; May 21, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U217868" when="2021-06-07T21:45:01Z" target="#P1661386">
+          Version 6 of page "Letter from Joseph M. Jayne to Captain Pettus; May 21, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U215773" when="2021-03-02T20:44:51Z" target="#P1661386">
+          Version 5 of page "Letter from Joseph M. Jayne to Captain Pettus; May 21, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U220769" when="2021-02-16T19:16:28Z" target="#P1661386">
+          Version 4 of page "Letter from Joseph M. Jayne to Captain Pettus; May 21, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2021-02-02T19:09:03Z" target="#P1661386">
+          Version 3 of page "Letter from Joseph M. Jayne to Captain Pettus; May 21, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U217868" when="2021-02-01T14:17:01Z" target="#P1661386">
+          Version 2 of page "Letter from Joseph M. Jayne to Captain Pettus; May 21, 1861":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2020-12-18T01:38:19Z" target="#P1661386">
+          Version 1 of page "Letter from Joseph M. Jayne to Captain Pettus; May 21, 1861":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2020-12-18T01:38:15Z" target="#P1661386">
+          Version 0 of page "Letter from Joseph M. Jayne to Captain Pettus; May 21, 1861":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1661386" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/3222/full/full/0/default.jpg"/>
+        <div xml:id="OTP1661386">
+        <fw type="pageNum">Letter from Joseph M. Jayne to Captain Pettus; May 21, 1861</fw>
+          <p corresp='TTP1661386P0' xml:id='OTP1661386P0'><rs ref='#S51785'>Jackson</rs> May 21<add place='above'>st</add> 1861
+</p>
+
+<p corresp='TTP1661386P1' xml:id='OTP1661386P1'>Capt <rs ref='#S63111'>Pettus</rs>
+</p>
+
+<p corresp='TTP1661386P2' xml:id='OTP1661386P2'>Dear Sir:
+</p>
+
+<p corresp='TTP1661386P3' xml:id='OTP1661386P3'>Mr <rs ref='#S83293'>Sum-ner</rs> has my permission to be transfered to your Company.
+</p>
+
+<p corresp='TTP1661386P4' xml:id='OTP1661386P4'>Tell him to send his clothes down immediately. I have marching orders &amp; will leave on Thursday. Tell my men to bring provisions to last until Thursday after which time they will be provided for
+</p>
+
+<p corresp='TTP1661386P5' xml:id='OTP1661386P5'>Yours Truly <lb/>
+<rs ref='#S89586'>Jos. M. Jayne</rs><lb/>
+Capt <rs ref='#S57050'>Confederate Rifles</rs> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

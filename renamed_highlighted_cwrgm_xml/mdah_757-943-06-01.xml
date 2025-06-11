@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Colonel Harrison Richard to Mississippi Governor John J. Pettus; December 19, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 14 edits between
+              <date type="first_edit" when="2021-05-05T19:07:13Z">May  5, 2021</date> and
+              <date type="last_edit" when="2023-11-17T17:24:19Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228005">
+          <persName
+            >
+            Heather A Haslem
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-04-16T16:24:51Z">April 16, 2021</date> and
+              <date type="last_edit" when="2021-04-16T16:28:15Z">April 16, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-03-18T16:38:28Z">March 18, 2021</date> and
+              <date type="last_edit" when="2021-03-18T16:40:39Z">March 18, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220513">
+          <persName
+            >
+            Jan Pilkington
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-03-18T18:02:53Z">March 18, 2021</date> and
+              <date type="last_edit" when="2021-03-18T18:05:47Z">March 18, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228445">
+          <persName
+            >
+            Abby Cawley
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-04-09T15:45:15Z">April  9, 2021</date> and
+              <date type="last_edit" when="2021-04-09T15:47:33Z">April  9, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-06-02T18:38:04Z">June  2, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T13:17:34Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U220513">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Jan Pilkington</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T16:17:05+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S63402">
+              <persName>Harrison, Richard</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S97207">
+              <persName>Pemberton, John C. (John Clifford), 1814-1881</persName>
+                <idno>https://en.wikipedia.org/wiki/John_C._Pemberton</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS97207P0'>John C. Pemberton was a Confederate general, most famous for commanding troops in the unsuccessful defense of Vicksburg, Mississippi, in 1863.
+</p>
+
+<p xml:id='OTPS97207P1'>Born in Philadelphia, Pennsylvania, on August 10, 1814, Pemberton was raised and educated in the north. He graduated from the United States Military Academy at West Point, New York, in 1837, and immediately afterwards served as a U.S. artillery officer in the Second Seminole War in Florida. He remained a professional soldier for the next two decades, serving at various forts and posts in the United States, along the Canadian border, and in the west. During the Mexican-American War, from 1846 to 1848, Pemberton served with the 4th U.S. Artillery and took part in the battles of Palo Alto, Resaca de La Palma, and Monterrey. He earned the brevet (honorary) rank of captain for his actions at Monterrey. He continued to serve with distinction at several other engagements in Mexico, including the storming of Chapultepec castle and the battle at Mexico City.
+</p>
+
+<p xml:id='OTPS97207P2'>In 1848, following the Mexican-American War, Pemberton married Martha Thompson of Virginia. The couple had one daughter and three sons, all born in the 1850s. Pemberton continued to serve at a variety of posts in the United States, and saw additional action in Florida against the Seminoles from 1849 to 1850, and then again from 1856 to 1857. After spending a year in New Mexico Territory and three years in Minnesota, Pemberton was sent to Washington, D.C., in the spring of 1861, in the midst of the secession crisis. Despite his northern upbringing, Pemberton resigned his commission from the United States Army when the Civil War erupted in April 1861. He immediately volunteered for Confederate service and received an appointment as assistant adjutant general of Confederate forces at Richmond, Virginia.
+</p>
+
+<p xml:id='OTPS97207P3'>Because of his lengthy military experience, Pemberton rose quickly in Confederate ranks, reaching major general in January 1862. He was placed in command of the military department defending Georgia and South Carolina, but soon ran into conflict with the states’ governors who objected to Pemberton's assertion that the survival of his army was more important than defending the region, and due to mistrust of his northern heritage. Confederate President Jefferson Davis placed the more popular General P. G. T. Beauregard in charge of the defense of Georgia and South Carolina and relocated Pemberton to a new military department in Mississippi.
+</p>
+
+<p xml:id='OTPS97207P4'>At his new assignment in Mississippi, in the fall of 1862, Pemberton received the promotion to lieutenant general. He was responsible for defending the Mississippi River and key port towns, such as Vicksburg, from federal attack. Unlike the more famous Confederate armies to the east, Pemberton’s command was made up of southern troops who had suffered several defeats against aggressive Union commanders at battles like Shiloh and Corinth. Many of Pemberton’s troops were separated, and he struggled to unite his force to stage an effective defense against Ulysses S. Grant’s Union army, which began a campaign for Vicksburg in December 1862. Making matters worse for the Confederate general, his orders were to hold Vicksburg at all cost—meaning that he had limited ability to maneuver or even withdraw to save his army in the face of Grant’s larger force.
+</p>
+
+<p xml:id='OTPS97207P5'>Between December 1862 and July 1863, Grant conducted a slow, creative, but ultimately persistent campaign to surround and capture Vicksburg. Utilizing his aggressive subordinate William T. Sherman, Grant cut Pemberton and his Confederate troops off at Vicksburg and burned Mississippi’s capital of Jackson in May 1863. After being besieged in Vicksburg by Grant’s troops for six weeks, Pemberton realized he had no other choice but to surrender. On July 4, 1863, Pemberton ordered his army to lay down its arms and open Vicksburg to Grant’s army. The defeat occurred one day after Robert E. Lee’s battlefield loss at Gettysburg, Pennsylvania, delivering a double blow to Confederate morale.
+</p>
+
+<p xml:id='OTPS97207P6'>Pemberton and his men were captured and paroled by Union forces—a practice by which prisoners were allowed to return home or to encampments under the sworn oath not to take up arms until formally exchanged for Union prisoners. Pemberton traveled to Richmond where he remained idle for several months. Not receiving a new assignment, he resigned his general’s commission in May 1864. President Davis offered him a conciliatory assignment as a lieutenant colonel of artillery, which he accepted. He temporarily commanded the artillery defense of Richmond before taking an appointment as inspector general of artillery. Pemberton was captured by Union troops in mid-April 1865 during the final days of the war.
+</p>
+
+<p xml:id='OTPS97207P7'>Following the Civil War, Pemberton moved to Warrenton, Virginia. He remained there until 1876, when he moved back to Pennsylvania. He lived quietly on a farm, passing away in 1881. Pemberton is buried in Laurel Hill Cemetery East in Philadelphia, Pennsylvania.
+</p>
+
+<p xml:id='OTPS97207P8'>(Wikipedia; National Park Service, American Battlefield Trust; FindaGrave)
+</p>
+
+<p xml:id='OTPS97207P9'>John Clifford Pemberton belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63123">
+              <placeName>Mississippi--Grenada County. Grenada</placeName>
+                <idno>https://en.wikipedia.org/wiki/Grenada,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63123P0'>Currently located in Grenada County, Grenada was founded in 1836 in what was then Yalobusha County. When Grenada County was created on May 9, 1870, Grenada became the county seat. (Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.775, -89.80889</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62954'>
+            <catDesc>
+              <term>Criminal Procedures--Arrest</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arrest?q=Arrest</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62954P0'>"The act of using legal authority to catch and take someone to a place where the person may be accused of a crime." (CD)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S105630'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 43rd</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD105630P0'>The 43rd Regiment, Mississippi Infantry (Confederate) was organized in the summer of 1862 under the command of Col. William H. Moore and served in the Western Theater under Greene's and Moore's brigades. It was later commanded by Col. Richard Harrison and served under Hebert's, Holland's, Featherston's, and Adam's Brigades. It was consolidated into the 14th Regiment, Mississippi Consolidated Infantry on April 9, 1865. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 30; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 737-740; National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001148'>
+<catDesc>State Level: USA &amp; CSA Military</catDesc>
+          <category xml:id='S77526'>
+            <catDesc>
+              <term>Mississippi Home Guard</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD77526P0'>A militia is a military unit made up of civilians within a community who could be called up by local (often state) officials to serve temporary military purposes. Militias were separate from regular, or permanent, armies. Because they conducted training only periodically, and provided active military service for short periods of time, militias cost less than regular armies; and because they were manned by local residents, militias were frequently seen as less threatening to early American communities than national military units comprised of strange men born in other counties or states.
+</p>
+
+<p xml:id='OTPSD77526P1'>When Mississippi seceded in 1861, enthusiasm for military service swept across the state. Volunteers filled the ranks of old militia units or created new companies within their communities, eager to repulse any federal attempt to coerce secessionists back into the Union. They also took proactive efforts, securing key positions along the Gulf Coast, including reinforcing other Southern soldiers at Pensacola and Fort Pickens in Florida. Over the next few months, as the Confederate government requested more volunteers, thousands of Mississippians and entire volunteer companies from the state transferred to Confederate service and were sent north, out of state. The units that remained within Mississippi for state defense were left in a convoluted military structure, some considered state reserves (a more formal military force for state defense) and some considered state militia (the more traditional units of citizen-soldiers called up for local, emergency use). The distinctions were not well established, and during the war Mississippians describing state units not within the Confederate army used a variety of terms—such as militia, home guard, state troops—almost interchangeably. However, you will find specific references under this subject tag at CWRGM employed the term home guard rather than militia.
+</p>
+
+<p xml:id='OTPSD77526P2'>While militia and state defense units technically fell under the governor’s authority, the state government struggled to manage, or even track, these organizations. Some, like the Third Battalion Mississippi Minute Men, were well organized, fell under direct state control, and took part in larger military operations, such as the defense of Vicksburg; others saw no combat, rarely gathered for drill, and were entirely overseen by county or local community officials. Most militia members were older than the average Confederate soldier. They were typically farmers, business owners, or land owners who had families and, in many instances, slaves. Because of these responsibilities at home, militiamen expected their military duties to be periodic, temporary, and only during times of emergency, a reflection of the militia’s original intent. However, state officials occasionally activated militia units for long periods, based upon the military situation. In the summer of 1862, Mississippi’s governor, John J. Pettus, mobilized his state troops, pulling many militia units away from their communities. Held in camp for several weeks, drilling but not seeing combat, many militiamen complained of their treatment and argued that their services were needed more at home, managing farms and their communities. Despite these complaints, the governor mobilized the state troops again in 1864, and again met criticism.
+</p>
+
+<p xml:id='OTPSD77526P3'>Overall, Mississippi’s militia and state defense system during the Civil War was a complicated tangle of formal and informal military units. Infrequently used for combat assignments, these units nevertheless provided some emergency services for the state government and allowed many Mississippians a way to provide military service to the community while remaining at home to manage personal and local interests. (Tracy L. Barnett, “Mississippi ‘Milish’: Militiamen in the Civil War,” <hi rend='italic'>Civil War History</hi>, Vol. 66, No. 4 (Dec 2020), 343–379; Michael B. Ballard, <hi rend='italic'>The Civil War in Mississippi: Major Campaigns and Battles</hi>, 4–8)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S62915'>
+            <catDesc>
+              <term>Mississippi--Legislature</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_Legislature</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD62915P0'>Operating at the state level, the Mississippi State Legislature (originally called the "General Assembly") was established by Article 4 of the Mississippi Constitution on November 1, 1890, and serves as the legislative branch of the state government. It is comprised of the House of Representatives and the Senate. The Legislature is responsible for passing new statewide laws and making amendments to the Constitution. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S51229'>
+            <catDesc>
+              <term>Military Stragglers</term>
+              <idno>https://encyclopediavirginia.org/entries/desertion-confederate-during-the-civil-war/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD51229P0'>Unlike a deserter who intends to permanently leave the service, a straggler leaves the service without permission before their term of service has expired but intends to return to military service. (Encyclopedia Virginia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission.; Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Harrison, Richard</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-12-19</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Confederate Colonel Richard Harrison of the 43rd Mississippi Infantry in Grenada, Mississippi, to Mississippi Governor John J. Pettus, suggesting that a law should be passed allowing sheriffs to arrest Confederate soldiers who are absent without leave.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Grenada (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-943-06-01</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Grenada County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Parris Watts; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 943, Folder 6</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Absence without leave; Absence without leave--Law and legislation; Confederate States of America. Army.; Confederate States of America. Army. Mississippi Infantry Regiment, 43rd; Military deserters; Mississippi. Governor; Pettus, John Jones, 1813-1867; Police.; Sheriffs</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Colonel Richard Harrison to Mississippi Governor John J. Pettus; December 19, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/5971&quot;&gt;Letter from Colonel Richard Harrison to Mississippi Governor John J. Pettus; December 19, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG28" who="U2" when="2024-10-25T13:17:34Z" target="#P1816044">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-11-17T17:24:19Z" target="#P1816044">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-11-02T03:17:50Z" target="#P1816045">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-09-02T20:20:25Z" target="#P1816045">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-19T18:32:03Z" target="#P1816044">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-19T02:33:53Z" target="#P1816044">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-18T21:56:06Z" target="#P1816044">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-18T01:48:50Z" target="#P1816044">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2022-12-04T01:44:32Z" target="#P1816044">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2022-12-04T00:21:41Z" target="#P1816045">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2021-10-27T23:02:02Z" target="#P1816045">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2021-10-26T18:14:32Z" target="#P1816044">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2021-08-24T17:35:23Z" target="#P1816044">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U217868" when="2021-06-02T18:38:04Z" target="#P1816044">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2021-05-05T19:07:47Z" target="#P1816045">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2021-05-05T19:07:13Z" target="#P1816044">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U228005" when="2021-04-16T16:28:15Z" target="#P1816045">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U228005" when="2021-04-16T16:27:47Z" target="#P1816045">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U228005" when="2021-04-16T16:24:51Z" target="#P1816044">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U228445" when="2021-04-09T15:47:33Z" target="#P1816045">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U228445" when="2021-04-09T15:45:15Z" target="#P1816044">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220513" when="2021-03-18T18:05:47Z" target="#P1816045">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U220513" when="2021-03-18T18:02:53Z" target="#P1816044">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2021-03-18T16:40:39Z" target="#P1816045">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2021-03-18T16:38:28Z" target="#P1816044">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-03-15T23:50:37Z" target="#P1816045">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-15T23:50:37Z" target="#P1816044">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-15T23:50:22Z" target="#P1816045">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-03-15T23:50:14Z" target="#P1816044">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1816044" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/5969/full/full/0/default.jpg"/>
+        <div xml:id="OTP1816044">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1816044P0' xml:id='OTP1816044P0'>Hd. Qrs. <rs ref='#S105630'>43" Regt. Miss. Vols.</rs>,<lb/>
+Near <rs ref='#S63123'>Grenada</rs>, Dec. 19. 1862
+</p>
+
+<p corresp='TTP1816044P1' xml:id='OTP1816044P1'>Dear Sir:
+</p>
+
+<p corresp='TTP1816044P2' xml:id='OTP1816044P2'>Having learned that an Extra Session of the <rs ref='#S62915'>Legislature</rs> is now convened at <rs ref='#S51785'>Jackson</rs>, and having no doubt but that the main purpose of that enlightened and patriotic Body is to resist the com-mon foe, by strengthening the Army and <rs ref='#S77526'>home defenses</rs>, I most respectfully and earnestly beg to make a suggestion for this purpose.
+</p>
+
+<p corresp='TTP1816044P3' xml:id='OTP1816044P3'>It is a fact, well known in Military Circles, that at least one half the fighting strength of that portion of the Army under Gen. <rs ref='#S97207'>Pemberton</rs>, composed of troops from this State, is now, and has been for months, at home. Various means have been used, with but little success, to get these volun-teers into the Service.
+</p>
+
+<p corresp='TTP1816044P4' xml:id='OTP1816044P4'>My proposition is this:—That an act be passed by the Legislature at once, authorizing and making it the duty of the <rs ref='#S95578'>Sheriffs</rs> of the several Counties to <rs ref='#S62954'>arrest</rs> these absentees, and cause them to report to the nearest Post Commandant, whose duty it is to forward them to their respective com-mands. This is the speediest way of increasing the Army, and I believe the most effective. These soldiers are partially acclimated to camp-life, and have been regularly mustered into the service of the Confederate Service, Nothing is wanting to  
+</p>
+
+
+        </div>
+        <pb xml:id="F1816045" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/5970/full/full/0/default.jpg"/>
+        <div xml:id="OTP1816045">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1816045P0' xml:id='OTP1816045P0'>strengthen this Corps to double its present force but to get these <rs ref='#S51229'>stragglers</rs> into the ranks. It is not too late to save the country. The Army is in fine health and spirits, and in good fighting condition. Send us the absentees, and we will hurl back the invading columns, broken, routed, and defeated, and redeem the soil of our gallant State from the last foot print of an invading and insolent foe.
+</p>
+
+<p corresp='TTP1816045P1' xml:id='OTP1816045P1'>I am Sir,<lb/>
+Your Obt Ser<add place='above'>vt</add>,<lb/>
+<rs ref='#S63402'>Rich<add place='above'>d</add> Harrison</rs>,<lb/>
+Col. Com'dg.
+</p>
+
+<p corresp='TTP1816045P2' xml:id='OTP1816045P2'>Col Rich<add place='above'>d</add> Harrison<lb/>
+<hr/>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

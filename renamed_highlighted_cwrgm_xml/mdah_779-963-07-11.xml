@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Edward Lea to Mississippi Governor Benjamin G. Humphreys; June 25, 1866</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2024-03-09T02:15:18Z">March  9, 2024</date> and
+              <date type="last_edit" when="2024-03-09T02:21:49Z">March  9, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U112030">
+          <persName
+            >
+            sfemet
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-12-03T20:04:43Z">December  3, 2023</date> and
+              <date type="last_edit" when="2023-12-03T20:08:47Z">December  3, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2024-03-11T16:15:17Z">March 11, 2024</date> and
+              <date type="last_edit" when="2025-03-17T00:23:39Z">March 17, 2025</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32011852">
+          <persName
+            >
+            Rose Doyle
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-01-27T04:21:30Z">January 27, 2024</date> and
+              <date type="last_edit" when="2024-01-27T04:22:45Z">January 27, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-08-14T00:15:49Z">August 14, 2024</date> and
+              <date type="last_edit" when="2024-08-24T01:23:20Z">August 24, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T14:46:11Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T16:27:51+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32126613">
+              <persName>Dyer, P.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32126614">
+              <persName>Greene, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S87820">
+              <persName>Lea, Edward</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32011998">
+              <persName>Humphreys, Benjamin Grubb, 1808-1882</persName>
+                <idno>https://en.wikipedia.org/wiki/Benjamin_G._Humphreys</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32011998P0'>Benjamin Grubb Humphreys was governor of Mississippi from 1865 to 1868, during the first three years of Reconstruction. Born on August 26, 1808, in Claiborne County, Mississippi, Humphreys spent many years in the north as a boy, attending school in New Jersey and then being appointed to the United States Military Academy at West Point, New York. Enrolled in the same class as Robert E. Lee, Humphreys was expelled shortly afterwards for his participation in the “Eggnog riot” (or “grog mutiny”)—an alcohol-fueled ruckus at West Point on the night of December 24-25, 1826, that resulted in the removal of twenty students.
+</p>
+
+<p xml:id='OTPS32011998P1'>Humphreys returned to Mississippi where he studied law and helped his father on the family plantation.  He married Mary McLaughlin in 1832. The couple had two children before Mary died in 1835. He remarried in 1839 to Mildred Maury and had at least ten more children.
+</p>
+
+<p xml:id='OTPS32011998P2'>In the 1830s, Humphreys entered local politics as a Whig, serving as a state representative and then as a member of the Mississippi senate from 1839 to 1844. He purchased land to establish a cotton plantation in Sunflower County, Mississippi, in 1846, and helped establish the town of Itta Bena.
+</p>
+
+<p xml:id='OTPS32011998P3'>During the lead up to the Civil War, Humphreys opposed secession. However, after Mississippi declared its separation from the Union and joined the Confederate States of America, he volunteered for military service and was eventually elected colonel of the Twenty-first Mississippi Infantry. Humphreys and his regiment served within Brigadier General William Barksdale’s brigade in the eastern theater, notably seeing action at the Peach Orchard during the Battle of Gettysburg on July 2, 1863. Barksdale was killed during the battle, and Humphreys was promoted to brigadier general to take his place. He remained in command of the brigade until September 1864 when he was wounded at Berryville, Virginia. He spent the rest of the Civil War recuperating from his wounds.
+</p>
+
+<p xml:id='OTPS32011998P4'>Humphreys became active in the immediate postwar political scene in Mississippi. He won election for governor in October 1865 during Mississippi’s effort to earn readmission into the Union under President Andrew Johnson’s lenient Reconstruction plan. However, Humphreys was among the former southern leaders initially denied presidential pardon by Johnson. Although Johnson soon relented, sending a pardon to Humphreys, the Mississippi legislature’s passage of highly discriminatory laws (known as the Black Codes) against recently emancipated African Americans sparked a fierce backlash by Republicans in the United States Congress, who then refused to admit Mississippi back into the Union. Federal authorities instituted a stricter Reconstruction program, which included oversight by military officials. Humphreys remained governor, as Reconstruction did not disassemble Mississippi’s civil government. However, Humphreys did not enjoy the full authority of a traditional state executive. His white supremacist views and opposition to Black civil rights put him in frequent opposition to Republican Reconstruction goals. He won reelection in 1868, but soon afterwards was ejected from office by federal authorities when Radical Republicans took more direct control of Reconstruction.
+</p>
+
+<p xml:id='OTPS32011998P5'>Following his removal as governor in 1868, Humphreys left politics and began working in insurance in Jackson, Mississippi. He retired in 1877 and died in December 1882 and is buried in Wintergreen Cemetery at Port Gibson, Mississippi.
+</p>
+
+<p xml:id='OTPS32011998P6'>(Wikipedia; David Sansing, “Benjamin Grubb Humphreys: Twenty-sixth Governor of Mississippi: 1865–1868,” Mississippi History Now; “Benjamin Grubb Humphreys,” HarpWeek)
+</p>
+
+<p xml:id='OTPS32011998P7'>Benjamin Grubb Humphreys belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S71087">
+              <persName>Featherston, Winfield Scott, 1820-1891</persName>
+                <idno>https://en.wikipedia.org/wiki/Winfield_S._Featherston</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS71087P0'>Winfield Scott Featherston was a U.S. congressman from Mississippi and a general in the Confederate Army during the Civil War.
+</p>
+
+<p xml:id='OTPS71087P1'>Born on August 8, 1820, near Murfreesboro, Tennessee, Featherston volunteered for militia service as a teenager during the Second Creek War in Alabama in 1836. After that conflict, he moved to Mississippi and studied law, becoming a practicing attorney in 1840. Soon after, Featherston became involved in local politics, and won a seat to the U.S. House of Representatives for Mississippi in 1846. He served until 1851, then returned to his home in Houston, Mississippi, after losing reelection in 1850. In 1856, he moved to Holly Springs and opened a successful law firm.
+</p>
+
+<p xml:id='OTPS71087P2'>Featherston remained a political figure in Mississippi, particularly during the secession movement following Abraham Lincoln’s election to the presidency in 1860. He traveled to Kentucky, as an agent of Mississippi, to encourage secession in that state. When the war broke out in 1861, Featherston received a commission as a colonel and took command of the Seventeenth Mississippi Infantry Regiment. Sent to Virginia, he led Confederate troops at the First Battle of Bull Run and Ball’s Bluff in Virginia. He was promoted to brigadier general in March 1862 and participated in several major engagements that year, including the Seven Days Campaign outside of Richmond, the Second Battle of Bull Run, Antietam, and Fredericksburg.
+</p>
+
+<p xml:id='OTPS71087P3'>In early 1863, Featherston was transferred to Mississippi. He commanded a brigade during the Vicksburg campaign, seeing combat at Champion’s Hill, and participated in the Atlanta Campaign in 1864. He remained with General John Bell Hood’s army during the disastrous campaign into Tennessee in late 1864, and commanded a brigade in General Joseph E. Johnston’s army during the final weeks of the war in the Carolinas. He surrendered to Union troops in late April 1865, was paroled shortly afterwards, and returned to Holly Springs, Mississippi.
+</p>
+
+<p xml:id='OTPS71087P4'>Featherston immediately returned to politics after the war, running an unsuccessful bid for the United States Senate. He practiced law, and remained active in local political activities opposing Republican Reconstruction. In 1876, he won a seat in the Mississippi legislature and remained there until 1882, when he received an appointment as a district judge. One of his final political acts was as a delegate to Mississippi’s 1890 constitutional convention, which reinstituted many discriminatory policies against African Americans.
+</p>
+
+<p xml:id='OTPS71087P5'>Featherston was married to Elizabeth McEwen and had seven children. He died in 1891 and is buried in Hill Crest Cemetery in Holly Springs, Mississippi.
+</p>
+
+<p xml:id='OTPS71087P6'>(Wikipedia; FindaGrave; Ben Wynne, “Winfield Scott Featherston,” Mississippi Encyclopedia)
+</p>
+
+<p xml:id='OTPS71087P7'>Winfield Scott Featherston belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63000">
+              <placeName>Mississippi--Marshall County. Holly Springs</placeName>
+                <idno>https://archive.org/details/mississippicomp01rowlgoog/page/874/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63000P0'>Currently located in Marshall County, Holly Springs was founded in 1836 in what was then Monroe County. When Marshall County was created on March 1, 1836, Holly Springs became its county seat. (Rowland, <hi rend='italic'>Mississippi</hi>, 874; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.77333, -89.44639</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S32005193'>
+            <catDesc>
+              <term>Military Engagements</term>
+              <idno>https://www.battlefields.org/learn/articles/civil-war-facts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32005193P0'>The act of beginning to fight or a period of time in a war, military engagements are also referred to as battles or skirmishes. Battles are fights between armed forces, and usually describe singular events that occur over the course of hours or a few days. Skirmishes are smaller fights, usually between a small number of soldiers that occur unexpectedly, last only a few minutes or a few hours, and take place away from the main area of fighting.
+</p>
+
+<p xml:id='OTPSD32005193P1'>There were approximately 10,500 engagements during the American Civil War. Fifty of them were major battles, while another one hundred were notable engagements. The rest were small battles or skirmishes. (Cambridge Dictionary; American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32132559'>
+            <catDesc>
+              <term>Military Engagements--Mansfield, Battle of, La., 1864</term>
+              <idno>https://www.battlefields.org/learn/civil-war/battles/mansfield</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.0121, -93.6652</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32132559P0'>The Battle of Mansfield, also known as the Battle of Sabine Crossroads, occurred on April 8, 1864, in Louisiana during the Union general Nathaniel P. Banks’ Red River Campaign. Banks’ overall objective was to take 20,000 soldiers from Union-occupied New Orleans, unit with 15,000 soldiers from General William T. Sherman’s command at Vicksburg, and advance upon Shreveport, the capital of Louisiana and the Confederate headquarters for the Trans-Mississippi Department. During that campaign, as Banks’ army moved up the Red River with support from Union gunboats, 9,000 Confederate soldiers under Major General Richard Taylor established a defensive line at Sabine Crossroads, near Mansfield, to block the Union advance. On April 8, advance elements of Banks’ army approached the crossroads. They chased away some Confederate cavalry and then paused for reinforcements to arrive. After a few hours of quiet, Taylor decided to attack before the full weight of Banks’ army arrived. The Confederate commander ordered a broad attack on the Union line. While the Confederate left end was initially stopped by stiff federal resistance, the right end broke through the Union line, sparking a general collapse of Banks’ advance divisions. The Union troops fell back nearly three miles before reinforcements stopped the Confederates. Taylor tried one more attack that night, but the Confederates were repulsed. Nevertheless, the aggressive attacks prompted Banks to withdraw and leave Taylor in control of the battlefield. Overall, Union forces suffered more than 2,000 casualties; the Confederates lost 1,000 men killed, wounded, or missing.
+</p>
+
+<p xml:id='OTPSD32132559P1'>The two armies fought again the next day to a draw at Pleasant Hill, but Confederate troops had scored a major victory at Mansfield. The loss at Sabine Crossroads effectively ended Banks’ efforts to reach Shreveport. (Wikipedia; American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001672'>
+<catDesc>Health</catDesc>
+          <category xml:id='S73740'>
+            <catDesc>
+              <term>People with Disabilities</term>
+              <idno>https://www.nps.gov/articles/disabilityhistoryearlytreatment.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001672'>Health</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD73740P0'>People with disabilities are defined as those people experiencing "any condition that makes it more difficult for a person to do certain activities or have equitable access within a given society" (Wikipedia). People with disabilities in nineteenth-century America faced a variety of different options and experiences based on both their region, age, and specific disability.
+</p>
+
+<p xml:id='OTPSD73740P1'>Early in the nineteenth century, many communities saw supporting people with disabilities as a local matter; however, as the nineteenth century progressed and cities and their populations (including people with disabilities) grew exponentially, many state governments took responsibility for supporting people with disabilities. That support most often took the form of almshouses or hospitals in which residents lived permanently, usually in rural areas for fear of urban environments' negative impacts on health. Different religious, medical, and reform organizations took different approaches to the treatment of disabilities, including the treatment of a person's morals in addition to medical care. Like many other branches of medicine, popular medical understandings of many disabilities remained incorrect and even harmful in the nineteenth century, particularly the concept of eugenics, or the idea that controlling genetics could improve or even perfect humanity. Doctors espousing these beliefs sometimes conducted forced sterilizations and lobotomies on their patients, either to prevent their reproduction or to reduce mental health issues.
+</p>
+
+<p xml:id='OTPSD73740P2'>The devastation of the American Civil War and the increase of people with war-related disabilities brought much more attention to the study of disabilities and their treatment, but ultimately humane and ethical methods of caring for people with disabilities remained far in the future. CWRGM adopts the term "People with disabilities" to foreground individuals' personhood over their status or physical condition (National Park Service; Wikipedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S102248'>
+            <catDesc>
+              <term>People with Disabilities--Blind Persons</term>
+              <idno>https://www.americanantiquarian.org/proceedings/44539507.pdf</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001672'>Health</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD102248P0'>The term "blindness" is used to refer to "complete or nearly complete vision loss" (Wikipedia). Like many other disabilities, the treatment of blind persons in the United States transitioned from local to institutional across the nineteenth century. Many philosophers and intellectuals in the eighteenth and nineteenth centuries debated the role of blindness in society and the level to which blind persons could be rehabilitated or integrated into broader society. While eighteenth-century Americans primarily viewed the education and care of the blind as a matter for individual communities to craft responses for, by the 1830s state-funded institutes for the education of the blind arose in many American cities. Samuel Gridley Howe developed one of the first of these in Boston in 1831, known as the New England Institution for the Education of the Blind. Such schools enjoyed enormous success in teaching blind persons to read, write, and integrate into the broader community. Indeed, some institutes for the education of blind persons developed rich academic and intellectual cultures in which blind persons helped redefine what it meant to be blind and what limits it ought to entail. While most education for blind persons remained separated from other schools until the twentieth century, the state-sponsored approach to educating blind persons improved living and learning conditions for blind persons throughout the nineteenth century. CWRGM uses the people-first tag "People with disabilities--Blind persons" to emphasize the personhood of those with blindness over their condition (Britannica; Freeburg, <hi rend='italic'>The Meanings of Blindness in Nineteenth-Century America</hi>).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S96659'>
+            <catDesc>
+              <term>Impoverished People</term>
+              <idno>https://www.britannica.com/topic/poverty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96659P0'>Impoverished people are those who lack "a usual or socially acceptable amount of money or material possessions," or alternately those who "lack the means to satisfy their basic needs (Britannica). This definition, necessarily subjective and broad, indicates that what one person or society deems "socially acceptable" or what constitutes "basic needs" is malleable.
+</p>
+
+<p xml:id='OTPSD96659P1'>Similarly, impoverished people in the United States in the nineteenth century did not fit one specific category. The rise of industrialism produced an increased number of impoverished people in the U. S., particularly within large urban centers. European immigrants in cities in the East, and Chinese immigrants on the West Coast, and African Americans in the South were disproportionately affected by poverty. Regionally, the highest number of impoverished people came from the U. S. South, where "both whites and African Americans struggled with debt, low cotton prices, laws favorable to employers and creditors, paltry alternatives, and the general post war devastation" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 547).
+</p>
+
+<p xml:id='OTPSD96659P2'>Racism and nativism among employers and employees also made economic advancement more difficult for people of color and immigrants. However, the impoverished made up a comparatively low percentage of Mississippi's antebellum population, given its low number of immigrants and even native residents, lack of industrialization and urbanization, and mobility of those that were impoverished (Mississippi Encyclopedia). Many reform organizations throughout the country took the lead in fighting poverty in the nineteenth century, while state and federal governments by the end of the century also developed its own institutional responses. The status of being impoverished has always carried negative connotations in American history, so CWRGM uses the tag "Impoverished people" to emphasize the personhood of those in poverty rather than their social status. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S25003265'>
+            <catDesc>
+              <term>Wounds and Injuries</term>
+              <idno>https://www.civilwarmed.org/surgeons-call/amputation1/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25003265P0'>Medical treatment of wounds and injuries during the nineteenth century was fairly primitive, and not substantially different than medical practices over the preceding few centuries. Doctors had little knowledge of bacteria, and therefore did not understand the importance of washing hands or sterilizing medical instruments when treating open wounds. Physicians learned that some substances seemed to aid recovery, such as iodine and bromine, but their properties were more mystery than scientifically understood. Additionally, antibiotics had not yet been discovered. As a result, even minor cuts could become infected and lead to severe disability or death.
+</p>
+
+<p xml:id='OTPSD25003265P1'>During the Civil War, more than 475,000 soldiers were wounded in battle.  Thousands more suffered injuries in camp or on the march.  Medical care for wounded and injured soldiers typically involved closing wounds and setting broken bones. After suturing or bandaging these injuries, physicians would carefully observe their patients and try to offer some medical support, but recovery most often depended upon the wounded man’s natural healing. Some medical practices had unintended consequences, both positive and negative. Horsehair proved to be a popular material for sutures, due to its length and strength. To improve its elasticity, Civil War doctors boiled the horsehair, thereby disinfecting it. Wounds stitched closed with boiled horsehair were less likely to grow infected from the sutures, although this benefit was not fully understood until after the war. On the other hand, physicians probing for bullets or foreign objects inside a wound often introduced more bacteria and generated worse infections than the patient may have experienced without the procedure. This practice continued well after the Civil War, and likely contributed to President James Garfield’s death in 1881, when doctors repeatedly used unsterilized fingers and instruments while searching for the assassin’s bullet lodged in his body.
+</p>
+
+<p xml:id='OTPSD25003265P2'>Doctors understood the danger of blood loss to wounded men, but devices such as the Petit Tourniquet—a French screw-tightened tourniquet designed in 1718—were typically found at a surgeon’s tent rather than with the soldiers along the front lines. Some physicians recommended supplying tourniquets among the soldiers, but others suggested much simpler practices, such as each soldier carrying a handkerchief or cloth strip and a six-inch long piece of wood in his pocket to function as a makeshift tourniquet. These life-saving practices were not mandated among Union and Confederate armies, though, and many wounded men died of blood loss before reaching medical help.
+</p>
+
+<p xml:id='OTPSD25003265P3'>The most iconic treatment of battlefield wounds during the Civil War was amputation. Most casualties during the war were caused by musket fire. The large caliber lead balls often shattered bones upon impact. Unable to splint or repair bones so damaged, physicians frequently chose to amputate the wounded person’s limb above the injury. Doctors typically sewed a flap of skin over the stump. Unfortunately, due to the high incidents of infection for reasons described above, amputated limbs often became infected. Gangrene was among the most dangerous conditions, which could lead to death. The only method of combatting gangrene was to perform another amputation further up the limb (if possible) and hope it healed properly. Confederate and Union physicians performed around 50,000 amputations during the Civil War. Contrary to some popular myths, anesthesia, such as chloroform and ether, was in use during the Civil War, and around 95% of wounded soldiers were afforded some comfort before amputation.
+</p>
+
+<p xml:id='OTPSD25003265P4'>Hundreds of thousands of soldiers returned home from the Civil War with scars or permanent disabilities from wartime wounds and injuries. The large number of amputees also led to new developments in prosthetics. Lessons learned from the war improved medical care a bit, as Union and Confederate doctors recorded their observations of wounds and treatments. Published reports provided a new wealth of information. However, only after scientists better understood microbes and accepted the Germ Theory in the late nineteenth and early twentieth century did medical practice substantially improve from the Civil War era practices. (Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 41–50; Terry Reimer, “Wounds, Ammunition, and Amputation,” National Museum of Civil War Medicine; Paige Gibbons Backus, “Amputation and the Civil War,” American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Humphreys Series 779</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1866</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Lea, Edward</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1866-06-25</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Humphreys Collection. Letter from Edward Lea in Holly Springs, Mississippi to Mississippi Governor Benjamin G. Humphreys, concerning William P. Dyer, a former Confederate Soldier, who is now blind from injuries suffered during the war and is seeking any financial assistance available for his care and treatment.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8.0&quot; x 10.0&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Holly Springs (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_779-963-07-11</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Marshall County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Rachael Packer; Britany Castilaw; Dalton Wood</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 963, Folder 7</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army; Humphreys, Benjamin Grubb, 1808-1882; Mississippi. Governor; People with disabilities; Veterans; War wounds</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Edward Lea to Mississippi Governor Benjamin G. Humphreys; June 25, 1866</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/37347&quot;&gt;Letter from Edward Lea to Mississippi Governor Benjamin G. Humphreys; June 25, 1866&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG16" who="U220769" when="2025-03-17T00:23:39Z" target="#P33745180">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U2" when="2024-10-25T14:46:11Z" target="#P33745180">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U32019810" when="2024-08-24T01:23:20Z" target="#P33745180">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U32019810" when="2024-08-14T00:15:49Z" target="#P33745180">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2024-08-10T16:30:45Z" target="#P33745180">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2024-03-11T16:15:17Z" target="#P33745180">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091195" when="2024-03-09T02:21:49Z" target="#P33745181">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091195" when="2024-03-09T02:20:16Z" target="#P33745180">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091195" when="2024-03-09T02:16:04Z" target="#P33745180">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091195" when="2024-03-09T02:15:18Z" target="#P33745180">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U32011852" when="2024-01-27T04:22:45Z" target="#P33745181">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U32011852" when="2024-01-27T04:21:30Z" target="#P33745180">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U112030" when="2023-12-03T20:08:47Z" target="#P33745180">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U112030" when="2023-12-03T20:08:27Z" target="#P33745181">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U112030" when="2023-12-03T20:04:43Z" target="#P33745180">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2023-10-25T14:11:32Z" target="#P33745181">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2023-10-25T14:11:27Z" target="#P33745180">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F33745180" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:37345/full/full/0/default.jpg"/>
+        <div xml:id="OTP33745180">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP33745180P0' xml:id='OTP33745180P0'><rs ref='#S63000'>Holly Springs Miss</rs><lb/>
+June 25<add place='above'>th</add> 1866
+</p>
+
+<p corresp='TTP33745180P1' xml:id='OTP33745180P1'>Sir
+</p>
+
+<p corresp='TTP33745180P2' xml:id='OTP33745180P2'>I have been requested by M<add place='above'><hi rend='underline'>r</hi></add>. <rs ref='#S32126613'>P Dyer</rs> a Confederate Soldier and at this time under my treatment to State his Case to You and ask if in Your power to grant it— Some assistance—he came under my treatment some four or five mo<add place='above'>s</add> ago. <rs ref='#S102248'>Blind</rs>—caused by <rs ref='#S25003265'>burn</rs> from the flash of a gun in the <rs ref='#S32132559'>battle of Mansfield</rs>—he is now rapidly improving (Can See at this time inch letters) and I think if he had the means to Stay in town one or two mo<add place='above'>s</add> where I could see him daily that I could in that time restore his Vision—He is entirely <rs ref='#S96659'>destitute of Means</rs>—has had a house given him in the Country—I am to pour myself to eight him in any other way than giving him my attention. He was under Gen<add place='above'>l</add> <rs ref='#S32126614'>Greene</rs> and from his papers think he was a good soldier. Hoping it may be in You Power to aid him &amp; I am
+</p>
+
+<p corresp='TTP33745180P3' xml:id='OTP33745180P3'>Very Respectfully<lb/>
+Your Obt Servt
+</p>
+
+<p corresp='TTP33745180P4' xml:id='OTP33745180P4'><rs ref='#S87820'>Edward Lea</rs>
+</p>
+
+<p corresp='TTP33745180P5' xml:id='OTP33745180P5'>Gov. <rs ref='#S32011998'>B. H. Humphreys</rs><lb/>
+<rs ref='#S51785'>Jackson<lb/>
+Miss</rs>
+</p>
+
+<p corresp='TTP33745180P6' xml:id='OTP33745180P6'>I know the facts above-stated to be true, I think the applicant to be worthy of His Excelleny's favour.
+</p>
+
+<p corresp='TTP33745180P7' xml:id='OTP33745180P7'><rs ref='#S71087'>W. S. Featherston</rs> 
+</p>
+
+
+        </div>
+        <pb xml:id="F33745181" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:37346/full/full/0/default.jpg"/>
+        <div xml:id="OTP33745181">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP33745181P0' xml:id='OTP33745181P0'><hi rend='underline'>F</hi><lb/>
+June <hi rend='underline'>26</hi> 1866 <lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33745181P1' xml:id='OTP33745181P1'>Holly Springs Miss<lb/>
+June 25<add place='above'><hi rend='underline'>th</hi></add> 1866<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33745181P2' xml:id='OTP33745181P2'><hi rend='underline'>Lea</hi>—Edward<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33745181P3' xml:id='OTP33745181P3'>Letter of—
+</p>
+
+<p corresp='TTP33745181P4' xml:id='OTP33745181P4'>Urging claim of P. Dyen a disabled Confederate soldier to a portion of "Southern Relief Fund" to be expended in having his site restored to him, last in the C.S. service<lb/>
+<hr/>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

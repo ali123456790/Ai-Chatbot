@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Charles E. Mount to Mississippi Governor James L. Alcorn; July 28, 1871</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 17 edits between
+              <date type="first_edit" when="2023-03-06T03:59:45Z">March  6, 2023</date> and
+              <date type="last_edit" when="2024-01-30T17:01:31Z">January 30, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2023-02-26T02:48:18Z">February 26, 2023</date> and
+              <date type="last_edit" when="2023-03-30T23:53:05Z">March 30, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32013242">
+          <persName
+            >
+            Paige Perryman
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2023-02-08T22:33:22Z">February  8, 2023</date> and
+              <date type="last_edit" when="2023-02-08T22:54:11Z">February  8, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-12-08T15:16:50Z">December  8, 2022</date> and
+              <date type="last_edit" when="2022-12-08T15:19:35Z">December  8, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T14:41:25Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T18:03:59Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-22T00:18:15Z">October 22, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T16:14:37+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32077221">
+              <persName>Peebles, Thomas M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32075381">
+              <persName>Lytle, Napoleon B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32075382">
+              <persName>Walton, Nathaniel</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32026126">
+              <persName>Warmoth, Henry Clay, 1842-1931</persName>
+                <idno>https://en.wikipedia.org/wiki/Henry_C._Warmoth</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32026126P0'>Henry Clay Warmoth was a Union officer and then governor of Louisiana during Reconstruction.
+</p>
+
+<p xml:id='OTPS32026126P1'>Born on May 9, 1842, in McLeansboro, Illinois, Warmoth grew up in Illinois, studied law, and then became a practicing attorney in Missouri in 1860. He quickly rose in prominence, becoming a district attorney in Missouri’s Eighteen Judicial District. At the outbreak of the Civil War, Warmoth volunteered for Union service and was commissioned as a lieutenant colonel in the Thirty-Second Missouri Infantry Regiment. He saw combat in Arkansas and Mississippi, and was wounded at Vicksburg in 1863. Warmoth was dishonorably discharged for false reporting of casualties, but was reinstated after personally appealing to President Abraham Lincoln. Returning to his regiment, Warmoth led the unit during fighting around Chattanooga, Tennessee, and in Georgia during William Tecumseh Sherman’s Atlanta campaign. He later received an appointment as a military judge in the Department of the Gulf Provost Court. Warmoth resigned his commission in 1865 to return to practicing law, and soon settled in New Orleans, Louisiana, to work on cases regarding cotton claims and courts-martial.
+</p>
+
+<p xml:id='OTPS32026126P2'>While in New Orleans, Warmoth became active in Republican Party politics. During the Reconstruction era, Warmoth managed to rise to the Republican Party ticket for governor. He won the gubernatorial election in 1868 and entered the Louisiana governor’s office at the age of 26. He labored to protect Black voting rights and to combat violence by white supremacist groups, such as the Ku Klux Klan. However, he was also accused of being soft on former Confederates, and favoring white applicants over African Americans for government jobs. As a result, the Republican Party in Louisiana split, and by 1871 Warmoth sided with the Liberal Republican Party that backed Horace Greeley in the 1872 election instead of Ulysses S. Grant. These efforts reduced Warmoth’s support even more among Black Louisianans.
+</p>
+
+<p xml:id='OTPS32026126P3'>In 1872, the Louisiana legislature—controlled by anti-Warmoth Republicans—filed impeachment charges against him. He was suspended from office, but as a lame duck incumbent, the state legislature allowed him to vacate his office just a few weeks before his term ended without carrying out the full impeachment trial.
+</p>
+
+<p xml:id='OTPS32026126P4'>After leaving office, Warmoth bought a sugar cane plantation and used his legal experience to represent sugar planting interests in the U.S. and in Europe. By the mid-1880s, he abandoned his sugar planting work and returned to politics. He ran for governor in 1888, but lost to Democrat Francis T. Nicholls. In 1890, he received an appointment as U.S. Collector of Customs in New Orleans.
+</p>
+
+<p xml:id='OTPS32026126P5'>Warmoth lived well into the twentieth century, dying on September 30, 1931. He was married to Sallie Durand and had three children. Warmoth is buried in Metairie Cemetery in New Orleans, Louisiana.
+</p>
+
+<p xml:id='OTPS32026126P6'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS32026126P7'>Henry Clay Warmoth belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S25027078">
+              <persName>Alexander, J.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S94280">
+              <persName>Alcorn, J. L. (James Lusk), 1816-1894</persName>
+                <idno>https://en.wikipedia.org/wiki/James_L._Alcorn</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS94280P0'>James L. Alcorn served as governor and then U.S. senator for Mississippi in the 1870s.
+</p>
+
+<p xml:id='OTPS94280P1'>Born November 4, 1816, in Illinois Territory, Alcorn spent much of his young adulthood in Kentucky. After attending Cumberland College in Princeton, Kentucky, Alcorn was deputy sheriff of Livingston County, Kentucky, and then entered legal practice in the state in the 1830s. He served a short stint in the Kentucky House of Representatives in the early 1840s and then relocated to Mississippi, where he practiced law in Coahoma County. Financial success as an attorney enabled Alcorn to buy land and establish Mound Place Plantation in the Mississippi Delta region. By 1860, Alcorn owned nearly one hundred slaves; his land holdings alone were valued at approximately $9.5 million in today’s currency. Alcorn married Mary C. Stewart of Kentucky in 1839. The couple had five children before Mary passed away in 1849. Alcorn married Amelia Walton Glover of Alabama in 1850. He fathered three children with his second wife.
+</p>
+
+<p xml:id='OTPS94280P2'>Alcorn was a Unionist during the 1850s. He served as a delegate to a special Mississippi convention to debate the south’s response to the Compromise of 1850—legislation passed in the U.S. Congress designed to settle a fierce dispute over the fate of slavery in territories gained by the United States from Mexico. He warned that secession would lead to war, with federal soldiers invading the south, liberating slaves, and a destroying southern society. Alcorn and other Unionists carried the day during the 1851 convention.
+</p>
+
+<p xml:id='OTPS94280P3'>During the 1850s, Alcorn served in the Mississippi House of Representatives and Senate as a Whig. He led a legislative effort to establish levees to reduce flooding in the Delta region, and was elected the first president of the levee board. As his standing in Mississippi politics increased, he ran for election to U.S. Congress in 1856 but lost. Whigs in Mississippi subsequently considered him for a gubernatorial run in 1857, but Alcorn turned it down.
+</p>
+
+<p xml:id='OTPS94280P4'>During the secession crisis following Abraham Lincoln’s election to the U.S. presidency in 1860, Alcorn initially maintained his Unionist leanings. However, when Mississippi issued its ordnance of secession, Alcorn pledged his loyalty to the state and volunteered for military service in Mississippi. He received an appointment as brigadier general for the state militia in 1861, but his military advancement was hindered by powerful political rivals.  Alcorn led a brigade of three Mississippi militia regiments into the field in October 1861. His brigade spent three months Kentucky—experiencing miserable weather and mud, but no combat—before disbanding in January 1862 when their enlistments expired.
+</p>
+
+<p xml:id='OTPS94280P5'>Alcorn returned home from Kentucky embittered and embroiled in disputes with his personal and political rivals. Although he backed Mississippi following secession, Alcorn was not particularly committed to the Confederate cause. After federal soldiers entered Mississippi in 1862, his plantation was among those raided. However, Alcorn established contacts within the Union army and began trading cotton with federal authorities against Confederate policy. As a result, his wealth grew and his plantation was spared the same level of destruction meted out to notable secessionists.
+</p>
+
+<p xml:id='OTPS94280P6'>Alcorn reentered Mississippi politics immediately upon the defeat of the Confederacy. He was elected to the U.S. Senate in 1865 by the postwar Mississippi government’s effort to earn readmission into the Union under President Andrew Johnson’s lenient Reconstruction plan. However, the Mississippi legislature passed a series of highly discriminatory laws (known as the Black Codes) against recently emancipated African Americans, prompting Republicans in the United States Congress to refuse Mississippi back into the Union. As a result, Alcorn was denied his seat in the Senate.
+</p>
+
+<p xml:id='OTPS94280P7'>Alcorn became a leading member of the Republican Party in Mississippi as Reconstruction developed. He embraced Black civil rights, including African American suffrage. Although born in the north, his long residency in, and service to, Mississippi before and during the Civil War made him a “scalawag” (white southerner who joined the Republican Party) to conservative whites in the south. Nevertheless, he gained enough political support to win the Republican nomination for governor and then the gubernatorial election in 1869 as Mississippi reentered the Union. He entered office in 1870 and oversaw the development of a state public education system, the creation of a land-grant college for African Americans (named Alcorn University in his honor), and pro-business acts to improve economic development in the state.
+</p>
+
+<p xml:id='OTPS94280P8'>Alcorn resigned as governor in 1871 to take a seat in the U.S. Senate for Mississippi. Though still a Republican, Alcorn represented a more conservative side of the party. Though supporting Black civil rights, he resisted some federal intervention in Mississippi affairs, and generally held white supremacist views. This put him in opposition to the other senator from Mississippi, Adelbert Ames, a former Union general who had served as a military governor in Reconstruction Mississippi and led the more radical faction of Republicans in Mississippi that pushed total racial equality. Alcorn and Ames ran against each other for governor of Mississippi in 1873. Ames won by carrying most African American votes.
+</p>
+
+<p xml:id='OTPS94280P9'>Alcorn left the U.S. Senate in 1877 and returned to Mississippi. He did not take part in most state political matters, but did stay active in the levee system and governing. In 1890, he was selected to be a delegate to the Mississippi constitutional convention. He was among the delegates the supported new restrictions against Black Mississippi rights.  Alcorn died on December 19, 1894. He is buried in Friars Point, Mississippi.
+</p>
+
+<p xml:id='OTPS94280P10'>(Wikipedia; Timothy B. Smith, <hi rend='italic'>Mississippi in the Civil War</hi>, 134-135; David Sansing, “James Lusk Alcorn: Twenty-eighth Governor of Mississippi: March 180 to November 1871,” Mississippi History Now)
+</p>
+
+<p xml:id='OTPS94280P11'>James Lusk Alcorn belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32027208">
+              <persName>Mount, Charles E.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S54240">
+              <persName>Hewson, Harry Francis, 1849-1891</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS54240P0'>Harry Francis Hewson was a governor’s private secretary in Mississippi during the Reconstruction era.
+</p>
+
+<p xml:id='OTPS54240P1'>Born to Irish immigrant parents in New Jersey in 1849, Hewson moved to Mississippi as a young man and became the private secretary to Governor James L. Alcorn in 1870. He served in that capacity for over a year and then moved to New York where he worked as an attorney. A few years later, he moved in with his mother and several siblings in New Jersey, and continued to practice law.
+</p>
+
+<p xml:id='OTPS54240P2'>He passed away in 1891, in North Bergen, New Jersey, at the age of 42.
+</p>
+
+<p xml:id='OTPS54240P3'>(“Harry F. Hewson” New Jersey, U.S. Births and Christenings Index, 1660-1931; <hi rend='italic'>The Weekly Mississippi Pilot</hi>, Jackson, MS, May 28, 1870; 1870 U. S. Census for Jackson, Mississippi; Brooklyn Ward 21, 1875 New York State Census; 1880 U.S. Census for Jersey City, New Jersey; Church of the Ascension, Jersey City, 1887-1891, Episcopal Diocese of Newark Church Records, 1800-1970)
+</p>
+
+<p xml:id='OTPS54240P4'>Harry Francis Hewson belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S97021">
+              <placeName>Mississippi--Hinds County. Bolton</placeName>
+                <idno>https://en.wikipedia.org/wiki/Bolton,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS97021P0'>Located in Hinds County, Bolton was founded as early as the 1880s. (Wikipedia; Mississippi Encyclopedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.35167, -90.46</geo>
+                </note>
+            </place>
+            <place xml:id="S51788">
+              <placeName>Mississippi--Warren County. Vicksburg</placeName>
+                <idno>https://archive.org/details/mississippicomp00rowlgoog/page/858/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51788P0'>Located in Warren County, Mississippi, Vicksburg was founded under the name Fort Nogales as early as 1790 in what was then unincorporated territory. In 1798, upon creation of Mississippi Territory, it was renamed Walnut Hills. On April 1, 1799, Walnut Hills became part of the newly created Pickering County (later renamed Jefferson County on January 10, 1802), until the creation of Claiborne County on January 26, 1802. It then became part of its current county of Warren on December 21, 1809. Upon its incorporation on January 29th, 1825, it was renamed Vicksburg. Vicksburg became the county seat in 1836 and remains today. (Rowland, <hi rend='italic'>Mississippi</hi>, 858; Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.33611, -90.87528</geo>
+                </note>
+            </place>
+            <place xml:id="S25001566">
+              <placeName>Louisiana--Caddo Parish. Shreveport</placeName>
+                <idno>https://64parishes.org/entry/the-shreve-town-company</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS25001566P0'>Currently located in Caddo and Bossier Parishes, Shreveport was founded as Shreve Town on February 4, 1837 in what was then Natchitoches County (now extinct) and was renamed Shreveport in 1838. On January 18, 1838, it became part of the newly created Caddo Parish, and on March 30, 1839, it was incorporated. Shreveport serves as the parish seat of Caddo Parish, and previously served as the capital of Louisiana from 1863 until 1865. (64 Parishes Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.5252, -93.7502</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25012377'>
+            <catDesc>
+              <term>Crimes (alleged)--Theft</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/theft?q=Theft</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25012377P0'>"The crime of illegally taking something that belongs to someone else." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32031715'>
+            <catDesc>
+              <term>Criminal Procedures--Extradition</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/extradition?q=Extradition</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32031715P0'>"The act of making someone return for trial to another country or state where he or she has been accused of doing something illegal." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S63934'>
+            <catDesc>
+              <term>Judges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/judge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63934P0'>"A person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63172'>
+            <catDesc>
+              <term>Judges. Justices of the Peace</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/justice-of-the-peace</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63172P0'>"A public officer who judges local and less important legal cases, and performs marriage ceremonies." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S94600'>
+            <catDesc>
+              <term>Lawyers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/lawyer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD94600P0'>"Someone whose job is to give advice to people about the law and speak for them in court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62997'>
+            <catDesc>
+              <term>Mississippi--Treasury Department</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_State_Treasurer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD62997P0'>Operating at the state level, the Mississippi State Treasurer's office was created in 1817 in Jackson when the state was admitted to the Union. The State Legislature appointed the State Treasurer until 1832 when the Treasurer became popularly elected to serve a two-year term (changed to four years in 1869). The State Treasurer is responsible for overseeing and maintaining Mississippi's financial records. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Alcorn Series 786</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Endowment for the Humanities; Funding for this project provided by the College of Arts and Sciences at the University of Southern Mississippi.; Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1871</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Mount, Charles E.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1871-07-28</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Alcorn Collection. Letter from Charles E. Mount to Mississippi Governor James L. Alcorn, requesting that the demands of the attached affidavit be carried out in the issuing of a warrant for the arrest of Napoleon Lyle who is said to be living in Shreveport, Louisiana.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8.5&quot; x 11&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Jackson (Miss.); Shreveport (La.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_786-973-10-18</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Hinds County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Leela Lavanya Battula; McKenna Fussell; Dalton Wood; Sarah West</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 973, Folder 10</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Alcorn, J. L. (James Lusk), 1816-1894; Arrest; Mississippi. Governor</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Charles E. Mount to Mississippi Governor James L. Alcorn; July 28, 1871</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/25893&quot;&gt;Letter from Charles E. Mount to Mississippi Governor James L. Alcorn; July 28, 1871&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG37" who="U2" when="2024-10-25T18:03:59Z" target="#P32816697">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U2" when="2024-10-25T14:41:25Z" target="#P32816696">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U32019810" when="2024-10-22T00:18:15Z" target="#P32816697">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2024-01-30T17:01:31Z" target="#P32816695">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-11-17T17:42:20Z" target="#P32816695">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-11-17T17:19:43Z" target="#P32816695">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-11-02T04:29:27Z" target="#P32816695">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-09-03T00:37:44Z" target="#P32816695">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-09-03T00:37:08Z" target="#P32816696">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-04-07T21:49:43Z" target="#P32816695">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U25091195" when="2023-03-30T23:53:05Z" target="#P32816695">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-19T18:55:27Z" target="#P32816696">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-19T18:23:08Z" target="#P32816696">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-18T21:52:23Z" target="#P32816696">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-18T21:35:43Z" target="#P32816695">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-18T02:05:03Z" target="#P32816695">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-17T23:04:18Z" target="#P32816695">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-03-17T22:28:48Z" target="#P32816695">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-03-16T21:02:15Z" target="#P32816696">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-03-16T20:38:43Z" target="#P32816695">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-03-06T03:59:45Z" target="#P32816695">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091195" when="2023-02-26T02:58:52Z" target="#P32816695">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091195" when="2023-02-26T02:58:27Z" target="#P32816695">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091195" when="2023-02-26T02:55:49Z" target="#P32816697">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091195" when="2023-02-26T02:52:21Z" target="#P32816696">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091195" when="2023-02-26T02:51:33Z" target="#P32816696">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091195" when="2023-02-26T02:49:27Z" target="#P32816695">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091195" when="2023-02-26T02:48:18Z" target="#P32816695">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U32013242" when="2023-02-08T22:54:11Z" target="#P32816696">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U32013242" when="2023-02-08T22:53:57Z" target="#P32816696">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U32013242" when="2023-02-08T22:38:07Z" target="#P32816695">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U32013242" when="2023-02-08T22:33:22Z" target="#P32816695">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2022-12-08T15:19:35Z" target="#P32816697">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2022-12-08T15:18:38Z" target="#P32816696">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2022-12-08T15:16:50Z" target="#P32816695">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2022-12-05T23:34:43Z" target="#P32816697">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-12-05T23:34:37Z" target="#P32816696">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-12-05T23:34:33Z" target="#P32816695">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32816695" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:25890/full/full/0/default.jpg"/>
+        <div xml:id="OTP32816695">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32816695P0' xml:id='OTP32816695P0'>The State of Mississippi<lb/>
+Hinds County
+</p>
+
+<p corresp='TTP32816695P1' xml:id='OTP32816695P1'>Personally appeared before the undersigned an acting <rs ref='#S63172'>Justice of the Peace</rs> in and for said County and State aforesaid, <rs ref='#S32077221'>Thomas. M. Peeble</rs> who being duly sworn, on oath says, that on or about the 15<add place='above'>th</add> day of July 1871, he loaned one <rs ref='#S32075381'>Napoleon. B. Lytle</rs> at <rs ref='#S97021'>Bolton</rs> in said County and State aforesaid, ^to be returned, when called for^ he said Lytle then and there being, One double cased Gold watch of the value of Two hundred Dollars, the property of him the said Thomas. M. Peebles, which said Gold watch <del rend='overstrike'>watch</del> he the said Napoleon. B. Lytle has <del rend='overstrike'>feloniously</del> converted to his own use at <rs ref='#S51788'>Vicksburg</rs>, towit; within the State of Mississippi, as said Lytle has declared to one <rs ref='#S32075382'>Nat<add place='above'>l</add> Walton</rs> acting as agent for said affiant in demand-ing said watch from him said Lytle, and refusing to name the person to whom he delivered said watch, or, to give any satisfactory explanation of the manner of disposing of the same.
+</p>
+
+<p corresp='TTP32816695P2' xml:id='OTP32816695P2'>Affiant charges that said Napoleon. B. Lytle has <rs ref='#S25012377'>feloniously stolen</rs>, taken &amp; carried away said watch the property of affiant, of the value of $200 against the laws of the State of Mississippi—
+</p>
+
+<p corresp='TTP32816695P3' xml:id='OTP32816695P3'>Affiant further says, that said Napoleon. B. Lytle has absconded from this State, and is now residing in <del rend='overstrike'>Vicksburg</del> <rs ref='#S25001566'>^Shrevesport^</rs> in the State of Louisiana—Affiant therefore prays for Requisition of the <rs ref='#S32026126'>Governor of Louisiana</rs> <rs ref='#S32031715'>for return of the body of said, N. B. Lytle</rs>.
+</p>
+
+<p corresp='TTP32816695P4' xml:id='OTP32816695P4'>Thomas M Peebles
+</p>
+
+<p corresp='TTP32816695P5' xml:id='OTP32816695P5'>Sworn to and subscribed before me this 15<add place='above'>th</add> day of July A. D. 1871.
+</p>
+
+<p corresp='TTP32816695P6' xml:id='OTP32816695P6'><rs ref='#S25027078'>J. Alexander.</rs> J. P. Seal
+</p>
+
+
+        </div>
+        <pb xml:id="F32816696" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:25891/full/full/0/default.jpg"/>
+        <div xml:id="OTP32816696">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32816696P0' xml:id='OTP32816696P0'>[unclear] OF MISSISSIPPI.<lb/>
+<del rend='overstrike'><rs ref='#S62997'>TREASURY</rs></del> <rs ref='#S25026074'>^Executive^ DEPARTMENT</rs>.<lb/>
+<hi rend='italic'><rs ref='#S51785'>Jackson</rs>,</hi> July 28<add place='above'>th</add> <hi rend='italic'>187</hi>1
+</p>
+
+<p corresp='TTP32816696P1' xml:id='OTP32816696P1'>His Excellency<lb/>
+<rs ref='#S94280'>Gov. Alcorn</rs>
+</p>
+
+<p corresp='TTP32816696P2' xml:id='OTP32816696P2'>Please issue Requisition upon affidavit herewith, if deemed sufficient, if any thing else be requisite, I would be glad to be informed—
+</p>
+
+<p corresp='TTP32816696P3' xml:id='OTP32816696P3'>Very Respy yr obt srt,
+</p>
+
+<p corresp='TTP32816696P4' xml:id='OTP32816696P4'><rs ref='#S32027208'>Ch<add place='above'>s</add> E Mount</rs><lb/>
+<rs ref='#S94600'>Atto. at Law</rs><lb/>
+Bolton<lb/>
+Hinds C<add place='above'>o</add>,<lb/>
+Missi— 
+</p>
+
+
+        </div>
+        <pb xml:id="F32816697" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:25892/full/full/0/default.jpg"/>
+        <div xml:id="OTP32816697">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32816697P0' xml:id='OTP32816697P0'><b>PRECIS</b><lb/>
+[gap]
+</p>
+
+<p corresp='TTP32816697P1' xml:id='OTP32816697P1'><hr/><lb/>
+<hi rend='italic'>No'.</hi> [gap]<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32816697P2' xml:id='OTP32816697P2'><b>Executive Office,</b><lb/>
+<b>State of Mississippi,</b><lb/>
+<hi rend='italic'>County of</hi> Hinds<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32816697P3' xml:id='OTP32816697P3'><hi rend='italic'>From</hi> Chas E Mount<lb/>
+<hi rend='italic'>Address</hi> Jackson<lb/>
+<hi rend='italic'>Dated</hi> July. 28/<sub>71</sub><lb/>
+<hi rend='italic'>Received</hi> ,, ,, ,,<lb/>
+<hi rend='italic'>Answered</hi> [gap]<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32816697P4' xml:id='OTP32816697P4'>Files affdavit &amp; applies for requisition on State of Louisiana for one N B Lytle<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32816697P5' xml:id='OTP32816697P5'><b>JAMES L. ALCORN,</b><lb/>
+<b>Governor.</b>
+</p>
+
+<p corresp='TTP32816697P6' xml:id='OTP32816697P6'><b><rs ref='#S54240'>H. F. HEWSON</rs>,</b><lb/>
+<hi rend='italic'><rs ref='#S95466'>Private Secretary</rs>.</hi><lb/>
+<hr/> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from General Charles G. Dahlgren to Mississippi Governor John J. Pettus; July 24, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 20 edits between
+              <date type="first_edit" when="2021-02-23T22:52:58Z">February 23, 2021</date> and
+              <date type="last_edit" when="2023-05-27T18:25:45Z">May 27, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U216441">
+          <persName
+            >
+            Robin Horne
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2021-02-05T01:50:08Z">February  5, 2021</date> and
+              <date type="last_edit" when="2021-02-05T02:13:35Z">February  5, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217816">
+          <persName
+            >
+            Gracie Breland
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-02-17T16:21:56Z">February 17, 2021</date> and
+              <date type="last_edit" when="2021-02-17T16:22:52Z">February 17, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-02-05T02:03:08Z">February  5, 2021</date> and
+              <date type="last_edit" when="2021-02-05T02:05:26Z">February  5, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-02-23T13:55:08Z">February 23, 2021</date> and
+              <date type="last_edit" when="2021-02-23T13:55:40Z">February 23, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-08-14T00:45:45Z">August 14, 2024</date> and
+              <date type="last_edit" when="2024-08-21T23:45:03Z">August 21, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T14:49:30Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U217868">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Alec Blaylock </name>
+          </respStmt>
+          <respStmt xml:id="U216441">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Robin Horne</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T18:58:18+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S76212">
+              <persName>Walker, LeRoy Pope, 1817-1884</persName>
+                <idno>https://en.wikipedia.org/wiki/LeRoy_Pope_Walker</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS76212P0'>LeRoy Pope Walker was the first Secretary of War for the Confederate States of America.
+</p>
+
+<p xml:id='OTPS76212P1'>Born on February 7, 1817, near Huntsville, Alabama, Walker received a private education before attending the University of Alabama and then the University of Virginia in the 1830s. He studied law and became an attorney before turning 21 years old. Coming from an influential family in Alabama, Walker held various public offices in the state in the 1840s, including serving as a circuit court judge.
+</p>
+
+<p xml:id='OTPS76212P2'>Walker was an outspoken advocate of secession during the 1850s. Following Alabama’s secession in early 1861, Confederate president Jefferson Davis appointed Walker as Secretary of War. He also served as a secession commissioner from Alabama to Tennessee, in an effort to draw the latter state into the Confederacy. Among his most notable actions as a Confederate cabinet member were public speeches in which he made bold—and very wrong—predictions about the fate of the Confederacy. Early in his tenure he rejected the prospect of large war between the Union and the Confederacy, famously claiming he would wipe up all the blood spilled with his handkerchief. After the firing on Fort Sumter and the sudden rush to war, Walker made another speech prophesizing a Confederate flag waving over the White House in Washington, D.C. By the late summer of 1861 he suffered health problems from work-related stress. President Davis offered him the opportunity to travel to Europe as a representative of the Confederate government, but Walker declined. He stepped down as secretary in September 1861, but accepted a commission as brigadier general in the Confederacy army and (despite no military experience) commanded troops at military forts and posts in Alabama. He resigned his commission in March 1862, but returned to the military in April 1864 to serve as a military judge.
+</p>
+
+<p xml:id='OTPS76212P3'>Following the Civil War, Walker was active in opposing Republican Reconstruction in Alabama, including serving as president of the Alabama constitutional convention in 1875 that overturned Reconstruction policies. Following Reconstruction, he worked as an attorney in Alabama. He died on August 23, 1884. Walker was married twice, first to a Miss Hopkins who passed away after bearing him two children. He then married Eliza Dickson Pickett and had three more children. Walker is buried in Maple Hill Cemetery in Huntsville, Alabama.
+</p>
+
+<p xml:id='OTPS76212P4'>(Wikipedia; FindaGrave; Encyclopedia of Alabama)
+</p>
+
+<p xml:id='OTPS76212P5'>LeRoy Poper Walker belonged to the following social groups:<lb/>
+
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S93271">
+              <persName>Dahlgren, Charles Gustavus, 1811-1888</persName>
+                <idno>https://en.wikipedia.org/wiki/Charles_G._Dahlgren</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS93271P0'>Charles Gustavus Dahlgren was a general in the Mississippi Militia during the Civil War. Born in Philadelphia, Pennsylvania, on August 13, 1811, Dahlgren was the son of the Swedish Consul in Philadelphia. After briefly serving in the U.S. Navy, Dahlgren moved south, first to Louisiana and then Mississippi. He settled in Natchez, undertaking various businesses and working at the Bank of the United States in Natchez.
+</p>
+
+<p xml:id='OTPS93271P1'>Dahlgren married Mary Malvina Routh in 1840. She died in 1858, and Dahlgren married Mary Edgar Vannoy in 1859. Dahlgren had at least nine children among his two wives.
+</p>
+
+<p xml:id='OTPS93271P2'>At the outbreak of the Civil War, Dahlgren used his own money to raise two military units: the 3rd and the 7th Mississippi Infantry Regiments. He commanded a brigade with the two regiments within the Mississippi Militia. When southern officials transferred the brigade to the Confederate Army, Dahlgren vehemently protested. His complaints not only caused him to be relieved of command but led to a personal feud with Confederate President Jefferson Davis that lasted several years.
+</p>
+
+<p xml:id='OTPS93271P3'>While Dahlgren supported the Confederacy, other members of his family became notable Union service members. His older brother, John A. Dahlgren, had made a career out of the naval service, designing a cast-iron cannon (named the “Dahlgren” after him) that became a standard artillery piece for the U.S. Navy, and holding the rank of rear admiral in the Union navy during the Civil War. John’s son Ulric Dahlgren was a Union cavalry officer who led a bold raid into the Confederate to capture or kill Confederate leaders.
+</p>
+
+<p xml:id='OTPS93271P4'>Charles Dahlgren suffered significant financial loss due to the Civil War. He practiced law and moved periodically over the next twenty years, first to New Orleans, then Virginia, and then New York. He died in Brooklyn, New York, on December 18, 1888. His family buried his remains the City Cemetery in Natchez, Mississippi.
+</p>
+
+<p xml:id='OTPS93271P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS93271P6'>Charles Gustavus Dahlgren belonged to the following social groups:<lb/>
+
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S93665">
+              <persName>Davis, G. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63019">
+              <placeName>Mississippi--Adams County. Natchez</placeName>
+                <idno>https://en.wikipedia.org/wiki/Natchez,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63019P0'>Located in Adams County, Natchez was founded in 1716 under the name Fort Rosalie and was renamed Natchez in 1730. It became part of the newly created Adams County on April 1, 1799. It served as the capital of Mississippi Territory from 1798 until 1802, when it was replaced by Washington. It was reinstated as the capital from 1817 until 1820, when the capital was again replaced by Washington (which was later replaced by the current capital Jackson in 1822). Natchez serves as the county seat. (Wikipedia; Britannica; Mississippi Encyclopedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.55444, -91.3875</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S63093">
+              <placeName>Virginia--Independent City. Richmond</placeName>
+                <idno>https://en.wikipedia.org/wiki/Richmond,_Virginia</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63093P0'>Currently an independent city, Richmond was founded in 1737 in what was Henrico County at the time of founding and was incorporated on 1742. It became the state capital of Virginia in 1779. During the American Civil War, Richmond also served as capital of the Confederacy. On July 9, 1902, Richmond became an independent city. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>37.53333, -77.46667</geo>
+                </note>
+            </place>
+            <place xml:id="S69099">
+              <placeName>Sectors of Land--Mississippi. Gulf Coast</placeName>
+                <idno>https://en.wikipedia.org/wiki/Mississippi_Gulf_Coast</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001865">Sectors of Land</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS69099P0'>Located in south Mississippi, the Gulf Coast is an 80-mile long and 55-miles wide coastline along the Gulf of Mexico. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.36742, -89.09282</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+          <category xml:id='S25006301'>
+            <catDesc>
+              <term>Under Review</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C25000149'>Military Units</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25006301P0'>We are currently working hard to identify this military unit/organization and hope to have more details for you soon. If you have information, please contact us at cwrgmproject@gmail.com
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32011960'>
+            <catDesc>
+              <term>Under Review--Brigades</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C25000149'>Military Units</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32011960P0'>We are currently working hard to identify this military brigade/organization and hope to have more details for you soon. If you have information, please contact us at cwrgmproject@gmail.com
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S70086'>
+            <catDesc>
+              <term>Engineers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/engineer?q=engineers</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70086P0'>"A person whose job is to design or build machines, engines, or electrical equipment, or things such as roads, railroads, or bridges, using scientific principles." Alternatively, "an engineer is also a person whose job is to drive railroad trains." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001713'>
+<catDesc>C.S.A. Federal Government</catDesc>
+          <category xml:id='S99586'>
+            <catDesc>
+              <term>Confederate States of America--War Department</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t00z8036q&amp;view=1up&amp;seq=9&amp;skin=2021</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.3675, -86.3</geo>
+              </note>
+              <gloss><p xml:id='OTPSD99586P0'>Operating nationally, the Provisional Confederate Congress established the War Department by an act on February 21, 1861, in Montgomery, Alabama. The department was led by the Secretary of War, appointed by the President with the advice and consent of the Senate. It was initially led by LeRoy Pope Walker from February 25–September 16, 1861 and later led by Judah P. Benjamin (September 17, 1861–March 24, 1862), George W. Randolph (March 24–November 15, 1862), James Seddon (November 21, 1862–February 5, 1865), and Maj. Gen. John C. Breckinridge (February 6–May 10, 1865). The War Department was responsible for the administration of the Confederate Army and managed all matters pertaining to American Indian tribes within the boundaries of the Confederate States. (<hi rend='italic'>Acts and Resolutions of the First Session of the Provisional Congress of the Confederate States</hi>, 1861 Public Laws, S1, 46; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25013536'>
+            <catDesc>
+              <term>Confederate States of America--War Department. Ordnance Department</term>
+              <idno>https://www.essentialcivilwarcurriculum.com/civil-war-ordnance-bureaus.html</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25013536P0'>The Confederate Ordnance Bureau was the office responsible for acquiring ammunition and weapons for the Confederate military. Technically a branch of the Corps of Artillery, the Ordnance Bureau operated independently and was commanded by Major Josiah Gorgas, who had resigned from the United States Ordnance Department at the start of the Civil War. Gorgas estimated that the Confederacy had fewer than 160,000 small arms and only 429 cannons (375 of which were in fortifications around Charleston) in early 1861. To increase the number of weapons and ammunition, the Ordnance Bureau relied upon three sources: European imports, domestic manufacturing, and battlefield captures. The bureau also labored to provide weapons and ammunition to the field armies through railroad and wagon train transportation routes. Through these efforts, and despite the Union blockade and limited domestic resources, the Ordnance Bureau imported around 380,000 foreign small arms, produced around 10,000 firearms within the Confederacy, and captured enough Union weapons to arm the Confederate military throughout the war. The Confederate army never suffered a battlefield defeat due to the lack of weapons or ammunition. (Frank E. Vandiver, “Makeshifts of Confederate Ordnance,” <hi rend='italic'>The Journal of Southern History</hi>, 180–193; Philip Leigh, “Civil War Ordnances Bureaus,” Essential Civil War Curriculum) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+<category xml:id='C32001716S99586'>
+<catDesc>
+<term><rs ref='S99586'>Confederate States of America--War Department</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001716S25013536'>
+<catDesc>
+<term><rs ref='S25013536'>Confederate States of America--War Department. Ordnance Department</rs></term>
+</catDesc>
+</category>
+          <category xml:id='S95870'>
+            <catDesc>
+              <term>Military Headquarters</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/headquarters</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95870P0'>A military headquarters is the main center of control for a unit and typically revolves around that unit’s highest ranking officer. The term headquarters often refers to a physical location, however it is not always a permanent facility. A commanding officer can establish a headquarters anywhere that best allows oversight of the unit. Frequently during the Civil War military leaders relocated their headquarters each day as their armies moved. Union general John Pope famously declared that he would make his “headquarters in the saddle.” The comment was more symbolic than literal, but reflected how a headquarters centered on the commander's location and was subject to his discretion in how and where to conduct official duties. Pope’s critics replied that he was making his headquarters where his “hindquarters” should be, representing the more traditional view of a headquarters being a stationary command center strategically located for the effective management of a staff and army. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Dahlgren, Charles Gustavus, 1808-1888</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-07-24</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Natchez, Mississippi, by Confederate General Charles G. Dahlgren, requesting officers of Ordnance, Engineers, and Topography be sent to him.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Natchez (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-939-01-10</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Adams County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Amy Myers; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 939, Folder 1</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army; Confederate States of America. Army. Corps of Engineers; Confederate States of America. Army--Officers; Confederate States of America. Army--Ordnance and ordnance stores; Mississippi. Governor; Mississippi. Militia; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from General Charles G. Dahlgren to Mississippi Governor John J. Pettus; July 24, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/2177&quot;&gt;Letter from General Charles G. Dahlgren to Mississippi Governor John J. Pettus; July 24, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG38" who="U2" when="2024-10-25T14:49:30Z" target="#P1653547">
+          Version 33 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U32019810" when="2024-08-21T23:45:03Z" target="#P1653547">
+          Version 32 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U32019810" when="2024-08-14T00:45:45Z" target="#P1653547">
+          Version 31 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-05-27T18:25:45Z" target="#P1653547">
+          Version 30 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-03-19T21:08:12Z" target="#P1653547">
+          Version 29 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-03-19T20:15:16Z" target="#P1653547">
+          Version 28 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-18T23:07:16Z" target="#P1653547">
+          Version 27 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-18T21:58:02Z" target="#P1653547">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-18T03:34:20Z" target="#P1653547">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-18T03:26:29Z" target="#P1653547">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-18T00:15:47Z" target="#P1653547">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2022-02-06T19:53:01Z" target="#P1653547">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2021-11-06T15:37:03Z" target="#P1653547">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2021-11-06T15:36:53Z" target="#P1653547">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2021-11-06T14:22:29Z" target="#P1653547">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2021-10-22T20:32:13Z" target="#P1653547">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2021-08-24T16:29:57Z" target="#P1653547">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2021-07-06T20:14:59Z" target="#P1653547">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2021-05-06T18:46:25Z" target="#P1653547">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2021-03-12T00:17:09Z" target="#P1653547">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2021-02-23T22:53:38Z" target="#P1653547">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2021-02-23T22:53:21Z" target="#P1653547">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2021-02-23T22:52:58Z" target="#P1653547">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U217868" when="2021-02-23T13:55:40Z" target="#P1653548">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U217868" when="2021-02-23T13:55:08Z" target="#P1653547">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U217816" when="2021-02-17T16:22:52Z" target="#P1653548">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U217816" when="2021-02-17T16:22:34Z" target="#P1653547">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U217816" when="2021-02-17T16:21:56Z" target="#P1653547">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U216441" when="2021-02-05T02:13:35Z" target="#P1653547">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U216441" when="2021-02-05T02:08:58Z" target="#P1653547">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U226410" when="2021-02-05T02:05:26Z" target="#P1653548">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U226410" when="2021-02-05T02:03:08Z" target="#P1653547">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U216441" when="2021-02-05T01:58:34Z" target="#P1653547">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U216441" when="2021-02-05T01:52:25Z" target="#P1653547">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U216441" when="2021-02-05T01:50:08Z" target="#P1653547">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2020-12-10T17:48:07Z" target="#P1653548">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2020-12-10T17:48:07Z" target="#P1653547">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2020-12-10T17:48:03Z" target="#P1653548">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2020-12-10T17:48:02Z" target="#P1653547">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1653547" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2175/full/full/0/default.jpg"/>
+        <div xml:id="OTP1653547">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1653547P0' xml:id='OTP1653547P0'>[seal]
+</p>
+
+<p corresp='TTP1653547P1' xml:id='OTP1653547P1'><rs ref='#S95870'>Head-Quarters</rs>, <rs ref='#S32011960'>Third Brigade Army of<lb/>
+Miss</rs>: <rs ref='#S63019'>Natchez</rs> July 24<add place='above'>th</add> 1861—
+</p>
+
+<p corresp='TTP1653547P2' xml:id='OTP1653547P2'>His Excellency:<lb/>
+<rs ref='#S63111'>J. J. Pettus</rs><lb/>
+Governor &amp;c<lb/>
+<rs ref='#S51785'>Jackson</rs>, Miss:
+</p>
+
+<p corresp='TTP1653547P3' xml:id='OTP1653547P3'>Sir,
+</p>
+
+<p corresp='TTP1653547P4' xml:id='OTP1653547P4'>It being of paramount importance that a skilful officer of <rs ref='#S25013536'>Ordnance</rs>, of <rs ref='#S70086'>Engineers</rs> and of Topo-graphical Corps, should be attached to my Brigade, you will confer a favor, by requesting the <rs ref='#S76212'>Sec<add place='above'>y</add> of War</rs>, at <rs ref='#S63093'>Rich=mond</rs>, to order such officers for service upon my Staff—and as time is of much moment, the earlier the better.
+</p>
+
+<p corresp='TTP1653547P5' xml:id='OTP1653547P5'>I have not yet been able to procure a [?] of the <rs ref='#S69099'>Coast of Miss.</rs> and see no present probablilty of so doing.
+</p>
+
+<p corresp='TTP1653547P6' xml:id='OTP1653547P6'>Your early attention will oblige.<lb/>
+Respt.. Yours &amp;c
+</p>
+
+<p corresp='TTP1653547P7' xml:id='OTP1653547P7'><rs ref='#S93271'>C. G. Dahlgren</rs><lb/>
+Brig. Gen<add place='above'>l</add> 3 Brigade Army of Miss.
+</p>
+
+<p corresp='TTP1653547P8' xml:id='OTP1653547P8'><rs ref='#S93665'>G. M. Davis</rs>.<lb/>
+Aid.— 
+</p>
+
+
+        </div>
+        <pb xml:id="F1653548" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2176/full/full/0/default.jpg"/>
+        <div xml:id="OTP1653548">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1653548P0' xml:id='OTP1653548P0'>C. G Dahlgren
+</p>
+
+<p corresp='TTP1653548P1' xml:id='OTP1653548P1'>July 24<add place='above'>th</add> 1861
+</p>
+
+<p corresp='TTP1653548P2' xml:id='OTP1653548P2'>To Gov. Pettus 1861
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

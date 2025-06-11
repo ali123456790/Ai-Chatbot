@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from John McDonald to Colonel E. Surget; April 19, 1865</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 20 edits between
+              <date type="first_edit" when="2022-12-04T00:34:23Z">December  4, 2022</date> and
+              <date type="last_edit" when="2023-11-17T18:24:19Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-11-03T14:23:32Z">November  3, 2022</date> and
+              <date type="last_edit" when="2022-11-03T14:27:10Z">November  3, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-11-09T20:37:35Z">November  9, 2022</date> and
+              <date type="last_edit" when="2023-08-25T15:34:59Z">August 25, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-11-07T04:14:55Z">November  7, 2022</date> and
+              <date type="last_edit" when="2022-11-07T04:18:07Z">November  7, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T17:17:20Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32017648">
+          <persName
+            >
+            Mariah Cosens
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-02-15T18:32:08Z">February 15, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T20:17:51+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S25014302">
+              <persName>McDonald, J. W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32055701">
+              <persName>Griffith, R. C.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32056450">
+              <persName>Surget, Eustace</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S53950">
+              <persName>Taylor, Richard, 1826-1879</persName>
+                <idno>https://en.wikipedia.org/wiki/Richard_Taylor_(Confederate_general)</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS53950P0'>Richard “Dick” Taylor was Louisiana state senator and a general in the Confederate Army.
+</p>
+
+<p xml:id='OTPS53950P1'>Born on January 27, 1826, near Louisville, Kentucky, Richard Taylor was the son of Zachary Taylor—famed Mexican-American War general and president of the United States. Richard, who went by the nickname “Dick,” attended private schools in Kentucky and Massachusetts, before attending Harvard College. He transferred to Yale for his university studies and graduated in 1845.
+</p>
+
+<p xml:id='OTPS53950P2'>Taylor briefly served in the Mexican-American War under his father, but left Mexico due to health problems. He traveled to Mississippi to manage a cotton plantation owned by his family, and then moved to Louisiana after he inherited a sugar plantation following his father’s death in 1850 while president. Dick Taylor expanded the size of the Louisiana plantation property and its slave population, eventually owning around two hundred enslaved people. Taylor married Louise Marie Mythe Bringer, the daughter of a wealthy family in Louisiana, and became one of the richest men in the state. In the 1855 Taylor won a seat in the Louisiana Senate as a Whig, but changed to the Know Nothing Party (an anti-immigrant political party) before joining the Democratic Party by 1860.
+</p>
+
+<p xml:id='OTPS53950P3'>When the deep southern states began seceding following Abraham Lincoln’s election to the presidency, Taylor opposed secession. However, he placed his loyalty behind the Confederacy at the outbreak of war and received a commission as colonel of the Ninth Louisiana Infantry Regiment. The regiment was transferred to Virginia, missing the First Battle of Bull Run at Manassas by only hours.
+</p>
+
+<p xml:id='OTPS53950P4'>Taylor was promoted to brigadier general in October 1861 and commanded a brigade under Thomas “Stonewall” Jackson in Virginia in 1862. He performed well in several battles in the Shenandoah Valley, including the First Battle of Winchester and the Battle of Port Republic. In June 1862, Taylor received a promotion to major general, making him the youngest officer of that rank in the Confederacy. The new rank led to a new assignment, which involved raising soldiers in western Louisiana. When he arrived there, Union forces already occupied several parts of the state. Taylor led Confederate troops in several battles against federal soldiers in Louisiana, and led raids against Ulysses S. Grant’s army and supplies during the Vicksburg campaign. In 1864, Taylor successfully repulsed Union general Nathaniel P. Banks’ Red River Campaign in Louisiana. However, Taylor believed he had lost a chance to decisively beat Banks due to decisions by Confederate general Edmund Kirby Smith.
+</p>
+
+<p xml:id='OTPS53950P5'>In 1865, Taylor was briefly placed in command of the remnants of General John Bell Hood’s Army of Tennessee, after its disastrous Nashville campaign. He surrendered to Union forces in Alabama on May 4, 1865, was paroled a few days later, and returned to Louisiana to find his sugar plantation destroyed. He moved his family to New Orleans and remained there through the Reconstruction period. After his wife died in 1875, Taylor moved with the couple’s three children to Winchester, Virginia. He passed away in 1870 while visiting a friend in New York City. Taylor is buried in Metairie Cemetery in New Orleans, Louisiana.
+</p>
+
+<p xml:id='OTPS53950P6'>(Wikipedia; National Park Service, T. Michael Parrish, “Taylor, Richard (1826-1879),” Texas State Historical Association; American Battlefield Trust)
+</p>
+
+<p xml:id='OTPS53950P7'>Richard Taylor belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S52667">
+              <placeName>Mississippi--Winston County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/winston-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52667P0'>Located in central Mississippi, Winston County was established on December 23, 1833 from Lowndes, Madison, and Rankin counties. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.09, -89.04</geo>
+                </note>
+            </place>
+            <place xml:id="S72685">
+              <placeName>Mississippi--Kemper County. Big Oak</placeName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS72685P0'>Big Oak is located in Kemper County, Mississippi.
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.76972, -88.65028</geo>
+                </note>
+            </place>
+            <place xml:id="S69885">
+              <placeName>Mississippi--Neshoba County. Philadelphia</placeName>
+                <idno>https://en.wikipedia.org/wiki/Philadelphia,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS69885P0'>Located in Neshoba County, Philadelphia was founded in 1903 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.77417, -89.11278</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001329'>
+<catDesc>Publishing Industries</catDesc>
+          <category xml:id='S99620'>
+            <catDesc>
+              <term>Newspapers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/newspaper</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001329'>Publishing Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99620P0'>"A document consisting of news reports, articles, and photographs that is published every day or every week" (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32083641'>
+            <catDesc>
+              <term>Newspapers--Mississippi</term>
+              <idno>https://chroniclingamerica.loc.gov/newspapers/mississippi/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001329'>Publishing Industries</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>33.0, -90.0</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32083641P0'>The first newspaper published in Mississippi was the <hi rend='italic'>Mississippi Gazette</hi>, which went into print around 1800 in Natchez, before Mississippi Territory was formally organized. Several more appeared during the next few years, and by the time Mississippi entered the Union in 1817 at least half a dozen different publications had emerged. Over the following years, newspaper companies opened as communities grew and the demand for information increased. Publishing resources (like paper and print presses) became more available aiding in the news media boom. By the mid-nineteenth century, most Mississippi towns or counties had a local newspaper, published daily or weekly. Major cities typically had more than one newspaper, often published by competing political parties. Most newspapers went out of business after only a few years; however, a few continued in print for decades, including <hi rend='italic'>The Columbus Democrat</hi> in Columbus (1836–1877), <hi rend='italic'>The Kosciusko Chronicle</hi> in Kosciusko (1846–1892), and the <hi rend='italic'>Grenada Sentinel</hi> of Grenada which started in 1868 and remained in publication until 1955. Overall, as many as two hundred different publishers started daily or weekly newspapers in Mississippi during the nineteenth century. (Tim Hughes, “The first newspapers in Mississippi…,” History’s Newsstand Blog; Library of Congress)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S78011'>
+            <catDesc>
+              <term>Newspapers--Mississippi. Mississippi Free Trader (Natchez, Miss.)</term>
+              <idno>https://chroniclingamerica.loc.gov/lccn/sn83016918/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001329'>Publishing Industries</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>31.55444, -91.3875</geo>
+              </note>
+              <gloss><p xml:id='OTPSD78011P0'>Located in Natchez, Mississippi, the <hi rend='italic'>Mississippi Free Trader</hi> was a newspaper company operating from 1843 until 1861. (Library of Congress)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S25023805'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Disband Military Units</term>
+              <idno>https://www.archives.gov/publications/prologue/2015/spring/cw-surrenders.html</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25023805P0'>During the American Civil War, to disband a military unit was to formally dissolve it. Once dissolved, soldiers returned to their state capitals to deposit their weapons and other publicly owned property. Units were disbanded for a number of reasons throughout the war, including the end of their service agreement and surrender. Frequently, officers disbanded a unit with diminished strength and reorganized it to form a full strength unit. As the Lieber Code did not recognize un-uniformed guerrilla fighters, it was also common for leaders of guerrilla units, like Confederate Col. John Singleton Mosby, to disband their command rather than formally surrender.
+</p>
+
+<p xml:id='OTPSD25023805P1'>Following Confederate Gen. Robert E. Lee's surrender of the Army of Northern Virginia at Appomattox Court House in April 1864, the enormous process of demobilizing all Confederate armies began. The terms for disbanding Confederate military units Union Gen. Ulysses S. Grant offered Lee were mimicked by other Union commanders. Rather that disbanding the men without any restraints, Grant classified them as paroled prisoners of war, which would legally forbid them for taking up arms against the United States again. (Caroline E. Janney, <hi rend='italic'>Ends of War</hi>, p. 26; 47)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25009156'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Recruiting and enlistment</term>
+              <idno>https://encyclopediaofarkansas.net/entries/civil-war-recruitment-6391/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25009156P0'>At the outbreak of the American Civil War in 1861, neither the Union nor the Confederate army struggled to find recruits. Rather, both armies saw far more volunteers than their ranks and provisions could sustain. Many young men of the North and South believed that the war would end quickly and volunteered by the thousands to not miss out on the action. Other motivators for rapid enlistment included a sense of adventure, defense of slavery or the privileges of whiteness, defense of the Union, fear of ostracism in their home communities for not enlisting, or a desire to protect their homes and families.
+</p>
+
+<p xml:id='OTPSD25009156P1'>Widespread enlistment required both the United States and Confederate governments to reshape their militaries that were otherwise unprepared to handle that many recruits. The U.S. possessed only a small standing army of 16,000 men before the war, and the Confederacy needed to build its own from scratch. Both therefore relied heavily on local recruiting to organize men into militia companies then employable in the federal service. Recruiters throughout the war published pamphlets, put up posters, and gave speeches to encourage men to fight.
+</p>
+
+<p xml:id='OTPSD25009156P2'>As the war continued, dreams of a short war ended along with many men's desires to enlist. Both armies (the Confederacy in 1862 and the Union in 1863) resorted to conscription to fill their ranks. Free African Americans, particularly in the North, debated the utility and wisdom of fighting for the United States even after being legally allowed to do so in 1863. Many formerly enslaved African-American men yearned to fight for their own freedom, while others doubted that military service in the Civil War would accomplish their desired goals of emancipation and equality. However, prominent African Americans such as Frederick Douglass encouraged Black men to take up arms, and roughly 200,000 did so.
+</p>
+
+<p xml:id='OTPSD25009156P3'>Ultimately, men enlisted during the Civil War for many reasons, often tied to demographic or personal causes, and, as the war progressed and varied in its popularity and aims, recruiters' tactics likewise changed to adapt to each new situation. (Encyclopedia of Arkansas)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S98996'>
+            <catDesc>
+              <term>Political Office--Appointment to Office</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/appointment</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98996P0'>"The act of officially choosing someone for a job, or the job itself." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32013717'>
+            <catDesc>
+              <term>Confederate States of America. Army. Cavalry</term>
+              <idno>https://en.wikipedia.org/wiki/Cavalry_in_the_American_Civil_War</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32013717P0'>The term cavalry referred to horse-mounted soldiers. Although cavalry was a fundamental part of Civil War armies, by the American Civil War, weapons and tactics limited the role cavalry soldiers played on the battlefield. Disciplined infantry soldiers in tight ranks with muskets and bayonets could repel cavalry charges. Therefore, Civil War armies typically used the speed and mobility of cavalry troops for scouting and raiding behind enemy lines. Additionally, cavalry soldiers could fight on foot in loose, or skirmish, formations to harass enemy positions or delay enemy attacks. Overall, because cavalry units required greater logistical support in order to feed and care for their horses, and due to their relatively limited role in open battle, cavalry units made up a much smaller part of the army than their infantry counterparts.
+</p>
+
+<p xml:id='OTPSD32013717P1'>Confederate cavalrymen enjoyed a reputation of superiority over their Union counterparts during the first half of the Civil War. One popular explanation for this is that Confederate cavalry soldiers often had to provide their own horses (something less common in the Union army) and therefore were more experienced and comfortable with their steeds. Two other theories are that Southern aristocratic culture placed higher value on horsemanship than northern communities, and that men who grew up in the South’s largely agricultural society were more familiar with horses than those from the industrial North. All of these explanations may have some merit, but exaggerate the differences between North and South, and cannot account for any great disparity in cavalry actions within the Civil War.
+</p>
+
+<p xml:id='OTPSD32013717P2'>More important reasons for Confederate cavalry’s positive reputation included some high-profile leaders and notable early war victories. J.E.B. Stuart’s battlefield success in the Eastern Theater during the first two years, coupled with his flamboyant style, made him and his horse soldiers celebrities in the South, while other cavalry commanders, like John Hunt Morgan, John Singleton Mosby, and Nathan Bedford Forrest, used aggressive and rapid cavalry raids to disrupt northern supply lines, defeat isolated federal troops, and generally tie up exponentially larger Union forces. Despite these early and famous Confederate successes, Union cavalry forces improved in quality and quantity during the course of the war, culminating in a fight to a draw at Brandy Station—the largest cavalry battle in North America—in June 1863. During the last two years of the war, Confederate cavalry did not enjoy its reputation of dominance, although it still managed to play a large role in scouting, raiding, and resisting Union forces. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001148'>
+<catDesc>State Level: USA &amp; CSA Military</catDesc>
+          <category xml:id='S63200'>
+            <catDesc>
+              <term>Mississippi. Militia</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63200P0'>A militia is a military unit made up of civilians within a community who could be called up by local (often state) officials to serve temporary military purposes. Militias were separate from regular, or permanent, armies. Because they conducted training only periodically, and provided active military service for short periods of time, militias cost less than regular armies; and because they were manned by local residents, militias were frequently seen as less threatening to early American communities than national military units comprised of strange men born in other counties or states.
+</p>
+
+<p xml:id='OTPSD63200P1'>When Mississippi seceded in 1861, enthusiasm for military service swept across the state. Volunteers filled the ranks of old militia units or created new companies within their communities, eager to repulse any federal attempt to coerce secessionists back into the Union. They also took proactive efforts, securing key positions along the Gulf Coast, including reinforcing other Southern soldiers at Pensacola and Fort Pickens in Florida. Over the next few months, as the Confederate government requested more volunteers, thousands of Mississippians and entire volunteer companies from the state transferred to Confederate service and were sent north, out of state. The units that remained within Mississippi for state defense were left in a convoluted military structure, some considered state reserves (a more formal military force for state defense) and some considered state militia (the more traditional units of citizen-soldiers called up for local, emergency use). The distinctions were not well established, and during the war Mississippians describing state units not within the Confederate army used a variety of terms—such as militia, home guard, state troops—almost interchangeably. However, under this subject tag at CWRGM you will find references to the militia and state troops; references that specifically referred to the home guard can be found separately under the Mississippi Home Guard subject tag.
+</p>
+
+<p xml:id='OTPSD63200P2'>While militia and state defense units technically fell under the governor’s authority, the state government struggled to manage, or even track, these organizations. Some, like the Third Battalion Mississippi Minute Men, were well organized, fell under direct state control, and took part in larger military operations, such as the defense of Vicksburg; others saw no combat, rarely gathered for drill, and were entirely overseen by county or local community officials. Most militia members were older than the average Confederate soldier. They were typically farmers, business owners, or land owners who had families and, in many instances, slaves. Because of these responsibilities at home, militiamen expected their military duties to be periodic, temporary, and only during times of emergency, a reflection of the militia’s original intent. However, state officials occasionally activated militia units for long periods, based upon the military situation. In the summer of 1862, Mississippi’s governor, John J. Pettus, mobilized his state troops, pulling many militia units away from their communities. Held in camp for several weeks, drilling but not seeing combat, many militiamen complained of their treatment and argued that their services were needed more at home, managing farms and their communities. Despite these complaints, the governor mobilized the state troops again in 1864, and again met criticism.
+</p>
+
+<p xml:id='OTPSD63200P3'>Overall, Mississippi’s militia and state defense system during the Civil War was a complicated tangle of formal and informal military units. Infrequently used for combat assignments, these units nevertheless provided some emergency services for the state government and allowed many Mississippians a way to provide military service to the community while remaining at home to manage personal and local interests. (Tracy L. Barnett, “Mississippi ‘Milish’: Militiamen in the Civil War,” <hi rend='italic'>Civil War History</hi>, Vol. 66, No. 4 (Dec 2020), 343-379; Michael B. Ballard, <hi rend='italic'>The Civil War in Mississippi: Major Campaigns and Battles</hi>, 4-8)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S32005347'>
+            <catDesc>
+              <term>Inspectors</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/inspector?q=inspectors</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32005347P0'>"Someone whose job is to officially inspect something." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S70293'>
+            <catDesc>
+              <term>Newspaper Editors</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/editor</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70293P0'>"A person who is in charge of a newspaper ... and is responsible for all of its reports." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S58306'>
+            <catDesc>
+              <term>Military Deserters</term>
+              <idno>https://www.essentialcivilwarcurriculum.com/desertion,-cowardice-and-punishment.html#:~:text=Official%20figures%20show%20slightly%20over,the%20way%20among%20Confederate%20troops.</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58306P0'>During the American Civil War, desertion primarily indicated one's fleeing from camp and thereby attempting to permanently escape military service altogether rather than one's fleeing from battle when faced with the enemy.
+</p>
+
+<p xml:id='OTPSD58306P1'>As the war continued past its first few months and the reality of battle disabused men both North and South of the romanticized visions of combat they formerly possessed, both the Union and Confederate armies saw large numbers of deserters. One estimate places roughly 103,000 deserters in the Confederate Army and over 200,000 in the Union Army (Essential Civil War Curriculum).
+</p>
+
+<p xml:id='OTPSD58306P2'>Men on both sides deserted for a number of reasons, including poor conditions and the rigor of military camp life, concern for their family's well being at home, low morale after defeats in battle, or general homesickness. Many deserters were of a class known as "bounty jumpers," or those who joined the military to receive an initial payment known as a bounty, only to flee military service immediately afterword. While the Union Army faced a greater total number of desertions, the Confederacy ultimately suffered more from desertion due to its lower total manpower.
+</p>
+
+<p xml:id='OTPSD58306P3'>Both sides nonetheless took stern measures to discourage desertion. Punishment of deserters varied on both sides at different points during the war, ranging anywhere from corporal punishment to humiliation or, later in the war, execution. Though only about 400 executions ever took place to punish a much larger number of deserters, it is indicative of the brutal reality of Civil War military service that many men, despite the potential death sentence, still felt compelled to desert (Essential Civil War Curriculum).  
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Clark Series 768</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1857; 1858; 1865</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>McDonald, John</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1865-04-19</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Clark Collection. Letter from John McDonald at Philadelphia, Mississippi, to Colonel E. Surget, concerning the large number of deserters from the Confederate Army serving in the Mississippi militia.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 13&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Philadelphia (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_768-950-08-23</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Kemper County (Miss.); Neshoba County (Miss.); Winston County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Dalton Wood; Britany Castilaw; McKenna Fussell; Michael Singleton; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 950, Folder 8</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Clark, Charles, 1811-1877; Confederate States of America. Army; Confederate States of America. Army--Officers; Military deserters; Mississippi. Governor; Mississippi. Militia; Newspaper editors; Newspapers; Taylor, Richard, 1826-1879</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from John McDonald to Colonel E. Surget; April 19, 1865</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/23267&quot;&gt;Letter from John McDonald to Colonel E. Surget; April 19, 1865&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG31" who="U2" when="2024-10-25T17:17:20Z" target="#P32549324">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U32017648" when="2024-02-15T18:32:08Z" target="#P32549325">
+          Version 14 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-11-17T18:24:19Z" target="#P32549324">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-11-17T18:03:24Z" target="#P32549325">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-11-02T18:08:11Z" target="#P32549324">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-11-02T03:35:46Z" target="#P32549325">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-11-02T03:19:40Z" target="#P32549324">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-09-02T20:31:24Z" target="#P32549324">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-09-02T20:22:04Z" target="#P32549325">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-09-02T20:10:17Z" target="#P32549324">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U25091356" when="2023-08-25T15:34:59Z" target="#P32549325">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-04-07T15:33:16Z" target="#P32549325">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-04-06T17:30:40Z" target="#P32549324">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-03-20T01:45:54Z" target="#P32549325">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-03-18T22:26:53Z" target="#P32549325">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-03-18T15:22:24Z" target="#P32549325">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-18T14:30:42Z" target="#P32549324">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-18T00:09:56Z" target="#P32549324">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-17T22:31:29Z" target="#P32549325">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-03-03T17:47:11Z" target="#P32549324">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2022-12-04T17:18:41Z" target="#P32549324">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2022-12-04T15:41:06Z" target="#P32549325">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2022-12-04T00:34:23Z" target="#P32549324">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091356" when="2022-11-09T20:39:06Z" target="#P32549325">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091356" when="2022-11-09T20:37:35Z" target="#P32549324">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091253" when="2022-11-07T04:18:07Z" target="#P32549325">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25091253" when="2022-11-07T04:14:55Z" target="#P32549324">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2022-11-03T14:27:10Z" target="#P32549325">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2022-11-03T14:24:41Z" target="#P32549324">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U231087" when="2022-11-03T14:23:32Z" target="#P32549324">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-09-13T15:08:06Z" target="#P32549325">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-09-13T15:07:59Z" target="#P32549324">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32549324" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:23265/full/full/0/default.jpg"/>
+        <div xml:id="OTP32549324">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32549324P0' xml:id='OTP32549324P0'><rs ref='#S69885'>Philadelphia<lb/>
+Neshoba Co.</rs> Missi<lb/>
+Apl 19' 1865
+</p>
+
+<p corresp='TTP32549324P1' xml:id='OTP32549324P1'>Col. <rs ref='#S32056450'>E. Surget</rs>
+</p>
+
+<p corresp='TTP32549324P2' xml:id='OTP32549324P2'>Sir:
+</p>
+
+<p corresp='TTP32549324P3' xml:id='OTP32549324P3'>The interest I feel in the course of our country, prompts me to write you this note.
+</p>
+
+<p corresp='TTP32549324P4' xml:id='OTP32549324P4'>In this and adjoining counties, there are a large number of young men owing duty to the Confederate Service, who are, and have been, attached to local <rs ref='#S63200'>State Companies</rs>. There are a large number of <rs ref='#S58306'>deserters</rs> from the <rs ref='#S70882'>army</rs> in these companies. It is a notorious fact that most of the young men who have reached the age of eighteen within the last twelve or eighteen months have joined, and now belong, to such companies. There are numbers, too, who have actually joined the militia, who owe Confed-erate service—Written orders will never get these men. They are protected by their officers, many of whom, to my knowledge are deserters.
+</p>
+
+<p corresp='TTP32549324P5' xml:id='OTP32549324P5'>Permit me to suggest that if Gen. <rs ref='#S53950'>Taylor</rs> would <rs ref='#S98996'>appoint</rs> temporary <rs ref='#S32005347'>Inspectors</rs> with the authority to inspect <rs ref='#S25009156'>muster rolls</rs> and companies, many men could be added to the army. With such authority, and furnished with ten reliable <rs ref='#S32013717'>Cavalry</rs> men, I believe I could gather up three hundred 
+</p>
+
+
+        </div>
+        <pb xml:id="F32549325" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:23266/full/full/0/default.jpg"/>
+        <div xml:id="OTP32549325">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32549325P0' xml:id='OTP32549325P0'>men in companies raised in Neshoba, Kemper and <rs ref='#S52667'>Winston</rs>. These men are doing no service and never intend to do any. Should anything of the kind be done it should be commenced before the militia is <rs ref='#S25023805'>disbanded</rs>.
+</p>
+
+<p corresp='TTP32549325P1' xml:id='OTP32549325P1'>Probably you will remember me as the <rs ref='#S70293'>Editor</rs> of the <rs ref='#S78011'>Natchez Free Trader</rs> in 1856/57.
+</p>
+
+<p corresp='TTP32549325P2' xml:id='OTP32549325P2'>I am,<lb/>
+Very respectfully<lb/>
+your ob. sevt.
+</p>
+
+<p corresp='TTP32549325P3' xml:id='OTP32549325P3'><rs ref='#S25014302'>J. W. M<add place='above'>c</add>Donald</rs><lb/>
+<rs ref='#S72685'>Big Oak</rs><lb/>
+Kemper County<lb/>
+Missi
+</p>
+
+<p corresp='TTP32549325P4' xml:id='OTP32549325P4'>The above statement of facts are true, &amp; I am sure if carried Into affect would be of greate benefit to the Cause
+</p>
+
+<p corresp='TTP32549325P5' xml:id='OTP32549325P5'><rs ref='#S32055701'>R. C. Griffith</rs> Lieut<lb/>
+E O Neshobo Co Miss
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

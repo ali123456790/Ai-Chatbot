@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Legal Document from J. P. Barksdale to Mississippi Lieutenant Governor A. K. Davis; December 3, 1875</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 15 edits between
+              <date type="first_edit" when="2023-09-03T00:36:26Z">September  3, 2023</date> and
+              <date type="last_edit" when="2024-12-11T19:41:06Z">December 11, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2023-07-28T14:31:09Z">July 28, 2023</date> and
+              <date type="last_edit" when="2023-07-28T14:38:25Z">July 28, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-04-27T13:09:43Z">April 27, 2023</date> and
+              <date type="last_edit" when="2023-04-27T13:17:20Z">April 27, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-04-28T16:47:07Z">April 28, 2023</date> and
+              <date type="last_edit" when="2023-04-28T16:53:32Z">April 28, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32011852">
+          <persName
+            >
+            Rose Doyle
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-07-25T04:06:11Z">July 25, 2023</date> and
+              <date type="last_edit" when="2023-07-25T04:09:36Z">July 25, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2024-10-25T13:12:52Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T17:37:33Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U226410">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Bernard Murphy, Jr.</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T15:05:58+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32094672">
+              <persName>Barksdale, J. P.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32030371">
+              <persName>Martin, S. R.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32076240">
+              <persName>Davis, A. K. (Alexander Kelso), u.-1884</persName>
+                <idno>https://mississippiencyclopedia.org/entries/alexander-k-davis/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002630">African Americans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32076240P0'>Alexander K. Davis was a representative in the Mississippi legislature and served as the state’s lieutenant governor from 1874 to 1876, during Reconstruction. He was the first African American lieutenant governor of Mississippi.
+</p>
+
+<p xml:id='OTPS32076240P1'>Little was recorded of Davis’ past. His date and place of birth are not known. During testimony before Congress in 1871 he explained that he moved to Noxubee County, Mississippi, from Tennessee in 1869, and said he had been admitted to the bar (a reference that he had been accepted as a practicing attorney in a city or county), but did not specify in which state. He won a seat in Mississippi’s House of Representatives shortly after coming to Mississippi and became a leading figure in the state’s Republican Party circles. In 1873, Radical Republicans backed by a majority of African American voters in Mississippi, won a series of state elections. Davis was one of three African Americans elected to statewide office that year, winning the lieutenant governor seat. (The other Black figures to win statewide election were James Hill as secretary of state and T. W. Cardozo as state superintendent of education.) The following year, white conservatives carried out a campaign of intimidation and violence to suppress Republican and African American voting and put Democrats into political power. The effort worked and by 1875, Democrats held a majority of state legislative seats. Emboldened by their political power, Democrats tried to rid Republicans from many state positions. They specifically targeted Davis and northern-born and Radical Republican Governor Adelbert Ames, accusing both men of improprieties in office. Davis was charged with illegal granting of pardons. Despite his effort to fight the trumped-up charges, Mississippi Democrats impeached Davis in March 1876. Knowing that the conviction would result in him being removed from office, Davis resigned. Governor Ames, also facing politically-driven impeachment proceedings that would require extensive time and financial resources to fight, resigned as well. Following his resignation, Davis abandoned politics. He moved to Canton, Mississippi and worked as a pastor. He died on November 21, 1884.
+</p>
+
+<p xml:id='OTPS32076240P2'>(Wikipedia; Dernoral Davis, "Alexander K. Davis," Mississippi Encyclopedia; Clyde Tucker, “Alexander K. Davis (?-1884),” Black Past)
+</p>
+
+<p xml:id='OTPS32076240P3'>Alexander Kelso Davis belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32094671">
+              <persName>Logan, Elvin</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32027764">
+              <persName>Ware, H. R.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63046">
+              <placeName>Mississippi--Rankin County. Brandon</placeName>
+                <idno>https://en.wikipedia.org/wiki/Brandon,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63046P0'>Located in Rankin County, Brandon was incorporated on December 19, 1831 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.28028, -89.99833</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63926'>
+            <catDesc>
+              <term>Crimes (alleged)--Murder</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/murder?q=Murder</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63926P0'>"The crime of intentionally killing a person." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32074731'>
+            <catDesc>
+              <term>Criminal Procedures--Charges and Specifications (Civil and Criminal)</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/charge?q=Charges</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32074731P0'>"To make a formal statement saying that someone is accused of a crime." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S71084'>
+            <catDesc>
+              <term>Criminal Procedures--Execution</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/execution?q=Execution</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71084P0'>"The legal punishment of killing someone." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S69535'>
+            <catDesc>
+              <term>Criminal Procedures--Imprisonment</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/imprisonment?q=Imprisonment</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD69535P0'>"The act of putting someone in prison or the condition of being kept in prison." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95194'>
+            <catDesc>
+              <term>Criminal Procedures--Indictments</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/indictment?q=Indictments</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95194P0'>"The act of formally accusing someone of a serious crime." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32021053'>
+            <catDesc>
+              <term>Criminal Procedures--Sentencing</term>
+              <idno>https://en.wikipedia.org/wiki/Sentence_(law)</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32021053P0'>"In law, a sentence is the punishment for a crime ordered by a trial court after conviction in a criminal procedure, normally at the conclusion of a trial. A sentence may consist of imprisonment, a fine, or other sanctions." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S94600'>
+            <catDesc>
+              <term>Lawyers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/lawyer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD94600P0'>"Someone whose job is to give advice to people about the law and speak for them in court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25021515'>
+            <catDesc>
+              <term>Lawyers. Public Prosecutors</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/public-prosecutor</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25021515P0'>"A lawyer who acts for the government against someone accused of a crime in court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S50807'>
+            <catDesc>
+              <term>Clerks</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/clerk</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD50807P0'>"A person who works in an office, dealing with records or performing general office duties." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+          <category xml:id='S70054'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems--Circuit Courts</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2789'>Organizations</ptr></ab>
+              </note>
+            </catDesc>
+          </category>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63395'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/court?topic=law-courts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63395P0'>"A place where trials and other legal cases happen, or the people present in such a place." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63440'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems--Criminal Juries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/jury</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63440P0'>"A group of people who have been chosen to listen to the facts in a court action and decide whether a person is guilty or not guilty or whether a claim has been proved." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62926'>
+            <catDesc>
+              <term>Jails</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/jail?q=jails</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62926P0'>"A place where criminals are kept as a punishment for their crimes or while waiting for trials." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32045110'>
+            <catDesc>
+              <term>Mississippi--Judiciary</term>
+              <idno>https://mississippiencyclopedia.org/entries/judiciary/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.30417, -90.18232</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32045110P0'>Operating at the state level, the Mississippi judiciary was established by Article 6 of the Mississippi Constitution on November 1, 1890. It is one of three branches of the Mississippi state government, along with the executive branch and the legislative branch. The judiciary branch is composed of four tiers of court: limited jurisdiction, general jurisdiction, intermediate appellate, and last resort. (Mississippi Encyclopedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32032260'>
+            <catDesc>
+              <term>Mississippi--Judiciary. High Court of Errors and Appeals</term>
+              <idno>https://mississippiencyclopedia.org/entries/appellate-courts/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32032260P0'>Operating at the state level, the Mississippi High Court of Errors and Appeals was created by the 1832 state constitution and was comprised of three popularly-elected justices. It remained the highest appellate court in the state until 1869, when it was replaced by the state Supreme Court. (Mississippi Encyclopedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+<category xml:id='C32001144S32045110'>
+<catDesc>
+<term><rs ref='S32045110'>Mississippi--Judiciary</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001144S32032260'>
+<catDesc>
+<term><rs ref='S32032260'>Mississippi--Judiciary. High Court of Errors and Appeals</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S63262'>
+            <catDesc>
+              <term>Death</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/death</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63262P0'>While the Cambridge Dictionary defines death as “the end of life,” CWRGM employs this subject tag to refer to human deaths only, both actual and hypothetical. (Cambridge Dictionary)
+</p>
+
+<p xml:id='OTPSD63262P1'>The nation experienced mass loss of life (approximately 2% of the population) during the American Civil War, which changed the way Americans viewed death and resulted in its reconceptualization in highly bureaucratized ways. Often wartime dead were buried without their names and sometimes in poorly-dug graves, which created a powerful, profound social and cultural dislocation for their surviving loved ones. During the 19th century, Americans understood dying as a social and religious experience, and desired a "good death," which they defined as at home surrounded by family, but these ideals were unattainable in war. Consequently, Americans learned to cope with death and memorialize it in new ways. Unionists encouraged the federal government and ex-Confederates pushed their respective state governments to create and fund national cemeteries, rebury deceases soldiers and veterans, and establish veterans' and widows' pensions. These new responses to death were more bureaucratized, nationalistic, and secularized. Wartime and post-war death was also highly impacted by race, as white supremacists desecrated the graves of Union buried in the South, especially the bodies of African Americans who served in U.S. Colored Troops and the white officers that led them, revealing post-war sectionalism and strains on reconciliation. (Drew Gilpin Faust, <hi rend='italic'>This Republic of Suffering</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Ames Series 803</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1875</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Barksdale, J. P.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1875-12-03</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Ames Collection. Legal Document from J. P. Barksdale to Mississippi Lieutenant Governor A. K. Davis, containing a certified summary of the verdict in the case of Elvin Logan.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8.0&quot; x 12.5&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_803-998-08-07</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Sarah West; McKenna Fussell; Dalton Wood</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 998, Folder 8</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Ames, Adelbert, 1835-1933; Davis, A. K. (Alexander Kelso), -1884; Judgments, Criminal; Mississippi. Governor; Trials</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Legal Document from J. P. Barksdale to Mississippi Lieutenant Governor A. K. Davis; December 3, 1875</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/32400&quot;&gt;Legal Document from J. P. Barksdale to Mississippi Lieutenant Governor A. K. Davis; December 3, 1875&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG35" who="U220769" when="2024-12-11T19:41:06Z" target="#P33068448">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U2" when="2024-10-25T17:37:33Z" target="#P33068448">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U2" when="2024-10-25T16:34:26Z" target="#P33068450">
+          Version 13 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U2" when="2024-10-25T13:12:52Z" target="#P33068449">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2024-03-06T15:27:16Z" target="#P33068450">
+          Version 12 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2024-03-06T15:20:31Z" target="#P33068449">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2024-01-30T17:09:52Z" target="#P33068449">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2024-01-20T19:37:12Z" target="#P33068450">
+          Version 11 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-11-17T17:47:34Z" target="#P33068449">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-11-17T17:38:36Z" target="#P33068450">
+          Version 10 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-11-17T17:29:19Z" target="#P33068448">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-11-17T17:27:44Z" target="#P33068449">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-11-17T17:26:26Z" target="#P33068449">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-11-17T17:24:48Z" target="#P33068450">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-11-02T04:03:54Z" target="#P33068450">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-11-02T03:46:38Z" target="#P33068449">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-10-30T22:27:57Z" target="#P33068450">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-09-03T00:36:26Z" target="#P33068449">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091195" when="2023-07-28T14:38:25Z" target="#P33068450">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091195" when="2023-07-28T14:37:58Z" target="#P33068450">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091195" when="2023-07-28T14:37:29Z" target="#P33068450">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091195" when="2023-07-28T14:35:24Z" target="#P33068449">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091195" when="2023-07-28T14:34:59Z" target="#P33068449">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091195" when="2023-07-28T14:31:09Z" target="#P33068448">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U32011852" when="2023-07-25T04:09:36Z" target="#P33068450">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U32011852" when="2023-07-25T04:07:37Z" target="#P33068449">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U32011852" when="2023-07-25T04:06:11Z" target="#P33068448">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U226410" when="2023-04-28T16:53:32Z" target="#P33068450">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U226410" when="2023-04-28T16:50:05Z" target="#P33068449">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U226410" when="2023-04-28T16:47:07Z" target="#P33068448">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2023-04-27T13:17:20Z" target="#P33068450">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2023-04-27T13:14:28Z" target="#P33068449">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2023-04-27T13:09:43Z" target="#P33068448">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2023-04-25T21:38:39Z" target="#P33068450">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2023-04-25T21:38:38Z" target="#P33068449">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2023-04-25T21:38:36Z" target="#P33068448">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F33068448" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:32397/full/full/0/default.jpg"/>
+        <div xml:id="OTP33068448">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP33068448P0' xml:id='OTP33068448P0'>[seal]
+</p>
+
+<p corresp='TTP33068448P1' xml:id='OTP33068448P1'><rs ref='#S63046'>Brandon</rs> Dec 3<add place='above'>d</add> 1875
+</p>
+
+<p corresp='TTP33068448P2' xml:id='OTP33068448P2'>L<add place='above'>t</add> Gov <rs ref='#S32076240'>Davis</rs>
+</p>
+
+<p corresp='TTP33068448P3' xml:id='OTP33068448P3'>D<add place='above'>r</add> Sir:
+</p>
+
+<p corresp='TTP33068448P4' xml:id='OTP33068448P4'>Enclosed pleas find Certificate of <rs ref='#S50807'>Clk</rs> of <rs ref='#S32021053'>Sentence</rs> in <rs ref='#S32094671'>Logan</rs> case. The abstract of the clerk explains itself, and shows you the atifacts of the ca^s^e.
+</p>
+
+<p corresp='TTP33068448P5' xml:id='OTP33068448P5'>As I said to you the univesal sentiment in this County would Justify you action in the premises.
+</p>
+
+<p corresp='TTP33068448P6' xml:id='OTP33068448P6'>With great respect<lb/>
+I am Respectfuly Yrs
+</p>
+
+<p corresp='TTP33068448P7' xml:id='OTP33068448P7'><rs ref='#S32027764'>H. R. Ware</rs> 
+</p>
+
+
+        </div>
+        <pb xml:id="F33068449" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:32398/full/full/0/default.jpg"/>
+        <div xml:id="OTP33068449">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP33068449P0' xml:id='OTP33068449P0'>[note] 75 [/note]<lb/>
+[note] 12/3/75.[/note]
+</p>
+
+<p corresp='TTP33068449P1' xml:id='OTP33068449P1'>State of Mississippi<lb/>
+vs. } <rs ref='#S63926'>Murder</rs><lb/>
+Elvin Logan
+</p>
+
+<p corresp='TTP33068449P2' xml:id='OTP33068449P2'>This day comes the <rs ref='#S25021515'>District Attorney</rs> who prosecutes for the State, and the Defendant in his own proper Person being placed at the Bar of the court it is asked by the court if he had anything further to say why the Sentance of the law should not be pronounced against him. and the Defen-dant says he has nought to say. It is therefore considered by the court that for such his offense of Murder he be taken hence to the Common <rs ref='#S62926'>Jail</rs> of the County to be safely kept in close <rs ref='#S69535'>Confinement</rs> until Friday the 25<add place='above'>th</add> day of June 1875, and on the said 25<add place='above'>th</add> day of June 1875, he be taken from said Jail by the <rs ref='#S95578'>sheriff</rs> and within the enclosure around said Jail if there be such, and if not to the Place of <rs ref='#S71084'>execution</rs> and there betweene the hours of 10 oclock A M. and 4 oclock P M he be hanged by the neck until he be <rs ref='#S63262'>dead</rs> It is further ordered by the court that the sheriff of this County execute the same
+</p>
+
+<p corresp='TTP33068449P3' xml:id='OTP33068449P3'>Previous to the Said Sentance, and after the <rs ref='#S63440'>Jury</rs> had found said Defendant 
+</p>
+
+
+        </div>
+        <pb xml:id="F33068450" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:32399/full/full/0/default.jpg"/>
+        <div xml:id="OTP33068450">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP33068450P0' xml:id='OTP33068450P0'>guilty as <rs ref='#S32074731'>charged</rs> in the <rs ref='#S95194'>Indictment</rs> his council moved the court to set aside the Verdict ^and^ for a new Trial, which Said Motion was overruled, to which action of the court his Council excepted and filed his Bill of Exceptions But said Bill of Exceptions have not been sent to the <rs ref='#S32032260'>high Court</rs>, but with full proceedings of said cause are now on file in my court. There is nothing more upon the minutes of my court in reference to the Said Sentance of said Logan since the date of the same May 3<add place='above'>d</add>. 1875. The above is a correct transcript of the Sentance of the court.
+</p>
+
+<p corresp='TTP33068450P1' xml:id='OTP33068450P1'>[seal] <rs ref='#S70054'>CIRCUIT COURT</rs> OF RANKIN COUNTY MISSISSIPPI [/seal]
+</p>
+
+<p corresp='TTP33068450P2' xml:id='OTP33068450P2'>Given under my hand and the Seal of Said Circuit Court at Office in the Town of Brandon this the 3<add place='above'>d</add> day of December A D 1875.
+</p>
+
+<p corresp='TTP33068450P3' xml:id='OTP33068450P3'><rs ref='#S32094672'>J. P. Barksdale</rs> Clk<lb/>
+By <rs ref='#S32030371'>S R Martin</rs> D C 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

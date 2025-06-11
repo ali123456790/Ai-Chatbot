@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from R. C. H. West to Mississippi Governor Adelbert Ames; November 15, 1874</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 10 edits between
+              <date type="first_edit" when="2023-09-02T20:15:40Z">September  2, 2023</date> and
+              <date type="last_edit" when="2024-01-30T17:09:45Z">January 30, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2023-05-13T15:57:42Z">May 13, 2023</date> and
+              <date type="last_edit" when="2023-05-13T16:08:29Z">May 13, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25090807">
+          <persName
+            >
+            Patricia Parrish
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-02-24T21:17:37Z">February 24, 2023</date> and
+              <date type="last_edit" when="2023-02-24T21:24:58Z">February 24, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-05-26T18:53:52Z">May 26, 2023</date> and
+              <date type="last_edit" when="2023-05-26T18:56:35Z">May 26, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T13:27:26Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T16:55:35Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-09-14T18:39:31Z">September 14, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:10:52+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32076873">
+              <persName>West, R. C. H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52648">
+              <persName>Ames, Adelbert, 1835-1933</persName>
+                <idno>https://en.wikipedia.org/wiki/Adelbert_Ames</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52648P0'>Adelbert Ames served as a governor and U.S. senator of Mississippi during the Reconstruction era.  He was born in East Thomaston (modern-day Rockland), Maine, in 1835. As a boy, Ames spent time working on various merchant vessels, receiving training in seamanship. He entered the United States Military Academy at West Point in 1856, graduating in May 1861, at the start of the Civil War. Commissioned as a second lieutenant, the young Ames was promoted to first lieutenant barely over a week later and served with the 5th U.S. Artillery during the battle of First Bull Run at Manassas, Virginia, on July 21, 1861. Despite being wounded in the leg, Ames stayed by his cannons. His actions at Bull Run led him to receive the brevet (honorary) rank of major and, in 1893 (more than thirty years later), the Medal of Honor.
+</p>
+
+<p xml:id='OTPS52648P1'>Ames recovered from his wound and returned to the front lines in 1862, serving with distinction as an artillery officer during the Peninsula Campaign near Richmond. Seeking better promotion potential, Ames sought an infantry command. Through those efforts, in August 1862, he received command of the 20th Maine Infantry Regiment, and led that unit in combat during the Battle of Fredericksburg in December 1862. In May 1863, he volunteered to serve as a staff officer for Major General George G. Meade, which helped him achieve the rank of brigadier general that month. With this promotion, Ames left the 20th Maine to his second-in-command, Lieutenant Colonel Joshua Lawrence Chamberlain, who gained great fame commanding the regiment at Little Round Top during the Battle of Gettysburg in July 1863. Ames’ own performance at Gettysburg was highly praised, as his division successfully defended the Union position at Cemetery Hill.
+</p>
+
+<p xml:id='OTPS52648P2'>After Gettysburg, Ames’ division was transferred to the Department of the South. Over the next two years, he commanded Union troops during campaigns in Florida, South Carolina, North Carolina, and Virginia. He received a brevet promotion to major general for his actions at Fort Fisher, North Carolina, in March 1865.
+</p>
+
+<p xml:id='OTPS52648P3'>After the Civil War, Ames became involved in federal Reconstruction efforts. In 1868, he was appointed the provisional governor of Mississippi. Ames proved sympathetic to the plight of African Americans in the south. He sought to protect Black civil rights and appointed Mississippi’s first African American public officials. In 1870, after Mississippi was readmitted into the Union, Ames ran for U.S. senator for the state as a Republican and won. He served in that capacity from February 1870 to January 1874, achieving the reputation as a strong public speaker. While serving as a senator in Washington, D.C., Ames met and married Blanche Butler, daughter of Union general Benjamin F. Butler, under whom Ames had served during the war. Ames and his wife had six children over the course of their marriage.
+</p>
+
+<p xml:id='OTPS52648P4'>In 1873, Ames ran for governor of Mississippi. His chief rival was James L. Alcorn, a former Confederate general who had been a Whig before the Civil War and joined the Republican Party afterwards. Ames won the election and worked diligently to improve Mississippi’s financial and social situation. In 1874, Democrats in Mississippi coordinated a campaign of violence against African Americans and white Republicans in the state, to secure political control in Mississippi. Unable to militarily suppress the white supremacist terror campaign, Ames signed a truce with Democratic leaders in Mississippi to reduce the violence and allow a peaceful election. Groups of white supremacists abandoned the truce and resumed their intimidation tactics against Republicans and Black Mississippians during the following elections, leading to a surge of Democratic politicians taking office.
+</p>
+
+<p xml:id='OTPS52648P5'>In 1876, the conservative Democrat majority in the Mississippi legislature tried to impeach Ames and many other Republican officials with trumped up charges of corruption. Despite a strong political force against him, Ames’ critics were unable to provide any evidence of impropriety. Nevertheless, because impeachment was politically driven, Ames could see that his future as governor was over and any effort on his part to legally defend himself would be personally and financially taxing. He and his attorneys reached an agreement with Democratic leaders to resign his office in exchange for dropping the legal charges. On March 29, 1876, after Democrats cancelled their legal proceedings, Ames vacated his position.
+</p>
+
+<p xml:id='OTPS52648P6'>Ames left Mississippi and went into business in Minnesota with his father and brother. A short time later, he relocated to New York City and then Massachusetts, overseeing mills and various business interests. When the Spanish-American War erupted in 1898, Ames volunteered for service and was appointed brigadier general of volunteers. Although over sixty years old, Ames joined the field campaign in Cuba and performed well.
+</p>
+
+<p xml:id='OTPS52648P7'>Ames resumed his business ventures in the early twentieth century. He lived until 1933, dying at age 97. He is buried in Lowell, Massachusetts.
+</p>
+
+<p xml:id='OTPS52648P8'>(Wikipedia)
+</p>
+
+<p xml:id='OTPS52648P9'>Adelbert Ames belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32086838">
+              <persName>Crosby, Anderson</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32086839">
+              <persName>Boytt, Sam</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32077302">
+              <persName>Barrett, Fred, 1843-1895</persName>
+                <idno>https://www.findagrave.com/memorial/70080631/fred-barrett</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32077302P0'>Dr. Fred Barrett was the private secretary of Mississippi governor Adelbert Ames during Reconstruction and a newspaper editor. Born on November 5, 1843, in Clearfield, Pennsylvania, Barrett graduated with a medical degree from Jefferson College in Philadelphia, Pennsylvania, in 1866, and practiced medicine in Pennsylvania for two years before moving to Mississippi during the Reconstruction era. He was an active member of the Republican Party and served in the Mississippi legislature for four years, before working as the private secretary of northern-born governor Adelbert Ames. Barrett also became involved in newspaper editing, managing the <hi rend='italic'>Southern Republican</hi> in the 1870s.
+</p>
+
+<p xml:id='OTPS32077302P1'>Barrett received a government job in Washington, D.C., after Reconstruction. He later moved to Wisconsin and then Minnesota, where he operated various newspapers. Barrett died in Tower, Minnesota, in 1895 at the age of 51 from Bright’s Disease. He was married to Caroline Redmond and had four children. He is buried in Lake View Cemetery in Tower, Minnesota.
+</p>
+
+<p xml:id='OTPS32077302P2'>(FindaGrave)
+</p>
+
+<p xml:id='OTPS32077302P3'>Fred Barrett belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S74724">
+              <placeName>Arkansas--Pulaski County. Little Rock</placeName>
+                <idno>https://encyclopediaofarkansas.net/entries/little-rock-970/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS74724P0'>Located in Pulaski County, Little Rock was founded in 1820 and became the state capital of Arkansas. It was incorporated as a town in 1831 and as a city in 1835. Little Rock serves as the county seat and continues to serve as the state capital of Arkansas. (Encyclopedia of Arkansas; Wikipedia; Atlas of Historical County Boundaries)Located in Pulaski County, Arkansas, Little Rock was settled in 1812, incorporated on November 7, 1831, and serves as both the county seat and state capitol. (Encyclopedia of Arkansas; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.73611, -92.33111</geo>
+                </note>
+            </place>
+            <place xml:id="S52728">
+              <placeName>Mississippi--Lauderdale County. Meridian</placeName>
+                <idno>https://www.britannica.com/place/Meridian-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52728P0'>Located in Lauderdale County, Meridian was founded in 1854 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.37472, -88.70417</geo>
+                </note>
+            </place>
+            <place xml:id="S63224">
+              <placeName>Mississippi--Attala County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/attala-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63224P0'>Located in central Mississippi, Attala County was established December 23, 1833 from Madison County. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.09, -89.58</geo>
+                </note>
+            </place>
+            <place xml:id="S32086840">
+              <placeName>Arkansas--Yell County</placeName>
+                <idno>https://encyclopediaofarkansas.net/entries/yell-county-816/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32086840P0'>Located in west-central Arkansas, Yell County was created from Pope and Scott counties and established on December 5, 1840. (Encyclopedia of Arkansas; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.99833, -93.4525</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63926'>
+            <catDesc>
+              <term>Crimes (alleged)--Murder</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/murder?q=Murder</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63926P0'>"The crime of intentionally killing a person." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62954'>
+            <catDesc>
+              <term>Criminal Procedures--Arrest</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arrest?q=Arrest</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62954P0'>"The act of using legal authority to catch and take someone to a place where the person may be accused of a crime." (CD)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32065746'>
+            <catDesc>
+              <term>Criminal Procedures--Bounty</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/bounty?q=Bounty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32065746P0'>"An amount of money set as a reward," typically to incentivize capturing a fugitive from justice. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32074731'>
+            <catDesc>
+              <term>Criminal Procedures--Charges and Specifications (Civil and Criminal)</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/charge?q=Charges</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32074731P0'>"To make a formal statement saying that someone is accused of a crime." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32031715'>
+            <catDesc>
+              <term>Criminal Procedures--Extradition</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/extradition?q=Extradition</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32031715P0'>"The act of making someone return for trial to another country or state where he or she has been accused of doing something illegal." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95194'>
+            <catDesc>
+              <term>Criminal Procedures--Indictments</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/indictment?q=Indictments</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95194P0'>"The act of formally accusing someone of a serious crime." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25022116'>
+            <catDesc>
+              <term>Law Enforcement--Detectives</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/detective?q=detectives</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25022116P0'>"Someone whose job is to discover information about crimes and find out who is responsible for them." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S50807'>
+            <catDesc>
+              <term>Clerks</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/clerk</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD50807P0'>"A person who works in an office, dealing with records or performing general office duties." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+          <category xml:id='S63177'>
+            <catDesc>
+              <term>Fugitives from Justice</term>
+              <idno>https://en.wikipedia.org/wiki/Fugitive</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63177P0'>The term "fugitive from justice" is defined broadly and covers a multiplicity of experiences under U.S. law, but refers most often to "a person who is fleeing from custody, whether it be from jail, a government arrest, government or non-government questioning, vigilante violence, or outraged private individuals" (Wikipedia). Slightly different than the above definition, a fugitive from justice may also be defined as "a person formally charged with a crime or a convicted criminal whose punishment has not yet been determined or fully served who is currently beyond the custody or control" of the party, be it local, national, or international, interested in their arrest (Wikipedia). In the nineteenth-century United States, fugitive status varied widely based on race. Many white people considered "fugitives from justice" were most often the latter definition, being those charged with or convicted of crimes who then fled across other state lines to try and evade punishment or trial. However, throughout American history up to Emancipation, fugitive status was given to escaped enslaved African Americans under the Fugitive Slave Laws of 1793 and later 1850. These laws also required anyone in the nation to apprehend self-emancipated enslaved people and return them to their owners. The term "fugitives from justice" therefore became another legal mechanism by which enslavers sought to control the movements and freedoms of the enslaved, while contributing heavily to the increasing sectionalism that would lead to the American Civil War (Britannica). To learn more about enslaved people who emancipations themselves and were labeled fugitives, see the "Emancipation and self-emancipation" subject tag under Events.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S63262'>
+            <catDesc>
+              <term>Death</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/death</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63262P0'>While the Cambridge Dictionary defines death as “the end of life,” CWRGM employs this subject tag to refer to human deaths only, both actual and hypothetical. (Cambridge Dictionary)
+</p>
+
+<p xml:id='OTPSD63262P1'>The nation experienced mass loss of life (approximately 2% of the population) during the American Civil War, which changed the way Americans viewed death and resulted in its reconceptualization in highly bureaucratized ways. Often wartime dead were buried without their names and sometimes in poorly-dug graves, which created a powerful, profound social and cultural dislocation for their surviving loved ones. During the 19th century, Americans understood dying as a social and religious experience, and desired a "good death," which they defined as at home surrounded by family, but these ideals were unattainable in war. Consequently, Americans learned to cope with death and memorialize it in new ways. Unionists encouraged the federal government and ex-Confederates pushed their respective state governments to create and fund national cemeteries, rebury deceases soldiers and veterans, and establish veterans' and widows' pensions. These new responses to death were more bureaucratized, nationalistic, and secularized. Wartime and post-war death was also highly impacted by race, as white supremacists desecrated the graves of Union buried in the South, especially the bodies of African Americans who served in U.S. Colored Troops and the white officers that led them, revealing post-war sectionalism and strains on reconciliation. (Drew Gilpin Faust, <hi rend='italic'>This Republic of Suffering</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Ames Series 803</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1874</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>West, R. C. H.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1874-11-15</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Ames Collection. Letter from R. C. H. West in Meridian, Mississippi to Mississippi Governor Adelbert Ames, informing Ames of the arrest of Anderson Crosby, charged with murder.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8.0&quot; x 10.0&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Meridian (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_803-993-05-05</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Lauderdale County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Britany Castilaw; Sarah West; Dalton Wood</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 993, Folder 5</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Ames, Adelbert, 1835-1933; Arrest; Mississippi. Governor; Murder</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from R. C. H. West to Mississippi Governor Adelbert Ames; November 15, 1874</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/29627&quot;&gt;Letter from R. C. H. West to Mississippi Governor Adelbert Ames; November 15, 1874&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG26" who="U2" when="2024-10-25T16:55:35Z" target="#P32942365">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U2" when="2024-10-25T13:27:26Z" target="#P32942363">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U32019810" when="2024-09-14T18:39:31Z" target="#P32942365">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2024-01-30T17:09:45Z" target="#P32942363">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-11-17T17:42:49Z" target="#P32942363">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-11-17T17:34:10Z" target="#P32942364">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-11-17T17:31:29Z" target="#P32942363">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-11-17T17:29:36Z" target="#P32942363">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-11-17T17:25:28Z" target="#P32942363">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-11-17T17:25:24Z" target="#P32942363">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-11-02T04:14:46Z" target="#P32942363">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-11-02T04:02:42Z" target="#P32942363">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-09-02T20:15:40Z" target="#P32942363">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091356" when="2023-05-26T18:56:35Z" target="#P32942365">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091356" when="2023-05-26T18:55:42Z" target="#P32942364">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091356" when="2023-05-26T18:53:52Z" target="#P32942363">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091195" when="2023-05-13T16:08:29Z" target="#P32942365">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091195" when="2023-05-13T16:07:08Z" target="#P32942365">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091195" when="2023-05-13T16:02:10Z" target="#P32942364">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091195" when="2023-05-13T15:58:06Z" target="#P32942363">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091195" when="2023-05-13T15:57:42Z" target="#P32942363">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25090807" when="2023-02-24T21:24:58Z" target="#P32942365">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25090807" when="2023-02-24T21:23:17Z" target="#P32942364">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25090807" when="2023-02-24T21:17:37Z" target="#P32942363">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2023-02-23T20:23:36Z" target="#P32942365">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2023-02-23T20:23:35Z" target="#P32942364">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2023-02-23T20:23:34Z" target="#P32942363">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32942363" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:29624/full/full/0/default.jpg"/>
+        <div xml:id="OTP32942363">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32942363P0' xml:id='OTP32942363P0'><b>Office of</b><lb/>
+<b><rs ref='#S32076873'>R. C. H. WEST</rs>,</b>
+</p>
+
+<p corresp='TTP32942363P1' xml:id='OTP32942363P1'>Special <rs ref='#S25022116'>Private Detective</rs> for pursuit and <rs ref='#S62954'>arrest</rs> of <rs ref='#S63177'>Criminals</rs>,
+</p>
+
+<p corresp='TTP32942363P2' xml:id='OTP32942363P2'>[All information of a private and confidential character kept in the strictest confidence}
+</p>
+
+<p corresp='TTP32942363P3' xml:id='OTP32942363P3'><hi rend='italic'><rs ref='#S52728'>Meridian Miss</rs>,</hi> Nov 15<add place='above'>th</add> <hi rend='italic'>187</hi>4
+</p>
+
+<p corresp='TTP32942363P4' xml:id='OTP32942363P4'>to His excelency the <rs ref='#S52648'>Governor of Mississippi</rs> Dear Sir
+</p>
+
+<p corresp='TTP32942363P5' xml:id='OTP32942363P5'>I have foundout where one <rs ref='#S32086838'>Anderson Crosby</rs> who stands <rs ref='#S32074731'>charge</rs> with the <rs ref='#S63926'>murder</rs> of <rs ref='#S32086839'>Sam Boytt</rs> in the <rs ref='#S63224'>county of Atalla</rs> he is in <rs ref='#S32086840'>Yell County ARK</rs> and it will cost about one hundred and fifty dollars to <rs ref='#S32031715'>Deliver</rs> him to the <rs ref='#S95578'>sheriff</rs> of Attalla now Sir in the event I go and get him will you be so kind as to let the state pay the traveling expence as the <rs ref='#S32065746'>reward</rs> is Small and will hardly justify I will not 
+</p>
+
+
+        </div>
+        <pb xml:id="F32942364" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:29625/full/full/0/default.jpg"/>
+        <div xml:id="OTP32942364">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32942364P0' xml:id='OTP32942364P0'>Ask you for a dollar untill I deliver him I have wrote to the Brother of the <rs ref='#S63262'>murdered</rs> man and requested ^him^ to get the <rs ref='#S50807'>Cleark</rs> to send you a coppy of the <rs ref='#S95194'>Bill of indictment</rs> so that ^you^ would Send me the Recquistion and I will go right to <rs ref='#S74724'>Little Rock</rs> with it
+</p>
+
+<p corresp='TTP32942364P1' xml:id='OTP32942364P1'>I remain your moust <lb/>
+Obediant Servant
+</p>
+
+<p corresp='TTP32942364P2' xml:id='OTP32942364P2'>R C H West
+</p>
+
+<p corresp='TTP32942364P3' xml:id='OTP32942364P3'>N B I would be glad ^to serve you^ at any time I can please let me here from you at an Early day Yours Respectfuly
+</p>
+
+<p corresp='TTP32942364P4' xml:id='OTP32942364P4'>R C H W
+</p>
+
+<p corresp='TTP32942364P5' xml:id='OTP32942364P5'>No funds consquently incapacity to pay &amp;c
+</p>
+
+<p corresp='TTP32942364P6' xml:id='OTP32942364P6'>A A
+</p>
+
+
+        </div>
+        <pb xml:id="F32942365" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:29626/full/full/0/default.jpg"/>
+        <div xml:id="OTP32942365">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32942365P0' xml:id='OTP32942365P0'><hr/><lb/>
+<b><rs ref='#S25026074'>EXECUTIVE OFFICE,<lb/>
+STATE OF MISSISSIPPI</rs>.</b><lb/>
+Lauderdale <b><hi rend='italic'>County.</hi></b><lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32942365P1' xml:id='OTP32942365P1'><hi rend='italic'>From</hi> R. C. H. West<lb/>
+<hi rend='italic'>Address</hi> Meridian Miss<lb/>
+<hi rend='italic'>Dated</hi> Nov. 15" 1874<lb/>
+<hi rend='italic'>Received</hi> ,, 16" ,,<lb/>
+<hi rend='italic'>Answered</hi> ,, 17" ,,<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32942365P2' xml:id='OTP32942365P2'><b>SUBJECT:</b>
+</p>
+
+<p corresp='TTP32942365P3' xml:id='OTP32942365P3'>Arrest of criminal<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32942365P4' xml:id='OTP32942365P4'><b>ADELBERT AMES,</b><lb/>
+<hi rend='italic'>Governor.</hi>
+</p>
+
+<p corresp='TTP32942365P5' xml:id='OTP32942365P5'><b><rs ref='#S32077302'>FRED. BARRETT</rs>,</b><lb/>
+<hi rend='italic'><rs ref='#S95466'>Private Secretary</rs>.</hi><lb/>
+<hr/> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

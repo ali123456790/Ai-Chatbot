@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 13 edits between
+              <date type="first_edit" when="2021-10-22T20:39:45Z">October 22, 2021</date> and
+              <date type="last_edit" when="2023-11-17T17:33:17Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-10-11T18:50:54Z">October 11, 2021</date> and
+              <date type="last_edit" when="2021-10-11T18:52:08Z">October 11, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-10-14T16:54:34Z">October 14, 2021</date> and
+              <date type="last_edit" when="2021-10-14T16:57:38Z">October 14, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-10-24T21:15:39Z">October 24, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T15:14:42Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:41:57+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S25027350">
+              <persName>Mayo, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25023908'>
+            <catDesc>
+              <term>Criminal Procedures--Parole</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/parole?q=Parole</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25023908P0'>"Permission for a prisoner to be released before their period in prison is finished, with the agreement that they will behave well." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001718'>
+<catDesc>Natural &amp; Human Caused Disasters</catDesc>
+          <category xml:id='S98634'>
+            <catDesc>
+              <term>Starvation</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/starvation?q=Starvation</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001718'>Natural &amp; Human Caused Disasters</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98634P0'>"The state of having no food for a long period, often causing death." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001713'>
+<catDesc>C.S.A. Federal Government</catDesc>
+          <category xml:id='S99586'>
+            <catDesc>
+              <term>Confederate States of America--War Department</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t00z8036q&amp;view=1up&amp;seq=9&amp;skin=2021</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.3675, -86.3</geo>
+              </note>
+              <gloss><p xml:id='OTPSD99586P0'>Operating nationally, the Provisional Confederate Congress established the War Department by an act on February 21, 1861, in Montgomery, Alabama. The department was led by the Secretary of War, appointed by the President with the advice and consent of the Senate. It was initially led by LeRoy Pope Walker from February 25–September 16, 1861 and later led by Judah P. Benjamin (September 17, 1861–March 24, 1862), George W. Randolph (March 24–November 15, 1862), James Seddon (November 21, 1862–February 5, 1865), and Maj. Gen. John C. Breckinridge (February 6–May 10, 1865). The War Department was responsible for the administration of the Confederate Army and managed all matters pertaining to American Indian tribes within the boundaries of the Confederate States. (<hi rend='italic'>Acts and Resolutions of the First Session of the Provisional Congress of the Confederate States</hi>, 1861 Public Laws, S1, 46; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25013611'>
+            <catDesc>
+              <term>Confederate States of America--War Department. Quartermaster Department</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t2z32n83q&amp;view=1up&amp;seq=3&amp;skin=2021</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25013611P0'>The Provisional Confederate Congress established the Confederate Quartermaster Department on February 26, 1861 in Montgomery, Alabama under the War Department. Initially under the command of Col. Abraham C. Myers, Brig Gen. Alexander Lawton assumed command in 1863. Operating at the national level of the Confederacy, the Quartermaster Department was responsible for procuring war materials and other supplies for the Confederate Army. (<hi rend='italic'>Laws of the Provisional Congress of the Confederate States</hi>, 1861, 4; American Battlefield Trust; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+<category xml:id='C32001716S99586'>
+<catDesc>
+<term><rs ref='S99586'>Confederate States of America--War Department</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001716S25013611'>
+<catDesc>
+<term><rs ref='S25013611'>Confederate States of America--War Department. Quartermaster Department</rs></term>
+</catDesc>
+</category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S96659'>
+            <catDesc>
+              <term>Impoverished People</term>
+              <idno>https://www.britannica.com/topic/poverty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96659P0'>Impoverished people are those who lack "a usual or socially acceptable amount of money or material possessions," or alternately those who "lack the means to satisfy their basic needs (Britannica). This definition, necessarily subjective and broad, indicates that what one person or society deems "socially acceptable" or what constitutes "basic needs" is malleable.
+</p>
+
+<p xml:id='OTPSD96659P1'>Similarly, impoverished people in the United States in the nineteenth century did not fit one specific category. The rise of industrialism produced an increased number of impoverished people in the U. S., particularly within large urban centers. European immigrants in cities in the East, and Chinese immigrants on the West Coast, and African Americans in the South were disproportionately affected by poverty. Regionally, the highest number of impoverished people came from the U. S. South, where "both whites and African Americans struggled with debt, low cotton prices, laws favorable to employers and creditors, paltry alternatives, and the general post war devastation" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 547).
+</p>
+
+<p xml:id='OTPSD96659P2'>Racism and nativism among employers and employees also made economic advancement more difficult for people of color and immigrants. However, the impoverished made up a comparatively low percentage of Mississippi's antebellum population, given its low number of immigrants and even native residents, lack of industrialization and urbanization, and mobility of those that were impoverished (Mississippi Encyclopedia). Many reform organizations throughout the country took the lead in fighting poverty in the nineteenth century, while state and federal governments by the end of the century also developed its own institutional responses. The status of being impoverished has always carried negative connotations in American history, so CWRGM uses the tag "Impoverished people" to emphasize the personhood of those in poverty rather than their social status. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S57050'>
+            <catDesc>
+              <term>Prisoners of War</term>
+              <idno>https://www.battlefields.org/learn/articles/civil-war-prison-camps#:~:text=Despite%20the%20controversy%2C%20there%20can,many%20camps%20on%20both%20sides.</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD57050P0'>The prisoner of war experience varied across time and geography during the American Civil War. Both Union and Confederate governments, expecting a short war, did not possess the capabilities of maintaining large prisoner of war populations. Early in the war, prisoners were often exchanged on a one-to-one basis through a parole process and returned to their respective armies. However, the Union Army's enlistment of Black troops in 1862 soured the exchange process and led to the creation of large prison camps in both the North and South.
+</p>
+
+<p xml:id='OTPSD57050P1'>As the war continued, and battles grew larger and more frequent, the number of prisoners held in these camps quickly exceeded their capacities, leading to overcrowding by 1863. Civil War prison camps, particularly the Andersonville Prison Camp in Georgia, presented some of the most appalling living conditions of the war, which only deteriorated over time. Prisoners of war during the American Civil War faced inadequate food, water, and shelter while living in cramped and deeply unsanitary conditions. Prisoners of war therefore made up a significant portion of deaths during the war, often dying from starvation or sickness. The experiences of prisoners of war differed depending on which camp they were confined to and depending on their race or ethnicity, particularly as the Confederacy in 1863 adopted a policy of executing Black soldiers who surrendered rather than imprisoning them. Even among whites, hostilities over the experiences of battle also led to abuse and violence within the camps, as prisoners sought revenge on vulnerable prisoners.
+</p>
+
+<p xml:id='OTPSD57050P2'>Ultimately, the prisoner of war experience for those who survived was universally traumatizing and produced one of the most contentious points both during the Civil War and in its commemoration and reconciliation afterword, as the treatment of prisoners of war became a rallying cry for pointing out the cruelties of the enemy for both North and South (National Battlefield Trust; National Park Service).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for the project provided by the National Historical Publications and Records Commission and the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-12-04</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Mississippi Governor John J. Pettus to Major Mayo, concerning the need to feed and care for 800 returned prisoners.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_757-943-04-24</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>271605 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; 1-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>1968</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_757-943-04-24</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>A. J. Blaylock; Amy Myers; Austin Justice; MICHAELLAPTOP\Michael</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 943, Folder 4</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Mississippi. Governor; United States--History--Civil War, 1861-1865--Prisoners and prisons.</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>1571</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/12545&quot;&gt;Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG20" who="U2" when="2024-10-25T15:14:42Z" target="#P25195474">
+          Version 19 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-11-17T17:33:17Z" target="#P25195474">
+          Version 18 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-11-02T15:53:29Z" target="#P25195474">
+          Version 17 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-11-02T03:14:21Z" target="#P25195474">
+          Version 16 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-09-02T20:29:05Z" target="#P25195474">
+          Version 15 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-19T20:13:10Z" target="#P25195474">
+          Version 14 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-19T18:22:51Z" target="#P25195474">
+          Version 13 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-18T21:47:21Z" target="#P25195474">
+          Version 12 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2022-12-04T01:57:18Z" target="#P25195474">
+          Version 11 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2022-12-04T00:49:03Z" target="#P25195474">
+          Version 10 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2021-11-05T20:34:27Z" target="#P25195474">
+          Version 9 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2021-10-26T20:24:33Z" target="#P25195474">
+          Version 8 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2021-10-25T21:44:38Z" target="#P25195474">
+          Version 7 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091253" when="2021-10-24T21:15:39Z" target="#P25195474">
+          Version 6 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U220769" when="2021-10-22T20:39:45Z" target="#P25195474">
+          Version 5 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25091356" when="2021-10-14T16:57:38Z" target="#P25195474">
+          Version 4 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25091356" when="2021-10-14T16:54:34Z" target="#P25195474">
+          Version 3 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U226410" when="2021-10-11T18:52:08Z" target="#P25195474">
+          Version 2 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U226410" when="2021-10-11T18:52:08Z" target="#P25195474">
+          Version 2 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U226410" when="2021-10-11T18:50:54Z" target="#P25195474">
+          Version 1 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-09-13T15:50:31Z" target="#P25195474">
+          Version 0 of page "Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25195474" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/12545/full/full/0/default.jpg"/>
+        <div xml:id="OTP25195474">
+        <fw type="pageNum">Letter from Mississippi Governor John J. Pettus to Major Mayo; December 4, 1862</fw>
+          <p corresp='TTP25195474P0' xml:id='OTP25195474P0'>[seal]
+</p>
+
+<p corresp='TTP25195474P1' xml:id='OTP25195474P1'><rs ref='#S25026074'>Executive office</rs><lb/>
+<rs ref='#S51785'>Jackson</rs> Miss Decr 4<add place='above'>th</add>1862
+</p>
+
+<p corresp='TTP25195474P2' xml:id='OTP25195474P2'>Sir
+</p>
+
+<p corresp='TTP25195474P3' xml:id='OTP25195474P3'>I understand that there are eight hundred returned <rs ref='#S57050'>prisoners</rs> here, who ^are^ wet, <rs ref='#S98634'>hungry</rs> &amp; and appear to have <rs ref='#S96659'>no one to provide for them</rs>—please inform whose duty it is to attend to the wants of these men—If the confederate authorities will not or cannot attend to the necessities of our <rs ref='#S25023908'>returned Soldiers</rs> I will order the state <rs ref='#S25013611'>quarter master Gen'l</rs> to make <del rend='overstrike'>[some?]</del>such arrangements ^as may be necessary^ <del rend='overstrike'>for they must and shall be attended to.</del>
+</p>
+
+<p corresp='TTP25195474P4' xml:id='OTP25195474P4'>Very Respectfully
+</p>
+
+<p corresp='TTP25195474P5' xml:id='OTP25195474P5'>Major <rs ref='#S25027350'>Mayo</rs><lb/>
+<rs ref='#S70882'>C. S. A</rs>. 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

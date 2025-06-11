@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from S. H. Clark to Mississippi Governor John J. Pettus; February 3, 1863</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2021-10-28T02:18:53Z">October 28, 2021</date> and
+              <date type="last_edit" when="2024-06-12T21:27:23Z">June 12, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228005">
+          <persName
+            >
+            Heather A Haslem
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-04-23T01:49:29Z">April 23, 2021</date> and
+              <date type="last_edit" when="2021-04-23T01:50:38Z">April 23, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-04-10T00:57:16Z">April 10, 2021</date> and
+              <date type="last_edit" when="2021-04-10T00:58:37Z">April 10, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U224896">
+          <persName
+            >
+            Emma Cox 
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-04-13T04:18:39Z">April 13, 2021</date> and
+              <date type="last_edit" when="2021-04-13T04:19:31Z">April 13, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-08-27T00:10:15Z">August 27, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-06-08T01:52:09Z">June  8, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T15:21:19Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:19:04+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S106474">
+              <persName>Clark, S. H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S94359">
+              <placeName>Mississippi--Attala County. Attalaville</placeName>
+                <idno>https://archive.org/details/mississippicomp01rowlgoog/page/174/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS94359P0'>Located in Attala County, Attalaville was founded as early as the 1830s. Attalaville is a deserted town with few or no remaining inhabitants. (Dunbar Rowland, <hi rend='italic'>Mississippi</hi>, 174)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.00985, -89.78897</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S63123">
+              <placeName>Mississippi--Grenada County. Grenada</placeName>
+                <idno>https://en.wikipedia.org/wiki/Grenada,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63123P0'>Currently located in Grenada County, Grenada was founded in 1836 in what was then Yalobusha County. When Grenada County was created on May 9, 1870, Grenada became the county seat. (Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.775, -89.80889</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001333'>
+<catDesc>Transportation &amp; Infrastructure Industries</catDesc>
+          <category xml:id='S99413'>
+            <catDesc>
+              <term>Railroads and Railroad Companies</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99413P0'>"A system of transportation using special vehicles whose wheels turn on metal bars fixed to the ground, or a particular company using such a system." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S68035'>
+            <catDesc>
+              <term>Railroads and Railroad Companies--New Orleans, Jackson, &amp; Great Northern Railroad Company (New Orleans, La.)</term>
+              <idno>https://en.wikipedia.org/wiki/New_Orleans,_Jackson_and_Great_Northern</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>29.95, -90.08</geo>
+              </note>
+              <gloss><p xml:id='OTPSD68035P0'>Located in New Orleans, Louisiana the New Orleans, Jackson, &amp; Great Northern Railroad Company was a railroad company commissioned by the state of Illinois in 1851. Lines completed preceding the Civil War were heavily damaged during the conflict. Revived by the Mississippi Central Railroad after the war, the company joined with the Illinois Central in 1878. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001677'>
+<catDesc>Agricultural &amp; Natural Resource Occupations</catDesc>
+          <category xml:id='S63012'>
+            <catDesc>
+              <term>Planter</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/planter</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001677'>Agricultural &amp; Natural Resource Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63012P0'>"A planter is also someone who owns a plantation." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S70086'>
+            <catDesc>
+              <term>Engineers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/engineer?q=engineers</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70086P0'>"A person whose job is to design or build machines, engines, or electrical equipment, or things such as roads, railroads, or bridges, using scientific principles." Alternatively, "an engineer is also a person whose job is to drive railroad trains." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S63099'>
+            <catDesc>
+              <term>African Americans--Enslaved People</term>
+              <idno>https://en.wikipedia.org/wiki/Slavery_in_the_United_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63099P0'>While Cambridge Dictionary defines an enslaved person as "a person who is legally owned by someone else and has no personal freedom" (Cambridge Dictionary), CWRGM adopts the term for the people who were subjected to the practice of race-based enslavement in the nineteenth-century United States chattel slavery system. Slavery in the United States varied greatly over time and geography. However, its most common form was that of race-based chattel slavery in which people of African descent were viewed and treated as property.
+</p>
+
+<p xml:id='OTPSD63099P1'>Methods of work also varied based on region, but those enslaved in Deep South states like Mississippi typically worked under the gang labor system in which, under the supervision of overseers, "gangs of slaves worked their ways through fields, plowing, thinning, hoeing, chopping, picking, or whatever else the day's assignment might be" (Mississippi Encyclopedia). The U.S.'s slave labor system subjected the enslaved to extreme violence, physical, psychological, and often sexual, and brutal working conditions and decreased individual autonomy.
+</p>
+
+<p xml:id='OTPSD63099P2'>Both state and federal legal systems also rendered escape or freedom nearly impossible in the South. For example, the Fugitive Slave Act at the national level required all people, even northerners, to return runaway slaves, rendering an escape to freedom extremely difficult. Mississippi's slave codes specifically implemented slave patrols, pass systems, corporal punishment, supervision of all religious gatherings, and the requirement that an African American person have proof of freedom at all times to curtail the already few rights of enslaved and free African Americans. Mississippi's status as a hub of the domestic slave trade, the individual autonomy whites possessed to punish the enslaved, and frequent abuse of the law by slave patrols increased the likelihood that even a free Black person could be captured and sold into slavery.
+</p>
+
+<p xml:id='OTPSD63099P3'>Despite this adversity, the enslaved in Mississippi and elsewhere resisted and exercised agency in multiple ways. Some enslaved persons directly resisted by running away or violently rebelling, while others chose indirect methods like breaking tools, intentionally working slowly, or feigning illness or injury. The enslaved also maintained their agency and autonomy by crafting networks of kinship and family both within and across plantations, cultivating gardens for their own use, performing gender roles of their own choosing, and holding social and religious gatherings infused with unique cultural and social elements (Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+<category xml:id='C32001674S63099'>
+<catDesc>
+<term><rs ref='S63099'>African Americans--Enslaved People</rs></term>
+</catDesc>
+</category>
+</category>
+<category xml:id='C32001666'>
+<catDesc>Races, Ethnicities, &amp; Nationalities</catDesc>
+          <category xml:id='S62968'>
+            <catDesc>
+              <term>African Americans</term>
+              <idno>https://en.wikipedia.org/wiki/African_Americans</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62968P0'>The Cambridge Dictionary classifies "a person who lives in the U.S. and is a member of a race of people with dark skin that originally came from Africa" as African American, but both the nineteenth-century and modern constructions are more complex (Cambridge Dictionary). Common nineteenth-century racial categories such as "mulatto" referred to persons with both white and black ancestry, and the experiences of mixed-race persons varied based on complexion, degree of African ancestry, and the region in which they lived. In antebellum cities with large populations of free Blacks, the degree of one's African ancestry could determine what rights one possessed or did not possess, and people with lighter skin tones were often considered to be white; this ended under "one drop rule" during the Jim Crow system.
+</p>
+
+<p xml:id='OTPSD62968P1'>Like skin tone, the ethnicity implied by the term "African American" is also problematically broad, as "naming people only by the continent of their origin and ignoring their ethnic identity is a consequence of time and space" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 5). The experience of slavery complicated the term by attempting to strip people of their original distinct African ethnic identities such as Ibo or Ndongan, classifying all persons of African descent together under one term, infusing that term with negative connotation, and disregarding the complex and rich linguistic, cultural, and ethnic histories of varied African people. However, many Black Americans have reclaimed the term "African American" and infused it with positive connotations. One scholar argues that "in using the term 'African Americans,' Black Americans accent the part of their heritage that is not American" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 4).
+</p>
+
+<p xml:id='OTPSD62968P2'>CWRGM — acknowledging the multiplicity of the term's meanings and connotations — includes multiracial and multiethnic people of African descent under the "African Americans" social identifiers subject tag to reflect the diversity of the African American experience and to ensure that the experiences of African Americans of mixed races and ethnicities are discoverable as they are rarely distinguished further in the letters. In the absence of other references, CWRGM also tags racial slurs targeted at African Americans — which were common in nineteenth century documents with white authors — under the "African Americans" tag. CWRGM recognizes the historic and present harm caused by such language and does not condone its use but tags these terms only to ensure the rich history of African Americans are discoverable within the collection.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001666S63099'>
+<catDesc>
+<term><rs ref='S63099'>African Americans--Enslaved People</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for the project provided by the National Historical Publications and Records Commission.; Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1863</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Clark, S. H.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1863-02-03</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from S. H. Clark in Attalaville, Mississippi, to Mississippi Governor John J. Pettus, concerning enslaved persons who were impressed from their enslavers to work on the fortifications at Grenada, Mississippi.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-943-11-21</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Attala County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>A. J. Blaylock; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 943, Folder 11</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>African Americans.; Confederate States of America--Defenses; Mississippi. Governor; Pettus, John Jones, 1813-1867; Slavery</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from S. H. Clark to Mississippi Governor John J. Pettus; February 3, 1863</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/6180&quot;&gt;Letter from S. H. Clark to Mississippi Governor John J. Pettus; February 3, 1863&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG19" who="U2" when="2024-10-25T15:21:19Z" target="#P1816254">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2024-06-12T21:27:23Z" target="#P1816254">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091195" when="2024-06-08T01:52:09Z" target="#P1816254">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091356" when="2023-08-27T00:10:15Z" target="#P1816254">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-21T01:49:08Z" target="#P1816254">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-18T21:57:55Z" target="#P1816254">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-18T03:25:47Z" target="#P1816254">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-03-17T21:56:33Z" target="#P1816254">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2021-10-28T02:18:53Z" target="#P1816254">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U228005" when="2021-04-23T01:50:38Z" target="#P1816255">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U228005" when="2021-04-23T01:49:45Z" target="#P1816254">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U228005" when="2021-04-23T01:49:29Z" target="#P1816254">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U224896" when="2021-04-13T04:19:31Z" target="#P1816255">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U224896" when="2021-04-13T04:18:39Z" target="#P1816254">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2021-04-10T00:58:37Z" target="#P1816255">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2021-04-10T00:57:16Z" target="#P1816254">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-03-16T01:20:07Z" target="#P1816255">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-16T01:20:06Z" target="#P1816254">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-16T01:19:40Z" target="#P1816255">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-03-16T01:19:27Z" target="#P1816254">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1816254" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/6178/full/full/0/default.jpg"/>
+        <div xml:id="OTP1816254">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1816254P0' xml:id='OTP1816254P0'>256
+</p>
+
+<p corresp='TTP1816254P1' xml:id='OTP1816254P1'><rs ref='#S94359'>Attalaville Miss</rs> Feby 3/63
+</p>
+
+<p corresp='TTP1816254P2' xml:id='OTP1816254P2'>Gov. <rs ref='#S63111'>J J Pettus</rs><lb/>
+<rs ref='#S51785'>Jackson Miss</rs>
+</p>
+
+<p corresp='TTP1816254P3' xml:id='OTP1816254P3'>Dear Sir
+</p>
+
+<p corresp='TTP1816254P4' xml:id='OTP1816254P4'>Parties are visiting our County with orders from <rs ref='#S70086'>Engineers</rs> at <rs ref='#S63123'>Gren-ada</rs> for hands to work on the fortifications and <rs ref='#S63012'>Planters</rs> who have sent their <rs ref='#S63099'>negros</rs> and worked one month have had them returned, but at<del rend='overstrike'>ed</del> the end of that time the Engineers told them that they knew nothing about their pay, what it would be or where they would get it it is not the pay we work for, but there are peculiar hardships attempted to be imposed on some of our citizens, for while some are called upon for 2/3 of their negro men others are not made to send any. If necessary for the defence of our country we are <del rend='overstrike'>all</del> willing to <hi rend='underline'>send and spend</hi> all we have in our countrys cause.
+</p>
+
+<p corresp='TTP1816254P5' xml:id='OTP1816254P5'>Will you please answer me the following questions and very much oblige this community who ask me to correspond with you on the subject <del rend='overstrike'>&amp; ob</del>
+</p>
+
+<p corresp='TTP1816254P6' xml:id='OTP1816254P6'>1<add place='above'>st</add>. Are the Engineers at Grenada who are ordering out negroes for work on the forti-fications acting under your orders
+</p>
+
+<p corresp='TTP1816254P7' xml:id='OTP1816254P7'>2<add place='above'>nd</add>. Are not the negroes now working on the <rs ref='#S68035'>N. O. J &amp; G. N. Rail Road</rs> in this county (on which there will not be a rail laid untill the war closes) as much liable to impressment as the Planters negroes
+</p>
+
+<p corresp='TTP1816254P8' xml:id='OTP1816254P8'>3<add place='above'>rd</add>. If our negroes are being called out under your orders (under State laws) should not it so appear in those orders, and would not the Engineers know when and how much to pay them
+</p>
+
+<p corresp='TTP1816254P9' xml:id='OTP1816254P9'>Your immediate answer 
+</p>
+
+
+        </div>
+        <pb xml:id="F1816255" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/6179/full/full/0/default.jpg"/>
+        <div xml:id="OTP1816255">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1816255P0' xml:id='OTP1816255P0'>to the above questions will confer a favour upon many in this community who are interested in these things and wish to do their whole duty
+</p>
+
+<p corresp='TTP1816255P1' xml:id='OTP1816255P1'>Respectfully
+</p>
+
+<p corresp='TTP1816255P2' xml:id='OTP1816255P2'>Your Ob<add place='above'>t</add> Servant<lb/>
+<hi rend='underline'><rs ref='#S106474'>S H Clark</rs></hi>
+</p>
+
+<p corresp='TTP1816255P3' xml:id='OTP1816255P3'>S. H. Clark<lb/>
+Attallaville<lb/>
+Mississippi
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

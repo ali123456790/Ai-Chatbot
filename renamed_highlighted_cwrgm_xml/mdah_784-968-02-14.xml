@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 12 edits between
+              <date type="first_edit" when="2022-05-03T16:08:00Z">May  3, 2022</date> and
+              <date type="last_edit" when="2023-04-06T19:19:07Z">April  6, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091404">
+          <persName
+            >
+            Robert Mason
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-02-19T17:31:04Z">February 19, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T13:26:10Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-12-17T21:13:05Z">December 17, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32005171">
+          <persName
+              type="pseudonym"
+            >
+            Lucio Alvarez
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-12-18T12:09:14Z">December 18, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-02-14T02:55:13Z">February 14, 2022</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U32005171">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name></name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:39:58+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+
+        <listPlace>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S63302">
+              <placeName>Mississippi--Madison County. Canton</placeName>
+                <idno>https://www.britannica.com/place/Canton-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63302P0'>Located in Madison County, Canton was incorporated in 1836 and serves as the county seat. (Britannica; Atlas of Historical County Boundaries; Rowland, <hi rend='italic'>Mississippi</hi>, 350)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.61194, -90.03167</geo>
+                </note>
+            </place>
+            <place xml:id="S63241">
+              <placeName>Mississippi--Lauderdale County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/lauderdale-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63241P0'>Located in east-central Mississippi, Lauderdale County was established on December 23, 1833 from Rankin and Wayne counties. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries) 
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.4, -88.66</geo>
+                </note>
+            </place>
+            <place xml:id="S63222">
+              <placeName>Mississippi--Yalobusha County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/yolabusha-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63222P0'>Located in north central Mississippi, Yalobusha County was established on December 23, 1833 from Monroe and Washington counties. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.03, -89.72</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001333'>
+<catDesc>Transportation &amp; Infrastructure Industries</catDesc>
+          <category xml:id='S99413'>
+            <catDesc>
+              <term>Railroads and Railroad Companies</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99413P0'>"A system of transportation using special vehicles whose wheels turn on metal bars fixed to the ground, or a particular company using such a system." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63142'>
+            <catDesc>
+              <term>Railroads and Railroad Companies--Mississippi Central Railroad Company (1852-1877)</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_Central_Railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.61194, -90.03167</geo>
+              </note>
+              <gloss><p xml:id='OTPSD63142P0'>Located in Holly Springs, Mississippi, the Mississippi Central Railroad Company was a railroad company operating from 1852 to 1877. The Mississippi Central Railroad Company was impacted by General Grant's Mississippi Central Railroad Campaign of November 1862, whereby the Union destroyed a large portion of the rail line, cutting off the Confederacy from supplies and causing a retreat, thwarting General Grant's overall goal of the campaign, which was to seize control of Vicksburg, Mississippi. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S71916'>
+            <catDesc>
+              <term>United States. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71916P0'>The United States Army is the military land force of the United States of America. During the American Civil War it was also referred to as the Union Army, Federal Army, or Northern Army. Its primary military objective during the war was the restoration and preservation of the United States through the defeat of secessionist forces. The United States Army traces its roots to the Continental Army, created in 1775 during the American Revolution. Following American independence, the new United States severely reduced the size of the army due to distrust of permanent standing military forces. The small regular army generally handled military operations against Native Americans and for coastal defense. State authorities were expected to support the country’s military needs with their militias, or by raising volunteer units, temporarily activated for federal service.
+</p>
+
+<p xml:id='OTPSD71916P1'>At the outbreak of the Civil War, the United States regular army consisted of barely more than 16,000 soldiers, scattered across the country (primarily at coastal defenses and forts established in the territories) among ten infantry regiments, four artillery regiments, two cavalry regiments, two dragoon regiments, and one regiment of mounted rifles. Roughly 20% of the army’s officers and enlisted resigned their positions to fight for the Confederacy. After Southern troops attacked and captured Fort Sumter in South Carolina, President Abraham Lincoln called for 75,000 volunteers to expand the army and defeat the Confederates. The government continued to issue subsequent requests for volunteers as the war progressed. As with established practice, the states were to recruit the volunteers and provide them for federal service. Initial enlistments were for 90 days, but eventually enlistment terms were expanded, typically for three years. In total, more than 2,000,000 men served in the United States Army during the course of the Civil War. Of those, only around 60,000 were part of the regular army. The overwhelming majority were in state-based units. Most soldiers were volunteers, however the federal government began drafting men in 1862, as the army’s campaigns continued and volunteer numbers dwindled. In total, around 46,000 Union soldiers (about 5.5%) were draftees.
+</p>
+
+<p xml:id='OTPSD71916P2'>Approximately two-thirds of the soldiers in the United States Army during the Civil War were native-born white citizens. Around 100,000 were from states within the Confederacy. Immigrants made up about 25% of Union soldiers, with Germans and Irish immigrants being among the most prominent. The army also included soldiers of different ethnicities, including more than 3,000 Native American soldiers. In 1863, the Union army began formally accepting African American soldiers—in segregated units—and by the end of the war, around than 179,000 had served in the United States Army uniform.
+</p>
+
+<p xml:id='OTPSD71916P3'>When hostilities ended in June 1865, approximately 110,000 had been killed in combat or succumbed to wounds, more than 220,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001724'>
+<catDesc>Transportation &amp; Infrastructure Occupations</catDesc>
+          <category xml:id='S32002771'>
+            <catDesc>
+              <term>Railroad Employees</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/railway</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001724'>Transportation &amp; Infrastructure Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32002771P0'>"The companies, work, and people involved in transporting people and goods by train." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Ames Series 784</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Mississippi Digital Library.; Funding for the project provided by the National Historical Publications and Records Commission of the National Archives; Funding for this project provided by the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1856; 1868</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Ames, Adelbert, 1835-1933</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1868-08-17</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Ames Collection. Letter from Mississippi Governor Adelbert Ames at Jackson, Mississippi, to the Sheriff of Madison County, Mississippi, instructing delivery of correspondence to the President of the Mississippi Central Railroad Company.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_784-968-02-14</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>3339216 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 7.5&quot; x 10&quot; 1-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Canton (Miss.); Jackson (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>1995</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_784-968-02-14</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Hinds County (Miss.); Lauderdale County (Miss.); Madison County (Miss.); Tishomingo County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Dalton Wood; Michael Singleton; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 968, Folder 2</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Ames, Adelbert, 1835-1933; Mississippi Central Railroad Company (1852-1877); Mississippi. Governor; Police; Railroads--United States</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>1549</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/15431&quot;&gt;Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG17" who="U2" when="2024-10-25T13:26:10Z" target="#P32053842">
+          Version 17 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-04-06T19:19:07Z" target="#P32053842">
+          Version 16 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-21T01:46:39Z" target="#P32053842">
+          Version 15 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-19T18:24:36Z" target="#P32053842">
+          Version 14 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-19T02:34:23Z" target="#P32053842">
+          Version 13 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-03-18T22:03:46Z" target="#P32053842">
+          Version 12 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-03-18T15:43:51Z" target="#P32053842">
+          Version 11 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2023-03-18T14:34:08Z" target="#P32053842">
+          Version 10 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2023-03-18T04:50:43Z" target="#P32053842">
+          Version 9 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2023-03-17T23:17:24Z" target="#P32053842">
+          Version 8 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2023-03-06T03:39:34Z" target="#P32053842">
+          Version 7 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U220769" when="2022-06-08T17:51:14Z" target="#P32053842">
+          Version 6 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U220769" when="2022-05-03T16:08:00Z" target="#P32053842">
+          Version 5 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25091404" when="2022-02-19T17:31:04Z" target="#P32053842">
+          Version 4 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25091253" when="2022-02-14T02:55:13Z" target="#P32053842">
+          Version 3 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U32005171" when="2021-12-18T12:09:14Z" target="#P32053842">
+          Version 2 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U231087" when="2021-12-17T21:13:05Z" target="#P32053842">
+          Version 1 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-11-29T16:16:24Z" target="#P32053842">
+          Version 0 of page "Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32053842" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:15431/full/full/0/default.jpg"/>
+        <div xml:id="OTP32053842">
+        <fw type="pageNum">Letter from Mississippi Governor Adelbert Ames to the Madison County Sheriff; August 17, 1868</fw>
+          <p corresp='TTP32053842P0' xml:id='OTP32053842P0'><b><rs ref='#S25026074'>EXECUTIVE DEPARTMENT</rs>,</b><lb/>
+<b><hi rend='italic'>STATE OF MISSISSIPPI.</hi></b>
+</p>
+
+<p corresp='TTP32053842P1' xml:id='OTP32053842P1'><b><hi rend='italic'><rs ref='#S51785'>Jackson</rs>, Miss.</hi></b> August 17<add place='above'>th</add>, <b><hi rend='italic'>186</hi></b>8.
+</p>
+
+<p corresp='TTP32053842P2' xml:id='OTP32053842P2'><rs ref='#S95578'>Sheriff</rs> of Madison County<lb/>
+<rs ref='#S63302'>Canton</rs>, Miss.
+</p>
+
+<p corresp='TTP32053842P3' xml:id='OTP32053842P3'>Sir,
+</p>
+
+<p corresp='TTP32053842P4' xml:id='OTP32053842P4'>I enclose a Letter to the President of the <rs ref='#S63142'>Mississippi Central R. R. Company</rs>, and also a copy of an Act entitled: "An Act further to secure the indebtedness of the Railroad Companies in this State on account of the money borrowed from the State under an act approved March 7<add place='above'>th</add>,, 1856"
+</p>
+
+<p corresp='TTP32053842P5' xml:id='OTP32053842P5'>Please read both of them carefully and then per-sonally deliver the same to a <rs ref='#S32002771'>station agent</rs> of said road for delivery to the President thereof, and notify me by letter of the date of such delivery.
+</p>
+
+<p corresp='TTP32053842P6' xml:id='OTP32053842P6'>Respectfully<lb/>
+Your Obdt. Servt
+</p>
+
+<p corresp='TTP32053842P7' xml:id='OTP32053842P7'>Bvt. Maj. Genl. <rs ref='#S71916'>U S A.</rs><lb/>
+Prov. Gov. of Miss.
+</p>
+
+<p corresp='TTP32053842P8' xml:id='OTP32053842P8'>Similar letter sent to the Sheriffs of <rs ref='#S63241'>Lauderdale</rs> &amp; <rs ref='#S63222'>Yallabusha Cos.</rs> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from B. Oldham to Mississippi Governor Benjamin G. Humphreys; May 12, 1868</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2024-02-26T15:53:27Z">February 26, 2024</date> and
+              <date type="last_edit" when="2024-04-04T17:43:51Z">April  4, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-12-01T20:27:04Z">December  1, 2023</date> and
+              <date type="last_edit" when="2023-12-11T14:35:40Z">December 11, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32011493">
+          <persName
+            >
+            Amiracle Funches
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2024-02-10T23:32:08Z">February 10, 2024</date> and
+              <date type="last_edit" when="2024-02-10T23:39:45Z">February 10, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32011852">
+          <persName
+            >
+            Rose Doyle
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-03-31T05:37:48Z">March 31, 2024</date> and
+              <date type="last_edit" when="2024-03-31T05:39:07Z">March 31, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2023-12-01T17:09:29Z">December  1, 2023</date> and
+              <date type="last_edit" when="2023-12-01T17:09:51Z">December  1, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-08-14T00:08:05Z">August 14, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T15:26:31+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32129137">
+              <persName>Oldham, B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32011998">
+              <persName>Humphreys, Benjamin Grubb, 1808-1882</persName>
+                <idno>https://en.wikipedia.org/wiki/Benjamin_G._Humphreys</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32011998P0'>Benjamin Grubb Humphreys was governor of Mississippi from 1865 to 1868, during the first three years of Reconstruction. Born on August 26, 1808, in Claiborne County, Mississippi, Humphreys spent many years in the north as a boy, attending school in New Jersey and then being appointed to the United States Military Academy at West Point, New York. Enrolled in the same class as Robert E. Lee, Humphreys was expelled shortly afterwards for his participation in the “Eggnog riot” (or “grog mutiny”)—an alcohol-fueled ruckus at West Point on the night of December 24-25, 1826, that resulted in the removal of twenty students.
+</p>
+
+<p xml:id='OTPS32011998P1'>Humphreys returned to Mississippi where he studied law and helped his father on the family plantation.  He married Mary McLaughlin in 1832. The couple had two children before Mary died in 1835. He remarried in 1839 to Mildred Maury and had at least ten more children.
+</p>
+
+<p xml:id='OTPS32011998P2'>In the 1830s, Humphreys entered local politics as a Whig, serving as a state representative and then as a member of the Mississippi senate from 1839 to 1844. He purchased land to establish a cotton plantation in Sunflower County, Mississippi, in 1846, and helped establish the town of Itta Bena.
+</p>
+
+<p xml:id='OTPS32011998P3'>During the lead up to the Civil War, Humphreys opposed secession. However, after Mississippi declared its separation from the Union and joined the Confederate States of America, he volunteered for military service and was eventually elected colonel of the Twenty-first Mississippi Infantry. Humphreys and his regiment served within Brigadier General William Barksdale’s brigade in the eastern theater, notably seeing action at the Peach Orchard during the Battle of Gettysburg on July 2, 1863. Barksdale was killed during the battle, and Humphreys was promoted to brigadier general to take his place. He remained in command of the brigade until September 1864 when he was wounded at Berryville, Virginia. He spent the rest of the Civil War recuperating from his wounds.
+</p>
+
+<p xml:id='OTPS32011998P4'>Humphreys became active in the immediate postwar political scene in Mississippi. He won election for governor in October 1865 during Mississippi’s effort to earn readmission into the Union under President Andrew Johnson’s lenient Reconstruction plan. However, Humphreys was among the former southern leaders initially denied presidential pardon by Johnson. Although Johnson soon relented, sending a pardon to Humphreys, the Mississippi legislature’s passage of highly discriminatory laws (known as the Black Codes) against recently emancipated African Americans sparked a fierce backlash by Republicans in the United States Congress, who then refused to admit Mississippi back into the Union. Federal authorities instituted a stricter Reconstruction program, which included oversight by military officials. Humphreys remained governor, as Reconstruction did not disassemble Mississippi’s civil government. However, Humphreys did not enjoy the full authority of a traditional state executive. His white supremacist views and opposition to Black civil rights put him in frequent opposition to Republican Reconstruction goals. He won reelection in 1868, but soon afterwards was ejected from office by federal authorities when Radical Republicans took more direct control of Reconstruction.
+</p>
+
+<p xml:id='OTPS32011998P5'>Following his removal as governor in 1868, Humphreys left politics and began working in insurance in Jackson, Mississippi. He retired in 1877 and died in December 1882 and is buried in Wintergreen Cemetery at Port Gibson, Mississippi.
+</p>
+
+<p xml:id='OTPS32011998P6'>(Wikipedia; David Sansing, “Benjamin Grubb Humphreys: Twenty-sixth Governor of Mississippi: 1865–1868,” Mississippi History Now; “Benjamin Grubb Humphreys,” HarpWeek)
+</p>
+
+<p xml:id='OTPS32011998P7'>Benjamin Grubb Humphreys belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32049456">
+              <persName>Ellington, James B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63164">
+              <placeName>Mississippi--Attala County. Kosciusko</placeName>
+                <idno>https://en.wikipedia.org/wiki/Kosciusko,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63164P0'>Located in Attala County, Kosciusko was located in 1834 under the name Paris and was renamed Kosciusko in 1839. Kosciusko serves as the county seat. (Wikipedia; Rowland, <hi rend='italic'>Mississippi</hi>, 1004; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.05806, -89.58833</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S69535'>
+            <catDesc>
+              <term>Criminal Procedures--Imprisonment</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/imprisonment?q=Imprisonment</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD69535P0'>"The act of putting someone in prison or the condition of being kept in prison." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62927'>
+            <catDesc>
+              <term>Criminal Procedures--Pardon</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/pardon?q=Pardon</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62927P0'>"If someone who has committed a crime is pardoned, that person is officially forgiven and their punishment is stopped." (Cambridge Dictionary)"An act of mercy by a person in authority toward someone who has committed a crime, esp. by reducing a punishment." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001687'>
+<catDesc>Social &amp; Cultural Events</catDesc>
+          <category xml:id='S32073839'>
+            <catDesc>
+              <term>Intimate &amp; Personal Relationships--Sex</term>
+              <idno>https://en.wikipedia.org/wiki/Sexual_intercourse</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001687'>Social &amp; Cultural Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32073839P0'>Sexual intercourse (also coitus or copulation) is often defined as "sexual activity involving the insertion and thrusting of the male penis inside the female vagina for sexual pleasure, reproduction, or both." This definition emphasizes vaginal intercourse or vaginal sex, but "other forms of penetrative sexual intercourse include anal sex (penetration of the anus by the penis), oral sex (penetration of the mouth by the penis or oral penetration of the female genitalia), fingering (sexual penetration by the fingers) and penetration by use of a dildo (especially a strap-on dildo), and vibrators. These activities involve physical intimacy between two or more individuals and are usually used among humans solely for physical or emotional pleasure and can contribute to human bonding." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S62926'>
+            <catDesc>
+              <term>Jails</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/jail?q=jails</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62926P0'>"A place where criminals are kept as a punishment for their crimes or while waiting for trials." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001669'>
+<catDesc>Family Structures</catDesc>
+          <category xml:id='S32119115'>
+            <catDesc>
+              <term>Women</term>
+              <idno>https://encyclopediavirginia.org/entries/women-during-the-civil-war/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001669'>Family Structures</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001930'>Sex &amp; Gender</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32119115P0'>In the nineteenth century, across the United States, women’s opportunities were limited. The vestiges of an element of English common law called coverture ensured women did not have a legal identity. Their fathers covered them until they married, at which point they fell under the legal identity of their husbands. In practice, this meant that women did not legally own property and did not even control their own children. They could not own businesses and could not bring suit to court. Rather, they had to rely on a husband, father, or other male relative. The concept of “Republican Motherhood,” however, ensured that some education was necessary. This ideal, which emerged after the American Revolution, held that mothers were central to raising virtuous boys who would one day shape the Republic.
+</p>
+
+<p xml:id='OTPSD32119115P1'>In the North, the Second Great Awakening and the rise of the middle class expanded women’s opportunities further. Heavily centered around the family, the middle class celebrated not an authoritative father but a loving mother. Separate spheres ideology held that men and women occupied different elements of society. Men were responsible for the public sphere, including politics and work outside of the home. Women took care of the domestic sphere, pushing temperance, self-control, hard work, honesty, and frugality. They had considerable power within this space, including nurturing children. Embracing these domestic ideals also pushed northern women into the public domain through such crusades as temperance and moral reform.
+</p>
+
+<p xml:id='OTPSD32119115P2'>In the agrarian South, patriarchy reigned supreme, where a male patriarchal “master” headed a family of dependents – women, children, and enslaved people, when financially possible. Here, men were virtually the law within the household. This hierarchy – and the dependent role women maintained – played a crucial role in uniting the South in its defense of slavery, for all white men were essentially “masters.” Operating with very little personal freedom, elite white women in the South also played a central role in managing the plantation household, overseeing large staffs of enslaved men and women within the domestic sphere. This expectation included embracing the violence that was necessary to maintaining the institution of slavery. Completely dependent on a male patriarch, women working outside of the home were limited to the occupations of the domestic realm, including working as a seamstress or milliner, teaching, domestic service, and sex work. Significantly lower paid than their male counterparts, these limitations ensured that poor white women often carried the burden of poverty in the South.
+</p>
+
+<p xml:id='OTPSD32119115P3'>The institution of slavery ensured that Black women faced still more limited circumstances. As chattel, they were defined by their productive capacity – their ability to produce in the field, the enslaver’s household, or reproductively. Subject to violence, rape, and the inability to control even their own children, enslaved women found ways to carve out elements of independency. Although enslavers sometimes forced enslaved men and women to engage in marital unions with spouses of the enslaver’s choosing, Black women often selected their own husbands, resisting the fact that these unions were only rarely enshrined in law and were subordinate to an enslaver’s desires. As far as was possible, these marriages followed the gendered division of labor typical throughout the U.S., where women were responsible for cooking, cleaning, and caring for children. Within these private households and the slave quarters more generally, enslaved women also engaged in the religions and cultural practices of their ancestry, including Caribbean and African influences.
+</p>
+
+<p xml:id='OTPSD32119115P4'>The Civil War expanded women’s roles in society. Still within the realm of the domestic sphere, women in both regions formed Ladies Military Aid Societies, with an eye towards supporting soldiers. These groups sent domestic necessities, including clothing, socks, and bandages, and they eventually embraced nursing. In the South, societies even began making cartridges and preparing sandbags. Such work and the broader need for women to maintain the household without a male counterpart ensured that women took on new responsibilities, many of which pushed them deeper into the public sphere than was possible before the war. In the South, poor women even became active in demanding that the Confederacy support their families, even rioting publicly in places like Richmond. As many Black women escaped to the U.S. Army during the war, marriage often became their first goal, even forcing the federal government to implement new policies that protected and supported their families. They seized this opportunity to rebuild the families that had long-been severed by the institution of slavery.
+</p>
+
+<p xml:id='OTPSD32119115P5'>After the war, many of these expansions in women’s roles declined, but they did not disappear entirely. Northern women became active in providing support for veterans and their families, even helping navigating the pension system, while southern white women became active in burying the dead, memorialization, and the emergence of the Lost Cause mythology. This idea downplayed the role of slavery in the war and celebrated the Confederacy for its protection of families, within which, women were vital. Black women continued to lobby the U.S. government, including utilizing the Freedman’s Bureau to relocate members of their families and to solidify those unions. With intimate knowledge of the skills and length of individual tasks, they also played pivotal roles in negotiating the financial value of their labor and of negotiating the terms of free labor more generally. Nevertheless, the sexual victimization of Black women continued, becoming a prominent feature of the postwar South.
+</p>
+
+<p xml:id='OTPSD32119115P6'>(Linda K. Kerber, <hi rend='italic'>Women of the Republic: Intellect &amp; Ideology in Revolutionary America</hi>; Christine Stansell, <hi rend='italic'>City of Women: Sex and Class in New York 1780-1860</hi>; Mary P. Ryan, <hi rend='italic'>Cradle of the Middle Class: The Family in Oneida County, New York, 1790-1865</hi>; Stephanie McCurry, <hi rend='italic'>Masters of Small Worlds: Yeoman Households, Gender Relations, and the Political Culture of the Antebellum South Carolina Low Country</hi>; Elizabeth Fox-Genovese, <hi rend='italic'>Within the Plantation Household: Black and White Women of the Old South</hi>; Ruth Poe White, “Orphans, White Unity, and the Charleston Orphan House, 1860-1870; Tera W. Hunter, <hi rend='italic'>Bound in Wedlock: Slave and Free Black Marriage in the Nineteenth Century</hi>; Thavolia Glymph, <hi rend='italic'>Out of the House of Bondage: The Transformation of the Plantation Household</hi>; Anthony E. Kaye, <hi rend='italic'>Joining Places: Slave Neighborhoods in the Old South</hi>; Nina Silber, <hi rend='italic'>Gender &amp; the Sectional Conflict</hi>; Catherine Clinton and Nina Silber, eds., <hi rend='italic'>Battle Scars: Gender and Sexuality in the American Civil War</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001672'>
+<catDesc>Health</catDesc>
+          <category xml:id='S52163'>
+            <catDesc>
+              <term>Mental Illness</term>
+              <idno>https://www.npr.org/sections/health-shots/2017/07/06/535608442/architecture-of-an-asylum-tracks-history-of-u-s-treatment-of-mental-illness</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001672'>Health</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD52163P0'>In the nineteenth-century United States, the diagnosis and treatment of mental illnesses advanced dramatically, though by 1900 it certainly still had far to go. In colonial America, mental illnesses were largely perceived as acts of God and thus inescapable and incurable. American society therefore dealt with people suffering from mental illnesses primarily through charitable organizations or benevolent societies like churches or almshouses.
+</p>
+
+<p xml:id='OTPSD52163P1'>Throughout the nineteenth century, however, as the ideals of the Enlightenment continued to evolve, Americans developed a more institutional, scientific approach to understanding and treating mental illnesses as curable and in turn developing the field of psychiatry. Psychiatrists and state governments founded state-funded asylums to study and treat people with mental illnesses in isolation to prevent both interruption of treatment and danger to society. While nineteenth-century psychiatrists employed many terms no longer accepted to describe mental illnesses, and while the methods they employed in their asylums have likewise been largely dismissed, the study and treatment of mental illness in the United States advanced rapidly in the nineteenth century in tandem with greater societal and educational reforms.
+</p>
+
+<p xml:id='OTPSD52163P2'>It is critical to note, however, that much of this advancement was aided by slavery. The Eastern Lunatic Asylum of Virginia, for example, relied on enslaved people as both patients and caregivers, and ideas about blackness and insanity were often mutually dependent. (Wendy Gonaver, The Peculiar Institution and the Making of Modern Psychiatry, 1840–1880).
+</p>
+
+<p xml:id='OTPSD52163P3'>One notable, and widespread, mental illness afflicting Americans in the late nineteenth and early-twentieth centuries was the Post-traumatic Stress Disorder (PTSD) experienced by many Civil War veterans. While psychiatry had evolved over the century, its failure to diagnose and treat widespread PTSD glaringly reveals its limits (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 283-285). 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001930'>
+<catDesc>Sex &amp; Gender</catDesc>
+<category xml:id='C32001930S32119115'>
+<catDesc>
+<term><rs ref='S32119115'>Women</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Humphreys Series 779</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1868</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Oldham, B.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1868-05-12</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Humphreys Collection. Letter from B. Oldham in Kosciusko, Mississippi to Mississippi Governor Benjamin G. Humphreys, requesting clemency for James B. Ellington, who is in jail and feared to be mentally unstable.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8.0&quot; x 13.0&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Kosciusko (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_779-963-18-26</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Attala County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Britany Castilaw; McKenna Fussell; Dalton Wood</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 963, Folder 18</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Clemency; Humphreys, Benjamin Grubb, 1808-1882; Jails; Mental health; Mississippi. Governor; Prisoners</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from B. Oldham to Mississippi Governor Benjamin G. Humphreys; May 12, 1868</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/37672&quot;&gt;Letter from B. Oldham to Mississippi Governor Benjamin G. Humphreys; May 12, 1868&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG15" who="U32019810" when="2024-08-14T00:08:05Z" target="#P33745865">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2024-04-04T17:43:51Z" target="#P33745866">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2024-04-04T17:43:24Z" target="#P33745865">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U32011852" when="2024-03-31T05:39:07Z" target="#P33745866">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U32011852" when="2024-03-31T05:37:48Z" target="#P33745865">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2024-02-26T15:53:27Z" target="#P33745866">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U32011493" when="2024-02-10T23:39:45Z" target="#P33745866">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U32011493" when="2024-02-10T23:39:24Z" target="#P33745866">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U32011493" when="2024-02-10T23:32:08Z" target="#P33745865">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U231087" when="2023-12-11T14:35:40Z" target="#P33745865">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2023-12-11T14:35:00Z" target="#P33745865">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2023-12-01T20:27:04Z" target="#P33745866">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U2" when="2023-12-01T17:09:51Z" target="#P33745865">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U2" when="2023-12-01T17:09:29Z" target="#P33745865">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2023-10-25T18:44:59Z" target="#P33745866">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2023-10-25T18:44:44Z" target="#P33745865">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F33745865" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:37670/full/full/0/default.jpg"/>
+        <div xml:id="OTP33745865">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP33745865P0' xml:id='OTP33745865P0'>[Seal]
+</p>
+
+<p corresp='TTP33745865P1' xml:id='OTP33745865P1'><rs ref='#S63164'>Kosciusko Miss</rs> May 12<add place='above'>th</add> 1868
+</p>
+
+<p corresp='TTP33745865P2' xml:id='OTP33745865P2'>Gov <rs ref='#S32011998'>Humphry</rs>
+</p>
+
+<p corresp='TTP33745865P3' xml:id='OTP33745865P3'>Dear sir,
+</p>
+
+<p corresp='TTP33745865P4' xml:id='OTP33745865P4'>enclosed you find some affidavits asto the mental condition of <rs ref='#S32049456'>James B. Ellington</rs> now in our <rs ref='#S62926'>Jail</rs>, The matter of his <rs ref='#S62927'>pardon</rs> has been before you for sometime, The affidavits you find here are made by men of undoubted integrity and good citizens. We could have taken many other affidavits, in fact all who know him so far as we have head an exspresion say that they regard him as <rs ref='#S52163'>insane</rs> to a consider-able exstent, We could not say that he was fully insane at the time of commiting the crime, however we think the manner and circumstances as shown go far to establish that belief, for this that he <rs ref='#S32073839'>copulated</rs> with the young <rs ref='#S32119115'>woman</rs> in the very bed where his daughter, nearly grown was lying, that is in his daughters very presents, we are told that one one occassion he had to do with her in an open room at a neighbors house where the family was passing in and about in day time, His insanity seems to be chiefly upon the question of woman.
+</p>
+
+<p corresp='TTP33745865P5' xml:id='OTP33745865P5'>It is more to avert the destructive consequences upon his mind that our citizens have appealed to
+</p>
+
+
+        </div>
+        <pb xml:id="F33745866" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:37671/full/full/0/default.jpg"/>
+        <div xml:id="OTP33745866">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP33745866P0' xml:id='OTP33745866P0'>Your clemency, then the fact of his punishment. If we did not believe That his <rs ref='#S69535'>confinement</rs>— would very greatly impair and perhaps destroy entirly the little reason which he has, we would not— say a word in his behalf, it is this belief that cause us to speak <del rend='overstrike'>in his behalf for him.</del>
+</p>
+
+<p corresp='TTP33745866P1' xml:id='OTP33745866P1'>We discover that since his confinement his mind is more seriously effected
+</p>
+
+<p corresp='TTP33745866P2' xml:id='OTP33745866P2'>Yours truly
+</p>
+
+<p corresp='TTP33745866P3' xml:id='OTP33745866P3'><rs ref='#S32129137'>[B?] Oldham</rs>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

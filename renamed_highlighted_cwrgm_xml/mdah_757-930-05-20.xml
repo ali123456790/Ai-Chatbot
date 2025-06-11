@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Jane White to Mississippi Governor John J. Pettus; April 29, 1860</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 39 edits between
+              <date type="first_edit" when="2020-08-25T18:00:42Z">August 25, 2020</date> and
+              <date type="last_edit" when="2024-06-12T20:43:25Z">June 12, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-02-16T15:38:21Z">February 16, 2023</date> and
+              <date type="last_edit" when="2023-03-29T17:30:30Z">March 29, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-06-07T21:53:40Z">June  7, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T17:34:47Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32020358">
+          <persName
+            >
+            Elisabeth Kluin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2025-03-14T22:00:42Z">March 14, 2025</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U215567">
+          <persName
+            >
+            Steph Walters
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2020-08-27T15:51:32Z">August 27, 2020</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T20:11:59+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S63341">
+              <persName>White, Jane</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S63338">
+              <persName>White, Sidney A.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63336">
+              <placeName>Georgia--Floyd County. Rome</placeName>
+                <idno>https://www.georgiaencyclopedia.org/articles/counties-cities-neighborhoods/rome/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63336P0'>Located in Floyd County, Rome was founded on December 20, 1834 and serves as the county seat. (New Georgia Encyclopedia; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.26, -85.185</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32074731'>
+            <catDesc>
+              <term>Criminal Procedures--Charges and Specifications (Civil and Criminal)</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/charge?q=Charges</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32074731P0'>"To make a formal statement saying that someone is accused of a crime." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S69535'>
+            <catDesc>
+              <term>Criminal Procedures--Imprisonment</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/imprisonment?q=Imprisonment</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD69535P0'>"The act of putting someone in prison or the condition of being kept in prison." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62927'>
+            <catDesc>
+              <term>Criminal Procedures--Pardon</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/pardon?q=Pardon</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62927P0'>"If someone who has committed a crime is pardoned, that person is officially forgiven and their punishment is stopped." (Cambridge Dictionary)"An act of mercy by a person in authority toward someone who has committed a crime, esp. by reducing a punishment." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32121282'>
+            <catDesc>
+              <term>Criminal Procedures--Trial</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32121282P0'>"The hearing of statements and showing of objects, etc. in a law court to judge if a person is guilty of a crime or to decide a case or a legal matter." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S99663'>
+            <catDesc>
+              <term>Emancipation &amp; Self Emancipation</term>
+              <idno>https://www.battlefields.org/learn/articles/self-emancipation-act-freeing-oneself-slavery#:~:text=Self%2Demancipation%20was%20the%20act,slaves%20were%20able%20to%20do.</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99663P0'>The term "emancipation" describes "the act of freeing a person from another person's control" (Cambridge Dictionary). In the nineteenth-century United States, this term most often referred to an enslaved person's escape from their enslaver's control and legal ownership. Self-emancipation describes "the act of an enslaved person freeing him or herself from the bondage of slavery," by a variety of means legal and extralegal. (American Battlefield Trust)
+</p>
+
+<p xml:id='OTPSD99663P1'>Occurring throughout the nineteenth century, self-emancipation under the law took the form of an enslaved person purchasing their own freedom through wages made performing trades outside of their enslaver's property. This process most often occurred in urban areas, particularly those in coastal regions of the U.S., but state legal restrictions made manumission virtually impossible by the mid-nineteenth century. Loved ones who purchased family members were forced to legally hold them in bondage, leading to a body of people who "were free by practice, but not by law." (Amrita Chakrabarti Myers, <hi rend='italic'>Forging Freedom</hi>)
+</p>
+
+<p xml:id='OTPSD99663P2'>The most extreme and least common form of self-emancipation was suicide, which many enslaved people chose rather than remaining in bondage. The most frequent method of self-emancipation, especially during the American Civil War, was to escape from an enslaver's property and flee without their permission. Many notable abolitionists like Frederick Douglass and Harriet Tubman self-emancipated by running away. Running away signaled how self-emancipation caused legal emancipation for all the enslaved in the United States. During the Civil War, so many enslaved persons self-emancipated and fled to Union lines that the U.S. government had to craft a response. That response manifested first in the Emancipation Proclamation of 1863, freeing the enslaved in territories under rebellion, and later in the 13th Amendment of 1865, which abolished slavery altogether. Self-emancipation became a primary way for enslaved African Americans in the antebellum U.S. to wield agency over their lives, and their efforts eventually succeeded in producing legislative emancipation from the top down. (American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+<category xml:id='C32001126S99663'>
+<catDesc>
+<term><rs ref='S99663'>Emancipation &amp; Self Emancipation</rs></term>
+</catDesc>
+</category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+<category xml:id='C32001150S99663'>
+<catDesc>
+<term><rs ref='S99663'>Emancipation &amp; Self Emancipation</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S54861'>
+            <catDesc>
+              <term>Mississippi--State Penitentiary (Jackson)</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_State_Penitentiary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>33.93167, -90.55083</geo>
+              </note>
+              <gloss><p xml:id='OTPSD54861P0'>"Mississippi State Penitentiary, also known as Parchman Farm, is a maximum-security prison farm located in unincorporated Sunflower County, Mississippi, in the Mississippi Delta region. Occupying about 28 square miles (73 km2) of land, Parchman is the only maximum security prison for men in the state of Mississippi, and is the state's oldest prison." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001669'>
+<catDesc>Family Structures</catDesc>
+          <category xml:id='S32057055'>
+            <catDesc>
+              <term>Imprisoned People&#39;s Families</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001669'>Family Structures</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32057055P0'>This term refers to the relation, often but not always wives and children, of a person imprisoned in a civilian institution, ranging from jails to penitentiaries.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S63099'>
+            <catDesc>
+              <term>African Americans--Enslaved People</term>
+              <idno>https://en.wikipedia.org/wiki/Slavery_in_the_United_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63099P0'>While Cambridge Dictionary defines an enslaved person as "a person who is legally owned by someone else and has no personal freedom" (Cambridge Dictionary), CWRGM adopts the term for the people who were subjected to the practice of race-based enslavement in the nineteenth-century United States chattel slavery system. Slavery in the United States varied greatly over time and geography. However, its most common form was that of race-based chattel slavery in which people of African descent were viewed and treated as property.
+</p>
+
+<p xml:id='OTPSD63099P1'>Methods of work also varied based on region, but those enslaved in Deep South states like Mississippi typically worked under the gang labor system in which, under the supervision of overseers, "gangs of slaves worked their ways through fields, plowing, thinning, hoeing, chopping, picking, or whatever else the day's assignment might be" (Mississippi Encyclopedia). The U.S.'s slave labor system subjected the enslaved to extreme violence, physical, psychological, and often sexual, and brutal working conditions and decreased individual autonomy.
+</p>
+
+<p xml:id='OTPSD63099P2'>Both state and federal legal systems also rendered escape or freedom nearly impossible in the South. For example, the Fugitive Slave Act at the national level required all people, even northerners, to return runaway slaves, rendering an escape to freedom extremely difficult. Mississippi's slave codes specifically implemented slave patrols, pass systems, corporal punishment, supervision of all religious gatherings, and the requirement that an African American person have proof of freedom at all times to curtail the already few rights of enslaved and free African Americans. Mississippi's status as a hub of the domestic slave trade, the individual autonomy whites possessed to punish the enslaved, and frequent abuse of the law by slave patrols increased the likelihood that even a free Black person could be captured and sold into slavery.
+</p>
+
+<p xml:id='OTPSD63099P3'>Despite this adversity, the enslaved in Mississippi and elsewhere resisted and exercised agency in multiple ways. Some enslaved persons directly resisted by running away or violently rebelling, while others chose indirect methods like breaking tools, intentionally working slowly, or feigning illness or injury. The enslaved also maintained their agency and autonomy by crafting networks of kinship and family both within and across plantations, cultivating gardens for their own use, performing gender roles of their own choosing, and holding social and religious gatherings infused with unique cultural and social elements (Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+<category xml:id='C32001674S63099'>
+<catDesc>
+<term><rs ref='S63099'>African Americans--Enslaved People</rs></term>
+</catDesc>
+</category>
+          <category xml:id='S94074'>
+            <catDesc>
+              <term>Imprisoned People</term>
+              <idno>https://en.wikipedia.org/wiki/Incarceration_in_the_United_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD94074P0'>The Cambridge Dictionary defines and imprisoned person as "a person who is kept in prison as a punishment" (Cambridge Dictionary). CWRGM, however, adopts the subject tag "Imprisoned people" to emphasize the personhood of those who have been imprisoned for crimes. This tag recognizes the systemic injustice and dehumanization historically present in the American carceral system wherein many have been falsely convicted and therefore uses the term "imprisoned" to reflect a person's having been placed in prison, while giving primacy to their personhood and not rendering judgement on that person's guilt (Akiba Solomon, "Words We Use," The Marshall Project). 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001674S32057055'>
+<catDesc>
+<term><rs ref='S32057055'>Imprisoned People&#39;s Families</rs></term>
+</catDesc>
+</category>
+</category>
+<category xml:id='C32001666'>
+<catDesc>Races, Ethnicities, &amp; Nationalities</catDesc>
+          <category xml:id='S62968'>
+            <catDesc>
+              <term>African Americans</term>
+              <idno>https://en.wikipedia.org/wiki/African_Americans</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62968P0'>The Cambridge Dictionary classifies "a person who lives in the U.S. and is a member of a race of people with dark skin that originally came from Africa" as African American, but both the nineteenth-century and modern constructions are more complex (Cambridge Dictionary). Common nineteenth-century racial categories such as "mulatto" referred to persons with both white and black ancestry, and the experiences of mixed-race persons varied based on complexion, degree of African ancestry, and the region in which they lived. In antebellum cities with large populations of free Blacks, the degree of one's African ancestry could determine what rights one possessed or did not possess, and people with lighter skin tones were often considered to be white; this ended under "one drop rule" during the Jim Crow system.
+</p>
+
+<p xml:id='OTPSD62968P1'>Like skin tone, the ethnicity implied by the term "African American" is also problematically broad, as "naming people only by the continent of their origin and ignoring their ethnic identity is a consequence of time and space" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 5). The experience of slavery complicated the term by attempting to strip people of their original distinct African ethnic identities such as Ibo or Ndongan, classifying all persons of African descent together under one term, infusing that term with negative connotation, and disregarding the complex and rich linguistic, cultural, and ethnic histories of varied African people. However, many Black Americans have reclaimed the term "African American" and infused it with positive connotations. One scholar argues that "in using the term 'African Americans,' Black Americans accent the part of their heritage that is not American" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 4).
+</p>
+
+<p xml:id='OTPSD62968P2'>CWRGM — acknowledging the multiplicity of the term's meanings and connotations — includes multiracial and multiethnic people of African descent under the "African Americans" social identifiers subject tag to reflect the diversity of the African American experience and to ensure that the experiences of African Americans of mixed races and ethnicities are discoverable as they are rarely distinguished further in the letters. In the absence of other references, CWRGM also tags racial slurs targeted at African Americans — which were common in nineteenth century documents with white authors — under the "African Americans" tag. CWRGM recognizes the historic and present harm caused by such language and does not condone its use but tags these terms only to ensure the rich history of African Americans are discoverable within the collection.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001666S63099'>
+<catDesc>
+<term><rs ref='S63099'>African Americans--Enslaved People</rs></term>
+</catDesc>
+</category>
+</category>
+<category xml:id='C32001670'>
+<catDesc>Religious Affiliation</catDesc>
+          <category xml:id='S69344'>
+            <catDesc>
+              <term>Christians</term>
+              <idno>https://www.britannica.com/topic/Christianity</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001670'>Religious Affiliation</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD69344P0'>Stemming from the first century CE, Christianity is the world's largest religion with over two billion adherents. Its largest denominations are Roman Catholicism, Eastern Orthodoxy, and Protestantism. A large influence on American identity and thought since the nation's founding, Christianity (particularly protestant evangelicalism) spread rapidly in the first three decades of the nineteenth century in the United States due to a series of religious revivals known as the Second Great Awakening. Many Americans injected Christian beliefs and practices into many of the major social, political, and legal debates in the country, including debates over slavery (both pro and antislavery stances), education, and social reform. Christianity also became a prominent religion among the enslaved in the United States, who employed Christian rhetoric and belief in much of their social, religious, and cultural activities, and critical to enslaved people's agency and resistance.
+</p>
+
+<p xml:id='OTPSD69344P1'>American Christianity in the nineteenth century primarily emphasized both one's individual responsibility to God as well as collective responsibility for one's neighbors. Also deeply important to American Christians in the nineteenth century was millennialism, or the belief that Jesus Christ would establish a 1,000 year reign of peace on earth. These combined elements produced efforts at reform with the intent to perfect society in order to invoke that reign. Many of the enslaved, however, applied millennialism to the hope of slavery's abolition. Numerous politicians also incorporated Christian imagery and language to justify "Manifest Destiny," or the idea that the God of Christianity ordained that the United States' borders would extend from the eastern to western coasts of North America, while both the Confederate and United States governments applied Christian rhetoric to support their causes. Christianity existed and still exists in many different and often competing forms, yet the development of those forms came to define much of American culture in the nineteenth century and beyond (Britannica; Howe, <hi rend='italic'>What Hath God Wrought</hi>, 285-327; McPherson, <hi rend='italic'>Battle Cry of Freedom</hi>, 8; Wikipedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S63339'>
+            <catDesc>
+              <term>Marriage</term>
+              <idno>https://scholarship.law.georgetown.edu/cgi/viewcontent.cgi?params=/context/hartlecture/article/1016/&amp;path_info=80GeoLJ95.pdf</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63339P0'>While the Cambridge Dictionary defines marriage as “a legally accepted relationship between two people in which they live together, or the official ceremony,” CWRGM employs this subject tag whenever an author references marriage regardless of whether it was legally binding or not.
+</p>
+
+<p xml:id='OTPSD63339P1'>In the nineteenth century, marriage was shaped by coverture, an element of English common law dating back to the Middle Ages, which held that a married woman’s legal status fell under her husband’s. Married women could not sue or own property, including their own wages, and they did not legally have control over the lives of their children or of their own bodies. Wives were expected to manage the household or the domestic sphere. For most, these responsibilities included cooking, cleaning, and nurturing children, although elite white women in the South were also expected to manage household slaves, even violently.
+</p>
+
+<p xml:id='OTPSD63339P2'>Coverture, however, did not just shape the lives of women. Husbands were responsible for providing financial support for their families and for all aspects of the public sphere of life. Women, then, sometimes used the law and sentimental appeal to pressure recalcitrant husbands or even more broadly men in their communities to provide for their families. Poor white women, for example, sometimes used this argument to persuade public and private orphan institutions to accept their children, especially when their own husbands failed to live up to their roles as providers. This aspect of coverture played out most acutely in the South during the Civil War. By embracing their identities as “soldiers’ wives,” poor white women demanded that the Confederacy provide them with political protection and provide for their basic needs. In places like Richmond, Virginia, such women took to the streets in what historians call the “bread riots,” where they demanded public assistance, but their identities as dependent “wives” were central to this activism.
+</p>
+
+<p xml:id='OTPSD63339P3'>Because marriage was a civil contract, enslaved men and women did not have these same legal protections and obligations. However, within the limitations of slavery, they married by mutual agreement, selecting their own partners in many cases, and they maintained affectionate marriages that mimicked the gender roles of the dominant culture. Men attempted to live out their roles as the heads of their families, while subordinate wives took responsibility for the domestic sphere. However, because these marriages were not legally binding and were subject to the needs and desires of the planter class, slavery made these marriages distinctive. For example, when husbands and wives had different enslavers, they were unable to cohabitate. In other cases, enslavers selected pairings based on their own whims, removing the possibility of choice. Finally, enslaved couples also recognized that marriage did not protect them from the Domestic Slave Trade. They could – and did – face separations.
+</p>
+
+<p xml:id='OTPSD63339P4'>During Reconstruction, former slaveholding states were forced to pass laws that gave Black marriages the same legal protections as those of white men and women. However, this legal arm became a new way for white supremacists to control Black families. Couples who cohabited without that civil contract would be punished, and these men and women could be condemned for bigamy and adultery in cases where the slave trade had forced them to consent to multiple partners. Nevertheless, while some formerly enslaved men and women were ambivalent to legal marriage because of these punitive standards, most did embrace the opportunity for these legal protections, even seeing it as one step towards realizing full equality.
+</p>
+
+<p xml:id='OTPSD63339P5'>(Mary P. Ryan, Cradle of the Middle Class: The Family in Oneida County, New York, 1790-1865; Stephanie McCurry, Masters of Small Worlds: Yeoman Households, Gender Relations, and the Political Culture of the Antebellum South Carolina Low Country; Elizabeth Fox-Genovese, Within the Plantation Household: Black and White Women of the Old South; Ruth Poe White, “Orphans, White Unity, and the Charleston Orphan House, 1860-1870; Tera W. Hunter, Bound in Wedlock: Slave and Free Black Marriage in the Nineteenth Century; Thavolia Glymph, Out of the House of Bondage: The Transformation of the Plantation Household; Stpehanie McCurry, Confederate Reckoning: Power and Politics in the Civil War South; Hendrik Hartog, Man and Wife in America: A History)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757 Governor Pettus Collection.</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by The Dale Center for Study of War and Society; Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1860</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>White, Jane.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1860-04-29</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Jane White in Rome, Georgia, to Mississippi Governor John J. Pettus requesting clemency for Sidney A. White who was convicted for &quot;stealing&quot; an enslaved person.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 7&quot; x 9&quot; letter.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi; Rome (Ga.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-930-05-20</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Warren County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Billy Loper; Miranda Williamson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 930, Folder 5</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Clemency.; Mississippi. Governor; Pettus, John Jones, 1813-1867; Slavery</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Jane White to Mississippi Governor John J. Pettus; April 29, 1860</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/539&quot;&gt;Letter from Jane White to Mississippi Governor John J. Pettus; April 29, 1860&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG49" who="U32020358" when="2025-03-14T22:00:42Z" target="#P1413567">
+          Version 43 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG48" who="U2" when="2024-10-25T17:34:47Z" target="#P1413567">
+          Version 42 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG47" who="U220769" when="2024-06-12T20:43:25Z" target="#P1413567">
+          Version 41 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U25091195" when="2024-06-07T21:53:40Z" target="#P1413567">
+          Version 40 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U220769" when="2024-01-30T17:04:22Z" target="#P1413567">
+          Version 39 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U220769" when="2024-01-20T21:34:00Z" target="#P1413567">
+          Version 38 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U220769" when="2023-11-17T17:51:26Z" target="#P1413567">
+          Version 37 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2023-11-17T17:48:33Z" target="#P1413567">
+          Version 36 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-11-17T17:30:44Z" target="#P1413567">
+          Version 35 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-11-17T17:17:56Z" target="#P1413567">
+          Version 34 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-11-02T04:04:12Z" target="#P1413567">
+          Version 33 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-11-02T03:21:52Z" target="#P1413567">
+          Version 32 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-09-02T20:20:43Z" target="#P1413567">
+          Version 31 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-09-02T20:13:15Z" target="#P1413567">
+          Version 30 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U25091356" when="2023-03-29T17:30:30Z" target="#P1413568">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U25091356" when="2023-03-29T17:30:12Z" target="#P1413567">
+          Version 29 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-03-19T18:49:29Z" target="#P1413567">
+          Version 28 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-18T02:22:27Z" target="#P1413567">
+          Version 27 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-17T23:39:48Z" target="#P1413567">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-02T23:56:01Z" target="#P1413567">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-02-27T19:18:01Z" target="#P1413567">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-02-24T19:50:24Z" target="#P1413567">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U25091356" when="2023-02-16T15:38:21Z" target="#P1413567">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2022-12-04T20:25:26Z" target="#P1413567">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2022-12-04T02:36:56Z" target="#P1413567">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2022-12-04T02:14:55Z" target="#P1413567">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2022-12-04T00:49:01Z" target="#P1413567">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2022-05-31T18:32:08Z" target="#P1413567">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2021-10-28T02:54:54Z" target="#P1413567">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2021-10-27T21:30:52Z" target="#P1413567">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2021-03-12T03:24:28Z" target="#P1413567">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2021-02-23T19:20:16Z" target="#P1413567">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2021-02-02T18:55:07Z" target="#P1413567">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2020-10-20T17:14:52Z" target="#P1413567">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2020-10-20T17:10:50Z" target="#P1413567">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2020-10-20T16:54:27Z" target="#P1413567">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2020-10-20T16:49:44Z" target="#P1413567">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2020-10-20T16:23:58Z" target="#P1413567">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2020-09-01T18:28:01Z" target="#P1413567">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2020-08-27T19:40:55Z" target="#P1413567">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2020-08-27T19:38:10Z" target="#P1413568">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2020-08-27T19:35:24Z" target="#P1413567">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2020-08-27T19:28:44Z" target="#P1413567">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U215567" when="2020-08-27T15:51:32Z" target="#P1413568">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U220769" when="2020-08-25T18:01:13Z" target="#P1413568">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U220769" when="2020-08-25T18:00:42Z" target="#P1413567">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2020-08-19T17:15:39Z" target="#P1413568">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2020-08-19T17:15:39Z" target="#P1413567">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2020-08-19T17:15:35Z" target="#P1413568">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2020-08-19T17:15:35Z" target="#P1413567">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1413567" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/537/full/full/0/default.jpg"/>
+        <div xml:id="OTP1413567">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1413567P0' xml:id='OTP1413567P0'>Apr 29 1860<lb/>
+<rs ref='#S63336'>Rome Floy Co</rs><lb/>
+To the <rs ref='#S63111'>Governor</rs> <lb/>
+of Mississippi <del rend='overstrike'>[unclear]</del> your Excellency Dear Sir
+</p>
+
+<p corresp='TTP1413567P1' xml:id='OTP1413567P1'>I take the Privelidg of addressing you though A Stranger unknown to me yet in duly in hope that you will prove A Friend indeed to me Mr. <rs ref='#S63338'>Sidney,, A,, White</rs> A <rs ref='#S94074'>Convict</rs> in your state is my <rs ref='#S32057055'>Husband</rs> he was <rs ref='#S32074731'>charged</rs> with <rs ref='#S63099'>negro</rs>—<rs ref='#S99663'>stealing</rs> was <rs ref='#S32121282'>tried</rs> and sentenced to the <rs ref='#S54861'>state Prison</rs> for 5 years to great astonishment and distress of all that knew him in regard to my distress and trouble I will be silent only suffice it to say I have bourn it with A <rs ref='#S69344'>Christian</rs> fortitude knowing him as I have and being acquainted with him 25 years that is 17 years before we was united in <rs ref='#S63339'>mariedge</rs> and ever since I never could believe him gilty of so base an act he was honered by all that knew him it is generally believed he was unjustly <rs ref='#S69535'>imprisoned</rs> he has been Absent from me and his Family 3 years he has been in the State Prison 18 months if he was not guilty he has sufered that much too long if he was guilty he has sufered long enough to answer the ends of justice I beg your Excellency to <rs ref='#S62927'>Pardon</rs> him and permit him to return to ^his^ Family that need his protection and care for 2 Daughters that just grown and one little boy that was 3 years 
+</p>
+
+
+        </div>
+        <pb xml:id="F1413568" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/538/full/full/0/default.jpg"/>
+        <div xml:id="OTP1413568">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1413568P0' xml:id='OTP1413568P0'>old when he went Away and that is his Family if you are A Father or Husband you can draw some idea the misery of separation I Pray your Excellency to consider what unpotected young ladiese fares in such A harsh world as this we have been trying to live ever since my Dear Husband went Away 3 years in March last but we cant get on we lack his smiling face Around our lonely fire side it is in your power to lighten my sad heart I dont Plead misery trials or troubles but there is one thing I do plead that is that tender tie called love I can't help pleading for him that I have lived with 22 years I beg and Pray that your may set him at liberty and restore the idol of my Affection will you favor me with answer as soon as you can in vestigate the matter and let me hear my future destiny with respect I beg to remain your Friend in Mercy
+</p>
+
+<p corresp='TTP1413568P1' xml:id='OTP1413568P1'>my address is Rome Floyd<lb/>
+Geo
+</p>
+
+<p corresp='TTP1413568P2' xml:id='OTP1413568P2'><rs ref='#S63341'>Jane White</rs>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

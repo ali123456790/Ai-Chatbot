@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Samuel Readus to Mississippi Governor Adelbert Ames; June 21, 1869</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 34 edits between
+              <date type="first_edit" when="2022-05-08T20:04:55Z">May  8, 2022</date> and
+              <date type="last_edit" when="2024-03-06T15:20:20Z">March  6, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091404">
+          <persName
+            >
+            Robert Mason
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2022-04-14T13:57:20Z">April 14, 2022</date> and
+              <date type="last_edit" when="2024-08-23T14:56:03Z">August 23, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 7 edits between
+              <date type="first_edit" when="2022-03-25T03:22:41Z">March 25, 2022</date> and
+              <date type="last_edit" when="2022-03-27T18:18:56Z">March 27, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25090807">
+          <persName
+            >
+            Patricia Parrish
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-12-07T06:11:54Z">December  7, 2021</date> and
+              <date type="last_edit" when="2021-12-07T06:20:14Z">December  7, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T15:22:07Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-08-27T00:01:27Z">August 27, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32017648">
+          <persName
+            >
+            Mariah Cosens
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-02-15T18:25:59Z">February 15, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U25091404">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Robert Mason</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:21:30+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S105607">
+              <persName>Redus, Samuel</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52648">
+              <persName>Ames, Adelbert, 1835-1933</persName>
+                <idno>https://en.wikipedia.org/wiki/Adelbert_Ames</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52648P0'>Adelbert Ames served as a governor and U.S. senator of Mississippi during the Reconstruction era.  He was born in East Thomaston (modern-day Rockland), Maine, in 1835. As a boy, Ames spent time working on various merchant vessels, receiving training in seamanship. He entered the United States Military Academy at West Point in 1856, graduating in May 1861, at the start of the Civil War. Commissioned as a second lieutenant, the young Ames was promoted to first lieutenant barely over a week later and served with the 5th U.S. Artillery during the battle of First Bull Run at Manassas, Virginia, on July 21, 1861. Despite being wounded in the leg, Ames stayed by his cannons. His actions at Bull Run led him to receive the brevet (honorary) rank of major and, in 1893 (more than thirty years later), the Medal of Honor.
+</p>
+
+<p xml:id='OTPS52648P1'>Ames recovered from his wound and returned to the front lines in 1862, serving with distinction as an artillery officer during the Peninsula Campaign near Richmond. Seeking better promotion potential, Ames sought an infantry command. Through those efforts, in August 1862, he received command of the 20th Maine Infantry Regiment, and led that unit in combat during the Battle of Fredericksburg in December 1862. In May 1863, he volunteered to serve as a staff officer for Major General George G. Meade, which helped him achieve the rank of brigadier general that month. With this promotion, Ames left the 20th Maine to his second-in-command, Lieutenant Colonel Joshua Lawrence Chamberlain, who gained great fame commanding the regiment at Little Round Top during the Battle of Gettysburg in July 1863. Ames’ own performance at Gettysburg was highly praised, as his division successfully defended the Union position at Cemetery Hill.
+</p>
+
+<p xml:id='OTPS52648P2'>After Gettysburg, Ames’ division was transferred to the Department of the South. Over the next two years, he commanded Union troops during campaigns in Florida, South Carolina, North Carolina, and Virginia. He received a brevet promotion to major general for his actions at Fort Fisher, North Carolina, in March 1865.
+</p>
+
+<p xml:id='OTPS52648P3'>After the Civil War, Ames became involved in federal Reconstruction efforts. In 1868, he was appointed the provisional governor of Mississippi. Ames proved sympathetic to the plight of African Americans in the south. He sought to protect Black civil rights and appointed Mississippi’s first African American public officials. In 1870, after Mississippi was readmitted into the Union, Ames ran for U.S. senator for the state as a Republican and won. He served in that capacity from February 1870 to January 1874, achieving the reputation as a strong public speaker. While serving as a senator in Washington, D.C., Ames met and married Blanche Butler, daughter of Union general Benjamin F. Butler, under whom Ames had served during the war. Ames and his wife had six children over the course of their marriage.
+</p>
+
+<p xml:id='OTPS52648P4'>In 1873, Ames ran for governor of Mississippi. His chief rival was James L. Alcorn, a former Confederate general who had been a Whig before the Civil War and joined the Republican Party afterwards. Ames won the election and worked diligently to improve Mississippi’s financial and social situation. In 1874, Democrats in Mississippi coordinated a campaign of violence against African Americans and white Republicans in the state, to secure political control in Mississippi. Unable to militarily suppress the white supremacist terror campaign, Ames signed a truce with Democratic leaders in Mississippi to reduce the violence and allow a peaceful election. Groups of white supremacists abandoned the truce and resumed their intimidation tactics against Republicans and Black Mississippians during the following elections, leading to a surge of Democratic politicians taking office.
+</p>
+
+<p xml:id='OTPS52648P5'>In 1876, the conservative Democrat majority in the Mississippi legislature tried to impeach Ames and many other Republican officials with trumped up charges of corruption. Despite a strong political force against him, Ames’ critics were unable to provide any evidence of impropriety. Nevertheless, because impeachment was politically driven, Ames could see that his future as governor was over and any effort on his part to legally defend himself would be personally and financially taxing. He and his attorneys reached an agreement with Democratic leaders to resign his office in exchange for dropping the legal charges. On March 29, 1876, after Democrats cancelled their legal proceedings, Ames vacated his position.
+</p>
+
+<p xml:id='OTPS52648P6'>Ames left Mississippi and went into business in Minnesota with his father and brother. A short time later, he relocated to New York City and then Massachusetts, overseeing mills and various business interests. When the Spanish-American War erupted in 1898, Ames volunteered for service and was appointed brigadier general of volunteers. Although over sixty years old, Ames joined the field campaign in Cuba and performed well.
+</p>
+
+<p xml:id='OTPS52648P7'>Ames resumed his business ventures in the early twentieth century. He lived until 1933, dying at age 97. He is buried in Lowell, Massachusetts.
+</p>
+
+<p xml:id='OTPS52648P8'>(Wikipedia)
+</p>
+
+<p xml:id='OTPS52648P9'>Adelbert Ames belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32026935">
+              <persName>McClung, James</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S71872">
+              <placeName>Mississippi--Copiah County. Hazlehurst</placeName>
+                <idno>https://en.wikipedia.org/wiki/Hazlehurst,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS71872P0'>Located in Copiah County, Hazlehurst was founded as early as November 3, 1865. In April 1872, it replaced Gallatin as the county seat and remains so today. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.865, -90.39139</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001329'>
+<catDesc>Publishing Industries</catDesc>
+          <category xml:id='S99620'>
+            <catDesc>
+              <term>Newspapers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/newspaper</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001329'>Publishing Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99620P0'>"A document consisting of news reports, articles, and photographs that is published every day or every week" (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32083641'>
+            <catDesc>
+              <term>Newspapers--Mississippi</term>
+              <idno>https://chroniclingamerica.loc.gov/newspapers/mississippi/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001329'>Publishing Industries</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>33.0, -90.0</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32083641P0'>The first newspaper published in Mississippi was the <hi rend='italic'>Mississippi Gazette</hi>, which went into print around 1800 in Natchez, before Mississippi Territory was formally organized. Several more appeared during the next few years, and by the time Mississippi entered the Union in 1817 at least half a dozen different publications had emerged. Over the following years, newspaper companies opened as communities grew and the demand for information increased. Publishing resources (like paper and print presses) became more available aiding in the news media boom. By the mid-nineteenth century, most Mississippi towns or counties had a local newspaper, published daily or weekly. Major cities typically had more than one newspaper, often published by competing political parties. Most newspapers went out of business after only a few years; however, a few continued in print for decades, including <hi rend='italic'>The Columbus Democrat</hi> in Columbus (1836–1877), <hi rend='italic'>The Kosciusko Chronicle</hi> in Kosciusko (1846–1892), and the <hi rend='italic'>Grenada Sentinel</hi> of Grenada which started in 1868 and remained in publication until 1955. Overall, as many as two hundred different publishers started daily or weekly newspapers in Mississippi during the nineteenth century. (Tim Hughes, “The first newspapers in Mississippi…,” History’s Newsstand Blog; Library of Congress)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32075492'>
+            <catDesc>
+              <term>Newspapers--Mississippi. Mississippi Daily and Weekly Pilot (Jackson, Miss.)</term>
+              <idno>https://chroniclingamerica.loc.gov/lccn/sn83016793/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001329'>Publishing Industries</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32075492P0'>Located in Jackson, Mississippi, the <hi rend='italic'>Daily Mississippi Pilot</hi> was a semi-weekly newspaper company operating from 1868 until 1876. (Library of Congress)Located in Jackson, Mississippi, the <hi rend='italic'>Daily Mississippi Pilot</hi> was a semi-weekly newspaper company operating from 1868 until 1876. (Library of Congress)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001333'>
+<catDesc>Transportation &amp; Infrastructure Industries</catDesc>
+          <category xml:id='S32169366'>
+            <catDesc>
+              <term>Public Transport Businesses</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/public-transportation</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32169366P0'>Businesses associated with creating and maintaining a system of vehicles such as trains that operate at regular times on fixed routes and are used by the public. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32005095'>
+            <catDesc>
+              <term>Public Transport Businesses--Depots</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/depot?q=depots</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32005095P0'>"A train station" or "a place where goods are kept until they are sent somewhere to be used sold, etc." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S99413'>
+            <catDesc>
+              <term>Railroads and Railroad Companies</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99413P0'>"A system of transportation using special vehicles whose wheels turn on metal bars fixed to the ground, or a particular company using such a system." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63926'>
+            <catDesc>
+              <term>Crimes (alleged)--Murder</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/murder?q=Murder</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63926P0'>"The crime of intentionally killing a person." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62954'>
+            <catDesc>
+              <term>Criminal Procedures--Arrest</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arrest?q=Arrest</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62954P0'>"The act of using legal authority to catch and take someone to a place where the person may be accused of a crime." (CD)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S71916'>
+            <catDesc>
+              <term>United States. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71916P0'>The United States Army is the military land force of the United States of America. During the American Civil War it was also referred to as the Union Army, Federal Army, or Northern Army. Its primary military objective during the war was the restoration and preservation of the United States through the defeat of secessionist forces. The United States Army traces its roots to the Continental Army, created in 1775 during the American Revolution. Following American independence, the new United States severely reduced the size of the army due to distrust of permanent standing military forces. The small regular army generally handled military operations against Native Americans and for coastal defense. State authorities were expected to support the country’s military needs with their militias, or by raising volunteer units, temporarily activated for federal service.
+</p>
+
+<p xml:id='OTPSD71916P1'>At the outbreak of the Civil War, the United States regular army consisted of barely more than 16,000 soldiers, scattered across the country (primarily at coastal defenses and forts established in the territories) among ten infantry regiments, four artillery regiments, two cavalry regiments, two dragoon regiments, and one regiment of mounted rifles. Roughly 20% of the army’s officers and enlisted resigned their positions to fight for the Confederacy. After Southern troops attacked and captured Fort Sumter in South Carolina, President Abraham Lincoln called for 75,000 volunteers to expand the army and defeat the Confederates. The government continued to issue subsequent requests for volunteers as the war progressed. As with established practice, the states were to recruit the volunteers and provide them for federal service. Initial enlistments were for 90 days, but eventually enlistment terms were expanded, typically for three years. In total, more than 2,000,000 men served in the United States Army during the course of the Civil War. Of those, only around 60,000 were part of the regular army. The overwhelming majority were in state-based units. Most soldiers were volunteers, however the federal government began drafting men in 1862, as the army’s campaigns continued and volunteer numbers dwindled. In total, around 46,000 Union soldiers (about 5.5%) were draftees.
+</p>
+
+<p xml:id='OTPSD71916P2'>Approximately two-thirds of the soldiers in the United States Army during the Civil War were native-born white citizens. Around 100,000 were from states within the Confederacy. Immigrants made up about 25% of Union soldiers, with Germans and Irish immigrants being among the most prominent. The army also included soldiers of different ethnicities, including more than 3,000 Native American soldiers. In 1863, the Union army began formally accepting African American soldiers—in segregated units—and by the end of the war, around than 179,000 had served in the United States Army uniform.
+</p>
+
+<p xml:id='OTPSD71916P3'>When hostilities ended in June 1865, approximately 110,000 had been killed in combat or succumbed to wounds, more than 220,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32124056'>
+            <catDesc>
+              <term>United States. Army. Military District, 4th </term>
+              <idno>https://encyclopediaofarkansas.net/entries/fourth-military-district-9123/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32124056P0'>The 4th Military District of the United States Army was established by the First Reconstruction Act, passed by the Fortieth United States Congress on March 2, 1867. It encompassed the states of Arkansas and Mississippi with its headquarters at Vicksburg, Mississippi under the command of Maj. Gen. Edward O. C. Ord. It was later commanded by Maj. Gens. Alvan C. Gillem, Irvin McDowell, and Adelbert Ames. It was one of five military districts that placed ten of the former Confederate states under military authority. Its function was to protect the rights of freedmen, keep the peace, and oversee the election and formation of new state governments in Arkansas and Mississippi loyal to the federal government in Washington D. C. During its existence it combated the rampant post-war racial and political violence experienced throughout the South during that time. Arkansas ratified the Fourteenth Amendment and adopted a new state constitution in the spring of 1868 and on June 22, 1868 was readmitted to the Union, leaving Mississippi the sole state of the district. It disbanded when Mississippi returned to civil government and was readmitted to the Union on February 23, 1870. (Bradley, <hi rend='italic'>The Army and Reconstruction 1865-1877</hi>; Eicher,<hi rend='italic'>Civil War High Commands</hi>; Encyclopedia of Arkansas; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S63934'>
+            <catDesc>
+              <term>Judges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/judge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63934P0'>"A person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63172'>
+            <catDesc>
+              <term>Judges. Justices of the Peace</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/justice-of-the-peace</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63172P0'>"A public officer who judges local and less important legal cases, and performs marriage ceremonies." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001682'>
+<catDesc>Medical Occupations</catDesc>
+          <category xml:id='S32085010'>
+            <catDesc>
+              <term>Medical Profession</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/medical-profession?q=Medical+Profession</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085010P0'>"A person with special training in the medical field." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S51103'>
+            <catDesc>
+              <term>Medical Profession--Surgeons</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/surgeon</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD51103P0'>"A doctor who is specially trained to perform medical operations." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001684'>
+<catDesc>Military Roles</catDesc>
+          <category xml:id='S25007624'>
+            <catDesc>
+              <term>Adjutants</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/adjutant?q=adjutants</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001684'>Military Roles</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25007624P0'>"A military officer who does office work and who is responsible for rules and punishment among the lower ranks." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001681'>
+<catDesc>Political Occupations</catDesc>
+          <category xml:id='S63935'>
+            <catDesc>
+              <term>Mayors</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/mayor</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001681'>Political Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63935P0'>"A person who is elected or chosen to lead the government of a town or city." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001678'>
+<catDesc>Skilled Labor</catDesc>
+          <category xml:id='S63442'>
+            <catDesc>
+              <term>Laborers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/laborer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001678'>Skilled Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63442P0'>"A person who does physical work" or more specifically, "a person who does unskilled physical work, especially outside." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63395'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/court?topic=law-courts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63395P0'>"A place where trials and other legal cases happen, or the people present in such a place." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63178'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems--Grand jury</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/grand-jury</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63178P0'>"In the U.S., a group of people who decide if a person who has been charged with a crime should be given a trial in a law court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+          <category xml:id='S95870'>
+            <catDesc>
+              <term>Military Headquarters</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/headquarters</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95870P0'>A military headquarters is the main center of control for a unit and typically revolves around that unit’s highest ranking officer. The term headquarters often refers to a physical location, however it is not always a permanent facility. A commanding officer can establish a headquarters anywhere that best allows oversight of the unit. Frequently during the Civil War military leaders relocated their headquarters each day as their armies moved. Union general John Pope famously declared that he would make his “headquarters in the saddle.” The comment was more symbolic than literal, but reflected how a headquarters centered on the commander's location and was subject to his discretion in how and where to conduct official duties. Pope’s critics replied that he was making his headquarters where his “hindquarters” should be, representing the more traditional view of a headquarters being a stationary command center strategically located for the effective management of a staff and army. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S96659'>
+            <catDesc>
+              <term>Impoverished People</term>
+              <idno>https://www.britannica.com/topic/poverty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96659P0'>Impoverished people are those who lack "a usual or socially acceptable amount of money or material possessions," or alternately those who "lack the means to satisfy their basic needs (Britannica). This definition, necessarily subjective and broad, indicates that what one person or society deems "socially acceptable" or what constitutes "basic needs" is malleable.
+</p>
+
+<p xml:id='OTPSD96659P1'>Similarly, impoverished people in the United States in the nineteenth century did not fit one specific category. The rise of industrialism produced an increased number of impoverished people in the U. S., particularly within large urban centers. European immigrants in cities in the East, and Chinese immigrants on the West Coast, and African Americans in the South were disproportionately affected by poverty. Regionally, the highest number of impoverished people came from the U. S. South, where "both whites and African Americans struggled with debt, low cotton prices, laws favorable to employers and creditors, paltry alternatives, and the general post war devastation" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 547).
+</p>
+
+<p xml:id='OTPSD96659P2'>Racism and nativism among employers and employees also made economic advancement more difficult for people of color and immigrants. However, the impoverished made up a comparatively low percentage of Mississippi's antebellum population, given its low number of immigrants and even native residents, lack of industrialization and urbanization, and mobility of those that were impoverished (Mississippi Encyclopedia). Many reform organizations throughout the country took the lead in fighting poverty in the nineteenth century, while state and federal governments by the end of the century also developed its own institutional responses. The status of being impoverished has always carried negative connotations in American history, so CWRGM uses the tag "Impoverished people" to emphasize the personhood of those in poverty rather than their social status. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001666'>
+<catDesc>Races, Ethnicities, &amp; Nationalities</catDesc>
+          <category xml:id='S63137'>
+            <catDesc>
+              <term>Irish</term>
+              <idno>https://www.loc.gov/classroom-materials/immigration/irish/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63137P0'>The Cambridge Dictionary defines the Irish nationality as "belonging to or relating to Ireland, its people, or its language." (Cambridge Dictionary) While Irish people immigrated to the United States throughout the colonial period, their numbers skyrocketed in the nineteenth century.  Before the 1830s, most Irish immigrants were Protestant Christians from Northern Ireland, but during the 1830s and 1840s Catholics from southern Ireland composed the overwhelming majority of Irish immigrants to the U. S. Cheaper, easier transportation, economic strain, overpopulation, and finally the Irish Potato Famine of the mid-1840s made life difficult for impoverished farmers in Ireland, pushing many to seek a new life and new fortunes in the U. S. Many Irish immigrants remained impoverished upon relocating, as few possessed trade skills or more than elementary educations. Many Irish immigrants formed ethnic communities primarily in large urban centers like New York and New Orleans to preserve Irish language, religion, and culture and to offer reciprocal communal assistance. Irish Americans maintained a complicated relationship to Americans of color in the nineteenth century. While many Irish Americans often lived and interacted in close proximity to African Americans and Chinese Americans, competition for living and working spaces often pitted them against each other. Many Irish Americans therefore adopted American racism as a means of advancement, arguing that, though non-native born and in certain cases Catholic, they at least had white skin. This stance appears most clearly in the New York Draft Riot of 1863, in which mostly Irish American mobs attacked African American people, their businesses, and homes in response to the Emancipation Proclamation in tandem with the Union Army's draft. Regardless, many Irish American communities, particularly Catholics, in the nineteenth century faced extreme nativism, or the fear of and discrimination against those not born in the U. S. Irish Americans nonetheless served in great numbers during the American Civil War and won acclaim for their actions. Irish Americans also composed a disproportionate percentage of American Catholics and were incredibly influential in the development of the Catholic Church in the U. S. Ultimately, Irish Americans, while often maintaining a strong sense of Irish nationalism, wielded an enormous influence on American culture, religion, and politics throughout the nineteenth century and beyond (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 68-73).  
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S63262'>
+            <catDesc>
+              <term>Death</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/death</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63262P0'>While the Cambridge Dictionary defines death as “the end of life,” CWRGM employs this subject tag to refer to human deaths only, both actual and hypothetical. (Cambridge Dictionary)
+</p>
+
+<p xml:id='OTPSD63262P1'>The nation experienced mass loss of life (approximately 2% of the population) during the American Civil War, which changed the way Americans viewed death and resulted in its reconceptualization in highly bureaucratized ways. Often wartime dead were buried without their names and sometimes in poorly-dug graves, which created a powerful, profound social and cultural dislocation for their surviving loved ones. During the 19th century, Americans understood dying as a social and religious experience, and desired a "good death," which they defined as at home surrounded by family, but these ideals were unattainable in war. Consequently, Americans learned to cope with death and memorialize it in new ways. Unionists encouraged the federal government and ex-Confederates pushed their respective state governments to create and fund national cemeteries, rebury deceases soldiers and veterans, and establish veterans' and widows' pensions. These new responses to death were more bureaucratized, nationalistic, and secularized. Wartime and post-war death was also highly impacted by race, as white supremacists desecrated the graves of Union buried in the South, especially the bodies of African Americans who served in U.S. Colored Troops and the white officers that led them, revealing post-war sectionalism and strains on reconciliation. (Drew Gilpin Faust, <hi rend='italic'>This Republic of Suffering</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25003265'>
+            <catDesc>
+              <term>Wounds and Injuries</term>
+              <idno>https://www.civilwarmed.org/surgeons-call/amputation1/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25003265P0'>Medical treatment of wounds and injuries during the nineteenth century was fairly primitive, and not substantially different than medical practices over the preceding few centuries. Doctors had little knowledge of bacteria, and therefore did not understand the importance of washing hands or sterilizing medical instruments when treating open wounds. Physicians learned that some substances seemed to aid recovery, such as iodine and bromine, but their properties were more mystery than scientifically understood. Additionally, antibiotics had not yet been discovered. As a result, even minor cuts could become infected and lead to severe disability or death.
+</p>
+
+<p xml:id='OTPSD25003265P1'>During the Civil War, more than 475,000 soldiers were wounded in battle.  Thousands more suffered injuries in camp or on the march.  Medical care for wounded and injured soldiers typically involved closing wounds and setting broken bones. After suturing or bandaging these injuries, physicians would carefully observe their patients and try to offer some medical support, but recovery most often depended upon the wounded man’s natural healing. Some medical practices had unintended consequences, both positive and negative. Horsehair proved to be a popular material for sutures, due to its length and strength. To improve its elasticity, Civil War doctors boiled the horsehair, thereby disinfecting it. Wounds stitched closed with boiled horsehair were less likely to grow infected from the sutures, although this benefit was not fully understood until after the war. On the other hand, physicians probing for bullets or foreign objects inside a wound often introduced more bacteria and generated worse infections than the patient may have experienced without the procedure. This practice continued well after the Civil War, and likely contributed to President James Garfield’s death in 1881, when doctors repeatedly used unsterilized fingers and instruments while searching for the assassin’s bullet lodged in his body.
+</p>
+
+<p xml:id='OTPSD25003265P2'>Doctors understood the danger of blood loss to wounded men, but devices such as the Petit Tourniquet—a French screw-tightened tourniquet designed in 1718—were typically found at a surgeon’s tent rather than with the soldiers along the front lines. Some physicians recommended supplying tourniquets among the soldiers, but others suggested much simpler practices, such as each soldier carrying a handkerchief or cloth strip and a six-inch long piece of wood in his pocket to function as a makeshift tourniquet. These life-saving practices were not mandated among Union and Confederate armies, though, and many wounded men died of blood loss before reaching medical help.
+</p>
+
+<p xml:id='OTPSD25003265P3'>The most iconic treatment of battlefield wounds during the Civil War was amputation. Most casualties during the war were caused by musket fire. The large caliber lead balls often shattered bones upon impact. Unable to splint or repair bones so damaged, physicians frequently chose to amputate the wounded person’s limb above the injury. Doctors typically sewed a flap of skin over the stump. Unfortunately, due to the high incidents of infection for reasons described above, amputated limbs often became infected. Gangrene was among the most dangerous conditions, which could lead to death. The only method of combatting gangrene was to perform another amputation further up the limb (if possible) and hope it healed properly. Confederate and Union physicians performed around 50,000 amputations during the Civil War. Contrary to some popular myths, anesthesia, such as chloroform and ether, was in use during the Civil War, and around 95% of wounded soldiers were afforded some comfort before amputation.
+</p>
+
+<p xml:id='OTPSD25003265P4'>Hundreds of thousands of soldiers returned home from the Civil War with scars or permanent disabilities from wartime wounds and injuries. The large number of amputees also led to new developments in prosthetics. Lessons learned from the war improved medical care a bit, as Union and Confederate doctors recorded their observations of wounds and treatments. Published reports provided a new wealth of information. However, only after scientists better understood microbes and accepted the Germ Theory in the late nineteenth and early twentieth century did medical practice substantially improve from the Civil War era practices. (Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 41–50; Terry Reimer, “Wounds, Ammunition, and Amputation,” National Museum of Civil War Medicine; Paige Gibbons Backus, “Amputation and the Civil War,” American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Ames Series 784</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Mississippi Digital Library.; Funding for the project provided by the National Historical Publications and Records Commission of the National Archives; Funding for this project provided by the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1869</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Redus, Samuel</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1869-06-21</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Ames Collection. Letter from Samuel Redus at Hazlehurst, Mississippi, to Mississippi Governor Adelbert Ames, concerning the murder of Irish laborer James McClung in Hazlehurst. Readus requests that Ames issue a proclamation to offer a reward for the apprehension of the perpetrators.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 12.5&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Hazlehurst (Miss.); Jackson (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_784-968-07-16</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Copiah County (Miss.); Hinds County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Dalton Wood; Michael Singleton; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 968, Folder 7</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Ames, Adelbert, 1835-1933; Irish; Mississippi. Governor; Murder; Railroads--United States; Rewards programs (Criminal investigation)</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Samuel Redus to Mississippi Governor Adelbert Ames; June 21, 1869</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/15728&quot;&gt;Letter from Samuel Redus to Mississippi Governor Adelbert Ames; June 21, 1869&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG58" who="U2" when="2024-10-25T15:22:07Z" target="#P32053759">
+          Version 30 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG57" who="U25091404" when="2024-08-23T14:56:03Z" target="#P32053759">
+          Version 29 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG56" who="U25091404" when="2024-08-23T14:54:55Z" target="#P32053761">
+          Version 15 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG55" who="U220769" when="2024-03-06T15:20:20Z" target="#P32053759">
+          Version 28 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG54" who="U32017648" when="2024-02-15T18:25:59Z" target="#P32053761">
+          Version 14 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG53" who="U220769" when="2024-01-30T17:09:07Z" target="#P32053759">
+          Version 27 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG52" who="U220769" when="2024-01-20T21:53:52Z" target="#P32053761">
+          Version 13 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG51" who="U220769" when="2024-01-20T21:53:49Z" target="#P32053761">
+          Version 12 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG50" who="U220769" when="2023-11-17T17:34:26Z" target="#P32053759">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG49" who="U220769" when="2023-11-17T17:31:49Z" target="#P32053759">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG48" who="U220769" when="2023-11-17T16:38:22Z" target="#P32053759">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG47" who="U220769" when="2023-11-02T15:53:00Z" target="#P32053759">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U220769" when="2023-11-02T04:29:14Z" target="#P32053760">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U220769" when="2023-11-01T22:29:41Z" target="#P32053759">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U220769" when="2023-11-01T16:16:28Z" target="#P32053759">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U220769" when="2023-09-03T00:37:03Z" target="#P32053760">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2023-09-02T23:21:08Z" target="#P32053759">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-09-02T20:16:24Z" target="#P32053759">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U25091356" when="2023-08-27T00:01:27Z" target="#P32053761">
+          Version 11 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-04-04T19:40:17Z" target="#P32053760">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-03-24T02:37:12Z" target="#P32053759">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-03-21T01:40:56Z" target="#P32053759">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-03-20T01:42:46Z" target="#P32053761">
+          Version 10 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-03-19T21:07:17Z" target="#P32053761">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-03-19T20:49:25Z" target="#P32053759">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-03-19T20:21:39Z" target="#P32053759">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-19T20:07:29Z" target="#P32053761">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-18T21:55:41Z" target="#P32053759">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-18T14:48:43Z" target="#P32053760">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-18T01:22:43Z" target="#P32053759">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-16T20:03:32Z" target="#P32053760">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-16T19:22:18Z" target="#P32053759">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-06T03:41:49Z" target="#P32053760">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2022-12-15T17:36:28Z" target="#P32053759">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2022-12-04T19:27:28Z" target="#P32053761">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2022-12-04T01:53:32Z" target="#P32053759">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2022-12-04T00:33:58Z" target="#P32053759">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2022-05-08T20:05:35Z" target="#P32053761">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2022-05-08T20:04:55Z" target="#P32053759">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25091404" when="2022-04-14T14:12:19Z" target="#P32053761">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091404" when="2022-04-14T14:12:05Z" target="#P32053761">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091404" when="2022-04-14T14:11:47Z" target="#P32053761">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091404" when="2022-04-14T14:04:14Z" target="#P32053760">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091404" when="2022-04-14T14:01:33Z" target="#P32053759">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091404" when="2022-04-14T13:57:20Z" target="#P32053759">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091195" when="2022-03-27T18:18:56Z" target="#P32053761">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091195" when="2022-03-27T18:14:31Z" target="#P32053760">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091195" when="2022-03-27T18:05:38Z" target="#P32053759">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091195" when="2022-03-25T04:07:27Z" target="#P32053759">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091195" when="2022-03-25T03:54:30Z" target="#P32053761">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091195" when="2022-03-25T03:29:27Z" target="#P32053760">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091195" when="2022-03-25T03:22:41Z" target="#P32053759">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25090807" when="2021-12-07T06:20:14Z" target="#P32053760">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25090807" when="2021-12-07T06:20:10Z" target="#P32053760">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25090807" when="2021-12-07T06:11:54Z" target="#P32053759">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25090807" when="2021-12-07T06:11:55Z" target="#P32053759">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2021-11-29T16:01:31Z" target="#P32053761">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2021-11-29T16:01:29Z" target="#P32053760">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-11-29T16:01:28Z" target="#P32053759">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32053759" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:15725/full/full/0/default.jpg"/>
+        <div xml:id="OTP32053759">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32053759P0' xml:id='OTP32053759P0'>[seal]
+</p>
+
+<p corresp='TTP32053759P1' xml:id='OTP32053759P1'><rs ref='#S71872'>Hazlehurst</rs>, Miss.<lb/>
+June 21<add place='above'>st</add> 1869
+</p>
+
+<p corresp='TTP32053759P2' xml:id='OTP32053759P2'>Bvt Maj Gen <rs ref='#S52648'>Ames</rs><lb/>
+Comdg <rs ref='#S32124056'>4th Dist Miss &amp; Ark</rs><lb/>
+<rs ref='#S51785'>Jackson</rs>, Miss
+</p>
+
+<p corresp='TTP32053759P3' xml:id='OTP32053759P3'>General
+</p>
+
+<p corresp='TTP32053759P4' xml:id='OTP32053759P4'>A most brutal <rs ref='#S63926'>murder</rs> was committed wihin the limits of this city on Saturday night 19<add place='above'><hi rend='underline'>th</hi></add> inst on the person of <rs ref='#S32026935'>Jas M<add place='above'>c</add>Clung</rs>, an <rs ref='#S63137'>Irish</rs> <rs ref='#S63442'>laborer</rs>, by some per-son or persons unknown.
+</p>
+
+<p corresp='TTP32053759P5' xml:id='OTP32053759P5'>This occurred within the corporate limits The inquest after a thorough examination were convinced that the cause of said M<add place='above'>c</add>Clungs <rs ref='#S63262'>death</rs> were <rs ref='#S25003265'>wounds</rs> inflicted by a Knife, three of them being mortal as judged by the exam-ing (two) <rs ref='#S51103'>surgeons</rs>. After being thus Killed his body was placed upon the <rs ref='#S99413'>R. R</rs> Track half a mile from the <rs ref='#S32005095'>depot</rs> near the sounding post at which point he was evidently murdered (as the weapon was there found) in order that the up train might run over it and so man-gle the corpse that no evidence might be dis-covered, but the train ran over only the legs cutting them off.
+</p>
+
+<p corresp='TTP32053759P6' xml:id='OTP32053759P6'>The proceedings of the <rs ref='#S63178'>jury of inquest</rs> are filed with me. No devolopments thus far have rended to show who the guilty par-ties and alhough vigorous meansures are on foot.
+</p>
+
+<p corresp='TTP32053759P7' xml:id='OTP32053759P7'>I would respectfully suggest to your exe-cellency the propriety of issuing a proclamation offering a suitable reward for the <rs ref='#S62954'>apprehen-sion</rs> &amp;c of the perpetrators of this crime we in our <rs ref='#S96659'>poverty</rs> as a corporation being unable 
+</p>
+
+
+        </div>
+        <pb xml:id="F32053760" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:15726/full/full/0/default.jpg"/>
+        <div xml:id="OTP32053760">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32053760P0' xml:id='OTP32053760P0'>from our scanty funds to do so by posters or in the regular manner of advertising and to a reward it is a mere matter of impossibility on our part.
+</p>
+
+<p corresp='TTP32053760P1' xml:id='OTP32053760P1'>I am entirely satisfied that the perputra-tors are either here or in the vicinity
+</p>
+
+<p corresp='TTP32053760P2' xml:id='OTP32053760P2'>I am General with much respect <lb/>
+Very truly <lb/>
+Yr Mo Obt Servt
+</p>
+
+<p corresp='TTP32053760P3' xml:id='OTP32053760P3'><rs ref='#S105607'>Sam<add place='above'>l</add> Redus</rs><lb/>
+<rs ref='#S63935'>Mayor</rs> &amp; Exoff <rs ref='#S63172'>J. P.</rs>
+</p>
+
+<p corresp='TTP32053760P4' xml:id='OTP32053760P4'>Hazlehurst <lb/>
+Copiah Co.<lb/>
+Miss<lb/>
+<hr/>
+</p>
+
+
+        </div>
+        <pb xml:id="F32053761" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:15727/full/full/0/default.jpg"/>
+        <div xml:id="OTP32053761">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32053761P0' xml:id='OTP32053761P0'><hr/><lb/>
+<hi rend='italic'>L. R. R/<sub>21</sub> Vol, (B) 4th M. D., C. A.,</hi> 1869.<lb/>
+<hr/><lb/>
+Hazlehurst Miss<lb/>
+June 21<add place='above'>st</add> 1869<lb/>
+<hr/><lb/>
+<hi rend='underline'>Redus</hi> <hi rend='underline'>Saml</hi><lb/>
+<hi rend='underline'>Mayor of H</hi>azlehurst Reports that <hi rend='underline'>James</hi> <hi rend='underline'>M<add place='above'>c</add>Clung</hi> was force-fully murdered within the corporate limits of <hi rend='underline'>Hazlehurst</hi> Miss and<lb/>
+Asks that the comdg Genl offer a reward for the apprehension of the murderers<lb/>
+<hr/><lb/>
+Entr Special Record R.
+</p>
+
+<p corresp='TTP32053761P1' xml:id='OTP32053761P1'>Reward offerd June 24 1869—Pub in <rs ref='#S32075492'>Pilot</rs>
+</p>
+
+<p corresp='TTP32053761P2' xml:id='OTP32053761P2'><hi rend='italic'><hi rend='italic'>Wrapper</hi> (<hi rend='italic'>1</hi>) <hi rend='italic'>Enclosure<del rend='overstrike'>s</del>.</hi><lb/>
+<hi rend='italic'/>Recd</hi>. 4<hi rend='italic'>th M. D., C. A.,</hi> Jan 22<add place='above'>nd</add> 1869.
+</p>
+
+<p corresp='TTP32053761P3' xml:id='OTP32053761P3'><rs ref='#S95870'>Headquarters</rs> Fourth Military District,<lb/>
+(DEPARTMENT OF MISSISSIPPI,)
+</p>
+
+<p corresp='TTP32053761P4' xml:id='OTP32053761P4'><hi rend='italic'>Jackson, Miss.,</hi> [gap] <hi rend='italic'>1869.</hi>
+</p>
+
+<p corresp='TTP32053761P5' xml:id='OTP32053761P5'><hi rend='italic'>Respectfully</hi>
+</p>
+
+<p corresp='TTP32053761P6' xml:id='OTP32053761P6'><b><hi rend='italic'>By command of Brevet Major General AMES:</hi></b>
+</p>
+
+<p corresp='TTP32053761P7' xml:id='OTP32053761P7'><hi rend='italic'>Aide-de-camp, <rs ref='#S25007624'>Acting Assistant Adjutant General</rs></hi>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

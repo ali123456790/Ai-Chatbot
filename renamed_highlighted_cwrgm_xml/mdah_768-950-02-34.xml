@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Colonel D. C. Glenn to Mississippi Governor Charles Clark; October 27, 1864</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 34 edits between
+              <date type="first_edit" when="2022-11-27T02:52:39Z">November 27, 2022</date> and
+              <date type="last_edit" when="2024-01-30T17:03:07Z">January 30, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 7 edits between
+              <date type="first_edit" when="2022-10-28T01:35:04Z">October 28, 2022</date> and
+              <date type="last_edit" when="2022-10-28T01:46:45Z">October 28, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U704">
+          <persName
+              type="pseudonym"
+            >
+            catslover
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2022-10-21T15:25:25Z">October 21, 2022</date> and
+              <date type="last_edit" when="2022-10-21T15:54:47Z">October 21, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2022-11-03T23:40:14Z">November  3, 2022</date> and
+              <date type="last_edit" when="2022-11-03T23:46:19Z">November  3, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-12-30T21:47:31Z">December 30, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T13:47:22Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T16:17:05+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S70457">
+              <persName>Glenn, D. C.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S101688">
+              <persName>Starke, Peter B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32052839">
+              <persName>Dora, Vac?</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52436">
+              <persName>Clark, Charles, 1811-1877</persName>
+                <idno>https://en.wikipedia.org/wiki/Charles_Clark_(governor)</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52436P0'>Charles Clark served as Mississippi’s governor during the last two years of the Civil War. Born in Cincinnati, Ohio, on May 24, 1811, Clark later moved to Mississippi, where he became a lawyer and a state representative in the late 1830s. After successfully representing a Mississippi settler in a land dispute with members of the Choctaw Nation in the early 1840s, Clark received a large tract of land near Beulah, Mississippi, as payment. Clark eventually enlarged his property to over five thousand acres, making it one of the largest and most successful plantations in Mississippi. During this time, he married Ann Eliza Darden and between 1840 and 1852 fathered three children.
+</p>
+
+<p xml:id='OTPS52436P1'>Clark volunteered for military service during the Mexican-American War in 1846 and raised a company of volunteers that was placed into the 2nd Mississippi Regiment. After its original commander resigned, Clark was elected colonel. Following the war in 1848, he returned to Mississippi resumed an interest in politics. He was selected as a delegate to a state convention in 1851 that debated the matter of secession in the wake of the Compromise of 1850, which had tried to settle a fierce dispute over the fate of slavery in territories gained by the United States from Mexico. Clark attended the convention as a Unionist, opposed to withdrawing from the Union. Developments over the next ten years changed his mind.
+</p>
+
+<p xml:id='OTPS52436P2'>Clark won a seat in the Mississippi’s House of Representatives as a Whig, serving from 1856 to 1861. Following Abraham Lincoln’s election as president in 1860, Clark embraced Mississippi’s secession. When the Civil War broke out, Clark received a commission as a brigadier general in the Mississippi Militia. He later entered the Confederate Army and eventually took command of a division. Slightly wounded at the Battle of Shiloh in April 1862, he was more seriously wounded and captured during fighting at Baton Rouge, Louisiana, in August 1862. Clark spent a short time as a prisoner of war before he was paroled by Union forces.
+</p>
+
+<p xml:id='OTPS52436P3'>In 1863, Clark ran for governor of Mississippi, in the wake of Confederate defeats at Vicksburg and Jackson. Clark campaigned on continued resistance to the Union and easily won the executive seat. Due to Union campaigns in Mississippi, Clark periodically moved the state government, from Jackson to Macon, then to Columbus, and back to Macon. When Confederate forces in Mississippi surrendered in May 1865, Clark instructed the state legislature to convene for a special session in Jackson. In June 1865, federal troops at Jackson arrested Clark and imprisoned him at Fort Pulaski, Georgia.
+</p>
+
+<p xml:id='OTPS52436P4'>Eventually released from federal custody, Clark returned to Bolivar County, Mississippi. He quietly practiced law and served on the University of Mississippi Board of Trustees during Reconstruction. In 1876, Clark received an appointment as chancellor for the fourth judicial district. He died a year later, on December 17, 1877. Clark is buried in a family cemetery at Beulah, Mississippi.
+</p>
+
+<p xml:id='OTPS52436P5'>(Wikipedia; David Sansing, “Charles Clark: Twenty-fourth Governor of Mississippi: 1863–1865,” Mississippi History Now; FindaGrave)
+</p>
+
+<p xml:id='OTPS52436P6'>Charles Clark belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32004263">
+              <persName>Lee, Stephen D. (Stephen Dill), 1833-1908</persName>
+                <idno>https://en.wikipedia.org/wiki/Stephen_D._Lee</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32004263P0'>Stephen Dill Lee was a Confederate general and president of Mississippi State University.
+</p>
+
+<p xml:id='OTPS32004263P1'>Born on September 22, 1833, in Charleston, South Carolina, Lee was raised and educated in the south until he entered the United States Military Academy at West Point, New York, in 1850 and graduated in 1854. He served in the United States Army for the rest of the 1850s, with assignments in Florida, Kansas, and Dakota Territory. Lee served as a quartermaster (supply officer) during most of his assignments. When southern states began seceding following Abraham Lincoln’s election to the presidency, Lee resigned his commission and joined the Confederate cause. His first appointment, in March 1861, was as assistant adjutant general and assistant inspector general for southern forces at Charleston, South Carolina. In April 1861, he was appointed an aid to Brigadier General P. G. T. Beauregard, commander of Confederate forces at Charleston. Lee delivered Beauregard’s message to Major Robert Anderson, commander of federal troops at Fort Sumter, demanding his surrender. The subsequent Confederate bombardment and capture of the fort sparked the Civil War.
+</p>
+
+<p xml:id='OTPS32004263P2'>Lee remained in South Carolina for most of 1861. He then received command of an artillery battery in General Joseph E. Johnston’s army before being promoted to lieutenant colonel in 1862 and appointed an artillery officer in the Army of Northern Virginia. He performed admirably during battles near Richmond, Virginia, in the spring of 1862. Lee was promoted and, despite a brief stint as commander of a Virginia cavalry regiment, continued to be one of the Confederacy’s best artillery officers. He fought at the Battle of Second Bull Run near Manassas, Virginia, in August 1862, and played a conspicuous role in the Battle of Antietam, when his cannons engaged in heavy combat near the Dunker Church.
+</p>
+
+<p xml:id='OTPS32004263P3'>Following Antietam, Confederate officials promoted Lee to brigadier general and sent him to Mississippi to command of an infantry division. In late December 1862, Lee’s division held off an attack by Union troops under William Tecumseh Sherman at Chickasaw Bayou, Mississippi. He took command of a Confederate brigade in January 1863, but was again called to artillery service in May 1863, when he was placed in charge of the Confederate artillery defending Vicksburg, Mississippi. His performance at the Battle of Champion Hill garnered praise, but Lee and the rest of Lieutenant General John C. Pemberton’s Confederate soldiers were soon surrounded by Ulysses S. Grant’s Union army at Vicksburg and captured.
+</p>
+
+<p xml:id='OTPS32004263P4'>Lee was paroled by Union troops and was not allowed to return to service until formally exchanged by federal and Confederate officials. While on parole, he was promoted to major general. Released from parole in October 1863, Lee took command of cavalry troops within the Department of Mississippi and Eastern Louisiana. In May 1864, Lee was placed in overall command of the department. Confederates within his command, led by Major General Nathan Bedford Forrest, were victorious at the Battle of Brice’s Crossroads on June 10, 1864, but suffered a defeat at Tupelo the following month, this time with Lee on the field.
+</p>
+
+<p xml:id='OTPS32004263P5'>On June 23, 1864, Lee was promoted to lieutenant general. He was 30 years old, making him the youngest lieutenant general in the Confederate army. On July 26, 1864, he was given command of a corps in General John Bell Hood’s Army of Tennessee, then battling William Tecumseh Sherman’s Union army near Atlanta, Georgia. He fought in numerous battles in the Atlanta area, and then during Hood’s campaign into Tennessee, sustaining wounds at least two different times.
+</p>
+
+<p xml:id='OTPS32004263P6'>After recovering from a wound he suffered in December 1864 near Nashville, Lee was assigned to General Joseph E. Johnston’s army in the Carolinas. He fought during the final campaign in North Carolina, surrendering in April 1865.
+</p>
+
+<p xml:id='OTPS32004263P7'>After the war, Lee moved to Columbus, Mississippi, with his wife Regina Harrison, whom he had married in February 1865 while recovering from his wound. The couple settled on a large plantation given to them by Regina’s father and had one child. Lee struggled to make the plantation financially successful. He turned to the study of agriculture, and became a strong proponent of education. Lee briefly served in the Mississippi State Senate in the late 1870s and then helped found the Mississippi Agricultural and Mechanical College (present-day Mississippi State University). In 1880 became the school’s first president, remaining in that role until 1899. Lee kept an interest in state politics, serving as a delegate in Mississippi’s Constitutional Convention in 1890, which disenfranchised thousands of Black voters and more firmly entrenched white supremacy in Mississippi society.
+</p>
+
+<p xml:id='OTPS32004263P8'>Lee was active in promoting the preservation of Civil War history, serving as president of the Mississippi Historical Society and president of the Vicksburg National Military Park Association. He helped organize veteran reunions, and wrote several articles about the Civil War. In 1908, he fell sick after giving a speech in Vicksburg to visiting Union veterans. He passed away on May 28, 1908. Lee is buried in Friendship Cemetery in Columbus, Mississippi.
+</p>
+
+<p xml:id='OTPS32004263P9'>(Wikipedia; FindaGrave; American Battlefield Trust; Terrence J. Winschel, “Stephen D. Lee,” Mississippi Encyclopedia)
+</p>
+
+<p xml:id='OTPS32004263P10'>Stephen Dill Lee belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32052841">
+              <persName>W. M. Hancock</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S32054809">
+              <placeName>Virginia--Halifax County</placeName>
+                <idno>https://en.wikipedia.org/wiki/Halifax_County,_Virginia</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32054809P0'>Located in south central Virginia, Halifax County was established on May 10, 1752 from Lunenburg County. (Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>36.772, -78.937</geo>
+                </note>
+            </place>
+            <place xml:id="S63264">
+              <placeName>Mississippi--Clarke County. Quitman</placeName>
+                <idno>https://en.wikipedia.org/wiki/Quitman,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63264P0'>Located in Clarke County, Quitman was founded in 1839 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.04306, -88.72083</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S53924'>
+            <catDesc>
+              <term>Crimes (alleged)--Shooting</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/shooting?q=Shooting</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD53924P0'>"An occasion when someone is injured or killed by a bullet shot from a gun." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32121282'>
+            <catDesc>
+              <term>Criminal Procedures--Trial</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32121282P0'>"The hearing of statements and showing of objects, etc. in a law court to judge if a person is guilty of a crime or to decide a case or a legal matter." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S32077641'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Commission Resignation</term>
+              <idno>https://history.army.mil/books/amh/AMH-09.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32077641P0'>A resignation is the formal act of leaving, or quitting, a position. During the nineteenth century, military officers typically could resign from service if they had fulfilled the conditions of their commission (or contract). Enlisted soldiers were not permitted to resign.
+</p>
+
+<p xml:id='OTPSD32077641P1'>Resignations were relatively common before the American Civil War, by officers who saw little chance for promotion in the small, highly competitive officer corps, or by those who sought to find their fortune outside the military. There was little stigma attached to resigning, and numerous officers returned to military service in times of war. For instance, George McClellan and Ulysses S. Grant—two of the Union’s most prominent generals—had resigned their military commissions in the 1850s, yet returned to service in 1861.
+</p>
+
+<p xml:id='OTPSD32077641P2'>Southern secession and the beginning of the Civil War sparked a wave of resignations from the U.S. Army.  Of 1,080 officers on active duty in the regular army in 1861, 286 resigned (or were dismissed) to enter Confederate service. Most famous among these was Robert E. Lee, who submitted his resignation to the Secretary of War on April 20, 1861, three days after his home state of Virginia seceded. Some other officers in the U.S. Army in 1861 resigned not to switch political sides, but to better their chances of promotion. The overwhelming majority of Union soldiers during the Civil War were part of the state-based volunteer force. Since promotion was slow in the small permanent army, these ambitious officers resigned to accept positions with the volunteers, and frequently found themselves advancing rapidly in rank.
+</p>
+
+<p xml:id='OTPSD32077641P3'>Resignations continued to occur among Confederate and Union officers during the war. Reasons ranged from health problems, to distaste of military service, to seeking opportunities elsewhere, to leaving the military out of shame or a sense of responsibility for a battlefield defeat. Sometimes resignations were more symbolic than sincere, and military officials were not required to accept a resignation. Robert E. Lee offered his resignation to Confederate President Jefferson Davis following the loss at Gettysburg. Davis rejected the resignation and Lee continued to command his Army of Northern Virginia for nearly two more years. (Wikipedia; <hi rend='italic'>American Military History</hi>, 188-192)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32123714'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Military transfer. Individual Reassignment</term>
+              <idno>https://www.nps.gov/articles/from-regiment-to-president-the-structure-and-command-of-civil-war-armies.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32123714P0'>Unlike professional soldiers who may rotate through many units during the course of a military career, most Civil War soldiers were civilians who volunteered only for wartime service and expected to serve their military commitment in their original units. Since units were frequently raised among citizens of a local area, soldiers usually had great pride in their state and regimental affiliations and wanted to remain with their friends and relatives. Additionally, Union and Confederate armies did not normally send replacement soldiers to old regiments to fill the places of men lost from disease, battle, or desertion (Union and Confederate officials preferred to place new recruits in new regiments). Except for officers, who could receive a promotion and transfer to a new command, it was relatively rare for individual soldiers to transfer to a different unit during the Civil War.
+</p>
+
+<p xml:id='OTPSD32123714P1'>Incidents in which soldiers did transfer into other existing units occurred due to special circumstances. Examples involved direct requests by individuals seeking membership in units with relatives or to leave a unit based upon discontent with the officers. Some requested transfer to a unit with a specialized assignment, or to switch from state guard service to national service or vice versa. In some cases, soldiers were transferred to other units for disciplinary purposes or because of variations in enlistment commitments. Both of these latter scenarios occurred with the 2nd Maine Infantry Regiment. More than sixty soldiers from the unit, who had volunteered for three months, became insubordinate when not allowed to return home after ninety days and were transferred to a New York regiment as a commutation of their original prison sentence. Then, when the 2nd Maine Infantry mustered out of service in June 1863, one hundred and twenty soldiers still owed one year of service, and were transferred to the 20th Maine Infantry Regiment to complete their commitment.
+</p>
+
+<p xml:id='OTPSD32123714P2'>Overall, individual transfer to a different unit was uncommon during the Civil War, and typically occurred on account of special circumstances or by special request. (National Park Service; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25009156'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Recruiting and enlistment</term>
+              <idno>https://encyclopediaofarkansas.net/entries/civil-war-recruitment-6391/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25009156P0'>At the outbreak of the American Civil War in 1861, neither the Union nor the Confederate army struggled to find recruits. Rather, both armies saw far more volunteers than their ranks and provisions could sustain. Many young men of the North and South believed that the war would end quickly and volunteered by the thousands to not miss out on the action. Other motivators for rapid enlistment included a sense of adventure, defense of slavery or the privileges of whiteness, defense of the Union, fear of ostracism in their home communities for not enlisting, or a desire to protect their homes and families.
+</p>
+
+<p xml:id='OTPSD25009156P1'>Widespread enlistment required both the United States and Confederate governments to reshape their militaries that were otherwise unprepared to handle that many recruits. The U.S. possessed only a small standing army of 16,000 men before the war, and the Confederacy needed to build its own from scratch. Both therefore relied heavily on local recruiting to organize men into militia companies then employable in the federal service. Recruiters throughout the war published pamphlets, put up posters, and gave speeches to encourage men to fight.
+</p>
+
+<p xml:id='OTPSD25009156P2'>As the war continued, dreams of a short war ended along with many men's desires to enlist. Both armies (the Confederacy in 1862 and the Union in 1863) resorted to conscription to fill their ranks. Free African Americans, particularly in the North, debated the utility and wisdom of fighting for the United States even after being legally allowed to do so in 1863. Many formerly enslaved African-American men yearned to fight for their own freedom, while others doubted that military service in the Civil War would accomplish their desired goals of emancipation and equality. However, prominent African Americans such as Frederick Douglass encouraged Black men to take up arms, and roughly 200,000 did so.
+</p>
+
+<p xml:id='OTPSD25009156P3'>Ultimately, men enlisted during the Civil War for many reasons, often tied to demographic or personal causes, and, as the war progressed and varied in its popularity and aims, recruiters' tactics likewise changed to adapt to each new situation. (Encyclopedia of Arkansas)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25004764'>
+            <catDesc>
+              <term>Confederate States of America. Army. Army of Northern Virginia</term>
+              <idno>https://encyclopediavirginia.org/entries/army-of-northern-virginia/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25004764P0'>The Army of Northern Virginia (Confederate) was organized on June 20, 1861 as the Confederate Army of the Potomac under the command of P. G. T. Beauregard and served in the Eastern Theater. It was later commanded by Gen. Joseph E. Johnston (July 20, 1861‚ÄìMay 31, 1862) and then renamed the Army of Northern Virginia on March 14, 1862 and commanded by Gen. Robert E. Lee from June 1, 1862–April 12, 1865. (Encyclopedia Virginia; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25004166'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Cavalry Regiment, 28th</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=snippet&amp;q=cavalry%20regiment&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25004166P0'>The 28th Regiment, Mississippi Cavalry (Confederate) was organized on May 14, 1862 in Hinds County, Mississippi under the command of Col. Peter B. Starke and served in the Western Theater. It was later commanded by Col. Joshua T. McBee. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 50; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 830-837; National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001148'>
+<catDesc>State Level: USA &amp; CSA Military</catDesc>
+          <category xml:id='S63200'>
+            <catDesc>
+              <term>Mississippi. Militia</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63200P0'>A militia is a military unit made up of civilians within a community who could be called up by local (often state) officials to serve temporary military purposes. Militias were separate from regular, or permanent, armies. Because they conducted training only periodically, and provided active military service for short periods of time, militias cost less than regular armies; and because they were manned by local residents, militias were frequently seen as less threatening to early American communities than national military units comprised of strange men born in other counties or states.
+</p>
+
+<p xml:id='OTPSD63200P1'>When Mississippi seceded in 1861, enthusiasm for military service swept across the state. Volunteers filled the ranks of old militia units or created new companies within their communities, eager to repulse any federal attempt to coerce secessionists back into the Union. They also took proactive efforts, securing key positions along the Gulf Coast, including reinforcing other Southern soldiers at Pensacola and Fort Pickens in Florida. Over the next few months, as the Confederate government requested more volunteers, thousands of Mississippians and entire volunteer companies from the state transferred to Confederate service and were sent north, out of state. The units that remained within Mississippi for state defense were left in a convoluted military structure, some considered state reserves (a more formal military force for state defense) and some considered state militia (the more traditional units of citizen-soldiers called up for local, emergency use). The distinctions were not well established, and during the war Mississippians describing state units not within the Confederate army used a variety of terms—such as militia, home guard, state troops—almost interchangeably. However, under this subject tag at CWRGM you will find references to the militia and state troops; references that specifically referred to the home guard can be found separately under the Mississippi Home Guard subject tag.
+</p>
+
+<p xml:id='OTPSD63200P2'>While militia and state defense units technically fell under the governor’s authority, the state government struggled to manage, or even track, these organizations. Some, like the Third Battalion Mississippi Minute Men, were well organized, fell under direct state control, and took part in larger military operations, such as the defense of Vicksburg; others saw no combat, rarely gathered for drill, and were entirely overseen by county or local community officials. Most militia members were older than the average Confederate soldier. They were typically farmers, business owners, or land owners who had families and, in many instances, slaves. Because of these responsibilities at home, militiamen expected their military duties to be periodic, temporary, and only during times of emergency, a reflection of the militia’s original intent. However, state officials occasionally activated militia units for long periods, based upon the military situation. In the summer of 1862, Mississippi’s governor, John J. Pettus, mobilized his state troops, pulling many militia units away from their communities. Held in camp for several weeks, drilling but not seeing combat, many militiamen complained of their treatment and argued that their services were needed more at home, managing farms and their communities. Despite these complaints, the governor mobilized the state troops again in 1864, and again met criticism.
+</p>
+
+<p xml:id='OTPSD63200P3'>Overall, Mississippi’s militia and state defense system during the Civil War was a complicated tangle of formal and informal military units. Infrequently used for combat assignments, these units nevertheless provided some emergency services for the state government and allowed many Mississippians a way to provide military service to the community while remaining at home to manage personal and local interests. (Tracy L. Barnett, “Mississippi ‘Milish’: Militiamen in the Civil War,” <hi rend='italic'>Civil War History</hi>, Vol. 66, No. 4 (Dec 2020), 343-379; Michael B. Ballard, <hi rend='italic'>The Civil War in Mississippi: Major Campaigns and Battles</hi>, 4-8)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S63934'>
+            <catDesc>
+              <term>Judges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/judge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63934P0'>"A person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001669'>
+<catDesc>Family Structures</catDesc>
+          <category xml:id='S75711'>
+            <catDesc>
+              <term>Marital Status--Widowers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/widower</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001669'>Family Structures</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD75711P0'>A widower is "a man whose wife or husband has died and who has not married again" (Cambridge Dictionary). While the experiences of nineteenth-century widowers has been little studied, evidence suggests that the American Civil War provided widowers an increased opportunity to remarry. The loss of many men due to the war left many women either widowed themselves or single due to a decrease of available single men. The war also produced fears among white women of both the North and South of never marrying. These factors increased widowers' choices of women to potentially remarry as well as widowers' desirability among single women. Furthermore, widowers in the military traveled to areas they otherwise had never visited, wherein they met a larger number of single women from other areas of the country. The dramatic social and demographic changes produced by the Civil War, as with nearly all demographic groups in the United States, effected a general change in marital patterns for widowers (Hacker, Hilde, and Jones, "The Effect of the Civil War on Marriage Patterns," 74).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001672'>
+<catDesc>Health</catDesc>
+          <category xml:id='S73740'>
+            <catDesc>
+              <term>People with Disabilities</term>
+              <idno>https://www.nps.gov/articles/disabilityhistoryearlytreatment.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001672'>Health</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD73740P0'>People with disabilities are defined as those people experiencing "any condition that makes it more difficult for a person to do certain activities or have equitable access within a given society" (Wikipedia). People with disabilities in nineteenth-century America faced a variety of different options and experiences based on both their region, age, and specific disability.
+</p>
+
+<p xml:id='OTPSD73740P1'>Early in the nineteenth century, many communities saw supporting people with disabilities as a local matter; however, as the nineteenth century progressed and cities and their populations (including people with disabilities) grew exponentially, many state governments took responsibility for supporting people with disabilities. That support most often took the form of almshouses or hospitals in which residents lived permanently, usually in rural areas for fear of urban environments' negative impacts on health. Different religious, medical, and reform organizations took different approaches to the treatment of disabilities, including the treatment of a person's morals in addition to medical care. Like many other branches of medicine, popular medical understandings of many disabilities remained incorrect and even harmful in the nineteenth century, particularly the concept of eugenics, or the idea that controlling genetics could improve or even perfect humanity. Doctors espousing these beliefs sometimes conducted forced sterilizations and lobotomies on their patients, either to prevent their reproduction or to reduce mental health issues.
+</p>
+
+<p xml:id='OTPSD73740P2'>The devastation of the American Civil War and the increase of people with war-related disabilities brought much more attention to the study of disabilities and their treatment, but ultimately humane and ethical methods of caring for people with disabilities remained far in the future. CWRGM adopts the term "People with disabilities" to foreground individuals' personhood over their status or physical condition (National Park Service; Wikipedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S25003265'>
+            <catDesc>
+              <term>Wounds and Injuries</term>
+              <idno>https://www.civilwarmed.org/surgeons-call/amputation1/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25003265P0'>Medical treatment of wounds and injuries during the nineteenth century was fairly primitive, and not substantially different than medical practices over the preceding few centuries. Doctors had little knowledge of bacteria, and therefore did not understand the importance of washing hands or sterilizing medical instruments when treating open wounds. Physicians learned that some substances seemed to aid recovery, such as iodine and bromine, but their properties were more mystery than scientifically understood. Additionally, antibiotics had not yet been discovered. As a result, even minor cuts could become infected and lead to severe disability or death.
+</p>
+
+<p xml:id='OTPSD25003265P1'>During the Civil War, more than 475,000 soldiers were wounded in battle.  Thousands more suffered injuries in camp or on the march.  Medical care for wounded and injured soldiers typically involved closing wounds and setting broken bones. After suturing or bandaging these injuries, physicians would carefully observe their patients and try to offer some medical support, but recovery most often depended upon the wounded man’s natural healing. Some medical practices had unintended consequences, both positive and negative. Horsehair proved to be a popular material for sutures, due to its length and strength. To improve its elasticity, Civil War doctors boiled the horsehair, thereby disinfecting it. Wounds stitched closed with boiled horsehair were less likely to grow infected from the sutures, although this benefit was not fully understood until after the war. On the other hand, physicians probing for bullets or foreign objects inside a wound often introduced more bacteria and generated worse infections than the patient may have experienced without the procedure. This practice continued well after the Civil War, and likely contributed to President James Garfield’s death in 1881, when doctors repeatedly used unsterilized fingers and instruments while searching for the assassin’s bullet lodged in his body.
+</p>
+
+<p xml:id='OTPSD25003265P2'>Doctors understood the danger of blood loss to wounded men, but devices such as the Petit Tourniquet—a French screw-tightened tourniquet designed in 1718—were typically found at a surgeon’s tent rather than with the soldiers along the front lines. Some physicians recommended supplying tourniquets among the soldiers, but others suggested much simpler practices, such as each soldier carrying a handkerchief or cloth strip and a six-inch long piece of wood in his pocket to function as a makeshift tourniquet. These life-saving practices were not mandated among Union and Confederate armies, though, and many wounded men died of blood loss before reaching medical help.
+</p>
+
+<p xml:id='OTPSD25003265P3'>The most iconic treatment of battlefield wounds during the Civil War was amputation. Most casualties during the war were caused by musket fire. The large caliber lead balls often shattered bones upon impact. Unable to splint or repair bones so damaged, physicians frequently chose to amputate the wounded person’s limb above the injury. Doctors typically sewed a flap of skin over the stump. Unfortunately, due to the high incidents of infection for reasons described above, amputated limbs often became infected. Gangrene was among the most dangerous conditions, which could lead to death. The only method of combatting gangrene was to perform another amputation further up the limb (if possible) and hope it healed properly. Confederate and Union physicians performed around 50,000 amputations during the Civil War. Contrary to some popular myths, anesthesia, such as chloroform and ether, was in use during the Civil War, and around 95% of wounded soldiers were afforded some comfort before amputation.
+</p>
+
+<p xml:id='OTPSD25003265P4'>Hundreds of thousands of soldiers returned home from the Civil War with scars or permanent disabilities from wartime wounds and injuries. The large number of amputees also led to new developments in prosthetics. Lessons learned from the war improved medical care a bit, as Union and Confederate doctors recorded their observations of wounds and treatments. Published reports provided a new wealth of information. However, only after scientists better understood microbes and accepted the Germ Theory in the late nineteenth and early twentieth century did medical practice substantially improve from the Civil War era practices. (Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 41–50; Terry Reimer, “Wounds, Ammunition, and Amputation,” National Museum of Civil War Medicine; Paige Gibbons Backus, “Amputation and the Civil War,” American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Clark Series 768</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Endowment for the Humanities; Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1864</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Glenn, D. C.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1864-10-27</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Clark Collection. Letter from Confederate Colonel D. C. Glenn in Halifax County, Virginia, to Mississippi Governor Charles Clark, announcing his resignation from the Army of Virginia.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 7&quot; x 9&quot; 4-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Halifax County (Va.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_768-950-02-34</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Clarke County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Brian Valimont; Michael Singleton; McKenna Fussell; Britany Castilaw; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 950, Folder 2</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Clark, Charles, 1811-1877; Confederate States of America. Army; Confederate States of America. Army--Officers; Mississippi. Governor; People with disabilities</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Colonel D. C. Glenn to Mississippi Governor Charles Clark; October 27, 1864</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/22513&quot;&gt;Letter from Colonel D. C. Glenn to Mississippi Governor Charles Clark; October 27, 1864&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG55" who="U2" when="2024-10-25T13:47:22Z" target="#P32519627">
+          Version 11 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG54" who="U220769" when="2024-01-30T17:03:07Z" target="#P32519625">
+          Version 28 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG53" who="U220769" when="2024-01-20T21:35:52Z" target="#P32519625">
+          Version 27 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG52" who="U32019810" when="2023-12-30T21:47:31Z" target="#P32519625">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG51" who="U220769" when="2023-11-17T18:22:49Z" target="#P32519626">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG50" who="U220769" when="2023-11-17T18:13:47Z" target="#P32519625">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG49" who="U220769" when="2023-11-17T18:09:45Z" target="#P32519625">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG48" who="U220769" when="2023-11-17T17:19:04Z" target="#P32519625">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG47" who="U220769" when="2023-11-02T15:34:45Z" target="#P32519625">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U220769" when="2023-11-02T03:24:32Z" target="#P32519625">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U220769" when="2023-11-01T22:27:44Z" target="#P32519626">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U220769" when="2023-09-03T00:40:23Z" target="#P32519627">
+          Version 10 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U220769" when="2023-09-02T20:41:07Z" target="#P32519625">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2023-09-02T20:19:42Z" target="#P32519625">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-09-02T20:06:20Z" target="#P32519626">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-09-02T20:05:45Z" target="#P32519625">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-04-14T16:47:27Z" target="#P32519625">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-04-04T18:46:30Z" target="#P32519627">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-03-18T21:13:06Z" target="#P32519627">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-03-18T16:40:32Z" target="#P32519627">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-03-18T00:32:44Z" target="#P32519625">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-03-16T20:30:51Z" target="#P32519627">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-03-06T04:36:41Z" target="#P32519625">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-04T18:19:18Z" target="#P32519625">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-03T18:41:39Z" target="#P32519625">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-03T18:31:27Z" target="#P32519625">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-03T14:16:08Z" target="#P32519625">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-02T23:51:16Z" target="#P32519625">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-02-27T19:13:59Z" target="#P32519625">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2022-12-04T17:16:38Z" target="#P32519626">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2022-12-04T16:36:47Z" target="#P32519625">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2022-12-04T01:27:09Z" target="#P32519625">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2022-11-27T02:54:54Z" target="#P32519626">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2022-11-27T02:54:22Z" target="#P32519626">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2022-11-27T02:53:13Z" target="#P32519625">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2022-11-27T02:52:39Z" target="#P32519625">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25091356" when="2022-11-03T23:46:19Z" target="#P32519628">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091356" when="2022-11-03T23:45:09Z" target="#P32519627">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091356" when="2022-11-03T23:43:18Z" target="#P32519626">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091356" when="2022-11-03T23:40:14Z" target="#P32519625">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091253" when="2022-10-28T01:46:45Z" target="#P32519628">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091253" when="2022-10-28T01:45:48Z" target="#P32519627">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091253" when="2022-10-28T01:44:40Z" target="#P32519627">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091253" when="2022-10-28T01:43:25Z" target="#P32519627">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091253" when="2022-10-28T01:40:14Z" target="#P32519626">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091253" when="2022-10-28T01:39:33Z" target="#P32519626">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091253" when="2022-10-28T01:35:04Z" target="#P32519625">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U704" when="2022-10-21T15:54:47Z" target="#P32519628">
+          Version 1 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U704" when="2022-10-21T15:47:29Z" target="#P32519627">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U704" when="2022-10-21T15:36:06Z" target="#P32519625">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U704" when="2022-10-21T15:34:26Z" target="#P32519626">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U704" when="2022-10-21T15:25:25Z" target="#P32519625">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2022-09-06T16:42:56Z" target="#P32519628">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2022-09-06T16:42:47Z" target="#P32519627">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-09-06T16:42:38Z" target="#P32519626">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-09-06T16:42:28Z" target="#P32519625">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32519625" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:22509/full/full/0/default.jpg"/>
+        <div xml:id="OTP32519625">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32519625P0' xml:id='OTP32519625P0'><rs ref='#S32054809'>Halifax Co</rs>. Oct. 27, 1864
+</p>
+
+<p corresp='TTP32519625P1' xml:id='OTP32519625P1'>His Excellency<lb/>
+<rs ref='#S52436'>Charles Clark</rs><lb/>
+Governor of Miss.
+</p>
+
+<p corresp='TTP32519625P2' xml:id='OTP32519625P2'>My dear Sir
+</p>
+
+<p corresp='TTP32519625P3' xml:id='OTP32519625P3'>I am thus far on my way south having <rs ref='#S32077641'>resigned</rs> the position which I have so long held in the <rs ref='#S25004764'>Army of Virginia</rs>. My reasons for resigning were two fold—the first was that I was thoroughly worn out with its duties <rs ref='#S32121282'>Trying</rs> and <rs ref='#S53924'>Shooting</rs> Confederate Soldiers from one years end to anothers is more than my disposition would stand. If I was not <rs ref='#S73740'>disabled</rs> I would infinitely prefer to take a gun and a place in the front. The other was that <rs ref='#S75711'>I</rs> had three <rs ref='#S25013472'>motherless girls</rs> in Miss whose situation required some attention from me which I could not possibly give them while in Virginia. I processed a <rs ref='#S32123714'>transfer</rs> to Miss with orders to report for duty to the Com'dg General of the Dept
+</p>
+
+<p corresp='TTP32519625P4' xml:id='OTP32519625P4'>I write now to you because
+</p>
+
+
+        </div>
+        <pb xml:id="F32519626" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:22510/full/full/0/default.jpg"/>
+        <div xml:id="OTP32519626">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32519626P0' xml:id='OTP32519626P0'>I would infinitely prefer to <rs ref='#S25009156'>enter into</rs> the <rs ref='#S63200'>Service of the State of Miss</rs> if it can be done. You have long known me and what my standing is in our State. You also know what my capacity and qualities are and how and in what way I could be made useful in the present crisis. I am not at all anxious or particular about either rank or emoluments but I only desire to hold under you some position which would enable me to render Some Service. I believe I know the people of Mississippi as well as almost any other man in it and can, under proper circumtances, under your direction and with your authority I can exercise as much influence with our people as any man now left in urging them forward to action and to liberality and to a cheerful acquiescence &amp; cooperation with you in all your pleas for defending the State and in aid of the Confederate Government. It is true I have never served in the line. I was a private in <rs ref='#S101688'>Starke's</rs> <rs ref='#S25004166'>Cavalry Reg</rs> when by a fall my <rs ref='#S25003265'>shoulder was broken &amp; dislocated &amp; permanantly disabled</rs>. Afterwards I was with <rs ref='#S32052839'>Vac? Dora</rs> for a good
+</p>
+
+
+        </div>
+        <pb xml:id="F32519627" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:22511/full/full/0/default.jpg"/>
+        <div xml:id="OTP32519627">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32519627P0' xml:id='OTP32519627P0'>while when my health failed me. I have now been with Genl. <rs ref='#S32004263'>Lee</rs> more than a year &amp; have learned a good deal. I could be useful wherever swift and accurate use of the pen is required &amp; in this regard I am capable of as great &amp; useful labor as most men of my time. I am also fond of out of doors &amp; active labor &amp; capable of as much as any one.
+</p>
+
+<p corresp='TTP32519627P1' xml:id='OTP32519627P1'>I have thus written to you very frankly as a Gentleman, whom I have long known &amp; respected &amp; whose good will I believe I have possessed. My reason for wishing to hold some position under you I state freely to be, that while actively useful I can at times look to &amp; care for those who in these troubled times have no other protector. As to salary or emolument I care nothing or rank for I have just laid down a Colonel' Commission. But it is with great correctness I ask you to assign me to some duty in Miss with full instructions &amp; I will cheerfully do it. I can then leave the Confederate Services properly &amp; still be employed. Will you consider over this letter and write me to the care of <rs ref='#S63934'>Hon</rs>. <rs ref='#S32052841'>Hancock, W. M.</rs> <rs ref='#S63264'>Quitman, Clarke Co</rs>. Miss. where I shall be until my plans 
+</p>
+
+
+        </div>
+        <pb xml:id="F32519628" n="4" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:22512/full/full/0/default.jpg"/>
+        <div xml:id="OTP32519628">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP32519628P0' xml:id='OTP32519628P0'>are arranged. And while I say that by so doing you will confer a deep personal obligation on me, at the same time I will say that on my part there shall be lacking nothing of whatever capacity talent or zeal I may possess in the service of our State whose destinies are now in your hands.
+</p>
+
+<p corresp='TTP32519628P1' xml:id='OTP32519628P1'>Please excuse my length &amp; write me as soon as your [?] will allow you.
+</p>
+
+<p corresp='TTP32519628P2' xml:id='OTP32519628P2'>With high Respect<lb/>
+Your friend &amp; Obt. Sv.
+</p>
+
+<p corresp='TTP32519628P3' xml:id='OTP32519628P3'><rs ref='#S70457'>D. C Glenn</rs><lb/>
+<hr/><lb/>
+M
+</p>
+
+<p corresp='TTP32519628P4' xml:id='OTP32519628P4'>Private
+</p>
+
+<p corresp='TTP32519628P5' xml:id='OTP32519628P5'>Col. D. C. Glen
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

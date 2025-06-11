@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Legal document from Henry Kirkwood; February 17, 1871</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 28 edits between
+              <date type="first_edit" when="2023-02-12T21:41:45Z">February 12, 2023</date> and
+              <date type="last_edit" when="2024-03-06T15:32:01Z">March  6, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 9 edits between
+              <date type="first_edit" when="2022-12-18T22:34:13Z">December 18, 2022</date> and
+              <date type="last_edit" when="2022-12-18T22:59:28Z">December 18, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2022-12-23T02:22:42Z">December 23, 2022</date> and
+              <date type="last_edit" when="2023-03-25T22:45:08Z">March 25, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-11-16T15:18:14Z">November 16, 2022</date> and
+              <date type="last_edit" when="2022-11-16T15:22:21Z">November 16, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T16:02:20Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T16:34:24Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T15:05:57+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32065830">
+              <persName>Fisher, Sam</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32065831">
+              <persName>Brown, Franke</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32065832">
+              <persName>Gregory, Solomon</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32065833">
+              <persName>Newton, Ira D.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32065834">
+              <persName>Brown, Freeman</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32065835">
+              <persName>Vanhorn, J. D.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32065836">
+              <persName>Elder, W. G.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32065820">
+              <persName>Alley, C. H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32023343">
+              <persName>Anderson, John</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32066192">
+              <persName>Harthorn, Randall</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32065823">
+              <persName>Denny, Tom</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32065824">
+              <persName>McFall, William</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32065825">
+              <persName>House, Ned</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32065826">
+              <persName>Williams, Tom</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32065827">
+              <persName>Dill, Bob</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32065828">
+              <persName>Jenkins, Ned</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S104114">
+              <persName>Seal, D. B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32065829">
+              <persName>Kirkwood, Henry</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63170">
+              <placeName>Mississippi--Jackson County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/jackson-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63170P0'>Located in southeast Mississippi, Jackson County was established on December 18, 1812 from Mobile County, Alabama. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.46, -88.62</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63919'>
+            <catDesc>
+              <term>Crimes (alleged)--Assault and Battery</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/assault?q=assault+and+battery</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63919P0'>The criminal act defined as "a sudden, violent attack on someone" or "the crime of attacking and beating someone." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63926'>
+            <catDesc>
+              <term>Crimes (alleged)--Murder</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/murder?q=Murder</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63926P0'>"The crime of intentionally killing a person." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62954'>
+            <catDesc>
+              <term>Criminal Procedures--Arrest</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arrest?q=Arrest</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62954P0'>"The act of using legal authority to catch and take someone to a place where the person may be accused of a crime." (CD)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95194'>
+            <catDesc>
+              <term>Criminal Procedures--Indictments</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/indictment?q=Indictments</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95194P0'>"The act of formally accusing someone of a serious crime." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32121282'>
+            <catDesc>
+              <term>Criminal Procedures--Trial</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32121282P0'>"The hearing of statements and showing of objects, etc. in a law court to judge if a person is guilty of a crime or to decide a case or a legal matter." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S94600'>
+            <catDesc>
+              <term>Lawyers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/lawyer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD94600P0'>"Someone whose job is to give advice to people about the law and speak for them in court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25021515'>
+            <catDesc>
+              <term>Lawyers. Public Prosecutors</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/public-prosecutor</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25021515P0'>"A lawyer who acts for the government against someone accused of a crime in court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S50807'>
+            <catDesc>
+              <term>Clerks</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/clerk</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD50807P0'>"A person who works in an office, dealing with records or performing general office duties." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+          <category xml:id='S70054'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems--Circuit Courts</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2789'>Organizations</ptr></ab>
+              </note>
+            </catDesc>
+          </category>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63395'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/court?topic=law-courts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63395P0'>"A place where trials and other legal cases happen, or the people present in such a place." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63440'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems--Criminal Juries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/jury</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63440P0'>"A group of people who have been chosen to listen to the facts in a court action and decide whether a person is guilty or not guilty or whether a claim has been proved." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63178'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems--Grand jury</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/grand-jury</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63178P0'>"In the U.S., a group of people who decide if a person who has been charged with a crime should be given a trial in a law court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S57096'>
+            <catDesc>
+              <term>African Americans--Historically Free and Newly Freed</term>
+              <idno>https://mississippiencyclopedia.org/entries/free-blacks-in-antebellum-mississippi/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD57096P0'>Historically free African Americans included people who were both African American and lived as and/or were legally free before the American Civil War. They may or may not have previously been enslaved. In recognition of African American military service during the Revolutionary War, a number of states moved to gradually abolish slavery leading to a growing body of free African Americans.
+</p>
+
+<p xml:id='OTPSD57096P1'>Freedom, however, did not mean citizenship, and despite efforts by free Black activists to settle this question and affirm their citizenship, it was largely left to state lawmakers who otherwise failed to settle the question. Consequently, during the Antebellum era, each southern state passed different laws governing the place and rights of free African Americans. Home to the nation's largest free African American community, for example, Baltimore, Maryland registered 25,000 free Black residents by 1850. (Martha S. Jones, <hi rend='italic'>Birthright Citizens: A History of Race and Rights in Antebellum America</hi>, p. 13)
+</p>
+
+<p xml:id='OTPSD57096P2'>In another example, South Carolina's Act of 1820 distinguished between those freed before and after 1820, and classified free African Americans as "denizens," which limited citizenship rights by a series of Black Codes. In response to rebellions, numerous states passed legal restrictions that made manumission virtually impossible by the mid-nineteenth century. Loved ones who purchased family members were forced to legally hold them in bondage, leading to a body of people who "were free by practice, but not by law." (Amrita Chakrabarti Myers, <hi rend='italic'>Forging Freedom</hi>, 3–4, 207)
+</p>
+
+<p xml:id='OTPSD57096P3'>Unlike South Carolina, Mississippi's judiciary ruled that “free negroes . . . are to be regarded as alien enemies or strangers prohibited, and without the pale of comity, and incapable of acquiring or maintaining property in this State which will be recognized by our courts.” (<hi rend='italic'>Heirn v. Bridault</hi>, 37 Miss. 209, 224–25, 1859 in Jones, <hi rend='italic'>Birthright Citizens</hi>, p. 213) The state's strict provisions on manumission led to an extremely small population of free African Americans (773 people by 1860) during the antebellum era ("Free Blacks in Antebellum Mississippi," Mississippi Encyclopedia)
+</p>
+
+<p xml:id='OTPSD57096P4'>Newly freed African Americans includes people who were enslaved but became free by the passage of the Emancipation Proclamation and/or the Thirteenth Amendment. While neither was comprehensive, the Emancipation Proclamation of 1863 freed the enslaved in territories under rebellion, and later the Thirteenth Amendment of 1865 abolished slavery altogether, except when used as a punishment for those who committed a crime and did not apply to Native Nations who practices slavery. (American Battlefield Trust; Wikipedia) In the CWRGM collection, African Americans after December 6, 1865 are classified as historically free or newly freed.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+<category xml:id='C32001674S57096'>
+<catDesc>
+<term><rs ref='S57096'>African Americans--Historically Free and Newly Freed</rs></term>
+</catDesc>
+</category>
+</category>
+<category xml:id='C32001666'>
+<catDesc>Races, Ethnicities, &amp; Nationalities</catDesc>
+          <category xml:id='S62968'>
+            <catDesc>
+              <term>African Americans</term>
+              <idno>https://en.wikipedia.org/wiki/African_Americans</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62968P0'>The Cambridge Dictionary classifies "a person who lives in the U.S. and is a member of a race of people with dark skin that originally came from Africa" as African American, but both the nineteenth-century and modern constructions are more complex (Cambridge Dictionary). Common nineteenth-century racial categories such as "mulatto" referred to persons with both white and black ancestry, and the experiences of mixed-race persons varied based on complexion, degree of African ancestry, and the region in which they lived. In antebellum cities with large populations of free Blacks, the degree of one's African ancestry could determine what rights one possessed or did not possess, and people with lighter skin tones were often considered to be white; this ended under "one drop rule" during the Jim Crow system.
+</p>
+
+<p xml:id='OTPSD62968P1'>Like skin tone, the ethnicity implied by the term "African American" is also problematically broad, as "naming people only by the continent of their origin and ignoring their ethnic identity is a consequence of time and space" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 5). The experience of slavery complicated the term by attempting to strip people of their original distinct African ethnic identities such as Ibo or Ndongan, classifying all persons of African descent together under one term, infusing that term with negative connotation, and disregarding the complex and rich linguistic, cultural, and ethnic histories of varied African people. However, many Black Americans have reclaimed the term "African American" and infused it with positive connotations. One scholar argues that "in using the term 'African Americans,' Black Americans accent the part of their heritage that is not American" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 4).
+</p>
+
+<p xml:id='OTPSD62968P2'>CWRGM — acknowledging the multiplicity of the term's meanings and connotations — includes multiracial and multiethnic people of African descent under the "African Americans" social identifiers subject tag to reflect the diversity of the African American experience and to ensure that the experiences of African Americans of mixed races and ethnicities are discoverable as they are rarely distinguished further in the letters. In the absence of other references, CWRGM also tags racial slurs targeted at African Americans — which were common in nineteenth century documents with white authors — under the "African Americans" tag. CWRGM recognizes the historic and present harm caused by such language and does not condone its use but tags these terms only to ensure the rich history of African Americans are discoverable within the collection.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001666S57096'>
+<catDesc>
+<term><rs ref='S57096'>African Americans--Historically Free and Newly Freed</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S63262'>
+            <catDesc>
+              <term>Death</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/death</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63262P0'>While the Cambridge Dictionary defines death as “the end of life,” CWRGM employs this subject tag to refer to human deaths only, both actual and hypothetical. (Cambridge Dictionary)
+</p>
+
+<p xml:id='OTPSD63262P1'>The nation experienced mass loss of life (approximately 2% of the population) during the American Civil War, which changed the way Americans viewed death and resulted in its reconceptualization in highly bureaucratized ways. Often wartime dead were buried without their names and sometimes in poorly-dug graves, which created a powerful, profound social and cultural dislocation for their surviving loved ones. During the 19th century, Americans understood dying as a social and religious experience, and desired a "good death," which they defined as at home surrounded by family, but these ideals were unattainable in war. Consequently, Americans learned to cope with death and memorialize it in new ways. Unionists encouraged the federal government and ex-Confederates pushed their respective state governments to create and fund national cemeteries, rebury deceases soldiers and veterans, and establish veterans' and widows' pensions. These new responses to death were more bureaucratized, nationalistic, and secularized. Wartime and post-war death was also highly impacted by race, as white supremacists desecrated the graves of Union buried in the South, especially the bodies of African Americans who served in U.S. Colored Troops and the white officers that led them, revealing post-war sectionalism and strains on reconciliation. (Drew Gilpin Faust, <hi rend='italic'>This Republic of Suffering</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Alcorn Series 786</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Mississippi Digital Library and the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1871</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Kirkwood, Henry</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1871-02-17</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Alcorn Collection. Legal document from Henry Kirkwood, containing an indictment from the Grand Jury in Jackson County, Mississippi, in the case of the murder of William McFall. Document contains several jurors signatures on the back.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 13&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_786-972-06-13</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Jackson County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Britany Castilaw; Dalton Wood; McKenna Fussell; Sarah West</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 972, Folder 6</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Alcorn, J. L. (James Lusk), 1816-1894; Crime; Indictments; Mississippi. Governor; Murder</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Legal document from Henry Kirkwood; February 17, 1871</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/24803&quot;&gt;Legal document from Henry Kirkwood; February 17, 1871&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG49" who="U2" when="2024-10-25T16:34:24Z" target="#P32787826">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG48" who="U2" when="2024-10-25T16:02:20Z" target="#P32787827">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG47" who="U220769" when="2024-03-06T15:32:01Z" target="#P32787826">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U220769" when="2024-03-06T15:22:11Z" target="#P32787826">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U220769" when="2024-03-06T15:21:39Z" target="#P32787826">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U220769" when="2024-01-30T17:25:08Z" target="#P32787826">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U220769" when="2024-01-30T17:08:55Z" target="#P32787826">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2024-01-20T21:32:44Z" target="#P32787827">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-11-17T17:37:51Z" target="#P32787827">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-11-17T17:32:45Z" target="#P32787826">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-11-17T17:23:24Z" target="#P32787827">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-11-17T17:05:18Z" target="#P32787826">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-11-02T04:19:39Z" target="#P32787826">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-11-02T04:05:50Z" target="#P32787826">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-11-02T03:46:17Z" target="#P32787828">
+          Version 10 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-09-03T00:38:19Z" target="#P32787826">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-09-03T00:35:21Z" target="#P32787828">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U25091356" when="2023-03-25T22:45:08Z" target="#P32787826">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-19T21:02:36Z" target="#P32787826">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-19T20:59:00Z" target="#P32787826">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-19T20:48:55Z" target="#P32787826">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-18T21:50:31Z" target="#P32787826">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-16T21:20:02Z" target="#P32787826">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-16T19:51:34Z" target="#P32787828">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-06T04:48:40Z" target="#P32787826">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-06T03:38:04Z" target="#P32787828">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-02T23:54:25Z" target="#P32787827">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-02-27T19:17:08Z" target="#P32787827">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-02-12T21:42:29Z" target="#P32787828">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-02-12T21:42:05Z" target="#P32787827">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-02-12T21:41:45Z" target="#P32787826">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091356" when="2022-12-23T02:25:38Z" target="#P32787828">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091356" when="2022-12-23T02:23:55Z" target="#P32787827">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091356" when="2022-12-23T02:23:41Z" target="#P32787827">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091356" when="2022-12-23T02:22:42Z" target="#P32787826">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091195" when="2022-12-18T22:59:28Z" target="#P32787828">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091195" when="2022-12-18T22:58:53Z" target="#P32787828">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091195" when="2022-12-18T22:56:11Z" target="#P32787827">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091195" when="2022-12-18T22:55:59Z" target="#P32787827">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091195" when="2022-12-18T22:54:17Z" target="#P32787826">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091195" when="2022-12-18T22:53:39Z" target="#P32787826">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091195" when="2022-12-18T22:40:09Z" target="#P32787828">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091195" when="2022-12-18T22:36:49Z" target="#P32787827">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091195" when="2022-12-18T22:34:13Z" target="#P32787826">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2022-11-16T15:22:21Z" target="#P32787828">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2022-11-16T15:20:36Z" target="#P32787827">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2022-11-16T15:18:14Z" target="#P32787826">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2022-11-14T21:50:50Z" target="#P32787828">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-11-14T21:50:45Z" target="#P32787827">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-11-14T21:50:40Z" target="#P32787826">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32787826" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:24800/full/full/0/default.jpg"/>
+        <div xml:id="OTP32787826">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32787826P0' xml:id='OTP32787826P0'>[seal]
+</p>
+
+<p corresp='TTP32787826P1' xml:id='OTP32787826P1'>Filed Feby 17<add place='above'>th</add> 1871
+</p>
+
+<p corresp='TTP32787826P2' xml:id='OTP32787826P2'>The State of Mississippi<lb/>
+<rs ref='#S63170'>Jackson County</rs><lb/>
+<hr/><lb/>
+In the <rs ref='#S70054'>Circuit Court</rs> of Jackson at the Feb Term A D 1871
+</p>
+
+<p corresp='TTP32787826P3' xml:id='OTP32787826P3'>The <rs ref='#S63178'>Grand Jurors</rs> of the State of Mississippi Summoned Empannelled Sworn and charged to enquire in and for the body of Jackson County and State of Mississippi at the term aforesaid of the Court aforesaid in the name and by the authority of the State of Mississippi upon their Oath present that <rs ref='#S32023343'>John Anderson</rs> <rs ref='#S32066192'>Randall Harthorn</rs> and <rs ref='#S32065823'>Tom Denny</rs> (<rs ref='#S57096'>Col</rs>) late of the County aforesaid on the 1<add place='above'>st</add> day of Feb A D 1871 feloniously wilfully and of their malice aforethought did make and <rs ref='#S63919'>assault</rs> in and upon one <rs ref='#S32065824'>William M<add place='above'>c</add>Fall</rs> then and there being and him the said William M<add place='above'>c</add>Fall then and there feloniously wilfully and of their malice aforesaid of them the said John Anderson Randall Hawthorn and Tom Denny (Col) did <rs ref='#S63262'>Kill</rs> and <rs ref='#S63926'>murder</rs> and the <rs ref='#S63440'>jurors</rs> aforesaid upon their Oath aforesaid do further present that on the day and year aforesaid <rs ref='#S32065825'>Ned House</rs> <rs ref='#S32065826'>Tom Williams</rs> <rs ref='#S32065827'>Bob Dill</rs> and <rs ref='#S32065828'>Jenkins</rs> feloniously willfully and of their malice aforethought were present feloniously willfully and of their malice aforethought aidin abetting and assisting the John Anderson Randall Harthorn and Tom Denny (Col) of the felony and Murder aforesaid to do and commit against the peace and dignity of the State of Mississippi
+</p>
+
+<p corresp='TTP32787826P4' xml:id='OTP32787826P4'><rs ref='#S104114'>D B Seal</rs> <rs ref='#S94600'>Dist Atty</rs>
+</p>
+
+<p corresp='TTP32787826P5' xml:id='OTP32787826P5'>The State of Mississippi<lb/>
+Jackson County<lb/>
+<hr/><lb/>
+I <rs ref='#S32065829'>Henry Kirkwood</rs> <rs ref='#S50807'>Clerk</rs> of the Circuit Court of said County do 
+</p>
+
+
+        </div>
+        <pb xml:id="F32787827" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:24801/full/full/0/default.jpg"/>
+        <div xml:id="OTP32787827">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32787827P0' xml:id='OTP32787827P0'>certify that the foregoing is a true Copy from the original <rs ref='#S95194'>Indictment</rs> on file in my office
+</p>
+
+<p corresp='TTP32787827P1' xml:id='OTP32787827P1'>Given under my hand and seal of office this 6<add place='above'>th</add> day of December A D 1871
+</p>
+
+<p corresp='TTP32787827P2' xml:id='OTP32787827P2'>H Kirkwood Clerk<lb/>
+By <rs ref='#S32065820'>C H Alley</rs> Deputy
+</p>
+
+<p corresp='TTP32787827P3' xml:id='OTP32787827P3'>The State of Mississippi<lb/>
+Jackson County<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32787827P4' xml:id='OTP32787827P4'>I Henry Kirkwood Clerk of the Circuit Court of said County <del rend='overstrike'>certify</del> do Certify that all the parties named in the within Indictment Except <hi rend='underline'>Tom Denny</hi> have been <rs ref='#S62954'>arrested</rs> and have been <rs ref='#S32121282'>tried</rs> and discharged by said Court.
+</p>
+
+<p corresp='TTP32787827P5' xml:id='OTP32787827P5'>Given under my hand and seal of office this 6<add place='above'>th</add> day of December A D 1871
+</p>
+
+<p corresp='TTP32787827P6' xml:id='OTP32787827P6'>H Kirkwood Clk<lb/>
+By C H Alley DC 
+</p>
+
+
+        </div>
+        <pb xml:id="F32787828" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:24802/full/full/0/default.jpg"/>
+        <div xml:id="OTP32787828">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32787828P0' xml:id='OTP32787828P0'>No 19<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32787828P1' xml:id='OTP32787828P1'>The State<lb/>
+vs murder
+</p>
+
+<p corresp='TTP32787828P2' xml:id='OTP32787828P2'>John Anderson<lb/>
+Randall Hathorn<lb/>
+Tom Denny<lb/>
+Bob Dill<lb/>
+Ned House<lb/>
+Ned Jenkins<lb/>
+Tom Williams<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32787828P3' xml:id='OTP32787828P3'>all col<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32787828P4' xml:id='OTP32787828P4'>John McFall<lb/>
+<rs ref='#S25021515'>prosecutor</rs>
+</p>
+
+<p corresp='TTP32787828P5' xml:id='OTP32787828P5'>Witnesses<lb/>
+<rs ref='#S32065830'>Sam Fisher</rs><lb/>
+<rs ref='#S32065831'>Franke Brown</rs><lb/>
+<rs ref='#S32065832'>Solomon Gregory</rs><lb/>
+<rs ref='#S32065833'>Ira D Newton</rs><lb/>
+<rs ref='#S32065834'>Freeman Brown</rs><lb/>
+<rs ref='#S32065835'>J D Vanhorn</rs><lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32787828P6' xml:id='OTP32787828P6'>a True Bill
+</p>
+
+<p corresp='TTP32787828P7' xml:id='OTP32787828P7'><rs ref='#S32065836'>W. G. Elder</rs><lb/>
+Foreman of Grand Jury
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

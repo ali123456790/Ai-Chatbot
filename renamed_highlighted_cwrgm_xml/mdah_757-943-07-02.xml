@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from R. Henry Glenn to Mississippi Governor John J. Pettus; January 1, 1863</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 11 edits between
+              <date type="first_edit" when="2021-07-06T19:52:42Z">July  6, 2021</date> and
+              <date type="last_edit" when="2023-11-02T03:13:15Z">November  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25089305">
+          <persName
+            >
+            Sarah West
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2021-06-30T05:30:29Z">June 30, 2021</date> and
+              <date type="last_edit" when="2021-06-30T05:52:46Z">June 30, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-07-01T02:42:16Z">July  1, 2021</date> and
+              <date type="last_edit" when="2021-07-01T02:45:47Z">July  1, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-06-23T20:41:59Z">June 23, 2021</date> and
+              <date type="last_edit" when="2021-06-23T20:46:02Z">June 23, 2021</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U217868">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Alec Blaylock </name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:11:52+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S25012886">
+              <persName>Hager, Benjamin</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25012887">
+              <persName>Blanchard, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25012888">
+              <persName>Mahone, William, 1826-1895</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S104714">
+              <persName>Wise, Henry A. (Henry Alexander), 1806-1876</persName>
+                <idno>https://encyclopediavirginia.org/entries/wise-henry-a-1806-1876/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS104714P0'>Henry Alexander Wise was a lawyer, Governor of Virginia, U.S. Representative, and Confederate Brigadier General.
+</p>
+
+<p xml:id='OTPS104714P1'>Born on December 3, 1806 in Accomac, Virginia, Wise became a lawyer in 1828. Afterwards, he relocated to Nashville, Tennessee to practice law. For finanical reasons, however, he returned to his farm in Virginia (called Only) in 1830, where he was also an enslaver, including at least nineteen slaves by 1844. He became active in Virginia politics, and by 1833, Wise was elected as a Representative for Virginia in the U.S. House of Representatives. He won five sequential elections, serving until 1844. From 1844 to 1847, he served as the U.S. minister to Brazil under U.S. Presidents John Tyler and James K. Polk.
+</p>
+
+<p xml:id='OTPS104714P2'>Upon his return to the U.S., Wise became active as a lawyer, and he engaged in Virginia politics again. In 1855, he was elected as the Thirty-third Virginian Governor, serving in the midst of escalating tensions over the issue of slavery. Wise's goal was to protect both slavery and the Union, but John Brown's 1859 attempt to ignite a slave revolt in Harper's Ferry, Virginia shifted Wise's stance. Wise was petitioned to commute Brown's execution sentence to life imprisonment on the grounds of insanity, but he moved forward with the execution order, leading some to talk of him as a potential presidential candidate.
+</p>
+
+<p xml:id='OTPS104714P3'>Wise's term as Governor ended in 1860, and he became a vocal pro-seccessionist, advocating for Virginia to secede long before President Abraham Lincoln's call for troops, which triggered Upper South states like Virginia to secede. Wise was a delegate at Virginia's Secession Convention of 1861.
+</p>
+
+<p xml:id='OTPS104714P4'>In 1860, Wise purchased the Rolleston plantation near Norfolk, Virginia, but he moved his family to Rocky Mount, Virginia in 1862, as U.S. forces took control of Norfolk. During the Civil War, despite his lack of military experience, he also served as a Brigadier General in the Confederate Army of Northern Virginia and was initially assigned to the western Virginia region. Following an officer's feud, Confederate President Jefferson Davis reassigned him to Roanoke Island and various areas of North Carolina and Virginia. His command of troops included the Kanawha Valley Campaign (1861), the defense of Petersburg (1864-1865) and the retreat to Appomattox Court House (April 1865). He surrendered at Appomattox.
+</p>
+
+<p xml:id='OTPS104714P5'>After the war, Wise relocated to Richmond, Virginia and resumed his law practice. He was unable to reclaim Rolleston plantation because of his service in the Confederate army. Instead, Rolleston became a school for freedmen. However, Wise joined the Republican Party, celebrated the abolition of slavery, and was a vocal supporter of President Ulyssess S. Grant. He had two counties named after him: Wise County, Virginia and Wise County, Texas.
+</p>
+
+<p xml:id='OTPS104714P6'>Wise was married three times. His first wife was Anne (Jennings) Wise, who died along with one of their children in a fire in 1837. The pair had five children. His second wife was Sarah (Sergeant) Wise, who died due to complications from childbirth in 1850. The pair had at least five children, including an infant who died soon after its birth in 1850. Wise's third wife was Mary Elizabeth (Lyons) Wise, with whom he did not have any children. Wise had up to fourteen children, including four sons and three daughters who lived to adulthood. He died on September 12, 1876 in Richmond, Virginia and was buried in the Hollywood Cemetery in Richmond.
+</p>
+
+<p xml:id='OTPS104714P7'>(Encyclopedia Virginia; Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS104714P8'>Henry Alexander Wise belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S25012889">
+              <persName>Talcott, T. M. R. (Thomas Mann Randolph), b. 1838 </persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25012890">
+              <persName>Glenn, R. Henry</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25012891">
+              <persName>Hunter, R. M. T. (Robert Mercer Taliaferro), 1809-1887 </persName>
+                <idno>https://en.wikipedia.org/wiki/Robert_M._T._Hunter</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS25012891P0'>Robert Mercer Taliaferro Hunter was a planter, lawyer, and politician, serving as a Representative and Senator for Virginia. He was also a Confederate States Secretary of State and a Confederate Senator.
+</p>
+
+<p xml:id='OTPS25012891P1'>Born on April 21, 1809 at "Mount Pleasant" plantation near Loretto, Essex County, Virginia, Hunter was one of the first graduates of the University of Virginia and was a graduate of the Winchester Law School. He served in the House of Representatives from 1837 to 1843 and from 1845 to 1847. He was also the Speaker of the House from 1839 to 1841. Beginning in 1847, Hunter served in the U.S. Senate but was expelled from the Senate in 1861 for supporting secession. During the Civil War, Confederate President Jefferson Davis selected Hunter as his Secretary of State. Hunter served from 1861 to 1862 when he was elected as a Confederate Senator for the state of Virginia. He held this position until the end of the war.
+</p>
+
+<p xml:id='OTPS25012891P2'>In 1867, U.S. President Andrew Johnson pardoned Hunter for his support for the Confederacy, and Hunter served as the Treasurer of Virginia from 1874 to 1880. Then, from 1885 until his death in 1887, he served as the port of Tappahannock, Virginia customs collector. He also published <hi rend='italic'>Origin of the Late War</hi>, where he discussed the causes of the Civil War.
+</p>
+
+<p xml:id='OTPS25012891P3'>Hunter was married to Mary Evelina (Dandridge) Hunter. The pair had eight children, including four boys and four girls. Robert Mercer Taliaferro Hunter died on July 18, 1887 near Lloyds, Essex County, Virginia. He was buried on family property at Elmwood plantation in Loretto, Essex County, Virginia.
+</p>
+
+<p xml:id='OTPS25012891P4'>(Wikipedia; Biographical Directory of the United States Congress; FindaGrave)
+</p>
+
+<p xml:id='OTPS25012891P5'>Robert Mercer Taliaferro Hunter belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63295">
+              <placeName>Kentucky</placeName>
+                <idno>https://www.britannica.com/place/Kentucky</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63295P0'>Kentucky was established May 23, 1775 as the Transylvania Colony and was renamed Kentucky County, Virginia on January 1, 1777. Admitted as the 15th state, Kentucky achieved statehood June 1, 1792. (Britannica; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>37.5, -85.0</geo>
+                </note>
+            </place>
+            <place xml:id="S63093">
+              <placeName>Virginia--Independent City. Richmond</placeName>
+                <idno>https://en.wikipedia.org/wiki/Richmond,_Virginia</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63093P0'>Currently an independent city, Richmond was founded in 1737 in what was Henrico County at the time of founding and was incorporated on 1742. It became the state capital of Virginia in 1779. During the American Civil War, Richmond also served as capital of the Confederacy. On July 9, 1902, Richmond became an independent city. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>37.53333, -77.46667</geo>
+                </note>
+            </place>
+            <place xml:id="S70523">
+              <placeName>Virginia--Independent City. Norfolk</placeName>
+                <idno>https://en.wikipedia.org/wiki/Norfolk,_Virginia</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS70523P0'>Currently an independent city, Norfolk was founded in 1682 in what was then Lower Norfolk County (now extinct). On May 15, 1691 it became part of the newly created Norfolk County (now extinct). Norfolk was incorporated in 1705, and became in independent city on July 9, 1902. (Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>36.91667, -76.2</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S98881'>
+            <catDesc>
+              <term>Confederate States of America--Draft</term>
+              <idno>https://mississippiencyclopedia.org/entries/mississippians-in-confederate-army/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98881P0'>By the spring of 1862, the difficulty and bloodshed of fighting the Civil War became a reality to many white southerners, and many soldiers' one-year terms of enlistment expired. Voluntary enlistments slowed and rendered the Confederate Army desperate for troops. The Confederate States of America consequently issued the first compulsory call to military service in American history, also called a "draft" or "conscription" with the First Conscription Act of 1862.
+</p>
+
+<p xml:id='OTPSD98881P1'>A series of other conscription laws followed throughout the Civil War, each containing measures that sparked tensions between southerners and the Confederate government. The First Conscription Act rendered all men between the ages of 18 and 35 subject to military service, though a later act expanded the age range to 45. Men working in occupations deemed essential to the war effort or to preserving the home front could be exempted from the draft, and, after October 11, 1862, white men owning or overseeing twenty or more enslaved persons could also be exempt. These policies isolated small farmers with little investment in preserving slavery, and many southerners evaded the draft in a variety of ways. However, many others both elite and non-elite viewed the draft as a necessary action, and the Twenty Slave Law a necessary protection from enslaved rebellion. Ultimately, however they felt about it, one estimate holds that Mississippi sent roughly 8,000 draftees to fight for the Confederacy (Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S71100'>
+            <catDesc>
+              <term>Secession. American Civil War</term>
+              <idno>https://en.wikipedia.org/wiki/Secession_in_the_United_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71100P0'>Secession is the formal separation from a political group or entity. Secession differs from a revolt in that proponents of secession argue they have the legal right to separate from a government, while a revolt is an illegal, or extra-legal, rejection of government authority.
+</p>
+
+<p xml:id='OTPSD71100P1'>The idea of secession has existed in the United States since the ratification of the Constitution in 1789. During the American Revolution, the thirteen colonies formed the Articles of Confederation, which generally recognized each state as sovereign (supreme in its own authority) except for the powers specifically designated to a central government. Delegated powers included authority to declare war and make peace, international diplomacy, and resolution of disagreements among the states. This arrangement balanced state versus federal power, but also reflected the conflicting ideas of state sovereignty. The Articles described the individual states as sovereign, free, and independent, but also declared the states were required to obey the provisions of the central government and that “the Union shall be perpetual.”
+</p>
+
+<p xml:id='OTPSD71100P2'>The Articles of Confederation proved too weak to handle many national matters, leading representatives from the states to write a new Constitution in 1787. Opponents of this effort, often referred to as Anti-Federalists, feared strengthening the national government at the expense of state sovereignty. The Constitution did not recognize state sovereignty to the same degree as the Articles of Confederation, demonstrated by terms within the document like “We the people,” which recognized the national government as being of the American people rather than a compact of individual states. Anti-Federalists were unable to prevent ratification of the Constitution, but did prompt the creation of the Bill of Rights—ten amendments that protected specific rights of the people and the states from federal infringement. The Constitution and Bill of Rights remained silent on if or how a state could leave the Union.
+</p>
+
+<p xml:id='OTPSD71100P3'>For the first few decades of the Constitutional Union, secession was more of an academic question than a major political issue. The country was growing more divided over the issue of slavery, with white southerners embracing it as a vital part of their economic, social, cultural, and political society, and an increasing number of northerners turning against it. However, politicians in Washington, D.C., had managed to establish a balance between slave and free state interests and representation to maintain a general peace. Then, in the early 1830s, a political crisis emerged over federal protective tariffs. The state of South Carolina objected to the tariffs and declared them null and void within the state boundaries. The incident became known as the Nullification Crisis, and was the first major test of state versus federal authority in the United States. Though the matter directly focused on a state rejecting a national law, a South Carolina convention warned that the state would secede if challenged by the U.S. Congress. Led by John C. Calhoun, the South Carolinians argued that the federal government’s authority was limited to those powers specifically listed within the Constitution, leaving all other authority and sovereignty in the hands of the people through their state governments.
+</p>
+
+<p xml:id='OTPSD71100P4'>President Andrew Jackson, a southerner, vehemently denounced South Carolina’s actions, declaring that the Constitutional Union was constructed by the people as a whole, and represents them as such. He argued that the states had surrendered their sovereignty, or ability to act independently from the rest of the country. James Madison, the primary framer of the Constitution, was still alive during the Nullification Crisis and, in a personal letter to Senator Daniel Webster, also denounced secession as contrary to the principles of the Constitution.
+</p>
+
+<p xml:id='OTPSD71100P5'>South Carolina found little support from other southern states in its nullification and secession talk in the early 1830s, and eventually backed down, in part due to a compromise tariff. But the crisis had set a prominent seed in the minds of southerners that separation from the United States was a possible option should the central government prove hostile to its interests.
+</p>
+
+<p xml:id='OTPSD71100P6'>Over the next two decades talk of secession periodically emerged in political writings and speeches of extremists, in both north and south. While mostly associated to “Fire-Eaters” in the south—who argued that southern slaveholding interests would be better served in an independent south—some extreme abolitionists in the north also talked of secession. These northerners were a distinct minority, and not taken very seriously, but reflected the fact that various special interest groups and political extremists expressed ideas of disunion.
+</p>
+
+<p xml:id='OTPSD71100P7'>Secession advocacy hit its zenith during the presidential election of 1860. With the election of Abraham Lincoln, an openly anti-slavery northerner, South Carolina held a convention and passed an ordinance of secession on December 24, 1860, which declared the state to be sovereign and independent and that its union with the other states of the Constitutional Union was "dissolved."  Six other states of the Deep South followed soon after. They quickly united under a new central government, the Confederate States of America. While many people in the north denounced the act (and the population of the upper south was split on the matter of secession), the issue did not spark immediate military action. For several weeks it remained a political matter, with the Lincoln Administration denying the legitimacy of secession and trying to operate as if nothing had changed, and the seceded states trying to create a new government with their own debates over federal versus state authority in the Confederacy. The political tension finally erupted into violence over events in Charleston Harbor, South Carolina in April 1861. Confederate forces demanded that federal soldiers evacuate the military fortifications there. Lincoln refused, choosing to maintain his position that secession was illegitimate and that U.S. officials would continue to carry out their duties as usual. In response, Confederate forces attacked and then captured a federal garrison at Fort Sumter, turning the tense political crisis erupted into full blown war. At this point, the question of secession’s legitimacy came down to which side was victorious on the battlefield.
+</p>
+
+<p xml:id='OTPSD71100P8'>Throughout the war, the Lincoln administration treated Confederate forces as rebellious Americans rather than citizens of a separate country. This view guided Lincoln’s reconstruction ideas, as well. When Confederate forces surrendered and the Confederate government dissolved, the idea of southern secession essentially died. Lincoln’s assassination complicated federal reconstruction efforts, especially with disagreements within the Republican Party of how to treat former Confederates. Congress passed no specific laws about secession as a whole, and the most direct legal assessment of the right of secession in the wake of the Civil War emerged from the Supreme Court in regards to the case <hi rend='italic'>Texas v. White</hi>. While the case involved the sale of U.S. bonds by the former Confederate state legislature, the Supreme Court’s majority decision stated that Texas had never actually seceded from the Union. The majority opinion explained that the United States of America was perpetual and that states could not unilaterally remove themselves from the Union. The Court acknowledged, though, that state independence could result from revolution (the extra-legal rejection of higher authority) or through consent of the other states (secession approved by majority vote among all American states). (Wikipedia; The Avalon Project; American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+<category xml:id='C32001150S71100'>
+<catDesc>
+<term><rs ref='S71100'>Secession. American Civil War</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S70086'>
+            <catDesc>
+              <term>Engineers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/engineer?q=engineers</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70086P0'>"A person whose job is to design or build machines, engines, or electrical equipment, or things such as roads, railroads, or bridges, using scientific principles." Alternatively, "an engineer is also a person whose job is to drive railroad trains." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001713'>
+<catDesc>C.S.A. Federal Government</catDesc>
+          <category xml:id='S54079'>
+            <catDesc>
+              <term>Confederate States of America--Congress</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD54079P0'>The Congress of the Confederate States of America was established by Article 1 of the Confederate States Constitution on March 11, 1861 in Montgomery, Alabama. Operating at the national level of the Confederacy, it was the Legislative Branch of the Confederate States government responsible for making and amending laws. A bicameral body, the Confederate States Congress was divided into the upper house (Senate) and the lower house (House of Representatives). The Confederate States Congress concluded Its final session on March 18, 1865. (Avalon Project-<hi rend='italic'>Constitution of the Confederate States</hi>; March 11, 1861; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S99586'>
+            <catDesc>
+              <term>Confederate States of America--War Department</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t00z8036q&amp;view=1up&amp;seq=9&amp;skin=2021</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.3675, -86.3</geo>
+              </note>
+              <gloss><p xml:id='OTPSD99586P0'>Operating nationally, the Provisional Confederate Congress established the War Department by an act on February 21, 1861, in Montgomery, Alabama. The department was led by the Secretary of War, appointed by the President with the advice and consent of the Senate. It was initially led by LeRoy Pope Walker from February 25–September 16, 1861 and later led by Judah P. Benjamin (September 17, 1861–March 24, 1862), George W. Randolph (March 24–November 15, 1862), James Seddon (November 21, 1862–February 5, 1865), and Maj. Gen. John C. Breckinridge (February 6–May 10, 1865). The War Department was responsible for the administration of the Confederate Army and managed all matters pertaining to American Indian tribes within the boundaries of the Confederate States. (<hi rend='italic'>Acts and Resolutions of the First Session of the Provisional Congress of the Confederate States</hi>, 1861 Public Laws, S1, 46; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25013536'>
+            <catDesc>
+              <term>Confederate States of America--War Department. Ordnance Department</term>
+              <idno>https://www.essentialcivilwarcurriculum.com/civil-war-ordnance-bureaus.html</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25013536P0'>The Confederate Ordnance Bureau was the office responsible for acquiring ammunition and weapons for the Confederate military. Technically a branch of the Corps of Artillery, the Ordnance Bureau operated independently and was commanded by Major Josiah Gorgas, who had resigned from the United States Ordnance Department at the start of the Civil War. Gorgas estimated that the Confederacy had fewer than 160,000 small arms and only 429 cannons (375 of which were in fortifications around Charleston) in early 1861. To increase the number of weapons and ammunition, the Ordnance Bureau relied upon three sources: European imports, domestic manufacturing, and battlefield captures. The bureau also labored to provide weapons and ammunition to the field armies through railroad and wagon train transportation routes. Through these efforts, and despite the Union blockade and limited domestic resources, the Ordnance Bureau imported around 380,000 foreign small arms, produced around 10,000 firearms within the Confederacy, and captured enough Union weapons to arm the Confederate military throughout the war. The Confederate army never suffered a battlefield defeat due to the lack of weapons or ammunition. (Frank E. Vandiver, “Makeshifts of Confederate Ordnance,” <hi rend='italic'>The Journal of Southern History</hi>, 180–193; Philip Leigh, “Civil War Ordnances Bureaus,” Essential Civil War Curriculum) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001343'>
+<catDesc>Educational Organizations</catDesc>
+          <category xml:id='S25005041'>
+            <catDesc>
+              <term>Military Education</term>
+              <idno>https://en.wikipedia.org/wiki/List_of_United_States_military_schools_and_academies</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001343'>Educational Organizations</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25005041P0'>Military schools are educational programs that incorporate military studies with traditional academic topics. They often emphasize engineering and technical studies. The school lifestyle and environment typically model the military; students are considered cadets, wear uniforms and conduct formation drills, and follow a military-style chain of command. These schools were largely a nineteenth century development in the United States, following the creation of the United States Military Academy at West Point, New York, during Thomas Jefferson’s presidential administration. While that academy, and the United States Naval Academy, founded in 1845, were federal institutions, most military schools were private or state-funded programs. Military service was not required for the graduates of state or private military programs, but alumni from such schools often sought commissions in the military. Additionally, during the Civil War, the Union and the Confederate armies relied heavily upon graduates of state and federal military academies to train and lead the large numbers of civilian soldiers. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+<category xml:id='C32001716S99586'>
+<catDesc>
+<term><rs ref='S99586'>Confederate States of America--War Department</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001716S25013536'>
+<catDesc>
+<term><rs ref='S25013536'>Confederate States of America--War Department. Ordnance Department</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001716S25005041'>
+<catDesc>
+<term><rs ref='S25005041'>Military Education</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for the project provided by the National Historical Publications and Records Commission of the National Archives and the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1863</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Glenn, R. Henry</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1863-01-01</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from R. Henry Glenn in Richmond, Virginia, to Mississippi Governor John J. Pettus, offering his services as a Confederate engineer, artillery, or infantry officer.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 10&quot; x 8&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi; Richmond (Va.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-943-07-02</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>A. J. Blaylock; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 943, Folder 7</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Artillery.; Confederate States of America. Army.; Confederate States of America. Army--Officers; Confederate States of America. Army--Recruiting, enlistment, etc.; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from R. Henry Glenn to Mississippi Governor John J. Pettus; January 1, 1863</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/7797&quot;&gt;Letter from R. Henry Glenn to Mississippi Governor John J. Pettus; January 1, 1863&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG25" who="U220769" when="2023-11-02T03:13:15Z" target="#P25093191">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-05-27T18:26:12Z" target="#P25093191">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-29T02:01:12Z" target="#P25093191">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-19T20:14:28Z" target="#P25093191">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-19T17:40:23Z" target="#P25093192">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-03-18T03:40:53Z" target="#P25093191">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-03-18T03:34:25Z" target="#P25093191">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-03-18T01:11:46Z" target="#P25093191">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-03-04T19:34:12Z" target="#P25093192">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2021-10-22T20:30:45Z" target="#P25093191">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2021-07-06T19:52:42Z" target="#P25093191">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U217868" when="2021-07-01T02:45:47Z" target="#P25093193">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U217868" when="2021-07-01T02:45:00Z" target="#P25093192">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U217868" when="2021-07-01T02:42:16Z" target="#P25093191">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25089305" when="2021-06-30T05:52:46Z" target="#P25093191">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25089305" when="2021-06-30T05:51:34Z" target="#P25093192">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25089305" when="2021-06-30T05:50:35Z" target="#P25093193">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25089305" when="2021-06-30T05:49:00Z" target="#P25093192">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25089305" when="2021-06-30T05:31:29Z" target="#P25093191">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25089305" when="2021-06-30T05:30:29Z" target="#P25093191">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2021-06-23T20:46:02Z" target="#P25093193">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2021-06-23T20:45:15Z" target="#P25093192">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2021-06-23T20:41:59Z" target="#P25093191">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-06-15T21:51:34Z" target="#P25093193">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-06-15T21:51:34Z" target="#P25093192">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-06-15T21:51:33Z" target="#P25093191">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25093191" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/7794/full/full/0/default.jpg"/>
+        <div xml:id="OTP25093191">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25093191P0' xml:id='OTP25093191P0'>[seal]
+</p>
+
+<p corresp='TTP25093191P1' xml:id='OTP25093191P1'><rs ref='#S25013536'>C. S. Ordnance Bureau</rs><lb/>
+<rs ref='#S63093'>Richmond V<hi rend='underline'><add place='above'>a</add></hi></rs> Jan. 1<add place='above'>st</add> 1863
+</p>
+
+<p corresp='TTP25093191P2' xml:id='OTP25093191P2'>His Excellency<lb/>
+Govenor <rs ref='#S63111'>Pettus</rs>
+</p>
+
+<p corresp='TTP25093191P3' xml:id='OTP25093191P3'>Sir
+</p>
+
+<p corresp='TTP25093191P4' xml:id='OTP25093191P4'>I am informed that, you purpose <rs ref='#S98881'>calling in service</rs>, all persons in your State between the ages of Eighteen and Sixty and, in as much as, I am desirous of again entering the field I would most respectfully tender my services as an <rs ref='#S70086'>Engineer</rs>, Artillery or Infantry officer—I was educated at a <rs ref='#S25005041'>military school</rs> and from the 21<hi rend='underline'><add place='above'>st</add></hi> of April 1861, until the 10<hi rend='underline'><add place='above'>th</add></hi> of May 1862 (the day on which the city of <rs ref='#S70523'>Norfolk V<add place='above'>a</add></rs> was evacuated,) I was in the service of the <rs ref='#S70882'>Confederate States</rs>, as military engineer at that place. Upon arriving in this city, I was transferred to the Ordnance Bureau where I am at present engaged—
+</p>
+
+<p corresp='TTP25093191P5' xml:id='OTP25093191P5'>I am perfectly familiar with all the details of artillery and Infantry drill, camp duty
+</p>
+
+
+        </div>
+        <pb xml:id="F25093192" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/7795/full/full/0/default.jpg"/>
+        <div xml:id="OTP25093192">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25093192P0' xml:id='OTP25093192P0'>&amp;c; and should it please you to offer me a position, I will serve you to the utmost of my ability—My testimonials (which I will forward or bring) will I am confident, prove satisfactory, being from the following named officers with whom I have served in the field: Major Gen. <rs ref='#S25012886'>Benj Hager</rs>, Brig. Generals <rs ref='#S25012887'>Blanchard</rs>, <rs ref='#S25012888'>W<hi rend='underline'><add place='above'>m</add></hi> Mahone</rs>, <rs ref='#S104714'>Henry A. Wise</rs> and Major <rs ref='#S25012889'>T. M. R. Talcott</rs>—
+</p>
+
+<p corresp='TTP25093192P1' xml:id='OTP25093192P1'>It would prove grateful to my feelings to be honored with a reply at your earliest convenient time—
+</p>
+
+<p corresp='TTP25093192P2' xml:id='OTP25093192P2'>Most respectfully<lb/>
+<rs ref='#S25012890'>R. Henry Glenn</rs><lb/>
+<hr/><lb/>
+Military Engineer<lb/>
+on<lb/>
+Ordnance Duty
+</p>
+
+<p corresp='TTP25093192P3' xml:id='OTP25093192P3'>P. S. <lb/>
+I am thirty six (36) years of age and a <rs ref='#S63295'>Kentuckian</rs>, having entered the service prior to the <rs ref='#S71100'>secession</rs> of my state. I would further say that I hold a recommendation signed by every member of <rs ref='#S54079'>Congress</rs> from Kentucky and Hon. <rs ref='#S25012891'>R. M. T Hunter</rs> of Virginia—
+</p>
+
+
+        </div>
+        <pb xml:id="F25093193" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/7796/full/full/0/default.jpg"/>
+        <div xml:id="OTP25093193">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP25093193P0' xml:id='OTP25093193P0'>R Henry Glenn ordnance depart.<lb/>
+Richmond Va<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP25093193P1' xml:id='OTP25093193P1'>wants appointment in the military service of the state of Miss<lb/>
+<hr/>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

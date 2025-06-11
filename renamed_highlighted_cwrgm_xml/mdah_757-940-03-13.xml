@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from J. B. Gladney to Mississippi Governor John J. Pettus; October 15, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 19 edits between
+              <date type="first_edit" when="2021-03-07T23:33:26Z">March  7, 2021</date> and
+              <date type="last_edit" when="2023-11-17T18:03:10Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228005">
+          <persName
+            >
+            Heather A Haslem
+            </persName>
+            <resp>
+              made 10 edits between
+              <date type="first_edit" when="2021-03-01T22:26:24Z">March  1, 2021</date> and
+              <date type="last_edit" when="2021-03-01T22:57:35Z">March  1, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228445">
+          <persName
+            >
+            Abby Cawley
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2021-02-23T17:14:44Z">February 23, 2021</date> and
+              <date type="last_edit" when="2021-02-23T17:57:28Z">February 23, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217816">
+          <persName
+            >
+            Gracie Breland
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-03-17T13:37:19Z">March 17, 2021</date> and
+              <date type="last_edit" when="2021-03-17T13:40:55Z">March 17, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T14:56:09Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T17:27:55Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-03-30T00:35:47Z">March 30, 2023</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T19:51:31+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S100779">
+              <persName>Gladney, J.B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S95149">
+              <persName>Unknown, Jack</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S95059">
+              <placeName>Mississippi--Chickasaw County. Buena Vista</placeName>
+                <idno>https://en.wikipedia.org/wiki/Buena_Vista,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS95059P0'>Located in Chickasaw County, Buena Vista (also known as Monterey) was founded as early as 1847. Buena Vista is an unincorporated area that is not governed by a local municipal body. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.8846, -88.8381</geo>
+                </note>
+            </place>
+            <place xml:id="S71395">
+              <placeName>Europe</placeName>
+                <idno>https://en.wikipedia.org/wiki/Europe</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001859">Continents</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS71395P0'>Europe is a continent that inhabits 50 countries and is 3,930,000 square miles. Most Western European countries had close economic ties with the United States throughout the 19th century. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>54.526, 15.2551</geo>
+                </note>
+            </place>
+            <place xml:id="S63400">
+              <placeName>Mississippi--Monroe County. Aberdeen</placeName>
+                <idno>https://en.wikipedia.org/wiki/Aberdeen,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63400P0'>Located in Monroe County, Aberdeen was founded in 1837 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.82444, -88.54972</geo>
+                </note>
+            </place>
+            <place xml:id="S62914">
+              <placeName>Washington (D.C.)</placeName>
+                <idno>https://en.wikipedia.org/wiki/Timeline_of_Washington,_D.C.</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS62914P0'>Located between Maryland &amp; Virginia on the Potomac River, the Territory of Columbia was established on July 16, 1790 under the name Federal City and was renamed Washington City in the 1800s. The city of Washington became the federal capital on February 27, 1801 and established as Washington, D.C. on February 24, 1801, when the city boundaries were expanded to include the entire Federal District of Columbia. Washington, D.C. has never achieved statehood. (Wikipedia, Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>38.90472, -77.01639</geo>
+                </note>
+            </place>
+            <place xml:id="S63016">
+              <placeName>Alabama--Montgomery County. Montgomery</placeName>
+                <idno>http://encyclopediaofalabama.org/article/h-1833</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63016P0'>Located in Montgomery County, Montgomery was founded in 1819 and serves as the county seat and state capital. (Encyclopedia of Alabama)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.36167, -86.27917</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S93394'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Blockade</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/blockade?q=Blockade</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD93394P0'>"The situation in which a country or place is surrounded by soldiers or ships to stop people or goods from going in or out." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S95151'>
+            <catDesc>
+              <term>Political Elections</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/election?q=elections</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95151P0'>"A time when people vote in order to choose someone for a political or official job." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S55271'>
+            <catDesc>
+              <term>Political Elections--Election of 1860</term>
+              <idno>https://guides.loc.gov/presidential-election-1860#:~:text=Abraham%20Lincoln%20(Republican)%20won%20the,John%20Bell%20(Constitutional%20Union).</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD55271P0'>Held on November 6, 1860, the Election of 1860 featured candidates Abraham Lincoln (Republican), John C. Breckinridge (Southern Democrat), John Bell (Constitutional Union), and Stephen A. Douglas (Democrat) for U.S. President. While Lincoln garnered less than 40% of the popular vote, he received enough Electoral College support to win the presidency. As a Republican and anti-slavery advocate, Lincoln did not even feature on many southern ballots. Southern politicians perceived Lincoln's election as a threat to the institution of slavery and as evidence that their interests were not represented by the federal government. The Election of 1860 thereby catalyzed the southern secession movement (Library of Congress; Wikipedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S102169'>
+            <catDesc>
+              <term>Alabama--Legislature</term>
+              <idno>https://digital.archives.alabama.gov/digital/collection/constitutions/id/41</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.36167, -86.27917</geo>
+              </note>
+              <gloss><p xml:id='OTPSD102169P0'>Operating at the state level, the Alabama State Legislature (also known as the General Assembly) was established by Article III of the Alabama Constitution (1819) on July 5, 1819. It is a bicameral body, divided into the upper house (State Senate) and the Lower House (State House of Representatives) and is responsible for making and amending the laws of the state. (Alabama Department of Archives &amp; History; Avalon Project-<hi rend='italic'>Alabama: Constitution of 1819</hi>; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62915'>
+            <catDesc>
+              <term>Mississippi--Legislature</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_Legislature</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD62915P0'>Operating at the state level, the Mississippi State Legislature (originally called the "General Assembly") was established by Article 4 of the Mississippi Constitution on November 1, 1890, and serves as the legislative branch of the state government. It is comprised of the House of Representatives and the Senate. The Legislature is responsible for passing new statewide laws and making amendments to the Constitution. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S52126'>
+            <catDesc>
+              <term>Mississippi--Legislature. House of Representatives</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_House_of_Representatives</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.30417, -90.18232</geo>
+              </note>
+              <gloss><p xml:id='OTPSD52126P0'>Operating at the state level, the Mississippi House of Representatives was established by Article 4 of the Mississippi Constitution on November 1, 1890, and serves as the lower house of the Mississippi Legislature. It is led by the Speaker of the House and is responsible for drafting new statewide laws and has the power to impeach officials. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001717'>
+<catDesc>Voluntary Social &amp; Political Groups</catDesc>
+          <category xml:id='S32082700'>
+            <catDesc>
+              <term>Political Parties</term>
+              <idno>https://en.wikipedia.org/wiki/Political_party</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32082700P0'>"A political party is an organization that coordinates candidates to compete in a particular country's elections. It is common for the members of a party to hold similar ideas about politics, and parties may promote specific ideological or policy goals." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63188'>
+            <catDesc>
+              <term>Political Parties--Republican Party (U.S. : 1854- )</term>
+              <idno>https://en.wikipedia.org/wiki/Republican_Party_(United_States)</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63188P0'>The Republican Party is a national political party in the United States. It was formed in 1854 in the wake of the Kansas-Nebraska Act, which repealed the Missouri Compromise of 1820 and dissolved previous restrictions to slavery in the western territories of the United States. Anti-slavery members of the Whig and Democratic political parties broke from these groups and joined with members of the singularly focused Free Soil Party to develop a major third party challenger for national politics. The Republican Party strongly opposed the expansion of slavery into the territories but did not advocate for the immediate abolition of slavery in the country. The party was more successful than the preceding Free Soil party because it developed a broader political platform than the territorial issue, adopting Whig-inspired economic principles. The growing success of the Republicans in the late 1850s caused the Whig Party to collapse.
+</p>
+
+<p xml:id='OTPSD63188P1'>Republicans ran their first presidential candidate in 1856, John C. Frémont. He lost to Democratic candidate James Buchanan, but came in second in a three-way race, winning 11 northern states. Republicans did win congressional and some state elections, and by the 1860 presidential election had established themselves as the most dominant party within the free states.
+</p>
+
+<p xml:id='OTPSD63188P2'>The Republican Party nominated Abraham Lincoln for president in 1860. The party’s platform included the declaration that “the normal condition of all the territory of the United States is that of freedom,” and included several other criticisms of slavery. Lincoln and the Republican Party clarified that the federal government could not interfere with slavery in the southern states, but their overt anti-slavery position alarmed southerners who saw the Republicans as a fundamental threat to southern way of life. Southern politicians warned of disunion should Lincoln win, and the 1860 election turned into a contest among four candidates. The Democratic Party split along north-south sectional lines, and Lincoln did not appear on presidential ballots in most slaveholding states. Still, Lincoln and the Republicans won the 1860 presidential election with only northern (free state) votes. The election victory sparked a secessionist movement in the south, even before Lincoln took office.
+</p>
+
+<p xml:id='OTPSD63188P3'>Lincoln and the Republican Party led the federal government against secession and through the Civil War, from 1861 to 1865. The party fractured some during the war over differences of abolition and punishment of the south. Party members who harbored greater interests in abolition, African American rights, and punishing Confederates became known as the Radical Republicans. Lincoln remained more moderate. He advocated more leniency to former Confederates, and was slower to adopt policies that forced social change within the country.
+</p>
+
+<p xml:id='OTPSD63188P4'>When Lincoln was assassinated in April 1865, Radical Republicans sought to punish the south and enforce their more extreme policies. Andrew Johnson, the vice president who entered the presidency upon Lincoln’s death, opposed the Radicals. However, his policies frustrated many moderate Republicans, and the party took a more forceful role in southern civil and political affairs when former Confederates tried to limit the rights of African Americans during Reconstruction. The Republican Party had a presence within the south during Reconstruction, but mostly among African Americans and northerners who traveled south for political or economic reasons. The party was still seen by most white southerners as a northern party oppressing the south.
+</p>
+
+<p xml:id='OTPSD63188P5'>By 1868 most of the Republican Party had turned on Johnson, even impeaching him. War hero Ulysses S. Grant was then elected as the Republican Party candidate in 1868 with support from the radicals. His administration faced accusations of corruption, especially in the south and the west. By the 1876 election, national support for Reconstruction was low, and initial voter counts appeared to show the Democratic candidate the winner. Republicans in Congress complained of voter intimidation in the south and after tense political negotiations with Democrats managed to have the Republican candidate Rutherford B. Hayes declared the winner with the agreement to end Reconstruction in the south.
+</p>
+
+<p xml:id='OTPSD63188P6'>The Republican Party continues to be one of the top two political parties in the United States. (Wikipedia)  
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Gladney, J. B.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-10-15</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Buena Vista, Mississippi, by J. B. Gladney concerning a &quot;financial policy for the country during the blockade.&quot;</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Buena Vista (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-940-03-13</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Chickasaw County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Amy Myers; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 940, Folder 3</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America--Economic conditions; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from J. B. Gladney to Mississippi Governor John J. Pettus; October 15, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/3967&quot;&gt;Letter from J. B. Gladney to Mississippi Governor John J. Pettus; October 15, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG44" who="U2" when="2024-10-25T17:27:55Z" target="#P1692177">
+          Version 20 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U2" when="2024-10-25T14:56:09Z" target="#P1692176">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2023-11-17T18:03:10Z" target="#P1692176">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-11-02T04:00:42Z" target="#P1692176">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-11-02T04:00:14Z" target="#P1692177">
+          Version 19 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-09-02T20:08:57Z" target="#P1692176">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U25091195" when="2023-03-30T00:35:47Z" target="#P1692177">
+          Version 18 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-03-19T18:34:05Z" target="#P1692176">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-03-19T18:29:39Z" target="#P1692177">
+          Version 17 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-03-19T17:27:17Z" target="#P1692176">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-03-18T21:53:25Z" target="#P1692176">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-03-18T03:22:55Z" target="#P1692177">
+          Version 16 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-17T22:43:07Z" target="#P1692176">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-17T22:05:18Z" target="#P1692177">
+          Version 15 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2022-12-04T19:22:08Z" target="#P1692177">
+          Version 14 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2022-12-04T15:29:05Z" target="#P1692176">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2021-10-28T02:34:55Z" target="#P1692177">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2021-05-21T19:12:09Z" target="#P1692177">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2021-03-23T20:06:11Z" target="#P1692177">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2021-03-23T20:05:09Z" target="#P1692176">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2021-03-23T20:04:42Z" target="#P1692176">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U217816" when="2021-03-17T13:40:55Z" target="#P1692177">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U217816" when="2021-03-17T13:37:55Z" target="#P1692176">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U217816" when="2021-03-17T13:37:19Z" target="#P1692176">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2021-03-07T23:33:26Z" target="#P1692176">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U228005" when="2021-03-01T22:57:35Z" target="#P1692176">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U228005" when="2021-03-01T22:55:10Z" target="#P1692177">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U228005" when="2021-03-01T22:49:51Z" target="#P1692177">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U228005" when="2021-03-01T22:46:22Z" target="#P1692177">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U228005" when="2021-03-01T22:36:48Z" target="#P1692177">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U228005" when="2021-03-01T22:29:59Z" target="#P1692176">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U228005" when="2021-03-01T22:29:52Z" target="#P1692176">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U228005" when="2021-03-01T22:28:21Z" target="#P1692176">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U228005" when="2021-03-01T22:27:11Z" target="#P1692176">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U228005" when="2021-03-01T22:26:24Z" target="#P1692176">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U228445" when="2021-02-23T17:57:28Z" target="#P1692177">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U228445" when="2021-02-23T17:56:36Z" target="#P1692176">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U228445" when="2021-02-23T17:49:55Z" target="#P1692177">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U228445" when="2021-02-23T17:49:23Z" target="#P1692177">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U228445" when="2021-02-23T17:41:46Z" target="#P1692177">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U228445" when="2021-02-23T17:14:44Z" target="#P1692176">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2021-01-20T22:27:45Z" target="#P1692177">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-01-20T22:27:45Z" target="#P1692176">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-01-20T22:27:40Z" target="#P1692177">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-01-20T22:27:40Z" target="#P1692176">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1692176" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/3965/full/full/0/default.jpg"/>
+        <div xml:id="OTP1692176">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1692176P0' xml:id='OTP1692176P0'><hi rend='underline'><rs ref='#S100779'>J. B. Gladney</rs></hi><lb/>
+Oct 15<add place='above'>th</add> 1861
+</p>
+
+<p corresp='TTP1692176P1' xml:id='OTP1692176P1'>His Excellency<lb/>
+<rs ref='#S63111'>John J Pettus</rs>
+</p>
+
+<p corresp='TTP1692176P2' xml:id='OTP1692176P2'><rs ref='#S51785'>Jackson</rs> <lb/>
+Miss
+</p>
+
+<p corresp='TTP1692176P3' xml:id='OTP1692176P3'>Answered<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP1692176P4' xml:id='OTP1692176P4'><rs ref='#S95059'>Beuna Vista</rs> Miss Oct 15 1861
+</p>
+
+<p corresp='TTP1692176P5' xml:id='OTP1692176P5'>Dear Sir
+</p>
+
+<p corresp='TTP1692176P6' xml:id='OTP1692176P6'>Permit me to call your careful attention to the greater portion of the enclosed printed circular and to the accompayning printed slip: in relation to a financial policy for the Country during the <rs ref='#S93394'>blockade</rs>.
+</p>
+
+<p corresp='TTP1692176P7' xml:id='OTP1692176P7'>I have been <rs ref='#S95151'>elected</rs> a member of <rs ref='#S52126'>The House of Representives in the Miss Legislature</rs> have but few acquaintances in This State and believe could be of most service by being placed on The Commitee of Ways &amp; Means
+</p>
+
+<p corresp='TTP1692176P8' xml:id='OTP1692176P8'>A word to the wise &amp;c
+</p>
+
+<p corresp='TTP1692176P9' xml:id='OTP1692176P9'>Very Respectfully<lb/>
+Yours &amp;c<lb/>
+J B Gladney
+</p>
+
+<p corresp='TTP1692176P10' xml:id='OTP1692176P10'>PS<lb/>
+I made the report on Direct Trade in <rs ref='#S102169'>The Ala Legislature</rs> 1851&amp; 2 which had not only a circulation in This Country in <rs ref='#S71395'>Europe</rs> Since That Time I have prepared a number of leaders under various names <rs ref='#S95149'>Jack</rs> as Scipio Lepauder &amp;c and drew up the report for the Beunavista meeting to which you were reveled ou 
+</p>
+
+
+        </div>
+        <pb xml:id="F1692177" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/3966/full/full/0/default.jpg"/>
+        <div xml:id="OTP1692177">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1692177P0' xml:id='OTP1692177P0'>on the eve of the <rs ref='#S55271'>Presidential election</rs> which—put an ends to the Union A clique from <rs ref='#S63400'>Aberdeen</rs> Threw such obsticals in the way of that meeting that it was defeated to some extent in it objects The report prepared for the ocasion I forwarded to <rs ref='#S62914'>Washington</rs> and leading men. There after a careful examination had it published as the leading article in The Nov of of De [Boros?] Review
+</p>
+
+<p corresp='TTP1692177P1' xml:id='OTP1692177P1'>I state these things to you not from vanity, or selfishness but because we are in in a great contest with no time to look At the session of the <rs ref='#S62915'>Miss Legislature</rs> for 1860 I spent a week for the purpose of having a settled policy agreed upon by the leading men of the State to be pursued  in case the <rs ref='#S63188'>Republicans</rs> carred The election For want of acquaintances I could effect nothing and went from There to <rs ref='#S63016'>Ala At Montgomery</rs> an understanding was made which in all probabelity has had much to do with all that has followed in the great contest for Southern Independence
+</p>
+
+<p corresp='TTP1692177P2' xml:id='OTP1692177P2'>Confedential [gap] Very Repespectfully <lb/>
+Yours &amp;<lb/>
+<hi rend='underline'>J. B. Gladney</hi>
+</p>
+
+<p corresp='TTP1692177P3' xml:id='OTP1692177P3'>His Excellency<lb/>
+John J Pettus
+</p>
+
+<p corresp='TTP1692177P4' xml:id='OTP1692177P4'>Jackson<lb/>
+Miss 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

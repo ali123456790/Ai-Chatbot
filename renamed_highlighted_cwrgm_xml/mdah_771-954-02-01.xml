@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 26 edits between
+              <date type="first_edit" when="2022-05-14T17:18:57Z">May 14, 2022</date> and
+              <date type="last_edit" when="2024-03-06T14:59:28Z">March  6, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-03-17T15:51:52Z">March 17, 2022</date> and
+              <date type="last_edit" when="2023-03-01T17:57:47Z">March  1, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-02-25T21:16:10Z">February 25, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-03-16T20:22:49Z">March 16, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T17:24:37Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:13:12+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32077452">
+              <persName>Miller, Stephen, 1816-1881</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32077453">
+              <persName>Blakely, David, 1834-1896</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S90294">
+              <placeName>Minnesota</placeName>
+                <idno>https://www.britannica.com/place/Minnesota/History</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS90294P0'>The Territory of Minnesota was established March 3, 1849. Admitted as the 32nd state, Minnesota achieved statehood May 11, 1858. (Britannica; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>46.7296, -94.6859</geo>
+                </note>
+            </place>
+            <place xml:id="S63018">
+              <placeName>Texas</placeName>
+                <idno>https://en.wikipedia.org/wiki/Republic_of_Texas</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63018P0'>The Republic of Texas was established on March 2, 1836. Admitted as the 28th state, Texas achieved statehood December 29, 1845. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.0, -100.0</geo>
+                </note>
+            </place>
+            <place xml:id="S71502">
+              <placeName>Military Forts--South Carolina. Fort Sumter</placeName>
+                <idno>https://www.scencyclopedia.org/sce/entries/fort-sumter/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001866">Military Locations</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS71502P0'>Located at the entrance to Charleston Harbor, Fort Sumter was a US fortification built in 1829. Fort Sumter was surrendered by Union forces on April 14, 1861 and remained under Confederate control until February 22, 1865. (South Carolina Encyclopedia; Britannica; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.75222, -79.87472</geo>
+                </note>
+            </place>
+            <place xml:id="S25026147">
+              <placeName>Minnesota--Ramsey County. St. Paul</placeName>
+                <idno>https://www.britannica.com/place/Saint-Paul-Minnesota</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS25026147P0'>Located in Ramsey County, St. Paul was founded in 1838 under the name Pig's Eye Landing in what was then Crawford County, Wisconsin. It became part of the newly created St. Croix County, Wisconsin on August 2, 1840, and was renamed St. Paul in 1841. On March 2, 1849, St. Paul became part of Minnesota Territory, and became the capital of the Minnesota Territory in 1849. It also serves as the county seat. (Britannica; Wikipedia; Atlas of Historical County Boundaries) 
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>44.94417, -93.09361</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S99663'>
+            <catDesc>
+              <term>Emancipation &amp; Self Emancipation</term>
+              <idno>https://www.battlefields.org/learn/articles/self-emancipation-act-freeing-oneself-slavery#:~:text=Self%2Demancipation%20was%20the%20act,slaves%20were%20able%20to%20do.</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99663P0'>The term "emancipation" describes "the act of freeing a person from another person's control" (Cambridge Dictionary). In the nineteenth-century United States, this term most often referred to an enslaved person's escape from their enslaver's control and legal ownership. Self-emancipation describes "the act of an enslaved person freeing him or herself from the bondage of slavery," by a variety of means legal and extralegal. (American Battlefield Trust)
+</p>
+
+<p xml:id='OTPSD99663P1'>Occurring throughout the nineteenth century, self-emancipation under the law took the form of an enslaved person purchasing their own freedom through wages made performing trades outside of their enslaver's property. This process most often occurred in urban areas, particularly those in coastal regions of the U.S., but state legal restrictions made manumission virtually impossible by the mid-nineteenth century. Loved ones who purchased family members were forced to legally hold them in bondage, leading to a body of people who "were free by practice, but not by law." (Amrita Chakrabarti Myers, <hi rend='italic'>Forging Freedom</hi>)
+</p>
+
+<p xml:id='OTPSD99663P2'>The most extreme and least common form of self-emancipation was suicide, which many enslaved people chose rather than remaining in bondage. The most frequent method of self-emancipation, especially during the American Civil War, was to escape from an enslaver's property and flee without their permission. Many notable abolitionists like Frederick Douglass and Harriet Tubman self-emancipated by running away. Running away signaled how self-emancipation caused legal emancipation for all the enslaved in the United States. During the Civil War, so many enslaved persons self-emancipated and fled to Union lines that the U.S. government had to craft a response. That response manifested first in the Emancipation Proclamation of 1863, freeing the enslaved in territories under rebellion, and later in the 13th Amendment of 1865, which abolished slavery altogether. Self-emancipation became a primary way for enslaved African Americans in the antebellum U.S. to wield agency over their lives, and their efforts eventually succeeded in producing legislative emancipation from the top down. (American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+<category xml:id='C32001126S99663'>
+<catDesc>
+<term><rs ref='S99663'>Emancipation &amp; Self Emancipation</rs></term>
+</catDesc>
+</category>
+          <category xml:id='S32005193'>
+            <catDesc>
+              <term>Military Engagements</term>
+              <idno>https://www.battlefields.org/learn/articles/civil-war-facts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32005193P0'>The act of beginning to fight or a period of time in a war, military engagements are also referred to as battles or skirmishes. Battles are fights between armed forces, and usually describe singular events that occur over the course of hours or a few days. Skirmishes are smaller fights, usually between a small number of soldiers that occur unexpectedly, last only a few minutes or a few hours, and take place away from the main area of fighting.
+</p>
+
+<p xml:id='OTPSD32005193P1'>There were approximately 10,500 engagements during the American Civil War. Fifty of them were major battles, while another one hundred were notable engagements. The rest were small battles or skirmishes. (Cambridge Dictionary; American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S76215'>
+            <catDesc>
+              <term>Military Engagements--Fort Sumter, Siege of, Charleston, S.C., 1861</term>
+              <idno>https://www.battlefields.org/learn/civil-war/battles/fort-sumter</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.75222, -79.87472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD76215P0'>The Battle of Fort Sumter was fought on April 12 – 14, 1861 in Charleston Harbor, Charleston County, South Carolina between the Union garrison at Fort Sumter commanded by Maj. Robert Anderson and Confederate forces commanded by Gen. P. G. T Beauregard. It was the opening battle of the Civil War and resulted in a Confederate victory. South Carolina seceded from the Union on December 20, 1860 and the State’s authorities demanded that the U. S. Army abandon its facilities in Charleston Harbor, which was refused. On December 26, 1860 Anderson moved his garrison from the indefensible Fort Moultrie to Fort Sumter, situated at the entrance into Charleston Harbor. In March of 1861, Beauregard positioned the artillery of the newly formed Confederate Army around Charleston harbor, with its guns pointed at Fort Sumter. An attempt to resupply the garrison failed and Confederate forces opened fire on the fort on the morning of April 12. After a thirty-four-hour exchange of cannon fire, Anderson outgunned and low on ammunition and provisions, surrendered the garrison on April 14. The total number of forces engaged in the battle was 580; 80 Union and 500 Confederate. Neither side suffered battle casualties, however, two Union soldiers were killed when a gun fired in salute exploded during the surrender ceremony. (American Battlefield Trust; Encyclopedia Britannica)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32032134'>
+            <catDesc>
+              <term>Wars and Military Conflicts--Dakota War, Minnesota, 1862</term>
+              <idno>https://en.wikipedia.org/wiki/Dakota_War_of_1862</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>44.52611, -94.95778</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32032134P0'>The Dakota War of 1862, also known as the Sioux Uprising or Dakota Uprising, was a military conflict between the U.S. Army and Native Americans in Minnesota. It began in August 1862, when several members of eastern bands of the Dakota (collectively known as the Santee Sioux) attacked white settlements southwest Minnesota. The Dakota previously had been relocated by U.S. officials and encouraged to abandon their traditional hunting for European-style agricultural living. On August 17, 1862, in the midst of tensions from these forced changes, and a crop failure in 1861 that left many Dakota starving, a group of four young Dakota men killed a family of five white settlers in Acton, Minnesota. They reported their act to Dakota leaders, who were initially conflicted on a course of action. Ultimately, proponents of war won the debate and the next morning a large war party began launching attacks to chase all white settlers out of the Minnesota River valley. Dozens of white Americans were killed and wounded, and more than fifty (mostly women and children) were taken captive during several days of raids. The U.S. Army sent forces into Minnesota and defeated the Dakota in the Battle of Wood Lake on September 23, 1862.
+</p>
+
+<p xml:id='OTPSD32032134P1'>Following their defeat, a Dakota peace party surrendered almost 270 captives. Army officials then arrested almost four hundred Dakota men and put them trial before a court of Minnesotans. A total of 303 prisoners were condemned to death. The sentences were forwarded to President Abraham Lincoln, who commuted the sentences of all but thirty-eight of the Dakota prisoners. They were executed in the largest mass hanging in U.S. history on December 26, 1862. Those whose sentences were commuted were imprisoned until 1866. By the time they were released, one-third had died of disease.
+</p>
+
+<p xml:id='OTPSD32032134P2'>The fallout of the war also affected the rest of the Dakota. More than 1,600 Dakota people were relocated to Fort Snelling in Minnesota in November 1862, where they experienced horrendous conditions, and then sent to a reservation in Dakota Territory. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S25009399'>
+            <catDesc>
+              <term>Conventions</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/convention?q=Conventionss</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25009399P0'>"A large formal meeting of people who do a particular job or have a similar interest, or a large meeting for a political party." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001150S99663'>
+<catDesc>
+<term><rs ref='S99663'>Emancipation &amp; Self Emancipation</rs></term>
+</catDesc>
+</category>
+          <category xml:id='S95151'>
+            <catDesc>
+              <term>Political Elections</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/election?q=elections</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95151P0'>"A time when people vote in order to choose someone for a political or official job." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S55271'>
+            <catDesc>
+              <term>Political Elections--Election of 1860</term>
+              <idno>https://guides.loc.gov/presidential-election-1860#:~:text=Abraham%20Lincoln%20(Republican)%20won%20the,John%20Bell%20(Constitutional%20Union).</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD55271P0'>Held on November 6, 1860, the Election of 1860 featured candidates Abraham Lincoln (Republican), John C. Breckinridge (Southern Democrat), John Bell (Constitutional Union), and Stephen A. Douglas (Democrat) for U.S. President. While Lincoln garnered less than 40% of the popular vote, he received enough Electoral College support to win the presidency. As a Republican and anti-slavery advocate, Lincoln did not even feature on many southern ballots. Southern politicians perceived Lincoln's election as a threat to the institution of slavery and as evidence that their interests were not represented by the federal government. The Election of 1860 thereby catalyzed the southern secession movement (Library of Congress; Wikipedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S98996'>
+            <catDesc>
+              <term>Political Office--Appointment to Office</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/appointment</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98996P0'>"The act of officially choosing someone for a job, or the job itself." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S71916'>
+            <catDesc>
+              <term>United States. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71916P0'>The United States Army is the military land force of the United States of America. During the American Civil War it was also referred to as the Union Army, Federal Army, or Northern Army. Its primary military objective during the war was the restoration and preservation of the United States through the defeat of secessionist forces. The United States Army traces its roots to the Continental Army, created in 1775 during the American Revolution. Following American independence, the new United States severely reduced the size of the army due to distrust of permanent standing military forces. The small regular army generally handled military operations against Native Americans and for coastal defense. State authorities were expected to support the country’s military needs with their militias, or by raising volunteer units, temporarily activated for federal service.
+</p>
+
+<p xml:id='OTPSD71916P1'>At the outbreak of the Civil War, the United States regular army consisted of barely more than 16,000 soldiers, scattered across the country (primarily at coastal defenses and forts established in the territories) among ten infantry regiments, four artillery regiments, two cavalry regiments, two dragoon regiments, and one regiment of mounted rifles. Roughly 20% of the army’s officers and enlisted resigned their positions to fight for the Confederacy. After Southern troops attacked and captured Fort Sumter in South Carolina, President Abraham Lincoln called for 75,000 volunteers to expand the army and defeat the Confederates. The government continued to issue subsequent requests for volunteers as the war progressed. As with established practice, the states were to recruit the volunteers and provide them for federal service. Initial enlistments were for 90 days, but eventually enlistment terms were expanded, typically for three years. In total, more than 2,000,000 men served in the United States Army during the course of the Civil War. Of those, only around 60,000 were part of the regular army. The overwhelming majority were in state-based units. Most soldiers were volunteers, however the federal government began drafting men in 1862, as the army’s campaigns continued and volunteer numbers dwindled. In total, around 46,000 Union soldiers (about 5.5%) were draftees.
+</p>
+
+<p xml:id='OTPSD71916P2'>Approximately two-thirds of the soldiers in the United States Army during the Civil War were native-born white citizens. Around 100,000 were from states within the Confederacy. Immigrants made up about 25% of Union soldiers, with Germans and Irish immigrants being among the most prominent. The army also included soldiers of different ethnicities, including more than 3,000 Native American soldiers. In 1863, the Union army began formally accepting African American soldiers—in segregated units—and by the end of the war, around than 179,000 had served in the United States Army uniform.
+</p>
+
+<p xml:id='OTPSD71916P3'>When hostilities ended in June 1865, approximately 110,000 had been killed in combat or succumbed to wounds, more than 220,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63977'>
+            <catDesc>
+              <term>United States. Navy</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Navy</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63977P0'>The United States Navy, also known as the Union Navy during the American Civil War, was primarily responsible for blockading the Confederacy’s coastlines and harbors, destroying Confederate ships, and supporting Union Army amphibious operations along the Atlantic and Gulf of Mexico shores, and river. At the beginning of the war, the Union Navy had ninety ships, far outmatching the Confederacy’s fourteen vessels. Through the North’s superior manufacturing capabilities and larger population, the Union Navy substantially increased its force to more than 650 ships and 20,000 sailors by the time the war ended. In comparison, the Confederate Navy barely surpassed one hundred ships and 5,000 sailors.
+</p>
+
+<p xml:id='OTPSD63977P1'>The Union Navy’s blockade of the Confederacy was very successful, cutting the South’s trade to only five percent of its pre-war numbers. In a vain effort to defeat the federal ships blocking their harbors, Confederate forces focused on innovative ship technology, such as ironclad vessels (wooden ships protected by iron plates) and the first operational submarine (named the Henley). Union officials managed to counter these efforts by developing their own ironclad ships, including the USS <I>Monitor</I>, a flat, iron-plated vessel with a rotating turret.
+</p>
+
+<p xml:id='OTPSD63977P2'>While the Union Navy did engage in a few notable sea battles (the fight between the USS <I>Monitor</I> and the Confederacy’s ironclad CSS <I>Virginia</I> being the most famous), most of its combat action involved supporting the Union Army’s ground operations along the Mississippi River, at Mobile Bay, and in places like Charleston, South Carolina, and Fort Fisher, North Carolina. Capturing ports and coastal fortifications not only reduced the strength of the Confederate military, but gave the Union Navy vital supply bases for its own operations around the South. The assaults upon the coastal positions involved more traditional naval warfare with cannonading by wooden ships; but the Navy developed the shallower draft ironclads for operations on the rivers and waterways. These steam-powered ships were more maneuverable than wooden sail ships, and were better protected against close-range artillery by Confederate river forts.
+</p>
+
+<p xml:id='OTPSD63977P3'>After the Civil War, the Union Navy—like the army—downsized to a number close to its pre-war number. However, the war had introduced key technological and doctrinal changes to sea and river warfare across the globe. At least for a short time, the Union Navy had been the most technologically advanced maritime force in the world. (Wikipedia; American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+          <category xml:id='S32032135'>
+            <catDesc>
+              <term>Relief &amp; Welfare--Soldiers&#39; Homes</term>
+              <idno>https://en.wikipedia.org/wiki/Old_soldiers%27_home</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32032135P0'>Soldiers’ Homes, or Veterans’ Homes, are living facilities that provide care for elderly or disabled veterans. Some of these institutions also care for spouses or children of service members killed in the service of the country. The first such home in the United States was originally dedicated to Navy veterans and opened in 1834 at the Philadelphia Naval Yard. A Soldier’s Home for Army veterans opened in Washington, D.C., in 1851. Beyond these federally-run facilities, some state governments provided living quarters and support for their veterans. Some state homes opened before the end of the Civil War. Connecticut opened a home for disabled soldiers and orphans in 1864. At the end of the Civil War, the federal government increased the number of Soldiers’ Homes and veterans organizations, such as the Grand Army of the Republic (for Union veterans) and the United Confederate Veterans raised funds to establish veterans’ homes. By the early 1930s, there were fifty-five state veterans’ homes and seventeen federally-operated soldiers’ homes across the country. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S32025076'>
+            <catDesc>
+              <term>Minnesota--Office of the Secretary of State</term>
+              <idno>https://en.wikipedia.org/wiki/Minnesota_Secretary_of_State</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>46.0, -94.0</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32025076P0'>Operating at the state level, the Minnesota Secretary of State is elected by the state for a four-year term and is responsible for overseeing state election laws and government records. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001717'>
+<catDesc>Voluntary Social &amp; Political Groups</catDesc>
+          <category xml:id='S32082700'>
+            <catDesc>
+              <term>Political Parties</term>
+              <idno>https://en.wikipedia.org/wiki/Political_party</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32082700P0'>"A political party is an organization that coordinates candidates to compete in a particular country's elections. It is common for the members of a party to hold similar ideas about politics, and parties may promote specific ideological or policy goals." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25012756'>
+            <catDesc>
+              <term>Political Parties--Democratic Party (U.S.)</term>
+              <idno>https://en.wikipedia.org/wiki/Democratic_Party_(United_States)#History</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25012756P0'>The Democratic Party is national political party in the United States. It was created in 1828 as a coalition of state political groups who supported Andrew Jackson for national office. Its original principles included support for strong presidential authority, agrarianism, and westward expansionism, while opposing a national bank and high import tariffs. The party enjoyed political success with Jackson’s election to the presidency in 1828 and eventually established itself as a the most powerful political group in the mid-nineteenth century United States, with the younger Whig Party slightly behind.
+</p>
+
+<p xml:id='OTPSD25012756P1'>The Democratic Party’s biggest challenge was the issue of slavery. The topic primarily divided American politics along north versus south (or free versus slave state) geographical factions. By 1850, the Democratic Party was largely dominated by southern and pro-slavery figures, who advocated the expansion and protection of the institution. Many northern Democrats adopted a neutral, if not pro-slavery, approach to the slavery debate to maintain party cohesion. Then in 1854, aspiring Democratic politician Stephen A. Douglas of Illinois introduced legislation known as the Kansas-Nebraska Act to strike down the Missouri Compromise, which had prohibited slavery in the western territories above the 36°30′ parallel (a line extending westward from Missouri’s southern border) since 1820. Douglas’ act proposed the principle of “popular sovereignty,” or popular vote by the people, within a territory to determine its slaveholding laws. Strongly supported by southern Democrats, the highly controversial bill passed through the U.S. Congress and was signed into law by Democratic president Franklin Pierce. The sudden introduction of slavery into northern territories restructured American politics. The Whig Party, which had been largely made up of northerners, crumbled as its anti-slavery members flocked to the emerging Republican Party with its strong commitment to prohibiting slavery from the territories. The bill also sent shockwaves through the Democratic Party, as many northern Democrats who had tried to remain neutral on the matter of slavery but now believed the party had given in to pro-slavery demands of its southern members. Additionally, several northern Democratic congressmen lost reelection due to the northern public’s backlash to passage of the Kansas-Nebraska Act. Many disgruntled northern Democrats also joined the Republican Party.
+</p>
+
+<p xml:id='OTPSD25012756P2'>Unlike the Whigs, the Democratic Party survived the 1850s, but once again fractured during the 1860 presidential election. Demanding better protections for slavery, especially in the face of a surging Republican Party movement in the northern states that nominated Abraham Lincoln, pro-slavery southern Democrats staged a walkout of the party’s national convention. The main party nominated northerner Stephen A. Douglas, while the southern Democrats, many of whom styled their faction as the "states rights" party, held their own competing convention and nominated John C. Breckenridge for president. This divide in the Democratic Party helped Abraham Lincoln win the 1860 presidential election.
+</p>
+
+<p xml:id='OTPSD25012756P3'>Southern secession sent most southern Democrats into the Confederacy. The national party survived in the northern states, but split into two factions during the Civil War: the War Democrats and the Peace Democrats. The War Democrats were strongly anti-secession and generally approved of the Lincoln administration’s military efforts. Peace Democrats largely opposed the Lincoln administration and recommended negotiation to restore the Union, if not outright Confederate statehood. During the 1864 election, Republicans who supported Lincoln rebranded themselves the National Union Party to draw votes from War Democrats who would otherwise not support an openly Republican ticket. The effort worked, in part due to the National Union Party nominating Democrat Andrew Johnson for vice president.
+</p>
+
+<p xml:id='OTPSD25012756P4'>After the Civil War, former Confederates boosted the Democratic Party’s numbers in the United States. In the south during Reconstruction, the Democratic Party labored to limit African American rights and preserve white supremacy in southern society. In late 1874, conservative whites in Mississippi began the “Mississippi Plan” to regain Democratic control of the state government. Over the next several months, and particularly during the 1875 election, Democrats secured political power in Mississippi, in large part through voter suppression and intimidation aimed at African Americans and Republicans. A year later, when New York Democrat Samuel Tilden won the popular vote in the 1876 presidential election, Republicans contested the results with accusations of voter fraud. During tense debates, Democrat leaders agreed to accept the election of the Republican candidate Rutherford B. Hayes, if Republicans would end Reconstruction in the South. This agreement led to the withdrawal of federal troops from the south, the domination of southern politics by the Democratic Party, and the elimination of many African American civil rights in that region.
+</p>
+
+<p xml:id='OTPSD25012756P5'>The Democratic Party remained the most powerful political force in the south well into the twentieth century. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001717S32032135'>
+<catDesc>
+<term><rs ref='S32032135'>Relief &amp; Welfare--Soldiers&#39; Homes</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001669'>
+<catDesc>Family Structures</catDesc>
+          <category xml:id='S64105'>
+            <catDesc>
+              <term>Marital Status--Widows</term>
+              <idno>https://www.essentialcivilwarcurriculum.com/civil-war-widows.html</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001669'>Family Structures</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD64105P0'>Widows were classified as women whose legal husband died and they had not legally remarried (Cambridge Dictionary). Due to the bloodshed of the American Civil War, the United States saw a rapid increase in widowhood in the mid-to-late-nineteenth century; one estimate puts the number of widows at over 200,000 (Essential Civil War Curriculum). The Civil War altered antebellum patterns of widowhood by lowering the average age of widows, since many of those who lost their husbands to the war were in their twenties or thirties, and increasing the number of pregnant widows. Since American coverture legally subsumed a woman's identity under her husbands', many widows had no choice but to quickly remarry for social and economic protection.
+</p>
+
+<p xml:id='OTPSD64105P1'>The Civil War also altered antebellum grieving traditions in that the presence of so many widows, often many within the same community, became more visible due to their numbers. Antebellum social etiquette also stipulated that a woman grieve her husband for roughly two and a half years, while the experience of war often led widows not only to stop mourning but to start rebuilding their lives (and finding other partners) far quicker. In the South, many women inherited large estates and numerous enslaved people upon their husbands' death, becoming solely responsible for maintaining operations and adopting the role of enslaver.
+</p>
+
+<p xml:id='OTPSD64105P2'>Widows in both the North and South played outsized roles in commemorating the Civil War and deeply impacted the war's popular memory. Women were societally expected to remember their husbands as honorable, infusing that memory into the statuary and literature of the late-nineteenth and early-twentieth centuries. Antebellum social and legal practices also ensured that women were generally financially dependent upon their husbands, and widowhood thereby faced many women with poverty. Reform agencies therefore often targeted widows in their charitable work, and the widows themselves sought financial assistance from the federal government by applying for pensions, expanding the American welfare state. While widowhood existed prominently throughout the nineteenth century, the Civil War ultimately increased the number of widows and radically altered their places in American life (Essential Civil War Curriculum).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S58310'>
+            <catDesc>
+              <term>Orphans</term>
+              <idno>https://en.wikipedia.org/wiki/Orphan</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001669'>Family Structures</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58310P0'>The status of "orphan" is defined in the United States as "a minor bereft through death or disappearance of, abandonment or desertion by, or separation or loss from, both parents" (Wikipedia). CWRGM also applies this term to identify military orphans, or a child whose mother is still living but whose father died in military service. Orphans in the nineteenth-century often came from a variety of backgrounds and had an equal variety of experiences. While the death of both parents, usually from disease, certainly left many children orphaned, poverty remained the primary cause by which a child could be sent to live at an orphanage. The rise of industrialism in the U. S. brought about a concurrent rise in poverty, particularly in the nation's cities. Many impoverished parents either abandoned their children at orphanages or asked that orphanages take in their children to provide them with the food, shelter, medicine, and in certain cases education that working-class parents could not. Children could spend months or years in orphanages, though many forced them to return to their families or go out on their own by age 15 or 16. Most orphanages were privately owned and operated by religious or reform organizations, though some states increasingly sponsored institutional homes for orphans by the end of the nineteenth century. While the vast majority of orphanages operated in major eastern cities, the so-called "orphan train" process sent orphans by train to rural areas of the country, where reformers thought that family life and agricultural work would keep them from the moral corruption of the city. Orphans of different races, religions, and ethnicities also experienced orphanages differently, as many excluded non-white, immigrant, and Jewish orphans. Ultimately, the devastation of the Civil War and the widespread poverty of industrialism in the U. S. produced an unprecedented number of orphans, and their care became a principal cause among reformers throughout the nineteenth century (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 454-6).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001672'>
+<catDesc>Health</catDesc>
+          <category xml:id='S73740'>
+            <catDesc>
+              <term>People with Disabilities</term>
+              <idno>https://www.nps.gov/articles/disabilityhistoryearlytreatment.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001672'>Health</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD73740P0'>People with disabilities are defined as those people experiencing "any condition that makes it more difficult for a person to do certain activities or have equitable access within a given society" (Wikipedia). People with disabilities in nineteenth-century America faced a variety of different options and experiences based on both their region, age, and specific disability.
+</p>
+
+<p xml:id='OTPSD73740P1'>Early in the nineteenth century, many communities saw supporting people with disabilities as a local matter; however, as the nineteenth century progressed and cities and their populations (including people with disabilities) grew exponentially, many state governments took responsibility for supporting people with disabilities. That support most often took the form of almshouses or hospitals in which residents lived permanently, usually in rural areas for fear of urban environments' negative impacts on health. Different religious, medical, and reform organizations took different approaches to the treatment of disabilities, including the treatment of a person's morals in addition to medical care. Like many other branches of medicine, popular medical understandings of many disabilities remained incorrect and even harmful in the nineteenth century, particularly the concept of eugenics, or the idea that controlling genetics could improve or even perfect humanity. Doctors espousing these beliefs sometimes conducted forced sterilizations and lobotomies on their patients, either to prevent their reproduction or to reduce mental health issues.
+</p>
+
+<p xml:id='OTPSD73740P2'>The devastation of the American Civil War and the increase of people with war-related disabilities brought much more attention to the study of disabilities and their treatment, but ultimately humane and ethical methods of caring for people with disabilities remained far in the future. CWRGM adopts the term "People with disabilities" to foreground individuals' personhood over their status or physical condition (National Park Service; Wikipedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001666'>
+<catDesc>Races, Ethnicities, &amp; Nationalities</catDesc>
+          <category xml:id='S71308'>
+            <catDesc>
+              <term>Native Americans</term>
+              <idno>https://americanindian.si.edu/nk360/informational/impact-words-tips </idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71308P0'><b>Native American History:</b> The Cambridge Dictionary defines a Native American person as "a member of one of the groups of people who were living in North and South America before Europeans arrived." (Cambridge Dictionary) Native Americans have a long and complicated history with the United States. Since the founding of the U.S., Native American tribes, incredibly diverse in language, government, religion, and culture, were barred from U.S. citizenship and treated as independent nations with whom the U.S. was required to act only through mutually agreed upon treaties and diplomatic measures. However, in practice, United States frequently employed deceit and violence to accomplish its aims with Native Americans.
+</p>
+
+<p xml:id='OTPSD71308P1'>While Native Americans had lived on North American soil throughout the continent and in every part of what would become the U.S. since long before European settlers arrived, Native American-U.S. relations in the nineteenth century became the story of how the U.S. sought to remove Native Americans from that ancestral land and to colonize it for its own purposes. The largest, though certainly not the only, of these efforts came with the Indian Removal Act of 1830, which in seeking to open the rich soil of southeastern states like Mississippi to enslaved labor required Native Americans living there to relocate to reservations west of the Mississippi River. Indian Removal was a brutal process including extensive forced marches in terrible conditions.
+</p>
+
+<p xml:id='OTPSD71308P2'>While Native Americans fought on both sides of the American Civil War, the U.S. Army continued to violently force Native Americans further even from their reservation lands throughout the nineteenth century in a series of conflicts known generally as the "Indian Wars." Despite facing enormous legal, political, and military adversity as well as racism from the American populace, Native Americans often remained both in their original homelands as well as in reservations, working continually to right the historical wrongs committed by the federal government, establishing more equitable relationships to the U.S., and remaining an integral part of American history and life into the twenty-first century. (Library of Congress; Mississippi Encyclopedia)
+</p>
+
+<p xml:id='OTPSD71308P3'><b>Native American Naming Conventions:</b> Native Americans, also referred to as Indigenous people or American Indians, are the original inhabitants of North America. When Columbus sailed from Portugal, he intended to reach the Dutch East Indies, or what is today Singapore. Instead, he landed in the Caribbean and labeled the inhabitants “Los Indios.” (James A. Campbell, “Columbus and <hi rend='italic'>Los Indios</hi> as ‘God’s People’,” <hi rend='italic'>Los Angeles Times</hi>) Thus, the name became anglicized and “Indian” became common usage by Europeans after they arrived in North America. The term “American Indian” is used by the United States Federal Government and by the U.S. Census Bureau. The term Native American and Indigenous are more recent terminology that developed in the latter half of the 20th century, but not all Indigenous people in the U.S. agree to a single unified term.
+</p>
+
+<p xml:id='OTPSD71308P4'><b>Legal Terminology:</b> Native Americans are incorporated into the U.S. legal system, as they are the only ethnic group explicitly mentioned in the <hi rend='italic'>U.S. Constitution</hi>. The commerce clause restricts individual states from dealing with “Indian Tribes.” (<hi rend='italic'>U.S. Constitution</hi>, Article 1, Section 8, Clause 3) Instead, only the federal government can ratify treaties made with American Indians. While treaties are legally binding documents that outline how two governments should honor each other’s promises, they were ratified into law but rarely honored due to corruption or general ill-will. The case <hi rend='italic'>Cherokee v. Georgia</hi> in the 1830s ruled that American Indians are “Domestic Dependent Nations,”  therefore, they have the ability to govern themselves (sovereignty), but with curtailed authority. As a result, Native American sovereignty is frequently determined and redetermined by social events, court decisions, and politicians.
+</p>
+
+<p xml:id='OTPSD71308P5'>In 1934, Congress passed the Indian Reorganization Act also known as the Howard-Wheeler Act, giving tribes the ability to adopt constitutions by democratic vote. Some tribes adopted constitutions, while others rejected it. Each tribal community or nation has to be recognized by the U.S. Federal Government to receive services through the Bureau of Indian Affairs or to benefit from certain rights afforded to American Indians.
+</p>
+
+<p xml:id='OTPSD71308P6'><b>Native American’s Today:</b> The question of who is considered Native American is a controversial topic, as each tribal community has the sovereignty to determine their own membership. Some use lineal descent, residency, or Blood Quantum—or the calculation of full-blooded “Indian” ancestors in an individual’s lineage to determine a fraction like 1/4)—to determine enrollment in a federally recognized tribe. Today, Native Americans continue to work to achieve and protect sovereignty and the ability to direct their future for their communities. In the 1960s and 1970s, American Indians achieved self-determination—or the ability for tribes to govern themselves with minimal federal oversight—especially regarding treaty rights.
+</p>
+
+<p xml:id='OTPSD71308P7'>CWRGM recognizes the immense diversity of Native American tribes and their unique experiences and therefore uses the "Native Americans" tag to make those experiences more discoverable only in the absence of references to specific tribal names within its documents. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S63262'>
+            <catDesc>
+              <term>Death</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/death</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63262P0'>While the Cambridge Dictionary defines death as “the end of life,” CWRGM employs this subject tag to refer to human deaths only, both actual and hypothetical. (Cambridge Dictionary)
+</p>
+
+<p xml:id='OTPSD63262P1'>The nation experienced mass loss of life (approximately 2% of the population) during the American Civil War, which changed the way Americans viewed death and resulted in its reconceptualization in highly bureaucratized ways. Often wartime dead were buried without their names and sometimes in poorly-dug graves, which created a powerful, profound social and cultural dislocation for their surviving loved ones. During the 19th century, Americans understood dying as a social and religious experience, and desired a "good death," which they defined as at home surrounded by family, but these ideals were unattainable in war. Consequently, Americans learned to cope with death and memorialize it in new ways. Unionists encouraged the federal government and ex-Confederates pushed their respective state governments to create and fund national cemeteries, rebury deceases soldiers and veterans, and establish veterans' and widows' pensions. These new responses to death were more bureaucratized, nationalistic, and secularized. Wartime and post-war death was also highly impacted by race, as white supremacists desecrated the graves of Union buried in the South, especially the bodies of African Americans who served in U.S. Colored Troops and the white officers that led them, revealing post-war sectionalism and strains on reconciliation. (Drew Gilpin Faust, <hi rend='italic'>This Republic of Suffering</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S69274'>
+            <catDesc>
+              <term>Disease and Illness</term>
+              <idno>https://www.battlefields.org/learn/articles/common-diseases-18th-and-19th-century</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD69274P0'>Approximately 620,000 Americans died during the Civil War. For this reason, the war is often called America’s bloodiest conflict. However, two-thirds of Civil War deaths were caused by disease, not combat. The disparity is greater for non-fatal victims: 400,000 soldiers suffered wounds or injuries compared to 6,000,000 cases of illness. Since a combined 3,000,000 men fought in Union and Confederate armies, this means the average soldier fell ill to disease twice during his military service.
+</p>
+
+<p xml:id='OTPSD69274P1'>Numerous types of diseases afflicted soldiers and civilians during the Civil War and Reconstruction era. Some were ubiquitous, like the common cold and diarrhea, which rarely garnered much attention unless the symptoms worsened into a more severe condition. Pneumonia, typhoid, and malaria were among the most serious diseases in the mid-nineteenth century. Epidemics of yellow fever and small pox also ravaged some civilian communities and military units. Perhaps the most deadly to Civil War soldiers, though, was dysentery, which was diarrhea with blood in the stool. Nearly 60,000 people died from dysentery during the war, and Union officials recorded 1.5 million cases of diarrhea or dysentery between 1861 and 1865.
+</p>
+
+<p xml:id='OTPSD69274P2'>All Americans, regardless of economic status or race, suffered pain and loss due to illness during the era. The President of the United States Abraham Lincoln and President of the Confederate States Jefferson Davis—the two most powerful individuals in North America, with access to the best resources—each lost a child to disease during the Civil War. The problem worsened with the sudden shifting of human populations during and after the war, as outbreaks of diseases spread rapidly. While many soldiers from highly populated areas had developed immunity to childhood diseases such as chicken pox, diphtheria, mumps, measles citizen soldiers from rural areas proved more susceptible to severe reactions when exposed to those diseases. Physicians improved medical care during the Civil War, as many recognized the value of sunlight and fresh airflow. However, they could only provide soldiers such healthy conditions behind the lines, at hospitals or rest areas. In many camps, or in the field during campaigns, soldiers were exposed to poor weather, extreme temperatures, and unsanitary conditions. Those who suffered the worse were in prisoner of war camps, in both north and south, where thousands of soldiers died from dysentery or other diseases. Civil War doctors did not fully understand the spread of diseases, including contaminated water (in the case of typhoid and dysentery) or mosquitos (for malaria and yellow fever). As such, camps, forts, and prisons rarely were constructed with the soldiers’ health in mind, and Civil War medicine most often involved responding to disease rather than preventing it.
+</p>
+
+<p xml:id='OTPSD69274P3'>Another source of illness among soldiers, and civilians in war-torn areas, was dietary deficiencies. Despite efforts by subsistence and commissary personnel in Union and Confederate armies, feeding thousands of troops daily proved a monumental task. Food preservation techniques still relied heavily upon drying and salting, and fresh vegetables and fruits were limited and dependent upon seasons. As a result, most Civil War soldiers likely suffered from a Vitamin C deficiency, the most severe cases resulting in scurvy which caused the loss of teeth and bleeding. Heavy reliance upon corn-based foods, especially within southern military units or Union prisoners held in southern prisoner of war camps, led to high instances of pellagra, a condition caused by the lack of niacin (or vitamin B3). Present in most foods, but not corn, victims suffered from diarrhea, skin sores, and dementia.
+</p>
+
+<p xml:id='OTPSD69274P4'>Often ignored, Americans also suffered from sexually transmitted diseases during the Civil War and afterwards. Although rarely fatal, more than 100,000 soldiers were diagnosed with gonorrhea and nearly 80,000 became infected with syphilis. Unsurprisingly, most of these cases occurred when soldiers were near populated areas, especially during training or time in camp, where they had more opportunities to interact with women. Venereal disease rates were higher at the start and at the end of the Civil War. That trend may reflect the fact that rates went down for armies on campaign in the field. The overall rate of venereal disease in the Union Army fluctuated from about 82 to 87 cases for every 1,000 soldiers, Some Union military units reported extremely high rates of venereal disease, particularly in the west. For instance, military physicians in the Department of the Pacific recorded 461 cases out of 1,000 men in 1862.
+</p>
+
+<p xml:id='OTPSD69274P5'>The Civil War also led to disease outbreaks among civilians. Like country-born soldiers introduced to new diseases in military camps, fugitive or liberated slaves who congregated in refugee camps behind Union lines became exposed to new diseases. Cities besieged by armies, such as Vicksburg, Atlanta, and Richmond, faced problems with sanitation and food supplies, compromising the health and immune systems of local residents, leaving them more susceptible to illness.
+</p>
+
+<p xml:id='OTPSD69274P6'>Finally, while most people survived bouts of illness during the Civil War, countless carried pathogens back to their home communities, or simply carried long-term effects from diseases within their bodies. Respiratory infections, blood borne diseases, and other afflictions obtained during the war decreased the quality of life of many Americans, or led to other health complications and early death. (American Battlefield Trust, Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 205–213; George Worthington Adams, <hi rend='italic'>Doctors in Blue</hi>, 3–5; Thomas P. Lowry, <hi rend='italic'>The Story the Soldiers Wouldn't Tell</hi>, 104–108)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25003265'>
+            <catDesc>
+              <term>Wounds and Injuries</term>
+              <idno>https://www.civilwarmed.org/surgeons-call/amputation1/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25003265P0'>Medical treatment of wounds and injuries during the nineteenth century was fairly primitive, and not substantially different than medical practices over the preceding few centuries. Doctors had little knowledge of bacteria, and therefore did not understand the importance of washing hands or sterilizing medical instruments when treating open wounds. Physicians learned that some substances seemed to aid recovery, such as iodine and bromine, but their properties were more mystery than scientifically understood. Additionally, antibiotics had not yet been discovered. As a result, even minor cuts could become infected and lead to severe disability or death.
+</p>
+
+<p xml:id='OTPSD25003265P1'>During the Civil War, more than 475,000 soldiers were wounded in battle.  Thousands more suffered injuries in camp or on the march.  Medical care for wounded and injured soldiers typically involved closing wounds and setting broken bones. After suturing or bandaging these injuries, physicians would carefully observe their patients and try to offer some medical support, but recovery most often depended upon the wounded man’s natural healing. Some medical practices had unintended consequences, both positive and negative. Horsehair proved to be a popular material for sutures, due to its length and strength. To improve its elasticity, Civil War doctors boiled the horsehair, thereby disinfecting it. Wounds stitched closed with boiled horsehair were less likely to grow infected from the sutures, although this benefit was not fully understood until after the war. On the other hand, physicians probing for bullets or foreign objects inside a wound often introduced more bacteria and generated worse infections than the patient may have experienced without the procedure. This practice continued well after the Civil War, and likely contributed to President James Garfield’s death in 1881, when doctors repeatedly used unsterilized fingers and instruments while searching for the assassin’s bullet lodged in his body.
+</p>
+
+<p xml:id='OTPSD25003265P2'>Doctors understood the danger of blood loss to wounded men, but devices such as the Petit Tourniquet—a French screw-tightened tourniquet designed in 1718—were typically found at a surgeon’s tent rather than with the soldiers along the front lines. Some physicians recommended supplying tourniquets among the soldiers, but others suggested much simpler practices, such as each soldier carrying a handkerchief or cloth strip and a six-inch long piece of wood in his pocket to function as a makeshift tourniquet. These life-saving practices were not mandated among Union and Confederate armies, though, and many wounded men died of blood loss before reaching medical help.
+</p>
+
+<p xml:id='OTPSD25003265P3'>The most iconic treatment of battlefield wounds during the Civil War was amputation. Most casualties during the war were caused by musket fire. The large caliber lead balls often shattered bones upon impact. Unable to splint or repair bones so damaged, physicians frequently chose to amputate the wounded person’s limb above the injury. Doctors typically sewed a flap of skin over the stump. Unfortunately, due to the high incidents of infection for reasons described above, amputated limbs often became infected. Gangrene was among the most dangerous conditions, which could lead to death. The only method of combatting gangrene was to perform another amputation further up the limb (if possible) and hope it healed properly. Confederate and Union physicians performed around 50,000 amputations during the Civil War. Contrary to some popular myths, anesthesia, such as chloroform and ether, was in use during the Civil War, and around 95% of wounded soldiers were afforded some comfort before amputation.
+</p>
+
+<p xml:id='OTPSD25003265P4'>Hundreds of thousands of soldiers returned home from the Civil War with scars or permanent disabilities from wartime wounds and injuries. The large number of amputees also led to new developments in prosthetics. Lessons learned from the war improved medical care a bit, as Union and Confederate doctors recorded their observations of wounds and treatments. Published reports provided a new wealth of information. However, only after scientists better understood microbes and accepted the Germ Theory in the late nineteenth and early twentieth century did medical practice substantially improve from the Civil War era practices. (Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 41–50; Terry Reimer, “Wounds, Ammunition, and Amputation,” National Museum of Civil War Medicine; Paige Gibbons Backus, “Amputation and the Civil War,” American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Sharkey Series 771</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.; Funding for this project provided by the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1860; 1861; 1865</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Blakely, David, 1834-1896; Miller, Stephen, 1816-1881</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1865-06-20</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Sharkey Collection. Printed proclamation from Minnesota Governor Stephen Miller addressed to the people of Minnesota. Miller emphasizes the contributions of Minnesotans in crushing the late Confederate rebellion. He reminds Minnesotans of their duty to memorialize the dead and to care for the Civil War&#39;s survivors. Miller suggests establishing a soldiers&#39; home for veterans with disabilities or illnesses.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_771-954-02-01</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>3569610 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; 1-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Fort Sumter (Charleston, S.C.); Palmito Ranch (Tex.); Saint Paul (Minn.)</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>1965</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_771-954-02-01</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Britany Castilaw; Dalton Wood; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 954, Folder 2</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Allegiance; Children of military personnel; Democratic Party (Minn.); Diseases; Families of military personnel; Fort Sumter (Charleston, S.C.)--Siege, 1861; Fourth of July; God; Memorialization; Miller, Stephen, 1816-1881; Minnesota. Governor; Minnesota. Secretary of State; Minnesota Soldiers Home (Minneapolis, Minn.); Mississippi. Governor; People with disabilities; Presidents--United States--Election--1860; Republican Party (Minn.); Sharkey, William Lewis, 1798-1873; Slavery; United States. Army; United States. Army--Officers; United States. Navy; Veterans; War widows; War wounds</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>1575</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/18069&quot;&gt;Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG31" who="U2" when="2024-10-25T17:24:37Z" target="#P32182220">
+          Version 31 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2024-03-06T14:59:28Z" target="#P32182220">
+          Version 30 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-11-02T18:14:31Z" target="#P32182220">
+          Version 29 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-11-02T17:59:49Z" target="#P32182220">
+          Version 28 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-11-02T15:36:00Z" target="#P32182220">
+          Version 27 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-11-02T04:11:34Z" target="#P32182220">
+          Version 26 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-11-02T04:00:36Z" target="#P32182220">
+          Version 25 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-11-02T03:25:32Z" target="#P32182220">
+          Version 24 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-11-01T22:40:31Z" target="#P32182220">
+          Version 23 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-11-01T22:29:27Z" target="#P32182220">
+          Version 22 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-10-10T15:39:25Z" target="#P32182220">
+          Version 21 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-09-02T20:38:35Z" target="#P32182220">
+          Version 20 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-09-02T18:48:45Z" target="#P32182220">
+          Version 19 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-03-19T18:17:00Z" target="#P32182220">
+          Version 18 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-03-19T18:14:06Z" target="#P32182220">
+          Version 17 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-03-18T19:13:26Z" target="#P32182220">
+          Version 16 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-17T23:21:35Z" target="#P32182220">
+          Version 15 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-06T04:52:02Z" target="#P32182220">
+          Version 14 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-06T03:14:17Z" target="#P32182220">
+          Version 13 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-03-04T22:47:28Z" target="#P32182220">
+          Version 12 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-03-03T18:00:09Z" target="#P32182220">
+          Version 11 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2023-03-03T00:25:18Z" target="#P32182220">
+          Version 10 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091356" when="2023-03-01T17:57:47Z" target="#P32182220">
+          Version 9 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2022-12-15T18:48:17Z" target="#P32182220">
+          Version 8 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2022-12-04T01:31:50Z" target="#P32182220">
+          Version 7 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U220769" when="2022-12-04T01:15:43Z" target="#P32182220">
+          Version 6 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U220769" when="2022-05-31T20:10:46Z" target="#P32182220">
+          Version 5 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U220769" when="2022-05-14T17:18:57Z" target="#P32182220">
+          Version 4 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25091356" when="2022-03-17T15:51:52Z" target="#P32182220">
+          Version 3 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U25091253" when="2022-03-16T20:22:49Z" target="#P32182220">
+          Version 2 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U231087" when="2022-02-25T21:16:10Z" target="#P32182220">
+          Version 1 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-02-22T18:36:34Z" target="#P32182220">
+          Version 0 of page "Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32182220" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:18069/full/full/0/default.jpg"/>
+        <div xml:id="OTP32182220">
+        <fw type="pageNum">Printed proclamation from Minnesota Governor Stephen Miller; June 20, 1865</fw>
+          <p corresp='TTP32182220P0' xml:id='OTP32182220P0'><b>Proclamation of the <rs ref='#S32077452'>Governor</rs>.</b><lb/>
+<hr/><lb/>
+<hi rend='italic'>To the People of <rs ref='#S90294'>Minnesota</rs>:</hi>
+</p>
+
+<p corresp='TTP32182220P1' xml:id='OTP32182220P1'>The Great Rebellion has been crushed, and peace, so long prayed for, has at length been vouchsafed by a kind Providence to our bleeding country. The accursed institution of slavery, which has been the source of all our difficulties, has <rs ref='#S99663'>perished</rs> in the conflict, and the grievous blot upon our escutcheon is obliterated forever. The Union of our fathers, cemented anew by the precious blood of their descendants, enters henceforth upon a new phase of existence, purified and strengthened, and doubly hallowed in the affections of the people. A beacon light to the oppressed of other lands, and the dwelling place of civil and religious freedom, the Republic resumes its onward march to the complete fulfillment of the mission for which it was created.
+</p>
+
+<p corresp='TTP32182220P2' xml:id='OTP32182220P2'>These grand results are due, under God, to the prowess of our heroic soldiers, sustained by the unselfish patriotism of the people of the loyal States, who have hesitated at no sacrifices necessary to their accomplishment.
+</p>
+
+<p corresp='TTP32182220P3' xml:id='OTP32182220P3'>Our own State has nobly contributed to the National cause. Minnesota furnished the first three years' regiment for the war, and a Minnesota officer commanded in <rs ref='#S63018'>Texas</rs> at the latest reported conflict for the Union. She has sent to the <rs ref='#S71916'>army</rs> and <rs ref='#S63977'>navy</rs>, since the <rs ref='#S76215'>attack</rs> on <rs ref='#S71502'>Fort Sumpter</rs>, in 1861, a number of men equal to two-thirds of her entire vote at the <rs ref='#S55271'>Presidential election in 1860</rs>, and this while her <rs ref='#S32032134'>own frontier was exposted to devastation</rs> by the merciless <rs ref='#S71308'>savage</rs>.
+</p>
+
+<p corresp='TTP32182220P4' xml:id='OTP32182220P4'>To assert that our volunteers have been second to none others in the brave achievements of the battle-field, and that they have conferred imperishable lustre upon the State, would be but to repeat what has already passed into history. There remains to us the sacred duties of honoring the memory of the <rs ref='#S63262'>dead</rs>, and of manifesting our gratitude to the survivors in an appropriate manner, by public demonstrations as they return to their homes; by providing for the mained and <rs ref='#S25003265'>wounded</rs>, and for the <rs ref='#S25013472'>women and children</rs> made <rs ref='#S64105'>widows</rs> and <rs ref='#S58310'>orphans</rs> during the late bloody struggle. Let these obligations be discharged with warm hearts and willing hands; and especially do I recommend that the approaching anniversary of our Independence as a Nation, be signalized by a special devotion to the objects specified.
+</p>
+
+<p corresp='TTP32182220P5' xml:id='OTP32182220P5'>I slso respectfully suggest that representatives be <rs ref='#S98996'>appointed</rs> by every city, village, and township, to meet in <rs ref='#S25009399'>convention</rs> at <rs ref='#S25026147'>St. Paul</rs>, at a future day, to be designated by the Chairman of the <rs ref='#S25012756'>Democratic</rs> and Union State Central Committees, for the purpose of founding and organizing a permanent <rs ref='#S32032135'>Soldiers' Home</rs>, for the benefit of those who have returned or may hereafter return to the State, permanently <rs ref='#S73740'>disabled</rs> by wounds or <rs ref='#S69274'>sickness</rs>.
+</p>
+
+<p corresp='TTP32182220P6' xml:id='OTP32182220P6'>By the adoption of such measures as have been indicated, or others of a similar character, Minnesota will not only be performing a holy duty, but she will thereby set an example to her sister States, of "care for him who shall have borne the battle, and for his widow and orphans."
+</p>
+
+<p corresp='TTP32182220P7' xml:id='OTP32182220P7'>In testimony whereof, I have hereunto set my hand and caused the great seal of the State of Minnesota to be affixed, at St. Paul, on the 20th day of June, A. D. 1865.
+</p>
+
+<p corresp='TTP32182220P8' xml:id='OTP32182220P8'>[SEAL.]
+</p>
+
+<p corresp='TTP32182220P9' xml:id='OTP32182220P9'>STEPHEN MILLER.
+</p>
+
+<p corresp='TTP32182220P10' xml:id='OTP32182220P10'>By the Governor:
+</p>
+
+<p corresp='TTP32182220P11' xml:id='OTP32182220P11'><rs ref='#S32077453'>D. BLAKELY</rs>, <rs ref='#S32025076'>Sec. of State.</rs> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

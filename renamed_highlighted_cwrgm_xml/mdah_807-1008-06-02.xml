@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from W. A. Skelton to T. E. Yates; January 15, 1877</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U32018409">
+          <persName
+            >
+            Alessandra Diaz
+            </persName>
+            <resp>
+              made 13 edits between
+              <date type="first_edit" when="2024-09-21T21:43:35Z">September 21, 2024</date> and
+              <date type="last_edit" when="2024-09-24T03:37:42Z">September 24, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 10 edits between
+              <date type="first_edit" when="2024-09-24T12:43:30Z">September 24, 2024</date> and
+              <date type="last_edit" when="2024-09-24T13:24:05Z">September 24, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U112030">
+          <persName
+            >
+            sfemet
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2024-09-20T18:07:55Z">September 20, 2024</date> and
+              <date type="last_edit" when="2024-09-20T18:27:55Z">September 20, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T15:27:46Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T17:49:05Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2025-03-16T22:57:21Z">March 16, 2025</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:58:04+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32024190">
+              <persName>Daily, Josiah</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32164207">
+              <persName>Yates, T. E.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32164208">
+              <persName>Harris, Leary E.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32164263">
+              <persName>Skelton, William A.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32164209">
+              <persName>Tombstone, F. M. James</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32020596">
+              <persName>Unknown, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32164210">
+              <persName>Bobo, S. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32164211">
+              <persName>Webb, C. A.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32164262">
+              <persName>Skelton, Marion J.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63000">
+              <placeName>Mississippi--Marshall County. Holly Springs</placeName>
+                <idno>https://archive.org/details/mississippicomp01rowlgoog/page/874/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63000P0'>Currently located in Marshall County, Holly Springs was founded in 1836 in what was then Monroe County. When Marshall County was created on March 1, 1836, Holly Springs became its county seat. (Rowland, <hi rend='italic'>Mississippi</hi>, 874; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.77333, -89.44639</geo>
+                </note>
+            </place>
+            <place xml:id="S32164206">
+              <placeName>Georgia--Hart County. Hartwell</placeName>
+                <idno>https://www.georgiaencyclopedia.org/articles/counties-cities-neighborhoods/hartwell/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32164206P0'>Located in Hart County, Hartwell was founded in 1854 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.35278, -82.93111</geo>
+                </note>
+            </place>
+            <place xml:id="S69885">
+              <placeName>Mississippi--Neshoba County. Philadelphia</placeName>
+                <idno>https://en.wikipedia.org/wiki/Philadelphia,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS69885P0'>Located in Neshoba County, Philadelphia was founded in 1903 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.77417, -89.11278</geo>
+                </note>
+            </place>
+            <place xml:id="S103258">
+              <placeName>Mississippi--Tate County. Coldwater</placeName>
+                <idno>https://en.wikipedia.org/wiki/Coldwater,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS103258P0'>Currently located in Tate County, Coldwater was founded in 1856 in what was then DeSoto County. When Tate County was created on April 15, 1873, Coldwater was incorporated. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.68972, -89.97389</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S100599">
+              <placeName>Alabama--Calhoun County. Jacksonville</placeName>
+                <idno>http://encyclopediaofalabama.org/article/h-3144</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS100599P0'>Located in Calhoun County (originally named Benton County and renamed Calhoun County on January 29, 1858), Jacksonville was founded in 1833 under the name Drayton. It was first renamed Madison at an unknown date and was later renamed Jacksonville in 1835. Jacksonville served as the county seat from 1833 until 1899 (when it was replaced by Anniston). (Encyclopedia of Alabama; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.8137, -85.7614</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001333'>
+<catDesc>Transportation &amp; Infrastructure Industries</catDesc>
+          <category xml:id='S99413'>
+            <catDesc>
+              <term>Railroads and Railroad Companies</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99413P0'>"A system of transportation using special vehicles whose wheels turn on metal bars fixed to the ground, or a particular company using such a system." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32061378'>
+            <catDesc>
+              <term>Crimes (alleged)--Jail Escapes</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32061378P0'>"To become free or get free from, or to avoid something," especially to escape from custody. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62954'>
+            <catDesc>
+              <term>Criminal Procedures--Arrest</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arrest?q=Arrest</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62954P0'>"The act of using legal authority to catch and take someone to a place where the person may be accused of a crime." (CD)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32031715'>
+            <catDesc>
+              <term>Criminal Procedures--Extradition</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/extradition?q=Extradition</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32031715P0'>"The act of making someone return for trial to another country or state where he or she has been accused of doing something illegal." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S69535'>
+            <catDesc>
+              <term>Criminal Procedures--Imprisonment</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/imprisonment?q=Imprisonment</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD69535P0'>"The act of putting someone in prison or the condition of being kept in prison." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001682'>
+<catDesc>Medical Occupations</catDesc>
+          <category xml:id='S32085010'>
+            <catDesc>
+              <term>Medical Profession</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/medical-profession?q=Medical+Profession</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085010P0'>"A person with special training in the medical field." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32029743'>
+            <catDesc>
+              <term>Medical Profession--Dentists</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/dentist</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32029743P0'>"A person whose job is treating people's teeth." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S63036'>
+            <catDesc>
+              <term>Clergy</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/clergy</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63036P0'>"Religious leaders whose job is serving the needs of their religion and its members; priests, ministers, rabbis, etc." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S71495'>
+            <catDesc>
+              <term>Postmasters</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/postmaster</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001724'>Transportation &amp; Infrastructure Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71495P0'>"A person who is in charge of a post office." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001724'>
+<catDesc>Transportation &amp; Infrastructure Occupations</catDesc>
+<category xml:id='C32001724S71495'>
+<catDesc>
+<term><rs ref='S71495'>Postmasters</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S62926'>
+            <catDesc>
+              <term>Jails</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/jail?q=jails</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62926P0'>"A place where criminals are kept as a punishment for their crimes or while waiting for trials." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001715'>
+<catDesc>Medical Organizations</catDesc>
+          <category xml:id='S58320'>
+            <catDesc>
+              <term>Hospitals</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/hospital?q=hospitals</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001715'>Medical Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58320P0'>"A place where people who are sick or injured are treated and taken care of by doctors and nurses." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32099655'>
+            <catDesc>
+              <term>Hospitals--Mississippi</term>
+              <idno>https://mississippiencyclopedia.org/entries/whitfield/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001715'>Medical Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32099655P0'>During the nineteenth century, Mississippi operated a sporadic hospital system, which was primarily focused on creating state institutions to provide mental health care for people imprisoned in the state's penitentiary in Jackson and the Mississippi State Hospital, which operated in Jackson from 1855 to 1926 when it was moved to Rankin County. Otherwise medical and mental health care was typically handled locally, especially for enslaved people on plantations. ("Whitfield (Mississippi State Hospital)," Mississippi Encyclopedia) Here, you can find references to hospital care in Mississippi where the name of the hospital is unknown. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S32045112'>
+            <catDesc>
+              <term>Mississippi--Office of the Attorney General</term>
+              <idno>https://en.wikipedia.org/wiki/Attorney_General_of_Mississippi </idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.30417, -90.18232</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32045112P0'>Operating at the state level, the Attorney General Office of Mississippi is located in Jackson, Mississippi and was created in 1817 by the Constitution of Mississippi. The Attorney General was a legislatively-elected position with a one-year term until 1832 when the office become popularly-elective and the term was extended. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001717'>
+<catDesc>Voluntary Social &amp; Political Groups</catDesc>
+          <category xml:id='S73473'>
+            <catDesc>
+              <term>Clubs and Secret Societies</term>
+              <idno>https://en.wikipedia.org/wiki/Secret_society</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD73473P0'>Clubs and secret societies have been common throughout American history. Clubs are often small, localized groups formed openly by people who wish to enjoy or promote a common interest or cause, such as sports, hobbies, or politics. However, clubs are often associated with recreational interests. Secret societies, on the other hand, are organizations that keep their purpose, members, and activities concealed from outsiders. Some hide their very existence from the public, while others keep only their inner workings masked to retain a feeling of exclusivity or mystery for their members. Truly secret societies often exist for political reasons, where members wish to advocate or influence events covertly. Such organizations are often viewed with suspicion, and many conspiracy theories involve accusations of secret societies manipulating events for a sinister agenda.
+</p>
+
+<p xml:id='OTPSD73473P1'>Clubs and secretive organizations were very popular during the eighteenth and nineteenth centuries. Fraternal groups, such as the Freemasons and Odd Fellows, which were well-known but had secret rituals and exclusive membership, thrived. Many such groups professed dedication to morality and ethical living, or supported charitable cause. However, members were often drawn to those organizations for the social bonds and camaraderie. The popularity of these organizations frequently led to their expansion to other cities, states, or even countries. Due to limited methods of communication before the twentieth century, local chapters or lodges often remained fairly independent from each other. Additionally, regional interests or differences occasionally caused divisions within national or international clubs and societies. For instance, disputes about slavery in the nineteenth century caused a rift between British and American members of the Independent Order of Good Templars.
+</p>
+
+<p xml:id='OTPSD73473P2'>Clubs and secret societies continue to exist in the twenty-first century. Unlike earlier groups, though, many modern organizations exist primarily online and rely upon membership outside their local communities. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S99805'>
+            <catDesc>
+              <term>Clubs and Secret Societies--Freemasons</term>
+              <idno>https://en.wikipedia.org/wiki/Freemasonry</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99805P0'>Freemasons, or Masons, are members of a fraternal organization movement dating back to the stonemasons of the fourteenth century. The Masons are secretive and the development of their practices and organizational structure since the 1400s is unclear, even within Masonic circles. Members belong to Masonic Lodges, many of which rose semi-independently, and involve rituals and passwords known only to members.
+</p>
+
+<p xml:id='OTPSD99805P1'>Masons from separate lodges in London established the first Grand Lodge in 1717 as an effort to codify and regulate elements of Freemasonry. Over the next several decades, Freemasonry became popular in England, leading to more involvement by wealthy and aristocratic individuals, and shifting Freemasonry away from its working class origins. The first Freemasons in North America established a lodge in Pennsylvania around 1731. New lodges emerged across the English colonies, and several prominent colonial figures, including George Washington, became Masons. Following American independent, separate Grand Lodges formed in each state. Despite some efforts to unite them under a single United States Grand Lodge, the state lodges remained nominally independent.
+</p>
+
+<p xml:id='OTPSD99805P2'>While Freemasonry has some association with Enlightenment thinking and advocacy during the eighteenth century, Masons did not cohesively endorse any political ideas or social movements. This allowed Masons to help each other even when on opposing sides of military or political conflicts. During the Civil War, there were numerous instances in which soldiers, upon being attacked or captured by enemy forces, provided Masonic signals or statements and received protection from Masons on the other side.
+</p>
+
+<p xml:id='OTPSD99805P3'>The secretive nature and adoption of rituals led to some criticism of Masons. Some religious leaders accused Freemasonry of being associated with the occult, or saw it as a competitor for Christian teachings. Other critics feared that Masons conspired for power and used their secretive membership to influence governments behind the scenes. Nevertheless, Freemasonry continued to flourish and is still present in the twenty-first century. (Wikipedia; Michael A. Halleran, <hi rend='italic'>The Better Angels of our Nature: Freemasonry in the American Civil War</hi>, 78–86)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S69274'>
+            <catDesc>
+              <term>Disease and Illness</term>
+              <idno>https://www.battlefields.org/learn/articles/common-diseases-18th-and-19th-century</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD69274P0'>Approximately 620,000 Americans died during the Civil War. For this reason, the war is often called America’s bloodiest conflict. However, two-thirds of Civil War deaths were caused by disease, not combat. The disparity is greater for non-fatal victims: 400,000 soldiers suffered wounds or injuries compared to 6,000,000 cases of illness. Since a combined 3,000,000 men fought in Union and Confederate armies, this means the average soldier fell ill to disease twice during his military service.
+</p>
+
+<p xml:id='OTPSD69274P1'>Numerous types of diseases afflicted soldiers and civilians during the Civil War and Reconstruction era. Some were ubiquitous, like the common cold and diarrhea, which rarely garnered much attention unless the symptoms worsened into a more severe condition. Pneumonia, typhoid, and malaria were among the most serious diseases in the mid-nineteenth century. Epidemics of yellow fever and small pox also ravaged some civilian communities and military units. Perhaps the most deadly to Civil War soldiers, though, was dysentery, which was diarrhea with blood in the stool. Nearly 60,000 people died from dysentery during the war, and Union officials recorded 1.5 million cases of diarrhea or dysentery between 1861 and 1865.
+</p>
+
+<p xml:id='OTPSD69274P2'>All Americans, regardless of economic status or race, suffered pain and loss due to illness during the era. The President of the United States Abraham Lincoln and President of the Confederate States Jefferson Davis—the two most powerful individuals in North America, with access to the best resources—each lost a child to disease during the Civil War. The problem worsened with the sudden shifting of human populations during and after the war, as outbreaks of diseases spread rapidly. While many soldiers from highly populated areas had developed immunity to childhood diseases such as chicken pox, diphtheria, mumps, measles citizen soldiers from rural areas proved more susceptible to severe reactions when exposed to those diseases. Physicians improved medical care during the Civil War, as many recognized the value of sunlight and fresh airflow. However, they could only provide soldiers such healthy conditions behind the lines, at hospitals or rest areas. In many camps, or in the field during campaigns, soldiers were exposed to poor weather, extreme temperatures, and unsanitary conditions. Those who suffered the worse were in prisoner of war camps, in both north and south, where thousands of soldiers died from dysentery or other diseases. Civil War doctors did not fully understand the spread of diseases, including contaminated water (in the case of typhoid and dysentery) or mosquitos (for malaria and yellow fever). As such, camps, forts, and prisons rarely were constructed with the soldiers’ health in mind, and Civil War medicine most often involved responding to disease rather than preventing it.
+</p>
+
+<p xml:id='OTPSD69274P3'>Another source of illness among soldiers, and civilians in war-torn areas, was dietary deficiencies. Despite efforts by subsistence and commissary personnel in Union and Confederate armies, feeding thousands of troops daily proved a monumental task. Food preservation techniques still relied heavily upon drying and salting, and fresh vegetables and fruits were limited and dependent upon seasons. As a result, most Civil War soldiers likely suffered from a Vitamin C deficiency, the most severe cases resulting in scurvy which caused the loss of teeth and bleeding. Heavy reliance upon corn-based foods, especially within southern military units or Union prisoners held in southern prisoner of war camps, led to high instances of pellagra, a condition caused by the lack of niacin (or vitamin B3). Present in most foods, but not corn, victims suffered from diarrhea, skin sores, and dementia.
+</p>
+
+<p xml:id='OTPSD69274P4'>Often ignored, Americans also suffered from sexually transmitted diseases during the Civil War and afterwards. Although rarely fatal, more than 100,000 soldiers were diagnosed with gonorrhea and nearly 80,000 became infected with syphilis. Unsurprisingly, most of these cases occurred when soldiers were near populated areas, especially during training or time in camp, where they had more opportunities to interact with women. Venereal disease rates were higher at the start and at the end of the Civil War. That trend may reflect the fact that rates went down for armies on campaign in the field. The overall rate of venereal disease in the Union Army fluctuated from about 82 to 87 cases for every 1,000 soldiers, Some Union military units reported extremely high rates of venereal disease, particularly in the west. For instance, military physicians in the Department of the Pacific recorded 461 cases out of 1,000 men in 1862.
+</p>
+
+<p xml:id='OTPSD69274P5'>The Civil War also led to disease outbreaks among civilians. Like country-born soldiers introduced to new diseases in military camps, fugitive or liberated slaves who congregated in refugee camps behind Union lines became exposed to new diseases. Cities besieged by armies, such as Vicksburg, Atlanta, and Richmond, faced problems with sanitation and food supplies, compromising the health and immune systems of local residents, leaving them more susceptible to illness.
+</p>
+
+<p xml:id='OTPSD69274P6'>Finally, while most people survived bouts of illness during the Civil War, countless carried pathogens back to their home communities, or simply carried long-term effects from diseases within their bodies. Respiratory infections, blood borne diseases, and other afflictions obtained during the war decreased the quality of life of many Americans, or led to other health complications and early death. (American Battlefield Trust, Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 205–213; George Worthington Adams, <hi rend='italic'>Doctors in Blue</hi>, 3–5; Thomas P. Lowry, <hi rend='italic'>The Story the Soldiers Wouldn't Tell</hi>, 104–108)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Stone Series 807</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Endowment for the Humanities; Funding for this project provided by the College of Arts and Sciences at the University of Southern Mississippi.; Funding for this project provided by the National Historical Publications and Records Commission; Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1877</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Skelton, W. A.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1877-01-15</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Stone Collection. Letter from W. A. Skelton to T. E. Yates, regarding offenses allegedly committed by Skelton&#39;s brother, Marion.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8.0&quot; x 9.5&quot; 5-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Hartwell (Ga.); Mississippi; Philadelphia (Pa.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_807-1008-06-02</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Leela Lavanya Battula; Dalton Wood; Britany Castilaw; McKenna Fussell</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 1008, Folder 06</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Brothers; Crime; Mississippi. Governor; Stone, John Marshall, 1830-1900</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from W. A. Skelton to T. E. Yates; January 15, 1877</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/40814&quot;&gt;Letter from W. A. Skelton to T. E. Yates; January 15, 1877&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG35" who="U220769" when="2025-03-16T22:57:21Z" target="#P34049302">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U2" when="2024-10-25T17:49:05Z" target="#P34049303">
+          Version 7 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U2" when="2024-10-25T15:27:46Z" target="#P34049299">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U25091195" when="2024-09-24T13:24:05Z" target="#P34049304">
+          Version 6 of page "Page 5":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U25091195" when="2024-09-24T13:18:26Z" target="#P34049303">
+          Version 6 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U25091195" when="2024-09-24T13:16:54Z" target="#P34049302">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U25091195" when="2024-09-24T13:15:36Z" target="#P34049304">
+          Version 5 of page "Page 5":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U25091195" when="2024-09-24T13:11:11Z" target="#P34049303">
+          Version 5 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U25091195" when="2024-09-24T13:11:00Z" target="#P34049303">
+          Version 4 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U25091195" when="2024-09-24T12:48:31Z" target="#P34049302">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U25091195" when="2024-09-24T12:45:50Z" target="#P34049300">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U25091195" when="2024-09-24T12:43:37Z" target="#P34049299">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U25091195" when="2024-09-24T12:43:30Z" target="#P34049299">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U32018409" when="2024-09-24T03:37:42Z" target="#P34049304">
+          Version 4 of page "Page 5":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U32018409" when="2024-09-24T03:33:56Z" target="#P34049299">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U32018409" when="2024-09-24T03:33:14Z" target="#P34049304">
+          Version 3 of page "Page 5":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U32018409" when="2024-09-24T03:32:33Z" target="#P34049303">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U32018409" when="2024-09-24T03:30:56Z" target="#P34049302">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U32018409" when="2024-09-24T03:28:36Z" target="#P34049300">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U32018409" when="2024-09-24T03:28:29Z" target="#P34049300">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U32018409" when="2024-09-24T03:27:38Z" target="#P34049299">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U32018409" when="2024-09-24T03:23:22Z" target="#P34049304">
+          Version 2 of page "Page 5":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U32018409" when="2024-09-24T03:22:47Z" target="#P34049303">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U32018409" when="2024-09-24T03:21:11Z" target="#P34049302">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U32018409" when="2024-09-24T03:20:33Z" target="#P34049300">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U32018409" when="2024-09-21T21:43:35Z" target="#P34049299">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U112030" when="2024-09-20T18:27:55Z" target="#P34049304">
+          Version 1 of page "Page 5":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U112030" when="2024-09-20T18:23:20Z" target="#P34049303">
+          Version 1 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U112030" when="2024-09-20T18:18:20Z" target="#P34049302">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U112030" when="2024-09-20T18:12:50Z" target="#P34049300">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U112030" when="2024-09-20T18:07:55Z" target="#P34049299">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U220769" when="2024-04-23T18:17:43Z" target="#P34049304">
+          Version 0 of page "Page 5":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2024-04-23T18:17:41Z" target="#P34049303">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2024-04-23T18:17:40Z" target="#P34049302">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2024-04-23T18:17:38Z" target="#P34049300">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2024-04-23T18:17:36Z" target="#P34049299">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F34049299" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:40809/full/full/0/default.jpg"/>
+        <div xml:id="OTP34049299">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP34049299P0' xml:id='OTP34049299P0'>[seal]
+</p>
+
+<p corresp='TTP34049299P1' xml:id='OTP34049299P1'><rs ref='#S32164206'>Hartwell, G<hi rend='underline'>a</hi></rs> Jany 15th 1877<lb/>
+<rs ref='#S32164207'>T E Yates</rs> Esq<lb/>
+<rs ref='#S69885'>Philadelphia</rs>
+</p>
+
+<p corresp='TTP34049299P2' xml:id='OTP34049299P2'>Dear Sir
+</p>
+
+<p corresp='TTP34049299P3' xml:id='OTP34049299P3'>Yours of December 22 76 just Recd writ to the <rs ref='#S71495'>post master</rs> at <rs ref='#S103258'>Coldwater Miss</rs> and he sent it to me and wrote me himself &amp; sent me one writ to him by <rs ref='#S32164208'>Leary E Harris</rs> <rs ref='#S32045112'>Attorney Generals office</rs> <rs ref='#S51785'>Jackson Miss</rs> containing about the [?] of yours, I very much regret that such a thing should happen in my name and I also will say to you I am encline to think it is a man I once claimed as a brother 
+</p>
+
+
+        </div>
+        <pb xml:id="F34049300" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:40810/full/full/0/default.jpg"/>
+        <div xml:id="OTP34049300">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP34049300P0' xml:id='OTP34049300P0'>but have refused to aid him in anyway for several years. And he is angry with me for not going on his hand and assisting him in his rascality, but if it is him as anyone no matter with me who it may be, I want you to hunt him out &amp; <rs ref='#S32031715'>bring him to Justice</rs>, if it was my, once brother, he is a Shreude talker, apierently well posted in business, generaly about 5ft 8 or 9 inch hy weighs about 160 or 70 lbs if in good  helth dark hair little encline to curl Blue Eyes full Farse &amp; lived in the neighborhood of of Coldwater Miss in Tate Co 15 years but left my household further than the 9th of Feb 1875 &amp; came
+</p>
+
+
+        </div>
+        <pb xml:id="F34049302" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:40811/full/full/0/default.jpg"/>
+        <div xml:id="OTP34049302">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP34049302P0' xml:id='OTP34049302P0'>to this state selling a patent for the <rs ref='#S32164209'>F. M. James Tombstone</rs> caried my <rs ref='#S32020596'>wife</rs> and <rs ref='#S32020596'>daughter</rs> to my <rs ref='#S32020596'>wifes mother's</rs> in <rs ref='#S100599'>Jacksonville Ala</rs> until July 75 when I had got a good business started hear &amp; then I sent for them &amp; have been here ever since myself &amp; family Boarding with <rs ref='#S32164210'>S. M. Bobo</rs> &amp; <rs ref='#S32164211'>C.A. Webb</rs> &amp; was expecting to go back to Coldwater Miss this winter any person in Tate county can &amp; doubtless will tell you I never did endorse or aprobate the corse of <rs ref='#S32164262'>M. J. Skelton</rs> who I supose is the one claming my name I had not hurd of him for over 2 years Suposed he was did the last account I had of him he was down
+</p>
+
+
+        </div>
+        <pb xml:id="F34049303" n="4" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:40812/full/full/0/default.jpg"/>
+        <div xml:id="OTP34049303">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP34049303P0' xml:id='OTP34049303P0'>the middle part of the State some where on the <rs ref='#S99413'>Rail Road</rs> I forgoten the Station Quite <rs ref='#S69274'>Sick</rs> I want you all to hunt him up &amp; bring him to just &amp; write me I want to no that he is <rs ref='#S62954'>arested</rs> I have all wais tried to live right &amp; make an honest living &amp; want everybody to do the same and want any man dont care who punished that we'll try to obtain anything on my credit it is hard talk but he is a villon, a crazy one, &amp; cannot get any assistance from me in any way, Excet I can &amp; aid or assist in Ketching him yours resply
+</p>
+
+<p corresp='TTP34049303P1' xml:id='OTP34049303P1'><rs ref='#S32164263'>W A Skelton</rs><lb/>
+Hartwell, G<hi rend='underline'>a</hi><add place='above'>"</add> 
+</p>
+
+
+        </div>
+        <pb xml:id="F34049304" n="5" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:40813/full/full/0/default.jpg"/>
+        <div xml:id="OTP34049304">
+        <fw type="pageNum">Page 5</fw>
+          <p corresp='TTP34049304P0' xml:id='OTP34049304P0'>Hart Co Ga
+</p>
+
+<p corresp='TTP34049304P1' xml:id='OTP34049304P1'>Cold Water, Miss. Dec 28/76
+</p>
+
+<p corresp='TTP34049304P2' xml:id='OTP34049304P2'>T. E. Yates<lb/>
+Philadelphia<lb/>
+Miss
+</p>
+
+<p corresp='TTP34049304P3' xml:id='OTP34049304P3'>Dear Sir—
+</p>
+
+<p corresp='TTP34049304P4' xml:id='OTP34049304P4'>Yours of the 21st, inst, making inquiry about Skelton has been received. There were, a few years ago, two men living in this county by the name of Skelton, both <rs ref='#S32029743'>dentists</rs>. W<add place='above'>m</add> Skelton is now living at Hartwell, Georgia, and was thought to be an honest man when he lived here. Marion Skelton proved himself to be a mule thief and a bad man generally. He was caught stealing two mules and <rs ref='#S69535'>incarcerated</rs> in the <rs ref='#S62926'>county jail</rs> at <rs ref='#S63000'>Holly Springs.</rs> He became deranged while there and was sent to the <rs ref='#S32099655'>lunatic asylum</rs> at Jackson, Miss; from there he made his <rs ref='#S32061378'>escape</rs>. He is a <rs ref='#S99805'>mason</rs> and a <rs ref='#S63036'>preacher</rs>.
+</p>
+
+<p corresp='TTP34049304P5' xml:id='OTP34049304P5'>Very respectfully
+</p>
+
+<p corresp='TTP34049304P6' xml:id='OTP34049304P6'><rs ref='#S32024190'>Josiah Daily</rs>, <rs ref='#S71495'>P.M.</rs>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

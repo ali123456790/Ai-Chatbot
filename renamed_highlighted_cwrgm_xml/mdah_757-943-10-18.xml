@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from A. S. Livermore to Mississippi Governor John J. Pettus; January 30, 1863</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 16 edits between
+              <date type="first_edit" when="2021-05-05T18:43:02Z">May  5, 2021</date> and
+              <date type="last_edit" when="2023-04-09T16:24:45Z">April  9, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-04-08T14:47:09Z">April  8, 2021</date> and
+              <date type="last_edit" when="2021-04-08T14:50:38Z">April  8, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220513">
+          <persName
+            >
+            Jan Pilkington
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-03-16T16:00:48Z">March 16, 2021</date> and
+              <date type="last_edit" when="2021-03-16T16:06:24Z">March 16, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U224896">
+          <persName
+            >
+            Emma Cox 
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-03-21T01:12:41Z">March 21, 2021</date> and
+              <date type="last_edit" when="2021-03-21T01:13:21Z">March 21, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-08-27T00:06:51Z">August 27, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091404">
+          <persName
+            >
+            Robert Mason
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-09-21T16:14:37Z">September 21, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U217868">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Alec Blaylock </name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T15:20:10+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S79860">
+              <persName>White, F. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S52212">
+              <persName>George, James Z. (James Zachariah), 1826-1897</persName>
+                <idno>https://en.wikipedia.org/wiki/James_Z._George</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52212P0'>James Zachariah George was a Confederate officer and U.S. senator from Mississippi after Reconstruction.
+</p>
+
+<p xml:id='OTPS52212P1'>Born in Monroe County, Georgia, on October 20, 1826, George moved to Mississippi as a child, first to Noxubee County and then to Carroll County. He volunteered for military service in 1846 for the Mexican-American War and served under the command of Colonel Jefferson Davis, who later was elected president of the Confederate States of America. George saw combat at the Battle of Monterey. Following the Mexican-American War, George returned to Mississippi and studied law. He was appointed a reporter of Mississippi’s Supreme Court in 1854 and spent two decades compiling a multi-volume collection of legal cases.
+</p>
+
+<p xml:id='OTPS52212P2'>George was selected to be a delegate to Mississippi’s secession convention in January 1861. He was a slave owner and supported the state’s separation from the Union, following Abraham Lincoln’s election to president in November 1860. When the Civil War erupted in the spring of 1861, George volunteered for military service. He received a commission as captain over Company C, 20th Mississippi Infantry Regiment, but resigned in October 1862 when offered a commission as brigadier general in the Mississippi State Troops. He remained in the state service for one year before rejoining the Confederate army (reportedly due to frustration with the Mississippi militia’s poor organization and resources), taking the rank of colonel to command the 5th Mississippi Cavalry. George was captured by Union forces during the Civil War, and spent time in a prisoner of war camp.
+</p>
+
+<p xml:id='OTPS52212P3'>After the Civil War, George practiced law in Mississippi and formed a very successful law firm with Wiley P. Harris. He was a vocal defendant of white supremacy during Reconstruction, and reportedly influenced Republican Governer Adelbert Ames to not arm African American militias in Mississippi during tensions over the 1875 election. Democrats used promises like this to weaken resistance to a campaign of violence and intimidation against African American and Republican voters. As a result, Democrats scored a major electoral victory in Mississippi, helping overturn federal Reconstruction policies designed to protect Black civil rights.
+</p>
+
+<p xml:id='OTPS52212P4'>In 1879, George received an appointment to the Mississippi Supreme Court. However, he did not remain there long, since he was elected to the U.S. Senate in 1880. He won reelection in 1886 and 1892. He was a vocal proponent for a Mississippi constitutional convention in 1890 to disenfranchise Black southerners, and successfully argued in its defense in front of the Senate and the Supreme Court. George was popular among conservative white Mississippians, in part because he crafted legal exceptions to Mississippi’s voting laws that protect poor whites while denying suffrage to African Americans.
+</p>
+
+<p xml:id='OTPS52212P5'>George died in 1897 in Mississippi City, Mississippi. He had been married to Elizabeth B. Young. The couple had seven children between 1848 and 1862, five of whom survived to adulthood. George is buried in Evergreen Cemetery in North Carrollton, Mississippi.
+</p>
+
+<p xml:id='OTPS52212P6'>(Wikipedia; Daniel Vogt, “James Z. George,” Mississippi Encyclopedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS52212P7'>James Zachariah George belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S97207">
+              <persName>Pemberton, John C. (John Clifford), 1814-1881</persName>
+                <idno>https://en.wikipedia.org/wiki/John_C._Pemberton</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS97207P0'>John C. Pemberton was a Confederate general, most famous for commanding troops in the unsuccessful defense of Vicksburg, Mississippi, in 1863.
+</p>
+
+<p xml:id='OTPS97207P1'>Born in Philadelphia, Pennsylvania, on August 10, 1814, Pemberton was raised and educated in the north. He graduated from the United States Military Academy at West Point, New York, in 1837, and immediately afterwards served as a U.S. artillery officer in the Second Seminole War in Florida. He remained a professional soldier for the next two decades, serving at various forts and posts in the United States, along the Canadian border, and in the west. During the Mexican-American War, from 1846 to 1848, Pemberton served with the 4th U.S. Artillery and took part in the battles of Palo Alto, Resaca de La Palma, and Monterrey. He earned the brevet (honorary) rank of captain for his actions at Monterrey. He continued to serve with distinction at several other engagements in Mexico, including the storming of Chapultepec castle and the battle at Mexico City.
+</p>
+
+<p xml:id='OTPS97207P2'>In 1848, following the Mexican-American War, Pemberton married Martha Thompson of Virginia. The couple had one daughter and three sons, all born in the 1850s. Pemberton continued to serve at a variety of posts in the United States, and saw additional action in Florida against the Seminoles from 1849 to 1850, and then again from 1856 to 1857. After spending a year in New Mexico Territory and three years in Minnesota, Pemberton was sent to Washington, D.C., in the spring of 1861, in the midst of the secession crisis. Despite his northern upbringing, Pemberton resigned his commission from the United States Army when the Civil War erupted in April 1861. He immediately volunteered for Confederate service and received an appointment as assistant adjutant general of Confederate forces at Richmond, Virginia.
+</p>
+
+<p xml:id='OTPS97207P3'>Because of his lengthy military experience, Pemberton rose quickly in Confederate ranks, reaching major general in January 1862. He was placed in command of the military department defending Georgia and South Carolina, but soon ran into conflict with the states’ governors who objected to Pemberton's assertion that the survival of his army was more important than defending the region, and due to mistrust of his northern heritage. Confederate President Jefferson Davis placed the more popular General P. G. T. Beauregard in charge of the defense of Georgia and South Carolina and relocated Pemberton to a new military department in Mississippi.
+</p>
+
+<p xml:id='OTPS97207P4'>At his new assignment in Mississippi, in the fall of 1862, Pemberton received the promotion to lieutenant general. He was responsible for defending the Mississippi River and key port towns, such as Vicksburg, from federal attack. Unlike the more famous Confederate armies to the east, Pemberton’s command was made up of southern troops who had suffered several defeats against aggressive Union commanders at battles like Shiloh and Corinth. Many of Pemberton’s troops were separated, and he struggled to unite his force to stage an effective defense against Ulysses S. Grant’s Union army, which began a campaign for Vicksburg in December 1862. Making matters worse for the Confederate general, his orders were to hold Vicksburg at all cost—meaning that he had limited ability to maneuver or even withdraw to save his army in the face of Grant’s larger force.
+</p>
+
+<p xml:id='OTPS97207P5'>Between December 1862 and July 1863, Grant conducted a slow, creative, but ultimately persistent campaign to surround and capture Vicksburg. Utilizing his aggressive subordinate William T. Sherman, Grant cut Pemberton and his Confederate troops off at Vicksburg and burned Mississippi’s capital of Jackson in May 1863. After being besieged in Vicksburg by Grant’s troops for six weeks, Pemberton realized he had no other choice but to surrender. On July 4, 1863, Pemberton ordered his army to lay down its arms and open Vicksburg to Grant’s army. The defeat occurred one day after Robert E. Lee’s battlefield loss at Gettysburg, Pennsylvania, delivering a double blow to Confederate morale.
+</p>
+
+<p xml:id='OTPS97207P6'>Pemberton and his men were captured and paroled by Union forces—a practice by which prisoners were allowed to return home or to encampments under the sworn oath not to take up arms until formally exchanged for Union prisoners. Pemberton traveled to Richmond where he remained idle for several months. Not receiving a new assignment, he resigned his general’s commission in May 1864. President Davis offered him a conciliatory assignment as a lieutenant colonel of artillery, which he accepted. He temporarily commanded the artillery defense of Richmond before taking an appointment as inspector general of artillery. Pemberton was captured by Union troops in mid-April 1865 during the final days of the war.
+</p>
+
+<p xml:id='OTPS97207P7'>Following the Civil War, Pemberton moved to Warrenton, Virginia. He remained there until 1876, when he moved back to Pennsylvania. He lived quietly on a farm, passing away in 1881. Pemberton is buried in Laurel Hill Cemetery East in Philadelphia, Pennsylvania.
+</p>
+
+<p xml:id='OTPS97207P8'>(Wikipedia; National Park Service, American Battlefield Trust; FindaGrave)
+</p>
+
+<p xml:id='OTPS97207P9'>John Clifford Pemberton belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S101716">
+              <persName>Pitard, S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S101718">
+              <persName>Hiser, W. B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S101720">
+              <persName>Matthews, George</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S101721">
+              <persName>Pagan, William</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S101722">
+              <persName>Livermore, A. S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63123">
+              <placeName>Mississippi--Grenada County. Grenada</placeName>
+                <idno>https://en.wikipedia.org/wiki/Grenada,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63123P0'>Currently located in Grenada County, Grenada was founded in 1836 in what was then Yalobusha County. When Grenada County was created on May 9, 1870, Grenada became the county seat. (Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.775, -89.80889</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001333'>
+<catDesc>Transportation &amp; Infrastructure Industries</catDesc>
+          <category xml:id='S99413'>
+            <catDesc>
+              <term>Railroads and Railroad Companies</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99413P0'>"A system of transportation using special vehicles whose wheels turn on metal bars fixed to the ground, or a particular company using such a system." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63151'>
+            <catDesc>
+              <term>Railroads and Railroad Companies--Mississippi and Tennessee Railroad (Memphis, Tenn.)</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_and_Tennessee_Railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>35.1175, -89.97111</geo>
+              </note>
+              <gloss><p xml:id='OTPSD63151P0'>Running from Memphis, Tennessee to Grenada, Mississippi, the Mississippi and Tennessee Railroad was a railroad company incorporated on October 16, 1852 and operated until 1886, when Illinois Central Railroad purchased the company. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001148'>
+<catDesc>State Level: USA &amp; CSA Military</catDesc>
+          <category xml:id='S63200'>
+            <catDesc>
+              <term>Mississippi. Militia</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63200P0'>A militia is a military unit made up of civilians within a community who could be called up by local (often state) officials to serve temporary military purposes. Militias were separate from regular, or permanent, armies. Because they conducted training only periodically, and provided active military service for short periods of time, militias cost less than regular armies; and because they were manned by local residents, militias were frequently seen as less threatening to early American communities than national military units comprised of strange men born in other counties or states.
+</p>
+
+<p xml:id='OTPSD63200P1'>When Mississippi seceded in 1861, enthusiasm for military service swept across the state. Volunteers filled the ranks of old militia units or created new companies within their communities, eager to repulse any federal attempt to coerce secessionists back into the Union. They also took proactive efforts, securing key positions along the Gulf Coast, including reinforcing other Southern soldiers at Pensacola and Fort Pickens in Florida. Over the next few months, as the Confederate government requested more volunteers, thousands of Mississippians and entire volunteer companies from the state transferred to Confederate service and were sent north, out of state. The units that remained within Mississippi for state defense were left in a convoluted military structure, some considered state reserves (a more formal military force for state defense) and some considered state militia (the more traditional units of citizen-soldiers called up for local, emergency use). The distinctions were not well established, and during the war Mississippians describing state units not within the Confederate army used a variety of terms—such as militia, home guard, state troops—almost interchangeably. However, under this subject tag at CWRGM you will find references to the militia and state troops; references that specifically referred to the home guard can be found separately under the Mississippi Home Guard subject tag.
+</p>
+
+<p xml:id='OTPSD63200P2'>While militia and state defense units technically fell under the governor’s authority, the state government struggled to manage, or even track, these organizations. Some, like the Third Battalion Mississippi Minute Men, were well organized, fell under direct state control, and took part in larger military operations, such as the defense of Vicksburg; others saw no combat, rarely gathered for drill, and were entirely overseen by county or local community officials. Most militia members were older than the average Confederate soldier. They were typically farmers, business owners, or land owners who had families and, in many instances, slaves. Because of these responsibilities at home, militiamen expected their military duties to be periodic, temporary, and only during times of emergency, a reflection of the militia’s original intent. However, state officials occasionally activated militia units for long periods, based upon the military situation. In the summer of 1862, Mississippi’s governor, John J. Pettus, mobilized his state troops, pulling many militia units away from their communities. Held in camp for several weeks, drilling but not seeing combat, many militiamen complained of their treatment and argued that their services were needed more at home, managing farms and their communities. Despite these complaints, the governor mobilized the state troops again in 1864, and again met criticism.
+</p>
+
+<p xml:id='OTPSD63200P3'>Overall, Mississippi’s militia and state defense system during the Civil War was a complicated tangle of formal and informal military units. Infrequently used for combat assignments, these units nevertheless provided some emergency services for the state government and allowed many Mississippians a way to provide military service to the community while remaining at home to manage personal and local interests. (Tracy L. Barnett, “Mississippi ‘Milish’: Militiamen in the Civil War,” <hi rend='italic'>Civil War History</hi>, Vol. 66, No. 4 (Dec 2020), 343-379; Michael B. Ballard, <hi rend='italic'>The Civil War in Mississippi: Major Campaigns and Battles</hi>, 4-8)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25015357'>
+            <catDesc>
+              <term>Mississippi. Militia. Minute Men Infantry Regiment, 1st (King&#39;s)</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=onepage&amp;q=%22first%20regiment-minute%20men%22&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25015357P0'>The 1st Infantry Regiment, Mississippi Militia (Minute Men) (King's) (Confederate) was organized on July 31, 1862 in Yalobusha County, Mississippi under the command of Col. Benjamin King and served in the Western Theater. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 7; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 887-888)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25015166'>
+            <catDesc>
+              <term>Mississippi. Militia. Minute Men Infantry Regiment, 1st (King&#39;s). Company B</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=onepage&amp;q=%22Wiley%20J.%20Butler%22&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25015166P0'>Commonly known as the Copiah Guards, Company B of the 1st Infantry Regiment, Mississippi Militia (Minute Men) (King's) (Confederate) was organized on May 26, 1862 in Copiah County, Mississippi under the command of Capt. Wiley J. Butler and served in the Western Theater. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 7; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 887)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25015360'>
+            <catDesc>
+              <term>Mississippi. Militia. Minute Men Infantry Regiment, 1st (King&#39;s). Company K</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=onepage&amp;q=%22Company%20K%2C%20of%20Madison%20City%22&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25015360P0'>Commonly known as the Madison County Minute Men, Company K of the 1st Infantry Regiment, Mississippi Militia (Minute Men) (King's) (Confederate) was organized in Madison County, Mississippi under the command of Capt. Z. Lawhorn and served in the Western Theater. It was later commanded by Capt. James L. Meek. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 7; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 888)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S99917'>
+            <catDesc>
+              <term>Mississippi. Militia. Minute Men Infantry Regiment, 4th. Company C</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99917P0'>Company C of the 4th Regiment, Mississippi Militia (Minute Men) (1862-1863) (Confederate) was organized in 1862 in Panola County, Mississippi under the command of Capt. J. M. Carloe and served in the Western Theater. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 13; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 891)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001678'>
+<catDesc>Skilled Labor</catDesc>
+          <category xml:id='S63276'>
+            <catDesc>
+              <term>Carpenters</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/carpenter?q=carpenters</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001678'>Skilled Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63276P0'>"A person whose job is making and repairing wooden objects and structures." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S56046'>
+            <catDesc>
+              <term>Mechanics</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/mechanic</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001678'>Skilled Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD56046P0'>"Someone who repairs or works with machines, esp. as a job." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission.; Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1863</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Livermore, A. S.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1863-01-30</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from A. S. Livermore, superintendent of the Mississippi and Tennessee Railroad, to Mississippi Governor John J. Pettus, seeking to have state troops detailed to work rebuilding bridges.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-943-10-18</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Parris Watts; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 943, Folder 10</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Bridges.; Mississippi. Governor; Mississippi. Militia; Mississippi and Tennessee Railroad; Pettus, John Jones, 1813-1867; Railroads--Confederate States of America</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from A. S. Livermore to Mississippi Governor John J. Pettus; January 30, 1863</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/6120&quot;&gt;Letter from A. S. Livermore to Mississippi Governor John J. Pettus; January 30, 1863&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG28" who="U25091404" when="2024-09-21T16:14:37Z" target="#P1816175">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U25091356" when="2023-08-27T00:06:51Z" target="#P1816175">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-04-09T16:24:45Z" target="#P1816175">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-24T02:37:41Z" target="#P1816175">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-21T01:46:07Z" target="#P1816175">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-21T01:39:05Z" target="#P1816175">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-18T02:31:42Z" target="#P1816175">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2022-12-14T00:17:06Z" target="#P1816175">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2022-12-13T21:14:36Z" target="#P1816175">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2021-10-28T02:14:36Z" target="#P1816175">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2021-10-24T20:34:47Z" target="#P1816175">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2021-05-11T21:07:25Z" target="#P1816175">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2021-05-11T16:37:01Z" target="#P1816175">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2021-05-11T16:34:46Z" target="#P1816176">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2021-05-11T16:34:28Z" target="#P1816175">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2021-05-11T16:34:24Z" target="#P1816175">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2021-05-05T18:43:12Z" target="#P1816175">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2021-05-05T18:43:02Z" target="#P1816175">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U217868" when="2021-04-08T14:50:38Z" target="#P1816175">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U217868" when="2021-04-08T14:49:19Z" target="#P1816176">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U217868" when="2021-04-08T14:47:09Z" target="#P1816175">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U224896" when="2021-03-21T01:13:21Z" target="#P1816175">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U224896" when="2021-03-21T01:12:41Z" target="#P1816175">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U220513" when="2021-03-16T16:06:24Z" target="#P1816176">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U220513" when="2021-03-16T16:00:48Z" target="#P1816175">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-03-16T00:41:52Z" target="#P1816176">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-16T00:41:52Z" target="#P1816175">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-16T00:41:30Z" target="#P1816176">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-03-16T00:41:19Z" target="#P1816175">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1816175" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/6118/full/full/0/default.jpg"/>
+        <div xml:id="OTP1816175">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1816175P0' xml:id='OTP1816175P0'>[seal]
+</p>
+
+<p corresp='TTP1816175P1' xml:id='OTP1816175P1'><rs ref='#S63151'>Miss. and Tenn. R. R.</rs> <lb/>
+OFFICE OF THE GENERAL SUPERINTENDENT,<lb/>
+<rs ref='#S63123'>Grenada</rs>, Miss, Jany 30<hi rend='underline'><add place='above'>th</add></hi> 1863
+</p>
+
+<p corresp='TTP1816175P2' xml:id='OTP1816175P2'>His Excellency<lb/>
+Gov. <rs ref='#S63111'>Jno. J. Pettus</rs>
+</p>
+
+<p corresp='TTP1816175P3' xml:id='OTP1816175P3'>Sir
+</p>
+
+<p corresp='TTP1816175P4' xml:id='OTP1816175P4'>I applied to Genl. <rs ref='#S52212'>George</rs> several days since to have four men (<rs ref='#S63276'>Carpenters</rs>) belonging to the State Troops detailed to work in re-building the bridges on the line of our <rs ref='#S99413'>Road</rs>—He replied that your order would be necessary for which purpose I now apply to you—
+</p>
+
+<p corresp='TTP1816175P5' xml:id='OTP1816175P5'>Genl. <rs ref='#S97207'>Pemberton</rs> has ordered the Road to be reopened at the earliest possible moment, and we find it im-possible to get <rs ref='#S56046'>Mechanics</rs> except by detail from the Army—
+</p>
+
+<p corresp='TTP1816175P6' xml:id='OTP1816175P6'>The following are the names of those applied for—
+</p>
+
+<p corresp='TTP1816175P7' xml:id='OTP1816175P7'><rs ref='#S101716'>S. Pitard</rs>—<rs ref='#S25015360'>Co K—1<hi rend='underline'><add place='above'>st</add></hi> Regt. Minute men</rs>
+</p>
+
+<p corresp='TTP1816175P8' xml:id='OTP1816175P8'><rs ref='#S101718'>W. B. Hiser</rs>—<rs ref='#S99917'>Co C—4th " State Troops</rs>
+</p>
+
+<p corresp='TTP1816175P9' xml:id='OTP1816175P9'><rs ref='#S101720'>Geo. Matthews</rs>—Co C—4th "  "
+</p>
+
+<p corresp='TTP1816175P10' xml:id='OTP1816175P10'><rs ref='#S101721'>W<hi rend='underline'><add place='above'>m</add></hi> Pagan</rs>—<rs ref='#S25015166'>Co B—1st</rs> "  "
+</p>
+
+<p corresp='TTP1816175P11' xml:id='OTP1816175P11'>If you will order these men detailed, it will forward the interest of the Road and we think of the Govt.
+</p>
+
+<p corresp='TTP1816175P12' xml:id='OTP1816175P12'>We need the men <hi rend='underline'>immediately</hi> and your early attention is respectfully requested—
+</p>
+
+<p corresp='TTP1816175P13' xml:id='OTP1816175P13'>I am sir your excellency's Obdt Servt
+</p>
+
+<p corresp='TTP1816175P14' xml:id='OTP1816175P14'><rs ref='#S101722'>A. S. Livermore</rs><lb/>
+Genl. Supt.
+</p>
+
+
+        </div>
+        <pb xml:id="F1816176" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/6119/full/full/0/default.jpg"/>
+        <div xml:id="OTP1816176">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1816176P0' xml:id='OTP1816176P0'>Govr John J Pettus
+</p>
+
+<p corresp='TTP1816176P1' xml:id='OTP1816176P1'>Dear sir
+</p>
+
+<p corresp='TTP1816176P2' xml:id='OTP1816176P2'>I hope you will consistent with your duty &amp; interest of the Government to grant the within request as the country unopened by our road abounds with supplis much needed by our army.
+</p>
+
+<p corresp='TTP1816176P3' xml:id='OTP1816176P3'>Respecty. Your<lb/>
+Obt Servt<lb/>
+<rs ref='#S79860'>F M White</rs> Res.
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

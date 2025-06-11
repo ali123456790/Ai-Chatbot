@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Felix Hughes to Mississippi Governor John Jones Pettus; May 13, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2021-05-03T17:29:26Z">May  3, 2021</date> and
+              <date type="last_edit" when="2023-11-01T22:26:55Z">November  1, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-03-15T14:40:29Z">March 15, 2021</date> and
+              <date type="last_edit" when="2021-03-15T14:48:04Z">March 15, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228445">
+          <persName
+            >
+            Abby Cawley
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-04-09T13:57:16Z">April  9, 2021</date> and
+              <date type="last_edit" when="2021-04-09T14:00:04Z">April  9, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217816">
+          <persName
+            >
+            Gracie Breland
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-04-15T20:52:27Z">April 15, 2021</date> and
+              <date type="last_edit" when="2021-04-15T20:53:10Z">April 15, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220513">
+          <persName
+            >
+            Jan Pilkington
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-03-15T17:13:44Z">March 15, 2021</date> and
+              <date type="last_edit" when="2021-03-15T17:15:10Z">March 15, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-08-18T20:12:11Z">August 18, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U220513">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Jan Pilkington</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T16:31:44+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S105560">
+              <persName>Hughes, Felix</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S102543">
+              <persName>Beauregard, P. G. T. (Pierre Gustave Toutant), 1818-1893</persName>
+                <idno>https://en.wikipedia.org/wiki/P._G._T._Beauregard</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS102543P0'>Pierre Gustave Toutant Beauregard was a U.S. Army officer, superintendent of the United States Military Academy at West Point, and a Confederate general.
+</p>
+
+<p xml:id='OTPS102543P1'>Born on a sugar plantation in St. Bernard Parish, Louisiana, on May 28, 1818, Beauregard was from a wealthy, slave owning Louisiana Creole family and grew up speaking French. He did not begin to learn English until attending a school in New York City at the age of twelve. Beauregard attended West Point and was an exceptional student, showing great aptitude in artillery and engineering. He graduated second in his class in 1838.
+</p>
+
+<p xml:id='OTPS102543P2'>Beauregard served with distinction as a military engineer during the Mexican-American War from 1846 to 1848. He was brevetted (honorarily promoted) to captain for his performance at the battles of Contreras and Churubusco, and brevetted again to major for his actions at Chapultepec, where he was wounded in the shoulder and thigh. Following the Mexican-American War, Beauregard oversaw military engineering projects along the Mississippi River and the Gulf Coast. However, by 1856 he grew tired of peacetime service and nearly traveled to Nicaragua to take part in a revolution there being carried out by American volunteers. He was talked out of the effort by his Army colleagues, including general-in-chief Winfield Scott (who had personally seen Beauregard’s performances in Mexico). In January 1861, he secured an appointment as superintendent of West Point. However, he held the position for only five days before Louisiana’s secession prompted U.S. Army officials to revoke the orders.
+</p>
+
+<p xml:id='OTPS102543P3'>Beauregard returned to New Orleans in early 1861 and joined the Confederate cause. Because of his previous service and reputation, he was quickly promoted, becoming the first Confederate general on March 1, 1861. His first assignment was command over defenses in Charleston, South Carolina. Federal soldiers there under Major Robert A. Anderson—one of Beauregard’s West Point instructors—occupied Fort Sumter in Charleston Harbor and refused to relinquish the post without a fight. On April 12, 1861, Beauregard ordered Confederate cannons in Charleston to fire on Fort Sumter, and after a thirty-four hour bombardment Anderson surrendered. The attack upon U.S. Army troops sparked the Civil War, as it spurred President Abraham Lincoln to call for 75,000 volunteers to defeat southern secessionists and led to several other southern states to join the Confederacy.
+</p>
+
+<p xml:id='OTPS102543P4'>After his victory at Fort Sumter, Beauregard received command of Confederate forces defending northern Virginia and successfully defeated a Union army under Brigadier General Irvin McDowell at the First Battle of Bull Run, near Manassas, Virginia, in July 1861. Despite these victories, Beauregard ran into controversy. He had a brash personality, and publicly criticized people like Confederate president Jefferson Davis; additionally, he bickered with some Confederate officials over strategy, his critics complaining his plans were overly complicated.
+</p>
+
+<p xml:id='OTPS102543P5'>In early 1862, Beauregard was transferred to the western theater where he became second-in-command of the Army of Mississippi under General Albert Sidney Johnston. The Confederates attacked Ulysses S. Grant’s army at Pittsburgh Landing along the Tennessee River in early April 1862. More famously known as the Battle of Shiloh, Beauregard took command of the Confederate forces after Johnston was mortally wounded. Despite initial success, Beauregard halted his men due to darkness only to withdraw the following day when Grant’s men were reinforced and counterattacked. Receiving criticism for retreating at Shiloh, Beauregard infuriated Confederate officials more when he abandoned the key railroad hub at Corinth, Mississippi, shortly afterwards. Although his withdrawal had been made to avoid being surrounded by a larger Union force, and because his army was suffering greatly from disease and contaminated water at Corinth, the dual retreats hurt Beauregard’s reputation. When he temporarily left his post for medical treatment, Jefferson Davis relieved him of command.
+</p>
+
+<p xml:id='OTPS102543P6'>Beauregard’s next assignment was a return to Charleston to once against take over defenses of the southeastern Confederate coastline. He performed well, frustrating several Union assaults against Charleston Harbor. However, Beauregard believed his position was beneath his abilities. He interjected himself into political matters, proposing negotiations with federal officials and working behind the scenes to increase the number of Confederate troops in the west at the expense of General Robert E. Lee’s army in Virginia.
+</p>
+
+<p xml:id='OTPS102543P7'>In early 1864, Beauregard received orders to command Confederate defenses of North Carolina and southern Virginia. He performed very well in this role when Union armies under Ulysses S. Grant and Benjamin Butler maneuvered toward Richmond. Beauregard blocked Butler’s force and protected the key railroad center at Petersburg that summer. Meanwhile, William Tecumseh Sherman’s Union army captured Atlanta, Georgia, prompting Confederate high command to shift command in the west. Beauregard was asked to command the new Department of the West, which covered a region from Georgia to the Mississippi River. While the position was not a field command, Beauregard took the opportunity as it placed him above several Confederate armies. The assignment proved difficult, as his troops in Tennessee suffered devastating defeats at Franklin and Nashville and scattered southern forces in Georgia and South Carolina failed to stop Sherman’s army from cutting through Georgia and South Carolina. When Beauregard repeatedly messaged Confederate officials in Richmond for help against Sherman, they relieved him of command and replaced him with Joseph E. Johnston. Unsurprisingly, Johnston fared no better and Confederate forces in the Carolinas were forced to surrender in April 1865.
+</p>
+
+<p xml:id='OTPS102543P8'>After the Civil War, Beauregard returned to New Orleans. He opposed Radical Reconstruction measures in the south, but less due to matters over Black civil rights and more regarding heavy property tax. Beauregard joined the Reform Party, generally made up of New Orleans businessmen who supported Black suffrage, and appealed to African American voters as an alternative to the Republican Party. He also took part in various business ventures, including railroads and cable car companies, civil engineering projects, and he served as the supervisor of the Louisiana State Lottery Company. He enjoyed substantial financial success from these activities.
+</p>
+
+<p xml:id='OTPS102543P9'>Beauregard was married twice during his lifetime. He married Marie Antoinette Laure Villere in 1841. The couple had three children, but Marie died during childbirth to the third in 1850. Beauregard then married Caroline Deslonde in 1860. She died only four years later after a long illness. Beauregard died on February 20, 1893. He is buried in Metairie Cemetery in New Orleans, Louisiana.
+</p>
+
+<p xml:id='OTPS102543P10'>(Wikipedia; National Park Service; American Battlefield Trust; FindaGrave)
+</p>
+
+<p xml:id='OTPS102543P11'>Pierre Gustave Toutant Beauregard belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S76166">
+              <placeName>Mississippi--Alcorn County. Corinth</placeName>
+                <idno>https://www.britannica.com/place/Corinth-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS76166P0'>Currently located in Alcorn County, Corinth was founded in 1853 under the name Cross City in what was then Tishomingo County. When Alcorn County was created on April 15, 1870, Corinth became its county seat. (Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.93722, -88.51528</geo>
+                </note>
+            </place>
+            <place xml:id="S63295">
+              <placeName>Kentucky</placeName>
+                <idno>https://www.britannica.com/place/Kentucky</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63295P0'>Kentucky was established May 23, 1775 as the Transylvania Colony and was renamed Kentucky County, Virginia on January 1, 1777. Admitted as the 15th state, Kentucky achieved statehood June 1, 1792. (Britannica; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>37.5, -85.0</geo>
+                </note>
+            </place>
+            <place xml:id="S63022">
+              <placeName>Tennessee</placeName>
+                <idno>https://www.britannica.com/place/Tennessee</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63022P0'>The Territory of Tennessee was established in 1789 after breaking away from North Carolina. Admitted as the 16th state, Tennessee achieved statehood June 1, 1796. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>36.0, -86.0</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S32005193'>
+            <catDesc>
+              <term>Military Engagements</term>
+              <idno>https://www.battlefields.org/learn/articles/civil-war-facts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32005193P0'>The act of beginning to fight or a period of time in a war, military engagements are also referred to as battles or skirmishes. Battles are fights between armed forces, and usually describe singular events that occur over the course of hours or a few days. Skirmishes are smaller fights, usually between a small number of soldiers that occur unexpectedly, last only a few minutes or a few hours, and take place away from the main area of fighting.
+</p>
+
+<p xml:id='OTPSD32005193P1'>There were approximately 10,500 engagements during the American Civil War. Fifty of them were major battles, while another one hundred were notable engagements. The rest were small battles or skirmishes. (Cambridge Dictionary; American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S104719'>
+            <catDesc>
+              <term>Military Engagements--Shiloh, Battle of, Tenn., 1862</term>
+              <idno>https://www.battlefields.org/learn/civil-war/battles/shiloh</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>35.13861, -88.34222</geo>
+              </note>
+              <gloss><p xml:id='OTPSD104719P0'>The Battle of Shiloh (also known as the Battle of Pittsburg Landing) was fought on April 6 – 7, 1862 in Hardin County, Tennessee between the Army of the Tennessee (Union) commanded by Maj. Gen. Ulysses S. Grant against the Army of Mississippi (Confederate) commanded by Gen. Sidney Albert Johnston, and later, by Gen. P.G.T. Beauregard. It resulted in a Union victory. After the fall of Forts Henry and Donelson in February of 1862, Johnston withdrew Confederate forces from Kentucky and central and western Tennessee, opening Mississippi and Alabama to attack from the Union Army. Johnston suspected that Grant would attack Corinth, Mississippi, the hub of the Ohio and Mobile and Memphis and Charleston railroads, an important Confederate supply route. He gathered his forces at Corinth and marched north to Pittsburgh Landing, Tennessee to attack Grant before Union reinforcements could arrive.
+</p>
+
+<p xml:id='OTPSD104719P1'>Fighting began on the morning of April 6. Initially, Johnston’s forces had the element of surprise, attacking Union soldiers at their camp and driving them back toward Pittsburgh Landing. Union forces regrouped and counter-attacked. That afternoon, Johnston was shot in his knee, the ball severing an artery and killing him from blood loss. Command fell to Beauregard who believed his forces were victorious and ordered the attack halted as darkness fell that evening. Grant, receiving reinforcements overnight, launched an attack on the morning of April 7. Beauregard counter-attacked, but the two sides reached a stalemate. That afternoon Beauregard realized that Grant was reinforced, and he was outnumbered. He retreated with his forces to Corinth. The total number of forces engaged in the battle was 110,053; 65,085 Union and 44,968 Confederate. Casualties from the battle were estimated at 23,746 with 13,047 Union and 10,669 Confederate. The Confederate defeat at Shiloh gave the Union access to several hundred miles of the Mississippi River to launch operations further into to South. Also of note, Sidney Albert Johnston would be the highest-ranking Confederate general killed in the war (American Battlefield Trust; Tennessee Encyclopedia; Encyclopedia Britannica)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S79382'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 22nd</term>
+              <idno>https://www.google.com/books/edition/The_Official_and_Statistical_Register_of/wMoGAQAAIAAJ?q=&amp;gbpv=0#f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD79382P0'>The 22nd Regiment, Mississippi Infantry (Confederate) was organized in summer 1861 in Tishomingo County, Mississippi under the command of Col. D. W. C. Bonham and served in the Western Theater under Zollicoffer's, Rust's, and Featherston's Brigades in the Department of Mississippi and East Louisiana. It was later commanded by Cols. Frank Schaller, James D. Lester, Major Martin A. Oatis, Capts. John T. Farmby, and George W. Standley. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 23; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 628-635; National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+          <category xml:id='S95870'>
+            <catDesc>
+              <term>Military Headquarters</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/headquarters</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95870P0'>A military headquarters is the main center of control for a unit and typically revolves around that unit’s highest ranking officer. The term headquarters often refers to a physical location, however it is not always a permanent facility. A commanding officer can establish a headquarters anywhere that best allows oversight of the unit. Frequently during the Civil War military leaders relocated their headquarters each day as their armies moved. Union general John Pope famously declared that he would make his “headquarters in the saddle.” The comment was more symbolic than literal, but reflected how a headquarters centered on the commander's location and was subject to his discretion in how and where to conduct official duties. Pope’s critics replied that he was making his headquarters where his “hindquarters” should be, representing the more traditional view of a headquarters being a stationary command center strategically located for the effective management of a staff and army. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S25003265'>
+            <catDesc>
+              <term>Wounds and Injuries</term>
+              <idno>https://www.civilwarmed.org/surgeons-call/amputation1/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25003265P0'>Medical treatment of wounds and injuries during the nineteenth century was fairly primitive, and not substantially different than medical practices over the preceding few centuries. Doctors had little knowledge of bacteria, and therefore did not understand the importance of washing hands or sterilizing medical instruments when treating open wounds. Physicians learned that some substances seemed to aid recovery, such as iodine and bromine, but their properties were more mystery than scientifically understood. Additionally, antibiotics had not yet been discovered. As a result, even minor cuts could become infected and lead to severe disability or death.
+</p>
+
+<p xml:id='OTPSD25003265P1'>During the Civil War, more than 475,000 soldiers were wounded in battle.  Thousands more suffered injuries in camp or on the march.  Medical care for wounded and injured soldiers typically involved closing wounds and setting broken bones. After suturing or bandaging these injuries, physicians would carefully observe their patients and try to offer some medical support, but recovery most often depended upon the wounded man’s natural healing. Some medical practices had unintended consequences, both positive and negative. Horsehair proved to be a popular material for sutures, due to its length and strength. To improve its elasticity, Civil War doctors boiled the horsehair, thereby disinfecting it. Wounds stitched closed with boiled horsehair were less likely to grow infected from the sutures, although this benefit was not fully understood until after the war. On the other hand, physicians probing for bullets or foreign objects inside a wound often introduced more bacteria and generated worse infections than the patient may have experienced without the procedure. This practice continued well after the Civil War, and likely contributed to President James Garfield’s death in 1881, when doctors repeatedly used unsterilized fingers and instruments while searching for the assassin’s bullet lodged in his body.
+</p>
+
+<p xml:id='OTPSD25003265P2'>Doctors understood the danger of blood loss to wounded men, but devices such as the Petit Tourniquet—a French screw-tightened tourniquet designed in 1718—were typically found at a surgeon’s tent rather than with the soldiers along the front lines. Some physicians recommended supplying tourniquets among the soldiers, but others suggested much simpler practices, such as each soldier carrying a handkerchief or cloth strip and a six-inch long piece of wood in his pocket to function as a makeshift tourniquet. These life-saving practices were not mandated among Union and Confederate armies, though, and many wounded men died of blood loss before reaching medical help.
+</p>
+
+<p xml:id='OTPSD25003265P3'>The most iconic treatment of battlefield wounds during the Civil War was amputation. Most casualties during the war were caused by musket fire. The large caliber lead balls often shattered bones upon impact. Unable to splint or repair bones so damaged, physicians frequently chose to amputate the wounded person’s limb above the injury. Doctors typically sewed a flap of skin over the stump. Unfortunately, due to the high incidents of infection for reasons described above, amputated limbs often became infected. Gangrene was among the most dangerous conditions, which could lead to death. The only method of combatting gangrene was to perform another amputation further up the limb (if possible) and hope it healed properly. Confederate and Union physicians performed around 50,000 amputations during the Civil War. Contrary to some popular myths, anesthesia, such as chloroform and ether, was in use during the Civil War, and around 95% of wounded soldiers were afforded some comfort before amputation.
+</p>
+
+<p xml:id='OTPSD25003265P4'>Hundreds of thousands of soldiers returned home from the Civil War with scars or permanent disabilities from wartime wounds and injuries. The large number of amputees also led to new developments in prosthetics. Lessons learned from the war improved medical care a bit, as Union and Confederate doctors recorded their observations of wounds and treatments. Published reports provided a new wealth of information. However, only after scientists better understood microbes and accepted the Germ Theory in the late nineteenth and early twentieth century did medical practice substantially improve from the Civil War era practices. (Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 41–50; Terry Reimer, “Wounds, Ammunition, and Amputation,” National Museum of Civil War Medicine; Paige Gibbons Backus, “Amputation and the Civil War,” American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for the project provided by the National Historical Publications and Records Commission.; Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Hughes, Felix</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-05-13</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Confederate Captain Felix Hughes at Corinth, Mississippi, to Mississippi Governor John Jones Pettus submitting a statement on the current condition of the 22nd Mississippi Infantry.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Corinth (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-941-12-12</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Alcorn County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 941, Folder 12</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Confederate States of America. Army. Mississippi Infantry Regiment, 22nd; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Felix Hughes to Mississippi Governor John Jones Pettus; May 13, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/5663&quot;&gt;Letter from Felix Hughes to Mississippi Governor John Jones Pettus; May 13, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG29" who="U32019810" when="2024-08-18T20:12:11Z" target="#P1814158">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-11-01T22:26:55Z" target="#P1814158">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-19T21:03:47Z" target="#P1814158">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-18T04:55:35Z" target="#P1814158">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2021-12-09T23:11:48Z" target="#P1814158">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2021-11-06T18:36:27Z" target="#P1814158">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2021-11-06T18:36:13Z" target="#P1814158">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2021-05-09T18:41:43Z" target="#P1814158">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2021-05-03T17:29:26Z" target="#P1814158">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U217816" when="2021-04-15T20:53:10Z" target="#P1814160">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U217816" when="2021-04-15T20:52:59Z" target="#P1814159">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U217816" when="2021-04-15T20:52:34Z" target="#P1814158">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U217816" when="2021-04-15T20:52:27Z" target="#P1814158">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U228445" when="2021-04-09T14:00:04Z" target="#P1814160">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U228445" when="2021-04-09T13:59:44Z" target="#P1814159">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U228445" when="2021-04-09T13:58:37Z" target="#P1814159">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U228445" when="2021-04-09T13:57:16Z" target="#P1814158">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220513" when="2021-03-15T17:15:10Z" target="#P1814160">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220513" when="2021-03-15T17:14:51Z" target="#P1814159">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220513" when="2021-03-15T17:13:44Z" target="#P1814158">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U231087" when="2021-03-15T14:48:04Z" target="#P1814158">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U231087" when="2021-03-15T14:42:12Z" target="#P1814159">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U231087" when="2021-03-15T14:42:02Z" target="#P1814159">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U231087" when="2021-03-15T14:40:29Z" target="#P1814160">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2021-03-11T17:39:42Z" target="#P1814160">
+          Version 1 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-03-11T17:39:42Z" target="#P1814159">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-03-11T17:39:32Z" target="#P1814160">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-11T17:39:41Z" target="#P1814158">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-11T17:39:27Z" target="#P1814159">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-03-11T17:39:23Z" target="#P1814158">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1814158" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/5660/full/full/0/default.jpg"/>
+        <div xml:id="OTP1814158">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1814158P0' xml:id='OTP1814158P0'><rs ref='#S95870'>Head Qrs</rs> <rs ref='#S79382'>22<add place='above'><hi rend='underline'>nd</hi></add> Miss Regt</rs><lb/>
+<rs ref='#S76166'>Corinth Miss</rs><lb/>
+13 May 1862
+</p>
+
+<p corresp='TTP1814158P1' xml:id='OTP1814158P1'>To his Excellency<lb/>
+<rs ref='#S63111'>John J Pettus</rs><lb/>
+Governor of the State of Mississippi
+</p>
+
+<p corresp='TTP1814158P2' xml:id='OTP1814158P2'>Sir
+</p>
+
+<p corresp='TTP1814158P3' xml:id='OTP1814158P3'>I have the honor to submit the following statement regarding the present condition of the 22<add place='above'>nd </add>Miss Regmt.
+</p>
+
+<p corresp='TTP1814158P4' xml:id='OTP1814158P4'>This Regiment was organized nearly one year ago "for the war". The regiment at one time numbered nearly one thousand men. After an arduous campaign of nine months or over. through <rs ref='#S63295'>Kentucky</rs> and <rs ref='#S63022'>Tennessee</rs> the numbers are now reduced to less than eight hundred: many who are still on the rolls who was <rs ref='#S25003265'>wounded</rs> at the <rs ref='#S104719'>battle of Shiloh</rs>, will never be able to resume their duty as soldiers.
+</p>
+
+<p corresp='TTP1814158P5' xml:id='OTP1814158P5'>Desiring to increase the efficiency of the Regiment by adding to its strength, I most respectfully ask that <hi rend='underline'>five hundred men</hi> be assigned to this regiment from the number to be raised in pursuance of the late call of Your Excellency for the purpose of filling up the regiments from Miss now serving under Genl <rs ref='#S102543'>Beauregard</rs>.
+</p>
+
+<p corresp='TTP1814158P6' xml:id='OTP1814158P6'>This number can be <hi rend='underline'>armed without delay</hi>, and will bring the regiment up to the standard allowed by law (1250) Through casualties on the field and disease the, "Aggregate Present" of the regiment is only <hi rend='underline'>520</hi>,
+</p>
+
+
+        </div>
+        <pb xml:id="F1814159" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/5661/full/full/0/default.jpg"/>
+        <div xml:id="OTP1814159">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1814159P0' xml:id='OTP1814159P0'>which leaves. but the skeleton of a Regiment and proves, how much we require the number of men called for.
+</p>
+
+<p corresp='TTP1814159P1' xml:id='OTP1814159P1'>hoping this request may meet with the favorable consideration and early attention of Your Excellency
+</p>
+
+<p corresp='TTP1814159P2' xml:id='OTP1814159P2'>I have the honor to be<lb/>
+most respectfully your obdt svt<lb/>
+<rs ref='#S105560'>Felix Hughes</rs><lb/>
+Capt Commanding 22<add place='above'>nd</add> Miss Regt..—
+</p>
+
+
+        </div>
+        <pb xml:id="F1814160" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/5662/full/full/0/default.jpg"/>
+        <div xml:id="OTP1814160">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP1814160P0' xml:id='OTP1814160P0'>Felix Hughes<lb/>
+May 13<add place='above'>th</add> 1862
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

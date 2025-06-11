@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from John Dickerson to Mississippi Governor John J. Pettus; May 18, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 21 edits between
+              <date type="first_edit" when="2021-02-02T19:08:23Z">February  2, 2021</date> and
+              <date type="last_edit" when="2024-06-12T20:38:42Z">June 12, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-01-26T14:34:06Z">January 26, 2021</date> and
+              <date type="last_edit" when="2021-01-26T14:45:38Z">January 26, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228005">
+          <persName
+            >
+            Heather A Haslem
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-02-12T23:23:35Z">February 12, 2021</date> and
+              <date type="last_edit" when="2021-02-12T23:25:15Z">February 12, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-06-07T22:11:36Z">June  7, 2024</date> and
+              <date type="last_edit" when="2024-06-07T22:12:01Z">June  7, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T15:04:57Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T17:34:52Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T20:14:27+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S87788">
+              <persName>Dickerson, John</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S87789">
+              <persName>Brown, R. O.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S87773">
+              <persName>Coon, Jasper</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52243">
+              <persName>Lincoln, Abraham, 1809-1865</persName>
+                <idno>https://en.wikipedia.org/wiki/Abraham_Lincoln</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52243P0'>Abraham Lincoln was the sixteenth president of the United States, whose election to the White House as an anti-slavery Republican in 1860 led several southern states to declare themselves separate from the Union and create the Confederate States of America. Lincoln was commander-in-chief of Union forces during the Civil War. Over the course of four years, Lincoln oversaw the Union war effort and took steps to end the institution of slavery to aid the federal military effort and destroy the root cause of the north versus south sectional conflict.
+</p>
+
+<p xml:id='OTPS52243P1'>Born on February 12, 1809, near Hodgenville, Kentucky, Lincoln moved with is family to Indiana as a child and grew up in a poor, frontier society. Although he received minimal formal education, Lincoln proved to be highly intelligent and a voracious reader. He held various jobs as a young man, including working on a flatboat down the Mississippi River, splitting rails and logs, and as a store keeper. He moved to Illinois in 1830 and in 1832, he volunteered for military service during the Black Hawk War in Illinois. Elected captain of a militia company, Lincoln saw no combat, but credited his time leading men in the military as one of the most proud and instructional periods of his life.
+</p>
+
+<p xml:id='OTPS52243P2'>After the Black Hawk War, Lincoln operated a general store in New Salem, Illinois. When the business began to lose money, he decided to study law and become an attorney. Unlike most other lawyers, who attended a law school or studied under established attorneys, Lincoln’s education was self-guided through legal texts and books he borrowed or purchased. Meanwhile, he developed an interest in politics. After an unsuccessful run for the Illinois legislature in 1833, he ran again in 1834 and won a seat in the state’s House of Representatives. He served one term and became known for his support of internal improvements and his Free Soil position on slavery, which opposed slavery in the new territories and criticized abolition (the immediate, forced end of slavery).
+</p>
+
+<p xml:id='OTPS52243P3'>After leaving the Illinois legislature in 1836, Lincoln became a successful attorney in Springfield. He handled many different types of cases, and over the course of his legal career, representing poor individuals in criminal cases as well as large businesses, such as the Illinois Central Railroad. Lincoln argued 175 cases before the Illinois Supreme Court, serving as the single attorney in 51 of those cases (31 of which he won). As an attorney, he developed a reputation for integrity and earned the nickname “Honest Abe.”
+</p>
+
+<p xml:id='OTPS52243P4'>In 1846, Lincoln won an election as a member of the Whig Party to the U.S. House of Representatives for Illinois. As a freshman congressman, he helped author legislation to abolish slavery in the District of Columbia, but the bill died due to insufficient support. More notably, Lincoln opposed the Mexican-American War which erupted in 1846 due to a border dispute between the United States and Mexico. He criticized Democratic president James K. Polk, but this proved unpopular in his home state. He had promised to only serve one term in Congress and declined to run for reelection. He returned to Springfield after the expiration of his term in 1849 and resumed his law practice.
+</p>
+
+<p xml:id='OTPS52243P5'>Lincoln’s political ambitions continued to grow in the 1850s. The volatile debate over the future of slavery in the territories, especially following passage of the Kansas-Nebraska Act of 1854—which overturned slavery restrictions established by the Missouri Compromise of 1820 and opened all western territories to slavery through popular sovereignty (vote of the residents)—inspired Lincoln to speak publicly about his opposition to slavery. His chief rival became Illinois senator Stephen A. Douglas, a powerful voice in the national Democratic Party, and the author of the Kansas-Nebraska Act. Lincoln gave numerous speeches denouncing slavery as a moral wrong and opposing its extension into the territories. However, like most northerners, he was not an abolitionist and did not advocate for the immediate end of slavery across the United States. Most white Americans during the 1850s embraced white supremacy, and many northerners did not want African Americans—as slaves or as free people—in their communities. Lincoln believed that southern states had the legal right to maintain the institution of slavery within their own borders, and he fended off accusations that he was for African American equality. For years he gave tacit support to a plan promoted among moderate politicians to send freed slaves to Africa.
+</p>
+
+<p xml:id='OTPS52243P6'>The issue of slavery in the territories effectively broke apart the Whig Party and gave rise to the new Republican Party. Lincoln joined this new anti-slavery party and by 1858 received the party’s nomination in Illinois to challenge Douglas’s reelection to the U.S. Senate. Upon receiving the nomination, Lincoln gave one of his most famous speeches, declaring in part that “a house divided against itself cannot stand”—a reference to the United States being half slaveholding and half free—and predicting that the fight over slavery would either make the country give in to slaveholding interests or end the institution. During the 1858 Illinois campaign, Lincoln and Douglas engaged in eight public debates which have become the most famous political debates in United States history. Douglas championed his principle of “popular sovereignty,” allowing white residents of the territories to make their new states free or slaveholding, while Lincoln advanced a moral opposition to slavery in the territories as contrary to the principles of American freedom. Douglas ultimately won the Senate election, but the debates catapulted Lincoln to national fame and the leading voice for the growing anti-slavery movement in the north
+</p>
+
+<p xml:id='OTPS52243P7'>Only two years later, in 1860, the Republican Party nominated Lincoln for U.S. president. His chief rival was, again, Stephen Douglas. The election was the most contested and significant in American history. The Democratic Party split during its convention over the defense of slavery. Douglas and his outwardly neutral platform on slavery received the party’s formal nomination, but many southern delegates walked out to hold their convention, nominating John C. Breckenridge as the champion of pro-slavery interests. Talk of secession, which had circulated in years past, increased as southern politicians warned that election of Lincoln would be a direct assault upon their slaveholding interests and justify disunion.
+</p>
+
+<p xml:id='OTPS52243P8'>Lincoln won the 1860 presidential election without any southern support, not only placing the first truly anti-slavery president in the White House but proving that northern voters could elect a candidate against southern interests. Within weeks, states in the lower south began holding secession conventions to declare their separation from the Union. South Carolina led the way with its ordnance of secession passing on December 20, 1860. Mississippi was second, on January 9, 1861. In total, seven southern states declared secession even before Lincoln was inaugurated in March 1861.
+</p>
+
+<p xml:id='OTPS52243P9'>Lincoln entered the presidency in the midst of this secession crisis. He rejected the legitimacy of the lower south’s separation from the Union. The matter erupted into open hostilities in April 1861, when Confederate forces attacked and overwhelmed federal troops at Fort Sumter in Charleston Harbor, South Carolina. In response, Lincoln called for 75,000 volunteers to put down the rebellion, as he called it. Northern states responded enthusiastically, while several states in the upper south—including Virginia, Arkansas, North Carolina, and Tennessee—chose to join the Confederacy.
+</p>
+
+<p xml:id='OTPS52243P10'>Lincoln’s objective at the start of the Civil War was restoration of the Union as it was. He resisted efforts by more radical anti-slavery northerners to attack slavery itself, and overruled Union general John C. Frémont’s effort to liberate slaves in Missouri in 1861. His actions were guided by concerns regarding his legal authority to challenge slavery where it already existed, and from fears that such steps would drive moderate Unionists in the border states of Missouri, Kentucky, and Maryland into the Confederacy. (Lincoln still personally opposed slavery and in 1862 signed an emancipation act liberating enslaved people in Washington, D.C., fulfilling a goal he had first undertaken as a congressman in the 1840s.)
+</p>
+
+<p xml:id='OTPS52243P11'>However, as Confederate military forces won multiple battlefield victories in 1861 and 1862, prolonging the conflict, Lincoln sought more desperate measures. For one, thousands of enslaved people had fled to Union lines, and more arriving daily. Secondly, the institution was the Confederacy’s greatest economic and labor interest. Millions of enslaved people grew crops that fed and funded the Confederate war effort, and southern officials used slave labor to construct forts and trenches that held back the Union armies. Recognizing that the Union could not defeat the Confederacy while protecting or leaving the institution of slavery untouched, on January 1, 1863, Lincoln signed the Emancipation Proclamation, which declared all slaves in secessionist areas permanently free. Although the proclamation was limited in scope (as it was a military measure that did not, nor could not, liberate enslaved people in areas not in rebellion against federal authority), it was a revolutionary act in American history. It formally changed the Union objective of the war, from preserving it as it was to “a new birth of freedom,” as Lincoln famously said in a speech in November 1863 at Gettysburg, Pennsylvania. Additionally, the proclamation authorized federal officers to protect the freedom of all enslaved people who fled to Union armies in Confederate territories and to liberate those they encountered during their campaigns in the south. Finally, the Emancipation Proclamation formally authorized the United States military to enlist African American soldiers. As a result around 180,000 black soldiers fought for the Union during the Civil War.
+</p>
+
+<p xml:id='OTPS52243P12'>Throughout the Civil War, Lincoln struggled to lead the Union war effort in a challenging political and military environment. Democrats in the north vehemently opposed his administration and Republican Party policies, particularly those against slavery. Union generals in Virginia failed to defeat the Confederate army, lowering morale in the north and boosting prospects of southern success. Lincoln managed to handle these various challenges well, often accepting public criticism from generals and relieving them of command only when they failed to deliver military victories. He also stretched the authority of the presidency, authorizing the imprisonment of critics he believed directly harmed the war effort. While his administration was accused of violating the civil rights of some Americans, the Republican-led Congress frequently backed Lincoln and expanding his power.
+</p>
+
+<p xml:id='OTPS52243P13'>In 1864, Lincoln feared he would lose reelection as the Civil War continued to drag on, costing hundreds of thousands of lives and millions of dollars. However, through battlefield successes by Union generals Ulysses S. Grant, William Tecumseh Sherman, and Philip Sheridan in Virginia and Georgia, Lincoln won the election and support to continue the war until Confederate defeat. He also worked behind the scenes with Congress and various state leaders to legally end slavery through a constitutional amendment. While he voiced some support for the old plan of relocating freed slaves to Africa, by the end of the war Lincoln knew such plan was impractical and he supported protecting basic civil rights of African Americans within the United States.
+</p>
+
+<p xml:id='OTPS52243P14'>In the spring of 1865, the Confederate war effort began to collapse. Much of Lincoln’s attention was turned to reconstructing the former Confederate areas, some of which were already under federal control. He advocated for a speedy reunification, without malice or vengeance, and one in which former secessionists were welcomed back to the Union without slavery and with some recognitions of black civil rights. In April 1865, Robert E. Lee surrendered his Army of Northern Virginia to General Grant in Virginia and Union forces chased down the last southern troops across the lower south. On April 14, as the Civil War was ending, Lincoln was shot in the head by John Wilkes Booth at Ford’s Theater in Washington, D.C. The mortally wounded president was carried to a boarding house across the street where he passed away the following morning. Lincoln’s murder ended most hopes for a peaceful reconstruction, as it inflamed tensions in the north and energized Radical Republicans who Lincoln had largely held in check.
+</p>
+
+<p xml:id='OTPS52243P15'>Lincoln was married to Mary Todd, who was from a wealthy family in Kentucky. He had four sons, only one of whom (Robert) survived into adulthood. Lincoln is buried in a large tomb in Oak Ridge Cemetery in Springfield, Illinois.
+</p>
+
+<p xml:id='OTPS52243P16'>(Wikipedia; American Battlefield Trust; National Park Service)
+</p>
+
+<p xml:id='OTPS52243P17'>Abraham Lincoln belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S87772">
+              <placeName>Mississippi--Lincoln County. Fair River</placeName>
+                <idno>https://archive.org/details/mississippicomp01rowlgoog/page/696/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS87772P0'>Located in Lincoln County, Fair River was founded sometime before 1900. (Dunbar Rowland, <hi rend='italic'>Mississippi</hi>, 696)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.546, -90.2693</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S99663'>
+            <catDesc>
+              <term>Emancipation &amp; Self Emancipation</term>
+              <idno>https://www.battlefields.org/learn/articles/self-emancipation-act-freeing-oneself-slavery#:~:text=Self%2Demancipation%20was%20the%20act,slaves%20were%20able%20to%20do.</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99663P0'>The term "emancipation" describes "the act of freeing a person from another person's control" (Cambridge Dictionary). In the nineteenth-century United States, this term most often referred to an enslaved person's escape from their enslaver's control and legal ownership. Self-emancipation describes "the act of an enslaved person freeing him or herself from the bondage of slavery," by a variety of means legal and extralegal. (American Battlefield Trust)
+</p>
+
+<p xml:id='OTPSD99663P1'>Occurring throughout the nineteenth century, self-emancipation under the law took the form of an enslaved person purchasing their own freedom through wages made performing trades outside of their enslaver's property. This process most often occurred in urban areas, particularly those in coastal regions of the U.S., but state legal restrictions made manumission virtually impossible by the mid-nineteenth century. Loved ones who purchased family members were forced to legally hold them in bondage, leading to a body of people who "were free by practice, but not by law." (Amrita Chakrabarti Myers, <hi rend='italic'>Forging Freedom</hi>)
+</p>
+
+<p xml:id='OTPSD99663P2'>The most extreme and least common form of self-emancipation was suicide, which many enslaved people chose rather than remaining in bondage. The most frequent method of self-emancipation, especially during the American Civil War, was to escape from an enslaver's property and flee without their permission. Many notable abolitionists like Frederick Douglass and Harriet Tubman self-emancipated by running away. Running away signaled how self-emancipation caused legal emancipation for all the enslaved in the United States. During the Civil War, so many enslaved persons self-emancipated and fled to Union lines that the U.S. government had to craft a response. That response manifested first in the Emancipation Proclamation of 1863, freeing the enslaved in territories under rebellion, and later in the 13th Amendment of 1865, which abolished slavery altogether. Self-emancipation became a primary way for enslaved African Americans in the antebellum U.S. to wield agency over their lives, and their efforts eventually succeeded in producing legislative emancipation from the top down. (American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+<category xml:id='C32001126S99663'>
+<catDesc>
+<term><rs ref='S99663'>Emancipation &amp; Self Emancipation</rs></term>
+</catDesc>
+</category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+<category xml:id='C32001150S99663'>
+<catDesc>
+<term><rs ref='S99663'>Emancipation &amp; Self Emancipation</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S54861'>
+            <catDesc>
+              <term>Mississippi--State Penitentiary (Jackson)</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_State_Penitentiary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>33.93167, -90.55083</geo>
+              </note>
+              <gloss><p xml:id='OTPSD54861P0'>"Mississippi State Penitentiary, also known as Parchman Farm, is a maximum-security prison farm located in unincorporated Sunflower County, Mississippi, in the Mississippi Delta region. Occupying about 28 square miles (73 km2) of land, Parchman is the only maximum security prison for men in the state of Mississippi, and is the state's oldest prison." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001717'>
+<catDesc>Voluntary Social &amp; Political Groups</catDesc>
+          <category xml:id='S32143645'>
+            <catDesc>
+              <term>Paramilitary Terrorist Organization</term>
+              <idno>https://en.wikipedia.org/wiki/Paramilitary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32143645P0'>A paramilitary organization is a group of armed individuals that act in a pseudo-military fashion, but is not an official military unit. Paramilitary groups are often associated with illegal or revolutionary actions, and frequently use guerilla warfare or even terrorism to achieve their objectives. The term paramilitary arose in the twentieth century, however examples of paramilitary-style groups during the Civil War include Missouri Bushwhackers and Kansas Jayhawkers, who engaged in guerilla warfare, and sometimes terrorist or criminal actions, ostensibly for their respective side. Some of these units were eventually accepted into formal military service within the Union and Confederate armies, while others operated with only tacit endorsement by the warring governments.
+</p>
+
+<p xml:id='OTPSD32143645P1'>Paramilitary groups are more commonly associated to the Reconstruction era, when bands of armed citizens in the south organized to resist state and federal authorities who supported Republican policies. The most well-known examples include the Ku Klux Klan, the White League, and the Red Shirts. The Klan started as a fraternal order in 1865 among former Confederate soldiers in Tennessee but rapidly became a terrorist group, whose members often wore hoods to hide their identities. It became the most famous group dedicated to intimidating Republicans and African Americans in the south to maintain white supremacy. The White League was formed in the early 1870s in Louisiana, but spread openly across the south for the purpose of using violence to intimidate Republican officials and Black southerners who challenged white supremacy. The White League grew so strong as a paramilitary group that it mustered 5,000 members to outnumber and defeat the New Orleans police force and a state militia unit in a battle in New Orleans in 1873. The Red Shirts emerged around 1875 in Mississippi to oppose Republican Reconstruction and, likewise, enforce white supremacy over Black southerners, often through demonstrations at voting centers. These groups, and others in the south during the latter part of the nineteenth century, were organized, armed, and driven by political and social objectives, but were not formal military units or officially part of their state and local governments (even when they were supported by sympathetic officials).
+</p>
+
+<p xml:id='OTPSD32143645P2'>White supremacist paramilitary groups reversed civil rights progress during the last years of Reconstruction and afterwards, and maintained a steady presence for many years, using intimidation and terrorism, to oppose efforts by white and Black southerners seeking racial equality. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S93419'>
+            <catDesc>
+              <term>Paramilitary Terrorist Organization--Mississippi Vigilance Committees</term>
+              <idno>https://en.wikipedia.org/wiki/Vigilance_committee</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>33.0, -90.0</geo>
+              </note>
+              <gloss><p xml:id='OTPSD93419P0'>Vigilance committees were groups of citizens who acted in support of, or sometimes in lieu of, government officials to enforce law and order, or in the interests particular political and social interests. Some groups engaged in vigilante behavior, detaining and punishing offenders, or liberating and aiding others, outside of the traditional legal system. Vigilance committees existed in various parts of the United States during the nineteenth century. Before the Civil War, some extreme abolitionist groups formed vigilance committees in places like New York and Philadelphia to assist fugitive slaves escaping from the south. In the south, vigilance committees emerged in response to threats against slavery. These groups worked to locate and punish suspected abolitionists, or African Americans who secretly challenged white supremacist policies. In parts of the west, vigilance committees combated gangs or other illegal activities within certain communities. During the Civil War, vigilance committees in places like Mississippi organized for fear of slave rebellions or northern spies. Individuals within these groups would often report their findings to Mississippi authorities. After the war, various vigilance committees continued to operate in Mississippi as unofficial, or extra-legal, groups dedicated to resisting Black civil rights or Republican political interests. Some of these committees carried out lynchings or other public forms of punishment which served as warnings to other offenders. (Wikipedia) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32082700'>
+            <catDesc>
+              <term>Political Parties</term>
+              <idno>https://en.wikipedia.org/wiki/Political_party</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32082700P0'>"A political party is an organization that coordinates candidates to compete in a particular country's elections. It is common for the members of a party to hold similar ideas about politics, and parties may promote specific ideological or policy goals." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S74634'>
+            <catDesc>
+              <term>Political Parties--Free Soil Party (U.S.)</term>
+              <idno>https://en.wikipedia.org/wiki/Free_Soil_Party</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD74634P0'>The Free Soil Party was national political party in the United States from 1848 to 1854. It was singularly focused on opposing the expansion of slavery into the United States territories. The party arose in the wake of fierce political debates over the extension of slavery into territories gained by the American victory in the Mexican War in the late 1840s. The major political parties of the era, the Whigs and the Democrats, nominated candidates for the 1848 presidential election who did not oppose slavery’s extension westward. Anti-slavery members of both established parties broke away and formed the Free Soil Party as a third party challenger. The new anti-slavery party nominated former president Martin Van Buren for the 1848 election. He lost, but garnered ten percent of the popular vote.
+</p>
+
+<p xml:id='OTPSD74634P1'>After the 1848 election, many Free Soil members rejoined the ranks of the Whigs and Democrats. However, the party survived and won some Congressional seats, providing a Free Soil political presence in the U.S. Capitol. They played conspicuous roles in debates over slavery in the early 1850s. Then, in 1854, when Democrats passed the Kansas-Nebraska Act, which repealed the Missouri Compromise of 1820 and removed previous restrictions to slavery in the western territories, a surge of anti-slavery Whigs and Democrats again left their parties. This movement led to the development of the Republican Party. Like the Free Soil Party, the Republicans did not advocate for the immediate abolition of slavery, but strongly opposed the expansion of slavery into the territories. The Republican Party also included a broader political platform largely modeled after Whig economic principles. As a more comprehensive political party, the Republican Party attracted more members than the Free Soil Party, which essentially merged with the Republicans after 1854. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S63099'>
+            <catDesc>
+              <term>African Americans--Enslaved People</term>
+              <idno>https://en.wikipedia.org/wiki/Slavery_in_the_United_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63099P0'>While Cambridge Dictionary defines an enslaved person as "a person who is legally owned by someone else and has no personal freedom" (Cambridge Dictionary), CWRGM adopts the term for the people who were subjected to the practice of race-based enslavement in the nineteenth-century United States chattel slavery system. Slavery in the United States varied greatly over time and geography. However, its most common form was that of race-based chattel slavery in which people of African descent were viewed and treated as property.
+</p>
+
+<p xml:id='OTPSD63099P1'>Methods of work also varied based on region, but those enslaved in Deep South states like Mississippi typically worked under the gang labor system in which, under the supervision of overseers, "gangs of slaves worked their ways through fields, plowing, thinning, hoeing, chopping, picking, or whatever else the day's assignment might be" (Mississippi Encyclopedia). The U.S.'s slave labor system subjected the enslaved to extreme violence, physical, psychological, and often sexual, and brutal working conditions and decreased individual autonomy.
+</p>
+
+<p xml:id='OTPSD63099P2'>Both state and federal legal systems also rendered escape or freedom nearly impossible in the South. For example, the Fugitive Slave Act at the national level required all people, even northerners, to return runaway slaves, rendering an escape to freedom extremely difficult. Mississippi's slave codes specifically implemented slave patrols, pass systems, corporal punishment, supervision of all religious gatherings, and the requirement that an African American person have proof of freedom at all times to curtail the already few rights of enslaved and free African Americans. Mississippi's status as a hub of the domestic slave trade, the individual autonomy whites possessed to punish the enslaved, and frequent abuse of the law by slave patrols increased the likelihood that even a free Black person could be captured and sold into slavery.
+</p>
+
+<p xml:id='OTPSD63099P3'>Despite this adversity, the enslaved in Mississippi and elsewhere resisted and exercised agency in multiple ways. Some enslaved persons directly resisted by running away or violently rebelling, while others chose indirect methods like breaking tools, intentionally working slowly, or feigning illness or injury. The enslaved also maintained their agency and autonomy by crafting networks of kinship and family both within and across plantations, cultivating gardens for their own use, performing gender roles of their own choosing, and holding social and religious gatherings infused with unique cultural and social elements (Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+<category xml:id='C32001674S63099'>
+<catDesc>
+<term><rs ref='S63099'>African Americans--Enslaved People</rs></term>
+</catDesc>
+</category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S32086551'>
+            <catDesc>
+              <term>Confederate War Dissenters</term>
+              <idno>https://www.americanheritage.com/souths-inner-civil-war-0</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32086551P0'>The tag "Confederate War Dissenters" refers to the white men and women who opposed or challenged the Confederacy internally. The South, even among whites, had never been socially, culturally, or economically homogenous. Indeed, many white southerners lived in rural hill country unsuitable for large-scale agriculture, and many of those white southerners were too impoverished to own enslaved persons. However, they nonetheless joined the Confederacy and went to war to preserve a broader social and economic structure predicated upon slavery.
+</p>
+
+<p xml:id='OTPSD32086551P1'>As the war drug on into its second and third years, its massive bloodshed and devastating economic impacts exposed the fault lines between socially and economically elite and non-elite in the Confederacy. White men, women, and children living in the Confederacy protested government policies like the Twenty Slave Law that exempted largely-elite enslavers from conscription if they owned twenty or more enslaved persons. Dissent could take many forms—ranging from private correspondence to boycotts, riots, and military rebellion.
+</p>
+
+<p xml:id='OTPSD32086551P2'>One of the largest instances of dissent within the Confederacy came in the Bread Riots of 1863. The Confederacy, notoriously unable to collect taxes, required citizens unable to pay taxes with currency to pay with a "tax-in-kind," or a payment of taxes with its equivalent in goods or livestock. This policy disproportionately affected impoverished women and children barely subsisting and often starving due to the loss of their husbands and fathers off fighting in the war. Women therefore rioted in the Confederate capital at Richmond, as well as in many other cities, in the spring of 1863 to demand bread from the Confederate government. The Bread Riots are only one example of many in which white southerners opposed varied elements of the war effort as it disproportionately subjected them to harm. Crucially, not all dissenters were pro-Union, as many supported the Confederacy's mission but not its policies (American Heritage).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001666'>
+<catDesc>Races, Ethnicities, &amp; Nationalities</catDesc>
+          <category xml:id='S62968'>
+            <catDesc>
+              <term>African Americans</term>
+              <idno>https://en.wikipedia.org/wiki/African_Americans</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62968P0'>The Cambridge Dictionary classifies "a person who lives in the U.S. and is a member of a race of people with dark skin that originally came from Africa" as African American, but both the nineteenth-century and modern constructions are more complex (Cambridge Dictionary). Common nineteenth-century racial categories such as "mulatto" referred to persons with both white and black ancestry, and the experiences of mixed-race persons varied based on complexion, degree of African ancestry, and the region in which they lived. In antebellum cities with large populations of free Blacks, the degree of one's African ancestry could determine what rights one possessed or did not possess, and people with lighter skin tones were often considered to be white; this ended under "one drop rule" during the Jim Crow system.
+</p>
+
+<p xml:id='OTPSD62968P1'>Like skin tone, the ethnicity implied by the term "African American" is also problematically broad, as "naming people only by the continent of their origin and ignoring their ethnic identity is a consequence of time and space" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 5). The experience of slavery complicated the term by attempting to strip people of their original distinct African ethnic identities such as Ibo or Ndongan, classifying all persons of African descent together under one term, infusing that term with negative connotation, and disregarding the complex and rich linguistic, cultural, and ethnic histories of varied African people. However, many Black Americans have reclaimed the term "African American" and infused it with positive connotations. One scholar argues that "in using the term 'African Americans,' Black Americans accent the part of their heritage that is not American" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 4).
+</p>
+
+<p xml:id='OTPSD62968P2'>CWRGM — acknowledging the multiplicity of the term's meanings and connotations — includes multiracial and multiethnic people of African descent under the "African Americans" social identifiers subject tag to reflect the diversity of the African American experience and to ensure that the experiences of African Americans of mixed races and ethnicities are discoverable as they are rarely distinguished further in the letters. In the absence of other references, CWRGM also tags racial slurs targeted at African Americans — which were common in nineteenth century documents with white authors — under the "African Americans" tag. CWRGM recognizes the historic and present harm caused by such language and does not condone its use but tags these terms only to ensure the rich history of African Americans are discoverable within the collection.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001666S63099'>
+<catDesc>
+<term><rs ref='S63099'>African Americans--Enslaved People</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by The Dale Center for Study of War and Society and the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Dickerson, John</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-05-18</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from John Dickerson at Fair River, Mississippi, to Mississippi Governor John J. Pettus concerning a man, Jasper Coon, who has &quot;expressed himself as being a free soiler.&quot;</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 13&quot; letter.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-932-04-10</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Lincoln County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 932, Folder 4</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Antislavery movements.; Free Soil Party (U.S.); Mississippi. Governor; Pettus, John Jones, 1813-1867; Slavery &amp; anti-slavery</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from John Dickerson to Mississippi Governor John J. Pettus; May 18, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/3008&quot;&gt;Letter from John Dickerson to Mississippi Governor John J. Pettus; May 18, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG34" who="U2" when="2024-10-25T17:34:52Z" target="#P1661328">
+          Version 27 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U2" when="2024-10-25T15:04:57Z" target="#P1661329">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2024-06-12T20:38:42Z" target="#P1661328">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U25091195" when="2024-06-07T22:12:01Z" target="#P1661328">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U25091195" when="2024-06-07T22:11:36Z" target="#P1661328">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2024-03-06T14:59:03Z" target="#P1661328">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-11-02T04:10:41Z" target="#P1661328">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-09-02T20:28:22Z" target="#P1661328">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-09-02T19:21:03Z" target="#P1661328">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-05-27T18:11:04Z" target="#P1661328">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-19T18:49:22Z" target="#P1661328">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-18T21:44:18Z" target="#P1661329">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-17T23:35:36Z" target="#P1661328">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2022-12-04T20:27:09Z" target="#P1661328">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2022-12-04T20:17:27Z" target="#P1661328">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2022-12-04T17:12:39Z" target="#P1661328">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2022-12-04T01:29:06Z" target="#P1661328">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2022-05-31T20:11:03Z" target="#P1661328">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2022-05-31T17:02:57Z" target="#P1661328">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2021-10-28T00:58:33Z" target="#P1661328">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2021-10-27T21:30:54Z" target="#P1661328">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2021-03-12T14:20:19Z" target="#P1661328">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2021-02-16T19:43:18Z" target="#P1661329">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2021-02-16T19:42:10Z" target="#P1661328">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U228005" when="2021-02-12T23:25:15Z" target="#P1661329">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U228005" when="2021-02-12T23:23:35Z" target="#P1661328">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2021-02-02T19:08:23Z" target="#P1661328">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U217868" when="2021-01-26T14:45:38Z" target="#P1661329">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U217868" when="2021-01-26T14:42:11Z" target="#P1661328">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U217868" when="2021-01-26T14:41:31Z" target="#P1661328">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U217868" when="2021-01-26T14:34:06Z" target="#P1661328">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2020-12-18T01:25:08Z" target="#P1661329">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2020-12-18T01:25:08Z" target="#P1661328">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2020-12-18T01:25:00Z" target="#P1661329">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2020-12-18T01:25:00Z" target="#P1661328">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1661328" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/3006/full/full/0/default.jpg"/>
+        <div xml:id="OTP1661328">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1661328P0' xml:id='OTP1661328P0'>[seal]
+</p>
+
+<p corresp='TTP1661328P1' xml:id='OTP1661328P1'><rs ref='#S87772'>Fair River, Missi</rs><lb/>
+May 18<add place='above'>th</add> 1861
+</p>
+
+<p corresp='TTP1661328P2' xml:id='OTP1661328P2'>Hon <rs ref='#S63111'>John J Pettus</rs>,<lb/>
+Governor,
+</p>
+
+<p corresp='TTP1661328P3' xml:id='OTP1661328P3'>Hon Sir,
+</p>
+
+<p corresp='TTP1661328P4' xml:id='OTP1661328P4'>There is, in our neighborhood, a man whom we regard as being dangerous, or at least he is <rs ref='#S32086551'>opposed to our southern movements</rs>
+</p>
+
+<p corresp='TTP1661328P5' xml:id='OTP1661328P5'>We <del rend='overstrike'>have organized</del> are organizing a Company here which we think will be completed in 2 or 3 weeks and we have a <rs ref='#S93419'>Vigilance Committee</rs> of 15 Connected with the Company and our "Constitution makes it the duty of this Committee to ferrit out all disloyal persons in our bounds.
+</p>
+
+<p corresp='TTP1661328P6' xml:id='OTP1661328P6'>This Committee has found some 3 persons who are opposed to the South, One of the most notorious is named <hi rend='underline'><rs ref='#S87773'>Jasper Coon</rs></hi>, who has expressed himself as being a <rs ref='#S74634'>"Free Soiler"</rs> <del rend='overstrike'>says</del> says he hopes <rs ref='#S52243'>Lincoln</rs> will succeed and <rs ref='#S99663'>free</rs> all the <rs ref='#S63099'>negroes</rs>.
+</p>
+
+<p corresp='TTP1661328P7' xml:id='OTP1661328P7'>This Vigilance Committee, have summoned him to come before them and he will not do it
+</p>
+
+<p corresp='TTP1661328P8' xml:id='OTP1661328P8'>We believe that he ought to be put in the <rs ref='#S54861'>Penitentiary</rs> and kept there during the war—
+</p>
+
+<p corresp='TTP1661328P9' xml:id='OTP1661328P9'>Our Committee have thought best to ask you for advice as what course we must take with him  
+</p>
+
+
+        </div>
+        <pb xml:id="F1661329" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/3007/full/full/0/default.jpg"/>
+        <div xml:id="OTP1661329">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1661329P0' xml:id='OTP1661329P0'>He is an enemy to our Country and would injure our Cause in any way that he could. He is going at large and we want to get rid of him and we dont want to be precipitate.
+</p>
+
+<p corresp='TTP1661329P1' xml:id='OTP1661329P1'>We want you to advise us what course we must take with him.
+</p>
+
+<p corresp='TTP1661329P2' xml:id='OTP1661329P2'>We will send him to <rs ref='#S51785'>Jackson</rs> if there is any place for him there,
+</p>
+
+<p corresp='TTP1661329P3' xml:id='OTP1661329P3'>Please advise us—at your earliest convenience, address us at
+</p>
+
+<p corresp='TTP1661329P4' xml:id='OTP1661329P4'>Fair River, Missi <lb/>
+Very Respectfully Yours
+</p>
+
+<p corresp='TTP1661329P5' xml:id='OTP1661329P5'><rs ref='#S87788'>John Dickerson</rs><lb/>
+Chairman of Committee
+</p>
+
+<p corresp='TTP1661329P6' xml:id='OTP1661329P6'><rs ref='#S87789'>R, O, Brown</rs><lb/>
+Sect  
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

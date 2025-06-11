@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 19 edits between
+              <date type="first_edit" when="2022-03-12T15:29:46Z">March 12, 2022</date> and
+              <date type="last_edit" when="2024-01-30T17:19:19Z">January 30, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U216441">
+          <persName
+            >
+            Robin Horne
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2021-12-31T01:41:43Z">December 31, 2021</date> and
+              <date type="last_edit" when="2021-12-31T01:46:39Z">December 31, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2023-03-30T00:49:36Z">March 30, 2023</date> and
+              <date type="last_edit" when="2023-03-30T00:49:44Z">March 30, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32005171">
+          <persName
+              type="pseudonym"
+            >
+            Lucio Alvarez
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-12-18T23:35:05Z">December 18, 2021</date> and
+              <date type="last_edit" when="2021-12-18T23:36:01Z">December 18, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-03-02T22:02:40Z">March  2, 2022</date> and
+              <date type="last_edit" when="2022-03-02T22:04:01Z">March  2, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T13:28:11Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-02-28T00:10:08Z">February 28, 2022</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U216441">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Robin Horne</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:22:29+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S69548">
+              <persName>Shannon, James J.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32022882">
+              <persName>Grace, W. G.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52648">
+              <persName>Ames, Adelbert, 1835-1933</persName>
+                <idno>https://en.wikipedia.org/wiki/Adelbert_Ames</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52648P0'>Adelbert Ames served as a governor and U.S. senator of Mississippi during the Reconstruction era.  He was born in East Thomaston (modern-day Rockland), Maine, in 1835. As a boy, Ames spent time working on various merchant vessels, receiving training in seamanship. He entered the United States Military Academy at West Point in 1856, graduating in May 1861, at the start of the Civil War. Commissioned as a second lieutenant, the young Ames was promoted to first lieutenant barely over a week later and served with the 5th U.S. Artillery during the battle of First Bull Run at Manassas, Virginia, on July 21, 1861. Despite being wounded in the leg, Ames stayed by his cannons. His actions at Bull Run led him to receive the brevet (honorary) rank of major and, in 1893 (more than thirty years later), the Medal of Honor.
+</p>
+
+<p xml:id='OTPS52648P1'>Ames recovered from his wound and returned to the front lines in 1862, serving with distinction as an artillery officer during the Peninsula Campaign near Richmond. Seeking better promotion potential, Ames sought an infantry command. Through those efforts, in August 1862, he received command of the 20th Maine Infantry Regiment, and led that unit in combat during the Battle of Fredericksburg in December 1862. In May 1863, he volunteered to serve as a staff officer for Major General George G. Meade, which helped him achieve the rank of brigadier general that month. With this promotion, Ames left the 20th Maine to his second-in-command, Lieutenant Colonel Joshua Lawrence Chamberlain, who gained great fame commanding the regiment at Little Round Top during the Battle of Gettysburg in July 1863. Ames’ own performance at Gettysburg was highly praised, as his division successfully defended the Union position at Cemetery Hill.
+</p>
+
+<p xml:id='OTPS52648P2'>After Gettysburg, Ames’ division was transferred to the Department of the South. Over the next two years, he commanded Union troops during campaigns in Florida, South Carolina, North Carolina, and Virginia. He received a brevet promotion to major general for his actions at Fort Fisher, North Carolina, in March 1865.
+</p>
+
+<p xml:id='OTPS52648P3'>After the Civil War, Ames became involved in federal Reconstruction efforts. In 1868, he was appointed the provisional governor of Mississippi. Ames proved sympathetic to the plight of African Americans in the south. He sought to protect Black civil rights and appointed Mississippi’s first African American public officials. In 1870, after Mississippi was readmitted into the Union, Ames ran for U.S. senator for the state as a Republican and won. He served in that capacity from February 1870 to January 1874, achieving the reputation as a strong public speaker. While serving as a senator in Washington, D.C., Ames met and married Blanche Butler, daughter of Union general Benjamin F. Butler, under whom Ames had served during the war. Ames and his wife had six children over the course of their marriage.
+</p>
+
+<p xml:id='OTPS52648P4'>In 1873, Ames ran for governor of Mississippi. His chief rival was James L. Alcorn, a former Confederate general who had been a Whig before the Civil War and joined the Republican Party afterwards. Ames won the election and worked diligently to improve Mississippi’s financial and social situation. In 1874, Democrats in Mississippi coordinated a campaign of violence against African Americans and white Republicans in the state, to secure political control in Mississippi. Unable to militarily suppress the white supremacist terror campaign, Ames signed a truce with Democratic leaders in Mississippi to reduce the violence and allow a peaceful election. Groups of white supremacists abandoned the truce and resumed their intimidation tactics against Republicans and Black Mississippians during the following elections, leading to a surge of Democratic politicians taking office.
+</p>
+
+<p xml:id='OTPS52648P5'>In 1876, the conservative Democrat majority in the Mississippi legislature tried to impeach Ames and many other Republican officials with trumped up charges of corruption. Despite a strong political force against him, Ames’ critics were unable to provide any evidence of impropriety. Nevertheless, because impeachment was politically driven, Ames could see that his future as governor was over and any effort on his part to legally defend himself would be personally and financially taxing. He and his attorneys reached an agreement with Democratic leaders to resign his office in exchange for dropping the legal charges. On March 29, 1876, after Democrats cancelled their legal proceedings, Ames vacated his position.
+</p>
+
+<p xml:id='OTPS52648P6'>Ames left Mississippi and went into business in Minnesota with his father and brother. A short time later, he relocated to New York City and then Massachusetts, overseeing mills and various business interests. When the Spanish-American War erupted in 1898, Ames volunteered for service and was appointed brigadier general of volunteers. Although over sixty years old, Ames joined the field campaign in Cuba and performed well.
+</p>
+
+<p xml:id='OTPS52648P7'>Ames resumed his business ventures in the early twentieth century. He lived until 1933, dying at age 97. He is buried in Lowell, Massachusetts.
+</p>
+
+<p xml:id='OTPS52648P8'>(Wikipedia)
+</p>
+
+<p xml:id='OTPS52648P9'>Adelbert Ames belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32022884">
+              <persName>Leahman, S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32022885">
+              <persName>Malone, Thomas</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32022727">
+              <persName>Smith, William H. (William Hugh), 1826-1899</persName>
+                <idno>https://encyclopediaofalabama.org/article/william-hugh-smith-1868-1870/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32022727P0'>William Hugh Smith was a politician and governor of Alabama in the nineteenth century.
+</p>
+
+<p xml:id='OTPS32022727P1'>Born on April 26, 1826, in Fayette County, Georgia, Smith moved as a teenager to Alabama with his family. He studied law as a young man and became a practicing attorney in Alabama in 1850. He entered politics in the mid-1850s, serving in the Alabama House of Representatives from 1855 to 1859. Although he began as a strong states’ rights advocate, he moderated his position during the secession crisis in 1860 during the tense presidential election. Despite being a slave owner and defender of the institution, Smith did not join the southern Democrats who split from the national party to nominate strong states’ rights and pro-slavery candidate John C. Breckinridge, and instead backed the northern Democrat Stephen A. Douglas. When Abraham Lincoln won the election, sparking a wave of secession conventions in the lower south, Smith opposed disunion. After Alabama declared its secession and the Civil War broke out in 1861, Smith maintained his pro-Union position. By late 1862, he feared being arrested as a traitor within the Confederacy and fled to Union lines with other members of his family.
+</p>
+
+<p xml:id='OTPS32022727P2'>Smith helped form the First Alabama Union Cavalry Regiment, a unit of Unionist Alabamians which joined federal forces during the Civil War. He served in the regiment alongside William Tecumseh Sherman’s Union army during its campaign through Georgia. By the time the Civil War ended, Smith was a Republican. He supported federal Reconstruction efforts in the south and chaired the Alabama Republican convention in 1867. In February 1868, he won election as governor of Alabama, but declined to take the position due to the new state constitution failing a popular referendum. Federal authorities then appointed him governor in July 1868.
+</p>
+
+<p xml:id='OTPS32022727P3'>As governor, Smith was a political moderate. He opposed Radical Republican policies, and supported reinstating the rights of former Confederates. He opposed federal intervention against white supremacist terrorism against African Americans in the south, arguing that state officials should handle the matter. Smith lost reelection, but remained active in Republican politics. In 1873, he received an appointment as a circuit court judge and later accepted the position as federal district attorney.
+</p>
+
+<p xml:id='OTPS32022727P4'>Smith died on January 1, 1899. He was married to Lucy Wortham and had at least seven children. He is buried in Oak Hill Cemetery in Birmingham, Alabama.
+</p>
+
+<p xml:id='OTPS32022727P5'>(Wikipedia; FindaGrave; Encyclopedia of Alabama)
+</p>
+
+<p xml:id='OTPS32022727P6'>William Hugh Smith belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S52728">
+              <placeName>Mississippi--Lauderdale County. Meridian</placeName>
+                <idno>https://www.britannica.com/place/Meridian-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52728P0'>Located in Lauderdale County, Meridian was founded in 1854 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.37472, -88.70417</geo>
+                </note>
+            </place>
+            <place xml:id="S63016">
+              <placeName>Alabama--Montgomery County. Montgomery</placeName>
+                <idno>http://encyclopediaofalabama.org/article/h-1833</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63016P0'>Located in Montgomery County, Montgomery was founded in 1819 and serves as the county seat and state capital. (Encyclopedia of Alabama)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.36167, -86.27917</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001335'>
+<catDesc>Legal Services</catDesc>
+          <category xml:id='S32023075'>
+            <catDesc>
+              <term>Law Offices</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/law-firm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001335'>Legal Services</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32023075P0'>"A business that employs lawyers to represent clients or argue in court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32022883'>
+            <catDesc>
+              <term>Law Offices--Shannon &amp; Grace, Attorneys at Law (Meridian, Miss.)</term>
+              <idno>https://cwrgm.org/item/<id>mdah_784-968-06-43</id></idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001335'>Legal Services</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.37472, -88.70417</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32022883P0'>Located in Meridian, Mississippi, Shannon &amp; Grace, Attorneys at Law, was a law practice during the 1860s. ("Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869," Civil War &amp; Reconstruction Governors of Mississippi, mdah_784-968-06-43)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63925'>
+            <catDesc>
+              <term>Crimes (alleged)--Larceny</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/larceny?q=Larceny</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63925P0'>"The crime of taking something that does not belong to you, but not in a way that involves force or the threat of force." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25012377'>
+            <catDesc>
+              <term>Crimes (alleged)--Theft</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/theft?q=Theft</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25012377P0'>"The crime of illegally taking something that belongs to someone else." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62954'>
+            <catDesc>
+              <term>Criminal Procedures--Arrest</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arrest?q=Arrest</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62954P0'>"The act of using legal authority to catch and take someone to a place where the person may be accused of a crime." (CD)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32121282'>
+            <catDesc>
+              <term>Criminal Procedures--Trial</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32121282P0'>"The hearing of statements and showing of objects, etc. in a law court to judge if a person is guilty of a crime or to decide a case or a legal matter." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S94600'>
+            <catDesc>
+              <term>Lawyers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/lawyer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD94600P0'>"Someone whose job is to give advice to people about the law and speak for them in court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Ames Series 784</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Mississippi Digital Library.; Funding for the project provided by the National Historical Publications and Records Commission of the National Archives; Funding for this project provided by the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1869</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Shannon and Grace</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1869-05-27</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Ames Collection. Letter from the law firm of Shannon and Grace to Mississippi Governor Adelbert Ames, enclosing an affidavit from S. Leahman regarding the alleged theft of a horse by one Thomas Malone and asking that the Governor obtain a requisition from the Governor of Alabama for Malone&#39;s arrest and extradition.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value>mdah_784-968-06-43-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>3825816 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Meridian (Miss.); Montgomery (Ala.)</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>2017</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_784-968-06-43</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Lauderdale County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Dalton Wood; Michael Singleton; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 968, Folder 6</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Affidavits; Alabama. Governor; Ames, Adelbert, 1835-1933; Arrest; Extradition; Fugitives from justice; Horse stealing; Larceny; Lawyers; Mississippi. Governor</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>1602</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/15908&quot;&gt;Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG32" who="U2" when="2024-10-25T13:28:11Z" target="#P32055065">
+          Version 32 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2024-01-30T17:19:19Z" target="#P32055065">
+          Version 31 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2024-01-30T17:03:37Z" target="#P32055065">
+          Version 30 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2024-01-20T21:33:12Z" target="#P32055065">
+          Version 29 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-11-17T17:45:05Z" target="#P32055065">
+          Version 28 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-11-17T17:21:41Z" target="#P32055065">
+          Version 27 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-11-17T17:09:03Z" target="#P32055065">
+          Version 26 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-09-03T00:38:52Z" target="#P32055065">
+          Version 25 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U25091195" when="2023-03-30T00:49:44Z" target="#P32055065">
+          Version 24 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U25091195" when="2023-03-30T00:49:36Z" target="#P32055065">
+          Version 23 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-19T02:30:41Z" target="#P32055065">
+          Version 22 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-18T14:03:41Z" target="#P32055065">
+          Version 21 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-03-18T03:21:03Z" target="#P32055065">
+          Version 20 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-03-16T21:13:37Z" target="#P32055065">
+          Version 19 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-03-05T17:39:21Z" target="#P32055065">
+          Version 18 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-03-05T17:38:23Z" target="#P32055065">
+          Version 17 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-03-02T23:49:25Z" target="#P32055065">
+          Version 16 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-02-27T19:11:56Z" target="#P32055065">
+          Version 15 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2022-12-04T01:47:44Z" target="#P32055065">
+          Version 14 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2022-06-02T11:26:59Z" target="#P32055065">
+          Version 13 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2022-05-08T19:49:53Z" target="#P32055065">
+          Version 12 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2022-03-12T15:29:46Z" target="#P32055065">
+          Version 11 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091356" when="2022-03-02T22:04:01Z" target="#P32055065">
+          Version 10 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091356" when="2022-03-02T22:02:40Z" target="#P32055065">
+          Version 9 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091253" when="2022-02-28T00:10:08Z" target="#P32055065">
+          Version 8 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U216441" when="2021-12-31T01:46:39Z" target="#P32055065">
+          Version 7 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U216441" when="2021-12-31T01:45:55Z" target="#P32055065">
+          Version 6 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U216441" when="2021-12-31T01:45:24Z" target="#P32055065">
+          Version 5 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U216441" when="2021-12-31T01:44:32Z" target="#P32055065">
+          Version 4 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U216441" when="2021-12-31T01:41:43Z" target="#P32055065">
+          Version 3 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U32005171" when="2021-12-18T23:36:01Z" target="#P32055065">
+          Version 2 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U32005171" when="2021-12-18T23:35:05Z" target="#P32055065">
+          Version 1 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-12-07T15:43:39Z" target="#P32055065">
+          Version 0 of page "Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32055065" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:15908/full/full/0/default.jpg"/>
+        <div xml:id="OTP32055065">
+        <fw type="pageNum">Letter from Shannon and Grace to Mississippi Governor Adelbert Ames; May 27, 1869</fw>
+          <p corresp='TTP32055065P0' xml:id='OTP32055065P0'>[Seal]
+</p>
+
+<p corresp='TTP32055065P1' xml:id='OTP32055065P1'><rs ref='#S69548'>JAMES J. SHANNON</rs>. [gap] <rs ref='#S32022882'>W. G. GRACE</rs>.
+</p>
+
+<p corresp='TTP32055065P2' xml:id='OTP32055065P2'><rs ref='#S32022883'>Shannon &amp; Grace</rs>,<lb/>
+<rs ref='#S94600'>Attorneys at Law</rs>.
+</p>
+
+<p corresp='TTP32055065P3' xml:id='OTP32055065P3'><rs ref='#S52728'><hi rend='italic'>Meridian</hi></rs> May 27<add place='above'>th</add> <hi rend='italic'>1869</hi>.
+</p>
+
+<p corresp='TTP32055065P4' xml:id='OTP32055065P4'>Gov <rs ref='#S52648'>A Ames</rs>
+</p>
+
+<p corresp='TTP32055065P5' xml:id='OTP32055065P5'>Dear Sir
+</p>
+
+<p corresp='TTP32055065P6' xml:id='OTP32055065P6'>We inclose you a certified copy of an Affidavit Made by <rs ref='#S32022884'>S. Leahman</rs>, to the <rs ref='#S63925'>larceny of a horse</rs> by one <rs ref='#S32022885'>Thomas Malone</rs>, who is now said to be in <rs ref='#S63016'>Montgomery Ala</rs>, Mr Leahman desires your Excel-lency to make a requisition on the <rs ref='#S32022727'>Governor of Alabama</rs> for the <rs ref='#S62954'>arrest</rs> and delivery to the <rs ref='#S95578'>Sherriff</rs> of the County for a proper <rs ref='#S32121282'>trial</rs> on the charge. We inclose you a discription of the said Tho Malone
+</p>
+
+<p corresp='TTP32055065P7' xml:id='OTP32055065P7'>We are very respectfully &amp; Truly Yours
+</p>
+
+<p corresp='TTP32055065P8' xml:id='OTP32055065P8'>Shannon &amp; Grace
+</p>
+
+<p corresp='TTP32055065P9' xml:id='OTP32055065P9'>N. B. Malone is believed to have committed sundry other Larcenys in this State, and to be-long to an organized band of <rs ref='#S25012377'>thieves</rs> in this State
+</p>
+
+<p corresp='TTP32055065P10' xml:id='OTP32055065P10'>2,50<lb/>
+<hi rend='underline'>12,12</hi><lb/>
+14.62 
+</p>
+
+
+            <note resp="#U32005171">N. B. is Nota Bene https://en.wikipedia.org/wiki/Nota_bene</note>
+        </div>
+  </body>
+</text>
+</TEI>

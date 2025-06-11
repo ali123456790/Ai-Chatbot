@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from George Offett to H. A. Irby; September 26, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 12 edits between
+              <date type="first_edit" when="2021-05-21T19:04:58Z">May 21, 2021</date> and
+              <date type="last_edit" when="2023-11-02T17:58:15Z">November  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-04-27T15:16:28Z">April 27, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U229565">
+          <persName
+            >
+            Michael S Singleton
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-08-25T13:44:18Z">August 25, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-03-30T00:39:32Z">March 30, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U224896">
+          <persName
+            >
+            Emma Cox 
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-04-24T00:03:41Z">April 24, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228005">
+          <persName
+            >
+            Heather A Haslem
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-04-26T20:50:33Z">April 26, 2021</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T19:04:41+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S25001684">
+              <persName>Offett, George</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63016">
+              <placeName>Alabama--Montgomery County. Montgomery</placeName>
+                <idno>http://encyclopediaofalabama.org/article/h-1833</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63016P0'>Located in Montgomery County, Montgomery was founded in 1819 and serves as the county seat and state capital. (Encyclopedia of Alabama)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.36167, -86.27917</geo>
+                </note>
+            </place>
+            <place xml:id="S63093">
+              <placeName>Virginia--Independent City. Richmond</placeName>
+                <idno>https://en.wikipedia.org/wiki/Richmond,_Virginia</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63093P0'>Currently an independent city, Richmond was founded in 1737 in what was Henrico County at the time of founding and was incorporated on 1742. It became the state capital of Virginia in 1779. During the American Civil War, Richmond also served as capital of the Confederacy. On July 9, 1902, Richmond became an independent city. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>37.53333, -77.46667</geo>
+                </note>
+            </place>
+            <place xml:id="S63123">
+              <placeName>Mississippi--Grenada County. Grenada</placeName>
+                <idno>https://en.wikipedia.org/wiki/Grenada,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63123P0'>Currently located in Grenada County, Grenada was founded in 1836 in what was then Yalobusha County. When Grenada County was created on May 9, 1870, Grenada became the county seat. (Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.775, -89.80889</geo>
+                </note>
+            </place>
+            <place xml:id="S63222">
+              <placeName>Mississippi--Yalobusha County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/yolabusha-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63222P0'>Located in north central Mississippi, Yalobusha County was established on December 23, 1833 from Monroe and Washington counties. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.03, -89.72</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S71495'>
+            <catDesc>
+              <term>Postmasters</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/postmaster</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001724'>Transportation &amp; Infrastructure Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71495P0'>"A person who is in charge of a post office." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S71499'>
+            <catDesc>
+              <term>Postmasters General</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/postmaster?q=postmasters</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001724'>Transportation &amp; Infrastructure Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71499P0'>"A person with authority of a post office." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001724'>
+<catDesc>Transportation &amp; Infrastructure Occupations</catDesc>
+<category xml:id='C32001724S71495'>
+<catDesc>
+<term><rs ref='S71495'>Postmasters</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001724S71499'>
+<catDesc>
+<term><rs ref='S71499'>Postmasters General</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001711'>
+<catDesc>Local Governments</catDesc>
+          <category xml:id='S73012'>
+            <catDesc>
+              <term>Post Offices</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/post-office</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001711'>Local Governments</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD73012P0'>"A place where stamps are sold and from where letters and packages are sent." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives, the National Endowment for the Humanities, and the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Offett, George</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-09-26</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from George Offett, at the Post Office Department in Richmond, Virginia, to H. A. Irby, offering a contract to deliver mail on Route 639.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_757-942-09-17</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>278892 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; 1-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Richmond (Va.)</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>1978</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_757-942-09-17</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Gracie Breland; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 942, Folder 9</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Post-Office Department.; Mississippi. Governor; Pettus, John Jones, 1813-1867; Postal service</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from George Offett to H. A. Irby; September 26, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>1599</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/6572&quot;&gt;Letter from George Offett to H. A. Irby; September 26, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG18" who="U220769" when="2023-11-02T17:58:15Z" target="#P25012699">
+          Version 17 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-11-02T03:35:56Z" target="#P25012699">
+          Version 16 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-05-27T18:26:45Z" target="#P25012699">
+          Version 15 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091195" when="2023-03-30T00:39:32Z" target="#P25012699">
+          Version 14 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-18T15:37:12Z" target="#P25012699">
+          Version 13 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-18T03:38:53Z" target="#P25012699">
+          Version 12 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-03-18T03:31:59Z" target="#P25012699">
+          Version 11 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-03-18T03:32:10Z" target="#P25012699">
+          Version 11 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2023-03-18T00:43:10Z" target="#P25012699">
+          Version 10 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U229565" when="2021-08-25T13:44:18Z" target="#P25012699">
+          Version 9 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2021-05-21T19:05:18Z" target="#P25012699">
+          Version 8 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2021-05-21T19:05:08Z" target="#P25012699">
+          Version 7 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U220769" when="2021-05-21T19:05:00Z" target="#P25012699">
+          Version 6 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U220769" when="2021-05-21T19:04:58Z" target="#P25012699">
+          Version 5 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U217868" when="2021-04-27T15:16:28Z" target="#P25012699">
+          Version 4 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U228005" when="2021-04-26T20:50:33Z" target="#P25012699">
+          Version 3 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U224896" when="2021-04-24T00:03:41Z" target="#P25012699">
+          Version 2 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-04-20T23:24:42Z" target="#P25012699">
+          Version 1 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-04-20T23:24:35Z" target="#P25012699">
+          Version 0 of page "Letter from George Offett to H. A. Irby; September 26, 1862":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25012699" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/6572/full/full/0/default.jpg"/>
+        <div xml:id="OTP25012699">
+        <fw type="pageNum">Letter from George Offett to H. A. Irby; September 26, 1862</fw>
+          <p corresp='TTP25012699P0' xml:id='OTP25012699P0'>Confederate States of America. <lb/>
+<hr/>
+</p>
+
+<p corresp='TTP25012699P1' xml:id='OTP25012699P1'><rs ref='#S73012'>POST OFFICE</rs> DEPARTMENT. <lb/>
+CONTRACT BUREAU.
+</p>
+
+<p corresp='TTP25012699P2' xml:id='OTP25012699P2'><del rend='overstrike'><rs ref='#S63016'>Montgomery, Ala</rs></del>., <rs ref='#S63093'>Richmond</rs> 26 Sept 1862
+</p>
+
+<p corresp='TTP25012699P3' xml:id='OTP25012699P3'>SIR:
+</p>
+
+<p corresp='TTP25012699P4' xml:id='OTP25012699P4'>Your bid of $600 upon Route No. 639 from <rs ref='#S63123'>Grenada</rs> to [Hohenlender?] has been accepted by the <rs ref='#S71499'>Postmaster General</rs>.—Contracts will be forwarded in due time.— Service is to commence <del rend='overstrike'>on the first of July next</del>. immediately
+</p>
+
+<p corresp='TTP25012699P5' xml:id='OTP25012699P5'>You will request the <rs ref='#S71495'>Postmasters</rs> at the ends of the route to transmit a certificate of the date of commencement of service.
+</p>
+
+<p corresp='TTP25012699P6' xml:id='OTP25012699P6'>Respectfully, yout obedient Servant, <lb/>
+[?] <rs ref='#S25001684'>Geo: Offett</rs> <lb/>
+Chief of the Contract Bureau.
+</p>
+
+<p corresp='TTP25012699P7' xml:id='OTP25012699P7'>Messers H A Irby &amp; J L Irby <lb/>
+Grenada <rs ref='#S63222'>Yalobusha Co</rs><lb/>
+Miss 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

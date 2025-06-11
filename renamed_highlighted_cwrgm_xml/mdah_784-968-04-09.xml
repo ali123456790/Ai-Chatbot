@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 13 edits between
+              <date type="first_edit" when="2022-05-03T19:19:32Z">May  3, 2022</date> and
+              <date type="last_edit" when="2024-03-06T15:23:05Z">March  6, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-12-04T22:05:45Z">December  4, 2021</date> and
+              <date type="last_edit" when="2021-12-04T22:09:39Z">December  4, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25090807">
+          <persName
+            >
+            Patricia Parrish
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-12-02T00:07:35Z">December  2, 2021</date> and
+              <date type="last_edit" when="2021-12-02T00:12:35Z">December  2, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-02-28T17:16:57Z">February 28, 2022</date> and
+              <date type="last_edit" when="2022-02-28T17:18:36Z">February 28, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-03-19T03:45:20Z">March 19, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T16:07:55Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U226410">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Bernard Murphy, Jr.</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:46:48+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32022993">
+              <persName>Moore, L. S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32022995">
+              <persName>Burditt, A. P.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32022997">
+              <persName>Ray, James W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63147">
+              <placeName>Tennessee--Shelby County. Memphis</placeName>
+                <idno>https://www.britannica.com/place/Memphis-Tennessee</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63147P0'>Located in Shelby County, Memphis was founded in 1819 and serves as the county seat. (Britannica; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>35.1175, -89.97111</geo>
+                </note>
+            </place>
+            <place xml:id="S32022994">
+              <placeName>Tennessee--Henry County. Paris</placeName>
+                <idno>https://en.wikipedia.org/wiki/Paris,_Tennessee</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32022994P0'>Located in Henry County, Paris was incorporated in 1823 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>36.30111, -88.30833</geo>
+                </note>
+            </place>
+            <place xml:id="S32022996">
+              <placeName>Tennessee--Henry County</placeName>
+                <idno>https://tennesseeencyclopedia.net/entries/henry-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32022996P0'>Located in northwest Tennessee, Henry County was established on November 7, 1821. (Tennessee Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>36.33, -88.3</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62954'>
+            <catDesc>
+              <term>Criminal Procedures--Arrest</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arrest?q=Arrest</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62954P0'>"The act of using legal authority to catch and take someone to a place where the person may be accused of a crime." (CD)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S77229'>
+            <catDesc>
+              <term>Law Enforcement--Police</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/police-officer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD77229P0'>"A member of the police force." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S94600'>
+            <catDesc>
+              <term>Lawyers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/lawyer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD94600P0'>"Someone whose job is to give advice to people about the law and speak for them in court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S50807'>
+            <catDesc>
+              <term>Clerks</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/clerk</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD50807P0'>"A person who works in an office, dealing with records or performing general office duties." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63395'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/court?topic=law-courts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63395P0'>"A place where trials and other legal cases happen, or the people present in such a place." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Ames Series 784</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Mississippi Digital Library.; Funding for the project provided by the National Historical Publications and Records Commission of the National Archives; Funding for this project provided by the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1868</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Burditt, A. P.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1868-11-21</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Ames Collection. Letter from A. P. Burditt, acting Superintendent of the Memphis, Tennessee, Metropolitan Police, to L. S. Moore, containing a certified copy of agreement to pay one-third reward for the apprehension of an unnamed individual.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_784-968-04-09</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>4106407 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 12.5&quot; 1-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Memphis (Tenn.); Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>2535</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_784-968-04-09</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Dalton Wood; Michael Singleton; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 968, Folder 4</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Ames, Adelbert, 1835-1933; County courts; Mississippi. Governor; Police; Rewards programs (Criminal investigation)</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>1622</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/15524&quot;&gt;Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG25" who="U2" when="2024-10-25T16:07:55Z" target="#P32050707">
+          Version 24 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2024-03-06T15:23:05Z" target="#P32050707">
+          Version 23 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-11-17T17:26:52Z" target="#P32050707">
+          Version 22 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-09-03T00:38:56Z" target="#P32050707">
+          Version 21 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-30T15:46:53Z" target="#P32050707">
+          Version 20 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-03-19T20:51:24Z" target="#P32050707">
+          Version 19 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-03-19T02:36:10Z" target="#P32050707">
+          Version 18 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-03-18T03:50:45Z" target="#P32050707">
+          Version 17 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-03-18T02:09:06Z" target="#P32050707">
+          Version 16 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-03-18T00:45:20Z" target="#P32050707">
+          Version 15 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-16T21:16:48Z" target="#P32050707">
+          Version 14 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-06T03:53:36Z" target="#P32050707">
+          Version 13 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2022-12-04T01:46:24Z" target="#P32050707">
+          Version 12 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2022-05-03T19:19:32Z" target="#P32050707">
+          Version 11 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091253" when="2022-03-19T03:45:20Z" target="#P32050707">
+          Version 10 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091195" when="2022-02-28T17:18:36Z" target="#P32050707">
+          Version 9 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091195" when="2022-02-28T17:18:18Z" target="#P32050707">
+          Version 8 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091195" when="2022-02-28T17:16:57Z" target="#P32050707">
+          Version 7 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U226410" when="2021-12-04T22:09:39Z" target="#P32050707">
+          Version 6 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U226410" when="2021-12-04T22:09:03Z" target="#P32050707">
+          Version 5 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U226410" when="2021-12-04T22:09:03Z" target="#P32050707">
+          Version 5 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U226410" when="2021-12-04T22:05:45Z" target="#P32050707">
+          Version 4 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25090807" when="2021-12-02T00:12:35Z" target="#P32050707">
+          Version 3 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U25090807" when="2021-12-02T00:12:34Z" target="#P32050707">
+          Version 2 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U25090807" when="2021-12-02T00:07:35Z" target="#P32050707">
+          Version 1 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-11-18T14:49:31Z" target="#P32050707">
+          Version 0 of page "Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32050707" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:15524/full/full/0/default.jpg"/>
+        <div xml:id="OTP32050707">
+        <fw type="pageNum">Letter from Superintendent A. P. Burditt to L. S. Moore; November 21, 1868</fw>
+          <p corresp='TTP32050707P0' xml:id='OTP32050707P0'>[seal]<lb/>
+Copy
+</p>
+
+<p corresp='TTP32050707P1' xml:id='OTP32050707P1'><rs ref='#S77229'>Office of Superintendant Metropolital Police</rs> <lb/>
+<rs ref='#S63147'>Memphis Tenn</rs> Nov 21 <add place='above'><hi rend='underline'>st</hi></add>, 1868
+</p>
+
+<p corresp='TTP32050707P2' xml:id='OTP32050707P2'><rs ref='#S32022993'>L. S. Moore</rs> <rs ref='#S94600'>Esqr</rs><lb/>
+<rs ref='#S32022994'>Paris</rs> Tenn<hr/>
+</p>
+
+<p corresp='TTP32050707P3' xml:id='OTP32050707P3'>Dear Sir
+</p>
+
+<p corresp='TTP32050707P4' xml:id='OTP32050707P4'>Your letter of 19 <add place='above'><hi rend='underline'>th</hi></add>, Inst to hand contents noted, and in answer will say that Should you furnish the papers and help to bring about his <rs ref='#S62954'>arrest</rs> as intimated by you—you will be allowed and paid one third of the reward which may be recovered
+</p>
+
+<p corresp='TTP32050707P5' xml:id='OTP32050707P5'>Respectfully Yours
+</p>
+
+<p corresp='TTP32050707P6' xml:id='OTP32050707P6'><rs ref='#S32022995'>A. P. Burditt</rs><lb/>
+Acting Sup. M. P.
+</p>
+
+<p corresp='TTP32050707P7' xml:id='OTP32050707P7'>State of Tennessee<lb/>
+<rs ref='#S32022996'>Henry County</rs><lb/>
+<hr/><lb/>
+I <rs ref='#S32022997'>James W Ray</rs> <rs ref='#S50807'>Clerk</rs> of the <rs ref='#S63395'>County Court</rs> of Said County do hereby certify that the foregoing is a true perfect and complete copy of  letter in the hands of L S. Moore Esqr of this place purporting to be from A P Burditt acting Sup Metripolital Police Memphis Tenn bearing date Nov 21 <add place='above'>st</add> 1868. as exhitited in my office,
+</p>
+
+<p corresp='TTP32050707P8' xml:id='OTP32050707P8'>Given under my hand and Seal of Office 30<add place='above'>th</add> March 1869
+</p>
+
+<p corresp='TTP32050707P9' xml:id='OTP32050707P9'>James W Ray Clk 
+</p>
+
+
+            <note resp="#U226410">Editor / Reviewer: Please note that while Memphis, Tenn is in Shelby County; the letter is certified by the Clerk of Courts of Henry County where Paris, Tennessee is located. </note>
+        </div>
+  </body>
+</text>
+</TEI>

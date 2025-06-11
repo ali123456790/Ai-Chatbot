@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letters from John S. Robinson, Phil Hammond, and J. H. Price to Mississippi Governor William L. Sharkey; July 1, 1865</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 18 edits between
+              <date type="first_edit" when="2022-05-17T17:20:46Z">May 17, 2022</date> and
+              <date type="last_edit" when="2023-11-02T18:10:39Z">November  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25090807">
+          <persName
+            >
+            Patricia Parrish
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2022-03-08T05:15:48Z">March  8, 2022</date> and
+              <date type="last_edit" when="2022-03-08T05:29:34Z">March  8, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2022-03-09T18:07:14Z">March  9, 2022</date> and
+              <date type="last_edit" when="2022-03-09T18:18:00Z">March  9, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2022-03-24T14:23:33Z">March 24, 2022</date> and
+              <date type="last_edit" when="2022-03-24T14:27:13Z">March 24, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-03-20T20:42:03Z">March 20, 2022</date> and
+              <date type="last_edit" when="2022-03-20T20:46:10Z">March 20, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T13:33:58Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T14:02:28Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U226410">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Bernard Murphy, Jr.</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:38:14+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32025785">
+              <persName>Hammond, Philip</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32025786">
+              <persName>Price, J. H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52215">
+              <persName>Sharkey, William Lewis, 1798-1873</persName>
+                <idno>https://en.wikipedia.org/wiki/William_L._Sharkey</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52215P0'>William Lewis Sharkey served as Mississippi’s governor in 1865, early in the Reconstruction era.
+</p>
+
+<p xml:id='OTPS52215P1'>Born in Sumner County, Tennessee, on July 12, 1798, Sharkey moved with his family to Warren County, Mississippi, in 1804. As an adult, he studied law and began practicing in Natchez, Mississippi, in 1822. Sharkey moved to Vicksburg in 1825 and pursued political office. He won election to the Mississippi House of Representatives and served one term from 1828 to 1829.
+</p>
+
+<p xml:id='OTPS52215P2'>In 1832, Sharkey married Minerva Cage, a widow with two children. The couple had four children over the next several years.  In 1832, Sharkey also became a circuit court judge and was shortly thereafter elected to the High Court of Errors and Appeals, the predecessor to the Supreme Court of Mississippi. He served in that role for 18 years, resigning in 1851. From there, he took a diplomatic appointment for the United States government, serving as U.S. Consul in Havana, Cuba, until 1854. After completing that diplomatic assignment, Sharkey returned to Mississippi and returned to legal and political duties, helping compile the Mississippi Code of 1857.
+</p>
+
+<p xml:id='OTPS52215P3'>During the secession crisis in the winter of 1860 and 1861, following Abraham Lincoln’s election, Sharkey remained a steadfast Unionist. Having been a member of the Whig Party, he retained his opposition to secession and refused to support the Confederacy, even as he remained in Mississippi through the Civil War. Despite his political stance against Mississippi’s secessionist government, Confederate officials left him alone out of respect of his past service to the state as a judge and legal scholar.
+</p>
+
+<p xml:id='OTPS52215P4'>After the Confederacy’s defeat, President Andrew Johnson appointed Sharkey provisional governor of Mississippi in June 1865. In that role, he called forth a constitutional convention to meet Johnson’s goal of swiftly restoring former Confederate states to the Union. In October 1865, Benjamin Humphreys won election as Mississippi’s governor. Sharkey did not vacate the office, though, until December 1865, having served less than a year. Although no longer governor, Sharkey was selected by the Mississippi legislature to serve in the U.S. Senate. Federal officials denied him a seat, and the rest of the Mississippi congressional delegation, following the Republican backlash to Mississippi’s Black Codes—a set of racially discriminatory laws passed by the Mississippi legislature in 1865.
+</p>
+
+<p xml:id='OTPS52215P5'>Having been denied a U.S. Senate seat, Sharkey returned to practicing law, in Jackson, Mississippi. He died in Washington, D.C., on March 30, 1873, and is buried at Greenwood Cemetery in Jackson, Mississippi.
+</p>
+
+<p xml:id='OTPS52215P6'>(Wikipedia; David Sansing, “William Lewis Sharkey: Twenty-fifth Governor of Mississippi: June to December 1865,” Mississippi History Now; FindaGrave)
+</p>
+
+<p xml:id='OTPS52215P7'>William Lewis Sharkey belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32025783">
+              <persName>Burton, Robert M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32025784">
+              <persName>Robinson, John S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32026315">
+              <persName>Robb, John</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63302">
+              <placeName>Mississippi--Madison County. Canton</placeName>
+                <idno>https://www.britannica.com/place/Canton-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63302P0'>Located in Madison County, Canton was incorporated in 1836 and serves as the county seat. (Britannica; Atlas of Historical County Boundaries; Rowland, <hi rend='italic'>Mississippi</hi>, 350)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.61194, -90.03167</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S95151'>
+            <catDesc>
+              <term>Political Elections</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/election?q=elections</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95151P0'>"A time when people vote in order to choose someone for a political or official job." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S98996'>
+            <catDesc>
+              <term>Political Office--Appointment to Office</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/appointment</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98996P0'>"The act of officially choosing someone for a job, or the job itself." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S71916'>
+            <catDesc>
+              <term>United States. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71916P0'>The United States Army is the military land force of the United States of America. During the American Civil War it was also referred to as the Union Army, Federal Army, or Northern Army. Its primary military objective during the war was the restoration and preservation of the United States through the defeat of secessionist forces. The United States Army traces its roots to the Continental Army, created in 1775 during the American Revolution. Following American independence, the new United States severely reduced the size of the army due to distrust of permanent standing military forces. The small regular army generally handled military operations against Native Americans and for coastal defense. State authorities were expected to support the country’s military needs with their militias, or by raising volunteer units, temporarily activated for federal service.
+</p>
+
+<p xml:id='OTPSD71916P1'>At the outbreak of the Civil War, the United States regular army consisted of barely more than 16,000 soldiers, scattered across the country (primarily at coastal defenses and forts established in the territories) among ten infantry regiments, four artillery regiments, two cavalry regiments, two dragoon regiments, and one regiment of mounted rifles. Roughly 20% of the army’s officers and enlisted resigned their positions to fight for the Confederacy. After Southern troops attacked and captured Fort Sumter in South Carolina, President Abraham Lincoln called for 75,000 volunteers to expand the army and defeat the Confederates. The government continued to issue subsequent requests for volunteers as the war progressed. As with established practice, the states were to recruit the volunteers and provide them for federal service. Initial enlistments were for 90 days, but eventually enlistment terms were expanded, typically for three years. In total, more than 2,000,000 men served in the United States Army during the course of the Civil War. Of those, only around 60,000 were part of the regular army. The overwhelming majority were in state-based units. Most soldiers were volunteers, however the federal government began drafting men in 1862, as the army’s campaigns continued and volunteer numbers dwindled. In total, around 46,000 Union soldiers (about 5.5%) were draftees.
+</p>
+
+<p xml:id='OTPSD71916P2'>Approximately two-thirds of the soldiers in the United States Army during the Civil War were native-born white citizens. Around 100,000 were from states within the Confederacy. Immigrants made up about 25% of Union soldiers, with Germans and Irish immigrants being among the most prominent. The army also included soldiers of different ethnicities, including more than 3,000 Native American soldiers. In 1863, the Union army began formally accepting African American soldiers—in segregated units—and by the end of the war, around than 179,000 had served in the United States Army uniform.
+</p>
+
+<p xml:id='OTPSD71916P3'>When hostilities ended in June 1865, approximately 110,000 had been killed in combat or succumbed to wounds, more than 220,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32035134'>
+            <catDesc>
+              <term>United States. Army. Colored Artillery Regiment, 5th</term>
+              <idno>https://www.nps.gov/civilwar/search-battle-units-detail.htm?battleUnitCode=UUS0005RAH0C</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32035134P0'>The 5th Regiment, United States Colored Heavy Artillery (Union) was organized as the 1st Regiment, Mississippi Heavy Artillery (African Descent) on September 26, 1863 in Warren County, Mississippi under the command of Col. Hermann Lieb and served in the Western Theater. It was re-designated as the 4th Regiment, United States Colored Heavy Artillery on March 11, 1864 and later as the 5th Regiment, United States Colored Heavy Artillery on April 26, 1864. (National Park Service-Battle Units; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001675'>
+<catDesc>Financial Occupations</catDesc>
+          <category xml:id='S92815'>
+            <catDesc>
+              <term>Treasurers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/treasurer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001675'>Financial Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92815P0'>"An officer who is responsible for the money in a company, government, or other organization." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S63934'>
+            <catDesc>
+              <term>Judges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/judge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63934P0'>"A person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001684'>
+<catDesc>Military Roles</catDesc>
+          <category xml:id='S49748'>
+            <catDesc>
+              <term>Provost Marshals</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/military-police</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001684'>Military Roles</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD49748P0'>"The police force within the armed forces, responsible for dealing with members of the armed forces who break the law." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+          <category xml:id='S95870'>
+            <catDesc>
+              <term>Military Headquarters</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/headquarters</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95870P0'>A military headquarters is the main center of control for a unit and typically revolves around that unit’s highest ranking officer. The term headquarters often refers to a physical location, however it is not always a permanent facility. A commanding officer can establish a headquarters anywhere that best allows oversight of the unit. Frequently during the Civil War military leaders relocated their headquarters each day as their armies moved. Union general John Pope famously declared that he would make his “headquarters in the saddle.” The comment was more symbolic than literal, but reflected how a headquarters centered on the commander's location and was subject to his discretion in how and where to conduct official duties. Pope’s critics replied that he was making his headquarters where his “hindquarters” should be, representing the more traditional view of a headquarters being a stationary command center strategically located for the effective management of a staff and army. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Sharkey Series 771</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.; Funding for this project provided by the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1865</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Hammond, Phil; Price, J. H.; Robinson, John S.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1865-07-01</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Sharkey Collection. Letter from John S. Robinson to Mississippi Governor William L. Sharkey, recommending Robert M. Burton for the position of sheriff of Madison County, Mississippi. Enclosed are another letter from Robinson as well as a letter from Captain Phil Hammond and Provost Marshal J. H. Price supporting the recommendation.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Canton (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_771-955-01-11</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Madison County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>McKenna Fussell; Dalton Wood; Britany Castilaw; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 955, Folder 1</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Military police; Mississippi. Governor; Police; Sharkey, William Lewis, 1798-1873; Sheriffs; United States. Army; United States. Army--Officers</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letters from John S. Robinson, Phil Hammond, and J. H. Price to Mississippi Governor William L. Sharkey; July 1, 1865</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/18679&quot;&gt;Letters from John S. Robinson, Phil Hammond, and J. H. Price to Mississippi Governor William L. Sharkey; July 1, 1865&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG43" who="U2" when="2024-10-25T14:02:28Z" target="#P32192339">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U2" when="2024-10-25T13:33:58Z" target="#P32192338">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-11-02T18:10:39Z" target="#P32192338">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-11-02T04:01:06Z" target="#P32192338">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-09-03T00:35:17Z" target="#P32192339">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-09-03T00:31:14Z" target="#P32192338">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-09-02T19:41:50Z" target="#P32192340">
+          Version 13 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-04-06T19:12:51Z" target="#P32192338">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-03-19T21:05:37Z" target="#P32192340">
+          Version 12 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-03-19T14:48:00Z" target="#P32192338">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-03-19T14:33:51Z" target="#P32192340">
+          Version 11 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-19T02:30:44Z" target="#P32192338">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-18T14:11:13Z" target="#P32192338">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-17T23:25:15Z" target="#P32192339">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-16T20:18:19Z" target="#P32192339">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-03T17:29:18Z" target="#P32192338">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2022-06-10T03:32:03Z" target="#P32192340">
+          Version 10 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2022-05-17T17:21:31Z" target="#P32192340">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2022-05-17T17:21:08Z" target="#P32192339">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2022-05-17T17:20:46Z" target="#P32192338">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U25091356" when="2022-03-24T14:27:13Z" target="#P32192340">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U25091356" when="2022-03-24T14:25:29Z" target="#P32192339">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U25091356" when="2022-03-24T14:24:08Z" target="#P32192339">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U25091356" when="2022-03-24T14:23:33Z" target="#P32192338">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25091253" when="2022-03-20T20:46:10Z" target="#P32192340">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091253" when="2022-03-20T20:43:51Z" target="#P32192339">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091253" when="2022-03-20T20:42:03Z" target="#P32192338">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U226410" when="2022-03-09T18:18:00Z" target="#P32192340">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U226410" when="2022-03-09T18:17:36Z" target="#P32192340">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U226410" when="2022-03-09T18:16:47Z" target="#P32192340">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U226410" when="2022-03-09T18:10:09Z" target="#P32192339">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U226410" when="2022-03-09T18:07:14Z" target="#P32192338">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U226410" when="2022-03-09T18:07:14Z" target="#P32192338">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25090807" when="2022-03-08T05:29:34Z" target="#P32192340">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25090807" when="2022-03-08T05:28:34Z" target="#P32192340">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25090807" when="2022-03-08T05:28:18Z" target="#P32192340">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25090807" when="2022-03-08T05:28:19Z" target="#P32192340">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25090807" when="2022-03-08T05:18:43Z" target="#P32192339">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25090807" when="2022-03-08T05:18:42Z" target="#P32192339">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25090807" when="2022-03-08T05:15:48Z" target="#P32192338">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25090807" when="2022-03-08T05:15:48Z" target="#P32192338">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2022-03-04T02:53:29Z" target="#P32192340">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-03-04T02:53:27Z" target="#P32192339">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-03-04T02:53:25Z" target="#P32192338">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32192338" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:18676/full/full/0/default.jpg"/>
+        <div xml:id="OTP32192338">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32192338P0' xml:id='OTP32192338P0'>[Seal]
+</p>
+
+<p corresp='TTP32192338P1' xml:id='OTP32192338P1'>To his Excellency <rs ref='#S52215'>Wm. L. Sharkey</rs> Governor of the State of Mississippi
+</p>
+
+<p corresp='TTP32192338P2' xml:id='OTP32192338P2'>It becoming necessary to <rs ref='#S98996'>appoint</rs> a <rs ref='#S95578'>sheriff</rs> for the County of Madison, I take pleasure in recommending for your favorable consideration the Claims of <rs ref='#S32025783'>Robert M. Burton</rs> former <rs ref='#S92815'>Treasurer</rs> of our County.
+</p>
+
+<p corresp='TTP32192338P3' xml:id='OTP32192338P3'>The fact of his having been <rs ref='#S95151'>elected</rs> to a post of such importance as County Treasurer is, I hope, sufficient ev-idence of the confidence the people of Madison County repose in him—
+</p>
+
+<p corresp='TTP32192338P4' xml:id='OTP32192338P4'>[?], [?] &amp; O,<lb/>
+Yours,
+</p>
+
+<p corresp='TTP32192338P5' xml:id='OTP32192338P5'><rs ref='#S32025784'>Jno. S. Robinson</rs> 
+</p>
+
+
+        </div>
+        <pb xml:id="F32192339" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:18677/full/full/0/default.jpg"/>
+        <div xml:id="OTP32192339">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32192339P0' xml:id='OTP32192339P0'>[Seal]
+</p>
+
+<p corresp='TTP32192339P1' xml:id='OTP32192339P1'><rs ref='#S63302'>Canton</rs>, July 1, 1865
+</p>
+
+<p corresp='TTP32192339P2' xml:id='OTP32192339P2'><rs ref='#S63934'>Hon</rs>. <rs ref='#S32026315'>Jno. Robb</rs>,
+</p>
+
+<p corresp='TTP32192339P3' xml:id='OTP32192339P3'>D<add place='above'>r</add> Sir,
+</p>
+
+<p corresp='TTP32192339P4' xml:id='OTP32192339P4'>Please give the enclosed your most faforable influence &amp; oblige
+</p>
+
+<p corresp='TTP32192339P5' xml:id='OTP32192339P5'>Your friend
+</p>
+
+<p corresp='TTP32192339P6' xml:id='OTP32192339P6'>Jno. S. Robinson
+</p>
+
+<p corresp='TTP32192339P7' xml:id='OTP32192339P7'>(Confidentially Burton is the man for Sheriff) 
+</p>
+
+
+        </div>
+        <pb xml:id="F32192340" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:18678/full/full/0/default.jpg"/>
+        <div xml:id="OTP32192340">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32192340P0' xml:id='OTP32192340P0'><rs ref='#S95870'>Hd. Qrs</rs>. Post of Canton.<lb/>
+Canton Miss July 1<add place='above'><hi rend='underline'>st</hi></add> 1865<hr/>
+</p>
+
+<p corresp='TTP32192340P1' xml:id='OTP32192340P1'>I take pleasure in recommending Mr. Burton for Sheriff of this County. believe him to be the right man for the position and am confident that his appointment would give general satisfaction.
+</p>
+
+<p corresp='TTP32192340P2' xml:id='OTP32192340P2'><rs ref='#S32025785'>Phil. Hammond</rs> <lb/>
+Capt <rs ref='#S32035134'>5<add place='above'><hi rend='underline'>th</hi></add> U. S. Col. Arty</rs><lb/>
+Comdg Post of Canton<lb/>
+<hr/><lb/>
+<rs ref='#S49748'>Provost Marshals</rs> Office<lb/>
+Canton, Mississippi July 1 1865<lb/>
+<hr/><lb/>
+I cheerfuly recommend Mr. Burton for the appointment of Sheriff of this county beleving that he would give general satisfaction. I have had Mr. Burton in my employment since the occupation of this place by the <rs ref='#S71916'>Federal Troops</rs> and find him honest and honorable in all trans-actions—
+</p>
+
+<p corresp='TTP32192340P3' xml:id='OTP32192340P3'><rs ref='#S32025786'>J. H. Price</rs> 1st Lt. 58 O. V. I. and<lb/>
+Prv Marshall<lb/>
+<hr/>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

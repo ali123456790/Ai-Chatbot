@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Petition to Mississippi Governor William L. Sharkey; July 12, 1865</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 11 edits between
+              <date type="first_edit" when="2022-05-31T20:53:35Z">May 31, 2022</date> and
+              <date type="last_edit" when="2023-11-02T04:34:26Z">November  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25090807">
+          <persName
+            >
+            Patricia Parrish
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2022-05-10T19:02:18Z">May 10, 2022</date> and
+              <date type="last_edit" when="2022-05-10T19:12:54Z">May 10, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2022-05-19T15:59:14Z">May 19, 2022</date> and
+              <date type="last_edit" when="2022-05-19T16:07:15Z">May 19, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-05-12T14:39:51Z">May 12, 2022</date> and
+              <date type="last_edit" when="2022-05-12T14:47:36Z">May 12, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-05-19T23:29:35Z">May 19, 2022</date> and
+              <date type="last_edit" when="2022-05-19T23:30:00Z">May 19, 2022</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U226410">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Bernard Murphy, Jr.</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:11:38+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32028916">
+              <persName>Northcut, A. W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033137">
+              <persName>Creel, John T. H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32028918">
+              <persName>Kelly, L. J.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32028919">
+              <persName>Gillespie, John</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033138">
+              <persName>Allens, H. S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32028920">
+              <persName>Boyle, William</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S53647">
+              <persName>Dyer, J. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033139">
+              <persName>Pitton, D.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033140">
+              <persName>Suirs?, John A.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033141">
+              <persName>Spoone, H. N.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033142">
+              <persName>Derman, W. A.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033143">
+              <persName>Cresa, John</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32028926">
+              <persName>Durden, John A.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25014419">
+              <persName>Dyson, William H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25014420">
+              <persName>Levy, M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033144">
+              <persName>Brown, R.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033145">
+              <persName>Haskins, J. S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033146">
+              <persName>Lean, J. N. M., Jr.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033147">
+              <persName>Marlow, Joseph</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32033148">
+              <persName>Haslow, A. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32028931">
+              <persName>Brown, R. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32028932">
+              <persName>Brown, H. W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32006181">
+              <persName>Anderson, R. A.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52215">
+              <persName>Sharkey, William Lewis, 1798-1873</persName>
+                <idno>https://en.wikipedia.org/wiki/William_L._Sharkey</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52215P0'>William Lewis Sharkey served as Mississippi’s governor in 1865, early in the Reconstruction era.
+</p>
+
+<p xml:id='OTPS52215P1'>Born in Sumner County, Tennessee, on July 12, 1798, Sharkey moved with his family to Warren County, Mississippi, in 1804. As an adult, he studied law and began practicing in Natchez, Mississippi, in 1822. Sharkey moved to Vicksburg in 1825 and pursued political office. He won election to the Mississippi House of Representatives and served one term from 1828 to 1829.
+</p>
+
+<p xml:id='OTPS52215P2'>In 1832, Sharkey married Minerva Cage, a widow with two children. The couple had four children over the next several years.  In 1832, Sharkey also became a circuit court judge and was shortly thereafter elected to the High Court of Errors and Appeals, the predecessor to the Supreme Court of Mississippi. He served in that role for 18 years, resigning in 1851. From there, he took a diplomatic appointment for the United States government, serving as U.S. Consul in Havana, Cuba, until 1854. After completing that diplomatic assignment, Sharkey returned to Mississippi and returned to legal and political duties, helping compile the Mississippi Code of 1857.
+</p>
+
+<p xml:id='OTPS52215P3'>During the secession crisis in the winter of 1860 and 1861, following Abraham Lincoln’s election, Sharkey remained a steadfast Unionist. Having been a member of the Whig Party, he retained his opposition to secession and refused to support the Confederacy, even as he remained in Mississippi through the Civil War. Despite his political stance against Mississippi’s secessionist government, Confederate officials left him alone out of respect of his past service to the state as a judge and legal scholar.
+</p>
+
+<p xml:id='OTPS52215P4'>After the Confederacy’s defeat, President Andrew Johnson appointed Sharkey provisional governor of Mississippi in June 1865. In that role, he called forth a constitutional convention to meet Johnson’s goal of swiftly restoring former Confederate states to the Union. In October 1865, Benjamin Humphreys won election as Mississippi’s governor. Sharkey did not vacate the office, though, until December 1865, having served less than a year. Although no longer governor, Sharkey was selected by the Mississippi legislature to serve in the U.S. Senate. Federal officials denied him a seat, and the rest of the Mississippi congressional delegation, following the Republican backlash to Mississippi’s Black Codes—a set of racially discriminatory laws passed by the Mississippi legislature in 1865.
+</p>
+
+<p xml:id='OTPS52215P5'>Having been denied a U.S. Senate seat, Sharkey returned to practicing law, in Jackson, Mississippi. He died in Washington, D.C., on March 30, 1873, and is buried at Greenwood Cemetery in Jackson, Mississippi.
+</p>
+
+<p xml:id='OTPS52215P6'>(Wikipedia; David Sansing, “William Lewis Sharkey: Twenty-fifth Governor of Mississippi: June to December 1865,” Mississippi History Now; FindaGrave)
+</p>
+
+<p xml:id='OTPS52215P7'>William Lewis Sharkey belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32028915">
+              <persName>Wilson, Wallace</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S52607">
+              <placeName>Mississippi--Holmes County. Lexington</placeName>
+                <idno>https://en.wikipedia.org/wiki/Lexington,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52607P0'>Located in Holmes County, Lexington was incorporated in 1836 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.11444, -90.05111</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S95151'>
+            <catDesc>
+              <term>Political Elections</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/election?q=elections</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95151P0'>"A time when people vote in order to choose someone for a political or official job." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S63934'>
+            <catDesc>
+              <term>Judges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/judge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63934P0'>"A person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63172'>
+            <catDesc>
+              <term>Judges. Justices of the Peace</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/justice-of-the-peace</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63172P0'>"A public officer who judges local and less important legal cases, and performs marriage ceremonies." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S70145'>
+            <catDesc>
+              <term>Law Enforcement--Constables</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/constable?q=constables</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70145P0'>"An official in a town or village having some of the responsibilities of a police officer." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001681'>
+<catDesc>Political Occupations</catDesc>
+          <category xml:id='S32026840'>
+            <catDesc>
+              <term>City Council Members</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/city-councilmember</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001681'>Political Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32026840P0'>"A person who is a member of the local government of a city" (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63935'>
+            <catDesc>
+              <term>Mayors</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/mayor</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001681'>Political Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63935P0'>"A person who is elected or chosen to lead the government of a town or city." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Sharkey Series 771</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Endowment for the Humanities; Funding for this project provided by the College of Arts and Sciences at the University of Southern Mississippi.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1848; 1862; 1865</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Citizens of Lexington (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1865-07-12</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Sharkey Collection. Petition from several citizens of Lexington, Mississippi, to Mississippi Governor William L. Sharkey, asking that a local justice of the peace be permitted to hold municipal elections to fill all the vacant offices.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 12.5&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Lexington (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_771-955-03-21</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Holmes County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Leela Lavanya Battula; Dalton Wood; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 955, Folder 3</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Constables; Justices of the peace; Local elections; Mayors; Mississippi. Governor; Municipal charters; Police; Selectmen; Sharkey, William Lewis, 1798-1873</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Petition to Mississippi Governor William L. Sharkey; July 12, 1865</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/20736&quot;&gt;Petition to Mississippi Governor William L. Sharkey; July 12, 1865&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG29" who="U220769" when="2023-11-02T04:34:26Z" target="#P32286107">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-11-02T04:01:32Z" target="#P32286107">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-09-03T00:37:28Z" target="#P32286107">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-04-06T20:25:44Z" target="#P32286107">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-19T02:34:28Z" target="#P32286107">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-18T15:44:50Z" target="#P32286107">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-18T01:28:02Z" target="#P32286107">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-16T20:12:15Z" target="#P32286107">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-16T20:06:10Z" target="#P32286107">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-03-06T03:49:12Z" target="#P32286107">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2022-05-31T20:53:35Z" target="#P32286107">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091253" when="2022-05-19T23:30:00Z" target="#P32286107">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091253" when="2022-05-19T23:29:47Z" target="#P32286108">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091253" when="2022-05-19T23:29:35Z" target="#P32286109">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091356" when="2022-05-19T16:07:15Z" target="#P32286108">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091356" when="2022-05-19T16:03:31Z" target="#P32286108">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091356" when="2022-05-19T16:03:22Z" target="#P32286108">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091356" when="2022-05-19T15:59:14Z" target="#P32286107">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U226410" when="2022-05-12T14:47:36Z" target="#P32286109">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U226410" when="2022-05-12T14:46:23Z" target="#P32286108">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U226410" when="2022-05-12T14:39:51Z" target="#P32286107">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25090807" when="2022-05-10T19:12:54Z" target="#P32286109">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25090807" when="2022-05-10T19:12:53Z" target="#P32286109">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25090807" when="2022-05-10T19:11:27Z" target="#P32286108">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25090807" when="2022-05-10T19:11:26Z" target="#P32286108">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25090807" when="2022-05-10T19:02:19Z" target="#P32286107">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25090807" when="2022-05-10T19:02:18Z" target="#P32286107">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2022-05-09T20:08:13Z" target="#P32286109">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-05-09T20:08:12Z" target="#P32286108">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-05-09T20:08:10Z" target="#P32286107">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32286107" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:20733/full/full/0/default.jpg"/>
+        <div xml:id="OTP32286107">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32286107P0' xml:id='OTP32286107P0'><rs ref='#S52607'>Lexington Holmes Co.</rs><lb/>
+Miss July 12" 1865
+</p>
+
+<p corresp='TTP32286107P1' xml:id='OTP32286107P1'>To his Excellency, <rs ref='#S52215'>W. L. Sharkey</rs><lb/>
+Prov. Gov. of Miss.
+</p>
+
+<p corresp='TTP32286107P2' xml:id='OTP32286107P2'>The undersigned Citizens of the town of Lexington would respectfully represent unto your Excellency that said town was Incorporated in 18<del rend='overstrike'>5</del>48, the Municipal officers being a <rs ref='#S63935'>Mayor</rs>, five <rs ref='#S32026840'>Selectmen</rs> &amp; a <rs ref='#S70145'>constable</rs>, and they would further represent that there has been no <rs ref='#S95151'>Election</rs> for officers Since—day of April 1862, The charter of Incorporation providing for biennial elections; and no use of the above officers for more than twelve months. We would respectfully ask that <rs ref='#S32028915'>Wallace Wilson</rs> a <rs ref='#S63172'>Justice of the Peace</rs> for this County and a Citizen
+</p>
+
+
+        </div>
+        <pb xml:id="F32286108" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:20734/full/full/0/default.jpg"/>
+        <div xml:id="OTP32286108">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32286108P0' xml:id='OTP32286108P0'>of this town be ordered to hold an election to fill the above named offices, having first given five days notice.
+</p>
+
+<p corresp='TTP32286108P1' xml:id='OTP32286108P1'>Very Respectfully
+</p>
+
+<p corresp='TTP32286108P2' xml:id='OTP32286108P2'><rs ref='#S32028916'>A. W. Northcut</rs><lb/>
+<rs ref='#S32033137'>Jno T. H. Creel</rs><lb/>
+<rs ref='#S32028918'>L. J. Kelly</rs><lb/>
+<rs ref='#S32028919'>John Gillespie</rs><lb/>
+<hr/><lb/>
+<rs ref='#S32033138'>H. S. Allen</rs><lb/>
+<rs ref='#S32028920'>W<add place='above'>m</add> Boyle</rs><lb/>
+<rs ref='#S53647'>J. M. Dyer</rs><lb/>
+<rs ref='#S32033139'>D Pitton</rs><lb/>
+<rs ref='#S32033140'>Jno A Suirs?</rs><lb/>
+<rs ref='#S32033141'>H N Spoone</rs><lb/>
+<rs ref='#S32033142'>W A Derman</rs><lb/>
+<rs ref='#S32033143'>John Cresa</rs><lb/>
+<rs ref='#S32028926'>John A. Durden</rs><lb/>
+<rs ref='#S25014419'>W<add place='above'>m</add>. H. Dyson</rs><lb/>
+<rs ref='#S25014420'>M. Levy</rs><lb/>
+<rs ref='#S32033144'>R Brown</rs><lb/>
+<rs ref='#S32033145'>J. S. Haskins</rs><lb/>
+<rs ref='#S32033146'>J. N. M Lean Jr</rs><lb/>
+<rs ref='#S32033147'>Jos Marlow</rs><lb/>
+<rs ref='#S32033148'>A. M. Haslow</rs><lb/>
+<rs ref='#S32028931'>R. M. Brown</rs><lb/>
+<rs ref='#S32028932'>H. W. Brown</rs><lb/>
+<rs ref='#S32006181'>R A Anderson</rs>
+</p>
+
+
+        </div>
+        <pb xml:id="F32286109" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:20735/full/full/0/default.jpg"/>
+        <div xml:id="OTP32286109">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32286109P0' xml:id='OTP32286109P0'>Dispatch of July. 17—1865
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

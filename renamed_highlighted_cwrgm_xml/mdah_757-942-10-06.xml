@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 19 edits between
+              <date type="first_edit" when="2021-05-18T21:29:09Z">May 18, 2021</date> and
+              <date type="last_edit" when="2023-11-02T15:36:38Z">November  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25088584">
+          <persName
+            >
+            Ray Schmitt
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-05-06T16:23:34Z">May  6, 2021</date> and
+              <date type="last_edit" when="2021-05-06T18:13:15Z">May  6, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U216441">
+          <persName
+            >
+            Robin Horne
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-05-07T05:33:12Z">May  7, 2021</date> and
+              <date type="last_edit" when="2021-05-07T05:36:53Z">May  7, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-05-10T15:50:37Z">May 10, 2021</date> and
+              <date type="last_edit" when="2021-05-10T15:50:58Z">May 10, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25089434">
+          <persName
+            >
+            James M. Berry
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-07-05T19:56:13Z">July  5, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-03-24T16:40:41Z">March 24, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-09-15T20:01:28Z">September 15, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U217868">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Alec Blaylock </name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T16:22:25+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S52662">
+              <persName>Bates, Robert S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S51696">
+              <persName>Tupper, T. C., 1809-1866</persName>
+                <idno>https://en.wikipedia.org/wiki/Tullius_Cicero_Tupper</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51696P0'>Tullius Cicero Tupper was a general in the Mississippi militia during the Civil War.
+</p>
+
+<p xml:id='OTPS51696P1'>Born in Barnard, Vermont, on February 9, 1809, Tupper was educated in the north and graduated from the University of Vermont before moving to Canton, Mississippi. He practiced law in Mississippi and became involved in newspaper publishing, running the <hi rend='italic'>Canton Herald</hi> in the 1830s. He became highly respected over the next two decades, serving as an advisor to Mississippi governor John J. Pettus during the secession crisis in 1860 and 1861.
+</p>
+
+<p xml:id='OTPS51696P2'>In 1862, Tupper received a commission as major general in the Mississippi militia, tasked with organizing and improving state forces at a time when most able-bodied Mississippi men who wanted to volunteer for military service were serving in the Confederate army. Tupper clashed with Pettus over the use of the state militia. He preferred to allow militia troops to return home following training and only be called into service during emergency situations. The governor wished to keep the militia units on active duty and in garrison. Additionally, Tupper resisted efforts by Confederate officials to control state military forces. In 1863, Tupper resigned his commission and spent the rest of the war at home.
+</p>
+
+<p xml:id='OTPS51696P3'>Tupper died on August 14, 1866. He was married to Mary Harding Drane and had five children. He is buried in Canton City Cemetery, Canton, Mississippi.
+</p>
+
+<p xml:id='OTPS51696P4'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS51696P5'>T. C. Tupper belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S89964">
+              <persName>Hamer, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52663">
+              <persName>Tyler, H. C.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S52521">
+              <placeName>Mississippi--Yazoo County. Yazoo City</placeName>
+                <idno>https://en.wikipedia.org/wiki/Yazoo_City,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52521P0'>Located in Yazoo County, Mississippi, Yazoo City was founded as early as 1824 under the name Hannah's Bluff (or Hanan's Bluff). It was later renamed Manchester in 1830 and Yazoo City in 1838. In 1849, Yazoo City became the county seat and remains so today. (Rowland, <hi rend='italic'>Mississippi</hi>, 998; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.85639, -90.4075</geo>
+                </note>
+            </place>
+            <place xml:id="S63093">
+              <placeName>Virginia--Independent City. Richmond</placeName>
+                <idno>https://en.wikipedia.org/wiki/Richmond,_Virginia</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63093P0'>Currently an independent city, Richmond was founded in 1737 in what was Henrico County at the time of founding and was incorporated on 1742. It became the state capital of Virginia in 1779. During the American Civil War, Richmond also served as capital of the Confederacy. On July 9, 1902, Richmond became an independent city. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>37.53333, -77.46667</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S98881'>
+            <catDesc>
+              <term>Confederate States of America--Draft</term>
+              <idno>https://mississippiencyclopedia.org/entries/mississippians-in-confederate-army/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98881P0'>By the spring of 1862, the difficulty and bloodshed of fighting the Civil War became a reality to many white southerners, and many soldiers' one-year terms of enlistment expired. Voluntary enlistments slowed and rendered the Confederate Army desperate for troops. The Confederate States of America consequently issued the first compulsory call to military service in American history, also called a "draft" or "conscription" with the First Conscription Act of 1862.
+</p>
+
+<p xml:id='OTPSD98881P1'>A series of other conscription laws followed throughout the Civil War, each containing measures that sparked tensions between southerners and the Confederate government. The First Conscription Act rendered all men between the ages of 18 and 35 subject to military service, though a later act expanded the age range to 45. Men working in occupations deemed essential to the war effort or to preserving the home front could be exempted from the draft, and, after October 11, 1862, white men owning or overseeing twenty or more enslaved persons could also be exempt. These policies isolated small farmers with little investment in preserving slavery, and many southerners evaded the draft in a variety of ways. However, many others both elite and non-elite viewed the draft as a necessary action, and the Twenty Slave Law a necessary protection from enslaved rebellion. Ultimately, however they felt about it, one estimate holds that Mississippi sent roughly 8,000 draftees to fight for the Confederacy (Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32005193'>
+            <catDesc>
+              <term>Military Engagements</term>
+              <idno>https://www.battlefields.org/learn/articles/civil-war-facts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32005193P0'>The act of beginning to fight or a period of time in a war, military engagements are also referred to as battles or skirmishes. Battles are fights between armed forces, and usually describe singular events that occur over the course of hours or a few days. Skirmishes are smaller fights, usually between a small number of soldiers that occur unexpectedly, last only a few minutes or a few hours, and take place away from the main area of fighting.
+</p>
+
+<p xml:id='OTPSD32005193P1'>There were approximately 10,500 engagements during the American Civil War. Fifty of them were major battles, while another one hundred were notable engagements. The rest were small battles or skirmishes. (Cambridge Dictionary; American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25009210'>
+            <catDesc>
+              <term>Military Engagements--Seven Days&#39; Battles, Va., 1862</term>
+              <idno>https://www.battlefields.org/learn/articles/seven-days-battles</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.76, -77.49</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25009210P0'>The Seven Days’ Battles was a series of seven engagements fought over seven days from June 25 – July 1, 1862 in Hanover and Henrico counties, Virginia between the Army of the Potomac (Union) Commanded by Maj. Gen. George B. McClellan and the Army of Northern Virginia (Confederate) commanded by Gen. Robert E. Lee. The engagements were part of the Peninsula Campaign and resulted in a strategic Confederate victory. Lee took command of the ANV After Gen. Joseph E. Johnston was wounded at the Battle of Seven Pines and immediately changed the Confederate strategy from defensive maneuvers to one of attack. The two sides met at the inconclusive Battle of Oak Grove (also known as the Battle of French’s Field and the Battle of King’s School House), on June 25. The Battle of Beaver Creek (also known as the Battle of Mechanicsville) on June 26 resulted in a Union victory. The Battle of Gaines’ Mill on June 27 resulted in a Confederate victory. The Battle of Garnett’s and Golding’s farms on June 27 – 28 was inconclusive as was the Battle of Savage Station on June 29. The Battle of Glendale (also known as the Battle of Frayser’s Farm) on June 30 was also inconclusive. The final engagement, the Battle of Malvern Hill on July 1, resulted in a Union victory. The Seven Days Battles ended the Peninsula Campaign and the Union Army’s plan to capture the Confederate capital at Richmond and end the war quickly. McClellan used his victory at Malvern Hill to evacuate the Army of the Potomac to the James River and the supporting Union gunboats. (American Battlefield Trust; National Park Service; Encyclopedia Britannica)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001684'>
+<catDesc>Military Roles</catDesc>
+          <category xml:id='S49748'>
+            <catDesc>
+              <term>Provost Marshals</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/military-police</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001684'>Military Roles</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD49748P0'>"The police force within the armed forces, responsible for dealing with members of the armed forces who break the law." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S63099'>
+            <catDesc>
+              <term>African Americans--Enslaved People</term>
+              <idno>https://en.wikipedia.org/wiki/Slavery_in_the_United_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63099P0'>While Cambridge Dictionary defines an enslaved person as "a person who is legally owned by someone else and has no personal freedom" (Cambridge Dictionary), CWRGM adopts the term for the people who were subjected to the practice of race-based enslavement in the nineteenth-century United States chattel slavery system. Slavery in the United States varied greatly over time and geography. However, its most common form was that of race-based chattel slavery in which people of African descent were viewed and treated as property.
+</p>
+
+<p xml:id='OTPSD63099P1'>Methods of work also varied based on region, but those enslaved in Deep South states like Mississippi typically worked under the gang labor system in which, under the supervision of overseers, "gangs of slaves worked their ways through fields, plowing, thinning, hoeing, chopping, picking, or whatever else the day's assignment might be" (Mississippi Encyclopedia). The U.S.'s slave labor system subjected the enslaved to extreme violence, physical, psychological, and often sexual, and brutal working conditions and decreased individual autonomy.
+</p>
+
+<p xml:id='OTPSD63099P2'>Both state and federal legal systems also rendered escape or freedom nearly impossible in the South. For example, the Fugitive Slave Act at the national level required all people, even northerners, to return runaway slaves, rendering an escape to freedom extremely difficult. Mississippi's slave codes specifically implemented slave patrols, pass systems, corporal punishment, supervision of all religious gatherings, and the requirement that an African American person have proof of freedom at all times to curtail the already few rights of enslaved and free African Americans. Mississippi's status as a hub of the domestic slave trade, the individual autonomy whites possessed to punish the enslaved, and frequent abuse of the law by slave patrols increased the likelihood that even a free Black person could be captured and sold into slavery.
+</p>
+
+<p xml:id='OTPSD63099P3'>Despite this adversity, the enslaved in Mississippi and elsewhere resisted and exercised agency in multiple ways. Some enslaved persons directly resisted by running away or violently rebelling, while others chose indirect methods like breaking tools, intentionally working slowly, or feigning illness or injury. The enslaved also maintained their agency and autonomy by crafting networks of kinship and family both within and across plantations, cultivating gardens for their own use, performing gender roles of their own choosing, and holding social and religious gatherings infused with unique cultural and social elements (Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+<category xml:id='C32001674S63099'>
+<catDesc>
+<term><rs ref='S63099'>African Americans--Enslaved People</rs></term>
+</catDesc>
+</category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S57050'>
+            <catDesc>
+              <term>Prisoners of War</term>
+              <idno>https://www.battlefields.org/learn/articles/civil-war-prison-camps#:~:text=Despite%20the%20controversy%2C%20there%20can,many%20camps%20on%20both%20sides.</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD57050P0'>The prisoner of war experience varied across time and geography during the American Civil War. Both Union and Confederate governments, expecting a short war, did not possess the capabilities of maintaining large prisoner of war populations. Early in the war, prisoners were often exchanged on a one-to-one basis through a parole process and returned to their respective armies. However, the Union Army's enlistment of Black troops in 1862 soured the exchange process and led to the creation of large prison camps in both the North and South.
+</p>
+
+<p xml:id='OTPSD57050P1'>As the war continued, and battles grew larger and more frequent, the number of prisoners held in these camps quickly exceeded their capacities, leading to overcrowding by 1863. Civil War prison camps, particularly the Andersonville Prison Camp in Georgia, presented some of the most appalling living conditions of the war, which only deteriorated over time. Prisoners of war during the American Civil War faced inadequate food, water, and shelter while living in cramped and deeply unsanitary conditions. Prisoners of war therefore made up a significant portion of deaths during the war, often dying from starvation or sickness. The experiences of prisoners of war differed depending on which camp they were confined to and depending on their race or ethnicity, particularly as the Confederacy in 1863 adopted a policy of executing Black soldiers who surrendered rather than imprisoning them. Even among whites, hostilities over the experiences of battle also led to abuse and violence within the camps, as prisoners sought revenge on vulnerable prisoners.
+</p>
+
+<p xml:id='OTPSD57050P2'>Ultimately, the prisoner of war experience for those who survived was universally traumatizing and produced one of the most contentious points both during the Civil War and in its commemoration and reconciliation afterword, as the treatment of prisoners of war became a rallying cry for pointing out the cruelties of the enemy for both North and South (National Battlefield Trust; National Park Service).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001666'>
+<catDesc>Races, Ethnicities, &amp; Nationalities</catDesc>
+          <category xml:id='S62968'>
+            <catDesc>
+              <term>African Americans</term>
+              <idno>https://en.wikipedia.org/wiki/African_Americans</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62968P0'>The Cambridge Dictionary classifies "a person who lives in the U.S. and is a member of a race of people with dark skin that originally came from Africa" as African American, but both the nineteenth-century and modern constructions are more complex (Cambridge Dictionary). Common nineteenth-century racial categories such as "mulatto" referred to persons with both white and black ancestry, and the experiences of mixed-race persons varied based on complexion, degree of African ancestry, and the region in which they lived. In antebellum cities with large populations of free Blacks, the degree of one's African ancestry could determine what rights one possessed or did not possess, and people with lighter skin tones were often considered to be white; this ended under "one drop rule" during the Jim Crow system.
+</p>
+
+<p xml:id='OTPSD62968P1'>Like skin tone, the ethnicity implied by the term "African American" is also problematically broad, as "naming people only by the continent of their origin and ignoring their ethnic identity is a consequence of time and space" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 5). The experience of slavery complicated the term by attempting to strip people of their original distinct African ethnic identities such as Ibo or Ndongan, classifying all persons of African descent together under one term, infusing that term with negative connotation, and disregarding the complex and rich linguistic, cultural, and ethnic histories of varied African people. However, many Black Americans have reclaimed the term "African American" and infused it with positive connotations. One scholar argues that "in using the term 'African Americans,' Black Americans accent the part of their heritage that is not American" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 4).
+</p>
+
+<p xml:id='OTPSD62968P2'>CWRGM — acknowledging the multiplicity of the term's meanings and connotations — includes multiracial and multiethnic people of African descent under the "African Americans" social identifiers subject tag to reflect the diversity of the African American experience and to ensure that the experiences of African Americans of mixed races and ethnicities are discoverable as they are rarely distinguished further in the letters. In the absence of other references, CWRGM also tags racial slurs targeted at African Americans — which were common in nineteenth century documents with white authors — under the "African Americans" tag. CWRGM recognizes the historic and present harm caused by such language and does not condone its use but tags these terms only to ensure the rich history of African Americans are discoverable within the collection.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001666S63099'>
+<catDesc>
+<term><rs ref='S63099'>African Americans--Enslaved People</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757 Governor Pettus Collection.</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by The Dale Center for Study of War and Society; Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Unknown</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-10-03</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from a discharged soldier to Mississippi Governor John J. Pettus informing on Robert L. Bates, who is avoiding the draft.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_757-942-10-06</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>607512 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>2475</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_757-942-10-06</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Yazoo County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 942, Folder 10</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Draft resisters; Military discharge; Mississippi. Governor; Pettus, John Jones, 1813-1867; Retired military personnel</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>1624</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/1690&quot;&gt;Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG31" who="U32019810" when="2024-09-15T20:01:28Z" target="#P25063511">
+          Version 31 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-11-02T15:36:38Z" target="#P25063511">
+          Version 30 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-11-02T04:23:50Z" target="#P25063511">
+          Version 29 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-11-02T03:15:16Z" target="#P25063511">
+          Version 28 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-09-02T20:41:53Z" target="#P25063511">
+          Version 27 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-09-02T20:29:33Z" target="#P25063511">
+          Version 26 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-09-02T19:43:12Z" target="#P25063511">
+          Version 25 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-05-27T18:26:11Z" target="#P25063511">
+          Version 24 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-29T01:56:36Z" target="#P25063511">
+          Version 23 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U25091356" when="2023-03-24T16:40:41Z" target="#P25063511">
+          Version 22 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-19T14:34:16Z" target="#P25063511">
+          Version 21 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-03-18T15:55:16Z" target="#P25063511">
+          Version 20 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-03-18T02:49:32Z" target="#P25063511">
+          Version 19 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-03-18T02:47:50Z" target="#P25063511">
+          Version 18 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-03-06T04:37:48Z" target="#P25063511">
+          Version 17 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2022-12-04T01:12:13Z" target="#P25063511">
+          Version 16 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2022-12-04T00:42:10Z" target="#P25063511">
+          Version 15 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2021-12-09T23:12:09Z" target="#P25063511">
+          Version 14 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2021-08-09T22:59:50Z" target="#P25063511">
+          Version 13 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2021-07-29T16:42:23Z" target="#P25063511">
+          Version 12 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25089434" when="2021-07-05T19:56:13Z" target="#P25063511">
+          Version 11 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2021-05-18T21:29:09Z" target="#P25063511">
+          Version 10 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U217868" when="2021-05-10T15:50:58Z" target="#P25063511">
+          Version 9 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U217868" when="2021-05-10T15:50:37Z" target="#P25063511">
+          Version 8 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U216441" when="2021-05-07T05:36:53Z" target="#P25063511">
+          Version 7 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U216441" when="2021-05-07T05:33:12Z" target="#P25063511">
+          Version 6 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25088584" when="2021-05-06T18:13:15Z" target="#P25063511">
+          Version 5 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25088584" when="2021-05-06T18:13:06Z" target="#P25063511">
+          Version 4 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25088584" when="2021-05-06T17:45:41Z" target="#P25063511">
+          Version 3 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U25088584" when="2021-05-06T16:23:34Z" target="#P25063511">
+          Version 2 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-04-29T14:35:25Z" target="#P25063511">
+          Version 1 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-04-29T14:35:17Z" target="#P25063511">
+          Version 0 of page "Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25063511" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/1690/full/full/0/default.jpg"/>
+        <div xml:id="OTP25063511">
+        <fw type="pageNum">Letter from discharged soldier to Mississippi Governor John J. Pettus; October 3, 1862</fw>
+          <p corresp='TTP25063511P0' xml:id='OTP25063511P0'>[seal]
+</p>
+
+<p corresp='TTP25063511P1' xml:id='OTP25063511P1'><rs ref='#S52521'>Yazoo City</rs> Oct 3, 1862
+</p>
+
+<p corresp='TTP25063511P2' xml:id='OTP25063511P2'>To The Hon Gov <rs ref='#S63111'>J, J, Pettis</rs>
+</p>
+
+<p corresp='TTP25063511P3' xml:id='OTP25063511P3'>Dear Sir
+</p>
+
+<p corresp='TTP25063511P4' xml:id='OTP25063511P4'>Having returned home after serving faithfully in the <rs ref='#S57050'>18<add place='above'>th</add><sub>"</sub> Miss Regt</rs> through all the hard fighting for 15 months closing after the <rs ref='#S25009210'>7 Days</rs> fighting around <rs ref='#S63093'>Richmond Va</rs>. beeing 49 years of age and honourably dis-charged, I deem it my duty to inform your Honour that ^there^ is a stout able healthy young man here who it appears has been practicing deception in order to evade the <rs ref='#S98881'>conscrip</rs> act by representing to your honour that the <rs ref='#S63099'>Negroes</rs> were getting very troublesome in this nobourhood and that he was the only protector of several families, and all of which is false, there is no one in the nobourhood who would sign his petition, and no one who wishes his protection as I herd his <rs ref='#S25013472'>motherinlaw</rs> say her only son is in the war, His detale patrole is to and end he now branches off by purchasing a pattent to tan leather individually and now intends to learn to make shoes all which is to evade the conscrip act he beeing 26 years of age, speculating in tobacco from the beginning of the war he has said he would not go that he had no Negroes and that the rich might fight, for them Negroes that he did not intind to fight such is the man <rs ref='#S52662'>Robert S. Bates</rs>, I leave him under your Honourable consideration and if you think it advisable you can inform, Gen <rs ref='#S51696'>Tupper</rs>, Col <rs ref='#S89964'>Hamer, Unknown</rs> of Yazoo City or the <rs ref='#S49748'>Provost Marchill</rs> <rs ref='#S52663'>Tyler</rs> of Yazoo City who is stout and hearty well known as such, I deem this my duty as an old faithfull Souldier, Allow me to remain your friend and obt Sevt
+</p>
+
+<p corresp='TTP25063511P5' xml:id='OTP25063511P5'>Soldier
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

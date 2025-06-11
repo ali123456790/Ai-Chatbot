@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Lieutenant Colonel Charles F. Hamer to Mississippi Governor John J. Pettus; August 2, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U229392">
+          <persName
+            >
+            Brian Valimont
+            </persName>
+            <resp>
+              made 17 edits between
+              <date type="first_edit" when="2021-06-10T00:24:46Z">June 10, 2021</date> and
+              <date type="last_edit" when="2021-06-10T01:20:46Z">June 10, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 12 edits between
+              <date type="first_edit" when="2021-07-06T16:40:28Z">July  6, 2021</date> and
+              <date type="last_edit" when="2023-09-02T20:32:50Z">September  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-06-09T20:26:06Z">June  9, 2021</date> and
+              <date type="last_edit" when="2021-06-09T20:42:09Z">June  9, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-06-14T17:38:44Z">June 14, 2021</date> and
+              <date type="last_edit" when="2021-06-14T17:47:34Z">June 14, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091404">
+          <persName
+            >
+            Robert Mason
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-11-11T15:25:07Z">November 11, 2023</date> and
+              <date type="last_edit" when="2023-11-12T11:50:26Z">November 12, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T15:09:28Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25088834">
+          <persName
+            >
+            Emily Copper
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-06-04T04:42:42Z">June  4, 2021</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U217868">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Alec Blaylock </name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:28:39+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S25004576">
+              <persName>Hamer, Clarence F.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25009928">
+              <persName>Bolt, Y.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S52663">
+              <persName>Tyler, H. C.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S70568">
+              <persName>Van Dorn, Earl, 1820-1863</persName>
+                <idno>https://en.wikipedia.org/wiki/Earl_Van_Dorn</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS70568P0'>Earl Van Dorn was a Confederate general during the Civil War. He was born near Port Gibson, Mississippi, on September 17, 1820. His mother was the niece of Andrew Jackson, a connection that aided Van Dorn during his application to the United States Military Academy at West Point in 1838. He graduated in 1842, but had received 163 demerits as a cadet due to actions such as failing to salute, using profanity, and using tobacco. Upon graduation, Van Dorn was appointed to the Seventh U.S. Infantry Regiment and served at various posts in the south, including Fort Pike in Louisiana, Fort Morgan in Alabama, and Pensacola in Florida.
+</p>
+
+<p xml:id='OTPS70568P1'>Van Dorn married Caroline Godbold in 1843 and the couple had two children. However, Van Dorn developed a reputation as a womanizer, in part due to his famous good looks and charm. Additionally, he gained fame for military service during the Mexican-American War and later against Comanches in the west. These factors reportedly contributed to his popularity at social engagements, and especially among some women.
+</p>
+
+<p xml:id='OTPS70568P2'>When the Civil War broke out in early 1861, Van Dorn resigned from the U.S. Army. He received an appointment as major general in the Mississippi militia, but shortly afterwards transferred to the Confederate army as a colonel. His first assignment was to raise a brigade of Texas troops and arrest any federal soldiers in that state. Upon reaching Galveston in mid-April 1861, Van Dorn led a group of secessionists to the harbor and captured three U.S. ships without a fight. The act prompted President Abraham Lincoln to brand Van Dorn a pirate.
+</p>
+
+<p xml:id='OTPS70568P3'>Fresh from his victory in Texas, Van Dorn was sent to Richmond, Virginia, for promotion. By September 1861, he received the rank of major general in the Confederate Army and in January 1862 he was sent to command the new Trans-Mississippi District. Upon taking command, Van Dorn faced a Union invasion of Arkansas. He led a campaign to defeat this threat and drive north into Missouri to capture St. Louis. The plan failed when his army lost a battle against Union troops at Pea Ridge, Arkansas, in March 1862.
+</p>
+
+<p xml:id='OTPS70568P4'>Van Dorn withdrew to Mississippi in mid-April 1862, after Confederate troops under Albert Sidney Johnston had suffered a defeat at Shiloh in southwestern Tennessee and evacuated Corinth, Mississippi. Van Dorn led an assault upon Corinth, determined to recapture it from federal troops. Although his attack began well, he had failed to study the Union positions at Corinth, and threw his Confederate troops against formidable fortifications. The assault failed and Van Dorn was relieved of command. He was given a smaller assignment, to lead Confederate cavalry under General John C. Pemberton.
+</p>
+
+<p xml:id='OTPS70568P5'>Although he had not seen much success as an infantry commander, Van Dorn proved much more effective at the head of a cavalry force. He led a brilliant cavalry raid against Ulysses S. Grant’s supply depot at Holly Springs, Mississippi, in December 1862, spoiling the Union army’s first effort to reach Vicksburg, Mississippi. He continued to participate in Confederate cavalry raids and skirmishes against Union troops in Mississippi until his death in May 1863.
+</p>
+
+<p xml:id='OTPS70568P6'>Van Dorn was not killed in battle but at the hands of a jealous husband. In April 1863, Van Dorn had begun an affair with the young wife of a physician and state legislator, Dr. George B. Peters, in Spring Hill, Mississippi. Dr. Peters had caught his wife in the arms of Van Dorn on April 12. He nearly shot the general at that time, but Van Dorn managed to talk his way out of the situation. Then, three weeks later, on May 7, Dr. Peters went into Van Dorn’s headquarters, a stately mansion in Spring Hill, and shot the general in the back of the head while he worked at a desk. Dr. Peters was arrested for murder, but never brought to trial, as most southerners sympathized with his plight as an offended husband.
+</p>
+
+<p xml:id='OTPS70568P7'>Van Dorn was initially buried in Alabama, but later moved to Wintergreen Cemetery in Port Gibson, Mississippi.
+</p>
+
+<p xml:id='OTPS70568P8'>(Wikipedia; National Park Service; American Battlefield Trust)
+</p>
+
+<p xml:id='OTPS70568P9'>Earl Van Dorn belonged to the following social groups:<lb/>
+
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S25010611">
+              <persName>Gaitley, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S25019590">
+              <placeName>Military training camps--Mississippi. Camp Smith</placeName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001866">Military Locations</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS25019590P0'>Not identified. Contact us at cwrgmproject@gmail.com to provide more information.
+</p>
+
+
+                </note>
+            </place>
+            <place xml:id="S25009203">
+              <placeName>Mississippi--Warren County. Haynes Bluff Landing</placeName>
+                <idno>http://trails.mdah.ms.gov/mmt/haynesbluff/index.html</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS25009203P0'>Haynes Bluff Landing is located in Warren County.
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.51681, -90.78816</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S98881'>
+            <catDesc>
+              <term>Confederate States of America--Draft</term>
+              <idno>https://mississippiencyclopedia.org/entries/mississippians-in-confederate-army/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98881P0'>By the spring of 1862, the difficulty and bloodshed of fighting the Civil War became a reality to many white southerners, and many soldiers' one-year terms of enlistment expired. Voluntary enlistments slowed and rendered the Confederate Army desperate for troops. The Confederate States of America consequently issued the first compulsory call to military service in American history, also called a "draft" or "conscription" with the First Conscription Act of 1862.
+</p>
+
+<p xml:id='OTPSD98881P1'>A series of other conscription laws followed throughout the Civil War, each containing measures that sparked tensions between southerners and the Confederate government. The First Conscription Act rendered all men between the ages of 18 and 35 subject to military service, though a later act expanded the age range to 45. Men working in occupations deemed essential to the war effort or to preserving the home front could be exempted from the draft, and, after October 11, 1862, white men owning or overseeing twenty or more enslaved persons could also be exempt. These policies isolated small farmers with little investment in preserving slavery, and many southerners evaded the draft in a variety of ways. However, many others both elite and non-elite viewed the draft as a necessary action, and the Twenty Slave Law a necessary protection from enslaved rebellion. Ultimately, however they felt about it, one estimate holds that Mississippi sent roughly 8,000 draftees to fight for the Confederacy (Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S99780'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 18th</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99780P0'>The 18th Regiment, Mississippi Infantry (Confederate) was organized on June 7, 1861 in Alcorn County, Mississippi under the command of Col. E. R. Burt and served in the Eastern Theater under Evans' and Featherston's Brigades. It was reorganized on April 26, 1862. It was later commanded by Col. Thomas M. Griffin and served under Griffith's, Barksdale's, and Humphrey's Brigades. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 22; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 475-484; Confederate Military Service Record)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S96380'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 18th. Company D</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96380P0'>Commonly known as the Hamer Rifles, Company D of the 18th Regiment, Mississippi Infantry (Confederate) was organized on April 19, 1861 in Yazoo County, Mississippi under the command of Capt. Clarence F. Hamer and served in the Eastern Theater. It was later commanded by Capts. Ferdinand Bostick and William F. Hubbard. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 22; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 477)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S71916'>
+            <catDesc>
+              <term>United States. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71916P0'>The United States Army is the military land force of the United States of America. During the American Civil War it was also referred to as the Union Army, Federal Army, or Northern Army. Its primary military objective during the war was the restoration and preservation of the United States through the defeat of secessionist forces. The United States Army traces its roots to the Continental Army, created in 1775 during the American Revolution. Following American independence, the new United States severely reduced the size of the army due to distrust of permanent standing military forces. The small regular army generally handled military operations against Native Americans and for coastal defense. State authorities were expected to support the country’s military needs with their militias, or by raising volunteer units, temporarily activated for federal service.
+</p>
+
+<p xml:id='OTPSD71916P1'>At the outbreak of the Civil War, the United States regular army consisted of barely more than 16,000 soldiers, scattered across the country (primarily at coastal defenses and forts established in the territories) among ten infantry regiments, four artillery regiments, two cavalry regiments, two dragoon regiments, and one regiment of mounted rifles. Roughly 20% of the army’s officers and enlisted resigned their positions to fight for the Confederacy. After Southern troops attacked and captured Fort Sumter in South Carolina, President Abraham Lincoln called for 75,000 volunteers to expand the army and defeat the Confederates. The government continued to issue subsequent requests for volunteers as the war progressed. As with established practice, the states were to recruit the volunteers and provide them for federal service. Initial enlistments were for 90 days, but eventually enlistment terms were expanded, typically for three years. In total, more than 2,000,000 men served in the United States Army during the course of the Civil War. Of those, only around 60,000 were part of the regular army. The overwhelming majority were in state-based units. Most soldiers were volunteers, however the federal government began drafting men in 1862, as the army’s campaigns continued and volunteer numbers dwindled. In total, around 46,000 Union soldiers (about 5.5%) were draftees.
+</p>
+
+<p xml:id='OTPSD71916P2'>Approximately two-thirds of the soldiers in the United States Army during the Civil War were native-born white citizens. Around 100,000 were from states within the Confederacy. Immigrants made up about 25% of Union soldiers, with Germans and Irish immigrants being among the most prominent. The army also included soldiers of different ethnicities, including more than 3,000 Native American soldiers. In 1863, the Union army began formally accepting African American soldiers—in segregated units—and by the end of the war, around than 179,000 had served in the United States Army uniform.
+</p>
+
+<p xml:id='OTPSD71916P3'>When hostilities ended in June 1865, approximately 110,000 had been killed in combat or succumbed to wounds, more than 220,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001148'>
+<catDesc>State Level: USA &amp; CSA Military</catDesc>
+          <category xml:id='S77526'>
+            <catDesc>
+              <term>Mississippi Home Guard</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD77526P0'>A militia is a military unit made up of civilians within a community who could be called up by local (often state) officials to serve temporary military purposes. Militias were separate from regular, or permanent, armies. Because they conducted training only periodically, and provided active military service for short periods of time, militias cost less than regular armies; and because they were manned by local residents, militias were frequently seen as less threatening to early American communities than national military units comprised of strange men born in other counties or states.
+</p>
+
+<p xml:id='OTPSD77526P1'>When Mississippi seceded in 1861, enthusiasm for military service swept across the state. Volunteers filled the ranks of old militia units or created new companies within their communities, eager to repulse any federal attempt to coerce secessionists back into the Union. They also took proactive efforts, securing key positions along the Gulf Coast, including reinforcing other Southern soldiers at Pensacola and Fort Pickens in Florida. Over the next few months, as the Confederate government requested more volunteers, thousands of Mississippians and entire volunteer companies from the state transferred to Confederate service and were sent north, out of state. The units that remained within Mississippi for state defense were left in a convoluted military structure, some considered state reserves (a more formal military force for state defense) and some considered state militia (the more traditional units of citizen-soldiers called up for local, emergency use). The distinctions were not well established, and during the war Mississippians describing state units not within the Confederate army used a variety of terms—such as militia, home guard, state troops—almost interchangeably. However, you will find specific references under this subject tag at CWRGM employed the term home guard rather than militia.
+</p>
+
+<p xml:id='OTPSD77526P2'>While militia and state defense units technically fell under the governor’s authority, the state government struggled to manage, or even track, these organizations. Some, like the Third Battalion Mississippi Minute Men, were well organized, fell under direct state control, and took part in larger military operations, such as the defense of Vicksburg; others saw no combat, rarely gathered for drill, and were entirely overseen by county or local community officials. Most militia members were older than the average Confederate soldier. They were typically farmers, business owners, or land owners who had families and, in many instances, slaves. Because of these responsibilities at home, militiamen expected their military duties to be periodic, temporary, and only during times of emergency, a reflection of the militia’s original intent. However, state officials occasionally activated militia units for long periods, based upon the military situation. In the summer of 1862, Mississippi’s governor, John J. Pettus, mobilized his state troops, pulling many militia units away from their communities. Held in camp for several weeks, drilling but not seeing combat, many militiamen complained of their treatment and argued that their services were needed more at home, managing farms and their communities. Despite these complaints, the governor mobilized the state troops again in 1864, and again met criticism.
+</p>
+
+<p xml:id='OTPSD77526P3'>Overall, Mississippi’s militia and state defense system during the Civil War was a complicated tangle of formal and informal military units. Infrequently used for combat assignments, these units nevertheless provided some emergency services for the state government and allowed many Mississippians a way to provide military service to the community while remaining at home to manage personal and local interests. (Tracy L. Barnett, “Mississippi ‘Milish’: Militiamen in the Civil War,” <hi rend='italic'>Civil War History</hi>, Vol. 66, No. 4 (Dec 2020), 343–379; Michael B. Ballard, <hi rend='italic'>The Civil War in Mississippi: Major Campaigns and Battles</hi>, 4–8)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63200'>
+            <catDesc>
+              <term>Mississippi. Militia</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63200P0'>A militia is a military unit made up of civilians within a community who could be called up by local (often state) officials to serve temporary military purposes. Militias were separate from regular, or permanent, armies. Because they conducted training only periodically, and provided active military service for short periods of time, militias cost less than regular armies; and because they were manned by local residents, militias were frequently seen as less threatening to early American communities than national military units comprised of strange men born in other counties or states.
+</p>
+
+<p xml:id='OTPSD63200P1'>When Mississippi seceded in 1861, enthusiasm for military service swept across the state. Volunteers filled the ranks of old militia units or created new companies within their communities, eager to repulse any federal attempt to coerce secessionists back into the Union. They also took proactive efforts, securing key positions along the Gulf Coast, including reinforcing other Southern soldiers at Pensacola and Fort Pickens in Florida. Over the next few months, as the Confederate government requested more volunteers, thousands of Mississippians and entire volunteer companies from the state transferred to Confederate service and were sent north, out of state. The units that remained within Mississippi for state defense were left in a convoluted military structure, some considered state reserves (a more formal military force for state defense) and some considered state militia (the more traditional units of citizen-soldiers called up for local, emergency use). The distinctions were not well established, and during the war Mississippians describing state units not within the Confederate army used a variety of terms—such as militia, home guard, state troops—almost interchangeably. However, under this subject tag at CWRGM you will find references to the militia and state troops; references that specifically referred to the home guard can be found separately under the Mississippi Home Guard subject tag.
+</p>
+
+<p xml:id='OTPSD63200P2'>While militia and state defense units technically fell under the governor’s authority, the state government struggled to manage, or even track, these organizations. Some, like the Third Battalion Mississippi Minute Men, were well organized, fell under direct state control, and took part in larger military operations, such as the defense of Vicksburg; others saw no combat, rarely gathered for drill, and were entirely overseen by county or local community officials. Most militia members were older than the average Confederate soldier. They were typically farmers, business owners, or land owners who had families and, in many instances, slaves. Because of these responsibilities at home, militiamen expected their military duties to be periodic, temporary, and only during times of emergency, a reflection of the militia’s original intent. However, state officials occasionally activated militia units for long periods, based upon the military situation. In the summer of 1862, Mississippi’s governor, John J. Pettus, mobilized his state troops, pulling many militia units away from their communities. Held in camp for several weeks, drilling but not seeing combat, many militiamen complained of their treatment and argued that their services were needed more at home, managing farms and their communities. Despite these complaints, the governor mobilized the state troops again in 1864, and again met criticism.
+</p>
+
+<p xml:id='OTPSD63200P3'>Overall, Mississippi’s militia and state defense system during the Civil War was a complicated tangle of formal and informal military units. Infrequently used for combat assignments, these units nevertheless provided some emergency services for the state government and allowed many Mississippians a way to provide military service to the community while remaining at home to manage personal and local interests. (Tracy L. Barnett, “Mississippi ‘Milish’: Militiamen in the Civil War,” <hi rend='italic'>Civil War History</hi>, Vol. 66, No. 4 (Dec 2020), 343-379; Michael B. Ballard, <hi rend='italic'>The Civil War in Mississippi: Major Campaigns and Battles</hi>, 4-8)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32118336'>
+            <catDesc>
+              <term>Mississippi. Militia. Independent Cavalry Company--Yazoo Rangers</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32118336P0'>The Yazoo Rangers, also known as Capt. Gartley’s Company, Mississippi Militia (Confederate) was organized as an independent cavalry company on April 16, 1862 in Yazoo City, Yazoo County, Mississippi under the command of Capt. H. C. Tyler and served in the Western Theater. It was later commanded by Capt. William F. Gartley. It was reorganized on June 1, 1864 and designated as Company D of the 2nd Battalion Cavalry, Mississippi Militia (Reserves). (Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 939-940; Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 39)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001713'>
+<catDesc>C.S.A. Federal Government</catDesc>
+          <category xml:id='S54079'>
+            <catDesc>
+              <term>Confederate States of America--Congress</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD54079P0'>The Congress of the Confederate States of America was established by Article 1 of the Confederate States Constitution on March 11, 1861 in Montgomery, Alabama. Operating at the national level of the Confederacy, it was the Legislative Branch of the Confederate States government responsible for making and amending laws. A bicameral body, the Confederate States Congress was divided into the upper house (Senate) and the lower house (House of Representatives). The Confederate States Congress concluded Its final session on March 18, 1865. (Avalon Project-<hi rend='italic'>Constitution of the Confederate States</hi>; March 11, 1861; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25004889'>
+            <catDesc>
+              <term>Draftees</term>
+              <idno>https://www.battlefields.org/learn/articles/twenty-negro-law</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25004889P0'>In the nineteenth-century United States, the first military drafts occurred during the American Civil War, in which both the Union and Confederate governments issued conscription laws.
+</p>
+
+<p xml:id='OTPSD25004889P1'>The Confederacy, receiving fewer enlistments than it expected at the beginning of the war, passed the First Conscription Act in April 1862, rendering all able-bodied white males between the ages of 18 and 35 eligible to be compelled into military service, but it included a provision by which a draftee could hire a substitute or obtain an exemption. Fearing insurrections by the enslaved population, the Confederacy passed a Second Conscription Act in September 1862 exempting one white enslaver for every twenty enslaved persons on a property, also known as the "Twenty Slave Law". Both the substitute and twenty slave laws isolated impoverished white southerners and rendered the draft deeply unpopular among non-elite southerners.
+</p>
+
+<p xml:id='OTPSD25004889P2'>In the North, conscription began in July 1862 when Congress authorized the president to enlist any militia company into the United States' service. Conscription extended to the general public in March 1863 with the Enrollment Act, rendering any able-bodied white male citizen or immigrant between the ages of 20 and 45 subject to the draft. This law similarly included a provision allowing one to purchase a substitute or commutation for the then-sizeable fee of $300. Draftees could also be exempt by proving that they were the sole support of family members or other dependents.
+</p>
+
+<p xml:id='OTPSD25004889P3'>Many individuals in the North and South saw their respective drafts as affronts to the freedom and individual liberties upon which the United States was founded, while tensions also arose between those of different races, ethnicities, religions, and social classes that were differently represented in the draft. The draft also brought home the realities of war to many families, North and South, who relied on men to support them, as fathers, husbands, sons, and brothers were sent to fight, where they would make the little money paid to soldiers and possibly lose their lives. Conscription in the American Civil War led to the violence of the New York Draft Riots of July 1863, and resulted in widespread and varied resistance in North and South (Bill of Rights Institute).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Alternate ID</label>
+              <value><id>mdah_757-942-06-12</id></value>
+            </element>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives, the National Endowment for the Humanities, and the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Hamer, Charles F.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-08-02</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Confederate Lieutenant Colonel Charles F. Hamer to Mississippi Governor John J. Pettus, concerning how long the men in his command will have to serve in the Mississippi State Militia.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 13&quot; x 8&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_757-942-06-11</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>A. J. Blaylock; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 942, Folder 6</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Mississippi. Governor; Mississippi. Militia; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Lieutenant Colonel Charles F. Hamer to Mississippi Governor John J. Pettus; August 2, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/7342&quot;&gt;Letter from Lieutenant Colonel Charles F. Hamer to Mississippi Governor John J. Pettus; August 2, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG46" who="U2" when="2024-10-25T15:09:28Z" target="#P25086179">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U25091404" when="2023-11-12T11:50:26Z" target="#P25086177">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U25091404" when="2023-11-11T15:28:39Z" target="#P25086177">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U25091404" when="2023-11-11T15:25:07Z" target="#P25086177">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2023-09-02T20:32:50Z" target="#P25086178">
+          Version 14 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-03-19T17:40:22Z" target="#P25086178">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-03-18T21:44:50Z" target="#P25086179">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-03-18T19:02:39Z" target="#P25086177">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-03-18T00:40:32Z" target="#P25086177">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2022-12-13T22:30:29Z" target="#P25086178">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2022-12-04T00:47:39Z" target="#P25086178">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2021-12-10T23:48:12Z" target="#P25086177">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2021-08-24T16:45:45Z" target="#P25086177">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2021-08-20T21:34:51Z" target="#P25086177">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2021-07-29T17:07:19Z" target="#P25086177">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2021-07-06T16:40:28Z" target="#P25086178">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U217868" when="2021-06-14T17:47:34Z" target="#P25086179">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U217868" when="2021-06-14T17:44:49Z" target="#P25086178">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U217868" when="2021-06-14T17:38:44Z" target="#P25086177">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U229392" when="2021-06-10T01:20:46Z" target="#P25086179">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U229392" when="2021-06-10T01:18:30Z" target="#P25086179">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U229392" when="2021-06-10T01:16:57Z" target="#P25086178">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U229392" when="2021-06-10T01:13:29Z" target="#P25086178">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U229392" when="2021-06-10T01:11:21Z" target="#P25086178">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U229392" when="2021-06-10T01:07:29Z" target="#P25086178">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U229392" when="2021-06-10T01:03:54Z" target="#P25086178">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U229392" when="2021-06-10T01:02:28Z" target="#P25086178">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U229392" when="2021-06-10T00:59:10Z" target="#P25086177">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U229392" when="2021-06-10T00:57:03Z" target="#P25086177">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U229392" when="2021-06-10T00:55:18Z" target="#P25086177">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U229392" when="2021-06-10T00:50:17Z" target="#P25086177">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U229392" when="2021-06-10T00:44:54Z" target="#P25086177">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U229392" when="2021-06-10T00:35:08Z" target="#P25086177">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U229392" when="2021-06-10T00:29:02Z" target="#P25086177">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U229392" when="2021-06-10T00:28:16Z" target="#P25086177">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U229392" when="2021-06-10T00:24:46Z" target="#P25086177">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U231087" when="2021-06-09T20:42:09Z" target="#P25086177">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U231087" when="2021-06-09T20:41:35Z" target="#P25086179">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U231087" when="2021-06-09T20:40:12Z" target="#P25086178">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U231087" when="2021-06-09T20:26:06Z" target="#P25086177">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25088834" when="2021-06-04T04:42:42Z" target="#P25086177">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2021-06-01T21:08:58Z" target="#P25086179">
+          Version 1 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-06-01T21:08:54Z" target="#P25086179">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-06-01T21:08:57Z" target="#P25086178">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-06-01T21:08:57Z" target="#P25086177">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-06-01T21:08:53Z" target="#P25086178">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-06-01T21:08:51Z" target="#P25086177">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25086177" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/7339/full/full/0/default.jpg"/>
+        <div xml:id="OTP25086177">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25086177P0' xml:id='OTP25086177P0'>[seal]
+</p>
+
+<p corresp='TTP25086177P1' xml:id='OTP25086177P1'><rs ref='#S25019590'>Camp Smith</rs> <date>Augt. 2<add place='above'>nd</add> 1862</date>
+</p>
+
+<p corresp='TTP25086177P2' xml:id='OTP25086177P2'>To His Excellency<lb/>
+<rs ref='#S63111'>J. J. Pettus</rs>
+</p>
+
+<p corresp='TTP25086177P3' xml:id='OTP25086177P3'>Some days since I wrote to you touching Capt. <rs ref='#S52663'>Tyler's</rs>  <rs ref='#S32118336'>Company of mounted Gun Men</rs>, raised under commission directly from yourself—
+</p>
+
+<p corresp='TTP25086177P4' xml:id='OTP25086177P4'>Soon thereafter, I received orders to march all <rs ref='#S96380'>the troops under my command</rs> to <rs ref='#S25009203'>Haynes Bluff</rs>, Capt Tylers' Company being included. I do not know that my letter was forwarded to you—
+</p>
+
+<p corresp='TTP25086177P5' xml:id='OTP25086177P5'>On 31<add place='above'><hi rend='underline'>st</hi></add> ult<add place='above'><hi rend='underline'>o</hi></add> I saw Gen<add place='above'>l</add> <rs ref='#S70568'>Van Dorn</rs> and tried to have defined the status of the <rs ref='#S98881'>conscripts</rs> in said company They deserve some consideration. The volunteered some months ago and have been in the field in active service two months. They are now at Haynes Bluff and Genl Van Dorn says he will retain them until there is no longer any necessity &amp; then removed them to a camp of instruction—
+</p>
+
+
+        </div>
+        <pb xml:id="F25086178" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/7340/full/full/0/default.jpg"/>
+        <div xml:id="OTP25086178">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25086178P0' xml:id='OTP25086178P0'>alledging that he has no power to interpose between them and the act of <rs ref='#S54079'>Congress</rs> &amp;c. I respectfully suggested to him that he was at that very moment doing what he said he had no power to do—
+</p>
+
+<p corresp='TTP25086178P1' xml:id='OTP25086178P1'>Now what I wish to ask of you is this, That you ask of the proper confederate authorities to permit you to retain in your service these men already serving their country before the order in regard to <rs ref='#S25004889'>con=scripts</rs> was published—men now in effect, serving the confederate states—men who would already be in confederate companies, had they not been induced (by the pressure of the <rs ref='#S71916'>enemy</rs> at their own doors) to join a <rs ref='#S77526'>company to defend their Homes</rs>, which company was organised by your direction &amp; as I understood under your especial direction.
+</p>
+
+<p corresp='TTP25086178P2' xml:id='OTP25086178P2'>I ask in Justice to these men that they be allowed to remain in their present organization—but if that be impossible, then when dismissed by Genl Van Dorn let them have some reasonable time to prepare ^for^ &amp; join a Company of their own choice—
+</p>
+
+<p corresp='TTP25086178P3' xml:id='OTP25086178P3'>I trust Governor you will find time to give this matter your immediate &amp; efficient attention These men have been under my command &amp; I find it my duty to urge their cause, when I am so well convinced of its justice
+</p>
+
+<p corresp='TTP25086178P4' xml:id='OTP25086178P4'>Very Resply<lb/>
+Yr obt svt
+</p>
+
+<p corresp='TTP25086178P5' xml:id='OTP25086178P5'><rs ref='#S25004576'>C. F. Hamer</rs><lb/>
+Lt Col <rs ref='#S25009928'>Y Bolt</rs>
+</p>
+
+
+        </div>
+        <pb xml:id="F25086179" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/7341/full/full/0/default.jpg"/>
+        <div xml:id="OTP25086179">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP25086179P0' xml:id='OTP25086179P0'>Aug. 2 1862<lb/>
+Camp Smith<lb/>
+Col Hamer at the Raft
+</p>
+
+<p corresp='TTP25086179P1' xml:id='OTP25086179P1'>To His Excellency<lb/>
+Gov Pettus<lb/>
+<rs ref='#S51785'>Jackson</rs><lb/>
+Miss<lb/>
+<hr/><lb/>
+Luit <rs ref='#S25010611'>Gaitley</rs> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

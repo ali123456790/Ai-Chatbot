@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Legal document from Mayor E. Wells; May 2, 1871</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 10 edits between
+              <date type="first_edit" when="2023-02-13T01:04:15Z">February 13, 2023</date> and
+              <date type="last_edit" when="2024-09-16T18:14:39Z">September 16, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2023-01-16T00:01:59Z">January 16, 2023</date> and
+              <date type="last_edit" when="2023-09-29T01:23:20Z">September 29, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-12-01T00:00:48Z">December  1, 2022</date> and
+              <date type="last_edit" when="2022-12-01T00:01:53Z">December  1, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-12-31T01:03:19Z">December 31, 2022</date> and
+              <date type="last_edit" when="2022-12-31T17:07:23Z">December 31, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-11-30T19:46:21Z">November 30, 2022</date> and
+              <date type="last_edit" when="2022-11-30T19:47:28Z">November 30, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T13:13:05Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-09-01T19:59:17Z">September  1, 2023</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U226410">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Bernard Murphy, Jr.</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T15:06:58+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32067393">
+              <persName>Edwards, G. C.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S101336">
+              <persName>Wells, E. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32067394">
+              <persName>Baccus, W. W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63164">
+              <placeName>Mississippi--Attala County. Kosciusko</placeName>
+                <idno>https://en.wikipedia.org/wiki/Kosciusko,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63164P0'>Located in Attala County, Kosciusko was located in 1834 under the name Paris and was renamed Kosciusko in 1839. Kosciusko serves as the county seat. (Wikipedia; Rowland, <hi rend='italic'>Mississippi</hi>, 1004; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.05806, -89.58833</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001328'>
+<catDesc>Commerce &amp; Trade</catDesc>
+          <category xml:id='S99790'>
+            <catDesc>
+              <term>Food, Grocery, &amp; Alcohol</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/grocery-store?q=grocery+%28store%29</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001328'>Commerce &amp; Trade</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99790P0'>"A store where food and small items for the house are sold." (Cambridge Dictionary) "A store that sells mainly alcoholic drinks to be taken away and drunk at home." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32069931'>
+            <catDesc>
+              <term>Food, Grocery, &amp; Alcohol--Beacham Store House (Kosciusko, Miss.)</term>
+              <idno>https://cwrgm.org/item/<id>mdah_786-973-04-05</id></idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001328'>Commerce &amp; Trade</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>33.05806, -89.58833</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32069931P0'>Located in Kosciusko, Mississippi, the Beacham Store House was a retailer in the 1870s. ("Legal document from Mayor E. Wells; May 2, 1871", Civil War and Reconstruction Governors of Mississippi, mdah_786-973-04-05)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32121869'>
+            <catDesc>
+              <term>Mercantile Agencies</term>
+              <idno>https://www.merriam-webster.com/dictionary/mercantile%20agency</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001328'>Commerce &amp; Trade</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32121869P0'>"The agency of a factor who in the customary course of his business has authority binding on his principal to buy or to sell goods, to consign goods for sale, or to raise money by pledging goods." (Merriam-Webster Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001334'>
+<catDesc>Services &amp; Entertainment Industries</catDesc>
+          <category xml:id='S32005097'>
+            <catDesc>
+              <term>Bars (Drinking establishments)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/bar?q=bars</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001334'>Services &amp; Entertainment Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32005097P0'>"A place where drinks, especially alcoholic drinks, are sold and drunk, or the area in such a place where the person serving the drinks stands." (Cambridge Dictionary))
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001686'>
+<catDesc>Labor &amp; Financial Events</catDesc>
+          <category xml:id='S32025512'>
+            <catDesc>
+              <term>Taxation</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/taxation?q=Taxation</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001686'>Labor &amp; Financial Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32025512P0'>"The process by which the government of a country obtains money from its people in order to pay for its expenses." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001681'>
+<catDesc>Political Occupations</catDesc>
+          <category xml:id='S63935'>
+            <catDesc>
+              <term>Mayors</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/mayor</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001681'>Political Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63935P0'>"A person who is elected or chosen to lead the government of a town or city." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001676'>
+<catDesc>Service &amp; Retail Occupations</catDesc>
+          <category xml:id='S32031022'>
+            <catDesc>
+              <term>Selling--Liquors</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/seller</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001676'>Service &amp; Retail Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32031022P0'>"A person who sells liquor." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Alcorn Series 786</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1871</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Baccus, W. W.; Wells, E.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1871-05-02</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Alcorn Collection. License issued by Mayor E. Wells of Kosciusko, Mississippi, authorizing G. C. Edwards to sell liquor at a store house in Kosciusko.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 12.5&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Kosciusko (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_786-973-04-05</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Attala County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>McKenna Fussell; Dalton Wood; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 973, Folder 4</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Alcohol; Alcorn, J. L. (James Lusk), 1816-1894; Licences; Mayors; Mississippi. Governor; Money--United States; Police; Sheriffs; Taxation</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Legal document from Mayor E. Wells; May 2, 1871</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/25425&quot;&gt;Legal document from Mayor E. Wells; May 2, 1871&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG25" who="U2" when="2024-10-25T13:13:05Z" target="#P32803886">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2024-09-16T18:14:39Z" target="#P32803886">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2024-09-16T18:11:10Z" target="#P32803886">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2024-07-04T17:22:53Z" target="#P32803886">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U25091195" when="2023-09-29T01:23:20Z" target="#P32803886">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-09-03T13:50:52Z" target="#P32803886">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25091356" when="2023-09-01T19:59:17Z" target="#P32803886">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-03-29T00:53:06Z" target="#P32803886">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-03-19T21:42:19Z" target="#P32803886">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-03-19T02:35:19Z" target="#P32803886">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-18T22:29:07Z" target="#P32803886">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-17T22:04:47Z" target="#P32803886">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-02-13T01:04:15Z" target="#P32803886">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091195" when="2023-01-16T00:04:19Z" target="#P32803887">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091195" when="2023-01-16T00:03:24Z" target="#P32803886">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091195" when="2023-01-16T00:01:59Z" target="#P32803886">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091253" when="2022-12-31T17:07:23Z" target="#P32803886">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091253" when="2022-12-31T01:03:47Z" target="#P32803887">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091253" when="2022-12-31T01:03:19Z" target="#P32803886">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U226410" when="2022-12-01T00:01:53Z" target="#P32803887">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U226410" when="2022-12-01T00:00:48Z" target="#P32803886">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U226410" when="2022-12-01T00:00:48Z" target="#P32803886">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2022-11-30T19:47:28Z" target="#P32803887">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U231087" when="2022-11-30T19:46:21Z" target="#P32803886">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-11-29T00:56:46Z" target="#P32803887">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-11-29T00:56:44Z" target="#P32803886">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32803886" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:25423/full/full/0/default.jpg"/>
+        <div xml:id="OTP32803886">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32803886P0' xml:id='OTP32803886P0'>Be It Known, that <rs ref='#S32067393'>G. C. Edwards</rs> a citizen of the Incorporation of the <rs ref='#S63164'>town of Kosciusko</rs>, having on the [gap] day of February 1871, filed his petition signed by a majority of the legal voters of said Incorporation asking a License to <rs ref='#S32031022'>retail vinous and spirituous Liquors</rs> in the town of Kosciusko in the <rs ref='#S32005097'>House</rs> Known as the <rs ref='#S32069931'>Beacham Store House</rs> and said petition having lay ons for more than thirty days and no counter petitions having been presented—and said G. C. Edwards having produced the receipt of the <rs ref='#S95578'>sheriff</rs> of Attala County for Two hundred dollars, being the amount prescribed as a <rs ref='#S32025512'>Tax</rs> for said <rs ref='#S32121869'>business</rs>, dated May 2<add place='above'><hi rend='underline'>nd</hi></add> 1871, and said Edwards having made a bond and taken the oath prescribed by law, It is ordered that said G. C. Edwards have and exercise the privilege of retailing for twelve months, in the Beacham House, to date from May 2<add place='above'><hi rend='underline'>nd</hi></add> 1871,
+</p>
+
+<p corresp='TTP32803886P1' xml:id='OTP32803886P1'>Given under the hand and seal of the <rs ref='#S63935'>Mayor</rs>—this 2<add place='above'>nd</add>,, day of May A. D. 1871.
+</p>
+
+<p corresp='TTP32803886P2' xml:id='OTP32803886P2'><rs ref='#S101336'>E M Wells</rs>. Mayor [image: seal]
+</p>
+
+<p corresp='TTP32803886P3' xml:id='OTP32803886P3'><hi rend='underline'><rs ref='#S32067394'>W. W. Baccus</rs> <rs ref='#S95466'>Secy</rs> Bd</hi> 
+</p>
+
+
+        </div>
+        <pb xml:id="F32803887" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:25424/full/full/0/default.jpg"/>
+        <div xml:id="OTP32803887">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32803887P0' xml:id='OTP32803887P0'>See Page 20
+</p>
+
+<p corresp='TTP32803887P1' xml:id='OTP32803887P1'>G. C. Edwards.<lb/>
+<del rend='overstrike'>Petition for Li</del><lb/>
+Licence,,
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

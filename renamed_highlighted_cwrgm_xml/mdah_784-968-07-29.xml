@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Detective James F. Cunningham to Mississippi Governor Adelbert Ames; July 23, 1869</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 13 edits between
+              <date type="first_edit" when="2022-05-10T16:12:46Z">May 10, 2022</date> and
+              <date type="last_edit" when="2024-02-07T20:09:09Z">February  7, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2022-03-27T19:46:46Z">March 27, 2022</date> and
+              <date type="last_edit" when="2023-03-31T03:20:51Z">March 31, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091235">
+          <persName
+            >
+            Amanda Patrick
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-03-04T19:26:31Z">March  4, 2022</date> and
+              <date type="last_edit" when="2022-03-04T19:30:25Z">March  4, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T14:44:02Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T16:03:56Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-12-05T21:19:50Z">December  5, 2021</date> and
+              <date type="last_edit" when="2021-12-05T21:22:00Z">December  5, 2021</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T16:22:26+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32023346">
+              <persName>Cunningham, James F.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32026960">
+              <persName>Pease, E. M. (Elisha Marshall), 1812-1883</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52648">
+              <persName>Ames, Adelbert, 1835-1933</persName>
+                <idno>https://en.wikipedia.org/wiki/Adelbert_Ames</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52648P0'>Adelbert Ames served as a governor and U.S. senator of Mississippi during the Reconstruction era.  He was born in East Thomaston (modern-day Rockland), Maine, in 1835. As a boy, Ames spent time working on various merchant vessels, receiving training in seamanship. He entered the United States Military Academy at West Point in 1856, graduating in May 1861, at the start of the Civil War. Commissioned as a second lieutenant, the young Ames was promoted to first lieutenant barely over a week later and served with the 5th U.S. Artillery during the battle of First Bull Run at Manassas, Virginia, on July 21, 1861. Despite being wounded in the leg, Ames stayed by his cannons. His actions at Bull Run led him to receive the brevet (honorary) rank of major and, in 1893 (more than thirty years later), the Medal of Honor.
+</p>
+
+<p xml:id='OTPS52648P1'>Ames recovered from his wound and returned to the front lines in 1862, serving with distinction as an artillery officer during the Peninsula Campaign near Richmond. Seeking better promotion potential, Ames sought an infantry command. Through those efforts, in August 1862, he received command of the 20th Maine Infantry Regiment, and led that unit in combat during the Battle of Fredericksburg in December 1862. In May 1863, he volunteered to serve as a staff officer for Major General George G. Meade, which helped him achieve the rank of brigadier general that month. With this promotion, Ames left the 20th Maine to his second-in-command, Lieutenant Colonel Joshua Lawrence Chamberlain, who gained great fame commanding the regiment at Little Round Top during the Battle of Gettysburg in July 1863. Ames’ own performance at Gettysburg was highly praised, as his division successfully defended the Union position at Cemetery Hill.
+</p>
+
+<p xml:id='OTPS52648P2'>After Gettysburg, Ames’ division was transferred to the Department of the South. Over the next two years, he commanded Union troops during campaigns in Florida, South Carolina, North Carolina, and Virginia. He received a brevet promotion to major general for his actions at Fort Fisher, North Carolina, in March 1865.
+</p>
+
+<p xml:id='OTPS52648P3'>After the Civil War, Ames became involved in federal Reconstruction efforts. In 1868, he was appointed the provisional governor of Mississippi. Ames proved sympathetic to the plight of African Americans in the south. He sought to protect Black civil rights and appointed Mississippi’s first African American public officials. In 1870, after Mississippi was readmitted into the Union, Ames ran for U.S. senator for the state as a Republican and won. He served in that capacity from February 1870 to January 1874, achieving the reputation as a strong public speaker. While serving as a senator in Washington, D.C., Ames met and married Blanche Butler, daughter of Union general Benjamin F. Butler, under whom Ames had served during the war. Ames and his wife had six children over the course of their marriage.
+</p>
+
+<p xml:id='OTPS52648P4'>In 1873, Ames ran for governor of Mississippi. His chief rival was James L. Alcorn, a former Confederate general who had been a Whig before the Civil War and joined the Republican Party afterwards. Ames won the election and worked diligently to improve Mississippi’s financial and social situation. In 1874, Democrats in Mississippi coordinated a campaign of violence against African Americans and white Republicans in the state, to secure political control in Mississippi. Unable to militarily suppress the white supremacist terror campaign, Ames signed a truce with Democratic leaders in Mississippi to reduce the violence and allow a peaceful election. Groups of white supremacists abandoned the truce and resumed their intimidation tactics against Republicans and Black Mississippians during the following elections, leading to a surge of Democratic politicians taking office.
+</p>
+
+<p xml:id='OTPS52648P5'>In 1876, the conservative Democrat majority in the Mississippi legislature tried to impeach Ames and many other Republican officials with trumped up charges of corruption. Despite a strong political force against him, Ames’ critics were unable to provide any evidence of impropriety. Nevertheless, because impeachment was politically driven, Ames could see that his future as governor was over and any effort on his part to legally defend himself would be personally and financially taxing. He and his attorneys reached an agreement with Democratic leaders to resign his office in exchange for dropping the legal charges. On March 29, 1876, after Democrats cancelled their legal proceedings, Ames vacated his position.
+</p>
+
+<p xml:id='OTPS52648P6'>Ames left Mississippi and went into business in Minnesota with his father and brother. A short time later, he relocated to New York City and then Massachusetts, overseeing mills and various business interests. When the Spanish-American War erupted in 1898, Ames volunteered for service and was appointed brigadier general of volunteers. Although over sixty years old, Ames joined the field campaign in Cuba and performed well.
+</p>
+
+<p xml:id='OTPS52648P7'>Ames resumed his business ventures in the early twentieth century. He lived until 1933, dying at age 97. He is buried in Lowell, Massachusetts.
+</p>
+
+<p xml:id='OTPS52648P8'>(Wikipedia)
+</p>
+
+<p xml:id='OTPS52648P9'>Adelbert Ames belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32023343">
+              <persName>Anderson, John</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32023344">
+              <persName>Moore, Solomon</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32026958">
+              <persName>Townes, Mrs. Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63018">
+              <placeName>Texas</placeName>
+                <idno>https://en.wikipedia.org/wiki/Republic_of_Texas</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63018P0'>The Republic of Texas was established on March 2, 1836. Admitted as the 28th state, Texas achieved statehood December 29, 1845. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.0, -100.0</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S63017">
+              <placeName>Louisiana--Orleans Parish. New Orleans</placeName>
+                <idno>https://en.wikipedia.org/wiki/New_Orleans</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63017P0'>Located in Orleans Parish, New Orleans was founded in 1718. It became the capital of French Louisiana in 1722 and continued as the capital when Louisiana achieved statehood on April 30, 1812. It became part of Orleans County (now extinct) on the same day. In 1849 it was replaced by Baton Rouge as the state capital, although it temporarily served as the capital again from 1865 until 1880. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>29.95, -90.08</geo>
+                </note>
+            </place>
+            <place xml:id="S63222">
+              <placeName>Mississippi--Yalobusha County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/yolabusha-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63222P0'>Located in north central Mississippi, Yalobusha County was established on December 23, 1833 from Monroe and Washington counties. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.03, -89.72</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001720'>
+<catDesc>Extraction, Manufacturing, &amp; Production</catDesc>
+          <category xml:id='S99399'>
+            <catDesc>
+              <term>Agricultural Production--Plantations</term>
+              <idno>https://en.wikipedia.org/wiki/Plantation_complexes_in_the_Southern_United_States#Overseer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001720'>Extraction, Manufacturing, &amp; Production</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99399P0'>Plantations are farms that typically grow cash crops, and often specialize in a single product, such as cotton, tobacco, or sugar cane. Plantation farming continues in various parts of the world in the twenty-first century, especially for crops like coffee beans, rubber trees, and cocoa. In American history the term plantation is most often associated with estates in the American south. Historical descriptions of plantations generate images of large farming operations. However, even moderately-sized southern farms that planted cash crops were sometimes referred to as plantations.
+</p>
+
+<p xml:id='OTPSD99399P1'>Southern plantations before the Civil War were strongly tied to the institution of slavery. As profit-driven agricultural operations, plantations required large numbers of laborers. This fed the demand for African slave importation to the British colonies in the seventeenth and eighteenth centuries, and bolstered the defense of slavery among southern planters in the nineteenth century. Plantation crops varied by region within the south, with rice being popular in Georgia and South Carolina along the Atlantic coast, tobacco being an early cash crop in Virginia, and then—after the invention of the cotton gin at the end of the eighteenth century which quickly separated seeds from the cotton fibers—the boom in cotton growing across the Deep South.
+</p>
+
+<p xml:id='OTPSD99399P2'>By 1860, there were approximately 46,200 plantations across the south. More than 20,000 had twenty to thirty slaves. Only about 2,300, or five percent, had one hundred or more slaves. The enslaved African Americans carried out most of the farming, construction, and domestic work. The plantations were their home. The same was not always true for the plantation owners. The very large operations frequently had wealthy absentee owners, who resided in cities or other states, leaving plantation supervision responsibilities to hired white overseers. Smaller plantation owners usually lived on their property, but almost always in separate buildings from the enslaved laborers. Slave cabins, or slave quarters, were a ubiquitous part of a plantation. They represented the heart of the laborers’ community on the property, but were usually of basic construction and few amenities.
+</p>
+
+<p xml:id='OTPSD99399P3'>Following the abolition of slavery after the Civil War, many freed people continued to live on plantations. Sharecropping became a popular arrangement between the landowners and the laborers. The property was often divided into plots with tenants assigned to certain sections. The system involved a contract or arrangement which allowed the laborer, or tenant, to keep a portion of the crop they raised. The system was abused, and developed a negative reputation for the level of poverty many sharecroppers (mostly Black, but some white) experienced on plantations in the late nineteenth and early twentieth centuries. Representatives of the Freedmen’s Bureau sought to protect Black sharecroppers by regulating contracts during Reconstruction, but the withdrawal of federal officials after 1876 left many African American tenants more subject to unfair sharecropping contracts on the old plantations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63926'>
+            <catDesc>
+              <term>Crimes (alleged)--Murder</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/murder?q=Murder</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63926P0'>"The crime of intentionally killing a person." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62954'>
+            <catDesc>
+              <term>Criminal Procedures--Arrest</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arrest?q=Arrest</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62954P0'>"The act of using legal authority to catch and take someone to a place where the person may be accused of a crime." (CD)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25022116'>
+            <catDesc>
+              <term>Law Enforcement--Detectives</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/detective?q=detectives</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25022116P0'>"Someone whose job is to discover information about crimes and find out who is responsible for them." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S77229'>
+            <catDesc>
+              <term>Law Enforcement--Police</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/police-officer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD77229P0'>"A member of the police force." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Ames Series 784</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Mississippi Digital Library.; Funding for the project provided by the National Historical Publications and Records Commission of the National Archives; Funding for this project provided by the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1869</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Cunningham, James F.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1869-07-23</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Ames Collection. Letter from Detective James F. Cunningham of the New Orleans, Louisiana, Metropolitan Police to Mississippi Governor Adelbert Ames, claiming knowledge of the whereabouts of fugitive John Anderson and offering to capture him given a travel pass and the posted reward plus expenses.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 5.5&quot; x 8.5&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi; New Orleans (La.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_784-968-07-29</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Dalton Wood; Michael Singleton; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 968, Folder 7</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Ames, Adelbert, 1835-1933; Detectives; Fugitives from justice; Mississippi. Governor; Murder; Plantations--Mississippi; Police; Rewards programs (Criminal investigation)</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Detective James F. Cunningham to Mississippi Governor Adelbert Ames; July 23, 1869</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/15705&quot;&gt;Letter from Detective James F. Cunningham to Mississippi Governor Adelbert Ames; July 23, 1869&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG24" who="U2" when="2024-10-25T16:03:56Z" target="#P32053790">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U2" when="2024-10-25T14:44:02Z" target="#P32053791">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2024-02-07T20:09:09Z" target="#P32053790">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2024-01-30T17:07:37Z" target="#P32053790">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-11-17T17:25:03Z" target="#P32053790">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-11-17T17:24:51Z" target="#P32053790">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091195" when="2023-03-31T03:20:51Z" target="#P32053790">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-03-19T14:50:47Z" target="#P32053791">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-03-19T02:36:16Z" target="#P32053790">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-18T21:49:36Z" target="#P32053791">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-18T15:24:27Z" target="#P32053790">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-18T01:46:56Z" target="#P32053790">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-03-06T03:53:42Z" target="#P32053790">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-03-04T21:46:00Z" target="#P32053791">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2022-12-04T01:46:32Z" target="#P32053790">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2022-05-10T16:12:46Z" target="#P32053790">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091195" when="2022-03-27T19:52:48Z" target="#P32053791">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091195" when="2022-03-27T19:52:31Z" target="#P32053791">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091195" when="2022-03-27T19:46:46Z" target="#P32053790">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25091235" when="2022-03-04T19:30:25Z" target="#P32053791">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25091235" when="2022-03-04T19:26:31Z" target="#P32053790">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2021-12-05T21:22:00Z" target="#P32053791">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U231087" when="2021-12-05T21:19:50Z" target="#P32053790">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2021-11-29T16:03:39Z" target="#P32053791">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-11-29T16:03:36Z" target="#P32053790">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32053790" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:15703/full/full/0/default.jpg"/>
+        <div xml:id="OTP32053790">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32053790P0' xml:id='OTP32053790P0'>A Aug 16 1869
+</p>
+
+<p corresp='TTP32053790P1' xml:id='OTP32053790P1'>Superintendent's Office,<lb/>
+<rs ref='#S77229'>METROPOLITAN POLICE</rs>.
+</p>
+
+<p corresp='TTP32053790P2' xml:id='OTP32053790P2'><hi rend='italic'><rs ref='#S63017'>New Orleans, La.</rs>,</hi> July 23<add place='above'><hi rend='underline'>rd</hi></add>,, <hi rend='italic'>18</hi>69.
+</p>
+
+<p corresp='TTP32053790P3' xml:id='OTP32053790P3'>Genl <rs ref='#S52648'>Ames</rs>,<lb/>
+Provisional Govenor Miss
+</p>
+
+<p corresp='TTP32053790P4' xml:id='OTP32053790P4'>General,
+</p>
+
+<p corresp='TTP32053790P5' xml:id='OTP32053790P5'>We received a printed—circular offering a reward of $200.<add place='above'><hi rend='underline'>00</hi></add>. for the <rs ref='#S62954'>arrest</rs> of <rs ref='#S32023343'>John Anderson</rs> &amp;c, <rs ref='#S63926'>Murderer</rs> of <rs ref='#S32023344'>Solomon Moore</rs>, committed on the <rs ref='#S99399'>Plantation</rs> of M<add place='above'><hi rend='underline'>rs</hi></add>,, <rs ref='#S32026958'>Towns</rs> <rs ref='#S63222'>Yalobusha County</rs> Miss May 15<add place='above'><hi rend='underline'>th</hi></add>,, 1869.
+</p>
+
+<p corresp='TTP32053790P6' xml:id='OTP32053790P6'>As I have traced up the present location 
+</p>
+
+
+        </div>
+        <pb xml:id="F32053791" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:15704/full/full/0/default.jpg"/>
+        <div xml:id="OTP32053791">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32053791P0' xml:id='OTP32053791P0'>of Anderson in the Northern part of <rs ref='#S63018'>Texas</rs> and would go for him but for the lacK of funds. However I will go for him and deliver him up to you at <rs ref='#S51785'>Jackson</rs> provided you Send me the necessary documents and a pass which I can travel on, The $200,,<add place='above'><hi rend='underline'>00</hi></add> Reward I would expect to get free of all expenses—without any deduction waiting the favor of your reply. I am Respectfully
+</p>
+
+<p corresp='TTP32053791P1' xml:id='OTP32053791P1'><rs ref='#S32023346'>James F. Cunningham</rs><lb/>
+<rs ref='#S25022116'>Detective</rs> at Supt.<lb/>
+Metropt Police office<hr/>
+</p>
+
+<p corresp='TTP32053791P2' xml:id='OTP32053791P2'>Send requisition to <rs ref='#S32026960'>Govenor of Texas</rs> through me J. J. C. 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

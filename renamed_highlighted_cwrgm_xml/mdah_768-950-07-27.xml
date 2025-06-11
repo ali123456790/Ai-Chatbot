@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from H. Vaughan, Jr., to W. R. Poindexter; March 30, 1865</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 17 edits between
+              <date type="first_edit" when="2022-11-28T01:35:44Z">November 28, 2022</date> and
+              <date type="last_edit" when="2024-09-16T18:10:55Z">September 16, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2022-11-09T22:07:23Z">November  9, 2022</date> and
+              <date type="last_edit" when="2023-09-02T21:22:50Z">September  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2022-11-06T20:20:27Z">November  6, 2022</date> and
+              <date type="last_edit" when="2022-11-06T20:28:52Z">November  6, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2022-10-31T20:55:11Z">October 31, 2022</date> and
+              <date type="last_edit" when="2022-10-31T20:59:07Z">October 31, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T13:20:42Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-09-29T00:54:55Z">September 29, 2023</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T19:11:33+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32055608">
+              <persName>Weavers, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32054969">
+              <persName>Poindexter, W. R.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32055598">
+              <persName>Osburn, Thomas O.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32055599">
+              <persName>Vaughan, H., Jr.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S52521">
+              <placeName>Mississippi--Yazoo County. Yazoo City</placeName>
+                <idno>https://en.wikipedia.org/wiki/Yazoo_City,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52521P0'>Located in Yazoo County, Mississippi, Yazoo City was founded as early as 1824 under the name Hannah's Bluff (or Hanan's Bluff). It was later renamed Manchester in 1830 and Yazoo City in 1838. In 1849, Yazoo City became the county seat and remains so today. (Rowland, <hi rend='italic'>Mississippi</hi>, 998; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.85639, -90.4075</geo>
+                </note>
+            </place>
+            <place xml:id="S104905">
+              <placeName>Mississippi--Yazoo County. Vaughan</placeName>
+                <idno>https://en.wikipedia.org/wiki/Vaughan,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS104905P0'>Located in Yazoo County, Mississippi, Vaughan was founded in 1830. Presently, Vaughan is an unincorporated area that is not governed by a local municipal body. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.8065, -90.0418</geo>
+                </note>
+            </place>
+            <place xml:id="S63365">
+              <placeName>Mississippi--Carroll County. Vaiden</placeName>
+                <idno>https://en.wikipedia.org/wiki/Vaiden,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63365P0'>Located in Carroll County, Vaiden was founded in 1857 and incorporated on February 10, 1860. Presently, Vaiden serves as one of two county seats along with Carrollton. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.33167, -89.74694</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001328'>
+<catDesc>Commerce &amp; Trade</catDesc>
+          <category xml:id='S32121869'>
+            <catDesc>
+              <term>Mercantile Agencies</term>
+              <idno>https://www.merriam-webster.com/dictionary/mercantile%20agency</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001328'>Commerce &amp; Trade</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32121869P0'>"The agency of a factor who in the customary course of his business has authority binding on his principal to buy or to sell goods, to consign goods for sale, or to raise money by pledging goods." (Merriam-Webster Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32055607'>
+            <catDesc>
+              <term>Mercantile Agencies--Jennings &amp; Devlin (Yazoo City, Miss.)</term>
+              <idno>https://chroniclingamerica.loc.gov/lccn/sn87065697/1854-03-31/ed-1/seq-3/#date1=1756&amp;index=1&amp;rows=20&amp;words=DEVLIN+JENNINGS&amp;searchType=basic&amp;sequence=0&amp;state=Mississippi&amp;date2=1880&amp;proxtext=Jennings+and+Devlin&amp;y=0&amp;x=0&amp;dateFilterType=yearRange&amp;page=1</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001328'>Commerce &amp; Trade</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.85639, -90.4075</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32055607P0'>Located in Yazoo City, Mississippi, Jennings &amp; Devlin was a general retail store operating in the 1850s and 1860s. (<hi rend='italic'>The Yazoo City Weekly Whig</hi>, March 31, 1854; <hi rend='italic'>Lexington Advertiser</hi>, October 23, 1868)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S99667'>
+            <catDesc>
+              <term>Crimes (alleged)--Destruction of Property</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/vandalism</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99667P0'>"The crime of intentionally damaging property belonging to other people." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S52712'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Raid</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/raid?q=Raid</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD52712P0'>"To attack a place suddenly." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S71916'>
+            <catDesc>
+              <term>United States. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71916P0'>The United States Army is the military land force of the United States of America. During the American Civil War it was also referred to as the Union Army, Federal Army, or Northern Army. Its primary military objective during the war was the restoration and preservation of the United States through the defeat of secessionist forces. The United States Army traces its roots to the Continental Army, created in 1775 during the American Revolution. Following American independence, the new United States severely reduced the size of the army due to distrust of permanent standing military forces. The small regular army generally handled military operations against Native Americans and for coastal defense. State authorities were expected to support the country’s military needs with their militias, or by raising volunteer units, temporarily activated for federal service.
+</p>
+
+<p xml:id='OTPSD71916P1'>At the outbreak of the Civil War, the United States regular army consisted of barely more than 16,000 soldiers, scattered across the country (primarily at coastal defenses and forts established in the territories) among ten infantry regiments, four artillery regiments, two cavalry regiments, two dragoon regiments, and one regiment of mounted rifles. Roughly 20% of the army’s officers and enlisted resigned their positions to fight for the Confederacy. After Southern troops attacked and captured Fort Sumter in South Carolina, President Abraham Lincoln called for 75,000 volunteers to expand the army and defeat the Confederates. The government continued to issue subsequent requests for volunteers as the war progressed. As with established practice, the states were to recruit the volunteers and provide them for federal service. Initial enlistments were for 90 days, but eventually enlistment terms were expanded, typically for three years. In total, more than 2,000,000 men served in the United States Army during the course of the Civil War. Of those, only around 60,000 were part of the regular army. The overwhelming majority were in state-based units. Most soldiers were volunteers, however the federal government began drafting men in 1862, as the army’s campaigns continued and volunteer numbers dwindled. In total, around 46,000 Union soldiers (about 5.5%) were draftees.
+</p>
+
+<p xml:id='OTPSD71916P2'>Approximately two-thirds of the soldiers in the United States Army during the Civil War were native-born white citizens. Around 100,000 were from states within the Confederacy. Immigrants made up about 25% of Union soldiers, with Germans and Irish immigrants being among the most prominent. The army also included soldiers of different ethnicities, including more than 3,000 Native American soldiers. In 1863, the Union army began formally accepting African American soldiers—in segregated units—and by the end of the war, around than 179,000 had served in the United States Army uniform.
+</p>
+
+<p xml:id='OTPSD71916P3'>When hostilities ended in June 1865, approximately 110,000 had been killed in combat or succumbed to wounds, more than 220,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001675'>
+<catDesc>Financial Occupations</catDesc>
+          <category xml:id='S89819'>
+            <catDesc>
+              <term>Commercial Agents</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/commercial-agent</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001675'>Financial Occupations</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD89819P0'>"A person who works for one or more companies finding business for them; a person whose job is to sell land and buildings which are used for business activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+<category xml:id='C32001719S89819'>
+<catDesc>
+<term><rs ref='S89819'>Commercial Agents</rs></term>
+</catDesc>
+</category>
+</category>
+<category xml:id='C32001676'>
+<catDesc>Service &amp; Retail Occupations</catDesc>
+          <category xml:id='S32031022'>
+            <catDesc>
+              <term>Selling--Liquors</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/seller</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001676'>Service &amp; Retail Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32031022P0'>"A person who sells liquor." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S62997'>
+            <catDesc>
+              <term>Mississippi--Treasury Department</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_State_Treasurer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD62997P0'>Operating at the state level, the Mississippi State Treasurer's office was created in 1817 in Jackson when the state was admitted to the Union. The State Legislature appointed the State Treasurer until 1832 when the Treasurer became popularly elected to serve a two-year term (changed to four years in 1869). The State Treasurer is responsible for overseeing and maintaining Mississippi's financial records. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Clark Series 768</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1865</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Vaughan, H., Jr.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1865-03-30</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Clark Collection. Letter from H. Vaughan, Jr., to W. R. Poindexter, concerning a barrel of whiskey allegedly lost during a United States Army operation in Vaughan&#39;s Station, Mississippi.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8.5&quot; x 7&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Vaiden (Miss.); Vaughan (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_768-950-07-27</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Carroll County (Miss.); Yazoo County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Michael Singleton; Dalton Wood; McKenna Fussell; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 950, Folder 7</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Alcohol; Clark, Charles, 1811-1877; Mississippi. Governor; Police; Sheriffs; United States. Army; United States--History--Civil War, 1861-1865--Destruction and pillage; Whiskey</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from H. Vaughan, Jr., to W. R. Poindexter; March 30, 1865</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/23129&quot;&gt;Letter from H. Vaughan, Jr., to W. R. Poindexter; March 30, 1865&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG33" who="U2" when="2024-10-25T13:20:42Z" target="#P32548713">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2024-09-16T18:10:55Z" target="#P32548714">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2024-01-30T17:22:55Z" target="#P32548713">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-11-17T18:09:45Z" target="#P32548713">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-11-17T17:06:32Z" target="#P32548713">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-11-02T04:09:22Z" target="#P32548713">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-11-02T03:33:18Z" target="#P32548713">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U25091195" when="2023-09-29T00:54:55Z" target="#P32548714">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U25091356" when="2023-09-02T21:22:50Z" target="#P32548714">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-09-02T20:06:07Z" target="#P32548713">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-04-04T23:52:09Z" target="#P32548715">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-19T18:54:50Z" target="#P32548714">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-19T02:35:33Z" target="#P32548713">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-03-18T22:47:27Z" target="#P32548713">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-03-18T22:46:38Z" target="#P32548713">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-03-18T15:20:38Z" target="#P32548714">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-03-18T15:17:46Z" target="#P32548715">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2022-12-04T16:50:09Z" target="#P32548713">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2022-11-28T01:36:05Z" target="#P32548714">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2022-11-28T01:35:44Z" target="#P32548713">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091356" when="2022-11-09T22:11:29Z" target="#P32548713">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091356" when="2022-11-09T22:09:17Z" target="#P32548715">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091356" when="2022-11-09T22:08:25Z" target="#P32548714">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091356" when="2022-11-09T22:07:23Z" target="#P32548713">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091253" when="2022-11-06T20:28:52Z" target="#P32548715">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091253" when="2022-11-06T20:28:12Z" target="#P32548714">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091253" when="2022-11-06T20:25:47Z" target="#P32548714">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091253" when="2022-11-06T20:20:27Z" target="#P32548713">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2022-10-31T20:59:07Z" target="#P32548715">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2022-10-31T20:58:18Z" target="#P32548714">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2022-10-31T20:55:11Z" target="#P32548713">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2022-09-13T14:28:27Z" target="#P32548715">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-09-13T14:28:19Z" target="#P32548714">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-09-13T14:28:12Z" target="#P32548713">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32548713" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:23126/full/full/0/default.jpg"/>
+        <div xml:id="OTP32548713">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32548713P0' xml:id='OTP32548713P0'>Mar 30<add place='above'>th</add> 1865
+</p>
+
+<p corresp='TTP32548713P1' xml:id='OTP32548713P1'><rs ref='#S32054969'>W. R. Poindexter</rs>
+</p>
+
+<p corresp='TTP32548713P2' xml:id='OTP32548713P2'>Dear sir
+</p>
+
+<p corresp='TTP32548713P3' xml:id='OTP32548713P3'>I received your letter of the twenty first, where you state there has been a mistake in my account. I have never received, but <hi rend='underline'>one</hi> <rs ref='#S32031022'>barrel of whisky</rs>, containing twenty five gallons; another barrel was sent to me, but fell into the hands of the <rs ref='#S71916'>enemy</rs> at <rs ref='#S104905'>Vaughan's Station</rs> and was <rs ref='#S99667'>destroyed</rs> before I ever saw it.
+</p>
+
+<p corresp='TTP32548713P4' xml:id='OTP32548713P4'>It was during <rs ref='#S32055598'>Osburns</rs> <rs ref='#S52712'>raid</rs>. I have sent to the <rs ref='#S89819'>agent</rs> at <rs ref='#S63365'>Vaiden</rs>, <hi rend='underline'>three times</hi> since then for whisky and failed to receive it. Each time I was at an expense of eighty dollars, for travelling expenses so you see that the state is indebted to me although I make no claim against it.
+</p>
+
+<p corresp='TTP32548713P5' xml:id='OTP32548713P5'>I reported the loss of the barrel to the agent at Vaiden and thought that would be all suffi-cient. If he had have done his duty the mistake never would have occured. I send you enclo-sed a letter from the <rs ref='#S95578'>sherf</rs> of the county which I hope will be satisfactory. Please acknowledge receipt of this.
+</p>
+
+<p corresp='TTP32548713P6' xml:id='OTP32548713P6'>Yours Respectfully
+</p>
+
+<p corresp='TTP32548713P7' xml:id='OTP32548713P7'><rs ref='#S32055599'>H. Vaughan Jr.</rs> 
+</p>
+
+
+        </div>
+        <pb xml:id="F32548714" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:23127/full/full/0/default.jpg"/>
+        <div xml:id="OTP32548714">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32548714P0' xml:id='OTP32548714P0'><rs ref='#S52521'>Yazoo City</rs>, [gap] 185[gap]
+</p>
+
+<p corresp='TTP32548714P1' xml:id='OTP32548714P1'><rs ref='#S32055607'>Jennings &amp; Devlin</rs>,
+</p>
+
+<p corresp='TTP32548714P2' xml:id='OTP32548714P2'>Bought of<lb/>
+BALE COTTON,
+</p>
+
+<p corresp='TTP32548714P3' xml:id='OTP32548714P3'>No.
+</p>
+
+<p corresp='TTP32548714P4' xml:id='OTP32548714P4'>I have received <rs ref='#S32055608'>Weavers</rs> receipt the <rs ref='#S62997'>state treasurer</rs> for $168
+</p>
+
+<p corresp='TTP32548714P5' xml:id='OTP32548714P5'>H Vaughan Jr
+</p>
+
+<p corresp='TTP32548714P6' xml:id='OTP32548714P6'><b>CHARGES.</b>
+</p>
+
+<p corresp='TTP32548714P7' xml:id='OTP32548714P7'><hi rend='italic'>Weighing<lb/>
+Damage<lb/>
+Light Bale</hi>
+</p>
+
+
+        </div>
+        <pb xml:id="F32548715" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:23128/full/full/0/default.jpg"/>
+        <div xml:id="OTP32548715">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32548715P0' xml:id='OTP32548715P0'>H. Vaughan
+</p>
+
+<p corresp='TTP32548715P1' xml:id='OTP32548715P1'>Dispenser for Yazoo co
+</p>
+
+<p corresp='TTP32548715P2' xml:id='OTP32548715P2'>Vouchers for Quarter ending 31<add place='above'>st</add> March 1865
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

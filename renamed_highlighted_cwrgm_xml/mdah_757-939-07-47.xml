@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from J. R. Eggleston and Charles W. Read to Mississippi Governor John J. Pettus; September 12, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 10 edits between
+              <date type="first_edit" when="2021-12-09T22:42:24Z">December  9, 2021</date> and
+              <date type="last_edit" when="2023-11-17T18:03:25Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25089434">
+          <persName
+            >
+            James M. Berry
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2021-06-07T15:33:22Z">June  7, 2021</date> and
+              <date type="last_edit" when="2021-06-07T22:04:30Z">June  7, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U215767">
+          <persName
+              type="pseudonym"
+            >
+            lucas.somers
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-06-09T19:33:50Z">June  9, 2021</date> and
+              <date type="last_edit" when="2021-06-09T19:38:33Z">June  9, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-03-31T02:56:40Z">March 31, 2023</date> and
+              <date type="last_edit" when="2023-03-31T02:58:39Z">March 31, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-05-21T20:41:11Z">May 21, 2021</date> and
+              <date type="last_edit" when="2021-05-21T20:43:15Z">May 21, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-08-30T22:19:10Z">August 30, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T14:59:49Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T20:01:17+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S100352">
+              <persName>Eggleston, J. R.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S75049">
+              <persName>Read, Charles W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63017">
+              <placeName>Louisiana--Orleans Parish. New Orleans</placeName>
+                <idno>https://en.wikipedia.org/wiki/New_Orleans</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63017P0'>Located in Orleans Parish, New Orleans was founded in 1718. It became the capital of French Louisiana in 1722 and continued as the capital when Louisiana achieved statehood on April 30, 1812. It became part of Orleans County (now extinct) on the same day. In 1849 it was replaced by Baton Rouge as the state capital, although it temporarily served as the capital again from 1865 until 1880. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>29.95, -90.08</geo>
+                </note>
+            </place>
+            <place xml:id="S25009366">
+              <placeName>Military Forts--Louisiana. Fort Jackson</placeName>
+                <idno>https://en.wikipedia.org/wiki/Fort_Jackson,_Louisiana</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001866">Military Locations</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS25009366P0'>Located in Plaquemines Parish on the Mississippi River, Fort Jackson was a Confederate fortification built in 1822. Fort Jackson came under Union control April 28, 1862. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>29.357, -89.4553</geo>
+                </note>
+            </place>
+            <place xml:id="S63425">
+              <placeName>Virginia</placeName>
+                <idno>https://www.britannica.com/place/Virginia-state</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63425P0'>The Colony of Virginia was established in May 1607. Admitted as the 10th state, Virginia achieved statehood June 25, 1788. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>38.0, -79.0</geo>
+                </note>
+            </place>
+            <place xml:id="S63062">
+              <placeName>Missouri</placeName>
+                <idno>https://www.britannica.com/place/Missouri-state</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63062P0'>The Territory of Missouri was established June 4, 1812. Admitted as the 24th state, Missouri achieved statehood August 10, 1821. (Britannica; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>38.5, -92.5</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S93394'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Blockade</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/blockade?q=Blockade</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD93394P0'>"The situation in which a country or place is surrounded by soldiers or ships to stop people or goods from going in or out." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70883'>
+            <catDesc>
+              <term>Confederate States of America. Navy</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Navy</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70883P0'>The Confederate Navy was the military naval force of the Confederate States of America during the American Civil War. It was established by the Confederate Congress on February 21, 1861, and was primarily responsible for protecting the Confederacy’s coastlines and harbors from federal attack and disrupting the United States Navy’s blockade of Southern ports. At its creation, the Confederate Navy had thirty ships, only fourteen of which were seaworthy. In contrast, the United States Navy had approximately ninety ships ready for service. Despite manufacturing limitations, the Confederate Navy eventually increased its size to slightly over one hundred ships and approximately 5,000 sailors. Still, it could not compete directly with the Union Navy, which enlarged to more than 650 ships and around 20,000 sailors.
+</p>
+
+<p xml:id='OTPSD70883P1'>Because of its smaller size, the Confederate Navy sought new and unconventional methods to challenge Union naval supremacy. This included inviting privateers—privately owned ships that engaged in warfare—to attack Union ships, particularly merchant vessels, for the Confederate cause. More famously, the Confederate Navy built ironclad vessels (wooden ships protected by iron plates) and the first submarine (named the <hi rend='italic'>Hunley</hi>) in an effort to defeat Union ships through technological innovation. These efforts did not change the trajectory of the war, though, due in part to the Confederacy’s inability to build these new ships in great number and by the Union Navy’s own development of ironclad warships.
+</p>
+
+<p xml:id='OTPSD70883P2'>Confederate Navy ships also performed blockade running operations and attacked Union vessels traversing the Atlantic to and from Europe. These efforts were intended to open avenues for Confederate merchant vessels to carry on foreign trade and to draw Union ships away from the Confederacy’s coast. However, efforts to overcome the Union blockade proved ineffective. Federal ships managed to reduce the South’s trade to only five percent of its pre-war levels.
+</p>
+
+<p xml:id='OTPSD70883P3'>The Confederate Navy was the last vestige of the Confederacy. It ceased to exist on November 6, 1865, with the surrender of the CSS <I>Shenandoah</I> in Liverpool, England. That event also marked the end of the Civil War. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S63977'>
+            <catDesc>
+              <term>United States. Navy</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Navy</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63977P0'>The United States Navy, also known as the Union Navy during the American Civil War, was primarily responsible for blockading the Confederacy’s coastlines and harbors, destroying Confederate ships, and supporting Union Army amphibious operations along the Atlantic and Gulf of Mexico shores, and river. At the beginning of the war, the Union Navy had ninety ships, far outmatching the Confederacy’s fourteen vessels. Through the North’s superior manufacturing capabilities and larger population, the Union Navy substantially increased its force to more than 650 ships and 20,000 sailors by the time the war ended. In comparison, the Confederate Navy barely surpassed one hundred ships and 5,000 sailors.
+</p>
+
+<p xml:id='OTPSD63977P1'>The Union Navy’s blockade of the Confederacy was very successful, cutting the South’s trade to only five percent of its pre-war numbers. In a vain effort to defeat the federal ships blocking their harbors, Confederate forces focused on innovative ship technology, such as ironclad vessels (wooden ships protected by iron plates) and the first operational submarine (named the Henley). Union officials managed to counter these efforts by developing their own ironclad ships, including the USS <I>Monitor</I>, a flat, iron-plated vessel with a rotating turret.
+</p>
+
+<p xml:id='OTPSD63977P2'>While the Union Navy did engage in a few notable sea battles (the fight between the USS <I>Monitor</I> and the Confederacy’s ironclad CSS <I>Virginia</I> being the most famous), most of its combat action involved supporting the Union Army’s ground operations along the Mississippi River, at Mobile Bay, and in places like Charleston, South Carolina, and Fort Fisher, North Carolina. Capturing ports and coastal fortifications not only reduced the strength of the Confederate military, but gave the Union Navy vital supply bases for its own operations around the South. The assaults upon the coastal positions involved more traditional naval warfare with cannonading by wooden ships; but the Navy developed the shallower draft ironclads for operations on the rivers and waterways. These steam-powered ships were more maneuverable than wooden sail ships, and were better protected against close-range artillery by Confederate river forts.
+</p>
+
+<p xml:id='OTPSD63977P3'>After the Civil War, the Union Navy—like the army—downsized to a number close to its pre-war number. However, the war had introduced key technological and doctrinal changes to sea and river warfare across the globe. At least for a short time, the Union Navy had been the most technologically advanced maritime force in the world. (Wikipedia; American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001343'>
+<catDesc>Educational Organizations</catDesc>
+          <category xml:id='S25005041'>
+            <catDesc>
+              <term>Military Education</term>
+              <idno>https://en.wikipedia.org/wiki/List_of_United_States_military_schools_and_academies</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001343'>Educational Organizations</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25005041P0'>Military schools are educational programs that incorporate military studies with traditional academic topics. They often emphasize engineering and technical studies. The school lifestyle and environment typically model the military; students are considered cadets, wear uniforms and conduct formation drills, and follow a military-style chain of command. These schools were largely a nineteenth century development in the United States, following the creation of the United States Military Academy at West Point, New York, during Thomas Jefferson’s presidential administration. While that academy, and the United States Naval Academy, founded in 1845, were federal institutions, most military schools were private or state-funded programs. Military service was not required for the graduates of state or private military programs, but alumni from such schools often sought commissions in the military. Additionally, during the Civil War, the Union and the Confederate armies relied heavily upon graduates of state and federal military academies to train and lead the large numbers of civilian soldiers. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+<category xml:id='C32001716S25005041'>
+<catDesc>
+<term><rs ref='S25005041'>Military Education</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Eggleston, J. R.; Read, Charles William, 1840-1890</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-09-12</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from J. R. Eggleston and Charles W. Read, officers on the CSS McRae, requesting permission to form an artillery battery.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 16&quot; x 10&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-939-07-47</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Amy Myers; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 939, Folder 7</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Confederate States of America. Navy; Confederate States of America. Navy--Officers; Confederate States of America. Navy--Ordnance and ordnance stores; Mississippi. Governor; Pettus, John Jones, 1813-1867; Read, Charles William, 1840-1890</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from J. R. Eggleston and Charles W. Read to Mississippi Governor John J. Pettus; September 12, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/7086&quot;&gt;Letter from J. R. Eggleston and Charles W. Read to Mississippi Governor John J. Pettus; September 12, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG31" who="U2" when="2024-10-25T14:59:49Z" target="#P25078211">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-11-17T18:03:25Z" target="#P25078211">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-11-06T21:19:32Z" target="#P25078211">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-11-02T03:13:14Z" target="#P25078212">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-09-02T20:09:22Z" target="#P25078211">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U25091356" when="2023-08-30T22:19:10Z" target="#P25078211">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U25091195" when="2023-03-31T02:58:39Z" target="#P25078212">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U25091195" when="2023-03-31T02:58:12Z" target="#P25078211">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U25091195" when="2023-03-31T02:56:40Z" target="#P25078211">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-18T22:06:02Z" target="#P25078211">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-18T19:11:11Z" target="#P25078211">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-03-18T00:14:57Z" target="#P25078212">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2022-12-04T15:29:26Z" target="#P25078211">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2021-12-10T22:59:15Z" target="#P25078211">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2021-12-09T22:42:24Z" target="#P25078211">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U215767" when="2021-06-09T19:38:33Z" target="#P25078212">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U215767" when="2021-06-09T19:35:39Z" target="#P25078212">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U215767" when="2021-06-09T19:33:50Z" target="#P25078211">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25089434" when="2021-06-07T22:04:30Z" target="#P25078212">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25089434" when="2021-06-07T16:05:27Z" target="#P25078212">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25089434" when="2021-06-07T15:39:03Z" target="#P25078212">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25089434" when="2021-06-07T15:38:28Z" target="#P25078212">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25089434" when="2021-06-07T15:38:10Z" target="#P25078212">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25089434" when="2021-06-07T15:34:42Z" target="#P25078211">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25089434" when="2021-06-07T15:34:04Z" target="#P25078211">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25089434" when="2021-06-07T15:33:22Z" target="#P25078211">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2021-05-21T20:43:15Z" target="#P25078212">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2021-05-21T20:41:11Z" target="#P25078211">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-05-14T20:38:10Z" target="#P25078212">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-05-14T20:38:00Z" target="#P25078212">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-05-14T20:38:09Z" target="#P25078211">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-05-14T20:37:54Z" target="#P25078211">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25078211" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/7084/full/full/0/default.jpg"/>
+        <div xml:id="OTP25078211">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25078211P0' xml:id='OTP25078211P0'>[seal]
+</p>
+
+<p corresp='TTP25078211P1' xml:id='OTP25078211P1'><rs ref='#S70883'>C, S,</rs> Steamship Mac Ree.<lb/>
+<rs ref='#S25009366'>Fort Jackson, La.</rs><lb/>
+Sept, 12th, 1861.
+</p>
+
+<p corresp='TTP25078211P2' xml:id='OTP25078211P2'>Sir,
+</p>
+
+<p corresp='TTP25078211P3' xml:id='OTP25078211P3'>We the undersigned, citizens of Mississippi, being <hi rend='underline'>extremely</hi> anx-ious to get to the seat of war in <rs ref='#S63425'>Vir-ginia</rs> or <rs ref='#S63062'>Missouri</rs>, (since we have been disappointed, so far, in not getting to sea, on account of the vastly supe-rior force of the <rs ref='#S63977'>enemy's</rs> <rs ref='#S93394'>blockading</rs> squdron, and the inefficiency of this ves-sels machinery,) respectfully request of you permission to organize an ar-tillery company under your auspices; taking a portion of the field pieces now at <rs ref='#S51785'>Jackson</rs>,
+</p>
+
+<p corresp='TTP25078211P4' xml:id='OTP25078211P4'>We choose artillery because we think the guns are at your disposal; because Mississippi has furnished but little of that arm; and because 
+</p>
+
+
+        </div>
+        <pb xml:id="F25078212" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/7085/full/full/0/default.jpg"/>
+        <div xml:id="OTP25078212">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25078212P0' xml:id='OTP25078212P0'>from our professional <rs ref='#S25005041'>education</rs> we feel our selves peculiarly adapted to that species of land service.
+</p>
+
+<p corresp='TTP25078212P1' xml:id='OTP25078212P1'>Please give us an early answer; addressed to one of us, C. S. S, MacRee, <rs ref='#S63017'>New Orleans, La,</rs>
+</p>
+
+<p corresp='TTP25078212P2' xml:id='OTP25078212P2'>We have the honor to be<lb/>
+Respectfully<lb/>
+Your Obt. Servts,
+</p>
+
+<p corresp='TTP25078212P3' xml:id='OTP25078212P3'><rs ref='#S100352'>J, R. Eggleston</rs>, Lt, C. S. N,<lb/>
+<rs ref='#S75049'>C. W. Read</rs>, Mid<add place='above'>n</add> C S N.
+</p>
+
+<p corresp='TTP25078212P4' xml:id='OTP25078212P4'>Sept 12<add place='above'>th</add> 1861<lb/>
+J R Eggleston<lb/>
+C W Read
+</p>
+
+<p corresp='TTP25078212P5' xml:id='OTP25078212P5'>Reference to artillery service
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

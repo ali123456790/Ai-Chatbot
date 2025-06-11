@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from W. E. Hunt to Mississippi Governor John M. Stone; February 1, 1877</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2024-07-31T15:39:27Z">July 31, 2024</date> and
+              <date type="last_edit" when="2024-07-31T19:45:58Z">July 31, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T13:31:53Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T16:08:16Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U112030">
+          <persName
+            >
+            sfemet
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-07-30T19:27:14Z">July 30, 2024</date> and
+              <date type="last_edit" when="2024-07-30T19:29:07Z">July 30, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32029872">
+          <persName
+            >
+            Ruth Poe White, PH.D.
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2025-01-27T17:28:01Z">January 27, 2025</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32011493">
+          <persName
+            >
+            Amiracle Funches
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-09-15T01:37:35Z">September 15, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:01:28+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32100941">
+              <persName>Falconer, Kinloch, 1838-1878</persName>
+                <idno>https://en.wikipedia.org/wiki/Kinloch_Falconer</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32100941P0'>Kinloch Falconer was active in Democratic politics in Mississippi during Reconstruction and served as Mississippi’s secretary of state in 1878.
+</p>
+
+<p xml:id='OTPS32100941P1'>Born on October 28, 1838, Falconer grew up in Holly Springs, Mississippi. As a young man he worked at the <hi rend='italic'>Southern Herald</hi> (his father’s newspaper) and attended the University of Mississippi, graduating in 1860 on the eve of the Civil War. When the war broke out, Falconer enlisted in the 9th Mississippi Infantry Regiment. Recognized for his intelligence and writing ability, Falconer was soon promoted and moved to administrative and staff work, first serving as the private secretary and then adjutant general for Confederate General Braxton Bragg. Later he served as a staff officer for Confederate General Joseph E. Johnston during the Atlanta Campaign in the summer of 1864.
+</p>
+
+<p xml:id='OTPS32100941P2'>After the defeat of the Confederacy, Falconer returned to Mississippi and reentered the newspaper business, becoming editor of the <hi rend='italic'>Holly Springs Reporter</hi>. He began fostering an interest state politics and unsuccessfully ran for lieutenant governor as a Democrat under Benjamin G. Humphreys in 1868. In 1870, Falconer stepped away from editorial duties at the <hi rend='italic'>Reporter</hi> to practice law full time. He continued participating in Democratic politics and in 1877 was elected secretary of state. He entered that office in January 1878. However, only a few months later, a yellow fever epidemic struck parts of Mississippi. Falconer’s brother and father were stricken by the mosquito-borne disease. He went to Holly Springs to aid in their care, but both men died. Falconer himself then came down with the disease and died on September 23, 1878. He is buried in Hill Crest Cemetery in Holly Springs, Mississippi.
+</p>
+
+<p xml:id='OTPS32100941P3'>(<hi rend='italic'>The Daily Clarion</hi>, Meridian, MS, June 22, 1864; <hi rend='italic'>The Grenada Sentinel</hi>, Grenada, MS, May 16, 1868; <hi rend='italic'>The Clarion</hi>, Jackson, MS, February 3, 1870; <hi rend='italic'>The. Clarion-Ledger</hi>, Jackson, MS, November 6, 1878; Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS32100941P4'>Kinloch Falconer belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32100581">
+              <persName>Hunt, W. E. (William E.), 1840-1915</persName>
+                <idno>https://www.findagrave.com/memorial/31878595/william-e-hunt</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32100581P0'>William E. Hunt was a Confederate officer, planter, Sheriff of Washington County, and U.S. Consul to China during President Grover Cleveland's administration (1885-1889 and 1893-1897).
+</p>
+
+<p xml:id='OTPS32100581P1'>Born on April 23, 1840 in Frankfort, Kentucky, Hunt enlisted into the Confederate Army on March 9, 1862. He was promoted to the rank of Captain of Company D of the Twenth-Eighth Mississippi Cavalry and was discharged on May 22, 1865 after the Confederate Army surrendered. From 1876 to 1903, he served multiple terms as Sheriff of Washington County, Mississippi, and he served as the U.S. Consul to China during President Cleveland's administration. He also owned two plantations in Mississippi, La Grange Plantation and Montrose Plantation.
+</p>
+
+<p xml:id='OTPS32100581P2'>Hunt was married to Maria (Crittenden) Hunt, who preceded him in death in 1909. The pair had six children, including four girls and two boys. William E. Hunt died on February 18, 1915 in Greenville, Mississippi. He was buried in the Greenville Cemetery.
+</p>
+
+<p xml:id='OTPS32100581P3'>(FindaGrave; <hi rend='italic'>The Weekly Democrat Times</hi>, January 29, 1876; <hi rend='italic'>The Weekly Democrat Times</hi>, October 10, 1903)
+</p>
+
+<p xml:id='OTPS32100581P4'>William E> Hunt belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S74795">
+              <persName>Stone, John Marshall, 1830-1900</persName>
+                <idno>https://en.wikipedia.org/wiki/John_Marshall_Stone</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS74795P0'>John Marshall Stone served as governor of Mississippi two separate times, from 1876 to 1882 and from 1890 to 1896.
+</p>
+
+<p xml:id='OTPS74795P1'>Born in Milan, Tennessee, on March 29, 1876, Stone grew up mostly in poverty but worked for his education and eventually became a school teacher. He moved to Mississippi in the mid-1850s and found work as a railroad station agent at Iuka, Mississippi. When the Civil War broke out in 1861, Stone joined the Confederate army. He was placed in command of Company K of the 2nd Mississippi Infantry Regiment. Proving capable in battle during campaigns in Virginia, he was promoted in 1862 to colonel of the regiment and received high praise from his superiors during the rest of the war. Stone led his regiment until near the end of the war, when he was captured in North Carolina and sent to Ohio as a prisoner.
+</p>
+
+<p xml:id='OTPS74795P2'>Upon his release after the Civil War, Stone returned to Mississippi and resumed his work with the Mississippi and Ohio Railroad at Iuka. He married Mary G. Coman in 1872 and had two children, both of whom died before adulthood. Stone and his wife also adopted and raised three of his nephews.
+</p>
+
+<p xml:id='OTPS74795P3'>He entered politics in 1869, winning election to the Mississippi state senate as a Democrat. In 1873 and 1874, Democrats in Mississippi gained majority power following campaigns of voter intimidation and violence against African Americans and Republicans. Stone worked his way to president pro tempore of the Senate during this period. In 1876, the Democrat majority in the state legislature carried out an impeachment campaign against top Republican officials, including Governor Adelbert Ames and Lieutenant Governor Alexander K. Davis. When Davis was impeached and Ames was forced to resign to avoid a costly lawsuit against politically-driven impeachment charges, Stone became next in line for governor. He was sworn into office in March 1876.
+</p>
+
+<p xml:id='OTPS74795P4'>Stone served as acting-governor for a year and a half and then won the gubernatorial election in 1877, running as the sole candidate. He lost reelection in 1881 to Robert Lowry, but retained his interest in the governor’s office and ran again—and won—in 1889.  Mississippi adopted a new constitution in 1890, which in part extended Stone’s gubernatorial term until 1896 to aid the transition of new policies. The new constitution prohibited successive gubernatorial terms. Thus, Stone could not run for immediate reelection. Upon leaving office, he received an appointment as president of the Mississippi Agricultural and Mechanical College (now Mississippi State University) in Starkville. He died in 1900 and is buried at Oak Grove Cemetery in Iuka, Mississippi.
+</p>
+
+<p xml:id='OTPS74795P5'>(Wikipedia; Dan Sansing, “John Marshall Stone: Thirty-first and Thirty-third Governor of Mississippi: 1876-1882; 1890–1896,” Mississippi History Now)
+</p>
+
+<p xml:id='OTPS74795P6'>John Marshall Stone belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32156154">
+              <persName>Beal, Harry</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32156155">
+              <persName>Helen, G. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S62919">
+              <placeName>Mississippi--Washington County. Greenville</placeName>
+                <idno>https://en.wikipedia.org/wiki/Greenville,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS62919P0'>Currently located in Washington County, Greenville was founded in 1824 in what was then Yazoo County. Washington County was created on January 29, 1827, and in 1844, Greenville became its county seat. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.3997, -91.0377</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S63021">
+              <placeName>Arkansas</placeName>
+                <idno>https://en.wikipedia.org/wiki/Arkansas</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63021P0'>The Territory of Arkansa was established on July 4, 1819. Admitted as the 25th state, Arkansas achieved statehood June 15, 1836. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.8, -92.9</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S91669'>
+            <catDesc>
+              <term>Crimes (alleged)--Arson</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD91669P0'>"The crime of intentionally starting a fire in order to damage or destroy something, especially a building." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32022539'>
+            <catDesc>
+              <term>Crimes (alleged)--Burglary</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/burglary?q=Burglary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32022539P0'>"The crime of illegally entering a building and stealing things." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32061378'>
+            <catDesc>
+              <term>Crimes (alleged)--Jail Escapes</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32061378P0'>"To become free or get free from, or to avoid something," especially to escape from custody. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63926'>
+            <catDesc>
+              <term>Crimes (alleged)--Murder</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/murder?q=Murder</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63926P0'>"The crime of intentionally killing a person." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62954'>
+            <catDesc>
+              <term>Criminal Procedures--Arrest</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arrest?q=Arrest</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62954P0'>"The act of using legal authority to catch and take someone to a place where the person may be accused of a crime." (CD)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32031715'>
+            <catDesc>
+              <term>Criminal Procedures--Extradition</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/extradition?q=Extradition</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32031715P0'>"The act of making someone return for trial to another country or state where he or she has been accused of doing something illegal." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S69535'>
+            <catDesc>
+              <term>Criminal Procedures--Imprisonment</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/imprisonment?q=Imprisonment</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD69535P0'>"The act of putting someone in prison or the condition of being kept in prison." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95194'>
+            <catDesc>
+              <term>Criminal Procedures--Indictments</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/indictment?q=Indictments</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95194P0'>"The act of formally accusing someone of a serious crime." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S57096'>
+            <catDesc>
+              <term>African Americans--Historically Free and Newly Freed</term>
+              <idno>https://mississippiencyclopedia.org/entries/free-blacks-in-antebellum-mississippi/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD57096P0'>Historically free African Americans included people who were both African American and lived as and/or were legally free before the American Civil War. They may or may not have previously been enslaved. In recognition of African American military service during the Revolutionary War, a number of states moved to gradually abolish slavery leading to a growing body of free African Americans.
+</p>
+
+<p xml:id='OTPSD57096P1'>Freedom, however, did not mean citizenship, and despite efforts by free Black activists to settle this question and affirm their citizenship, it was largely left to state lawmakers who otherwise failed to settle the question. Consequently, during the Antebellum era, each southern state passed different laws governing the place and rights of free African Americans. Home to the nation's largest free African American community, for example, Baltimore, Maryland registered 25,000 free Black residents by 1850. (Martha S. Jones, <hi rend='italic'>Birthright Citizens: A History of Race and Rights in Antebellum America</hi>, p. 13)
+</p>
+
+<p xml:id='OTPSD57096P2'>In another example, South Carolina's Act of 1820 distinguished between those freed before and after 1820, and classified free African Americans as "denizens," which limited citizenship rights by a series of Black Codes. In response to rebellions, numerous states passed legal restrictions that made manumission virtually impossible by the mid-nineteenth century. Loved ones who purchased family members were forced to legally hold them in bondage, leading to a body of people who "were free by practice, but not by law." (Amrita Chakrabarti Myers, <hi rend='italic'>Forging Freedom</hi>, 3–4, 207)
+</p>
+
+<p xml:id='OTPSD57096P3'>Unlike South Carolina, Mississippi's judiciary ruled that “free negroes . . . are to be regarded as alien enemies or strangers prohibited, and without the pale of comity, and incapable of acquiring or maintaining property in this State which will be recognized by our courts.” (<hi rend='italic'>Heirn v. Bridault</hi>, 37 Miss. 209, 224–25, 1859 in Jones, <hi rend='italic'>Birthright Citizens</hi>, p. 213) The state's strict provisions on manumission led to an extremely small population of free African Americans (773 people by 1860) during the antebellum era ("Free Blacks in Antebellum Mississippi," Mississippi Encyclopedia)
+</p>
+
+<p xml:id='OTPSD57096P4'>Newly freed African Americans includes people who were enslaved but became free by the passage of the Emancipation Proclamation and/or the Thirteenth Amendment. While neither was comprehensive, the Emancipation Proclamation of 1863 freed the enslaved in territories under rebellion, and later the Thirteenth Amendment of 1865 abolished slavery altogether, except when used as a punishment for those who committed a crime and did not apply to Native Nations who practices slavery. (American Battlefield Trust; Wikipedia) In the CWRGM collection, African Americans after December 6, 1865 are classified as historically free or newly freed.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+<category xml:id='C32001674S57096'>
+<catDesc>
+<term><rs ref='S57096'>African Americans--Historically Free and Newly Freed</rs></term>
+</catDesc>
+</category>
+          <category xml:id='S63177'>
+            <catDesc>
+              <term>Fugitives from Justice</term>
+              <idno>https://en.wikipedia.org/wiki/Fugitive</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63177P0'>The term "fugitive from justice" is defined broadly and covers a multiplicity of experiences under U.S. law, but refers most often to "a person who is fleeing from custody, whether it be from jail, a government arrest, government or non-government questioning, vigilante violence, or outraged private individuals" (Wikipedia). Slightly different than the above definition, a fugitive from justice may also be defined as "a person formally charged with a crime or a convicted criminal whose punishment has not yet been determined or fully served who is currently beyond the custody or control" of the party, be it local, national, or international, interested in their arrest (Wikipedia). In the nineteenth-century United States, fugitive status varied widely based on race. Many white people considered "fugitives from justice" were most often the latter definition, being those charged with or convicted of crimes who then fled across other state lines to try and evade punishment or trial. However, throughout American history up to Emancipation, fugitive status was given to escaped enslaved African Americans under the Fugitive Slave Laws of 1793 and later 1850. These laws also required anyone in the nation to apprehend self-emancipated enslaved people and return them to their owners. The term "fugitives from justice" therefore became another legal mechanism by which enslavers sought to control the movements and freedoms of the enslaved, while contributing heavily to the increasing sectionalism that would lead to the American Civil War (Britannica). To learn more about enslaved people who emancipations themselves and were labeled fugitives, see the "Emancipation and self-emancipation" subject tag under Events.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001666'>
+<catDesc>Races, Ethnicities, &amp; Nationalities</catDesc>
+          <category xml:id='S62968'>
+            <catDesc>
+              <term>African Americans</term>
+              <idno>https://en.wikipedia.org/wiki/African_Americans</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62968P0'>The Cambridge Dictionary classifies "a person who lives in the U.S. and is a member of a race of people with dark skin that originally came from Africa" as African American, but both the nineteenth-century and modern constructions are more complex (Cambridge Dictionary). Common nineteenth-century racial categories such as "mulatto" referred to persons with both white and black ancestry, and the experiences of mixed-race persons varied based on complexion, degree of African ancestry, and the region in which they lived. In antebellum cities with large populations of free Blacks, the degree of one's African ancestry could determine what rights one possessed or did not possess, and people with lighter skin tones were often considered to be white; this ended under "one drop rule" during the Jim Crow system.
+</p>
+
+<p xml:id='OTPSD62968P1'>Like skin tone, the ethnicity implied by the term "African American" is also problematically broad, as "naming people only by the continent of their origin and ignoring their ethnic identity is a consequence of time and space" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 5). The experience of slavery complicated the term by attempting to strip people of their original distinct African ethnic identities such as Ibo or Ndongan, classifying all persons of African descent together under one term, infusing that term with negative connotation, and disregarding the complex and rich linguistic, cultural, and ethnic histories of varied African people. However, many Black Americans have reclaimed the term "African American" and infused it with positive connotations. One scholar argues that "in using the term 'African Americans,' Black Americans accent the part of their heritage that is not American" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 4).
+</p>
+
+<p xml:id='OTPSD62968P2'>CWRGM — acknowledging the multiplicity of the term's meanings and connotations — includes multiracial and multiethnic people of African descent under the "African Americans" social identifiers subject tag to reflect the diversity of the African American experience and to ensure that the experiences of African Americans of mixed races and ethnicities are discoverable as they are rarely distinguished further in the letters. In the absence of other references, CWRGM also tags racial slurs targeted at African Americans — which were common in nineteenth century documents with white authors — under the "African Americans" tag. CWRGM recognizes the historic and present harm caused by such language and does not condone its use but tags these terms only to ensure the rich history of African Americans are discoverable within the collection.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001666S57096'>
+<catDesc>
+<term><rs ref='S57096'>African Americans--Historically Free and Newly Freed</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Stone Series 807</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Endowment for the Humanities; Funding for this project provided by the College of Arts and Sciences at the University of Southern Mississippi.; Funding for this project provided by the National Historical Publications and Records Commission; Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1877</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Hunt, W. E.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1877-02-01</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Stone Collection. Letter from W. E. Hunt to Mississippi Governor John M. Stone, requesting requisition for arrest of Henry Beal.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 9.0&quot; x 11.0&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Greenville (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_807-1008-08-01</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Washington County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Leela Lavanya Battula; Dalton Wood; Britany Castilaw; McKenna Fussell</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 1008, Folder 08</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Arrest; Fugitives from justice; Mississippi. Governor; Sheriffs; Stone, John Marshall, 1830-1900</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from W. E. Hunt to Mississippi Governor John M. Stone; February 1, 1877</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/41500&quot;&gt;Letter from W. E. Hunt to Mississippi Governor John M. Stone; February 1, 1877&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG13" who="U32029872" when="2025-01-27T17:28:01Z" target="#P34049541">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U2" when="2024-10-25T16:08:16Z" target="#P34049542">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U2" when="2024-10-25T13:31:53Z" target="#P34049541">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U32011493" when="2024-09-15T01:37:35Z" target="#P34049541">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091195" when="2024-07-31T19:45:58Z" target="#P34049542">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091195" when="2024-07-31T15:47:41Z" target="#P34049542">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091195" when="2024-07-31T15:47:08Z" target="#P34049542">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091195" when="2024-07-31T15:41:21Z" target="#P34049541">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25091195" when="2024-07-31T15:40:15Z" target="#P34049541">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25091195" when="2024-07-31T15:39:27Z" target="#P34049541">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U112030" when="2024-07-30T19:29:07Z" target="#P34049542">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U112030" when="2024-07-30T19:27:14Z" target="#P34049541">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2024-04-23T18:31:39Z" target="#P34049542">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2024-04-23T18:31:37Z" target="#P34049541">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F34049541" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:41498/full/full/0/default.jpg"/>
+        <div xml:id="OTP34049541">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP34049541P0' xml:id='OTP34049541P0'>[note] 2/1/77 [/note]
+</p>
+
+<p corresp='TTP34049541P1' xml:id='OTP34049541P1'><b>O</b>ffice of <rs ref='#S32100581'>W. E. HUNT</rs><lb/>
+<hr/>
+</p>
+
+<p corresp='TTP34049541P2' xml:id='OTP34049541P2'><b><rs ref='#S95578'>Sheriff</rs> of Washington County, Mississippi.</b>
+</p>
+
+<p corresp='TTP34049541P3' xml:id='OTP34049541P3'><hi rend='italic'><rs ref='#S62919'>Greenville, Miss</rs></hi> [gap] <hi rend='italic'>187</hi>
+</p>
+
+<p corresp='TTP34049541P4' xml:id='OTP34049541P4'>To his Excellency<lb/>
+Gov <rs ref='#S74795'>Stone</rs><lb/>
+<rs ref='#S51785'>Jackson, Miss</rs>
+</p>
+
+<p corresp='TTP34049541P5' xml:id='OTP34049541P5'>Dear Sir,
+</p>
+
+<p corresp='TTP34049541P6' xml:id='OTP34049541P6'>Having just learned that one <rs ref='#S32156154'>Harry Beal</rs> (<rs ref='#S57096'>col</rs>) <rs ref='#S32061378'>escaped</rs> from <rs ref='#S69535'>my custody</rs> some two months since and who was under <rs ref='#S95194'>indictment</rs> for <rs ref='#S63926'>Murder</rs> <rs ref='#S32022539'>Burglary</rs> and <rs ref='#S91669'>Arson</rs> is now in the <rs ref='#S63021'>State of Arkansas</rs>. Ask that I be furnished with a requisition <rs ref='#S32031715'>that I may have him here</rs> by April term of court. I am Governor
+</p>
+
+<p corresp='TTP34049541P7' xml:id='OTP34049541P7'>Very respectfully<lb/>
+Your Obedient Servt.
+</p>
+
+<p corresp='TTP34049541P8' xml:id='OTP34049541P8'>W E Hunt Sheriff<lb/>
+of Washington County<lb/>
+By <rs ref='#S32156155'>G M Helen</rs> D<add place='above'>s</add>. 
+</p>
+
+
+        </div>
+        <pb xml:id="F34049542" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:41499/full/full/0/default.jpg"/>
+        <div xml:id="OTP34049542">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP34049542P0' xml:id='OTP34049542P0'><hr/>
+</p>
+
+<p corresp='TTP34049542P1' xml:id='OTP34049542P1'><b><rs ref='#S25026074'>EXECUTIVE OFFICE,<lb/>
+STATE OF MISSISSIPPI</rs>,</b>
+</p>
+
+<p corresp='TTP34049542P2' xml:id='OTP34049542P2'>Washington <b>County,</b><lb/>
+<hr/>
+</p>
+
+<p corresp='TTP34049542P3' xml:id='OTP34049542P3'><hi rend='italic'>From</hi> W. E. Hunt, Shff<lb/>
+<hi rend='italic'>Address</hi> Greenville, Miss.<lb/>
+<hi rend='italic'>Dated</hi> Without Date<lb/>
+<hi rend='italic'>Received</hi> February 1, 1877<lb/>
+<hi rend='italic'>Answered</hi>  " 2, "<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP34049542P4' xml:id='OTP34049542P4'><hi rend='italic'>SUBJECT.</hi>
+</p>
+
+<p corresp='TTP34049542P5' xml:id='OTP34049542P5'>Desires Requistion for <rs ref='#S62954'>arrest</rs> of <rs ref='#S63177'>Henry Beal</rs>.<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP34049542P6' xml:id='OTP34049542P6'><b>(Inclosures</b> [gap] <b>)</b><lb/>
+<hr/>
+</p>
+
+<p corresp='TTP34049542P7' xml:id='OTP34049542P7'><b>J. M. STONE,</b><lb/>
+<hi rend='italic'>Governor.</hi>
+</p>
+
+<p corresp='TTP34049542P8' xml:id='OTP34049542P8'><b><rs ref='#S32100941'>KINLOCH FALCONER</rs>,</b><lb/>
+<hi rend='italic'><rs ref='#S95466'>Private Secretary</rs>.</hi><lb/>
+<hr/> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

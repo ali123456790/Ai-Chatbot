@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Colonel N. A. M. Dudley to Louisiana Governor Henry C. Warmoth; January 7, 1869</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 48 edits between
+              <date type="first_edit" when="2022-05-03T17:29:22Z">May  3, 2022</date> and
+              <date type="last_edit" when="2024-02-07T20:07:59Z">February  7, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 11 edits between
+              <date type="first_edit" when="2022-03-22T16:57:35Z">March 22, 2022</date> and
+              <date type="last_edit" when="2023-03-31T03:28:41Z">March 31, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32005273">
+          <persName
+            >
+            Ananya Sairaman
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2021-12-07T21:49:17Z">December  7, 2021</date> and
+              <date type="last_edit" when="2021-12-07T21:56:49Z">December  7, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2022-03-24T19:19:33Z">March 24, 2022</date> and
+              <date type="last_edit" when="2022-03-24T19:21:53Z">March 24, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-12-08T13:48:01Z">December  8, 2021</date> and
+              <date type="last_edit" when="2021-12-08T13:53:11Z">December  8, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T13:17:36Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T16:22:38Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091404">
+          <persName
+            >
+            Robert Mason
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-12-13T19:54:42Z">December 13, 2023</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T16:17:34+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32022573">
+              <persName>Dudley, N. A. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32026126">
+              <persName>Warmoth, Henry Clay, 1842-1931</persName>
+                <idno>https://en.wikipedia.org/wiki/Henry_C._Warmoth</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32026126P0'>Henry Clay Warmoth was a Union officer and then governor of Louisiana during Reconstruction.
+</p>
+
+<p xml:id='OTPS32026126P1'>Born on May 9, 1842, in McLeansboro, Illinois, Warmoth grew up in Illinois, studied law, and then became a practicing attorney in Missouri in 1860. He quickly rose in prominence, becoming a district attorney in Missouri’s Eighteen Judicial District. At the outbreak of the Civil War, Warmoth volunteered for Union service and was commissioned as a lieutenant colonel in the Thirty-Second Missouri Infantry Regiment. He saw combat in Arkansas and Mississippi, and was wounded at Vicksburg in 1863. Warmoth was dishonorably discharged for false reporting of casualties, but was reinstated after personally appealing to President Abraham Lincoln. Returning to his regiment, Warmoth led the unit during fighting around Chattanooga, Tennessee, and in Georgia during William Tecumseh Sherman’s Atlanta campaign. He later received an appointment as a military judge in the Department of the Gulf Provost Court. Warmoth resigned his commission in 1865 to return to practicing law, and soon settled in New Orleans, Louisiana, to work on cases regarding cotton claims and courts-martial.
+</p>
+
+<p xml:id='OTPS32026126P2'>While in New Orleans, Warmoth became active in Republican Party politics. During the Reconstruction era, Warmoth managed to rise to the Republican Party ticket for governor. He won the gubernatorial election in 1868 and entered the Louisiana governor’s office at the age of 26. He labored to protect Black voting rights and to combat violence by white supremacist groups, such as the Ku Klux Klan. However, he was also accused of being soft on former Confederates, and favoring white applicants over African Americans for government jobs. As a result, the Republican Party in Louisiana split, and by 1871 Warmoth sided with the Liberal Republican Party that backed Horace Greeley in the 1872 election instead of Ulysses S. Grant. These efforts reduced Warmoth’s support even more among Black Louisianans.
+</p>
+
+<p xml:id='OTPS32026126P3'>In 1872, the Louisiana legislature—controlled by anti-Warmoth Republicans—filed impeachment charges against him. He was suspended from office, but as a lame duck incumbent, the state legislature allowed him to vacate his office just a few weeks before his term ended without carrying out the full impeachment trial.
+</p>
+
+<p xml:id='OTPS32026126P4'>After leaving office, Warmoth bought a sugar cane plantation and used his legal experience to represent sugar planting interests in the U.S. and in Europe. By the mid-1880s, he abandoned his sugar planting work and returned to politics. He ran for governor in 1888, but lost to Democrat Francis T. Nicholls. In 1890, he received an appointment as U.S. Collector of Customs in New Orleans.
+</p>
+
+<p xml:id='OTPS32026126P5'>Warmoth lived well into the twentieth century, dying on September 30, 1931. He was married to Sallie Durand and had three children. Warmoth is buried in Metairie Cemetery in New Orleans, Louisiana.
+</p>
+
+<p xml:id='OTPS32026126P6'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS32026126P7'>Henry Clay Warmoth belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32026115">
+              <persName>Hewett, W. T.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32026118">
+              <persName>Gillespie, J. A.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32025121">
+              <persName>McKee, George Colin, 1837-1890</persName>
+                <idno>https://en.wikipedia.org/wiki/George_C._McKee</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32025121P0'>George Colin McKee was a Union soldier and politician in Mississippi during the Reconstruction era.
+</p>
+
+<p xml:id='OTPS32025121P1'>Born on October 2, 1837, in Joliet, Illinois, McKee attended Knox College and Lombard College before becoming a practicing attorney in Centralia, Illinois in 1858. He worked as a city attorney until 1861, when the Civil War broke out. McKee volunteered for military service and was commissioned as an officer in the Eleventh Illinois Infantry Regiment. He participated in several battles, including an engagement at Yazoo City, Mississippi, on March 5, 1864 when he, as a major, commanded most of the regiment in a successful defense against a prolonged attack by Confederate cavalry.
+</p>
+
+<p xml:id='OTPS32025121P2'>After the war, McKee remained in the south and set up a law firm in Vicksburg, Mississippi. He also became active in Republican politics in Mississippi, serving as a delegate in the state constitutional convention in 1868 and winning election to the U.S. House of Representatives shortly afterwards. He served from 1870 to 1875. After he left Congress, he returned to his law practice in Mississippi. In 1881 he accepted an appointment as postmaster of Jackson, Mississippi, and held the position for four years. In 1889 he took another public position, that of receiver of public moneys. He passed away a year later, on November 17, 1890. McKee was married to Anita Camp and had at least two children that survived to adulthood. He is buried in Arlington National Cemetery in Arlington, Virginia.
+</p>
+
+<p xml:id='OTPS32025121P3'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS32025121P4'>George Colin McKee belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S89457">
+              <persName>Stewart, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52648">
+              <persName>Ames, Adelbert, 1835-1933</persName>
+                <idno>https://en.wikipedia.org/wiki/Adelbert_Ames</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52648P0'>Adelbert Ames served as a governor and U.S. senator of Mississippi during the Reconstruction era.  He was born in East Thomaston (modern-day Rockland), Maine, in 1835. As a boy, Ames spent time working on various merchant vessels, receiving training in seamanship. He entered the United States Military Academy at West Point in 1856, graduating in May 1861, at the start of the Civil War. Commissioned as a second lieutenant, the young Ames was promoted to first lieutenant barely over a week later and served with the 5th U.S. Artillery during the battle of First Bull Run at Manassas, Virginia, on July 21, 1861. Despite being wounded in the leg, Ames stayed by his cannons. His actions at Bull Run led him to receive the brevet (honorary) rank of major and, in 1893 (more than thirty years later), the Medal of Honor.
+</p>
+
+<p xml:id='OTPS52648P1'>Ames recovered from his wound and returned to the front lines in 1862, serving with distinction as an artillery officer during the Peninsula Campaign near Richmond. Seeking better promotion potential, Ames sought an infantry command. Through those efforts, in August 1862, he received command of the 20th Maine Infantry Regiment, and led that unit in combat during the Battle of Fredericksburg in December 1862. In May 1863, he volunteered to serve as a staff officer for Major General George G. Meade, which helped him achieve the rank of brigadier general that month. With this promotion, Ames left the 20th Maine to his second-in-command, Lieutenant Colonel Joshua Lawrence Chamberlain, who gained great fame commanding the regiment at Little Round Top during the Battle of Gettysburg in July 1863. Ames’ own performance at Gettysburg was highly praised, as his division successfully defended the Union position at Cemetery Hill.
+</p>
+
+<p xml:id='OTPS52648P2'>After Gettysburg, Ames’ division was transferred to the Department of the South. Over the next two years, he commanded Union troops during campaigns in Florida, South Carolina, North Carolina, and Virginia. He received a brevet promotion to major general for his actions at Fort Fisher, North Carolina, in March 1865.
+</p>
+
+<p xml:id='OTPS52648P3'>After the Civil War, Ames became involved in federal Reconstruction efforts. In 1868, he was appointed the provisional governor of Mississippi. Ames proved sympathetic to the plight of African Americans in the south. He sought to protect Black civil rights and appointed Mississippi’s first African American public officials. In 1870, after Mississippi was readmitted into the Union, Ames ran for U.S. senator for the state as a Republican and won. He served in that capacity from February 1870 to January 1874, achieving the reputation as a strong public speaker. While serving as a senator in Washington, D.C., Ames met and married Blanche Butler, daughter of Union general Benjamin F. Butler, under whom Ames had served during the war. Ames and his wife had six children over the course of their marriage.
+</p>
+
+<p xml:id='OTPS52648P4'>In 1873, Ames ran for governor of Mississippi. His chief rival was James L. Alcorn, a former Confederate general who had been a Whig before the Civil War and joined the Republican Party afterwards. Ames won the election and worked diligently to improve Mississippi’s financial and social situation. In 1874, Democrats in Mississippi coordinated a campaign of violence against African Americans and white Republicans in the state, to secure political control in Mississippi. Unable to militarily suppress the white supremacist terror campaign, Ames signed a truce with Democratic leaders in Mississippi to reduce the violence and allow a peaceful election. Groups of white supremacists abandoned the truce and resumed their intimidation tactics against Republicans and Black Mississippians during the following elections, leading to a surge of Democratic politicians taking office.
+</p>
+
+<p xml:id='OTPS52648P5'>In 1876, the conservative Democrat majority in the Mississippi legislature tried to impeach Ames and many other Republican officials with trumped up charges of corruption. Despite a strong political force against him, Ames’ critics were unable to provide any evidence of impropriety. Nevertheless, because impeachment was politically driven, Ames could see that his future as governor was over and any effort on his part to legally defend himself would be personally and financially taxing. He and his attorneys reached an agreement with Democratic leaders to resign his office in exchange for dropping the legal charges. On March 29, 1876, after Democrats cancelled their legal proceedings, Ames vacated his position.
+</p>
+
+<p xml:id='OTPS52648P6'>Ames left Mississippi and went into business in Minnesota with his father and brother. A short time later, he relocated to New York City and then Massachusetts, overseeing mills and various business interests. When the Spanish-American War erupted in 1898, Ames volunteered for service and was appointed brigadier general of volunteers. Although over sixty years old, Ames joined the field campaign in Cuba and performed well.
+</p>
+
+<p xml:id='OTPS52648P7'>Ames resumed his business ventures in the early twentieth century. He lived until 1933, dying at age 97. He is buried in Lowell, Massachusetts.
+</p>
+
+<p xml:id='OTPS52648P8'>(Wikipedia)
+</p>
+
+<p xml:id='OTPS52648P9'>Adelbert Ames belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32026128">
+              <persName>Remick, F. C.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51788">
+              <placeName>Mississippi--Warren County. Vicksburg</placeName>
+                <idno>https://archive.org/details/mississippicomp00rowlgoog/page/858/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51788P0'>Located in Warren County, Mississippi, Vicksburg was founded under the name Fort Nogales as early as 1790 in what was then unincorporated territory. In 1798, upon creation of Mississippi Territory, it was renamed Walnut Hills. On April 1, 1799, Walnut Hills became part of the newly created Pickering County (later renamed Jefferson County on January 10, 1802), until the creation of Claiborne County on January 26, 1802. It then became part of its current county of Warren on December 21, 1809. Upon its incorporation on January 29th, 1825, it was renamed Vicksburg. Vicksburg became the county seat in 1836 and remains today. (Rowland, <hi rend='italic'>Mississippi</hi>, 858; Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.33611, -90.87528</geo>
+                </note>
+            </place>
+            <place xml:id="S63019">
+              <placeName>Mississippi--Adams County. Natchez</placeName>
+                <idno>https://en.wikipedia.org/wiki/Natchez,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63019P0'>Located in Adams County, Natchez was founded in 1716 under the name Fort Rosalie and was renamed Natchez in 1730. It became part of the newly created Adams County on April 1, 1799. It served as the capital of Mississippi Territory from 1798 until 1802, when it was replaced by Washington. It was reinstated as the capital from 1817 until 1820, when the capital was again replaced by Washington (which was later replaced by the current capital Jackson in 1822). Natchez serves as the county seat. (Wikipedia; Britannica; Mississippi Encyclopedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.55444, -91.3875</geo>
+                </note>
+            </place>
+            <place xml:id="S32023525">
+              <placeName>Louisiana--Tensas Parish. Saint Joseph</placeName>
+                <idno>https://en.wikipedia.org/wiki/St._Joseph,_Louisiana</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32023525P0'>Located in Tensas Parish, Saint Joseph was established in 1843 and incorporated as a town in 1901. Saint Joseph serves as the parish seat. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.91861, -91.23833</geo>
+                </note>
+            </place>
+            <place xml:id="S63017">
+              <placeName>Louisiana--Orleans Parish. New Orleans</placeName>
+                <idno>https://en.wikipedia.org/wiki/New_Orleans</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63017P0'>Located in Orleans Parish, New Orleans was founded in 1718. It became the capital of French Louisiana in 1722 and continued as the capital when Louisiana achieved statehood on April 30, 1812. It became part of Orleans County (now extinct) on the same day. In 1849 it was replaced by Baton Rouge as the state capital, although it temporarily served as the capital again from 1865 until 1880. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>29.95, -90.08</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001720'>
+<catDesc>Extraction, Manufacturing, &amp; Production</catDesc>
+          <category xml:id='S99399'>
+            <catDesc>
+              <term>Agricultural Production--Plantations</term>
+              <idno>https://en.wikipedia.org/wiki/Plantation_complexes_in_the_Southern_United_States#Overseer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001720'>Extraction, Manufacturing, &amp; Production</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99399P0'>Plantations are farms that typically grow cash crops, and often specialize in a single product, such as cotton, tobacco, or sugar cane. Plantation farming continues in various parts of the world in the twenty-first century, especially for crops like coffee beans, rubber trees, and cocoa. In American history the term plantation is most often associated with estates in the American south. Historical descriptions of plantations generate images of large farming operations. However, even moderately-sized southern farms that planted cash crops were sometimes referred to as plantations.
+</p>
+
+<p xml:id='OTPSD99399P1'>Southern plantations before the Civil War were strongly tied to the institution of slavery. As profit-driven agricultural operations, plantations required large numbers of laborers. This fed the demand for African slave importation to the British colonies in the seventeenth and eighteenth centuries, and bolstered the defense of slavery among southern planters in the nineteenth century. Plantation crops varied by region within the south, with rice being popular in Georgia and South Carolina along the Atlantic coast, tobacco being an early cash crop in Virginia, and then—after the invention of the cotton gin at the end of the eighteenth century which quickly separated seeds from the cotton fibers—the boom in cotton growing across the Deep South.
+</p>
+
+<p xml:id='OTPSD99399P2'>By 1860, there were approximately 46,200 plantations across the south. More than 20,000 had twenty to thirty slaves. Only about 2,300, or five percent, had one hundred or more slaves. The enslaved African Americans carried out most of the farming, construction, and domestic work. The plantations were their home. The same was not always true for the plantation owners. The very large operations frequently had wealthy absentee owners, who resided in cities or other states, leaving plantation supervision responsibilities to hired white overseers. Smaller plantation owners usually lived on their property, but almost always in separate buildings from the enslaved laborers. Slave cabins, or slave quarters, were a ubiquitous part of a plantation. They represented the heart of the laborers’ community on the property, but were usually of basic construction and few amenities.
+</p>
+
+<p xml:id='OTPSD99399P3'>Following the abolition of slavery after the Civil War, many freed people continued to live on plantations. Sharecropping became a popular arrangement between the landowners and the laborers. The property was often divided into plots with tenants assigned to certain sections. The system involved a contract or arrangement which allowed the laborer, or tenant, to keep a portion of the crop they raised. The system was abused, and developed a negative reputation for the level of poverty many sharecroppers (mostly Black, but some white) experienced on plantations in the late nineteenth and early twentieth centuries. Representatives of the Freedmen’s Bureau sought to protect Black sharecroppers by regulating contracts during Reconstruction, but the withdrawal of federal officials after 1876 left many African American tenants more subject to unfair sharecropping contracts on the old plantations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32026127'>
+            <catDesc>
+              <term>Agricultural Production--Plantations. Louisiana</term>
+              <idno>https://64parishes.org/entry/plantation-slavery-in-antebellum-louisiana</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001720'>Extraction, Manufacturing, &amp; Production</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32026127P0'>Plantations are farms that typically grow cash crops, and often specialize in a single product, such as cotton, tobacco, or sugar cane. Plantation farming continues in various parts of the world in the twenty-first century, especially for crops like coffee beans, rubber trees, and cocoa. In American history the term plantation is most often associated with estates in the American south. Historical descriptions of plantations generate images of large farming operations. However, even moderately-sized southern farms that planted cash crops were sometimes referred to as plantations.
+</p>
+
+<p xml:id='OTPSD32026127P1'>Southern plantations before the Civil War were strongly tied to the institution of slavery. As profit-driven agricultural operations, plantations required large numbers of laborers. This fed the demand for African slave importation to the British colonies in the seventeenth and eighteenth centuries, and bolstered the defense of slavery among southern planters in the nineteenth century. Plantation crops varied by region within the south, with rice in Georgia and South Carolina along the Atlantic coast, tobacco being an early cash crop in Virginia, sugar cane in Louisiana, and cotton across the Deep South.
+</p>
+
+<p xml:id='OTPSD32026127P2'>Development of plantations in Louisiana occurred rapidly after the introduction of steam-powered boats in the early nineteenth century. Before this invention, water navigation relied upon barges or rafts carried downstream. With the capability to carry cash crops up the Mississippi River into other states, new commercial markets opened to farmers and planters in southern Louisiana. The advent of railroads in the mid-nineteenth century improved transportation even further. This spurred settlers to clear land and drain swampland across Louisiana for agricultural use, creating new farms and plantations. Cotton and sugar cane were the two primary cash crops in Louisiana.  Only about ten percent of Louisiana’s 17,000 farms in 1860 were dedicated to sugar cultivation, in part due to the high cost and labor requirements for the crop. For example, those 1,700 Louisiana sugar plantations had approximately $19 million invested in agricultural equipment (more than $635 million dollars today), compared to $6 million (or $198 million in today’s value) in agricultural equipment for 70,000 farms in Wisconsin. Yet, that large investment paid off for many Louisiana sugar planters, as the average sugar plantation was valued at around $200,000 and made a ten percent annual return, and two-thirds of America’s millionaires lived in Louisiana.
+</p>
+
+<p xml:id='OTPSD32026127P3'>Although plantations were profit-driven operations, many in Louisiana were self-sufficient, with subsistence farm plots and livestock to feed the labor force. Enslaved African Americans carried out most of the farming, construction, and domestic work on plantations. The plantations were their home. The largest plantations were like small villages, with many different buildings, including the master’s house (usually large and extravagant), barns, workshops, storage facilities, and slave quarters. Some plantation owners lived part-time on the property, or visited only occasionally, residing most of the year in cities or other states. They left plantation supervision responsibilities to hired white overseers. Smaller plantation owners usually lived on their property, but almost always in separate buildings from the enslaved laborers.
+</p>
+
+<p xml:id='OTPSD32026127P4'>Following the abolition of slavery after the Civil War, many freed people continued to live on plantations. Sharecropping became a popular arrangement between the landowners and the laborers. The property was often divided into plots with tenants assigned to certain sections. The system involved a contract or arrangement which allowed the laborer, or tenant, to keep a portion of the crop they raised. The system was abused, and developed a negative reputation for the level of poverty many sharecroppers (mostly Black, but some white) experienced on plantations in the late nineteenth and early twentieth centuries. Representatives of the Freedmen’s Bureau sought to protect Black sharecroppers by regulating contracts during Reconstruction, but the withdrawal of federal officials after 1876 left many African American tenants more subject to unfair sharecropping contracts on the old plantations. (John Bardes, “Plantation Slavery in Antebellum Louisiana,” 64Parishes.org; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S53668'>
+            <catDesc>
+              <term>Crimes (alleged)--Assassination</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/assassination</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD53668P0'>"The murder of someone famous or important." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63919'>
+            <catDesc>
+              <term>Crimes (alleged)--Assault and Battery</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/assault?q=assault+and+battery</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63919P0'>The criminal act defined as "a sudden, violent attack on someone" or "the crime of attacking and beating someone." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32061378'>
+            <catDesc>
+              <term>Crimes (alleged)--Jail Escapes</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32061378P0'>"To become free or get free from, or to avoid something," especially to escape from custody. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62954'>
+            <catDesc>
+              <term>Criminal Procedures--Arrest</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arrest?q=Arrest</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62954P0'>"The act of using legal authority to catch and take someone to a place where the person may be accused of a crime." (CD)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S71046'>
+            <catDesc>
+              <term>Criminal Procedures--Convicted</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/convicted?q=Convicted</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71046P0'>"Having officially been found guilty of a crime in a law court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95194'>
+            <catDesc>
+              <term>Criminal Procedures--Indictments</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/indictment?q=Indictments</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95194P0'>"The act of formally accusing someone of a serious crime." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32121282'>
+            <catDesc>
+              <term>Criminal Procedures--Trial</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32121282P0'>"The hearing of statements and showing of objects, etc. in a law court to judge if a person is guilty of a crime or to decide a case or a legal matter." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S71916'>
+            <catDesc>
+              <term>United States. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71916P0'>The United States Army is the military land force of the United States of America. During the American Civil War it was also referred to as the Union Army, Federal Army, or Northern Army. Its primary military objective during the war was the restoration and preservation of the United States through the defeat of secessionist forces. The United States Army traces its roots to the Continental Army, created in 1775 during the American Revolution. Following American independence, the new United States severely reduced the size of the army due to distrust of permanent standing military forces. The small regular army generally handled military operations against Native Americans and for coastal defense. State authorities were expected to support the country’s military needs with their militias, or by raising volunteer units, temporarily activated for federal service.
+</p>
+
+<p xml:id='OTPSD71916P1'>At the outbreak of the Civil War, the United States regular army consisted of barely more than 16,000 soldiers, scattered across the country (primarily at coastal defenses and forts established in the territories) among ten infantry regiments, four artillery regiments, two cavalry regiments, two dragoon regiments, and one regiment of mounted rifles. Roughly 20% of the army’s officers and enlisted resigned their positions to fight for the Confederacy. After Southern troops attacked and captured Fort Sumter in South Carolina, President Abraham Lincoln called for 75,000 volunteers to expand the army and defeat the Confederates. The government continued to issue subsequent requests for volunteers as the war progressed. As with established practice, the states were to recruit the volunteers and provide them for federal service. Initial enlistments were for 90 days, but eventually enlistment terms were expanded, typically for three years. In total, more than 2,000,000 men served in the United States Army during the course of the Civil War. Of those, only around 60,000 were part of the regular army. The overwhelming majority were in state-based units. Most soldiers were volunteers, however the federal government began drafting men in 1862, as the army’s campaigns continued and volunteer numbers dwindled. In total, around 46,000 Union soldiers (about 5.5%) were draftees.
+</p>
+
+<p xml:id='OTPSD71916P2'>Approximately two-thirds of the soldiers in the United States Army during the Civil War were native-born white citizens. Around 100,000 were from states within the Confederacy. Immigrants made up about 25% of Union soldiers, with Germans and Irish immigrants being among the most prominent. The army also included soldiers of different ethnicities, including more than 3,000 Native American soldiers. In 1863, the Union army began formally accepting African American soldiers—in segregated units—and by the end of the war, around than 179,000 had served in the United States Army uniform.
+</p>
+
+<p xml:id='OTPSD71916P3'>When hostilities ended in June 1865, approximately 110,000 had been killed in combat or succumbed to wounds, more than 220,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32122246'>
+            <catDesc>
+              <term>United States. Army. Infantry Regiment, 24th (1866-1869)</term>
+              <idno>https://play.google.com/books/reader?id=NU4WAAAAYAAJ&amp;pg=GBS.PA92&amp;hl=en</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32122246P0'>The 24th Regiment, United States Infantry (1866–1869) was organized as the 2nd Battalion, 15th Infantry on May 4, 1861, by direction of President Abraham Lincoln. On September 21, 1866 It was re-designated as the 24th Infantry under an act of Congress to reorganize the Army passed on July 28, 1866. It was commanded by Bvt. Maj. Gen Alvan C. Gillem and was stationed in Mississippi to perform peace-keeping duties during Reconstruction. Under an act of Congress to reduce the Army’s post-war manpower passed on March 3, 1869 it was consolidated with the 29th Infantry to form the 11th Regiment, United States Infantry. (Heitman, <hi rend='italic'>Historical Register of the United States Army</hi>, 61-62; Bradley, <hi rend='italic'>The Army and Reconstruction 1865-1877</hi>, United States Army Center of Military History; “<hi rend='italic'>Roster from First Lieutenant Ira Quinby to Mississippi Governor Adelbert Ames; December 1868</hi>”, Civil War and Reconstruction Governors of Mississippi, mdah_784-29506-05-01)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001680'>
+<catDesc>Educational &amp; Academic Occupations</catDesc>
+          <category xml:id='S56589'>
+            <catDesc>
+              <term>Teachers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/teacher</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001680'>Educational &amp; Academic Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD56589P0'>"Someone whose job is to teach in a school...." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+          <category xml:id='S95870'>
+            <catDesc>
+              <term>Military Headquarters</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/headquarters</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95870P0'>A military headquarters is the main center of control for a unit and typically revolves around that unit’s highest ranking officer. The term headquarters often refers to a physical location, however it is not always a permanent facility. A commanding officer can establish a headquarters anywhere that best allows oversight of the unit. Frequently during the Civil War military leaders relocated their headquarters each day as their armies moved. Union general John Pope famously declared that he would make his “headquarters in the saddle.” The comment was more symbolic than literal, but reflected how a headquarters centered on the commander's location and was subject to his discretion in how and where to conduct official duties. Pope’s critics replied that he was making his headquarters where his “hindquarters” should be, representing the more traditional view of a headquarters being a stationary command center strategically located for the effective management of a staff and army. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S78266'>
+            <catDesc>
+              <term>Mississippi--Military Board</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD78266P0'>Shortly after declaring the state of Mississippi separated from the United States in January 1861, its secession convention passed an order entitled “An Ordinance to Regulate the Military System of the State of Mississippi.” This ordinance created a Military Board to oversee Mississippi’s military personnel and resources. This board was to be made up of four brigadier generals and a major general in charge of the state’s militia, and the governor. On January 23, the convention elected the board members as Jefferson Davis (as major general) and Earl Van Dorn, Charles Clark, James L. Alcorn, and Christopher H. Mott (as brigadier generals). Shortly thereafter, the Military Board met to build and prepare Mississippi’s armed forces. It appointed Richard Griffith to the position of adjutant general, Samuel G. French to oversee the ordnance requirements, and William Barksdale for the quartermaster general. With appointments complete, the board then published instructions for Mississippi’s military structure, procedures, tactics, and equipment in the form of <hi rend='italic'>Orders of the Military Board of the State of Mississippi</hi>. Over the next several weeks, the board handled a wide variety of strategic and administrative tasks, such as planning the defense of Mississippi’s coastline and facilitating the purchase of rations and weapons for Mississippi troops.
+</p>
+
+<p xml:id='OTPSD78266P1'>Although the Military Board began well, it soon ran into problems. Many of its members vacated their positions for promotions into Confederate service. Davis was elected president of the Confederacy, and the brigadier generals took military positions within the Confederate army. Mississippi officials appointed new generals to take their place on the Military Board, but the governor’s dislike of Alcorn caused controversy and led to another individual—Reuben Davis—being promoted to major general. Additional problems arose when most of Mississippi ‘s troops and equipment were transferred into Confederate service. Continued enlistments into that army prevented the state’s militia force from maintaining a steady number or presence. The Military Board spent much of its time during the summer of 1861 trying to procure sufficient weapons and soldiers for state service. By the fall, Mississippi officials believed that the Military Board was an inefficient method of governing the militia. The board was discontinued in November 1861. (Timothy B. Smith, <hi rend='italic'>Mississippi in the Civil War</hi>, 52–60)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S32003151'>
+            <catDesc>
+              <term>Louisiana--Executive Department</term>
+              <idno>https://www.louisiana.gov/government/executive-branch-cabinet/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>30.39183, -92.3291</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32003151P0'>Operating at the state level, the Louisiana State Executive Department was established by Article 3 of the Louisiana Constitution in 1812 and serves as part of the executive branch of the Louisiana state government. It is led by the Louisiana State Governor, who directly presides over the Cabinet. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001144S78266'>
+<catDesc>
+<term><rs ref='S78266'>Mississippi--Military Board</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S57096'>
+            <catDesc>
+              <term>African Americans--Historically Free and Newly Freed</term>
+              <idno>https://mississippiencyclopedia.org/entries/free-blacks-in-antebellum-mississippi/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD57096P0'>Historically free African Americans included people who were both African American and lived as and/or were legally free before the American Civil War. They may or may not have previously been enslaved. In recognition of African American military service during the Revolutionary War, a number of states moved to gradually abolish slavery leading to a growing body of free African Americans.
+</p>
+
+<p xml:id='OTPSD57096P1'>Freedom, however, did not mean citizenship, and despite efforts by free Black activists to settle this question and affirm their citizenship, it was largely left to state lawmakers who otherwise failed to settle the question. Consequently, during the Antebellum era, each southern state passed different laws governing the place and rights of free African Americans. Home to the nation's largest free African American community, for example, Baltimore, Maryland registered 25,000 free Black residents by 1850. (Martha S. Jones, <hi rend='italic'>Birthright Citizens: A History of Race and Rights in Antebellum America</hi>, p. 13)
+</p>
+
+<p xml:id='OTPSD57096P2'>In another example, South Carolina's Act of 1820 distinguished between those freed before and after 1820, and classified free African Americans as "denizens," which limited citizenship rights by a series of Black Codes. In response to rebellions, numerous states passed legal restrictions that made manumission virtually impossible by the mid-nineteenth century. Loved ones who purchased family members were forced to legally hold them in bondage, leading to a body of people who "were free by practice, but not by law." (Amrita Chakrabarti Myers, <hi rend='italic'>Forging Freedom</hi>, 3–4, 207)
+</p>
+
+<p xml:id='OTPSD57096P3'>Unlike South Carolina, Mississippi's judiciary ruled that “free negroes . . . are to be regarded as alien enemies or strangers prohibited, and without the pale of comity, and incapable of acquiring or maintaining property in this State which will be recognized by our courts.” (<hi rend='italic'>Heirn v. Bridault</hi>, 37 Miss. 209, 224–25, 1859 in Jones, <hi rend='italic'>Birthright Citizens</hi>, p. 213) The state's strict provisions on manumission led to an extremely small population of free African Americans (773 people by 1860) during the antebellum era ("Free Blacks in Antebellum Mississippi," Mississippi Encyclopedia)
+</p>
+
+<p xml:id='OTPSD57096P4'>Newly freed African Americans includes people who were enslaved but became free by the passage of the Emancipation Proclamation and/or the Thirteenth Amendment. While neither was comprehensive, the Emancipation Proclamation of 1863 freed the enslaved in territories under rebellion, and later the Thirteenth Amendment of 1865 abolished slavery altogether, except when used as a punishment for those who committed a crime and did not apply to Native Nations who practices slavery. (American Battlefield Trust; Wikipedia) In the CWRGM collection, African Americans after December 6, 1865 are classified as historically free or newly freed.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+<category xml:id='C32001674S57096'>
+<catDesc>
+<term><rs ref='S57096'>African Americans--Historically Free and Newly Freed</rs></term>
+</catDesc>
+</category>
+          <category xml:id='S63177'>
+            <catDesc>
+              <term>Fugitives from Justice</term>
+              <idno>https://en.wikipedia.org/wiki/Fugitive</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63177P0'>The term "fugitive from justice" is defined broadly and covers a multiplicity of experiences under U.S. law, but refers most often to "a person who is fleeing from custody, whether it be from jail, a government arrest, government or non-government questioning, vigilante violence, or outraged private individuals" (Wikipedia). Slightly different than the above definition, a fugitive from justice may also be defined as "a person formally charged with a crime or a convicted criminal whose punishment has not yet been determined or fully served who is currently beyond the custody or control" of the party, be it local, national, or international, interested in their arrest (Wikipedia). In the nineteenth-century United States, fugitive status varied widely based on race. Many white people considered "fugitives from justice" were most often the latter definition, being those charged with or convicted of crimes who then fled across other state lines to try and evade punishment or trial. However, throughout American history up to Emancipation, fugitive status was given to escaped enslaved African Americans under the Fugitive Slave Laws of 1793 and later 1850. These laws also required anyone in the nation to apprehend self-emancipated enslaved people and return them to their owners. The term "fugitives from justice" therefore became another legal mechanism by which enslavers sought to control the movements and freedoms of the enslaved, while contributing heavily to the increasing sectionalism that would lead to the American Civil War (Britannica). To learn more about enslaved people who emancipations themselves and were labeled fugitives, see the "Emancipation and self-emancipation" subject tag under Events.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001666'>
+<catDesc>Races, Ethnicities, &amp; Nationalities</catDesc>
+          <category xml:id='S62968'>
+            <catDesc>
+              <term>African Americans</term>
+              <idno>https://en.wikipedia.org/wiki/African_Americans</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62968P0'>The Cambridge Dictionary classifies "a person who lives in the U.S. and is a member of a race of people with dark skin that originally came from Africa" as African American, but both the nineteenth-century and modern constructions are more complex (Cambridge Dictionary). Common nineteenth-century racial categories such as "mulatto" referred to persons with both white and black ancestry, and the experiences of mixed-race persons varied based on complexion, degree of African ancestry, and the region in which they lived. In antebellum cities with large populations of free Blacks, the degree of one's African ancestry could determine what rights one possessed or did not possess, and people with lighter skin tones were often considered to be white; this ended under "one drop rule" during the Jim Crow system.
+</p>
+
+<p xml:id='OTPSD62968P1'>Like skin tone, the ethnicity implied by the term "African American" is also problematically broad, as "naming people only by the continent of their origin and ignoring their ethnic identity is a consequence of time and space" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 5). The experience of slavery complicated the term by attempting to strip people of their original distinct African ethnic identities such as Ibo or Ndongan, classifying all persons of African descent together under one term, infusing that term with negative connotation, and disregarding the complex and rich linguistic, cultural, and ethnic histories of varied African people. However, many Black Americans have reclaimed the term "African American" and infused it with positive connotations. One scholar argues that "in using the term 'African Americans,' Black Americans accent the part of their heritage that is not American" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 4).
+</p>
+
+<p xml:id='OTPSD62968P2'>CWRGM — acknowledging the multiplicity of the term's meanings and connotations — includes multiracial and multiethnic people of African descent under the "African Americans" social identifiers subject tag to reflect the diversity of the African American experience and to ensure that the experiences of African Americans of mixed races and ethnicities are discoverable as they are rarely distinguished further in the letters. In the absence of other references, CWRGM also tags racial slurs targeted at African Americans — which were common in nineteenth century documents with white authors — under the "African Americans" tag. CWRGM recognizes the historic and present harm caused by such language and does not condone its use but tags these terms only to ensure the rich history of African Americans are discoverable within the collection.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001666S57096'>
+<catDesc>
+<term><rs ref='S57096'>African Americans--Historically Free and Newly Freed</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Ames Series 784</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Mississippi Digital Library.; Funding for the project provided by the National Historical Publications and Records Commission of the National Archives; Funding for this project provided by the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1868; 1869</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Dudley, N. A. M.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1869-01-07</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Ames Collection. Letter from Colonel N. A. M. Dudley at Natchez, Mississippi, to Louisiana Governor Henry C. Warmoth, requesting a warrant for the arrest of W. T. Hewett, alleged attempted murderer of United States Congressman George C. McKee, in Tensas Parish, Louisiana.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; 3-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Natchez (Miss.); New Orleans (La.); Saint Joseph (La.); Vicksburg (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_784-968-05-04</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Adams County (Miss.); Warren County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Dalton Wood; Michael Singleton; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 968, Folder 5</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Affidavits; African Americans; Ames, Adelbert, 1835-1933; Arrest; Attempted murder; Fugitives from justice; Governors--Louisiana; McKee, George Colin, 1837-1890; Mississippi. Governor; Plantations--Louisiana; Police; Teachers; Rewards programs (Criminal investigation); Sheriffs; United States. Army; United States. Army. Infantry Regiment, 24th (1869-1951); United States. Army--Officers; Warrants (Law); Warmoth, Henry Clay, 1842-1931</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Colonel N. A. M. Dudley to Louisiana Governor Henry C. Warmoth; January 7, 1869</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/15864&quot;&gt;Letter from Colonel N. A. M. Dudley to Louisiana Governor Henry C. Warmoth; January 7, 1869&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG79" who="U2" when="2024-10-25T16:22:38Z" target="#P32055055">
+          Version 18 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG78" who="U2" when="2024-10-25T13:17:36Z" target="#P32055053">
+          Version 38 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG77" who="U220769" when="2024-02-07T20:07:59Z" target="#P32055053">
+          Version 37 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG76" who="U220769" when="2024-02-07T19:49:01Z" target="#P32055053">
+          Version 36 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG75" who="U220769" when="2024-01-30T17:24:25Z" target="#P32055053">
+          Version 35 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG74" who="U220769" when="2024-01-30T17:23:32Z" target="#P32055053">
+          Version 34 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG73" who="U220769" when="2024-01-30T17:17:48Z" target="#P32055054">
+          Version 21 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG72" who="U220769" when="2024-01-20T21:32:51Z" target="#P32055053">
+          Version 33 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG71" who="U25091404" when="2023-12-13T19:54:42Z" target="#P32055054">
+          Version 20 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG70" who="U220769" when="2023-11-17T17:40:51Z" target="#P32055053">
+          Version 32 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG69" who="U220769" when="2023-11-17T17:33:58Z" target="#P32055055">
+          Version 17 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG68" who="U220769" when="2023-11-17T17:15:28Z" target="#P32055053">
+          Version 31 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG67" who="U220769" when="2023-11-17T17:15:26Z" target="#P32055053">
+          Version 30 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG66" who="U220769" when="2023-11-17T17:15:02Z" target="#P32055054">
+          Version 19 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG65" who="U220769" when="2023-11-17T17:05:04Z" target="#P32055053">
+          Version 29 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG64" who="U220769" when="2023-11-17T17:03:00Z" target="#P32055053">
+          Version 28 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG63" who="U220769" when="2023-11-02T04:18:03Z" target="#P32055054">
+          Version 18 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG62" who="U220769" when="2023-11-02T04:15:06Z" target="#P32055053">
+          Version 27 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG61" who="U220769" when="2023-11-02T04:05:39Z" target="#P32055053">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG60" who="U220769" when="2023-09-03T00:26:54Z" target="#P32055054">
+          Version 17 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG59" who="U220769" when="2023-09-02T20:14:54Z" target="#P32055053">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG58" who="U25091195" when="2023-03-31T03:28:41Z" target="#P32055053">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG57" who="U25091195" when="2023-03-31T03:28:10Z" target="#P32055053">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG56" who="U220769" when="2023-03-19T21:06:26Z" target="#P32055053">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG55" who="U220769" when="2023-03-19T20:20:32Z" target="#P32055054">
+          Version 16 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG54" who="U220769" when="2023-03-19T19:12:56Z" target="#P32055053">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG53" who="U220769" when="2023-03-19T18:09:33Z" target="#P32055055">
+          Version 16 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG52" who="U220769" when="2023-03-19T02:30:22Z" target="#P32055053">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG51" who="U220769" when="2023-03-18T21:34:42Z" target="#P32055054">
+          Version 15 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG50" who="U220769" when="2023-03-18T03:26:13Z" target="#P32055053">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG49" who="U220769" when="2023-03-18T03:20:45Z" target="#P32055053">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG48" who="U220769" when="2023-03-18T01:42:22Z" target="#P32055055">
+          Version 15 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG47" who="U220769" when="2023-03-18T00:45:53Z" target="#P32055053">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U220769" when="2023-03-16T19:39:01Z" target="#P32055054">
+          Version 14 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U220769" when="2023-03-06T04:57:53Z" target="#P32055054">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U220769" when="2023-03-05T16:20:06Z" target="#P32055055">
+          Version 14 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U220769" when="2023-03-05T16:19:43Z" target="#P32055054">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2023-03-05T16:19:16Z" target="#P32055055">
+          Version 13 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-03-02T23:50:15Z" target="#P32055053">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-02-27T19:12:54Z" target="#P32055053">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-01-13T22:31:50Z" target="#P32055054">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2022-12-04T02:25:13Z" target="#P32055053">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2022-12-04T02:25:11Z" target="#P32055053">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2022-12-04T02:10:29Z" target="#P32055055">
+          Version 12 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2022-12-04T02:07:35Z" target="#P32055054">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2022-12-04T01:57:41Z" target="#P32055053">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2022-12-04T01:06:23Z" target="#P32055053">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2022-06-12T19:50:25Z" target="#P32055053">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2022-06-08T20:10:35Z" target="#P32055053">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2022-06-08T20:07:57Z" target="#P32055053">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2022-05-03T17:31:12Z" target="#P32055055">
+          Version 11 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2022-05-03T17:30:18Z" target="#P32055054">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2022-05-03T17:29:22Z" target="#P32055053">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U25091356" when="2022-03-24T19:21:53Z" target="#P32055055">
+          Version 10 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U25091356" when="2022-03-24T19:20:52Z" target="#P32055054">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U25091356" when="2022-03-24T19:19:58Z" target="#P32055054">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U25091356" when="2022-03-24T19:19:33Z" target="#P32055053">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U25091195" when="2022-03-22T17:23:11Z" target="#P32055055">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U25091195" when="2022-03-22T17:20:29Z" target="#P32055054">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U25091195" when="2022-03-22T17:20:15Z" target="#P32055054">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25091195" when="2022-03-22T17:19:31Z" target="#P32055054">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091195" when="2022-03-22T17:15:25Z" target="#P32055053">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091195" when="2022-03-22T17:07:25Z" target="#P32055055">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091195" when="2022-03-22T17:02:55Z" target="#P32055054">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091195" when="2022-03-22T16:57:50Z" target="#P32055053">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091195" when="2022-03-22T16:57:35Z" target="#P32055053">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U231087" when="2021-12-08T13:53:11Z" target="#P32055055">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U231087" when="2021-12-08T13:50:46Z" target="#P32055054">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U231087" when="2021-12-08T13:48:01Z" target="#P32055053">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U32005273" when="2021-12-07T21:56:49Z" target="#P32055053">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U32005273" when="2021-12-07T21:55:19Z" target="#P32055054">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U32005273" when="2021-12-07T21:54:34Z" target="#P32055055">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U32005273" when="2021-12-07T21:54:27Z" target="#P32055055">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U32005273" when="2021-12-07T21:53:09Z" target="#P32055055">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U32005273" when="2021-12-07T21:51:09Z" target="#P32055055">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U32005273" when="2021-12-07T21:49:37Z" target="#P32055055">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U32005273" when="2021-12-07T21:49:17Z" target="#P32055055">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2021-12-07T15:42:02Z" target="#P32055055">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2021-12-07T15:41:59Z" target="#P32055054">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-12-07T15:41:57Z" target="#P32055053">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32055053" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:15861/full/full/0/default.jpg"/>
+        <div xml:id="OTP32055053">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32055053P0' xml:id='OTP32055053P0'>[seal]
+</p>
+
+<p corresp='TTP32055053P1' xml:id='OTP32055053P1'><rs ref='#S95870'>Head Quarters</rs> Post of <rs ref='#S63019'>Natchez</rs>,<lb/>
+Natchez, Mississippi,<lb/>
+January 7<add place='above'><hi rend='underline'>th</hi></add>,, 1869.
+</p>
+
+<p corresp='TTP32055053P2' xml:id='OTP32055053P2'>To His Excellency,<lb/>
+Governor <rs ref='#S32026126'>Warmouth</rs>,<lb/>
+Louisiana,
+</p>
+
+<p corresp='TTP32055053P3' xml:id='OTP32055053P3'>I have the honor to respectfully request that a warrant may be issued for the <rs ref='#S62954'>arrest</rs> of <hi rend='underline'><rs ref='#S32026115'>W. T. Hewett</rs></hi>, who is reported to be at "<rs ref='#S32026127'>Gibson's Plantation</rs>," four miles back of <rs ref='#S32023525'>St Joseph</rs>, in Tensas Parish, La. <hi rend='underline'><rs ref='#S32026118'>J. A. Gillispie</rs></hi>, the <rs ref='#S95578'>Sheriff</rs> of this Parish, Knows the place. He declines to make the arrest on the advertisement (copy enclosed) offering Two Hundred Dollars reward.
+</p>
+
+<p corresp='TTP32055053P4' xml:id='OTP32055053P4'>I have in my possession seven affidavits, Either one sufficiently strong to <rs ref='#S71046'>convict</rs> <rs ref='#S63177'><hi rend='underline'>Hewett</hi></rs> of an attempt to <rs ref='#S53668'>assassinate</rs> <hi rend='underline'><rs ref='#S32025121'>G. C. M<add place='above'>c</add>Kee</rs></hi>, on the R. E. Sec, on the 23<add place='above'>d</add> of December 1868.
+</p>
+
+<p corresp='TTP32055053P5' xml:id='OTP32055053P5'><hi rend='underline'>Hewett</hi> is the same party who was <rs ref='#S32121282'>tried</rs> and <rs ref='#S71046'>convicted</rs> for the <rs ref='#S63919'>tarring</rs> of <hi rend='underline'><rs ref='#S89457'>Stewart</rs></hi>, 
+</p>
+
+
+        </div>
+        <pb xml:id="F32055054" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:15862/full/full/0/default.jpg"/>
+        <div xml:id="OTP32055054">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32055054P0' xml:id='OTP32055054P0'>a <rs ref='#S57096'>colored</rs> <rs ref='#S56589'>school-teacher</rs>, by a <rs ref='#S78266'>Military Commission</rs> at <rs ref='#S51788'>Vicksburg</rs>.
+</p>
+
+<p corresp='TTP32055054P1' xml:id='OTP32055054P1'>If his arrest cannot be effected on this application, I respectfully ask that I may be informed as to what steps will be necessary to accomplish this end.
+</p>
+
+<p corresp='TTP32055054P2' xml:id='OTP32055054P2'><hi rend='underline'>Hewett</hi> <rs ref='#S32061378'>escaped</rs> from a Military guard at this Post on the 27<add place='above'><hi rend='underline'>th</hi></add>,, of Dec. 1868,
+</p>
+
+<p corresp='TTP32055054P3' xml:id='OTP32055054P3'>I have the honor to be,<lb/>
+Very respectfully,<lb/>
+Your Obedient Servant.
+</p>
+
+<p corresp='TTP32055054P4' xml:id='OTP32055054P4'><rs ref='#S32022573'>N A M Dudley</rs><lb/>
+Major <rs ref='#S32122246'>24<add place='above'><hi rend='underline'>th</hi></add>, Infantry</rs>,<lb/>
+Brevet Colonel, U.S.Army,<lb/>
+Commanding Post.
+</p>
+
+
+        </div>
+        <pb xml:id="F32055055" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:15863/full/full/0/default.jpg"/>
+        <div xml:id="OTP32055055">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32055055P0' xml:id='OTP32055055P0'>State of Louisiana<lb/>
+<rs ref='#S32003151'>Executive Department</rs><lb/>
+<rs ref='#S63017'>New Orleans</rs> Jan'y 12<add place='above'>th</add>/'69
+</p>
+
+<p corresp='TTP32055055P1' xml:id='OTP32055055P1'>Respectfully returned to Gen Dudley with the information that in order to have the Governor issue a warrant for the arrest of a fugitive from Justice who has com-mitted an offence in another State, it must be upon the requisition of the <rs ref='#S52648'>Governor of such State</rs> which will undoubtedly be granted upon presentation of an <rs ref='#S95194'>indictment</rs> or affidavit against the party whose apprehension is desired.
+</p>
+
+<p corresp='TTP32055055P2' xml:id='OTP32055055P2'>By order of the Governor,
+</p>
+
+<p corresp='TTP32055055P3' xml:id='OTP32055055P3'><rs ref='#S32026128'>F, C, Remick</rs><lb/>
+<rs ref='#S95466'>Priv't Sect'y</rs> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Norman and Company to Mississippi Governor Charles Clark; December 1863</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 28 edits between
+              <date type="first_edit" when="2022-09-25T15:48:43Z">September 25, 2022</date> and
+              <date type="last_edit" when="2023-11-17T18:09:59Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 9 edits between
+              <date type="first_edit" when="2022-09-25T03:43:16Z">September 25, 2022</date> and
+              <date type="last_edit" when="2022-09-25T04:54:07Z">September 25, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25090807">
+          <persName
+            >
+            Patricia Parrish
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2022-07-23T23:55:13Z">July 23, 2022</date> and
+              <date type="last_edit" when="2022-07-24T04:36:58Z">July 24, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-21T03:42:32Z">October 21, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-09-07T18:06:02Z">September  7, 2023</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:47:51+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S52436">
+              <persName>Clark, Charles, 1811-1877</persName>
+                <idno>https://en.wikipedia.org/wiki/Charles_Clark_(governor)</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52436P0'>Charles Clark served as Mississippi’s governor during the last two years of the Civil War. Born in Cincinnati, Ohio, on May 24, 1811, Clark later moved to Mississippi, where he became a lawyer and a state representative in the late 1830s. After successfully representing a Mississippi settler in a land dispute with members of the Choctaw Nation in the early 1840s, Clark received a large tract of land near Beulah, Mississippi, as payment. Clark eventually enlarged his property to over five thousand acres, making it one of the largest and most successful plantations in Mississippi. During this time, he married Ann Eliza Darden and between 1840 and 1852 fathered three children.
+</p>
+
+<p xml:id='OTPS52436P1'>Clark volunteered for military service during the Mexican-American War in 1846 and raised a company of volunteers that was placed into the 2nd Mississippi Regiment. After its original commander resigned, Clark was elected colonel. Following the war in 1848, he returned to Mississippi resumed an interest in politics. He was selected as a delegate to a state convention in 1851 that debated the matter of secession in the wake of the Compromise of 1850, which had tried to settle a fierce dispute over the fate of slavery in territories gained by the United States from Mexico. Clark attended the convention as a Unionist, opposed to withdrawing from the Union. Developments over the next ten years changed his mind.
+</p>
+
+<p xml:id='OTPS52436P2'>Clark won a seat in the Mississippi’s House of Representatives as a Whig, serving from 1856 to 1861. Following Abraham Lincoln’s election as president in 1860, Clark embraced Mississippi’s secession. When the Civil War broke out, Clark received a commission as a brigadier general in the Mississippi Militia. He later entered the Confederate Army and eventually took command of a division. Slightly wounded at the Battle of Shiloh in April 1862, he was more seriously wounded and captured during fighting at Baton Rouge, Louisiana, in August 1862. Clark spent a short time as a prisoner of war before he was paroled by Union forces.
+</p>
+
+<p xml:id='OTPS52436P3'>In 1863, Clark ran for governor of Mississippi, in the wake of Confederate defeats at Vicksburg and Jackson. Clark campaigned on continued resistance to the Union and easily won the executive seat. Due to Union campaigns in Mississippi, Clark periodically moved the state government, from Jackson to Macon, then to Columbus, and back to Macon. When Confederate forces in Mississippi surrendered in May 1865, Clark instructed the state legislature to convene for a special session in Jackson. In June 1865, federal troops at Jackson arrested Clark and imprisoned him at Fort Pulaski, Georgia.
+</p>
+
+<p xml:id='OTPS52436P4'>Eventually released from federal custody, Clark returned to Bolivar County, Mississippi. He quietly practiced law and served on the University of Mississippi Board of Trustees during Reconstruction. In 1876, Clark received an appointment as chancellor for the fourth judicial district. He died a year later, on December 17, 1877. Clark is buried in a family cemetery at Beulah, Mississippi.
+</p>
+
+<p xml:id='OTPS52436P5'>(Wikipedia; David Sansing, “Charles Clark: Twenty-fourth Governor of Mississippi: 1863–1865,” Mississippi History Now; FindaGrave)
+</p>
+
+<p xml:id='OTPS52436P6'>Charles Clark belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S95173">
+              <persName>Turner, Whitman Coke, 1822-1868</persName>
+                <idno>https://www.findagrave.com/memorial/68196571/martha-elizabeth-turner</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS95173P0'>Whitman Coke Turner was a businessman in Mississippi during the mid-nineteenth century.
+</p>
+
+<p xml:id='OTPS95173P1'>Born in Jasper County, Georgia, around 1822, Turner moved to Alabama as a young man and then settled in Enterprise, Mississippi, in the 1850s. He found success in business pursuits in Enterprise, including co-owning a commercial horse stable. By 1862, his company sold saddles and holsters for state and local cavalry militia units. By 1863, he was commissioned as a salt agent by the Mississippi state government, tasked with acquiring the large quantities of the vital mineral from various sources for private and public use.
+</p>
+
+<p xml:id='OTPS95173P2'>Before, during, and after the Civil War, Turner was active in local politics, serving in several conventions and community meetings. In 1865, shortly after the end of the Civil War, Turner accepted a nomination to the Mississippi constitutional convention in a written statement, declaring that he had opposed secession but followed his state through the Civil War, and calling on all Mississippians to accept President Andrew Johnson’s Reconstruction policies to quickly reestablish Mississippians statehood in the Union.
+</p>
+
+<p xml:id='OTPS95173P3'>Turner died in 1868 at only 46 years of age. He was married to Martha Elizabeth Hundley and had seven children.
+</p>
+
+<p xml:id='OTPS95173P4'>(“R. W. Turner,” May 22, 1915, Texas Death Certificates, 1903-1982; <hi rend='italic'>The Weekly Democrat</hi>, Natchez, MS, November 2, 1868; <hi rend='italic'>Natchez Democrat</hi>, Natchez, MS, February 5, 1861, and September 24, 1862; <hi rend='italic'>The Daily Clarion</hi>, Meridian, MS, July 30, 1865; FindaGrave)
+</p>
+
+<p xml:id='OTPS95173P5'>Whitman Coke Turner belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S97207">
+              <persName>Pemberton, John C. (John Clifford), 1814-1881</persName>
+                <idno>https://en.wikipedia.org/wiki/John_C._Pemberton</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS97207P0'>John C. Pemberton was a Confederate general, most famous for commanding troops in the unsuccessful defense of Vicksburg, Mississippi, in 1863.
+</p>
+
+<p xml:id='OTPS97207P1'>Born in Philadelphia, Pennsylvania, on August 10, 1814, Pemberton was raised and educated in the north. He graduated from the United States Military Academy at West Point, New York, in 1837, and immediately afterwards served as a U.S. artillery officer in the Second Seminole War in Florida. He remained a professional soldier for the next two decades, serving at various forts and posts in the United States, along the Canadian border, and in the west. During the Mexican-American War, from 1846 to 1848, Pemberton served with the 4th U.S. Artillery and took part in the battles of Palo Alto, Resaca de La Palma, and Monterrey. He earned the brevet (honorary) rank of captain for his actions at Monterrey. He continued to serve with distinction at several other engagements in Mexico, including the storming of Chapultepec castle and the battle at Mexico City.
+</p>
+
+<p xml:id='OTPS97207P2'>In 1848, following the Mexican-American War, Pemberton married Martha Thompson of Virginia. The couple had one daughter and three sons, all born in the 1850s. Pemberton continued to serve at a variety of posts in the United States, and saw additional action in Florida against the Seminoles from 1849 to 1850, and then again from 1856 to 1857. After spending a year in New Mexico Territory and three years in Minnesota, Pemberton was sent to Washington, D.C., in the spring of 1861, in the midst of the secession crisis. Despite his northern upbringing, Pemberton resigned his commission from the United States Army when the Civil War erupted in April 1861. He immediately volunteered for Confederate service and received an appointment as assistant adjutant general of Confederate forces at Richmond, Virginia.
+</p>
+
+<p xml:id='OTPS97207P3'>Because of his lengthy military experience, Pemberton rose quickly in Confederate ranks, reaching major general in January 1862. He was placed in command of the military department defending Georgia and South Carolina, but soon ran into conflict with the states’ governors who objected to Pemberton's assertion that the survival of his army was more important than defending the region, and due to mistrust of his northern heritage. Confederate President Jefferson Davis placed the more popular General P. G. T. Beauregard in charge of the defense of Georgia and South Carolina and relocated Pemberton to a new military department in Mississippi.
+</p>
+
+<p xml:id='OTPS97207P4'>At his new assignment in Mississippi, in the fall of 1862, Pemberton received the promotion to lieutenant general. He was responsible for defending the Mississippi River and key port towns, such as Vicksburg, from federal attack. Unlike the more famous Confederate armies to the east, Pemberton’s command was made up of southern troops who had suffered several defeats against aggressive Union commanders at battles like Shiloh and Corinth. Many of Pemberton’s troops were separated, and he struggled to unite his force to stage an effective defense against Ulysses S. Grant’s Union army, which began a campaign for Vicksburg in December 1862. Making matters worse for the Confederate general, his orders were to hold Vicksburg at all cost—meaning that he had limited ability to maneuver or even withdraw to save his army in the face of Grant’s larger force.
+</p>
+
+<p xml:id='OTPS97207P5'>Between December 1862 and July 1863, Grant conducted a slow, creative, but ultimately persistent campaign to surround and capture Vicksburg. Utilizing his aggressive subordinate William T. Sherman, Grant cut Pemberton and his Confederate troops off at Vicksburg and burned Mississippi’s capital of Jackson in May 1863. After being besieged in Vicksburg by Grant’s troops for six weeks, Pemberton realized he had no other choice but to surrender. On July 4, 1863, Pemberton ordered his army to lay down its arms and open Vicksburg to Grant’s army. The defeat occurred one day after Robert E. Lee’s battlefield loss at Gettysburg, Pennsylvania, delivering a double blow to Confederate morale.
+</p>
+
+<p xml:id='OTPS97207P6'>Pemberton and his men were captured and paroled by Union forces—a practice by which prisoners were allowed to return home or to encampments under the sworn oath not to take up arms until formally exchanged for Union prisoners. Pemberton traveled to Richmond where he remained idle for several months. Not receiving a new assignment, he resigned his general’s commission in May 1864. President Davis offered him a conciliatory assignment as a lieutenant colonel of artillery, which he accepted. He temporarily commanded the artillery defense of Richmond before taking an appointment as inspector general of artillery. Pemberton was captured by Union troops in mid-April 1865 during the final days of the war.
+</p>
+
+<p xml:id='OTPS97207P7'>Following the Civil War, Pemberton moved to Warrenton, Virginia. He remained there until 1876, when he moved back to Pennsylvania. He lived quietly on a farm, passing away in 1881. Pemberton is buried in Laurel Hill Cemetery East in Philadelphia, Pennsylvania.
+</p>
+
+<p xml:id='OTPS97207P8'>(Wikipedia; National Park Service, American Battlefield Trust; FindaGrave)
+</p>
+
+<p xml:id='OTPS97207P9'>John Clifford Pemberton belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S94852">
+              <placeName>Mississippi--Newton County. Hickory</placeName>
+                <idno>https://archive.org/details/mississippicomp01rowlgoog/page/860/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS94852P0'>Located in Newton County, Hickory was founded in 1860. (Dunbar Rowland, <hi rend='italic'>Mississippi</hi>, 860)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.3176, -89.0256</geo>
+                </note>
+            </place>
+            <place xml:id="S84021">
+              <placeName>Mississippi--Jones County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/jones-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS84021P0'>Located in southeast Mississippi, Jones County was established January 24, 1826 from Covington and Wayne counties. It was renamed Davis County on December 1, 1865 until December 1, 1869, when it reverted back to the name Jones County. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.62, -89.17</geo>
+                </note>
+            </place>
+            <place xml:id="S62905">
+              <placeName>Mississippi--Newton County. Decatur</placeName>
+                <idno>https://en.wikipedia.org/wiki/Decatur,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS62905P0'>Located in Newton County, Decatur was founded in 1836 and serves as the county seat. (Wikipedia; Rowland, <hi rend='italic'>Mississippi</hi>, 639)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.43944, -89.11194</geo>
+                </note>
+            </place>
+            <place xml:id="S56367">
+              <placeName>Alabama--Dallas County. Selma</placeName>
+                <idno>http://encyclopediaofalabama.org/article/h-1635</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS56367P0'>Currently located in Dallas County, Selma was founded under the name Moore’s Bluff in 1815 in what was Monroe County, Mississippi, at the time of founding. It became part of the newly created Montgomery County, Mississippi, on December 5, 1816, which was changed to Alabama territory on March 2, 1817. On February 8, 1818, Moore's Bluff became part of the newly created Dallas County. It was renamed Selma on December 4, 1820, when it was incorporated. Selma became the county seat in 1866. (Encyclopedia of Alabama; Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.41639, -87.02472</geo>
+                </note>
+            </place>
+            <place xml:id="S51788">
+              <placeName>Mississippi--Warren County. Vicksburg</placeName>
+                <idno>https://archive.org/details/mississippicomp00rowlgoog/page/858/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51788P0'>Located in Warren County, Mississippi, Vicksburg was founded under the name Fort Nogales as early as 1790 in what was then unincorporated territory. In 1798, upon creation of Mississippi Territory, it was renamed Walnut Hills. On April 1, 1799, Walnut Hills became part of the newly created Pickering County (later renamed Jefferson County on January 10, 1802), until the creation of Claiborne County on January 26, 1802. It then became part of its current county of Warren on December 21, 1809. Upon its incorporation on January 29th, 1825, it was renamed Vicksburg. Vicksburg became the county seat in 1836 and remains today. (Rowland, <hi rend='italic'>Mississippi</hi>, 858; Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.33611, -90.87528</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001328'>
+<catDesc>Commerce &amp; Trade</catDesc>
+          <category xml:id='S102447'>
+            <catDesc>
+              <term>Salt Mines, Works, &amp; Sales</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/mine</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001328'>Commerce &amp; Trade</ptr></ab>
+<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001720'>Extraction, Manufacturing, &amp; Production</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD102447P0'>Mines refer to "a hole or system of holes in the ground where" salt is removed, while works refer to the plant where the salt is commercially prepared. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32002934'>
+            <catDesc>
+              <term>Salt Mines, Works, &amp; Sales--Norman &amp; Company (Hickory, Miss.)</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001328'>Commerce &amp; Trade</ptr></ab>
+<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001720'>Extraction, Manufacturing, &amp; Production</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.31694, -89.02333</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32002934P0'>Not identified. Contact us at cwrgmproject@gmail.com to provide more information.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001720'>
+<catDesc>Extraction, Manufacturing, &amp; Production</catDesc>
+          <category xml:id='S58312'>
+            <catDesc>
+              <term>Foundries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/foundry?q=foundries</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001720'>Extraction, Manufacturing, &amp; Production</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58312P0'>"A factory where metal is melted and poured into specially shaped containers to produce objects." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001720S102447'>
+<catDesc>
+<term><rs ref='S102447'>Salt Mines, Works, &amp; Sales</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001720S32002934'>
+<catDesc>
+<term><rs ref='S32002934'>Salt Mines, Works, &amp; Sales--Norman &amp; Company (Hickory, Miss.)</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S32008490'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Impressment</term>
+              <idno>https://encyclopediavirginia.org/entries/confederate-impressment-during-the-civil-war/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32008490P0'>As the American Civil War extended into its third year, the Confederate government found itself deeply indebted and unable to provide food, clothing, and other necessities for its army. On March 26, 1863, the Confederate government passed the Impressment Law. Under this law, state boards of impressment, with the assistance of local commissioners, impressed food, fuel, enslaved persons, and other commodities to support the war effort and to pay off its debts. Commissioners met with local farmers to fix prices for their commodities, subject to revision every two months. One month later, the Confederate government enacted a tax-in-kind. The tax-in-kind required farmers to donate ten percent (to be judged by a collector) of their produce in lieu of taxes paid in currency.
+</p>
+
+<p xml:id='OTPSD32008490P1'>Both of these policies increased tensions between white southerners and the Confederate government. Farmers and their families often felt cheated by government agents offering far less than market value for their goods. Areas close to fighting also disproportionately experienced impressment, as Confederate armies on the ground often stripped their farms clean. The Confederacy also impressed enslaved persons to perform labor, and the brutality of that labor often resulted in the death, injury, or mistreatment of the enslaved, who, if returned at all, did so in much worse condition than they left. The Confederate government also routinely failed to pay for impressed goods and kept enslaved persons longer than their agreed impressment period. Impressment, then, led to protests among rural white southerners, some of whom hoarded their goods from collectors or impersonated collectors in order to acquire food for themselves and their families. The tax-in-kind alone garnered roughly $62 million for the Confederacy from 1863 to 1865, yet combined with impressment, these policies alienated much of the Confederacy's local support and failed to fully pay its debts or win the war. (Encyclopedia Virginia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25026123'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Impressment. War Material</term>
+              <idno>https://encyclopediavirginia.org/entries/confederate-impressment-during-the-civil-war/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25026123P0'>As the American Civil War extended into its third year, the Confederate government found itself deeply indebted and unable to provide food, clothing, and other necessities for its army. On March 26, 1863, the Confederate government passed the Impressment Law. Under this law, state boards of impressment, with the assistance of local commissioners, impressed food, fuel, enslaved persons, and other commodities to support the war effort and to pay off its debts. Commissioners met with local farmers to fix prices for their commodities, subject to revision every two months. One month later, the Confederate government enacted a tax-in-kind. The tax-in-kind required farmers to donate ten percent (to be judged by a collector) of their produce in lieu of taxes paid in currency.
+</p>
+
+<p xml:id='OTPSD25026123P1'>Both of these policies increased tensions between white southerners and the Confederate government. Farmers and their families often felt cheated by government agents offering far less than market value for their goods. Areas close to fighting also disproportionately experienced impressment, as Confederate armies on the ground often stripped their farms clean. The Confederacy also impressed enslaved persons to perform labor, and the brutality of that labor often resulted in the death, injury, or mistreatment of the enslaved, who, if returned at all, did so in much worse condition than they left. The Confederate government also routinely failed to pay for impressed goods and kept enslaved persons longer than their agreed impressment period. Impressment, then, led to protests among rural white southerners, some of whom hoarded their goods from collectors or impersonated collectors in order to acquire food for themselves and their families. The tax-in-kind alone garnered roughly $62 million for the Confederacy from 1863 to 1865, yet combined with impressment, these policies alienated much of the Confederacy's local support and failed to fully pay its debts or win the war. (Encyclopedia Virginia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S52712'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Raid</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/raid?q=Raid</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD52712P0'>"To attack a place suddenly." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001677'>
+<catDesc>Agricultural &amp; Natural Resource Occupations</catDesc>
+          <category xml:id='S25003022'>
+            <catDesc>
+              <term>Salt Industry Employees</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/contractor</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001677'>Agricultural &amp; Natural Resource Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25003022P0'>"A person or company that arranges to supply materials or workers" in the salt industry. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001711'>
+<catDesc>Local Governments</catDesc>
+          <category xml:id='S73012'>
+            <catDesc>
+              <term>Post Offices</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/post-office</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001711'>Local Governments</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD73012P0'>"A place where stamps are sold and from where letters and packages are sent." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S96659'>
+            <catDesc>
+              <term>Impoverished People</term>
+              <idno>https://www.britannica.com/topic/poverty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96659P0'>Impoverished people are those who lack "a usual or socially acceptable amount of money or material possessions," or alternately those who "lack the means to satisfy their basic needs (Britannica). This definition, necessarily subjective and broad, indicates that what one person or society deems "socially acceptable" or what constitutes "basic needs" is malleable.
+</p>
+
+<p xml:id='OTPSD96659P1'>Similarly, impoverished people in the United States in the nineteenth century did not fit one specific category. The rise of industrialism produced an increased number of impoverished people in the U. S., particularly within large urban centers. European immigrants in cities in the East, and Chinese immigrants on the West Coast, and African Americans in the South were disproportionately affected by poverty. Regionally, the highest number of impoverished people came from the U. S. South, where "both whites and African Americans struggled with debt, low cotton prices, laws favorable to employers and creditors, paltry alternatives, and the general post war devastation" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 547).
+</p>
+
+<p xml:id='OTPSD96659P2'>Racism and nativism among employers and employees also made economic advancement more difficult for people of color and immigrants. However, the impoverished made up a comparatively low percentage of Mississippi's antebellum population, given its low number of immigrants and even native residents, lack of industrialization and urbanization, and mobility of those that were impoverished (Mississippi Encyclopedia). Many reform organizations throughout the country took the lead in fighting poverty in the nineteenth century, while state and federal governments by the end of the century also developed its own institutional responses. The status of being impoverished has always carried negative connotations in American history, so CWRGM uses the tag "Impoverished people" to emphasize the personhood of those in poverty rather than their social status. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Clark Series 768</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1863</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Norman and Company</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1863-12-?</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Clark Collection. Letter from the firm of Norman and Company at Decatur, Mississippi, to Mississippi Governor Charles Clark at Macon, Mississippi, regarding their contract and operations to provide salt for the state of Mississippi.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 13&quot; 4-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Decatur (Miss.); Vicksburg (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_768-949-02-27</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Newton County (Miss.); Warren County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Dalton Wood; McKenna Fussell; Michael Singleton; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 949, Folder 2</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Clark, Charles, 1811-1877; Confederate States of America. Army; Confederate States of America. Army--Officers; Confederate States of America. Army--Ordnance and ordnance stores; Families of military personnel; Mississippi. Governor; Pemberton, John C. (John Clifford), 1814-1881; Pettus, John Jones, 1813-1867; Poverty; Public contracts; Public officers; Salt</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Norman and Company to Mississippi Governor Charles Clark; December 1863</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/21461&quot;&gt;Letter from Norman and Company to Mississippi Governor Charles Clark; December 1863&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG50" who="U32019810" when="2024-10-21T03:42:32Z" target="#P32418565">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG49" who="U220769" when="2023-11-17T18:09:59Z" target="#P32418565">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG48" who="U220769" when="2023-11-17T18:08:24Z" target="#P32418569">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG47" who="U220769" when="2023-11-02T17:58:51Z" target="#P32418575">
+          Version 17 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U220769" when="2023-11-02T15:56:50Z" target="#P32418575">
+          Version 16 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U220769" when="2023-11-02T15:32:04Z" target="#P32418575">
+          Version 15 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U220769" when="2023-11-02T03:31:08Z" target="#P32418565">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U25091356" when="2023-09-07T18:06:02Z" target="#P32418575">
+          Version 14 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2023-09-03T14:21:38Z" target="#P32418565">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-09-03T01:45:46Z" target="#P32418565">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-09-03T01:45:13Z" target="#P32418565">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-09-03T01:02:34Z" target="#P32418565">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-09-03T01:02:33Z" target="#P32418565">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-09-02T20:38:03Z" target="#P32418575">
+          Version 13 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-09-02T20:25:13Z" target="#P32418565">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-09-02T20:06:00Z" target="#P32418569">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-04-06T17:49:31Z" target="#P32418575">
+          Version 12 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-03-18T21:54:47Z" target="#P32418569">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-18T21:38:35Z" target="#P32418565">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-18T20:38:29Z" target="#P32418565">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-18T16:11:13Z" target="#P32418575">
+          Version 11 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-18T04:55:42Z" target="#P32418575">
+          Version 10 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-18T00:49:43Z" target="#P32418575">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-17T23:11:00Z" target="#P32418565">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-04T20:17:06Z" target="#P32418565">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2022-12-04T16:49:39Z" target="#P32418569">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2022-12-04T01:24:09Z" target="#P32418575">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2022-09-25T15:57:24Z" target="#P32418575">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2022-09-25T15:55:27Z" target="#P32418569">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2022-09-25T15:48:43Z" target="#P32418565">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U25091195" when="2022-09-25T04:54:07Z" target="#P32418575">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25091195" when="2022-09-25T04:50:10Z" target="#P32418569">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091195" when="2022-09-25T04:48:28Z" target="#P32418565">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091195" when="2022-09-25T04:31:43Z" target="#P32418580">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091195" when="2022-09-25T04:24:58Z" target="#P32418575">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091195" when="2022-09-25T04:20:07Z" target="#P32418575">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091195" when="2022-09-25T04:18:41Z" target="#P32418575">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091195" when="2022-09-25T04:09:28Z" target="#P32418569">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091195" when="2022-09-25T03:43:16Z" target="#P32418565">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25090807" when="2022-07-24T04:36:58Z" target="#P32418580">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25090807" when="2022-07-24T04:36:57Z" target="#P32418580">
+          Version 1 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25090807" when="2022-07-24T04:35:29Z" target="#P32418575">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25090807" when="2022-07-24T04:35:27Z" target="#P32418575">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25090807" when="2022-07-24T04:27:02Z" target="#P32418569">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25090807" when="2022-07-24T04:27:01Z" target="#P32418569">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25090807" when="2022-07-23T23:55:13Z" target="#P32418565">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25090807" when="2022-07-23T23:55:13Z" target="#P32418565">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2022-06-27T19:53:15Z" target="#P32418580">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2022-06-27T19:53:11Z" target="#P32418575">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-06-27T19:53:07Z" target="#P32418569">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-06-27T19:53:04Z" target="#P32418565">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32418565" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:21457/full/full/0/default.jpg"/>
+        <div xml:id="OTP32418565">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32418565P0' xml:id='OTP32418565P0'><rs ref='#S62905'>Decatur</rs> Miss Dec 1863
+</p>
+
+<p corresp='TTP32418565P1' xml:id='OTP32418565P1'>To His Excellency Gov <rs ref='#S52436'>Charles Clark</rs> <lb/>
+Macon Miss
+</p>
+
+<p corresp='TTP32418565P2' xml:id='OTP32418565P2'>Government
+</p>
+
+<p corresp='TTP32418565P3' xml:id='OTP32418565P3'>We have just seen Captain <rs ref='#S95173'>W. C. Turner</rs> <rs ref='#S25003022'>Salt ag-ent</rs> who informed us that you suggested that we should submit to you a proposition in writing of what we were willing to do in the matter of the contract made by us with Gov <rs ref='#S63111'>Pettus</rs> to <rs ref='#S102447'>make for the State Twenty thousand (20000) Bu Salt</rs> &amp; we will state for your information that we made that contract in good faith, but at the time we made it we felt doubtful about being able to get boiling power sufficient to make it The agent of the State with whom we made the contract informed us that Gov Pettus would give such authority or recommendation [page torn]o the different <rs ref='#S58312'>founderies</rs> in the Confederacy tha[page torn] he had no doubt but that we would get any amoun[page torn] we wanted, The Gov gave us a letter which we carri[page torn] to <rs ref='#S56367'>Selma</rs> and thare made a contract to have one hundred (100) kettles cast with ^a^ capacity of one hundred twenty five (125) gallons each. We went foreward and bored Four (4) artesian wells at a great expense and when we went after the Kettles were informed that Gen <rs ref='#S97207'>Pemberton</rs> had sent orders to <rs ref='#S25026123'>press</rs> every foundery to make balls shells &amp; C for <rs ref='#S51788'>Vicksburg</rs> and we got none We drew some Eighteen or Twenty Thousand dollars (18 or 20000) from Captain W. C. Turner to pay for these Kettles which money we have never used and still have on hand The little furnaces we have ^we had^ upon our own account, We have let the state have nearly Twelve hundred (1200 Bu. salt at Six $6<add place='above'><hi rend='underline'>00</hi></add> per Bu from furnaces that only yeild from Ten to Twenty Bu salt per day, When we found that we could not ge[page torn]
+</p>
+
+
+        </div>
+        <pb xml:id="F32418569" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:21458/full/full/0/default.jpg"/>
+        <div xml:id="OTP32418569">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32418569P0' xml:id='OTP32418569P0'>Boiling power we wrote Gov Pettus to that effect and proposed to cancel the contract and restore the salt we had soled for we had soled some six or eight hundred Bushels under the panic that was created by the report that a <rs ref='#S52712'>raid</rs> was about to be made on the salt works which raid was captured in <rs ref='#S84021'>Jones County</rs> last Summer, We replied and Captain Turner and we construed his reply to mean that he would require of us to fulfill our contract up to that time we here with enclose his reply. We concluded that under the circumstances it would neither be just nor right for us to loose that amt and we refused to do it and have sold<del rend='overstrike'>ed</del> as we have made all the salt manufactured by us His reply was dated 18<add place='above'><hi rend='underline'>th</hi></add> September. up to that time as per contract we were due the State nine thousand Bu Salt which would have cost us at the then ruling prices Two hundred twenty five thousand dollars One hundred five thousand more than our bond. We have as all ready stated neve used one dollar of the state funs in or upon our own little furnaces. We used the provisions. We now propose to make the stat <del rend='overstrike'>hold</del>^whole^ to return all the money we have receiv-ed and to pay for the provisions not at contract prices but at the prices paid by Capt W. C. Turner for them and we are willing to let the state have in part pay the two wells and furnaces of ours situate in one hundred yards of the [coorks?] run by the state with our wood privoliges which cost us only about Twenty five thousand dollars now worth double the amount or at such price as may be greed upon by three disinterested persons, We have all ready furnished the state near Twelve hundred Bu salt at Six dollars per Bu which we could have solded <del rend='overstrike'>afor</del>for four times the amount received for ^it^
+</p>
+
+
+        </div>
+        <pb xml:id="F32418575" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:21459/full/full/0/default.jpg"/>
+        <div xml:id="OTP32418575">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32418575P0' xml:id='OTP32418575P0'>it and considering this we think our proposition just and fair. We dont want the state of Miss to loose one dollar by us nor have we ever desired the <rs ref='#S96659'>indigent</rs> <rs ref='#S25013472'>families of Soldiers</rs> to suffer by us but if we were to be ruined by it as we would have been according to Gov Pettus demand when we had done all we could we thought it to hard and refused to do ^it^. We do not desire to be forsed to do our duty by the strong arm of the law Yet before we will comply with a requisition so unjust and unfair as Gov Pettes was we will stand a law suit and fight it for ever Hoping that this explaination and proposition on our part will be satisfctory
+</p>
+
+<p corresp='TTP32418575P1' xml:id='OTP32418575P1'>We remain Respectfully Yours
+</p>
+
+<p corresp='TTP32418575P2' xml:id='OTP32418575P2'><rs ref='#S32002934'>Norman &amp;, Co</rs>
+</p>
+
+<p corresp='TTP32418575P3' xml:id='OTP32418575P3'>(PS) Our <rs ref='#S73012'>Post office</rs> is at <rs ref='#S94852'>Hickory Newton Cty</rs> <hr/>
+</p>
+
+
+        </div>
+        <pb xml:id="F32418580" n="4" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:21460/full/full/0/default.jpg"/>
+        <div xml:id="OTP32418580">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP32418580P0' xml:id='OTP32418580P0'>Letter Dec 1863 of Norman &amp;co as to salt Bures trust
+</p>
+
+<p corresp='TTP32418580P1' xml:id='OTP32418580P1'>Gov. Clark—
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

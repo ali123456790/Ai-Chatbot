@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from General Reuben Davis to Mississippi Governor John Jones Pettus; July 20, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 16 edits between
+              <date type="first_edit" when="2021-02-23T22:48:22Z">February 23, 2021</date> and
+              <date type="last_edit" when="2024-03-06T15:17:49Z">March  6, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228005">
+          <persName
+            >
+            Heather A Haslem
+            </persName>
+            <resp>
+              made 11 edits between
+              <date type="first_edit" when="2021-02-24T03:00:09Z">February 24, 2021</date> and
+              <date type="last_edit" when="2021-02-24T03:09:03Z">February 24, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-03-01T12:53:18Z">March  1, 2021</date> and
+              <date type="last_edit" when="2021-03-01T12:55:57Z">March  1, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228445">
+          <persName
+            >
+            Abby Cawley
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-02-19T22:06:13Z">February 19, 2021</date> and
+              <date type="last_edit" when="2021-02-19T22:17:01Z">February 19, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T14:50:37Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T19:01:16+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S96505">
+              <persName>Grisham, W. P.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S94473">
+              <persName>Hill, W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S91595">
+              <persName>Davis, Reuben, 1813-1890</persName>
+                <idno>https://mississippiencyclopedia.org/entries/reuben-davis/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS91595P0'>Reuben Davis was a U.S. congressman from Mississippi and a Mississippi militia general during the Civil War.
+</p>
+
+<p xml:id='OTPS91595P1'>Born in Winchester, Tennessee, on January 18, 1813, Davis moved with his family to Alabama as a child and later to Mississippi as a young man. He initially studied medicine, but found his passion lay more in the study of law. He was admitted to the bar in 1834 in Aberdeen, Mississippi, and over the next several years became a prominent criminal attorney. He served as the prosecuting attorney for the sixth judicial district in the late 1830s and turned his interests to politics. He made an unsuccessful run for the U.S. House of Representatives as a member of the Whig Party in 1838.
+</p>
+
+<p xml:id='OTPS91595P2'>Davis volunteered for military service during the Mexican-American War, receiving a commission as colonel of the Second Regiment of Mississippi Volunteers. He served in Mexico, but reportedly suffered from medical problems and eventually resigned his position, having not seen combat. Davis returned to Mississippi and during the next few years resumed his political aspirations. He won a seat in the U.S. House of Representatives as a Democrat in 1856. Serving during a period of growing tensions over slavery, especially in the wake of the Kansas-Nebraska Act of 1854, which opened western territories to slavery, Davis was among the prominent southern voices in Congress defending the institution of slavery and easily won reelection in 1858. He adopted a strong secessionist sentiment, and advocated for southern unity against Abraham Lincoln’s election to the presidency in 1860. Davis resigned his congressional seat upon Mississippi’s secession and received an appointment as a general on the state’s military board.
+</p>
+
+<p xml:id='OTPS91595P3'>In late 1861, Davis was placed in command of the Army of 10,000—a unit of Mississippi soldiers who had volunteered for sixty days—in a campaign to Kentucky. The militia force actually numbered fewer than 5,000 men, and its short-term enlistments left little time for formal training or organization. As a result, the Army of 10,000 was poorly prepared for field service, and the volunteers spent their entire time in Kentucky in camp, suffering from cold weather and disease, before returning home in January 1862. Davis’s reputation as a military commander suffered as a result of the event.
+</p>
+
+<p xml:id='OTPS91595P4'>In 1862, Davis left the Mississippi militia and reentered politics. He won election to the Confederate House of Representatives and soon became a vocal critic of President Jefferson Davis (no relation), in particular over the Confederate government’s efforts to draft men into military service. Reuben Davis resigned his congressional seat in 1863 and unsuccessfully ran for governor of Mississippi.
+</p>
+
+<p xml:id='OTPS91595P5'>After the war, Davis initially resumed his law practice. However, he became involved in efforts to undermine Republican Reconstruction, making speeches and rallying white Mississippians to oppose African American rights. Shortly after Reconstruction ended, Davis broke from the Democratics to join the Greenback Party—an independent, anti-monopoly political party that united many state-level politicians in the north and the south on economic matters. He ran for Congress as a Greenback candidate in 1878, but lost. That was Davis’s last bid for political office. He largely retired from public life and wrote his memoir, entitled <hi rend='italic'>Recollections of Mississippi and Mississippians,</hi>. Davis died on October 24, 1890. He had been married twice, first to Mary Theodosia Halbert who passed away in 1865, and then to Sarah Virginia Garber. He had three children. Davis is buried in Odd Fellows Rest Cemetery in Aberdeen, Mississippi.
+</p>
+
+<p xml:id='OTPS91595P6'>(Wikipedia; FindaGrave; Nancy Prince, “Reuben Davis,” Mississippi Encyclopedia)
+</p>
+
+<p xml:id='OTPS91595P7'>Reuben Davis belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63400">
+              <placeName>Mississippi--Monroe County. Aberdeen</placeName>
+                <idno>https://en.wikipedia.org/wiki/Aberdeen,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63400P0'>Located in Monroe County, Aberdeen was founded in 1837 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.82444, -88.54972</geo>
+                </note>
+            </place>
+            <place xml:id="S91384">
+              <placeName>Tennessee--Obion County. Union City</placeName>
+                <idno>https://tennesseeencyclopedia.net/entries/obion-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS91384P0'>Located in Obion County, Tennessee, Union City was founded in 1852 and serves as the county seat. (Tennessee Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>36.4242, -89.057</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25027084'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Cavalry Battalion, 2nd</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25027084P0'>The 2nd Battalion, Mississippi Cavalry (Confederate), also known as the Jeff Davis Legion, was organized on October 24, 1861 under the command of Col. William T. Martin and served in the Eastern Theater under Young's Brigade. It was later commanded by Col. J. Fred Waring. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 38; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 518-522)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S92605'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Cavalry Battalion, 2nd. Company B</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92605P0'>Commonly known as the Chickasaw Rangers, Company B of the 2nd Battalion, Mississippi Cavalry (Confederate) was organized in Chickasaw County, Mississippi on February 7, 1861 under the command of Capt. James Gordon and served in the Eastern Theater. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 38; Dunbar Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 519)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001682'>
+<catDesc>Medical Occupations</catDesc>
+          <category xml:id='S32085010'>
+            <catDesc>
+              <term>Medical Profession</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/medical-profession?q=Medical+Profession</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085010P0'>"A person with special training in the medical field." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S51103'>
+            <catDesc>
+              <term>Medical Profession--Surgeons</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/surgeon</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD51103P0'>"A doctor who is specially trained to perform medical operations." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63395'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/court?topic=law-courts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63395P0'>"A place where trials and other legal cases happen, or the people present in such a place." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95222'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems--Courts-Martial and Courts of Inquiry</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/court-martial</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95222P0'>"A military court, or a trial in a military court, that judges members of the armed forces." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Davis, Reuben, 1813-1890</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-07-20</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Confederate General Reuben Davis at Aberdeen, Mississippi, to Mississippi Governor John Jones Pettus concerning bringing Mississippi soldiers back from Tennessee.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Aberdeen (Miss.); Tennessee</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-932-12-35</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Monroe County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 932, Folder 12</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Mississippi. Governor; Mississippi. Militia; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from General Reuben Davis to Mississippi Governor John Jones Pettus; July 20, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/3710&quot;&gt;Letter from General Reuben Davis to Mississippi Governor John Jones Pettus; July 20, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG37" who="U2" when="2024-10-25T14:50:37Z" target="#P1691077">
+          Version 33 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2024-03-06T15:17:49Z" target="#P1691077">
+          Version 32 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-11-02T17:56:12Z" target="#P1691077">
+          Version 31 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-03-30T16:22:53Z" target="#P1691077">
+          Version 30 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-03-19T21:01:15Z" target="#P1691077">
+          Version 29 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-18T21:56:37Z" target="#P1691077">
+          Version 28 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-18T02:21:53Z" target="#P1691077">
+          Version 27 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-17T22:09:11Z" target="#P1691077">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-16T19:15:17Z" target="#P1691077">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2022-06-02T11:12:36Z" target="#P1691077">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2021-08-09T22:20:00Z" target="#P1691077">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2021-05-07T23:38:24Z" target="#P1691077">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2021-05-06T02:49:23Z" target="#P1691077">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2021-03-12T00:21:54Z" target="#P1691077">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U217868" when="2021-03-01T12:55:57Z" target="#P1691077">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U217868" when="2021-03-01T12:55:11Z" target="#P1691078">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U217868" when="2021-03-01T12:53:18Z" target="#P1691077">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U228005" when="2021-02-24T03:09:03Z" target="#P1691077">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U228005" when="2021-02-24T03:08:33Z" target="#P1691077">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U228005" when="2021-02-24T03:07:51Z" target="#P1691077">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U228005" when="2021-02-24T03:07:49Z" target="#P1691077">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U228005" when="2021-02-24T03:07:32Z" target="#P1691077">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U228005" when="2021-02-24T03:07:06Z" target="#P1691077">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U228005" when="2021-02-24T03:05:41Z" target="#P1691077">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U228005" when="2021-02-24T03:03:25Z" target="#P1691077">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U228005" when="2021-02-24T03:02:11Z" target="#P1691077">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U228005" when="2021-02-24T03:01:03Z" target="#P1691077">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U228005" when="2021-02-24T03:00:09Z" target="#P1691077">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2021-02-24T00:03:59Z" target="#P1691077">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2021-02-23T22:48:55Z" target="#P1691077">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2021-02-23T22:48:22Z" target="#P1691077">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U228445" when="2021-02-19T22:17:01Z" target="#P1691077">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U228445" when="2021-02-19T22:09:55Z" target="#P1691078">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U228445" when="2021-02-19T22:06:13Z" target="#P1691077">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2021-01-20T21:56:50Z" target="#P1691078">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-01-20T21:56:50Z" target="#P1691077">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-01-20T21:56:46Z" target="#P1691078">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-01-20T21:56:45Z" target="#P1691077">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1691077" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/3708/full/full/0/default.jpg"/>
+        <div xml:id="OTP1691077">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1691077P0' xml:id='OTP1691077P0'>[seal]
+</p>
+
+<p corresp='TTP1691077P1' xml:id='OTP1691077P1'>Headquarters, Army Miss.<lb/>
+<rs ref='#S63400'>Aberdeen</rs> 20 July 1861
+</p>
+
+<p corresp='TTP1691077P2' xml:id='OTP1691077P2'>Sir
+</p>
+
+<p corresp='TTP1691077P3' xml:id='OTP1691077P3'>Inclosed I hand certificates of  <rs ref='#S51103'>surgeons</rs> showing incapacity of <rs ref='#S96505'>W P Grisham</rs> to serve as a soldier. I have just had conversation with. <rs ref='#S94473'> W. Hill</rs> a member of the <rs ref='#S92605'>Chickasaw Rangers</rs> and he informs me that the facts are as stated in the certificate,. I rec-ommend to your Honor that he be dis-charged at once.
+</p>
+
+<p corresp='TTP1691077P4' xml:id='OTP1691077P4'>I also recommend to your Honor to call  those Companies of Miss: Volunteers home as soon as possible, &amp; if it cannot be done in any other way, you had better order me to take com-mand of the troops at <rs ref='#S91384'>Union City</rs> &amp; I will bring them home. I understand that the Tennessee <rs ref='#S95222'>Court Martial</rs> has determined that it has full powers over them Please do not fail to send me Cloth for making tents, and also specimen Knapsack
+</p>
+
+<p corresp='TTP1691077P5' xml:id='OTP1691077P5'>I have the pleasure to be<lb/>
+Yr. Obt. Serv.<add place='above'>t</add>
+</p>
+
+<p corresp='TTP1691077P6' xml:id='OTP1691077P6'><rs ref='#S91595'>Reuben Davis</rs> <lb/>
+<hi rend='underline'>Major Gen<add place='above'>l</add> Miss, Army</hi>
+</p>
+
+<p corresp='TTP1691077P7' xml:id='OTP1691077P7'>His Excellency <lb/>
+<rs ref='#S63111'>John J Pettus</rs> Gov &amp;c<lb/>
+<rs ref='#S51785'>Jackson</rs> Miss.  
+</p>
+
+
+        </div>
+        <pb xml:id="F1691078" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/3709/full/full/0/default.jpg"/>
+        <div xml:id="OTP1691078">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1691078P0' xml:id='OTP1691078P0'>20 July, 1861
+</p>
+
+<p corresp='TTP1691078P1' xml:id='OTP1691078P1'>Genl R Davis asking discharge of Grisham—recom-mends that troops at Union City be brought back. they subject to Court Marshal of Tennessee—wants Cloth for Tents &amp; sample for knap-sack
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Matthew S. Ward to Mississippi Governor John Jones Pettus; April 6, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 19 edits between
+              <date type="first_edit" when="2021-05-09T18:38:26Z">May  9, 2021</date> and
+              <date type="last_edit" when="2023-11-17T18:21:02Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U224896">
+          <persName
+            >
+            Emma Cox 
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2021-03-21T17:05:00Z">March 21, 2021</date> and
+              <date type="last_edit" when="2021-03-21T17:12:31Z">March 21, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217816">
+          <persName
+            >
+            Gracie Breland
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2021-04-07T15:16:55Z">April  7, 2021</date> and
+              <date type="last_edit" when="2021-04-07T15:18:32Z">April  7, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228445">
+          <persName
+            >
+            Abby Cawley
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-03-26T05:10:33Z">March 26, 2021</date> and
+              <date type="last_edit" when="2021-03-26T05:19:30Z">March 26, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-05-26T13:24:02Z">May 26, 2021</date> and
+              <date type="last_edit" when="2021-06-09T19:59:32Z">June  9, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T15:12:38Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T15:12:39Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-08-18T20:12:10Z">August 18, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:37:33+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S105022">
+              <persName>Ward, Matthew S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S90608">
+              <persName>Foote, George P.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S102543">
+              <persName>Beauregard, P. G. T. (Pierre Gustave Toutant), 1818-1893</persName>
+                <idno>https://en.wikipedia.org/wiki/P._G._T._Beauregard</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS102543P0'>Pierre Gustave Toutant Beauregard was a U.S. Army officer, superintendent of the United States Military Academy at West Point, and a Confederate general.
+</p>
+
+<p xml:id='OTPS102543P1'>Born on a sugar plantation in St. Bernard Parish, Louisiana, on May 28, 1818, Beauregard was from a wealthy, slave owning Louisiana Creole family and grew up speaking French. He did not begin to learn English until attending a school in New York City at the age of twelve. Beauregard attended West Point and was an exceptional student, showing great aptitude in artillery and engineering. He graduated second in his class in 1838.
+</p>
+
+<p xml:id='OTPS102543P2'>Beauregard served with distinction as a military engineer during the Mexican-American War from 1846 to 1848. He was brevetted (honorarily promoted) to captain for his performance at the battles of Contreras and Churubusco, and brevetted again to major for his actions at Chapultepec, where he was wounded in the shoulder and thigh. Following the Mexican-American War, Beauregard oversaw military engineering projects along the Mississippi River and the Gulf Coast. However, by 1856 he grew tired of peacetime service and nearly traveled to Nicaragua to take part in a revolution there being carried out by American volunteers. He was talked out of the effort by his Army colleagues, including general-in-chief Winfield Scott (who had personally seen Beauregard’s performances in Mexico). In January 1861, he secured an appointment as superintendent of West Point. However, he held the position for only five days before Louisiana’s secession prompted U.S. Army officials to revoke the orders.
+</p>
+
+<p xml:id='OTPS102543P3'>Beauregard returned to New Orleans in early 1861 and joined the Confederate cause. Because of his previous service and reputation, he was quickly promoted, becoming the first Confederate general on March 1, 1861. His first assignment was command over defenses in Charleston, South Carolina. Federal soldiers there under Major Robert A. Anderson—one of Beauregard’s West Point instructors—occupied Fort Sumter in Charleston Harbor and refused to relinquish the post without a fight. On April 12, 1861, Beauregard ordered Confederate cannons in Charleston to fire on Fort Sumter, and after a thirty-four hour bombardment Anderson surrendered. The attack upon U.S. Army troops sparked the Civil War, as it spurred President Abraham Lincoln to call for 75,000 volunteers to defeat southern secessionists and led to several other southern states to join the Confederacy.
+</p>
+
+<p xml:id='OTPS102543P4'>After his victory at Fort Sumter, Beauregard received command of Confederate forces defending northern Virginia and successfully defeated a Union army under Brigadier General Irvin McDowell at the First Battle of Bull Run, near Manassas, Virginia, in July 1861. Despite these victories, Beauregard ran into controversy. He had a brash personality, and publicly criticized people like Confederate president Jefferson Davis; additionally, he bickered with some Confederate officials over strategy, his critics complaining his plans were overly complicated.
+</p>
+
+<p xml:id='OTPS102543P5'>In early 1862, Beauregard was transferred to the western theater where he became second-in-command of the Army of Mississippi under General Albert Sidney Johnston. The Confederates attacked Ulysses S. Grant’s army at Pittsburgh Landing along the Tennessee River in early April 1862. More famously known as the Battle of Shiloh, Beauregard took command of the Confederate forces after Johnston was mortally wounded. Despite initial success, Beauregard halted his men due to darkness only to withdraw the following day when Grant’s men were reinforced and counterattacked. Receiving criticism for retreating at Shiloh, Beauregard infuriated Confederate officials more when he abandoned the key railroad hub at Corinth, Mississippi, shortly afterwards. Although his withdrawal had been made to avoid being surrounded by a larger Union force, and because his army was suffering greatly from disease and contaminated water at Corinth, the dual retreats hurt Beauregard’s reputation. When he temporarily left his post for medical treatment, Jefferson Davis relieved him of command.
+</p>
+
+<p xml:id='OTPS102543P6'>Beauregard’s next assignment was a return to Charleston to once against take over defenses of the southeastern Confederate coastline. He performed well, frustrating several Union assaults against Charleston Harbor. However, Beauregard believed his position was beneath his abilities. He interjected himself into political matters, proposing negotiations with federal officials and working behind the scenes to increase the number of Confederate troops in the west at the expense of General Robert E. Lee’s army in Virginia.
+</p>
+
+<p xml:id='OTPS102543P7'>In early 1864, Beauregard received orders to command Confederate defenses of North Carolina and southern Virginia. He performed very well in this role when Union armies under Ulysses S. Grant and Benjamin Butler maneuvered toward Richmond. Beauregard blocked Butler’s force and protected the key railroad center at Petersburg that summer. Meanwhile, William Tecumseh Sherman’s Union army captured Atlanta, Georgia, prompting Confederate high command to shift command in the west. Beauregard was asked to command the new Department of the West, which covered a region from Georgia to the Mississippi River. While the position was not a field command, Beauregard took the opportunity as it placed him above several Confederate armies. The assignment proved difficult, as his troops in Tennessee suffered devastating defeats at Franklin and Nashville and scattered southern forces in Georgia and South Carolina failed to stop Sherman’s army from cutting through Georgia and South Carolina. When Beauregard repeatedly messaged Confederate officials in Richmond for help against Sherman, they relieved him of command and replaced him with Joseph E. Johnston. Unsurprisingly, Johnston fared no better and Confederate forces in the Carolinas were forced to surrender in April 1865.
+</p>
+
+<p xml:id='OTPS102543P8'>After the Civil War, Beauregard returned to New Orleans. He opposed Radical Reconstruction measures in the south, but less due to matters over Black civil rights and more regarding heavy property tax. Beauregard joined the Reform Party, generally made up of New Orleans businessmen who supported Black suffrage, and appealed to African American voters as an alternative to the Republican Party. He also took part in various business ventures, including railroads and cable car companies, civil engineering projects, and he served as the supervisor of the Louisiana State Lottery Company. He enjoyed substantial financial success from these activities.
+</p>
+
+<p xml:id='OTPS102543P9'>Beauregard was married twice during his lifetime. He married Marie Antoinette Laure Villere in 1841. The couple had three children, but Marie died during childbirth to the third in 1850. Beauregard then married Caroline Deslonde in 1860. She died only four years later after a long illness. Beauregard died on February 20, 1893. He is buried in Metairie Cemetery in New Orleans, Louisiana.
+</p>
+
+<p xml:id='OTPS102543P10'>(Wikipedia; National Park Service; American Battlefield Trust; FindaGrave)
+</p>
+
+<p xml:id='OTPS102543P11'>Pierre Gustave Toutant Beauregard belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S105560">
+              <persName>Hughes, Felix</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S95230">
+              <persName>Withers, D. D.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S82975">
+              <placeName>Mississippi--Panola County. Panola</placeName>
+                <idno>https://archive.org/details/mississippicomp00rowlgoog/page/374/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS82975P0'>Located in Panola County, Panola was incorporated in 1839 and served as the county seat in the 1840s. Panola is a deserted town with few or no remaining inhabitants. (Dunbar Rowland, <hi rend='italic'>Mississippi</hi>)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.4198, -89.9253</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S76166">
+              <placeName>Mississippi--Alcorn County. Corinth</placeName>
+                <idno>https://www.britannica.com/place/Corinth-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS76166P0'>Currently located in Alcorn County, Corinth was founded in 1853 under the name Cross City in what was then Tishomingo County. When Alcorn County was created on April 15, 1870, Corinth became its county seat. (Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.93722, -88.51528</geo>
+                </note>
+            </place>
+            <place xml:id="S51788">
+              <placeName>Mississippi--Warren County. Vicksburg</placeName>
+                <idno>https://archive.org/details/mississippicomp00rowlgoog/page/858/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51788P0'>Located in Warren County, Mississippi, Vicksburg was founded under the name Fort Nogales as early as 1790 in what was then unincorporated territory. In 1798, upon creation of Mississippi Territory, it was renamed Walnut Hills. On April 1, 1799, Walnut Hills became part of the newly created Pickering County (later renamed Jefferson County on January 10, 1802), until the creation of Claiborne County on January 26, 1802. It then became part of its current county of Warren on December 21, 1809. Upon its incorporation on January 29th, 1825, it was renamed Vicksburg. Vicksburg became the county seat in 1836 and remains today. (Rowland, <hi rend='italic'>Mississippi</hi>, 858; Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.33611, -90.87528</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001335'>
+<catDesc>Legal Services</catDesc>
+          <category xml:id='S32023075'>
+            <catDesc>
+              <term>Law Offices</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/law-firm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001335'>Legal Services</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32023075P0'>"A business that employs lawyers to represent clients or argue in court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25004985'>
+            <catDesc>
+              <term>Law Offices--Ward &amp; Foote (Panola, Miss.)</term>
+              <idno>https://chroniclingamerica.loc.gov/lccn/sn83016951/1859-11-03/ed-1/seq-3/#date1=1858&amp;sort=date&amp;rows=20&amp;words=FOOTE+WARD&amp;searchType=basic&amp;sequence=0&amp;index=5&amp;state=Mississippi&amp;date2=1868&amp;proxtext=Ward+%26+Foote+&amp;y=0&amp;x=0&amp;dateFilterType=yearRange&amp;page=1</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001335'>Legal Services</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>34.36, -89.95</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25004985P0'>Located in Panola, Mississippi, Ward &amp; Foote Attorneys and Counselors at Law was a law firm established in 1858 and operated until at least 1861. (<hi rend='italic'>The Weekly Panola Star</hi>, November 3, 1859; <hi rend='italic'>The Weekly Panola Star</hi>, October 31, 1861)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S25009156'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Recruiting and enlistment</term>
+              <idno>https://encyclopediaofarkansas.net/entries/civil-war-recruitment-6391/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25009156P0'>At the outbreak of the American Civil War in 1861, neither the Union nor the Confederate army struggled to find recruits. Rather, both armies saw far more volunteers than their ranks and provisions could sustain. Many young men of the North and South believed that the war would end quickly and volunteered by the thousands to not miss out on the action. Other motivators for rapid enlistment included a sense of adventure, defense of slavery or the privileges of whiteness, defense of the Union, fear of ostracism in their home communities for not enlisting, or a desire to protect their homes and families.
+</p>
+
+<p xml:id='OTPSD25009156P1'>Widespread enlistment required both the United States and Confederate governments to reshape their militaries that were otherwise unprepared to handle that many recruits. The U.S. possessed only a small standing army of 16,000 men before the war, and the Confederacy needed to build its own from scratch. Both therefore relied heavily on local recruiting to organize men into militia companies then employable in the federal service. Recruiters throughout the war published pamphlets, put up posters, and gave speeches to encourage men to fight.
+</p>
+
+<p xml:id='OTPSD25009156P2'>As the war continued, dreams of a short war ended along with many men's desires to enlist. Both armies (the Confederacy in 1862 and the Union in 1863) resorted to conscription to fill their ranks. Free African Americans, particularly in the North, debated the utility and wisdom of fighting for the United States even after being legally allowed to do so in 1863. Many formerly enslaved African-American men yearned to fight for their own freedom, while others doubted that military service in the Civil War would accomplish their desired goals of emancipation and equality. However, prominent African Americans such as Frederick Douglass encouraged Black men to take up arms, and roughly 200,000 did so.
+</p>
+
+<p xml:id='OTPSD25009156P3'>Ultimately, men enlisted during the Civil War for many reasons, often tied to demographic or personal causes, and, as the war progressed and varied in its popularity and aims, recruiters' tactics likewise changed to adapt to each new situation. (Encyclopedia of Arkansas)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S94600'>
+            <catDesc>
+              <term>Lawyers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/lawyer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD94600P0'>"Someone whose job is to give advice to people about the law and speak for them in court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001713'>
+<catDesc>C.S.A. Federal Government</catDesc>
+          <category xml:id='S99586'>
+            <catDesc>
+              <term>Confederate States of America--War Department</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t00z8036q&amp;view=1up&amp;seq=9&amp;skin=2021</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.3675, -86.3</geo>
+              </note>
+              <gloss><p xml:id='OTPSD99586P0'>Operating nationally, the Provisional Confederate Congress established the War Department by an act on February 21, 1861, in Montgomery, Alabama. The department was led by the Secretary of War, appointed by the President with the advice and consent of the Senate. It was initially led by LeRoy Pope Walker from February 25–September 16, 1861 and later led by Judah P. Benjamin (September 17, 1861–March 24, 1862), George W. Randolph (March 24–November 15, 1862), James Seddon (November 21, 1862–February 5, 1865), and Maj. Gen. John C. Breckinridge (February 6–May 10, 1865). The War Department was responsible for the administration of the Confederate Army and managed all matters pertaining to American Indian tribes within the boundaries of the Confederate States. (<hi rend='italic'>Acts and Resolutions of the First Session of the Provisional Congress of the Confederate States</hi>, 1861 Public Laws, S1, 46; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25013536'>
+            <catDesc>
+              <term>Confederate States of America--War Department. Ordnance Department</term>
+              <idno>https://www.essentialcivilwarcurriculum.com/civil-war-ordnance-bureaus.html</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25013536P0'>The Confederate Ordnance Bureau was the office responsible for acquiring ammunition and weapons for the Confederate military. Technically a branch of the Corps of Artillery, the Ordnance Bureau operated independently and was commanded by Major Josiah Gorgas, who had resigned from the United States Ordnance Department at the start of the Civil War. Gorgas estimated that the Confederacy had fewer than 160,000 small arms and only 429 cannons (375 of which were in fortifications around Charleston) in early 1861. To increase the number of weapons and ammunition, the Ordnance Bureau relied upon three sources: European imports, domestic manufacturing, and battlefield captures. The bureau also labored to provide weapons and ammunition to the field armies through railroad and wagon train transportation routes. Through these efforts, and despite the Union blockade and limited domestic resources, the Ordnance Bureau imported around 380,000 foreign small arms, produced around 10,000 firearms within the Confederacy, and captured enough Union weapons to arm the Confederate military throughout the war. The Confederate army never suffered a battlefield defeat due to the lack of weapons or ammunition. (Frank E. Vandiver, “Makeshifts of Confederate Ordnance,” <hi rend='italic'>The Journal of Southern History</hi>, 180–193; Philip Leigh, “Civil War Ordnances Bureaus,” Essential Civil War Curriculum) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+<category xml:id='C32001716S99586'>
+<catDesc>
+<term><rs ref='S99586'>Confederate States of America--War Department</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001716S25013536'>
+<catDesc>
+<term><rs ref='S25013536'>Confederate States of America--War Department. Ordnance Department</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Ward, Matthew S.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-04-06</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Matthew S. Ward at Panola, Mississippi, to Mississippi Governor John Jones Pettus concerning the use of bell metal to make cannons (14th Battalion Mississippi Light Artillery).</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-941-08-21</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Panola County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 941, Folder 8</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Bells; Confederate States of America. Army.; Confederate States of America. Army--Ordnance and ordnance stores; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Matthew S. Ward to Mississippi Governor John Jones Pettus; April 6, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/5256&quot;&gt;Letter from Matthew S. Ward to Mississippi Governor John Jones Pettus; April 6, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG43" who="U2" when="2024-10-25T15:12:39Z" target="#P1811091">
+          Version 16 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U2" when="2024-10-25T15:12:38Z" target="#P1811090">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U32019810" when="2024-08-18T20:12:10Z" target="#P1811090">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-11-17T18:21:02Z" target="#P1811091">
+          Version 15 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-09-03T14:09:50Z" target="#P1811090">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-09-03T00:36:42Z" target="#P1811090">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-09-02T20:08:27Z" target="#P1811091">
+          Version 14 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-03-19T20:15:12Z" target="#P1811091">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-03-19T01:27:19Z" target="#P1811090">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-03-18T22:10:31Z" target="#P1811091">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-03-18T22:04:53Z" target="#P1811090">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-18T21:33:59Z" target="#P1811091">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-18T16:27:37Z" target="#P1811090">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-16T19:53:04Z" target="#P1811090">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2022-12-04T16:57:22Z" target="#P1811091">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2021-10-22T20:31:09Z" target="#P1811091">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2021-07-06T20:06:19Z" target="#P1811091">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U217868" when="2021-06-09T19:59:32Z" target="#P1811091">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2021-06-08T16:13:52Z" target="#P1811091">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U217868" when="2021-05-26T13:24:02Z" target="#P1811090">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2021-05-21T19:48:28Z" target="#P1811090">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2021-05-10T16:07:57Z" target="#P1811090">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2021-05-10T16:07:44Z" target="#P1811090">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2021-05-09T18:38:26Z" target="#P1811090">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U217816" when="2021-04-07T15:18:32Z" target="#P1811092">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U217816" when="2021-04-07T15:17:58Z" target="#P1811091">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U217816" when="2021-04-07T15:17:26Z" target="#P1811090">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U217816" when="2021-04-07T15:17:09Z" target="#P1811091">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U217816" when="2021-04-07T15:16:55Z" target="#P1811090">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U228445" when="2021-03-26T05:19:30Z" target="#P1811092">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U228445" when="2021-03-26T05:18:54Z" target="#P1811091">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U228445" when="2021-03-26T05:10:41Z" target="#P1811090">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U228445" when="2021-03-26T05:10:33Z" target="#P1811090">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U224896" when="2021-03-21T17:12:31Z" target="#P1811090">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U224896" when="2021-03-21T17:11:56Z" target="#P1811090">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U224896" when="2021-03-21T17:11:06Z" target="#P1811092">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U224896" when="2021-03-21T17:10:09Z" target="#P1811091">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U224896" when="2021-03-21T17:05:00Z" target="#P1811090">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2021-03-09T17:51:27Z" target="#P1811092">
+          Version 1 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-03-09T17:51:24Z" target="#P1811092">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-03-09T17:51:27Z" target="#P1811091">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-09T17:51:27Z" target="#P1811090">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-03-09T17:51:22Z" target="#P1811091">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-03-09T17:51:20Z" target="#P1811090">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1811090" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/5253/full/full/0/default.jpg"/>
+        <div xml:id="OTP1811090">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1811090P0' xml:id='OTP1811090P0'>[seal]
+</p>
+
+<p corresp='TTP1811090P1' xml:id='OTP1811090P1'><rs ref='#S105022'>M. S. WARD</rs> [gap] <rs ref='#S90608'>GEO. P FOOTE</rs>.
+</p>
+
+<p corresp='TTP1811090P2' xml:id='OTP1811090P2'><b><rs ref='#S25004985'>WARD &amp; FOOTE</rs>,</b> <lb/>
+<rs ref='#S94600'>Attorneys</rs> at Law <lb/>
+<rs ref='#S82975'>Panola</rs>, Miss., April 6 1862.
+</p>
+
+<p corresp='TTP1811090P3' xml:id='OTP1811090P3'>To His Excellency, <lb/>
+Gov <rs ref='#S63111'>Pettus</rs>, <rs ref='#S51785'>Jackson</rs>, Miss.
+</p>
+
+<p corresp='TTP1811090P4' xml:id='OTP1811090P4'>I have just returned from a visit to Gen. <rs ref='#S102543'>Beauregard</rs>, at <rs ref='#S76166'>Corinth</rs>, After hearing my description of the gun, he re-marked, that he was sorry I did not have them there that day, as he had great need for them, He recommended that I have them rifled, instead of smooth, So that if you approve of his suggestion, I will be glad if you will order Mr. <rs ref='#S105560'>Hughes</rs> to rifle five of the guns. He also promised to furnish me with horses and all other equipments, He also ordered me to have ten more of the guns made of bracs, and rifled. Upon my suggesting the difficulty in procuring the bracs, he told me to as certain  
+</p>
+
+
+        </div>
+        <pb xml:id="F1811091" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/5254/full/full/0/default.jpg"/>
+        <div xml:id="OTP1811091">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1811091P0' xml:id='OTP1811091P0'>if there was any bell metal in <rs ref='#S51785'>Jackson</rs>, or at any other point, which had been delivered to him under his call, and also ascertain what quantity it would take to make the guns, and then make a requisition on him for it, and he would furnish whatever was neces-sary. I learned from Mr. <rs ref='#S95230'>Withers</rs>, when in Jackson last, that he was experiment-ing with the bell metal at <rs ref='#S51788'>Vicksburg</rs>. Please direct your Chief of <rs ref='#S25013536'>Ordnance</rs> to ascertain what quantity of the metal will be required, and also where a supply can be had in the State, and advise me immediately. Also ascertain how soon Mr. Hugh's or any other party can make the guns for me.
+</p>
+
+<p corresp='TTP1811091P1' xml:id='OTP1811091P1'>Please enclose me an order, turning to the command of Gen. Beauregard, in order that I may forward the same to him, with my requistion for the becessary outfit, Laso let me know if you can fur-nish tents, as the General said he had none at present, and there are none at Mem-phis.
+</p>
+
+<p corresp='TTP1811091P2' xml:id='OTP1811091P2'>I have already taken meas-ures to <rs ref='#S25009156'>recruit</rs> another com-pany, to be know as Ward's Battery, No. 2, and will be ready to tender you the men, as soon as the guns can be made.
+</p>
+
+<p corresp='TTP1811091P3' xml:id='OTP1811091P3'>Yours, ets<lb/>
+M. S. Ward,<lb/>
+Captain Commanding 
+</p>
+
+
+        </div>
+        <pb xml:id="F1811092" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/5255/full/full/0/default.jpg"/>
+        <div xml:id="OTP1811092">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP1811092P0' xml:id='OTP1811092P0'>M. S. Ward in Jackson fo guns <lb/>
+<hr/><lb/>
+<del rend='overstrike'>April</del> 1862 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

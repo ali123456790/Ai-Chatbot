@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Assistant Surgeon A. S. Ashe to Mississippi Governor John J. Pettus; October 21, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 13 edits between
+              <date type="first_edit" when="2021-10-02T20:11:16Z">October  2, 2021</date> and
+              <date type="last_edit" when="2023-11-17T18:08:34Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-09-26T19:23:02Z">September 26, 2021</date> and
+              <date type="last_edit" when="2021-09-26T19:46:42Z">September 26, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-08-12T13:33:32Z">August 12, 2021</date> and
+              <date type="last_edit" when="2021-08-12T13:34:01Z">August 12, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220513">
+          <persName
+            >
+            Jan Pilkington
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-08-12T15:56:28Z">August 12, 2021</date> and
+              <date type="last_edit" when="2021-08-12T15:57:01Z">August 12, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-13T12:21:49Z">October 13, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T14:36:29Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U220513">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Jan Pilkington</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T15:24:35+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S25024668">
+              <persName>Ashe, A. S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32012689">
+              <persName>Deason, John B., 1824-1900</persName>
+                <idno>https://www.findagrave.com/memorial/54567846/john-b-deason</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32012689P0'>John B. Deason was an attorney, politician, and Confederate officer during the Civil War.
+</p>
+
+<p xml:id='OTPS32012689P1'>Born on July 21, 1824, in Trigg County, Kentucky, Deason moved to Mississippi as a young man. He served as an officer during the Mexican American War, and returned to Mississippi where he practiced law and became an emerging public figure in Copiah County. Deason was a delegate to Mississippi’s secession convention in January 1861, following Abraham Lincoln’s election to the presidency. Like nearly all attendees, he voted in support of the state separating from the Union. He volunteered for military service, helped raise volunteers for the Mississippi state troops, and was eventually commissioned as a colonel in command of the Third Mississippi Infantry Regiment, a unit comprised of volunteers from Mississippi’s gulf coast area. He led the regiment in a coastal defense assignment, and engaged Union troops at Biloxi in April 1862. The Third Mississippi’s enlistments ended in May 1862, at which point it was reorganized and most of the soldiers reenlisted. However, Deason departed the regiment at that time.
+</p>
+
+<p xml:id='OTPS32012689P2'>After the Civil War, Deason served as a chancellor and district attorney during most of the Reconstruction period. Around 1875, he moved to Brookhaven, where he held a variety of public positions, including mayor, postmaster, and represented Lincoln County in the Mississippi legislature. He died on March 29, 1900. Deason was married to Mary Ann Keller and had at least five children that lived to adulthood. He is buried in Rose Hill Cemetery in Brookhaven, Mississippi.
+</p>
+
+<p xml:id='OTPS32012689P3'>(<hi rend='italic'>The Semi-Weekly Leader</hi>, Brookhaven, MS, April 4, 1900; <hi rend='italic'>The Democratic-Herald</hi>, Charleston, MS, April 12, 1900; FindaGrave; Dunbar Rowland, <hi rend='italic'>The Official and Statistical Register of the State of Mississippi, 1908</hi>, 536)
+</p>
+
+<p xml:id='OTPS32012689P4'>John B. Deason belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S25024669">
+              <persName>Bruner, W. J.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S75259">
+              <placeName>Mississippi--Harrison County. Pass Christian</placeName>
+                <idno>https://en.wikipedia.org/wiki/Pass_Christian,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS75259P0'>Located in Harrison County, Pass Christian was incorporated in 1848. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.32444, -89.24722</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S32077641'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Commission Resignation</term>
+              <idno>https://history.army.mil/books/amh/AMH-09.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32077641P0'>A resignation is the formal act of leaving, or quitting, a position. During the nineteenth century, military officers typically could resign from service if they had fulfilled the conditions of their commission (or contract). Enlisted soldiers were not permitted to resign.
+</p>
+
+<p xml:id='OTPSD32077641P1'>Resignations were relatively common before the American Civil War, by officers who saw little chance for promotion in the small, highly competitive officer corps, or by those who sought to find their fortune outside the military. There was little stigma attached to resigning, and numerous officers returned to military service in times of war. For instance, George McClellan and Ulysses S. Grant—two of the Union’s most prominent generals—had resigned their military commissions in the 1850s, yet returned to service in 1861.
+</p>
+
+<p xml:id='OTPSD32077641P2'>Southern secession and the beginning of the Civil War sparked a wave of resignations from the U.S. Army.  Of 1,080 officers on active duty in the regular army in 1861, 286 resigned (or were dismissed) to enter Confederate service. Most famous among these was Robert E. Lee, who submitted his resignation to the Secretary of War on April 20, 1861, three days after his home state of Virginia seceded. Some other officers in the U.S. Army in 1861 resigned not to switch political sides, but to better their chances of promotion. The overwhelming majority of Union soldiers during the Civil War were part of the state-based volunteer force. Since promotion was slow in the small permanent army, these ambitious officers resigned to accept positions with the volunteers, and frequently found themselves advancing rapidly in rank.
+</p>
+
+<p xml:id='OTPSD32077641P3'>Resignations continued to occur among Confederate and Union officers during the war. Reasons ranged from health problems, to distaste of military service, to seeking opportunities elsewhere, to leaving the military out of shame or a sense of responsibility for a battlefield defeat. Sometimes resignations were more symbolic than sincere, and military officials were not required to accept a resignation. Robert E. Lee offered his resignation to Confederate President Jefferson Davis following the loss at Gettysburg. Davis rejected the resignation and Lee continued to command his Army of Northern Virginia for nearly two more years. (Wikipedia; <hi rend='italic'>American Military History</hi>, 188-192)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S56358'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 3rd</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD56358P0'>The 3rd Regiment, Mississippi Infantry (Confederate) was organized in the spring of 1861 in Clarke County, Mississippi under the command of Col. John B. Deason and served in the Western Theater under Hebert's and Featherston's brigades in the Department of Mississippi and East Louisiana and the Army of Tennessee. It was later commanded by Col. Thomas A. Mellon, Lt. Col. Samuel M. Dyer, and Capts. O. H. Johnston and John Saucier. It was consolidated with the 33rd and 40th Infantry Regiments to form the 3rd Regiment, Mississippi Consolidated Infantry on April 9, 1865 in Johnston County, North Carolina under the command of Col. James M. Stigler. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 11; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 533-540; National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S70883'>
+            <catDesc>
+              <term>Confederate States of America. Navy</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Navy</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70883P0'>The Confederate Navy was the military naval force of the Confederate States of America during the American Civil War. It was established by the Confederate Congress on February 21, 1861, and was primarily responsible for protecting the Confederacy’s coastlines and harbors from federal attack and disrupting the United States Navy’s blockade of Southern ports. At its creation, the Confederate Navy had thirty ships, only fourteen of which were seaworthy. In contrast, the United States Navy had approximately ninety ships ready for service. Despite manufacturing limitations, the Confederate Navy eventually increased its size to slightly over one hundred ships and approximately 5,000 sailors. Still, it could not compete directly with the Union Navy, which enlarged to more than 650 ships and around 20,000 sailors.
+</p>
+
+<p xml:id='OTPSD70883P1'>Because of its smaller size, the Confederate Navy sought new and unconventional methods to challenge Union naval supremacy. This included inviting privateers—privately owned ships that engaged in warfare—to attack Union ships, particularly merchant vessels, for the Confederate cause. More famously, the Confederate Navy built ironclad vessels (wooden ships protected by iron plates) and the first submarine (named the <hi rend='italic'>Hunley</hi>) in an effort to defeat Union ships through technological innovation. These efforts did not change the trajectory of the war, though, due in part to the Confederacy’s inability to build these new ships in great number and by the Union Navy’s own development of ironclad warships.
+</p>
+
+<p xml:id='OTPSD70883P2'>Confederate Navy ships also performed blockade running operations and attacked Union vessels traversing the Atlantic to and from Europe. These efforts were intended to open avenues for Confederate merchant vessels to carry on foreign trade and to draw Union ships away from the Confederacy’s coast. However, efforts to overcome the Union blockade proved ineffective. Federal ships managed to reduce the South’s trade to only five percent of its pre-war levels.
+</p>
+
+<p xml:id='OTPSD70883P3'>The Confederate Navy was the last vestige of the Confederacy. It ceased to exist on November 6, 1865, with the surrender of the CSS <I>Shenandoah</I> in Liverpool, England. That event also marked the end of the Civil War. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001682'>
+<catDesc>Medical Occupations</catDesc>
+          <category xml:id='S32085010'>
+            <catDesc>
+              <term>Medical Profession</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/medical-profession?q=Medical+Profession</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085010P0'>"A person with special training in the medical field." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S58699'>
+            <catDesc>
+              <term>Medical Profession--Physicians</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/physician</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58699P0'>"A medical doctor, especially one who has general skill and is not a surgeon." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S51103'>
+            <catDesc>
+              <term>Medical Profession--Surgeons</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/surgeon</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001682'>Medical Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD51103P0'>"A doctor who is specially trained to perform medical operations." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Ashe, A. S.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-10-27</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from A. S. Ashe tendering his resignation as Assistant Surgeon of the Confederate 3rd Mississippi Infantry to join the Confederate Navy.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>394 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-940-04-01</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>A. J. Blaylock; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 940, Folder 4</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Confederate States of America. Army--Appointments and retirements; Confederate States of America. Army. Mississippi Infantry Regiment, 3rd; Confederate States of America. Army--Surgeons; Confederate States of America. Navy; Confederate States of America. Navy--Recruiting, enlistment, etc.; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Assistant Surgeon A. S. Ashe to Mississippi Governor John J. Pettus; October 27, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/11058&quot;&gt;Letter from Assistant Surgeon A. S. Ashe to Mississippi Governor John J. Pettus; October 27, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG23" who="U2" when="2024-10-25T14:36:29Z" target="#P25169140">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U32019810" when="2024-10-13T12:21:49Z" target="#P25169140">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-11-17T18:08:34Z" target="#P25169140">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-09-02T20:19:07Z" target="#P25169140">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-03-18T22:04:37Z" target="#P25169140">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-03-18T16:20:14Z" target="#P25169140">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-03-16T19:25:04Z" target="#P25169140">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-03-16T19:14:44Z" target="#P25169141">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-04T18:15:48Z" target="#P25169140">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-03T18:38:02Z" target="#P25169140">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-03T17:29:20Z" target="#P25169140">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-03-03T14:07:08Z" target="#P25169140">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2021-10-02T20:12:15Z" target="#P25169141">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2021-10-02T20:11:36Z" target="#P25169141">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2021-10-02T20:11:16Z" target="#P25169140">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091253" when="2021-09-26T19:46:42Z" target="#P25169140">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091253" when="2021-09-26T19:25:09Z" target="#P25169140">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091253" when="2021-09-26T19:23:02Z" target="#P25169140">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U220513" when="2021-08-12T15:57:01Z" target="#P25169141">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U220513" when="2021-08-12T15:56:28Z" target="#P25169140">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2021-08-12T13:34:01Z" target="#P25169141">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U231087" when="2021-08-12T13:33:32Z" target="#P25169140">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2021-08-12T02:39:58Z" target="#P25169141">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-08-12T02:39:57Z" target="#P25169140">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25169140" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/11056/full/full/0/default.jpg"/>
+        <div xml:id="OTP25169140">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25169140P0' xml:id='OTP25169140P0'>[seal]
+</p>
+
+<p corresp='TTP25169140P1' xml:id='OTP25169140P1'><rs ref='#S75259'>Pass Christian</rs><lb/>
+Oct 27<add place='above'>sth</add>,, 1861
+</p>
+
+<p corresp='TTP25169140P2' xml:id='OTP25169140P2'>Sir
+</p>
+
+<p corresp='TTP25169140P3' xml:id='OTP25169140P3'>I hereby respectfully tender the <rs ref='#S32077641'>resignation</rs> of my appointment as the As<add place='above'><hi rend='underline'>st</hi></add><sub>,,</sub> <rs ref='#S51103'>Surgeon</rs> of the <rs ref='#S56358'>3<add place='above'>d</add> Regiment Miss Vol C. S Army</rs>, My reason for resign-ing is, that I have received an appointment in the <rs ref='#S70883'>C. S Navy</rs> and prefer the service.
+</p>
+
+<p corresp='TTP25169140P4' xml:id='OTP25169140P4'>Resp<add place='above'>ct</add> Yours
+</p>
+
+<p corresp='TTP25169140P5' xml:id='OTP25169140P5'><rs ref='#S25024668'>A. S. Ashe</rs><lb/>
+A<add place='above'><hi rend='underline'>sst</hi></add>,, Surgeon 3<add place='above'><hi rend='underline'>d</hi></add> Reg<lb/>
+Miss Vol
+</p>
+
+<p corresp='TTP25169140P6' xml:id='OTP25169140P6'>To<lb/>
+His Excellency<lb/>
+Governor  <rs ref='#S63111'>John J. Pettus</rs><lb/>
+<rs ref='#S51785'>Jackson</rs><lb/>
+Miss
+</p>
+
+<p corresp='TTP25169140P7' xml:id='OTP25169140P7'>I would respectfully suggest the reception of the above resignation, for reasons as stated therein.
+</p>
+
+<p corresp='TTP25169140P8' xml:id='OTP25169140P8'>By order of <rs ref='#S32012689'>J. B. Deason</rs> Col Com<add place='above'><hi rend='underline'>dg</hi></add>
+</p>
+
+<p corresp='TTP25169140P9' xml:id='OTP25169140P9'><rs ref='#S25024669'>W. J. Bruner</rs> Adjutant<lb/>
+3 Regiment Miss Vol 
+</p>
+
+
+            <note resp="#U231087">Letter date needs to be changed to Oct 27</note>
+        </div>
+        <pb xml:id="F25169141" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/11057/full/full/0/default.jpg"/>
+        <div xml:id="OTP25169141">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25169141P0' xml:id='OTP25169141P0'><rs ref='#S58699'>D<add place='above'>r</add></rs> A. S. Ashe<lb/>
+Pass Christian<lb/>
+Nov 27<add place='above'>th</add> 1861
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

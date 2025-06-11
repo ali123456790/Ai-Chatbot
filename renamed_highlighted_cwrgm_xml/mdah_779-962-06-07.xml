@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from John Duncan to L. J. Gholson; November 14, 1865</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U32018409">
+          <persName
+            >
+            Alessandra Diaz
+            </persName>
+            <resp>
+              made 9 edits between
+              <date type="first_edit" when="2023-12-20T23:26:35Z">December 20, 2023</date> and
+              <date type="last_edit" when="2023-12-20T23:52:52Z">December 20, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2024-01-02T12:45:08Z">January  2, 2024</date> and
+              <date type="last_edit" when="2024-01-02T13:14:16Z">January  2, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-06-19T17:41:01Z">June 19, 2023</date> and
+              <date type="last_edit" when="2024-10-25T17:39:06Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-06-19T18:08:05Z">June 19, 2023</date> and
+              <date type="last_edit" when="2023-06-20T14:03:08Z">June 20, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-08-14T00:09:46Z">August 14, 2024</date> and
+              <date type="last_edit" when="2024-11-03T20:58:32Z">November  3, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-08-10T16:24:19Z">August 10, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U32018409">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Alessandra Diaz</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T20:14:56+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32123808">
+              <persName>Walker, Robert J. (Robert John), 1801-1869</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32123267">
+              <persName>Stanton, Fred P.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32123268">
+              <persName>Walker, Duncan S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63158">
+              <persName>Gholson, Samuel Jameson, 1808-1883</persName>
+                <idno>https://en.wikipedia.org/wiki/Samuel_J._Gholson</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63158P0'>Samuel J. Gholson was a U.S. representative, U.S. district judge, and Confederate general.
+</p>
+
+<p xml:id='OTPS63158P1'>Born in Richmond, Kentucky, on May 19, 1808, Gholson spent much of his boyhood in Alabama. He began practicing law in Russellville, Alabama, in 1829 and shortly afterwards opened a law office in Athens, Mississippi. In 1835, he won election to the Mississippi House of Representatives. The following year, he won a seat in the U.S. House of Representatives for Mississippi as a Democrat. He served until 1838, when his seat was declared vacant. In 1839, he received an appointment to a joint seat on the U.S. District Court for the Northern District and for the Southern District of Mississippi. Gholson served in that capacity until 1861, when Mississippi seceded. He had been a delegate to the state’s secession convention, following Abraham Lincoln’s electoral victory as president.
+</p>
+
+<p xml:id='OTPS63158P2'>Gholson volunteered for Confederate military service. Although enlisting as a private, due to his age and standing as a public official, he was quickly promoted, eventually rising to major general of Mississippi state troops in 1863. Gholson campaigned in the field during his military service, being present at the battles of Fort Donelson, Iuka, and Corinth in 1862. In 1864, he received a commission as a brigadier general in the Confederate army and placed in command of cavalry troops. He was badly wounded in the arm and captured during the Battle of Egypt Station in December 1864. His injuries were so severe that Union officers reported him to be mortally wounded. In fact, Gholson survived the wound, but his arm had to be amputated.
+</p>
+
+<p xml:id='OTPS63158P3'>Gholson was released by Union forces in May 1865, after the war had ended. He immediately returned to state politics, winning a seat in the legislature that year. He served as the speaker of the house from 1865 to 1866, and then agitated against Republican Reconstruction over the next several years. He won election to the state legislature one more time, in 1878. Gholson died in 1883 and is buried in Odd Fellows Rest Cemetery in Aberdeen, Mississippi. He had been married to Margraten Ann Ragsdale, but the couple had no surviving children.
+</p>
+
+<p xml:id='OTPS63158P4'>(Wikipedia; FindaGrave; Christopher Losson, “Samuel Jameson Gholson,” Mississippi Encyclopedia)
+</p>
+
+<p xml:id='OTPS63158P5'>Samuel Jameson Gholson belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32011998">
+              <persName>Humphreys, Benjamin Grubb, 1808-1882</persName>
+                <idno>https://en.wikipedia.org/wiki/Benjamin_G._Humphreys</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32011998P0'>Benjamin Grubb Humphreys was governor of Mississippi from 1865 to 1868, during the first three years of Reconstruction. Born on August 26, 1808, in Claiborne County, Mississippi, Humphreys spent many years in the north as a boy, attending school in New Jersey and then being appointed to the United States Military Academy at West Point, New York. Enrolled in the same class as Robert E. Lee, Humphreys was expelled shortly afterwards for his participation in the “Eggnog riot” (or “grog mutiny”)—an alcohol-fueled ruckus at West Point on the night of December 24-25, 1826, that resulted in the removal of twenty students.
+</p>
+
+<p xml:id='OTPS32011998P1'>Humphreys returned to Mississippi where he studied law and helped his father on the family plantation.  He married Mary McLaughlin in 1832. The couple had two children before Mary died in 1835. He remarried in 1839 to Mildred Maury and had at least ten more children.
+</p>
+
+<p xml:id='OTPS32011998P2'>In the 1830s, Humphreys entered local politics as a Whig, serving as a state representative and then as a member of the Mississippi senate from 1839 to 1844. He purchased land to establish a cotton plantation in Sunflower County, Mississippi, in 1846, and helped establish the town of Itta Bena.
+</p>
+
+<p xml:id='OTPS32011998P3'>During the lead up to the Civil War, Humphreys opposed secession. However, after Mississippi declared its separation from the Union and joined the Confederate States of America, he volunteered for military service and was eventually elected colonel of the Twenty-first Mississippi Infantry. Humphreys and his regiment served within Brigadier General William Barksdale’s brigade in the eastern theater, notably seeing action at the Peach Orchard during the Battle of Gettysburg on July 2, 1863. Barksdale was killed during the battle, and Humphreys was promoted to brigadier general to take his place. He remained in command of the brigade until September 1864 when he was wounded at Berryville, Virginia. He spent the rest of the Civil War recuperating from his wounds.
+</p>
+
+<p xml:id='OTPS32011998P4'>Humphreys became active in the immediate postwar political scene in Mississippi. He won election for governor in October 1865 during Mississippi’s effort to earn readmission into the Union under President Andrew Johnson’s lenient Reconstruction plan. However, Humphreys was among the former southern leaders initially denied presidential pardon by Johnson. Although Johnson soon relented, sending a pardon to Humphreys, the Mississippi legislature’s passage of highly discriminatory laws (known as the Black Codes) against recently emancipated African Americans sparked a fierce backlash by Republicans in the United States Congress, who then refused to admit Mississippi back into the Union. Federal authorities instituted a stricter Reconstruction program, which included oversight by military officials. Humphreys remained governor, as Reconstruction did not disassemble Mississippi’s civil government. However, Humphreys did not enjoy the full authority of a traditional state executive. His white supremacist views and opposition to Black civil rights put him in frequent opposition to Republican Reconstruction goals. He won reelection in 1868, but soon afterwards was ejected from office by federal authorities when Radical Republicans took more direct control of Reconstruction.
+</p>
+
+<p xml:id='OTPS32011998P5'>Following his removal as governor in 1868, Humphreys left politics and began working in insurance in Jackson, Mississippi. He retired in 1877 and died in December 1882 and is buried in Wintergreen Cemetery at Port Gibson, Mississippi.
+</p>
+
+<p xml:id='OTPS32011998P6'>(Wikipedia; David Sansing, “Benjamin Grubb Humphreys: Twenty-sixth Governor of Mississippi: 1865–1868,” Mississippi History Now; “Benjamin Grubb Humphreys,” HarpWeek)
+</p>
+
+<p xml:id='OTPS32011998P7'>Benjamin Grubb Humphreys belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32022491">
+              <persName>Ellis, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25021472">
+              <persName>Duncan, John, 1812-1872</persName>
+                <idno>https://www.findagrave.com/memorial/33306962/john-duncan</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS25021472P0'>John Duncan was an attorney and public figure in Mississippi during the mid-nineteenth century.
+</p>
+
+<p xml:id='OTPS25021472P1'>Born to Scottish immigrant parents in 1812 in New York, Duncan moved to Grenada, Mississippi, in the 1830s and worked in a dry goods store with a brother and brother-in-law. Through his successful business dealings, he became a plantation owner, and studied law to become an attorney. He married Lucy Howell in 1856 and three children. When the Civil War broke out in 1861, Duncan helped raise a company of volunteers for Confederate service—nicknamed the Duncan Riflemen in honor of his financial support for the unit—which was placed into the Forty-Fifth Mississippi Infantry Regiment. He also worked alongside the Confederate government, including President Jefferson Davis, to promote cotton sales to England, and was reportedly a potential candidate for ambassador to England.
+</p>
+
+<p xml:id='OTPS25021472P2'>Duncan worked as a business manager for several plantations, and served on the University of the South’s board of directors. He died on February 7, 1872. Duncan’s wife and three children all preceded him in death, dying of disease in 1862 and 1863. He is buried in Greenwood Cemetery in Jackson, Mississippi.
+</p>
+
+<p xml:id='OTPS25021472P3'>(FindaGrave)
+</p>
+
+<p xml:id='OTPS25021472P4'>John Duncan belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S62914">
+              <placeName>Washington (D.C.)</placeName>
+                <idno>https://en.wikipedia.org/wiki/Timeline_of_Washington,_D.C.</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS62914P0'>Located between Maryland &amp; Virginia on the Potomac River, the Territory of Columbia was established on July 16, 1790 under the name Federal City and was renamed Washington City in the 1800s. The city of Washington became the federal capital on February 27, 1801 and established as Washington, D.C. on February 24, 1801, when the city boundaries were expanded to include the entire Federal District of Columbia. Washington, D.C. has never achieved statehood. (Wikipedia, Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>38.90472, -77.01639</geo>
+                </note>
+            </place>
+            <place xml:id="S99824">
+              <placeName>Mississippi--Lee County. Richmond</placeName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS99824P0'>Located in Lee County, Richmond is a deserted town with few or no remaining inhabitants.
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.19291, -88.55646</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001335'>
+<catDesc>Legal Services</catDesc>
+          <category xml:id='S32023075'>
+            <catDesc>
+              <term>Law Offices</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/law-firm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001335'>Legal Services</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32023075P0'>"A business that employs lawyers to represent clients or argue in court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32123807'>
+            <catDesc>
+              <term>Law Offices--Walker &amp; Stanton (Washington, D.C.)</term>
+              <idno>https://www.newspapers.com/image/1044477227/?match=1&amp;terms=Walker%20and%20Stanton</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001335'>Legal Services</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>38.89739, -77.01562</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32123807P0'>Located in Washington, D.C., Walker &amp; Stanton was a law firm operating from 1865 until its dissolution in 1867. Walker &amp; Stanton was a co-partnership between Robert J. Walker and Frederic P. Stanton, later including Duncan S. Walker. (<hi rend='italic'>National Republican</hi>, April 25, 1862; <hi rend='italic'>Washington Chronicle</hi>, February 13, 1867; "Letter from John Duncan to L. J. Gholson; November 14, 1865," Civil War and Reconstruction Governors of Mississippi, <id>mdah_779-962-06-07</id>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001686'>
+<catDesc>Labor &amp; Financial Events</catDesc>
+          <category xml:id='S32082629'>
+            <catDesc>
+              <term>Finances</term>
+              <idno>https://en.wikipedia.org/wiki/Finance</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001686'>Labor &amp; Financial Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32082629P0'>"Finance is the study and discipline of money, currency and capital assets." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95150'>
+            <catDesc>
+              <term>Finances--Collecting of Accounts</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/debt-collection</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001686'>Labor &amp; Financial Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95150P0'>"The job of collecting payments from people who have failed to pay the money they owe for goods, services, etc. that they have already received." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32077642'>
+            <catDesc>
+              <term>Political Office--Resignation</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/resignation?q=Resignation</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001686'>Labor &amp; Financial Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32077642P0'>"The act of leaving a job or position and making a statement that you are doing this." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+<category xml:id='C32001150S32077642'>
+<catDesc>
+<term><rs ref='S32077642'>Political Office--Resignation</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001681'>
+<catDesc>Political Occupations</catDesc>
+          <category xml:id='S63936'>
+            <catDesc>
+              <term>Legislators</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/legislator</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001681'>Political Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63936P0'>"A member of a group of people who together have the power to make laws." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S32022624'>
+            <catDesc>
+              <term>Mississippi--Institute for the Deaf and Blind</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_School_for_the_Blind</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32022624P0'>Operating at the state level, the Mississippi Institute for the Deaf and Blind is comprised of the Mississippi School for the Deaf (est. 1854) and the Mississippi School for the Blind (est. 1848) and located in Jackson for the education of the state's visually and hearing impaired students. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62915'>
+            <catDesc>
+              <term>Mississippi--Legislature</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_Legislature</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD62915P0'>Operating at the state level, the Mississippi State Legislature (originally called the "General Assembly") was established by Article 4 of the Mississippi Constitution on November 1, 1890, and serves as the legislative branch of the state government. It is comprised of the House of Representatives and the Senate. The Legislature is responsible for passing new statewide laws and making amendments to the Constitution. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S52126'>
+            <catDesc>
+              <term>Mississippi--Legislature. House of Representatives</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_House_of_Representatives</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.30417, -90.18232</geo>
+              </note>
+              <gloss><p xml:id='OTPSD52126P0'>Operating at the state level, the Mississippi House of Representatives was established by Article 4 of the Mississippi Constitution on November 1, 1890, and serves as the lower house of the Mississippi Legislature. It is led by the Speaker of the House and is responsible for drafting new statewide laws and has the power to impeach officials. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Gov. Humphreys Series 779</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1865</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Duncan, John</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1865-11-14</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Humphreys Collection. Letter from John Duncan in Washington, D. C. to S. J. Gholson, writing to refute a claim that no payment had been made to the State for furniture taken by the Confederate Army, during the Civil War. The State Institution for the Blind, claims that every dollar was accounted for.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8.0&quot; x 10.0&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi; Washington (D.C.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_779-962-06-07</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Parris Watts; Miranda Williamson; Dalton Wood</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 962, Folder 06</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Blind; Civil War; Confederate States of America. Army; Humphreys, Benjamin G. (Benjamin Grubb), 1865-1923; Mississippi. Governor</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from John Duncan to S. J. Gholson; November 14, 1865</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/33798&quot;&gt;Letter from John Duncan to S. J. Gholson; November 14, 1865&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG27" who="U32019810" when="2024-11-03T20:58:32Z" target="#P33117511">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U2" when="2024-10-25T17:39:06Z" target="#P33117510">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U32019810" when="2024-08-14T00:09:46Z" target="#P33117510">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2024-08-10T16:24:19Z" target="#P33117510">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U25091195" when="2024-01-02T13:14:16Z" target="#P33117510">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U25091195" when="2024-01-02T13:13:46Z" target="#P33117510">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U25091195" when="2024-01-02T13:12:54Z" target="#P33117510">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U25091195" when="2024-01-02T13:10:23Z" target="#P33117511">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25091195" when="2024-01-02T12:51:00Z" target="#P33117510">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091195" when="2024-01-02T12:48:49Z" target="#P33117510">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091195" when="2024-01-02T12:48:26Z" target="#P33117510">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091195" when="2024-01-02T12:45:08Z" target="#P33117510">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U32018409" when="2023-12-20T23:52:52Z" target="#P33117511">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U32018409" when="2023-12-20T23:52:35Z" target="#P33117511">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U32018409" when="2023-12-20T23:50:53Z" target="#P33117511">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U32018409" when="2023-12-20T23:39:55Z" target="#P33117510">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U32018409" when="2023-12-20T23:35:52Z" target="#P33117510">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U32018409" when="2023-12-20T23:34:54Z" target="#P33117510">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U32018409" when="2023-12-20T23:29:23Z" target="#P33117510">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U32018409" when="2023-12-20T23:28:42Z" target="#P33117510">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U32018409" when="2023-12-20T23:26:35Z" target="#P33117510">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U226410" when="2023-06-20T14:03:08Z" target="#P33117510">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U226410" when="2023-06-19T18:24:56Z" target="#P33117511">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U226410" when="2023-06-19T18:08:05Z" target="#P33117510">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U2" when="2023-06-19T17:41:56Z" target="#P33117510">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U2" when="2023-06-19T17:41:01Z" target="#P33117510">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2023-05-22T16:13:35Z" target="#P33117511">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2023-05-22T16:13:29Z" target="#P33117510">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F33117510" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:33796/full/full/0/default.jpg"/>
+        <div xml:id="OTP33117510">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP33117510P0' xml:id='OTP33117510P0'>[seal]
+</p>
+
+<p corresp='TTP33117510P1' xml:id='OTP33117510P1'><rs ref='#S32123807'>WALKER &amp; STANTON<lb/>
+Law Office</rs>,<lb/>
+224 F Street<lb/>
+<hi rend='italic'><rs ref='#S62914'>Washington, D. C.</rs>,</hi> November 14 <hi rend='italic'>186</hi>5
+</p>
+
+<p corresp='TTP33117510P2' xml:id='OTP33117510P2'><rs ref='#S32123808'>ROBT. J. WALKER</rs><lb/>
+<rs ref='#S32123267'>FRED P. STANTON</rs><lb/>
+<rs ref='#S32123268'>DUNCAN S. WALKER</rs><lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33117510P3' xml:id='OTP33117510P3'>To<lb/>
+Hon. <rs ref='#S63158'>S. J. Gholson</rs>, <rs ref='#S63936'>Speaker</rs> of the <rs ref='#S52126'>House of Representatives of the State of Mississippi</rs>
+</p>
+
+<p corresp='TTP33117510P4' xml:id='OTP33117510P4'>Sir—
+</p>
+
+<p corresp='TTP33117510P5' xml:id='OTP33117510P5'>A short time previous to leaving my home on this, my temporary absence, I had the honor to tender to His Excellency the Governor, my <rs ref='#S32077642'>resignation</rs> as one of the Trustees of the State <rs ref='#S32022624'>Institute for the Blind</rs>, and at the same time to submit the Annual Report of the Board of Trustees, as well as other documents therewith connected; all of which, previous to my departure, were submitted to the Legislature by His Excellency, Governor <rs ref='#S32011998'>Humphreys.</rs>
+</p>
+
+<p corresp='TTP33117510P6' xml:id='OTP33117510P6'>A friend has sent me a slip taken from the published proceedings of the House on <hi rend='underline'>Tuesday</hi>, <hi rend='underline'>Oct. 23</hi>, from which it appears that on that day the Hon M<add place='above'>r.</add> <rs ref='#S32022491'>Ellis</rs>, from the joint standing committee on the Instutute for the Blind, in making his [?] complimentary report thereof, states that:
+</p>
+
+<p corresp='TTP33117510P7' xml:id='OTP33117510P7'>[page torn]
+</p>
+
+<p corresp='TTP33117510P8' xml:id='OTP33117510P8'>It has been formerly reported to the Legislature the furniture belonging to the Institute was taken for the use of hospitals by officers of the Confederate army during the war.
+</p>
+
+<p corresp='TTP33117510P9' xml:id='OTP33117510P9'>No payment was ever made the State on this account, and none ne[unclear] now ever be expected.
+</p>
+
+<p corresp='TTP33117510P10' xml:id='OTP33117510P10'><hi rend='underline'>[Nui?]</hi> 
+</p>
+
+
+            <note resp="#U2">Should we transcribe the letterhead information about the law office?</note>
+        </div>
+        <pb xml:id="F33117511" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:33797/full/full/0/default.jpg"/>
+        <div xml:id="OTP33117511">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP33117511P0' xml:id='OTP33117511P0'>This is a gross error and places the Board of Trustees in a wrong position. So far from "no payment ever being made to the State on this account", <hi rend='underline'>every dollar</hi> charged by the Board for the articles thus arbitrarily taken by the inferior officers of the then Confederate Government, was paid over by the authorities at <rs ref='#S99824'>Richmond</rs>, and the same appropriated to the acc of the Institution, as appears fully in Report to previous ^Legislature.^
+</p>
+
+<p corresp='TTP33117511P1' xml:id='OTP33117511P1'>It is true that this <rs ref='#S95150'>collection</rs> was not made till after many vexations &amp; annoying delays, involving, indeed two special trips of a member of the Board to Richmond, yet the <hi rend='underline'>expense</hi> attending it, nor any part thereof was ever charged to the Institution, or the State, &amp; the entire sum as it was received from Richmond authorities, passed into the Treasury.
+</p>
+
+<p corresp='TTP33117511P2' xml:id='OTP33117511P2'>I Therefore respectfully ask that this letter, explanatory may be placed upon the journals of the House, &amp; that the Joint Standing Committee on the Institute for the Blind, be requested to take such other steps in the matter, as may appear right &amp; proper.
+</p>
+
+<p corresp='TTP33117511P3' xml:id='OTP33117511P3'>Very Respectfully, Sir,<lb/>
+Yr. obt. Svt,
+</p>
+
+<p corresp='TTP33117511P4' xml:id='OTP33117511P4'><rs ref='#S25021472'>John Duncan</rs><lb/>
+Ex President Board of Trustees, Miss State Inst,<lb/>
+for the Blind.
+</p>
+
+<p corresp='TTP33117511P5' xml:id='OTP33117511P5'>State on this  account and none ne[unclear] now be ever expected.
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

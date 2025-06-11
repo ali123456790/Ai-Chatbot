@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Franklin Smith to Mississippi Governor John J. Pettus; November 10, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 23 edits between
+              <date type="first_edit" when="2021-10-12T19:26:33Z">October 12, 2021</date> and
+              <date type="last_edit" when="2023-11-17T18:14:15Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 12 edits between
+              <date type="first_edit" when="2021-09-29T20:44:29Z">September 29, 2021</date> and
+              <date type="last_edit" when="2021-09-30T02:19:19Z">September 30, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-09-19T21:07:57Z">September 19, 2021</date> and
+              <date type="last_edit" when="2021-09-19T21:16:46Z">September 19, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T14:47:56Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32020358">
+          <persName
+            >
+            Elisabeth Kluin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2025-03-15T01:29:14Z">March 15, 2025</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T16:32:42+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S25025046">
+              <persName>Gavin, James</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25025047">
+              <persName>Kearnes, James</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S71109">
+              <persName>McKeever, William</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25004269">
+              <persName>Randolph, George Wythe, 1818-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/George_W._Randolph</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS25004269P0'>George Wythe Randolph was a Confederate general who served as the Secretary of War for the Confederacy.
+</p>
+
+<p xml:id='OTPS25004269P1'>Born on March 10, 1818, at Monticello near Charlottesville, Virginia, Randolph was the grandson of former president Thomas Jefferson. He received a private education before attending school in Massachusetts and then Washington, D.C. He joined the U.S. Navy in 1831 and served until 1839, gaining experience at sea on vessels such as USS <hi rend='italic'>John Adams</hi> and USS <hi rend='italic'>Constitution</hi>. While still in the Navy, Randolph began attending the University of Virginia and later studied law, becoming a practicing attorney in Charlottesville, Virginia, after leaving military service.
+</p>
+
+<p xml:id='OTPS25004269P2'>Following Abraham Lincoln’s election to the presidency in 1860, Randolph was elected as a delegate to Virginia’s secession convention in early 1861. He spoke in favor of secession, but the convention ultimately rejected disunion during the first vote. Following Lincoln’s call for 75,000 volunteers to put down the rebellion in the south, after Confederate troops attacked and captured Fort Sumter in Charleston Harbor, South Carolina, pro-secessionist sentiments grew in Virginia, and the convention passed a secessionist resolution. Randolph had been part of a Virginia militia artillery unit in the 1850s, nicknamed the “Richmond Howitzers.” Upon the state’s secession, the governor called the unit into state service, and Randolph was commissioned as a major. The unit manned artillery pieces in defensive locations along the James River and fired the first shot of the Civil War in Virginia on May 7, 1861, at a Union gunboat sailing up the river. In September 1861, Randolph was promoted to colonel in what was later renamed the First Regiment Virginia Artillery. On February 12, 1862, he was promoted again, this time to brigadier general.
+</p>
+
+<p xml:id='OTPS25004269P3'>Only one month later, on March 18, 1862, Randolph was appointed Secretary of War of the Confederacy by President Jefferson Davis. He served only eight months before resigning, in November 1862, due to health problems from tuberculosis that he contracted years before in the Navy. He recovered enough to take a seat as a Virginia state senator a few months later. However, Randolph sailed through the Union naval blockade in 1864 for medical treatment in Europe. He was still there when the war ended, and remained in Europe for another year afterward, finally taking the oath of allegiance to the United States in April 1866.
+</p>
+
+<p xml:id='OTPS25004269P4'>Randolph returned to Virginia, but died in April 1867 from complications of tuberculosis. He was married to Mary Elizabeth Adams, but had no children. Randolph is buried in the Monticello cemetery in Virginia.
+</p>
+
+<p xml:id='OTPS25004269P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS25004269P6'>George Wythe Randolph belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S74261">
+              <persName>Smith, Franklin</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63302">
+              <placeName>Mississippi--Madison County. Canton</placeName>
+                <idno>https://www.britannica.com/place/Canton-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63302P0'>Located in Madison County, Canton was incorporated in 1836 and serves as the county seat. (Britannica; Atlas of Historical County Boundaries; Rowland, <hi rend='italic'>Mississippi</hi>, 350)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.61194, -90.03167</geo>
+                </note>
+            </place>
+            <place xml:id="S63147">
+              <placeName>Tennessee--Shelby County. Memphis</placeName>
+                <idno>https://www.britannica.com/place/Memphis-Tennessee</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63147P0'>Located in Shelby County, Memphis was founded in 1819 and serves as the county seat. (Britannica; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>35.1175, -89.97111</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S63017">
+              <placeName>Louisiana--Orleans Parish. New Orleans</placeName>
+                <idno>https://en.wikipedia.org/wiki/New_Orleans</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63017P0'>Located in Orleans Parish, New Orleans was founded in 1718. It became the capital of French Louisiana in 1722 and continued as the capital when Louisiana achieved statehood on April 30, 1812. It became part of Orleans County (now extinct) on the same day. In 1849 it was replaced by Baton Rouge as the state capital, although it temporarily served as the capital again from 1865 until 1880. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>29.95, -90.08</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62954'>
+            <catDesc>
+              <term>Criminal Procedures--Arrest</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arrest?q=Arrest</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62954P0'>"The act of using legal authority to catch and take someone to a place where the person may be accused of a crime." (CD)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S98881'>
+            <catDesc>
+              <term>Confederate States of America--Draft</term>
+              <idno>https://mississippiencyclopedia.org/entries/mississippians-in-confederate-army/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98881P0'>By the spring of 1862, the difficulty and bloodshed of fighting the Civil War became a reality to many white southerners, and many soldiers' one-year terms of enlistment expired. Voluntary enlistments slowed and rendered the Confederate Army desperate for troops. The Confederate States of America consequently issued the first compulsory call to military service in American history, also called a "draft" or "conscription" with the First Conscription Act of 1862.
+</p>
+
+<p xml:id='OTPSD98881P1'>A series of other conscription laws followed throughout the Civil War, each containing measures that sparked tensions between southerners and the Confederate government. The First Conscription Act rendered all men between the ages of 18 and 35 subject to military service, though a later act expanded the age range to 45. Men working in occupations deemed essential to the war effort or to preserving the home front could be exempted from the draft, and, after October 11, 1862, white men owning or overseeing twenty or more enslaved persons could also be exempt. These policies isolated small farmers with little investment in preserving slavery, and many southerners evaded the draft in a variety of ways. However, many others both elite and non-elite viewed the draft as a necessary action, and the Twenty Slave Law a necessary protection from enslaved rebellion. Ultimately, however they felt about it, one estimate holds that Mississippi sent roughly 8,000 draftees to fight for the Confederacy (Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S99666'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Invasions</term>
+              <idno>https://en.wikipedia.org/wiki/American_Civil_War</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99666P0'>In warfare, an army moving into an enemy’s home territory is often described as an invasion. During the American Civil War, most examples of military forces moving into enemy territory involved Union armies advancing into Confederate states. Some of these incursions were temporary, such as small cavalry raids to destroy Confederate supplies and even larger campaigns behind Confederate lines to harm Southern infrastructure (such as William T. Sherman’s “March Through Georgia”). However, Union victory in the Civil War depended upon the United States Army conducting offensive operations and occupying large portions of the South. These efforts split apart the Confederacy, placed secessionist communities back under federal control, and reduced the Confederate armies’ ability to wage war. Pro-secessionist Southerners considered these efforts to be federal invasions, and described communities captured by Union armies as being overrun. However, pro-Union Southerners cheered the arrival of Union soldiers, considering them liberators rather than invaders.
+</p>
+
+<p xml:id='OTPSD99666P1'>Although the Confederacy fought a defensive war, Southern military forces occasionally conducted incursions into northern communities. Robert E. Lee’s Maryland Campaign in 1862 (which culminated in the Battle of Antietam on September 17, 1862) was seen by many Marylanders as an invasion of their state. His second offensive campaign into the North, in the summer of 1863, was widely reported in the Northern press as a Confederate invasion of Pennsylvania. That campaign ultimately resulted in the Confederate defeat at the Battle of Gettysburg. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25009736'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Military Service Exemption</term>
+              <idno>https://perma.cc/54WJ-7G6Q</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25009736P0'>By 1862 the initial waves of men who enlisted into Confederate military service diminished as enthusiasm for the war diminished, and both the Union and Confederacy enacted drafts to fill their armies. Nearly one year before the Union (March 1863), the Confederacy instituted a national draft in April 1862. There were important social implications to this policy, especially within the exemptions the Union and Confederacy provided. Similar to the Union, the Confederate act allowed drafted men to hire substitutes to serve in their place (often lower-class men willing to serve for much-needed income) and excused men from military service for medical reasons, "workers deemed necessary to maintain society," including select government employees. And unlike the Union, beginning in October 1862, men who enslaved a minimum of twenty (later fifteen) people were exempt.
+</p>
+
+<p xml:id='OTPSD25009736P1'>The Twenty-Slave Law exemption was a reaction to President Abraham Lincoln's recent announcement of the<lb/>
+Emancipation Proclamation. While many southern whites worried about enslaved people uprising with so many white men away at war, these policies cultivated a feeling among impoverished people that they were doing the majority of fighting and suffering for a “rich man's war.” Scholars like Joseph Glathaar proved this was not the case in Robert E. Lee's Army of Northern Virginia where the wealthy were overrepresented compared with impoverished soldiers, but it is unclear if this was the case in areas like Mississippi, and the perception of unfair protections for the wealthy fueled resentment. (William Marvel, "A Poor Man's Fight," National Park Service) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001718'>
+<catDesc>Natural &amp; Human Caused Disasters</catDesc>
+          <category xml:id='S25026889'>
+            <catDesc>
+              <term>Industrial Accidents--Mississippi Arsenal Explosion (Jackson, Miss., 1862)</term>
+              <idno>https://battleofraymond.org/howell.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001718'>Natural &amp; Human Caused Disasters</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026889P0'>One of the bloodiest moments in Jackson, Mississippi during the Civil War came not from the Union Army, but instead from a careless munitions worker. Mississippi's state arsenal, which also served as a munitions factory, resided at the state capital in Jackson and employed many people in making ammunition cartridges. Sealing the cartridge—a ball and gunpowder wrapped in paper wadding—required dipping it into a plate of hot wax and tallow kept melted over an open flame. Many employees documented complaints about loose powder lying around and creating a hazard in proximity to the flames. On November 5, 1862, that carelessness resulted in an explosion and fire, claiming the lives of nearly fifty Mississippians and severely hurting the state and the Confederacy's war effort. (H. Grady Howell, Jr., "The Most Appalling Disaster")
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S71916'>
+            <catDesc>
+              <term>United States. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71916P0'>The United States Army is the military land force of the United States of America. During the American Civil War it was also referred to as the Union Army, Federal Army, or Northern Army. Its primary military objective during the war was the restoration and preservation of the United States through the defeat of secessionist forces. The United States Army traces its roots to the Continental Army, created in 1775 during the American Revolution. Following American independence, the new United States severely reduced the size of the army due to distrust of permanent standing military forces. The small regular army generally handled military operations against Native Americans and for coastal defense. State authorities were expected to support the country’s military needs with their militias, or by raising volunteer units, temporarily activated for federal service.
+</p>
+
+<p xml:id='OTPSD71916P1'>At the outbreak of the Civil War, the United States regular army consisted of barely more than 16,000 soldiers, scattered across the country (primarily at coastal defenses and forts established in the territories) among ten infantry regiments, four artillery regiments, two cavalry regiments, two dragoon regiments, and one regiment of mounted rifles. Roughly 20% of the army’s officers and enlisted resigned their positions to fight for the Confederacy. After Southern troops attacked and captured Fort Sumter in South Carolina, President Abraham Lincoln called for 75,000 volunteers to expand the army and defeat the Confederates. The government continued to issue subsequent requests for volunteers as the war progressed. As with established practice, the states were to recruit the volunteers and provide them for federal service. Initial enlistments were for 90 days, but eventually enlistment terms were expanded, typically for three years. In total, more than 2,000,000 men served in the United States Army during the course of the Civil War. Of those, only around 60,000 were part of the regular army. The overwhelming majority were in state-based units. Most soldiers were volunteers, however the federal government began drafting men in 1862, as the army’s campaigns continued and volunteer numbers dwindled. In total, around 46,000 Union soldiers (about 5.5%) were draftees.
+</p>
+
+<p xml:id='OTPSD71916P2'>Approximately two-thirds of the soldiers in the United States Army during the Civil War were native-born white citizens. Around 100,000 were from states within the Confederacy. Immigrants made up about 25% of Union soldiers, with Germans and Irish immigrants being among the most prominent. The army also included soldiers of different ethnicities, including more than 3,000 Native American soldiers. In 1863, the Union army began formally accepting African American soldiers—in segregated units—and by the end of the war, around than 179,000 had served in the United States Army uniform.
+</p>
+
+<p xml:id='OTPSD71916P3'>When hostilities ended in June 1865, approximately 110,000 had been killed in combat or succumbed to wounds, more than 220,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S94600'>
+            <catDesc>
+              <term>Lawyers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/lawyer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD94600P0'>"Someone whose job is to give advice to people about the law and speak for them in court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001678'>
+<catDesc>Skilled Labor</catDesc>
+          <category xml:id='S63276'>
+            <catDesc>
+              <term>Carpenters</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/carpenter?q=carpenters</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001678'>Skilled Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63276P0'>"A person whose job is making and repairing wooden objects and structures." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63442'>
+            <catDesc>
+              <term>Laborers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/laborer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001678'>Skilled Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63442P0'>"A person who does physical work" or more specifically, "a person who does unskilled physical work, especially outside." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001666'>
+<catDesc>Races, Ethnicities, &amp; Nationalities</catDesc>
+          <category xml:id='S101123'>
+            <catDesc>
+              <term>British</term>
+              <idno>https://www.essentialcivilwarcurriculum.com/the-american-civil-war-in-britain.html</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD101123P0'>Across the nineteenth century, British immigrants (coming from England, Wales, or Scotland) to the United States fared better than almost any other group. The close cultural, religious, social, and linguistic ties between Great Britain and the United States rendered British assimilation to the U.S. far easier than others, while over half of British immigrants to the U.S. came as skilled workers and therefore found well-paying jobs in manufacturing textiles (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 73-6).
+</p>
+
+<p xml:id='OTPSD101123P1'>Both rapidly industrializing nations, Great Britain and the United States became economic competitors, yet their economies became integrally linked as cotton from the U. S. South fueled Britain's booming textile industry. At the outbreak of the American Civil War, politicians in Great Britain hotly debated whether to support the Union or Confederacy. While anti-British sentiment remained strongest in the North, the South's ties to slavery were diplomatically unwise for a Great Britain that had abolished slavery decades before. Both the U. S. and Confederacy sent emissaries to Great Britain, which throughout the war remained officially neutral. In practice, the British supplied munitions, built ships, and smuggled cotton for the Confederacy. However, Great Britain never formally recognized the Confederate States of America as a distinct nation, thereby crippling it diplomatically and aiding the Union war effort (Essential Civil War Curriculum).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S25003265'>
+            <catDesc>
+              <term>Wounds and Injuries</term>
+              <idno>https://www.civilwarmed.org/surgeons-call/amputation1/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25003265P0'>Medical treatment of wounds and injuries during the nineteenth century was fairly primitive, and not substantially different than medical practices over the preceding few centuries. Doctors had little knowledge of bacteria, and therefore did not understand the importance of washing hands or sterilizing medical instruments when treating open wounds. Physicians learned that some substances seemed to aid recovery, such as iodine and bromine, but their properties were more mystery than scientifically understood. Additionally, antibiotics had not yet been discovered. As a result, even minor cuts could become infected and lead to severe disability or death.
+</p>
+
+<p xml:id='OTPSD25003265P1'>During the Civil War, more than 475,000 soldiers were wounded in battle.  Thousands more suffered injuries in camp or on the march.  Medical care for wounded and injured soldiers typically involved closing wounds and setting broken bones. After suturing or bandaging these injuries, physicians would carefully observe their patients and try to offer some medical support, but recovery most often depended upon the wounded man’s natural healing. Some medical practices had unintended consequences, both positive and negative. Horsehair proved to be a popular material for sutures, due to its length and strength. To improve its elasticity, Civil War doctors boiled the horsehair, thereby disinfecting it. Wounds stitched closed with boiled horsehair were less likely to grow infected from the sutures, although this benefit was not fully understood until after the war. On the other hand, physicians probing for bullets or foreign objects inside a wound often introduced more bacteria and generated worse infections than the patient may have experienced without the procedure. This practice continued well after the Civil War, and likely contributed to President James Garfield’s death in 1881, when doctors repeatedly used unsterilized fingers and instruments while searching for the assassin’s bullet lodged in his body.
+</p>
+
+<p xml:id='OTPSD25003265P2'>Doctors understood the danger of blood loss to wounded men, but devices such as the Petit Tourniquet—a French screw-tightened tourniquet designed in 1718—were typically found at a surgeon’s tent rather than with the soldiers along the front lines. Some physicians recommended supplying tourniquets among the soldiers, but others suggested much simpler practices, such as each soldier carrying a handkerchief or cloth strip and a six-inch long piece of wood in his pocket to function as a makeshift tourniquet. These life-saving practices were not mandated among Union and Confederate armies, though, and many wounded men died of blood loss before reaching medical help.
+</p>
+
+<p xml:id='OTPSD25003265P3'>The most iconic treatment of battlefield wounds during the Civil War was amputation. Most casualties during the war were caused by musket fire. The large caliber lead balls often shattered bones upon impact. Unable to splint or repair bones so damaged, physicians frequently chose to amputate the wounded person’s limb above the injury. Doctors typically sewed a flap of skin over the stump. Unfortunately, due to the high incidents of infection for reasons described above, amputated limbs often became infected. Gangrene was among the most dangerous conditions, which could lead to death. The only method of combatting gangrene was to perform another amputation further up the limb (if possible) and hope it healed properly. Confederate and Union physicians performed around 50,000 amputations during the Civil War. Contrary to some popular myths, anesthesia, such as chloroform and ether, was in use during the Civil War, and around 95% of wounded soldiers were afforded some comfort before amputation.
+</p>
+
+<p xml:id='OTPSD25003265P4'>Hundreds of thousands of soldiers returned home from the Civil War with scars or permanent disabilities from wartime wounds and injuries. The large number of amputees also led to new developments in prosthetics. Lessons learned from the war improved medical care a bit, as Union and Confederate doctors recorded their observations of wounds and treatments. Published reports provided a new wealth of information. However, only after scientists better understood microbes and accepted the Germ Theory in the late nineteenth and early twentieth century did medical practice substantially improve from the Civil War era practices. (Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 41–50; Terry Reimer, “Wounds, Ammunition, and Amputation,” National Museum of Civil War Medicine; Paige Gibbons Backus, “Amputation and the Civil War,” American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission.; Funding for this project provided by the National Endowment for the Humanities.; Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Smith, Franklin, 1807-</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-11-10</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Franklin Smith to Mississippi Governor John J. Pettus seeking to have James Gavin, a British national, released from jail.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-943-01-32</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 943, Folder 1</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>British; Mississippi. Governor; Pettus, John Jones, 1813-1867; Prisoners</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Franklin Smith to Mississippi Governor John J. Pettus; November 10, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/12692&quot;&gt;Letter from Franklin Smith to Mississippi Governor John J. Pettus; November 10, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG40" who="U32020358" when="2025-03-15T01:29:14Z" target="#P25195236">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U2" when="2024-10-25T14:47:56Z" target="#P25195235">
+          Version 29 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-11-17T18:14:15Z" target="#P25195236">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-11-17T18:06:45Z" target="#P25195235">
+          Version 28 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-11-17T18:05:30Z" target="#P25195235">
+          Version 27 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-11-17T17:27:58Z" target="#P25195235">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-11-01T22:29:00Z" target="#P25195235">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-09-03T00:43:13Z" target="#P25195235">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-09-02T20:15:48Z" target="#P25195235">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-09-02T20:03:49Z" target="#P25195236">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-09-02T20:01:08Z" target="#P25195235">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-09-02T19:57:29Z" target="#P25195235">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-18T21:57:57Z" target="#P25195235">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-18T03:27:11Z" target="#P25195235">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-18T02:50:13Z" target="#P25195235">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-17T23:27:20Z" target="#P25195235">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-16T20:43:05Z" target="#P25195235">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2022-12-04T16:27:59Z" target="#P25195236">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2022-12-04T15:51:04Z" target="#P25195235">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2022-12-04T01:53:07Z" target="#P25195235">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2022-12-04T00:31:15Z" target="#P25195235">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2021-10-12T19:30:08Z" target="#P25195235">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2021-10-12T19:29:12Z" target="#P25195236">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2021-10-12T19:28:17Z" target="#P25195236">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2021-10-12T19:26:33Z" target="#P25195235">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091356" when="2021-09-30T02:19:19Z" target="#P25195236">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091356" when="2021-09-30T02:16:57Z" target="#P25195235">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091356" when="2021-09-30T02:15:46Z" target="#P25195235">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091356" when="2021-09-30T02:14:11Z" target="#P25195235">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091356" when="2021-09-30T02:12:01Z" target="#P25195235">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091356" when="2021-09-30T02:10:16Z" target="#P25195235">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091356" when="2021-09-29T20:54:54Z" target="#P25195235">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091356" when="2021-09-29T20:54:15Z" target="#P25195235">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091356" when="2021-09-29T20:49:11Z" target="#P25195236">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091356" when="2021-09-29T20:48:35Z" target="#P25195236">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25091356" when="2021-09-29T20:47:59Z" target="#P25195235">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25091356" when="2021-09-29T20:44:29Z" target="#P25195235">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U226410" when="2021-09-19T21:16:46Z" target="#P25195236">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U226410" when="2021-09-19T21:07:57Z" target="#P25195235">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2021-09-13T14:47:59Z" target="#P25195236">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-09-13T14:47:56Z" target="#P25195235">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25195235" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/12690/full/full/0/default.jpg"/>
+        <div xml:id="OTP25195235">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25195235P0' xml:id='OTP25195235P0'>[seal]
+</p>
+
+<p corresp='TTP25195235P1' xml:id='OTP25195235P1'><rs ref='#S63302'>Canton</rs> Miss<lb/>
+Nov 10<add place='above'>th</add> 1862
+</p>
+
+<p corresp='TTP25195235P2' xml:id='OTP25195235P2'>Honble <rs ref='#S63111'>J J Pettus</rs><lb/>
+Governor &amp;c
+</p>
+
+<p corresp='TTP25195235P3' xml:id='OTP25195235P3'>Dear Sir:
+</p>
+
+<p corresp='TTP25195235P4' xml:id='OTP25195235P4'>Mr. <rs ref='#S25025046'>James <del rend='overstrike'>Gal-vin</del> Gavin</rs> who has been <rs ref='#S63442'>working in the public works</rs> at this place (removed from <rs ref='#S63147'>Memphis</rs> before the <rs ref='#S71916'>Yankees</rs> <rs ref='#S99666'>came in</rs>) called "The Dixie works" for more than 18 months having followed the works from Memphis ^to this place^ &amp; been there ever since, left the city yesterday morning <hi rend='underline'>on a mission of human-ity</hi> to a friend of his who he has heard had been <rs ref='#S25003265'>wounded</rs> by the <rs ref='#S25026889'>Explosion</rs> at <rs ref='#S51785'> Jackson</rs> to wit <rs ref='#S25025047'>James Kearnes</rs>. [?]
+</p>
+
+<p corresp='TTP25195235P5' xml:id='OTP25195235P5'>He was <rs ref='#S62954'>arrested</rs> by some one and brought before Capt <rs ref='#S71109'>M<add place='above'>c</add>Keever</rs> who took from said Gavin, as he states, the certifi-cate of the <rs ref='#S101123'>British</rs> <rs ref='#S94600'>counsel</rs> at <rs ref='#S63017'>New Orleans</rs> (made long begore the Yankees came there) of his being a British subject—By the order of the <rs ref='#S25004269'>Secretary of war</rs> in the case of a Swiss as published in the appeal a British subject not naturalized or designing to be but living here <hi rend='underline'>[?] [?]</hi> [?] he is not liable
+</p>
+
+<p corresp='TTP25195235P6' xml:id='OTP25195235P6'>M<add place='above'>r</add> Franklin Smith<lb/>
+Canton Miss<lb/>
+Nov 10<add place='above'>th</add> 1862 
+</p>
+
+
+        </div>
+        <pb xml:id="F25195236" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/12691/full/full/0/default.jpg"/>
+        <div xml:id="OTP25195236">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25195236P0' xml:id='OTP25195236P0'>and clearly in the second place he is undoubtely <rs ref='#S25009736'>exempt</rs> under the confederate <rs ref='#S98881'>law</rs> lately passed as "an Citizen employed on govern-ment work—" Mr Gavin having been a <rs ref='#S63276'>carpenter</rs> working as above stated in "The Dixie Works" in making waggons for for cannon sword scabbards &amp;c
+</p>
+
+<p corresp='TTP25195236P1' xml:id='OTP25195236P1'>He has employed me as an attorny please do me the favor to state to Capt M<add place='above'>c</add>Keever the facts and have his certificate mailed to him or me at this place &amp; oblige
+</p>
+
+<p corresp='TTP25195236P2' xml:id='OTP25195236P2'>Your frd &amp; obt Sv
+</p>
+
+<p corresp='TTP25195236P3' xml:id='OTP25195236P3'><rs ref='#S74261'>Franklin Smith</rs>
+</p>
+
+<p corresp='TTP25195236P4' xml:id='OTP25195236P4'>Honble J. J. Pettus <lb/>
+Governor<lb/>
+of the State <hi rend='underline'>of Mississippi</hi>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

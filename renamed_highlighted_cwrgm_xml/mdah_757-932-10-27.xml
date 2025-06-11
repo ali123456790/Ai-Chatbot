@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from H. M. Clarke to Mississippi Governor John J. Pettus; July 4, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 22 edits between
+              <date type="first_edit" when="2021-08-04T17:27:11Z">August  4, 2021</date> and
+              <date type="last_edit" when="2023-11-17T18:02:28Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U216441">
+          <persName
+            >
+            Robin Horne
+            </persName>
+            <resp>
+              made 15 edits between
+              <date type="first_edit" when="2021-07-07T00:58:30Z">July  7, 2021</date> and
+              <date type="last_edit" when="2021-07-07T01:37:29Z">July  7, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25089305">
+          <persName
+            >
+            Sarah West
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2021-07-07T18:34:19Z">July  7, 2021</date> and
+              <date type="last_edit" when="2021-07-17T15:08:14Z">July 17, 2021</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T19:09:32+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S25013698">
+              <persName>Ivy, V. H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25013699">
+              <persName>Clarke, H. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S52243">
+              <persName>Lincoln, Abraham, 1809-1865</persName>
+                <idno>https://en.wikipedia.org/wiki/Abraham_Lincoln</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52243P0'>Abraham Lincoln was the sixteenth president of the United States, whose election to the White House as an anti-slavery Republican in 1860 led several southern states to declare themselves separate from the Union and create the Confederate States of America. Lincoln was commander-in-chief of Union forces during the Civil War. Over the course of four years, Lincoln oversaw the Union war effort and took steps to end the institution of slavery to aid the federal military effort and destroy the root cause of the north versus south sectional conflict.
+</p>
+
+<p xml:id='OTPS52243P1'>Born on February 12, 1809, near Hodgenville, Kentucky, Lincoln moved with is family to Indiana as a child and grew up in a poor, frontier society. Although he received minimal formal education, Lincoln proved to be highly intelligent and a voracious reader. He held various jobs as a young man, including working on a flatboat down the Mississippi River, splitting rails and logs, and as a store keeper. He moved to Illinois in 1830 and in 1832, he volunteered for military service during the Black Hawk War in Illinois. Elected captain of a militia company, Lincoln saw no combat, but credited his time leading men in the military as one of the most proud and instructional periods of his life.
+</p>
+
+<p xml:id='OTPS52243P2'>After the Black Hawk War, Lincoln operated a general store in New Salem, Illinois. When the business began to lose money, he decided to study law and become an attorney. Unlike most other lawyers, who attended a law school or studied under established attorneys, Lincoln’s education was self-guided through legal texts and books he borrowed or purchased. Meanwhile, he developed an interest in politics. After an unsuccessful run for the Illinois legislature in 1833, he ran again in 1834 and won a seat in the state’s House of Representatives. He served one term and became known for his support of internal improvements and his Free Soil position on slavery, which opposed slavery in the new territories and criticized abolition (the immediate, forced end of slavery).
+</p>
+
+<p xml:id='OTPS52243P3'>After leaving the Illinois legislature in 1836, Lincoln became a successful attorney in Springfield. He handled many different types of cases, and over the course of his legal career, representing poor individuals in criminal cases as well as large businesses, such as the Illinois Central Railroad. Lincoln argued 175 cases before the Illinois Supreme Court, serving as the single attorney in 51 of those cases (31 of which he won). As an attorney, he developed a reputation for integrity and earned the nickname “Honest Abe.”
+</p>
+
+<p xml:id='OTPS52243P4'>In 1846, Lincoln won an election as a member of the Whig Party to the U.S. House of Representatives for Illinois. As a freshman congressman, he helped author legislation to abolish slavery in the District of Columbia, but the bill died due to insufficient support. More notably, Lincoln opposed the Mexican-American War which erupted in 1846 due to a border dispute between the United States and Mexico. He criticized Democratic president James K. Polk, but this proved unpopular in his home state. He had promised to only serve one term in Congress and declined to run for reelection. He returned to Springfield after the expiration of his term in 1849 and resumed his law practice.
+</p>
+
+<p xml:id='OTPS52243P5'>Lincoln’s political ambitions continued to grow in the 1850s. The volatile debate over the future of slavery in the territories, especially following passage of the Kansas-Nebraska Act of 1854—which overturned slavery restrictions established by the Missouri Compromise of 1820 and opened all western territories to slavery through popular sovereignty (vote of the residents)—inspired Lincoln to speak publicly about his opposition to slavery. His chief rival became Illinois senator Stephen A. Douglas, a powerful voice in the national Democratic Party, and the author of the Kansas-Nebraska Act. Lincoln gave numerous speeches denouncing slavery as a moral wrong and opposing its extension into the territories. However, like most northerners, he was not an abolitionist and did not advocate for the immediate end of slavery across the United States. Most white Americans during the 1850s embraced white supremacy, and many northerners did not want African Americans—as slaves or as free people—in their communities. Lincoln believed that southern states had the legal right to maintain the institution of slavery within their own borders, and he fended off accusations that he was for African American equality. For years he gave tacit support to a plan promoted among moderate politicians to send freed slaves to Africa.
+</p>
+
+<p xml:id='OTPS52243P6'>The issue of slavery in the territories effectively broke apart the Whig Party and gave rise to the new Republican Party. Lincoln joined this new anti-slavery party and by 1858 received the party’s nomination in Illinois to challenge Douglas’s reelection to the U.S. Senate. Upon receiving the nomination, Lincoln gave one of his most famous speeches, declaring in part that “a house divided against itself cannot stand”—a reference to the United States being half slaveholding and half free—and predicting that the fight over slavery would either make the country give in to slaveholding interests or end the institution. During the 1858 Illinois campaign, Lincoln and Douglas engaged in eight public debates which have become the most famous political debates in United States history. Douglas championed his principle of “popular sovereignty,” allowing white residents of the territories to make their new states free or slaveholding, while Lincoln advanced a moral opposition to slavery in the territories as contrary to the principles of American freedom. Douglas ultimately won the Senate election, but the debates catapulted Lincoln to national fame and the leading voice for the growing anti-slavery movement in the north
+</p>
+
+<p xml:id='OTPS52243P7'>Only two years later, in 1860, the Republican Party nominated Lincoln for U.S. president. His chief rival was, again, Stephen Douglas. The election was the most contested and significant in American history. The Democratic Party split during its convention over the defense of slavery. Douglas and his outwardly neutral platform on slavery received the party’s formal nomination, but many southern delegates walked out to hold their convention, nominating John C. Breckenridge as the champion of pro-slavery interests. Talk of secession, which had circulated in years past, increased as southern politicians warned that election of Lincoln would be a direct assault upon their slaveholding interests and justify disunion.
+</p>
+
+<p xml:id='OTPS52243P8'>Lincoln won the 1860 presidential election without any southern support, not only placing the first truly anti-slavery president in the White House but proving that northern voters could elect a candidate against southern interests. Within weeks, states in the lower south began holding secession conventions to declare their separation from the Union. South Carolina led the way with its ordnance of secession passing on December 20, 1860. Mississippi was second, on January 9, 1861. In total, seven southern states declared secession even before Lincoln was inaugurated in March 1861.
+</p>
+
+<p xml:id='OTPS52243P9'>Lincoln entered the presidency in the midst of this secession crisis. He rejected the legitimacy of the lower south’s separation from the Union. The matter erupted into open hostilities in April 1861, when Confederate forces attacked and overwhelmed federal troops at Fort Sumter in Charleston Harbor, South Carolina. In response, Lincoln called for 75,000 volunteers to put down the rebellion, as he called it. Northern states responded enthusiastically, while several states in the upper south—including Virginia, Arkansas, North Carolina, and Tennessee—chose to join the Confederacy.
+</p>
+
+<p xml:id='OTPS52243P10'>Lincoln’s objective at the start of the Civil War was restoration of the Union as it was. He resisted efforts by more radical anti-slavery northerners to attack slavery itself, and overruled Union general John C. Frémont’s effort to liberate slaves in Missouri in 1861. His actions were guided by concerns regarding his legal authority to challenge slavery where it already existed, and from fears that such steps would drive moderate Unionists in the border states of Missouri, Kentucky, and Maryland into the Confederacy. (Lincoln still personally opposed slavery and in 1862 signed an emancipation act liberating enslaved people in Washington, D.C., fulfilling a goal he had first undertaken as a congressman in the 1840s.)
+</p>
+
+<p xml:id='OTPS52243P11'>However, as Confederate military forces won multiple battlefield victories in 1861 and 1862, prolonging the conflict, Lincoln sought more desperate measures. For one, thousands of enslaved people had fled to Union lines, and more arriving daily. Secondly, the institution was the Confederacy’s greatest economic and labor interest. Millions of enslaved people grew crops that fed and funded the Confederate war effort, and southern officials used slave labor to construct forts and trenches that held back the Union armies. Recognizing that the Union could not defeat the Confederacy while protecting or leaving the institution of slavery untouched, on January 1, 1863, Lincoln signed the Emancipation Proclamation, which declared all slaves in secessionist areas permanently free. Although the proclamation was limited in scope (as it was a military measure that did not, nor could not, liberate enslaved people in areas not in rebellion against federal authority), it was a revolutionary act in American history. It formally changed the Union objective of the war, from preserving it as it was to “a new birth of freedom,” as Lincoln famously said in a speech in November 1863 at Gettysburg, Pennsylvania. Additionally, the proclamation authorized federal officers to protect the freedom of all enslaved people who fled to Union armies in Confederate territories and to liberate those they encountered during their campaigns in the south. Finally, the Emancipation Proclamation formally authorized the United States military to enlist African American soldiers. As a result around 180,000 black soldiers fought for the Union during the Civil War.
+</p>
+
+<p xml:id='OTPS52243P12'>Throughout the Civil War, Lincoln struggled to lead the Union war effort in a challenging political and military environment. Democrats in the north vehemently opposed his administration and Republican Party policies, particularly those against slavery. Union generals in Virginia failed to defeat the Confederate army, lowering morale in the north and boosting prospects of southern success. Lincoln managed to handle these various challenges well, often accepting public criticism from generals and relieving them of command only when they failed to deliver military victories. He also stretched the authority of the presidency, authorizing the imprisonment of critics he believed directly harmed the war effort. While his administration was accused of violating the civil rights of some Americans, the Republican-led Congress frequently backed Lincoln and expanding his power.
+</p>
+
+<p xml:id='OTPS52243P13'>In 1864, Lincoln feared he would lose reelection as the Civil War continued to drag on, costing hundreds of thousands of lives and millions of dollars. However, through battlefield successes by Union generals Ulysses S. Grant, William Tecumseh Sherman, and Philip Sheridan in Virginia and Georgia, Lincoln won the election and support to continue the war until Confederate defeat. He also worked behind the scenes with Congress and various state leaders to legally end slavery through a constitutional amendment. While he voiced some support for the old plan of relocating freed slaves to Africa, by the end of the war Lincoln knew such plan was impractical and he supported protecting basic civil rights of African Americans within the United States.
+</p>
+
+<p xml:id='OTPS52243P14'>In the spring of 1865, the Confederate war effort began to collapse. Much of Lincoln’s attention was turned to reconstructing the former Confederate areas, some of which were already under federal control. He advocated for a speedy reunification, without malice or vengeance, and one in which former secessionists were welcomed back to the Union without slavery and with some recognitions of black civil rights. In April 1865, Robert E. Lee surrendered his Army of Northern Virginia to General Grant in Virginia and Union forces chased down the last southern troops across the lower south. On April 14, as the Civil War was ending, Lincoln was shot in the head by John Wilkes Booth at Ford’s Theater in Washington, D.C. The mortally wounded president was carried to a boarding house across the street where he passed away the following morning. Lincoln’s murder ended most hopes for a peaceful reconstruction, as it inflamed tensions in the north and energized Radical Republicans who Lincoln had largely held in check.
+</p>
+
+<p xml:id='OTPS52243P15'>Lincoln was married to Mary Todd, who was from a wealthy family in Kentucky. He had four sons, only one of whom (Robert) survived into adulthood. Lincoln is buried in a large tomb in Oak Ridge Cemetery in Springfield, Illinois.
+</p>
+
+<p xml:id='OTPS52243P16'>(Wikipedia; American Battlefield Trust; National Park Service)
+</p>
+
+<p xml:id='OTPS52243P17'>Abraham Lincoln belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S25013694">
+              <persName>Sanford, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63017">
+              <placeName>Louisiana--Orleans Parish. New Orleans</placeName>
+                <idno>https://en.wikipedia.org/wiki/New_Orleans</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63017P0'>Located in Orleans Parish, New Orleans was founded in 1718. It became the capital of French Louisiana in 1722 and continued as the capital when Louisiana achieved statehood on April 30, 1812. It became part of Orleans County (now extinct) on the same day. In 1849 it was replaced by Baton Rouge as the state capital, although it temporarily served as the capital again from 1865 until 1880. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>29.95, -90.08</geo>
+                </note>
+            </place>
+            <place xml:id="S93472">
+              <placeName>Mississippi--Clay County. Palo Alto</placeName>
+                <idno>https://en.wikipedia.org/wiki/Palo_Alto,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS93472P0'>Located in Clay County, Palo Alto was founded around 1846. Palo Alto is a deserted town with few or no remaining inhabitants. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.6807, -88.8001</geo>
+                </note>
+            </place>
+            <place xml:id="S63015">
+              <placeName>Alabama--Mobile County. Mobile</placeName>
+                <idno>http://encyclopediaofalabama.org/article/h-1794</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63015P0'>Located in Mobile County, Mobile was founded in 1702 and serves as the county seat. (Encyclopedia of Alabama; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.69444, -88.04306</geo>
+                </note>
+            </place>
+            <place xml:id="S63988">
+              <placeName>Mississippi--Harrison County. Mississippi City</placeName>
+                <idno>https://en.wikipedia.org/wiki/Mississippi_City,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63988P0'>Located in Harrison County, Mississippi City was founded as early as 1841 and served as the county seat from 1841 to 1902. Gulfport annexed Mississippi City in 1965. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.38186, -89.04392</geo>
+                </note>
+            </place>
+            <place xml:id="S71792">
+              <placeName>Mississippi--Harrison County. Ship Island</placeName>
+                <idno>https://en.wikipedia.org/wiki/Ship_Island_(Mississippi)</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS71792P0'>Located in Harrison County, Ship Island was founded in 1699 under the name Surgeres and renamed Ship Island in 1702. Ship Island is a barrier island in the Gulf of Mexico. (Wikipedia; Rowland, <hi rend='italic'>Mississippi</hi>, 662)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.21667, -88.91667</geo>
+                </note>
+            </place>
+            <place xml:id="S69099">
+              <placeName>Sectors of Land--Mississippi. Gulf Coast</placeName>
+                <idno>https://en.wikipedia.org/wiki/Mississippi_Gulf_Coast</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001865">Sectors of Land</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS69099P0'>Located in south Mississippi, the Gulf Coast is an 80-mile long and 55-miles wide coastline along the Gulf of Mexico. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.36742, -89.09282</geo>
+                </note>
+            </place>
+            <place xml:id="S63083">
+              <placeName>Bodies of Water--International. Pacific Ocean</placeName>
+                <idno>https://en.wikipedia.org/wiki/Pacific_Ocean</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001864">Bodies of Water</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63083P0'>The Pacific Ocean is a salt water region located west of the Americas, east of the Asiatic countries, and north of Australia. It is 63,800,000 square miles and has a depth of 35,797 feet. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>0.0, -160.0</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001329'>
+<catDesc>Publishing Industries</catDesc>
+          <category xml:id='S99620'>
+            <catDesc>
+              <term>Newspapers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/newspaper</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001329'>Publishing Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99620P0'>"A document consisting of news reports, articles, and photographs that is published every day or every week" (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S93394'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Blockade</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/blockade?q=Blockade</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD93394P0'>"The situation in which a country or place is surrounded by soldiers or ships to stop people or goods from going in or out." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S71100'>
+            <catDesc>
+              <term>Secession. American Civil War</term>
+              <idno>https://en.wikipedia.org/wiki/Secession_in_the_United_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71100P0'>Secession is the formal separation from a political group or entity. Secession differs from a revolt in that proponents of secession argue they have the legal right to separate from a government, while a revolt is an illegal, or extra-legal, rejection of government authority.
+</p>
+
+<p xml:id='OTPSD71100P1'>The idea of secession has existed in the United States since the ratification of the Constitution in 1789. During the American Revolution, the thirteen colonies formed the Articles of Confederation, which generally recognized each state as sovereign (supreme in its own authority) except for the powers specifically designated to a central government. Delegated powers included authority to declare war and make peace, international diplomacy, and resolution of disagreements among the states. This arrangement balanced state versus federal power, but also reflected the conflicting ideas of state sovereignty. The Articles described the individual states as sovereign, free, and independent, but also declared the states were required to obey the provisions of the central government and that “the Union shall be perpetual.”
+</p>
+
+<p xml:id='OTPSD71100P2'>The Articles of Confederation proved too weak to handle many national matters, leading representatives from the states to write a new Constitution in 1787. Opponents of this effort, often referred to as Anti-Federalists, feared strengthening the national government at the expense of state sovereignty. The Constitution did not recognize state sovereignty to the same degree as the Articles of Confederation, demonstrated by terms within the document like “We the people,” which recognized the national government as being of the American people rather than a compact of individual states. Anti-Federalists were unable to prevent ratification of the Constitution, but did prompt the creation of the Bill of Rights—ten amendments that protected specific rights of the people and the states from federal infringement. The Constitution and Bill of Rights remained silent on if or how a state could leave the Union.
+</p>
+
+<p xml:id='OTPSD71100P3'>For the first few decades of the Constitutional Union, secession was more of an academic question than a major political issue. The country was growing more divided over the issue of slavery, with white southerners embracing it as a vital part of their economic, social, cultural, and political society, and an increasing number of northerners turning against it. However, politicians in Washington, D.C., had managed to establish a balance between slave and free state interests and representation to maintain a general peace. Then, in the early 1830s, a political crisis emerged over federal protective tariffs. The state of South Carolina objected to the tariffs and declared them null and void within the state boundaries. The incident became known as the Nullification Crisis, and was the first major test of state versus federal authority in the United States. Though the matter directly focused on a state rejecting a national law, a South Carolina convention warned that the state would secede if challenged by the U.S. Congress. Led by John C. Calhoun, the South Carolinians argued that the federal government’s authority was limited to those powers specifically listed within the Constitution, leaving all other authority and sovereignty in the hands of the people through their state governments.
+</p>
+
+<p xml:id='OTPSD71100P4'>President Andrew Jackson, a southerner, vehemently denounced South Carolina’s actions, declaring that the Constitutional Union was constructed by the people as a whole, and represents them as such. He argued that the states had surrendered their sovereignty, or ability to act independently from the rest of the country. James Madison, the primary framer of the Constitution, was still alive during the Nullification Crisis and, in a personal letter to Senator Daniel Webster, also denounced secession as contrary to the principles of the Constitution.
+</p>
+
+<p xml:id='OTPSD71100P5'>South Carolina found little support from other southern states in its nullification and secession talk in the early 1830s, and eventually backed down, in part due to a compromise tariff. But the crisis had set a prominent seed in the minds of southerners that separation from the United States was a possible option should the central government prove hostile to its interests.
+</p>
+
+<p xml:id='OTPSD71100P6'>Over the next two decades talk of secession periodically emerged in political writings and speeches of extremists, in both north and south. While mostly associated to “Fire-Eaters” in the south—who argued that southern slaveholding interests would be better served in an independent south—some extreme abolitionists in the north also talked of secession. These northerners were a distinct minority, and not taken very seriously, but reflected the fact that various special interest groups and political extremists expressed ideas of disunion.
+</p>
+
+<p xml:id='OTPSD71100P7'>Secession advocacy hit its zenith during the presidential election of 1860. With the election of Abraham Lincoln, an openly anti-slavery northerner, South Carolina held a convention and passed an ordinance of secession on December 24, 1860, which declared the state to be sovereign and independent and that its union with the other states of the Constitutional Union was "dissolved."  Six other states of the Deep South followed soon after. They quickly united under a new central government, the Confederate States of America. While many people in the north denounced the act (and the population of the upper south was split on the matter of secession), the issue did not spark immediate military action. For several weeks it remained a political matter, with the Lincoln Administration denying the legitimacy of secession and trying to operate as if nothing had changed, and the seceded states trying to create a new government with their own debates over federal versus state authority in the Confederacy. The political tension finally erupted into violence over events in Charleston Harbor, South Carolina in April 1861. Confederate forces demanded that federal soldiers evacuate the military fortifications there. Lincoln refused, choosing to maintain his position that secession was illegitimate and that U.S. officials would continue to carry out their duties as usual. In response, Confederate forces attacked and then captured a federal garrison at Fort Sumter, turning the tense political crisis erupted into full blown war. At this point, the question of secession’s legitimacy came down to which side was victorious on the battlefield.
+</p>
+
+<p xml:id='OTPSD71100P8'>Throughout the war, the Lincoln administration treated Confederate forces as rebellious Americans rather than citizens of a separate country. This view guided Lincoln’s reconstruction ideas, as well. When Confederate forces surrendered and the Confederate government dissolved, the idea of southern secession essentially died. Lincoln’s assassination complicated federal reconstruction efforts, especially with disagreements within the Republican Party of how to treat former Confederates. Congress passed no specific laws about secession as a whole, and the most direct legal assessment of the right of secession in the wake of the Civil War emerged from the Supreme Court in regards to the case <hi rend='italic'>Texas v. White</hi>. While the case involved the sale of U.S. bonds by the former Confederate state legislature, the Supreme Court’s majority decision stated that Texas had never actually seceded from the Union. The majority opinion explained that the United States of America was perpetual and that states could not unilaterally remove themselves from the Union. The Court acknowledged, though, that state independence could result from revolution (the extra-legal rejection of higher authority) or through consent of the other states (secession approved by majority vote among all American states). (Wikipedia; The Avalon Project; American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+<category xml:id='C32001150S71100'>
+<catDesc>
+<term><rs ref='S71100'>Secession. American Civil War</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70883'>
+            <catDesc>
+              <term>Confederate States of America. Navy</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Navy</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70883P0'>The Confederate Navy was the military naval force of the Confederate States of America during the American Civil War. It was established by the Confederate Congress on February 21, 1861, and was primarily responsible for protecting the Confederacy’s coastlines and harbors from federal attack and disrupting the United States Navy’s blockade of Southern ports. At its creation, the Confederate Navy had thirty ships, only fourteen of which were seaworthy. In contrast, the United States Navy had approximately ninety ships ready for service. Despite manufacturing limitations, the Confederate Navy eventually increased its size to slightly over one hundred ships and approximately 5,000 sailors. Still, it could not compete directly with the Union Navy, which enlarged to more than 650 ships and around 20,000 sailors.
+</p>
+
+<p xml:id='OTPSD70883P1'>Because of its smaller size, the Confederate Navy sought new and unconventional methods to challenge Union naval supremacy. This included inviting privateers—privately owned ships that engaged in warfare—to attack Union ships, particularly merchant vessels, for the Confederate cause. More famously, the Confederate Navy built ironclad vessels (wooden ships protected by iron plates) and the first submarine (named the <hi rend='italic'>Hunley</hi>) in an effort to defeat Union ships through technological innovation. These efforts did not change the trajectory of the war, though, due in part to the Confederacy’s inability to build these new ships in great number and by the Union Navy’s own development of ironclad warships.
+</p>
+
+<p xml:id='OTPSD70883P2'>Confederate Navy ships also performed blockade running operations and attacked Union vessels traversing the Atlantic to and from Europe. These efforts were intended to open avenues for Confederate merchant vessels to carry on foreign trade and to draw Union ships away from the Confederacy’s coast. However, efforts to overcome the Union blockade proved ineffective. Federal ships managed to reduce the South’s trade to only five percent of its pre-war levels.
+</p>
+
+<p xml:id='OTPSD70883P3'>The Confederate Navy was the last vestige of the Confederacy. It ceased to exist on November 6, 1865, with the surrender of the CSS <I>Shenandoah</I> in Liverpool, England. That event also marked the end of the Civil War. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S63977'>
+            <catDesc>
+              <term>United States. Navy</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Navy</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63977P0'>The United States Navy, also known as the Union Navy during the American Civil War, was primarily responsible for blockading the Confederacy’s coastlines and harbors, destroying Confederate ships, and supporting Union Army amphibious operations along the Atlantic and Gulf of Mexico shores, and river. At the beginning of the war, the Union Navy had ninety ships, far outmatching the Confederacy’s fourteen vessels. Through the North’s superior manufacturing capabilities and larger population, the Union Navy substantially increased its force to more than 650 ships and 20,000 sailors by the time the war ended. In comparison, the Confederate Navy barely surpassed one hundred ships and 5,000 sailors.
+</p>
+
+<p xml:id='OTPSD63977P1'>The Union Navy’s blockade of the Confederacy was very successful, cutting the South’s trade to only five percent of its pre-war numbers. In a vain effort to defeat the federal ships blocking their harbors, Confederate forces focused on innovative ship technology, such as ironclad vessels (wooden ships protected by iron plates) and the first operational submarine (named the Henley). Union officials managed to counter these efforts by developing their own ironclad ships, including the USS <I>Monitor</I>, a flat, iron-plated vessel with a rotating turret.
+</p>
+
+<p xml:id='OTPSD63977P2'>While the Union Navy did engage in a few notable sea battles (the fight between the USS <I>Monitor</I> and the Confederacy’s ironclad CSS <I>Virginia</I> being the most famous), most of its combat action involved supporting the Union Army’s ground operations along the Mississippi River, at Mobile Bay, and in places like Charleston, South Carolina, and Fort Fisher, North Carolina. Capturing ports and coastal fortifications not only reduced the strength of the Confederate military, but gave the Union Navy vital supply bases for its own operations around the South. The assaults upon the coastal positions involved more traditional naval warfare with cannonading by wooden ships; but the Navy developed the shallower draft ironclads for operations on the rivers and waterways. These steam-powered ships were more maneuverable than wooden sail ships, and were better protected against close-range artillery by Confederate river forts.
+</p>
+
+<p xml:id='OTPSD63977P3'>After the Civil War, the Union Navy—like the army—downsized to a number close to its pre-war number. However, the war had introduced key technological and doctrinal changes to sea and river warfare across the globe. At least for a short time, the Union Navy had been the most technologically advanced maritime force in the world. (Wikipedia; American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Clarke, H. M.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-07-04</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from H. M. Clarke at Palo Alto, Mississippi, to Mississippi Governor John J. Pettus asking to be put into the Confederate Navy service by the Governor.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Palo Alto (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-932-10-27</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Clay County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 932, Folder 10</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Navy.; Confederate States of America. Navy--Appointments and retirements; Confederate States of America. Navy--Recruiting, enlistment, etc.; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from H. M. Clarke to Mississippi Governor John J. Pettus; July 4, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/8080&quot;&gt;Letter from H. M. Clarke to Mississippi Governor John J. Pettus; July 4, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG44" who="U220769" when="2023-11-17T18:02:28Z" target="#P25100284">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U220769" when="2023-11-06T21:17:47Z" target="#P25100285">
+          Version 15 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2023-11-02T15:28:56Z" target="#P25100285">
+          Version 14 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-09-02T20:35:56Z" target="#P25100285">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-09-02T20:08:54Z" target="#P25100284">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-03-18T23:07:27Z" target="#P25100284">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-03-18T22:51:18Z" target="#P25100284">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-03-18T14:28:28Z" target="#P25100284">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-03-18T04:52:08Z" target="#P25100284">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-03-18T04:01:26Z" target="#P25100284">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-03-18T01:08:57Z" target="#P25100285">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-03-17T23:09:24Z" target="#P25100284">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-04T19:36:28Z" target="#P25100284">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2022-12-04T15:29:18Z" target="#P25100284">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2022-12-04T00:41:51Z" target="#P25100285">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2021-12-09T22:43:49Z" target="#P25100285">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2021-12-09T22:41:19Z" target="#P25100285">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2021-08-04T17:31:52Z" target="#P25100286">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2021-08-04T17:31:28Z" target="#P25100285">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2021-08-04T17:30:42Z" target="#P25100284">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2021-08-04T17:29:59Z" target="#P25100285">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2021-08-04T17:27:11Z" target="#P25100284">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U25089305" when="2021-07-17T15:08:14Z" target="#P25100285">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U25089305" when="2021-07-07T18:57:00Z" target="#P25100286">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U25089305" when="2021-07-07T18:56:30Z" target="#P25100285">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25089305" when="2021-07-07T18:34:32Z" target="#P25100284">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25089305" when="2021-07-07T18:34:19Z" target="#P25100284">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U216441" when="2021-07-07T01:37:29Z" target="#P25100286">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U216441" when="2021-07-07T01:37:23Z" target="#P25100286">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U216441" when="2021-07-07T01:36:47Z" target="#P25100286">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U216441" when="2021-07-07T01:33:41Z" target="#P25100285">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U216441" when="2021-07-07T01:33:30Z" target="#P25100285">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U216441" when="2021-07-07T01:30:44Z" target="#P25100285">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U216441" when="2021-07-07T01:15:04Z" target="#P25100284">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U216441" when="2021-07-07T01:14:56Z" target="#P25100284">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U216441" when="2021-07-07T01:12:45Z" target="#P25100284">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U216441" when="2021-07-07T01:12:34Z" target="#P25100284">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U216441" when="2021-07-07T01:10:48Z" target="#P25100284">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U216441" when="2021-07-07T01:10:18Z" target="#P25100284">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U216441" when="2021-07-07T00:58:42Z" target="#P25100286">
+          Version 1 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG4" who="U216441" when="2021-07-07T00:58:38Z" target="#P25100285">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG3" who="U216441" when="2021-07-07T00:58:30Z" target="#P25100284">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-06-29T23:43:59Z" target="#P25100286">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-06-29T23:43:55Z" target="#P25100285">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-06-29T23:43:52Z" target="#P25100284">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25100284" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8077/full/full/0/default.jpg"/>
+        <div xml:id="OTP25100284">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25100284P0' xml:id='OTP25100284P0'>[seal]
+</p>
+
+<p corresp='TTP25100284P1' xml:id='OTP25100284P1'><rs ref='#S93472'>Palo Alto</rs> Miss July 4/61 <lb/>
+Hon <rs ref='#S63111'>J J Pettus</rs>
+</p>
+
+<p corresp='TTP25100284P2' xml:id='OTP25100284P2'>Dr Sir
+</p>
+
+<p corresp='TTP25100284P3' xml:id='OTP25100284P3'>I see by the <rs ref='#S63015'>Mobile</rs> <rs ref='#S99620'>Papers</rs> that <rs ref='#S63988'>Miss City</rs> &amp; <rs ref='#S71792'>Ship Island</rs> (our only sea ports) are <rs ref='#S93394'>Blockaded</rs> by Dictator <rs ref='#S52243'>Lincoln</rs> Gun Boats Some of which are lazing within one mile of our <rs ref='#S69099'>coast</rs> Is this to be bourn Have you forgot that I tendered my services to you before Miss <rs ref='#S71100'>Seceeded</rs> for any Service on Water Stating my qualifications &amp; giving reference &amp;c. When the fight Commenced, knowing we had no <rs ref='#S70883'>navy</rs>, I started to go Privateering and believe I filed the first <hi rend='underline'>first</hi> Class Bond in the Con States for that purpose I could not get a Commiss^ion^ from <rs ref='#S25013694'>Sanford</rs> of Mobile to suit me The Law not authorizing him to grant it, although I offered any security I wanted to go to the <rs ref='#S63083'>Pacific</rs> and with limited means expected to start on a small scale but as I got able I wanted permission to change my vesel and increase my armanent &amp; men until I could copture <rs ref='#S63977'>any vesel Lincoln has</rs> in those waters I could not make any change without first changing papers
+</p>
+
+
+        </div>
+        <pb xml:id="F25100285" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8078/full/full/0/default.jpg"/>
+        <div xml:id="OTP25100285">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25100285P0' xml:id='OTP25100285P0'>I joined the Privateer <rs ref='#S25013698'>V H Ivy</rs> of <rs ref='#S63017'>new Orleans</rs> for one week and was the Prize Master of the Prize Ship Pettigrew That sort of bussness does not suit me I must be prepared to Light as well as run I ask no office no Position but would like to be useful if there is any chance We have plenty to do our fighting on land I think my place is on water The Propeller Enoch Train in New Orleans can be bought for some $25000—&amp; in proper hands can be fitted for some  $5000—She has all her machinery below the water line and is as strong as wood &amp; Iron can make her with plenty of speed She could keep the Lake open &amp; protect our coast
+</p>
+
+<p corresp='TTP25100285P1' xml:id='OTP25100285P1'>Please excuse me if I am troubling I want to get to work &amp; know not how I want no place unless there is to be active service I an not willing to leave <rs ref='#S25013472'>my family</rs> to lay at anchor for any pay
+</p>
+
+<p corresp='TTP25100285P2' xml:id='OTP25100285P2'>Very Respectfully &amp; Truly Yours
+</p>
+
+<p corresp='TTP25100285P3' xml:id='OTP25100285P3'><rs ref='#S25013699'>H M Clarke</rs>
+</p>
+
+
+        </div>
+        <pb xml:id="F25100286" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8079/full/full/0/default.jpg"/>
+        <div xml:id="OTP25100286">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP25100286P0' xml:id='OTP25100286P0'>July 4<add place='above'>th</add> 1861 <lb/>
+H. M. Clark "
+</p>
+
+<p corresp='TTP25100286P1' xml:id='OTP25100286P1'>Asking to be put into Navy service—immedi-ately<hr> </hr>
+</p>
+
+<p corresp='TTP25100286P2' xml:id='OTP25100286P2'>Answered July 12<add place='above'>th</add> 61
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

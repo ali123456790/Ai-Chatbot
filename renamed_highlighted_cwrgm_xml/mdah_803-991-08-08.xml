@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from H. Hanslow to Mississippi Governor Adelbert Ames; June 4, 1874</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U25090807">
+          <persName
+            >
+            Patricia Parrish
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2023-01-28T23:49:54Z">January 28, 2023</date> and
+              <date type="last_edit" when="2023-01-28T23:59:38Z">January 28, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2023-06-06T22:58:35Z">June  6, 2023</date> and
+              <date type="last_edit" when="2023-06-06T23:04:38Z">June  6, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2023-06-08T18:50:44Z">June  8, 2023</date> and
+              <date type="last_edit" when="2023-06-08T19:03:34Z">June  8, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2024-06-29T23:11:20Z">June 29, 2024</date> and
+              <date type="last_edit" when="2024-06-29T23:18:48Z">June 29, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T14:53:03Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T16:47:13Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-03-06T14:57:35Z">March  6, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-09-14T18:40:02Z">September 14, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T19:08:34+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32024025">
+              <persName>Hanslow, H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52648">
+              <persName>Ames, Adelbert, 1835-1933</persName>
+                <idno>https://en.wikipedia.org/wiki/Adelbert_Ames</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52648P0'>Adelbert Ames served as a governor and U.S. senator of Mississippi during the Reconstruction era.  He was born in East Thomaston (modern-day Rockland), Maine, in 1835. As a boy, Ames spent time working on various merchant vessels, receiving training in seamanship. He entered the United States Military Academy at West Point in 1856, graduating in May 1861, at the start of the Civil War. Commissioned as a second lieutenant, the young Ames was promoted to first lieutenant barely over a week later and served with the 5th U.S. Artillery during the battle of First Bull Run at Manassas, Virginia, on July 21, 1861. Despite being wounded in the leg, Ames stayed by his cannons. His actions at Bull Run led him to receive the brevet (honorary) rank of major and, in 1893 (more than thirty years later), the Medal of Honor.
+</p>
+
+<p xml:id='OTPS52648P1'>Ames recovered from his wound and returned to the front lines in 1862, serving with distinction as an artillery officer during the Peninsula Campaign near Richmond. Seeking better promotion potential, Ames sought an infantry command. Through those efforts, in August 1862, he received command of the 20th Maine Infantry Regiment, and led that unit in combat during the Battle of Fredericksburg in December 1862. In May 1863, he volunteered to serve as a staff officer for Major General George G. Meade, which helped him achieve the rank of brigadier general that month. With this promotion, Ames left the 20th Maine to his second-in-command, Lieutenant Colonel Joshua Lawrence Chamberlain, who gained great fame commanding the regiment at Little Round Top during the Battle of Gettysburg in July 1863. Ames’ own performance at Gettysburg was highly praised, as his division successfully defended the Union position at Cemetery Hill.
+</p>
+
+<p xml:id='OTPS52648P2'>After Gettysburg, Ames’ division was transferred to the Department of the South. Over the next two years, he commanded Union troops during campaigns in Florida, South Carolina, North Carolina, and Virginia. He received a brevet promotion to major general for his actions at Fort Fisher, North Carolina, in March 1865.
+</p>
+
+<p xml:id='OTPS52648P3'>After the Civil War, Ames became involved in federal Reconstruction efforts. In 1868, he was appointed the provisional governor of Mississippi. Ames proved sympathetic to the plight of African Americans in the south. He sought to protect Black civil rights and appointed Mississippi’s first African American public officials. In 1870, after Mississippi was readmitted into the Union, Ames ran for U.S. senator for the state as a Republican and won. He served in that capacity from February 1870 to January 1874, achieving the reputation as a strong public speaker. While serving as a senator in Washington, D.C., Ames met and married Blanche Butler, daughter of Union general Benjamin F. Butler, under whom Ames had served during the war. Ames and his wife had six children over the course of their marriage.
+</p>
+
+<p xml:id='OTPS52648P4'>In 1873, Ames ran for governor of Mississippi. His chief rival was James L. Alcorn, a former Confederate general who had been a Whig before the Civil War and joined the Republican Party afterwards. Ames won the election and worked diligently to improve Mississippi’s financial and social situation. In 1874, Democrats in Mississippi coordinated a campaign of violence against African Americans and white Republicans in the state, to secure political control in Mississippi. Unable to militarily suppress the white supremacist terror campaign, Ames signed a truce with Democratic leaders in Mississippi to reduce the violence and allow a peaceful election. Groups of white supremacists abandoned the truce and resumed their intimidation tactics against Republicans and Black Mississippians during the following elections, leading to a surge of Democratic politicians taking office.
+</p>
+
+<p xml:id='OTPS52648P5'>In 1876, the conservative Democrat majority in the Mississippi legislature tried to impeach Ames and many other Republican officials with trumped up charges of corruption. Despite a strong political force against him, Ames’ critics were unable to provide any evidence of impropriety. Nevertheless, because impeachment was politically driven, Ames could see that his future as governor was over and any effort on his part to legally defend himself would be personally and financially taxing. He and his attorneys reached an agreement with Democratic leaders to resign his office in exchange for dropping the legal charges. On March 29, 1876, after Democrats cancelled their legal proceedings, Ames vacated his position.
+</p>
+
+<p xml:id='OTPS52648P6'>Ames left Mississippi and went into business in Minnesota with his father and brother. A short time later, he relocated to New York City and then Massachusetts, overseeing mills and various business interests. When the Spanish-American War erupted in 1898, Ames volunteered for service and was appointed brigadier general of volunteers. Although over sixty years old, Ames joined the field campaign in Cuba and performed well.
+</p>
+
+<p xml:id='OTPS52648P7'>Ames resumed his business ventures in the early twentieth century. He lived until 1933, dying at age 97. He is buried in Lowell, Massachusetts.
+</p>
+
+<p xml:id='OTPS52648P8'>(Wikipedia)
+</p>
+
+<p xml:id='OTPS52648P9'>Adelbert Ames belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32077302">
+              <persName>Barrett, Fred, 1843-1895</persName>
+                <idno>https://www.findagrave.com/memorial/70080631/fred-barrett</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32077302P0'>Dr. Fred Barrett was the private secretary of Mississippi governor Adelbert Ames during Reconstruction and a newspaper editor. Born on November 5, 1843, in Clearfield, Pennsylvania, Barrett graduated with a medical degree from Jefferson College in Philadelphia, Pennsylvania, in 1866, and practiced medicine in Pennsylvania for two years before moving to Mississippi during the Reconstruction era. He was an active member of the Republican Party and served in the Mississippi legislature for four years, before working as the private secretary of northern-born governor Adelbert Ames. Barrett also became involved in newspaper editing, managing the <hi rend='italic'>Southern Republican</hi> in the 1870s.
+</p>
+
+<p xml:id='OTPS32077302P1'>Barrett received a government job in Washington, D.C., after Reconstruction. He later moved to Wisconsin and then Minnesota, where he operated various newspapers. Barrett died in Tower, Minnesota, in 1895 at the age of 51 from Bright’s Disease. He was married to Caroline Redmond and had four children. He is buried in Lake View Cemetery in Tower, Minnesota.
+</p>
+
+<p xml:id='OTPS32077302P2'>(FindaGrave)
+</p>
+
+<p xml:id='OTPS32077302P3'>Fred Barrett belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S71872">
+              <placeName>Mississippi--Copiah County. Hazlehurst</placeName>
+                <idno>https://en.wikipedia.org/wiki/Hazlehurst,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS71872P0'>Located in Copiah County, Hazlehurst was founded as early as November 3, 1865. In April 1872, it replaced Gallatin as the county seat and remains so today. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.865, -90.39139</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S68623">
+              <placeName>Bodies of Water--Interstate. Pearl River</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/pearl-river/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001864">Bodies of Water</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS68623P0'>The Pearl River is a 485-mile-long River in south Mississippi and southeastern Louisiana. (Mississippi Encyclopedia; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.77, -89.59</geo>
+                </note>
+            </place>
+            <place xml:id="S63231">
+              <placeName>Mississippi--Lawrence County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/lawrence-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63231P0'>Located in southern Mississippi, Lawrence County was established on December 22, 1814 from Marion County. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.55, -90.11</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001718'>
+<catDesc>Natural &amp; Human Caused Disasters</catDesc>
+          <category xml:id='S98634'>
+            <catDesc>
+              <term>Starvation</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/starvation?q=Starvation</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001718'>Natural &amp; Human Caused Disasters</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98634P0'>"The state of having no food for a long period, often causing death." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32126726'>
+            <catDesc>
+              <term>Weather &amp; Natural Events</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/weather</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001718'>Natural &amp; Human Caused Disasters</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32126726P0'>"The conditions in the air above the earth such as wind, rain, or temperature, especially at a particular time over a particular area." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25027073'>
+            <catDesc>
+              <term>Weather &amp; Natural Events--Floods</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/flood?q=Floods</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001718'>Natural &amp; Human Caused Disasters</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25027073P0'>"To cause to fill or become covered with water, especially in a way that causes problems." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001677'>
+<catDesc>Agricultural &amp; Natural Resource Occupations</catDesc>
+          <category xml:id='S58612'>
+            <catDesc>
+              <term>Farmers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/farmer?q=farmers</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001677'>Agricultural &amp; Natural Resource Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58612P0'>"Someone who owns or takes care of a farm, especially as a business." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001676'>
+<catDesc>Service &amp; Retail Occupations</catDesc>
+          <category xml:id='S50738'>
+            <catDesc>
+              <term>Merchants </term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/merchant</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001676'>Service &amp; Retail Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD50738P0'>"A person whose business is buying and selling goods for profit." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Ames Series 803</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1874</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Hanslow, H.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1874-06-04</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Ames Collection. Letter from H. Hanslow to Mississippi Governor Adelbert Ames, requesting rations for the Pearl River Valley, where crops have been destroyed by worms.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 10.0&quot; x 8.0&quot; 4-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Hazlehurst (Miss.); Pearl River Valley (Miss. and La.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_803-991-08-08</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>McKenna Fussell; Britany Castilaw; Dalton Wood</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 991, Folder 8</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Ames, Adelbert, 1835-1933; Crops--Abnormalities; Diseased plants; Mississippi. Governor; Public welfare; Rationing; Worms</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from H. Hanslow to Mississippi Governor Adelbert Ames; June 4, 1874</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/27710&quot;&gt;Letter from H. Hanslow to Mississippi Governor Adelbert Ames; June 4, 1874&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG23" who="U2" when="2024-10-25T16:47:13Z" target="#P32904921">
+          Version 5 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U2" when="2024-10-25T14:53:03Z" target="#P32904918">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U32019810" when="2024-09-14T18:40:02Z" target="#P32904921">
+          Version 4 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U25091195" when="2024-06-29T23:18:48Z" target="#P32904918">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25091195" when="2024-06-29T23:18:33Z" target="#P32904919">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091195" when="2024-06-29T23:11:33Z" target="#P32904918">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091195" when="2024-06-29T23:11:20Z" target="#P32904918">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2024-03-06T14:57:35Z" target="#P32904918">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091356" when="2023-06-08T19:03:34Z" target="#P32904921">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091356" when="2023-06-08T18:52:14Z" target="#P32904920">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091356" when="2023-06-08T18:52:01Z" target="#P32904919">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091356" when="2023-06-08T18:50:44Z" target="#P32904918">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091253" when="2023-06-06T23:04:38Z" target="#P32904921">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091253" when="2023-06-06T23:00:54Z" target="#P32904920">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091253" when="2023-06-06T23:00:38Z" target="#P32904919">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091253" when="2023-06-06T22:58:35Z" target="#P32904918">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25090807" when="2023-01-28T23:59:38Z" target="#P32904921">
+          Version 1 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25090807" when="2023-01-28T23:57:37Z" target="#P32904920">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25090807" when="2023-01-28T23:57:03Z" target="#P32904919">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25090807" when="2023-01-28T23:49:54Z" target="#P32904918">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2023-01-26T20:40:41Z" target="#P32904921">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2023-01-26T20:40:39Z" target="#P32904920">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2023-01-26T20:40:37Z" target="#P32904919">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2023-01-26T20:40:35Z" target="#P32904918">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32904918" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:27706/full/full/0/default.jpg"/>
+        <div xml:id="OTP32904918">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32904918P0' xml:id='OTP32904918P0'><rs ref='#S71872'>Hazlehurst Miss</rs><lb/>
+June 4 1874
+</p>
+
+<p corresp='TTP32904918P1' xml:id='OTP32904918P1'>To his Excellency <lb/>
+<rs ref='#S52648'>A. Ames</rs>
+</p>
+
+<p corresp='TTP32904918P2' xml:id='OTP32904918P2'>Gov Mississippi <rs ref='#S51785'>Jackson</rs>
+</p>
+
+<p corresp='TTP32904918P3' xml:id='OTP32904918P3'>Dear Sir,
+</p>
+
+<p corresp='TTP32904918P4' xml:id='OTP32904918P4'>There are many persons living in the valley of <rs ref='#S68623'>Pearl river</rs> in the lower part of this (Copiah) County and the upper part of <rs ref='#S63231'>Lawrence</rs>, who had the opportunity of planting an early crop by the <rs ref='#S25027073'>overflow</rs>. They have planted to some extent since the water has receded, but the cut-worms and bud worms which frequently follow an overflow has almost completely destroyed the little they have been enabled to plant—the only way most  
+</p>
+
+
+        </div>
+        <pb xml:id="F32904919" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:27707/full/full/0/default.jpg"/>
+        <div xml:id="OTP32904919">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32904919P0' xml:id='OTP32904919P0'>of these <rs ref='#S58612'>farmers</rs> have of obtaining supplies is upon the faith of the growing crop—this with the fences mostly washed away and causes I have stated, alone prevents the <rs ref='#S50738'>merchants</rs> from advancing, thus leaving many very worthy men and their families almost on the verge of <rs ref='#S98634'>starvation</rs>—Is there any releif to be obtained from the government appropriation? or any other source? Without some aid these people many of them must suffer for want of <hi rend='underline'>bread</hi>. Can your Excellency render any assistance or suggest any plan by which their necessities may be relieved
+</p>
+
+<p corresp='TTP32904919P1' xml:id='OTP32904919P1'>very respectfully
+</p>
+
+<p corresp='TTP32904919P2' xml:id='OTP32904919P2'><rs ref='#S32024025'>H Hanslow</rs>
+</p>
+
+
+        </div>
+        <pb xml:id="F32904920" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:27708/full/full/0/default.jpg"/>
+        <div xml:id="OTP32904920">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32904920P0' xml:id='OTP32904920P0'>Ans. June 6" /74
+</p>
+
+
+        </div>
+        <pb xml:id="F32904921" n="4" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:27709/full/full/0/default.jpg"/>
+        <div xml:id="OTP32904921">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP32904921P0' xml:id='OTP32904921P0'><hr/><lb/>
+<b><rs ref='#S25026074'>EXECUTIVE OFFICE</rs></b><lb/>
+STATE OF MISSISSIPPI,
+</p>
+
+<p corresp='TTP32904921P1' xml:id='OTP32904921P1'><hr/><lb/>
+<hi rend='italic'>From</hi> H Hanslow<lb/>
+<hi rend='italic'>Address</hi> Hazlehurst Miss.<lb/>
+<hi rend='italic'>Dated</hi> June 4" 1874<lb/>
+<hi rend='italic'>Received</hi>" 6" "<lb/>
+<hi rend='italic'>Answered</hi> [gap]<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32904921P2' xml:id='OTP32904921P2'><b>SUBJECT:</b>
+</p>
+
+<p corresp='TTP32904921P3' xml:id='OTP32904921P3'>Rations for Pearl river bottom<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32904921P4' xml:id='OTP32904921P4'><b>ADELBERT AMES,</b><lb/>
+<hi rend='italic'>Governor.</hi>
+</p>
+
+<p corresp='TTP32904921P5' xml:id='OTP32904921P5'><rs ref='#S32077302'>Fred. Barrett</rs>,<lb/>
+<hi rend='italic'><rs ref='#S95466'>Private Secretary</rs>.</hi><lb/>
+<hr/> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

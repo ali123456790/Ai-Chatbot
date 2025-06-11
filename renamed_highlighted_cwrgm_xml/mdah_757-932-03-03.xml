@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Louis Martinez to Mississippi Governor John J. Pettus; May 13, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 19 edits between
+              <date type="first_edit" when="2021-03-12T22:51:35Z">March 12, 2021</date> and
+              <date type="last_edit" when="2023-11-02T15:32:05Z">November  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228445">
+          <persName
+            >
+            Abby Cawley
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2021-04-09T02:45:48Z">April  9, 2021</date> and
+              <date type="last_edit" when="2021-04-09T02:56:12Z">April  9, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U216441">
+          <persName
+            >
+            Robin Horne
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2021-02-20T05:07:03Z">February 20, 2021</date> and
+              <date type="last_edit" when="2021-02-20T05:26:12Z">February 20, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217816">
+          <persName
+            >
+            Gracie Breland
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-04-14T20:38:22Z">April 14, 2021</date> and
+              <date type="last_edit" when="2021-04-14T20:39:46Z">April 14, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25089434">
+          <persName
+            >
+            James M. Berry
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-07-05T19:55:05Z">July  5, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T15:10:09Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:30:37+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S51682">
+              <persName>Martinez, Louis</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S51683">
+              <persName>Dobbs, John S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S51684">
+              <persName>Terrall, James S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63015">
+              <placeName>Alabama--Mobile County. Mobile</placeName>
+                <idno>http://encyclopediaofalabama.org/article/h-1794</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63015P0'>Located in Mobile County, Mobile was founded in 1702 and serves as the county seat. (Encyclopedia of Alabama; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.69444, -88.04306</geo>
+                </note>
+            </place>
+            <place xml:id="S52346">
+              <placeName>Mississippi--Clarke County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/clarke-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52346P0'>Located in eastern Mississippi, Clarke County was established on December 23, 1833 from Wayne County. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.04, -88.69</geo>
+                </note>
+            </place>
+            <place xml:id="S95449">
+              <placeName>Mississippi--DeSoto County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/desoto-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS95449P0'>Located in northwestern Mississippi, DeSoto County was established on February 9, 1836. (Mississippi Encyclopedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.9065, -89.9627</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S55288'>
+            <catDesc>
+              <term>Confederate States of America. Army. Independent Artillery Battery--Smith&#39;s-Turner&#39;s Battery</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD55288P0'>The Smith's-Turner's Battery (Confederate), also known as the Chickasaw Desperadoes, was organized as an independent battery on July 1, 1861 in Clarke County, Mississippi under the command of Capt. Melanethon Smith and served in the Western Theater under Stephen's, Maney's, Jackson's, and Smith's Brigades. It was later commanded by Capt. William B. Turner. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 35; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 871-874; National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001148'>
+<catDesc>State Level: USA &amp; CSA Military</catDesc>
+          <category xml:id='S77526'>
+            <catDesc>
+              <term>Mississippi Home Guard</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD77526P0'>A militia is a military unit made up of civilians within a community who could be called up by local (often state) officials to serve temporary military purposes. Militias were separate from regular, or permanent, armies. Because they conducted training only periodically, and provided active military service for short periods of time, militias cost less than regular armies; and because they were manned by local residents, militias were frequently seen as less threatening to early American communities than national military units comprised of strange men born in other counties or states.
+</p>
+
+<p xml:id='OTPSD77526P1'>When Mississippi seceded in 1861, enthusiasm for military service swept across the state. Volunteers filled the ranks of old militia units or created new companies within their communities, eager to repulse any federal attempt to coerce secessionists back into the Union. They also took proactive efforts, securing key positions along the Gulf Coast, including reinforcing other Southern soldiers at Pensacola and Fort Pickens in Florida. Over the next few months, as the Confederate government requested more volunteers, thousands of Mississippians and entire volunteer companies from the state transferred to Confederate service and were sent north, out of state. The units that remained within Mississippi for state defense were left in a convoluted military structure, some considered state reserves (a more formal military force for state defense) and some considered state militia (the more traditional units of citizen-soldiers called up for local, emergency use). The distinctions were not well established, and during the war Mississippians describing state units not within the Confederate army used a variety of terms—such as militia, home guard, state troops—almost interchangeably. However, you will find specific references under this subject tag at CWRGM employed the term home guard rather than militia.
+</p>
+
+<p xml:id='OTPSD77526P2'>While militia and state defense units technically fell under the governor’s authority, the state government struggled to manage, or even track, these organizations. Some, like the Third Battalion Mississippi Minute Men, were well organized, fell under direct state control, and took part in larger military operations, such as the defense of Vicksburg; others saw no combat, rarely gathered for drill, and were entirely overseen by county or local community officials. Most militia members were older than the average Confederate soldier. They were typically farmers, business owners, or land owners who had families and, in many instances, slaves. Because of these responsibilities at home, militiamen expected their military duties to be periodic, temporary, and only during times of emergency, a reflection of the militia’s original intent. However, state officials occasionally activated militia units for long periods, based upon the military situation. In the summer of 1862, Mississippi’s governor, John J. Pettus, mobilized his state troops, pulling many militia units away from their communities. Held in camp for several weeks, drilling but not seeing combat, many militiamen complained of their treatment and argued that their services were needed more at home, managing farms and their communities. Despite these complaints, the governor mobilized the state troops again in 1864, and again met criticism.
+</p>
+
+<p xml:id='OTPSD77526P3'>Overall, Mississippi’s militia and state defense system during the Civil War was a complicated tangle of formal and informal military units. Infrequently used for combat assignments, these units nevertheless provided some emergency services for the state government and allowed many Mississippians a way to provide military service to the community while remaining at home to manage personal and local interests. (Tracy L. Barnett, “Mississippi ‘Milish’: Militiamen in the Civil War,” <hi rend='italic'>Civil War History</hi>, Vol. 66, No. 4 (Dec 2020), 343–379; Michael B. Ballard, <hi rend='italic'>The Civil War in Mississippi: Major Campaigns and Battles</hi>, 4–8)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S94600'>
+            <catDesc>
+              <term>Lawyers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/lawyer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD94600P0'>"Someone whose job is to give advice to people about the law and speak for them in court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001717'>
+<catDesc>Voluntary Social &amp; Political Groups</catDesc>
+          <category xml:id='S32143645'>
+            <catDesc>
+              <term>Paramilitary Terrorist Organization</term>
+              <idno>https://en.wikipedia.org/wiki/Paramilitary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32143645P0'>A paramilitary organization is a group of armed individuals that act in a pseudo-military fashion, but is not an official military unit. Paramilitary groups are often associated with illegal or revolutionary actions, and frequently use guerilla warfare or even terrorism to achieve their objectives. The term paramilitary arose in the twentieth century, however examples of paramilitary-style groups during the Civil War include Missouri Bushwhackers and Kansas Jayhawkers, who engaged in guerilla warfare, and sometimes terrorist or criminal actions, ostensibly for their respective side. Some of these units were eventually accepted into formal military service within the Union and Confederate armies, while others operated with only tacit endorsement by the warring governments.
+</p>
+
+<p xml:id='OTPSD32143645P1'>Paramilitary groups are more commonly associated to the Reconstruction era, when bands of armed citizens in the south organized to resist state and federal authorities who supported Republican policies. The most well-known examples include the Ku Klux Klan, the White League, and the Red Shirts. The Klan started as a fraternal order in 1865 among former Confederate soldiers in Tennessee but rapidly became a terrorist group, whose members often wore hoods to hide their identities. It became the most famous group dedicated to intimidating Republicans and African Americans in the south to maintain white supremacy. The White League was formed in the early 1870s in Louisiana, but spread openly across the south for the purpose of using violence to intimidate Republican officials and Black southerners who challenged white supremacy. The White League grew so strong as a paramilitary group that it mustered 5,000 members to outnumber and defeat the New Orleans police force and a state militia unit in a battle in New Orleans in 1873. The Red Shirts emerged around 1875 in Mississippi to oppose Republican Reconstruction and, likewise, enforce white supremacy over Black southerners, often through demonstrations at voting centers. These groups, and others in the south during the latter part of the nineteenth century, were organized, armed, and driven by political and social objectives, but were not formal military units or officially part of their state and local governments (even when they were supported by sympathetic officials).
+</p>
+
+<p xml:id='OTPSD32143645P2'>White supremacist paramilitary groups reversed civil rights progress during the last years of Reconstruction and afterwards, and maintained a steady presence for many years, using intimidation and terrorism, to oppose efforts by white and Black southerners seeking racial equality. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S93419'>
+            <catDesc>
+              <term>Paramilitary Terrorist Organization--Mississippi Vigilance Committees</term>
+              <idno>https://en.wikipedia.org/wiki/Vigilance_committee</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>33.0, -90.0</geo>
+              </note>
+              <gloss><p xml:id='OTPSD93419P0'>Vigilance committees were groups of citizens who acted in support of, or sometimes in lieu of, government officials to enforce law and order, or in the interests particular political and social interests. Some groups engaged in vigilante behavior, detaining and punishing offenders, or liberating and aiding others, outside of the traditional legal system. Vigilance committees existed in various parts of the United States during the nineteenth century. Before the Civil War, some extreme abolitionist groups formed vigilance committees in places like New York and Philadelphia to assist fugitive slaves escaping from the south. In the south, vigilance committees emerged in response to threats against slavery. These groups worked to locate and punish suspected abolitionists, or African Americans who secretly challenged white supremacist policies. In parts of the west, vigilance committees combated gangs or other illegal activities within certain communities. During the Civil War, vigilance committees in places like Mississippi organized for fear of slave rebellions or northern spies. Individuals within these groups would often report their findings to Mississippi authorities. After the war, various vigilance committees continued to operate in Mississippi as unofficial, or extra-legal, groups dedicated to resisting Black civil rights or Republican political interests. Some of these committees carried out lynchings or other public forms of punishment which served as warnings to other offenders. (Wikipedia) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S32086551'>
+            <catDesc>
+              <term>Confederate War Dissenters</term>
+              <idno>https://www.americanheritage.com/souths-inner-civil-war-0</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32086551P0'>The tag "Confederate War Dissenters" refers to the white men and women who opposed or challenged the Confederacy internally. The South, even among whites, had never been socially, culturally, or economically homogenous. Indeed, many white southerners lived in rural hill country unsuitable for large-scale agriculture, and many of those white southerners were too impoverished to own enslaved persons. However, they nonetheless joined the Confederacy and went to war to preserve a broader social and economic structure predicated upon slavery.
+</p>
+
+<p xml:id='OTPSD32086551P1'>As the war drug on into its second and third years, its massive bloodshed and devastating economic impacts exposed the fault lines between socially and economically elite and non-elite in the Confederacy. White men, women, and children living in the Confederacy protested government policies like the Twenty Slave Law that exempted largely-elite enslavers from conscription if they owned twenty or more enslaved persons. Dissent could take many forms—ranging from private correspondence to boycotts, riots, and military rebellion.
+</p>
+
+<p xml:id='OTPSD32086551P2'>One of the largest instances of dissent within the Confederacy came in the Bread Riots of 1863. The Confederacy, notoriously unable to collect taxes, required citizens unable to pay taxes with currency to pay with a "tax-in-kind," or a payment of taxes with its equivalent in goods or livestock. This policy disproportionately affected impoverished women and children barely subsisting and often starving due to the loss of their husbands and fathers off fighting in the war. Women therefore rioted in the Confederate capital at Richmond, as well as in many other cities, in the spring of 1863 to demand bread from the Confederate government. The Bread Riots are only one example of many in which white southerners opposed varied elements of the war effort as it disproportionately subjected them to harm. Crucially, not all dissenters were pro-Union, as many supported the Confederacy's mission but not its policies (American Heritage).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by The Dale Center for Study of War and Society and the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Martinez, Louis</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-05-13</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Louis Martinez in De Soto, Mississippi, to Mississippi Governor John J. Pettus relating local efforts for defense, aiding families of soldiers, and ferreting out &quot;offenders.&quot;</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 13&quot; letter.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>De Soto (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-932-03-03</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>DeSoto County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 932, Folder 3</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Mississippi. Governor; Pettus, John Jones, 1813-1867; Unionists (United States Civil War)</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Louis Martinez to Mississippi Governor John J. Pettus; May 13, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/2988&quot;&gt;Letter from Louis Martinez to Mississippi Governor John J. Pettus; May 13, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG40" who="U2" when="2024-10-25T15:10:09Z" target="#P1661236">
+          Version 27 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-11-02T15:32:05Z" target="#P1661236">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-09-12T14:57:17Z" target="#P1661236">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-09-03T00:36:09Z" target="#P1661237">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-09-02T20:41:49Z" target="#P1661236">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-09-02T20:28:21Z" target="#P1661236">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-09-02T19:21:02Z" target="#P1661236">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-05-27T18:11:03Z" target="#P1661236">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-18T22:34:51Z" target="#P1661236">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-18T21:48:32Z" target="#P1661236">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-18T21:12:54Z" target="#P1661237">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-18T03:51:46Z" target="#P1661237">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-16T19:47:17Z" target="#P1661237">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2022-12-04T20:16:30Z" target="#P1661236">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2022-12-04T01:09:17Z" target="#P1661236">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2022-05-31T17:03:07Z" target="#P1661236">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2022-03-12T15:28:40Z" target="#P1661236">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2021-10-28T00:58:27Z" target="#P1661236">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2021-07-29T16:32:01Z" target="#P1661236">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U25089434" when="2021-07-05T19:55:05Z" target="#P1661236">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U217816" when="2021-04-14T20:39:46Z" target="#P1661237">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U217816" when="2021-04-14T20:38:22Z" target="#P1661236">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U228445" when="2021-04-09T02:56:12Z" target="#P1661236">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U228445" when="2021-04-09T02:55:13Z" target="#P1661237">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U228445" when="2021-04-09T02:54:59Z" target="#P1661237">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U228445" when="2021-04-09T02:53:58Z" target="#P1661237">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U228445" when="2021-04-09T02:49:18Z" target="#P1661236">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U228445" when="2021-04-09T02:49:07Z" target="#P1661236">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U228445" when="2021-04-09T02:48:56Z" target="#P1661236">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U228445" when="2021-04-09T02:45:48Z" target="#P1661236">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2021-03-12T22:51:35Z" target="#P1661236">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U216441" when="2021-02-20T05:26:12Z" target="#P1661236">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U216441" when="2021-02-20T05:21:56Z" target="#P1661237">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U216441" when="2021-02-20T05:19:30Z" target="#P1661237">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U216441" when="2021-02-20T05:14:28Z" target="#P1661237">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U216441" when="2021-02-20T05:09:23Z" target="#P1661236">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U216441" when="2021-02-20T05:07:03Z" target="#P1661236">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2020-12-18T01:02:53Z" target="#P1661237">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2020-12-18T01:02:52Z" target="#P1661236">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2020-12-18T01:02:48Z" target="#P1661237">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2020-12-18T01:02:47Z" target="#P1661236">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1661236" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2986/full/full/0/default.jpg"/>
+        <div xml:id="OTP1661236">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1661236P0' xml:id='OTP1661236P0'>Wanting Ammunition<lb/>
+<hr/><lb/>
+<rs ref='#S95449'>De Soto. Miss.</rs><lb/>
+May 13th., 1861
+</p>
+
+<p corresp='TTP1661236P1' xml:id='OTP1661236P1'>To—<lb/>
+His Excellency<lb/>
+<rs ref='#S63111'>J. J. Pettus</rs>
+</p>
+
+<p corresp='TTP1661236P2' xml:id='OTP1661236P2'><rs ref='#S51785'>Jackson</rs>.
+</p>
+
+<p corresp='TTP1661236P3' xml:id='OTP1661236P3'>Dear Sir.—
+</p>
+
+<p corresp='TTP1661236P4' xml:id='OTP1661236P4'>We have formed at this Town a <rs ref='#S77526'>Home Guard</rs> as a protection in the absence of our <rs ref='#S55288'>Volunteer Company, (The Chickasahay Desperadoes")</rs> who we expect will be called away soon to the scene of action. From the Home Guard we have appointed an Executive Committee, who have appointed likewise <rs ref='#S93419'>Vigilance Committees</rs> from the same; who are to act as a secret Committee to ferret out all <rs ref='#S32086551'>offenders</rs> and report to the Executive Committee all such for their action in the premises.
+</p>
+
+<p corresp='TTP1661236P5' xml:id='OTP1661236P5'>Our jurisdiction <del rend='overstrike'>exclusi</del> (proper) extends within a Military District the lines and bounds of which are described in our Constitution and by-laws.
+</p>
+
+<p corresp='TTP1661236P6' xml:id='OTP1661236P6'>We have appointed also, a Committee to have a special supervision over the <rs ref='#S25013472'>destitute families</rs> of those of any (no matter to what Company they may belong) of the Soldiers who may be called away—within 
+</p>
+
+
+        </div>
+        <pb xml:id="F1661237" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2987/full/full/0/default.jpg"/>
+        <div xml:id="OTP1661237">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1661237P0' xml:id='OTP1661237P0'>the limits of our District.
+</p>
+
+<p corresp='TTP1661237P1' xml:id='OTP1661237P1'>Having said this much, I come now to the point. - We are without any Powder or ball, and can get none in <rs ref='#S63015'>Mobile</rs>, nor any where else of which we Know. We write to Know of your Excellency if you can, and will furnish us with a small quantity; and promise you upon our Honor as Gentlemen, that it shall be held in reserve for the <hi rend='underline'>special</hi> purpose herein mentioned before - to defend our Homes and firesides, our Wives and our children, and the Peace and Dignity of the <rs ref='#S52346'>County of Clark</rs> and the State of Mississippi.
+</p>
+
+<p corresp='TTP1661237P2' xml:id='OTP1661237P2'>Very Respectfully,<lb/>
+<rs ref='#S51682'>Louis Martinez</rs>,<lb/>
+Chairman,<lb/>
+Executive Com.
+</p>
+
+<p corresp='TTP1661237P3' xml:id='OTP1661237P3'>May 13<add place='above'>th</add> 1861<lb/>
+L. Martinez<lb/>
+<hr/><lb/>
+P.S.—We have money in hand to pay for the ammunition if it can be obtained.—<lb/>
+L. M.
+</p>
+
+<p corresp='TTP1661237P4' xml:id='OTP1661237P4'>Reference—<rs ref='#S51683'>John S. Dobbs</rs>, <rs ref='#S94600'>Esq</rs>.<lb/>
+Capt. <rs ref='#S51684'>James S. Terrall</rs>.<lb/>
+<hr/>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

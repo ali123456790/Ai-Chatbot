@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from W. K. Cooper to Mississippi Governor Benjamin G. Humphreys; June 8, 1866</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U25091235">
+          <persName
+            >
+            Amanda Patrick
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2024-03-10T05:37:28Z">March 10, 2024</date> and
+              <date type="last_edit" when="2024-03-10T05:43:27Z">March 10, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U112030">
+          <persName
+            >
+            sfemet
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2023-12-12T00:30:33Z">December 12, 2023</date> and
+              <date type="last_edit" when="2023-12-12T00:35:40Z">December 12, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32011852">
+          <persName
+            >
+            Rose Doyle
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-01-19T04:04:55Z">January 19, 2024</date> and
+              <date type="last_edit" when="2024-01-19T04:18:57Z">January 19, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-08-10T16:30:40Z">August 10, 2024</date> and
+              <date type="last_edit" when="2025-03-17T01:10:26Z">March 17, 2025</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-03-11T02:49:54Z">March 11, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-08-14T00:15:45Z">August 14, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T17:33:37Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:20:55+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32125457">
+              <persName>Cooper, W. K.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32011998">
+              <persName>Humphreys, Benjamin Grubb, 1808-1882</persName>
+                <idno>https://en.wikipedia.org/wiki/Benjamin_G._Humphreys</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32011998P0'>Benjamin Grubb Humphreys was governor of Mississippi from 1865 to 1868, during the first three years of Reconstruction. Born on August 26, 1808, in Claiborne County, Mississippi, Humphreys spent many years in the north as a boy, attending school in New Jersey and then being appointed to the United States Military Academy at West Point, New York. Enrolled in the same class as Robert E. Lee, Humphreys was expelled shortly afterwards for his participation in the “Eggnog riot” (or “grog mutiny”)—an alcohol-fueled ruckus at West Point on the night of December 24-25, 1826, that resulted in the removal of twenty students.
+</p>
+
+<p xml:id='OTPS32011998P1'>Humphreys returned to Mississippi where he studied law and helped his father on the family plantation.  He married Mary McLaughlin in 1832. The couple had two children before Mary died in 1835. He remarried in 1839 to Mildred Maury and had at least ten more children.
+</p>
+
+<p xml:id='OTPS32011998P2'>In the 1830s, Humphreys entered local politics as a Whig, serving as a state representative and then as a member of the Mississippi senate from 1839 to 1844. He purchased land to establish a cotton plantation in Sunflower County, Mississippi, in 1846, and helped establish the town of Itta Bena.
+</p>
+
+<p xml:id='OTPS32011998P3'>During the lead up to the Civil War, Humphreys opposed secession. However, after Mississippi declared its separation from the Union and joined the Confederate States of America, he volunteered for military service and was eventually elected colonel of the Twenty-first Mississippi Infantry. Humphreys and his regiment served within Brigadier General William Barksdale’s brigade in the eastern theater, notably seeing action at the Peach Orchard during the Battle of Gettysburg on July 2, 1863. Barksdale was killed during the battle, and Humphreys was promoted to brigadier general to take his place. He remained in command of the brigade until September 1864 when he was wounded at Berryville, Virginia. He spent the rest of the Civil War recuperating from his wounds.
+</p>
+
+<p xml:id='OTPS32011998P4'>Humphreys became active in the immediate postwar political scene in Mississippi. He won election for governor in October 1865 during Mississippi’s effort to earn readmission into the Union under President Andrew Johnson’s lenient Reconstruction plan. However, Humphreys was among the former southern leaders initially denied presidential pardon by Johnson. Although Johnson soon relented, sending a pardon to Humphreys, the Mississippi legislature’s passage of highly discriminatory laws (known as the Black Codes) against recently emancipated African Americans sparked a fierce backlash by Republicans in the United States Congress, who then refused to admit Mississippi back into the Union. Federal authorities instituted a stricter Reconstruction program, which included oversight by military officials. Humphreys remained governor, as Reconstruction did not disassemble Mississippi’s civil government. However, Humphreys did not enjoy the full authority of a traditional state executive. His white supremacist views and opposition to Black civil rights put him in frequent opposition to Republican Reconstruction goals. He won reelection in 1868, but soon afterwards was ejected from office by federal authorities when Radical Republicans took more direct control of Reconstruction.
+</p>
+
+<p xml:id='OTPS32011998P5'>Following his removal as governor in 1868, Humphreys left politics and began working in insurance in Jackson, Mississippi. He retired in 1877 and died in December 1882 and is buried in Wintergreen Cemetery at Port Gibson, Mississippi.
+</p>
+
+<p xml:id='OTPS32011998P6'>(Wikipedia; David Sansing, “Benjamin Grubb Humphreys: Twenty-sixth Governor of Mississippi: 1865–1868,” Mississippi History Now; “Benjamin Grubb Humphreys,” HarpWeek)
+</p>
+
+<p xml:id='OTPS32011998P7'>Benjamin Grubb Humphreys belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32132731">
+              <persName>Cooper, D. N.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S75543">
+              <placeName>Mississippi--Wilkinson County. Woodville</placeName>
+                <idno>https://en.wikipedia.org/wiki/Woodville,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS75543P0'>Located in Wilkinson County, Mississippi, Woodville was incorporated in 1811 and serves as the county seat. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.10278, -91.29972</geo>
+                </note>
+            </place>
+            <place xml:id="S32100238">
+              <placeName>Maryland--Baltimore County. Baltimore</placeName>
+                <idno>https://en.wikipedia.org/wiki/Baltimore</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32100238P0'>Located in Baltimore County, Maryland, Baltimore was settled in the 17th century and founded on August 8, 1729. Baltimore was incorporated as a city in 1796 and again in 1797 and was reincorporated as an independent city in 1851. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>39.28944, -76.61528</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S32005193'>
+            <catDesc>
+              <term>Military Engagements</term>
+              <idno>https://www.battlefields.org/learn/articles/civil-war-facts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32005193P0'>The act of beginning to fight or a period of time in a war, military engagements are also referred to as battles or skirmishes. Battles are fights between armed forces, and usually describe singular events that occur over the course of hours or a few days. Skirmishes are smaller fights, usually between a small number of soldiers that occur unexpectedly, last only a few minutes or a few hours, and take place away from the main area of fighting.
+</p>
+
+<p xml:id='OTPSD32005193P1'>There were approximately 10,500 engagements during the American Civil War. Fifty of them were major battles, while another one hundred were notable engagements. The rest were small battles or skirmishes. (Cambridge Dictionary; American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32132732'>
+            <catDesc>
+              <term>Military Engagements--Cedar Creek, Battle of, Va., 1864</term>
+              <idno>https://en.wikipedia.org/wiki/Battle_of_Cedar_Creek</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>39.0208, -78.3038</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32132732P0'>On October 19, 1864, Confederate General Jubal Early launched a surprise attack on Union forces under General Phil Sheridan along Cedar Creek in the Shenandoah Valley of Virginia. The assault was a desperate effort by Early to reverse the tide of war in western Virginia, after recent Union victories at Winchester, Fisher’s Hill, and Tom’s Brook. The early morning Confederate attack hit the Union troops in their camp and initially succeeded in pushing back seven Union divisions and capturing more than 1,000 federal soldiers and several cannons.  Early’s troops then paused to regroup. Sheridan, who raced to the battlefield from Winchester fifteen miles away, rallied his army and counterattacked the Confederates that afternoon. The Union assault slammed into Early’s line but initially stalled. Then, as the Confederate troops began to break, Brigadier General George A. Custer’s Union cavalry division flanked the Confederates and charged behind them, threatening their escape route. Panic ran through the Confederate ranks, and Early’s line broke apart. The Confederates withdrew in haste, leaving the cannons and prisoners they had captured. Of the nearly 32,000 Union soldiers that fought at Cedar Creek, more than 5,500 were killed, wounded, or captured. Early’s 21,000 Confederates suffered slightly more than 3,000 casualties. Although Sheridan’s force suffered significantly more losses, Cedar Creek was a clear Union victory and ended Confederate offensive operations in the Shenandoah Valley. (Wikipedia; American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+          <category xml:id='S25006301'>
+            <catDesc>
+              <term>Under Review</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C25000149'>Military Units</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25006301P0'>We are currently working hard to identify this military unit/organization and hope to have more details for you soon. If you have information, please contact us at cwrgmproject@gmail.com
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001343'>
+<catDesc>Educational Organizations</catDesc>
+          <category xml:id='S63978'>
+            <catDesc>
+              <term>Universities &amp; Colleges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/university</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001343'>Educational Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63978P0'>"A place where people study for an undergraduate or graduate degree." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001717'>
+<catDesc>Voluntary Social &amp; Political Groups</catDesc>
+          <category xml:id='S32086326'>
+            <catDesc>
+              <term>Relief &amp; Welfare--Charitable Organizations</term>
+              <idno>https://en.wikipedia.org/wiki/Charitable_organization</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32086326P0'>A charitable organization, or charity, is a group dedicated to providing support, through funds or other resources, to people in need. Early charities were most often religiously-based, inspired by tenets of the faith to care for people. During the Enlightenment era of the seventeenth and eighteenth centuries, which emphasized philanthropy, education, and equality among people, some wealthy individuals established charities. This continued into the nineteenth century, especially with the Industrial Revolution which saw the influx of people into harsh living conditions in cities and manufacturing areas. A small number of charities have been guided by political interests (ie. providing resources to people to curry favor), or financial benefits, such as tax reductions. Charitable groups typically provide food, medical support, clothing, and education to those in poverty, or suffering due to natural or man-made disasters. Some charity efforts involved the long-term, or permanent institutions, such as hospitals, orphanages, schools. Most charities are volunteer or non-profit organizations, where members are not paid for their work and all funds not needed for the actual functioning of the charity are dedicated to providing resources to others. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001669'>
+<catDesc>Family Structures</catDesc>
+          <category xml:id='S64105'>
+            <catDesc>
+              <term>Marital Status--Widows</term>
+              <idno>https://www.essentialcivilwarcurriculum.com/civil-war-widows.html</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001669'>Family Structures</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD64105P0'>Widows were classified as women whose legal husband died and they had not legally remarried (Cambridge Dictionary). Due to the bloodshed of the American Civil War, the United States saw a rapid increase in widowhood in the mid-to-late-nineteenth century; one estimate puts the number of widows at over 200,000 (Essential Civil War Curriculum). The Civil War altered antebellum patterns of widowhood by lowering the average age of widows, since many of those who lost their husbands to the war were in their twenties or thirties, and increasing the number of pregnant widows. Since American coverture legally subsumed a woman's identity under her husbands', many widows had no choice but to quickly remarry for social and economic protection.
+</p>
+
+<p xml:id='OTPSD64105P1'>The Civil War also altered antebellum grieving traditions in that the presence of so many widows, often many within the same community, became more visible due to their numbers. Antebellum social etiquette also stipulated that a woman grieve her husband for roughly two and a half years, while the experience of war often led widows not only to stop mourning but to start rebuilding their lives (and finding other partners) far quicker. In the South, many women inherited large estates and numerous enslaved people upon their husbands' death, becoming solely responsible for maintaining operations and adopting the role of enslaver.
+</p>
+
+<p xml:id='OTPSD64105P2'>Widows in both the North and South played outsized roles in commemorating the Civil War and deeply impacted the war's popular memory. Women were societally expected to remember their husbands as honorable, infusing that memory into the statuary and literature of the late-nineteenth and early-twentieth centuries. Antebellum social and legal practices also ensured that women were generally financially dependent upon their husbands, and widowhood thereby faced many women with poverty. Reform agencies therefore often targeted widows in their charitable work, and the widows themselves sought financial assistance from the federal government by applying for pensions, expanding the American welfare state. While widowhood existed prominently throughout the nineteenth century, the Civil War ultimately increased the number of widows and radically altered their places in American life (Essential Civil War Curriculum).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S58310'>
+            <catDesc>
+              <term>Orphans</term>
+              <idno>https://en.wikipedia.org/wiki/Orphan</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001669'>Family Structures</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58310P0'>The status of "orphan" is defined in the United States as "a minor bereft through death or disappearance of, abandonment or desertion by, or separation or loss from, both parents" (Wikipedia). CWRGM also applies this term to identify military orphans, or a child whose mother is still living but whose father died in military service. Orphans in the nineteenth-century often came from a variety of backgrounds and had an equal variety of experiences. While the death of both parents, usually from disease, certainly left many children orphaned, poverty remained the primary cause by which a child could be sent to live at an orphanage. The rise of industrialism in the U. S. brought about a concurrent rise in poverty, particularly in the nation's cities. Many impoverished parents either abandoned their children at orphanages or asked that orphanages take in their children to provide them with the food, shelter, medicine, and in certain cases education that working-class parents could not. Children could spend months or years in orphanages, though many forced them to return to their families or go out on their own by age 15 or 16. Most orphanages were privately owned and operated by religious or reform organizations, though some states increasingly sponsored institutional homes for orphans by the end of the nineteenth century. While the vast majority of orphanages operated in major eastern cities, the so-called "orphan train" process sent orphans by train to rural areas of the country, where reformers thought that family life and agricultural work would keep them from the moral corruption of the city. Orphans of different races, religions, and ethnicities also experienced orphanages differently, as many excluded non-white, immigrant, and Jewish orphans. Ultimately, the devastation of the Civil War and the widespread poverty of industrialism in the U. S. produced an unprecedented number of orphans, and their care became a principal cause among reformers throughout the nineteenth century (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 454-6).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32119115'>
+            <catDesc>
+              <term>Women</term>
+              <idno>https://encyclopediavirginia.org/entries/women-during-the-civil-war/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001669'>Family Structures</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001930'>Sex &amp; Gender</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32119115P0'>In the nineteenth century, across the United States, women’s opportunities were limited. The vestiges of an element of English common law called coverture ensured women did not have a legal identity. Their fathers covered them until they married, at which point they fell under the legal identity of their husbands. In practice, this meant that women did not legally own property and did not even control their own children. They could not own businesses and could not bring suit to court. Rather, they had to rely on a husband, father, or other male relative. The concept of “Republican Motherhood,” however, ensured that some education was necessary. This ideal, which emerged after the American Revolution, held that mothers were central to raising virtuous boys who would one day shape the Republic.
+</p>
+
+<p xml:id='OTPSD32119115P1'>In the North, the Second Great Awakening and the rise of the middle class expanded women’s opportunities further. Heavily centered around the family, the middle class celebrated not an authoritative father but a loving mother. Separate spheres ideology held that men and women occupied different elements of society. Men were responsible for the public sphere, including politics and work outside of the home. Women took care of the domestic sphere, pushing temperance, self-control, hard work, honesty, and frugality. They had considerable power within this space, including nurturing children. Embracing these domestic ideals also pushed northern women into the public domain through such crusades as temperance and moral reform.
+</p>
+
+<p xml:id='OTPSD32119115P2'>In the agrarian South, patriarchy reigned supreme, where a male patriarchal “master” headed a family of dependents – women, children, and enslaved people, when financially possible. Here, men were virtually the law within the household. This hierarchy – and the dependent role women maintained – played a crucial role in uniting the South in its defense of slavery, for all white men were essentially “masters.” Operating with very little personal freedom, elite white women in the South also played a central role in managing the plantation household, overseeing large staffs of enslaved men and women within the domestic sphere. This expectation included embracing the violence that was necessary to maintaining the institution of slavery. Completely dependent on a male patriarch, women working outside of the home were limited to the occupations of the domestic realm, including working as a seamstress or milliner, teaching, domestic service, and sex work. Significantly lower paid than their male counterparts, these limitations ensured that poor white women often carried the burden of poverty in the South.
+</p>
+
+<p xml:id='OTPSD32119115P3'>The institution of slavery ensured that Black women faced still more limited circumstances. As chattel, they were defined by their productive capacity – their ability to produce in the field, the enslaver’s household, or reproductively. Subject to violence, rape, and the inability to control even their own children, enslaved women found ways to carve out elements of independency. Although enslavers sometimes forced enslaved men and women to engage in marital unions with spouses of the enslaver’s choosing, Black women often selected their own husbands, resisting the fact that these unions were only rarely enshrined in law and were subordinate to an enslaver’s desires. As far as was possible, these marriages followed the gendered division of labor typical throughout the U.S., where women were responsible for cooking, cleaning, and caring for children. Within these private households and the slave quarters more generally, enslaved women also engaged in the religions and cultural practices of their ancestry, including Caribbean and African influences.
+</p>
+
+<p xml:id='OTPSD32119115P4'>The Civil War expanded women’s roles in society. Still within the realm of the domestic sphere, women in both regions formed Ladies Military Aid Societies, with an eye towards supporting soldiers. These groups sent domestic necessities, including clothing, socks, and bandages, and they eventually embraced nursing. In the South, societies even began making cartridges and preparing sandbags. Such work and the broader need for women to maintain the household without a male counterpart ensured that women took on new responsibilities, many of which pushed them deeper into the public sphere than was possible before the war. In the South, poor women even became active in demanding that the Confederacy support their families, even rioting publicly in places like Richmond. As many Black women escaped to the U.S. Army during the war, marriage often became their first goal, even forcing the federal government to implement new policies that protected and supported their families. They seized this opportunity to rebuild the families that had long-been severed by the institution of slavery.
+</p>
+
+<p xml:id='OTPSD32119115P5'>After the war, many of these expansions in women’s roles declined, but they did not disappear entirely. Northern women became active in providing support for veterans and their families, even helping navigating the pension system, while southern white women became active in burying the dead, memorialization, and the emergence of the Lost Cause mythology. This idea downplayed the role of slavery in the war and celebrated the Confederacy for its protection of families, within which, women were vital. Black women continued to lobby the U.S. government, including utilizing the Freedman’s Bureau to relocate members of their families and to solidify those unions. With intimate knowledge of the skills and length of individual tasks, they also played pivotal roles in negotiating the financial value of their labor and of negotiating the terms of free labor more generally. Nevertheless, the sexual victimization of Black women continued, becoming a prominent feature of the postwar South.
+</p>
+
+<p xml:id='OTPSD32119115P6'>(Linda K. Kerber, <hi rend='italic'>Women of the Republic: Intellect &amp; Ideology in Revolutionary America</hi>; Christine Stansell, <hi rend='italic'>City of Women: Sex and Class in New York 1780-1860</hi>; Mary P. Ryan, <hi rend='italic'>Cradle of the Middle Class: The Family in Oneida County, New York, 1790-1865</hi>; Stephanie McCurry, <hi rend='italic'>Masters of Small Worlds: Yeoman Households, Gender Relations, and the Political Culture of the Antebellum South Carolina Low Country</hi>; Elizabeth Fox-Genovese, <hi rend='italic'>Within the Plantation Household: Black and White Women of the Old South</hi>; Ruth Poe White, “Orphans, White Unity, and the Charleston Orphan House, 1860-1870; Tera W. Hunter, <hi rend='italic'>Bound in Wedlock: Slave and Free Black Marriage in the Nineteenth Century</hi>; Thavolia Glymph, <hi rend='italic'>Out of the House of Bondage: The Transformation of the Plantation Household</hi>; Anthony E. Kaye, <hi rend='italic'>Joining Places: Slave Neighborhoods in the Old South</hi>; Nina Silber, <hi rend='italic'>Gender &amp; the Sectional Conflict</hi>; Catherine Clinton and Nina Silber, eds., <hi rend='italic'>Battle Scars: Gender and Sexuality in the American Civil War</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001672'>
+<catDesc>Health</catDesc>
+          <category xml:id='S73740'>
+            <catDesc>
+              <term>People with Disabilities</term>
+              <idno>https://www.nps.gov/articles/disabilityhistoryearlytreatment.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001672'>Health</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD73740P0'>People with disabilities are defined as those people experiencing "any condition that makes it more difficult for a person to do certain activities or have equitable access within a given society" (Wikipedia). People with disabilities in nineteenth-century America faced a variety of different options and experiences based on both their region, age, and specific disability.
+</p>
+
+<p xml:id='OTPSD73740P1'>Early in the nineteenth century, many communities saw supporting people with disabilities as a local matter; however, as the nineteenth century progressed and cities and their populations (including people with disabilities) grew exponentially, many state governments took responsibility for supporting people with disabilities. That support most often took the form of almshouses or hospitals in which residents lived permanently, usually in rural areas for fear of urban environments' negative impacts on health. Different religious, medical, and reform organizations took different approaches to the treatment of disabilities, including the treatment of a person's morals in addition to medical care. Like many other branches of medicine, popular medical understandings of many disabilities remained incorrect and even harmful in the nineteenth century, particularly the concept of eugenics, or the idea that controlling genetics could improve or even perfect humanity. Doctors espousing these beliefs sometimes conducted forced sterilizations and lobotomies on their patients, either to prevent their reproduction or to reduce mental health issues.
+</p>
+
+<p xml:id='OTPSD73740P2'>The devastation of the American Civil War and the increase of people with war-related disabilities brought much more attention to the study of disabilities and their treatment, but ultimately humane and ethical methods of caring for people with disabilities remained far in the future. CWRGM adopts the term "People with disabilities" to foreground individuals' personhood over their status or physical condition (National Park Service; Wikipedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001930'>
+<catDesc>Sex &amp; Gender</catDesc>
+<category xml:id='C32001930S32119115'>
+<catDesc>
+<term><rs ref='S32119115'>Women</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S25003265'>
+            <catDesc>
+              <term>Wounds and Injuries</term>
+              <idno>https://www.civilwarmed.org/surgeons-call/amputation1/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25003265P0'>Medical treatment of wounds and injuries during the nineteenth century was fairly primitive, and not substantially different than medical practices over the preceding few centuries. Doctors had little knowledge of bacteria, and therefore did not understand the importance of washing hands or sterilizing medical instruments when treating open wounds. Physicians learned that some substances seemed to aid recovery, such as iodine and bromine, but their properties were more mystery than scientifically understood. Additionally, antibiotics had not yet been discovered. As a result, even minor cuts could become infected and lead to severe disability or death.
+</p>
+
+<p xml:id='OTPSD25003265P1'>During the Civil War, more than 475,000 soldiers were wounded in battle.  Thousands more suffered injuries in camp or on the march.  Medical care for wounded and injured soldiers typically involved closing wounds and setting broken bones. After suturing or bandaging these injuries, physicians would carefully observe their patients and try to offer some medical support, but recovery most often depended upon the wounded man’s natural healing. Some medical practices had unintended consequences, both positive and negative. Horsehair proved to be a popular material for sutures, due to its length and strength. To improve its elasticity, Civil War doctors boiled the horsehair, thereby disinfecting it. Wounds stitched closed with boiled horsehair were less likely to grow infected from the sutures, although this benefit was not fully understood until after the war. On the other hand, physicians probing for bullets or foreign objects inside a wound often introduced more bacteria and generated worse infections than the patient may have experienced without the procedure. This practice continued well after the Civil War, and likely contributed to President James Garfield’s death in 1881, when doctors repeatedly used unsterilized fingers and instruments while searching for the assassin’s bullet lodged in his body.
+</p>
+
+<p xml:id='OTPSD25003265P2'>Doctors understood the danger of blood loss to wounded men, but devices such as the Petit Tourniquet—a French screw-tightened tourniquet designed in 1718—were typically found at a surgeon’s tent rather than with the soldiers along the front lines. Some physicians recommended supplying tourniquets among the soldiers, but others suggested much simpler practices, such as each soldier carrying a handkerchief or cloth strip and a six-inch long piece of wood in his pocket to function as a makeshift tourniquet. These life-saving practices were not mandated among Union and Confederate armies, though, and many wounded men died of blood loss before reaching medical help.
+</p>
+
+<p xml:id='OTPSD25003265P3'>The most iconic treatment of battlefield wounds during the Civil War was amputation. Most casualties during the war were caused by musket fire. The large caliber lead balls often shattered bones upon impact. Unable to splint or repair bones so damaged, physicians frequently chose to amputate the wounded person’s limb above the injury. Doctors typically sewed a flap of skin over the stump. Unfortunately, due to the high incidents of infection for reasons described above, amputated limbs often became infected. Gangrene was among the most dangerous conditions, which could lead to death. The only method of combatting gangrene was to perform another amputation further up the limb (if possible) and hope it healed properly. Confederate and Union physicians performed around 50,000 amputations during the Civil War. Contrary to some popular myths, anesthesia, such as chloroform and ether, was in use during the Civil War, and around 95% of wounded soldiers were afforded some comfort before amputation.
+</p>
+
+<p xml:id='OTPSD25003265P4'>Hundreds of thousands of soldiers returned home from the Civil War with scars or permanent disabilities from wartime wounds and injuries. The large number of amputees also led to new developments in prosthetics. Lessons learned from the war improved medical care a bit, as Union and Confederate doctors recorded their observations of wounds and treatments. Published reports provided a new wealth of information. However, only after scientists better understood microbes and accepted the Germ Theory in the late nineteenth and early twentieth century did medical practice substantially improve from the Civil War era practices. (Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 41–50; Terry Reimer, “Wounds, Ammunition, and Amputation,” National Museum of Civil War Medicine; Paige Gibbons Backus, “Amputation and the Civil War,” American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Humphreys Series 779</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1866</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Copper, W. K.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1866-06-08</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Humphreys Collection. Letter from W. K. Cooper, a disabled Civil War veteran, to Mississippi Governor Benjamin G. Humphreys, seeking financial assistance so that he may attend a commercial college.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8.0&quot; x 10.0&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Woodville (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_779-963-06-03</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Wilkinson County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Dalton Wood</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 963, June 7-18, 1866</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Disabled veterans; Mississippi. Governor; Veterans.; Universities and colleges.</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from W. K. Cooper to Mississippi Governor Benjamin G. Humphreys; June 8, 1866</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/36952&quot;&gt;Letter from W. K. Cooper to Mississippi Governor Benjamin G. Humphreys; June 8, 1866&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG14" who="U220769" when="2025-03-17T01:10:26Z" target="#P33745113">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U2" when="2024-10-25T17:33:37Z" target="#P33745113">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U32019810" when="2024-08-14T00:15:45Z" target="#P33745113">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2024-08-10T16:30:40Z" target="#P33745113">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091195" when="2024-03-11T02:49:54Z" target="#P33745114">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091235" when="2024-03-10T05:43:27Z" target="#P33745113">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091235" when="2024-03-10T05:43:12Z" target="#P33745113">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091235" when="2024-03-10T05:41:51Z" target="#P33745114">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091235" when="2024-03-10T05:37:28Z" target="#P33745113">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U32011852" when="2024-01-19T04:18:57Z" target="#P33745114">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U32011852" when="2024-01-19T04:04:55Z" target="#P33745113">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U112030" when="2023-12-12T00:35:40Z" target="#P33745114">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U112030" when="2023-12-12T00:30:33Z" target="#P33745113">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2023-10-25T13:55:34Z" target="#P33745114">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2023-10-25T13:55:31Z" target="#P33745113">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F33745113" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:36950/full/full/0/default.jpg"/>
+        <div xml:id="OTP33745113">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP33745113P0' xml:id='OTP33745113P0'>[seal]
+</p>
+
+<p corresp='TTP33745113P1' xml:id='OTP33745113P1'><rs ref='#S75543'>Woodville Missi.</rs><lb/>
+June 8 1866
+</p>
+
+<p corresp='TTP33745113P2' xml:id='OTP33745113P2'>His Excellency<lb/>
+Governor <rs ref='#S32011998'>Humphreys</rs><lb/>
+Sir:
+</p>
+
+<p corresp='TTP33745113P3' xml:id='OTP33745113P3'>My father, Gen. <rs ref='#S32132731'>D. N. Cooper</rs>, writes me that the <rs ref='#S32119115'>Southern Ladies</rs> of <rs ref='#S32100238'>Baltimore</rs> have raised $170,000 for the <rs ref='#S32086326'>benefit</rs> of the <rs ref='#S73740'>disabled</rs> Confederate soldiers]], and the <rs ref='#S64105'>widows</rs> and <rs ref='#S58310'>orphans</rs> of Confederate soldiers; and that $18000 of this amount will be placed in your hand, to be distributed among this class in Mississippi.—I was a private in <rs ref='#S25006301'>Co. E. 21<add place='above'>st</add> Regt.</rs> of your Brigade, and <rs ref='#S25003265'>lost a leg</rs> (above the knee) at <rs ref='#S32132732'>Cedar Creek</rs>. My <rs ref='#S25013472'>father</rs> was entirely broken up by the war, and advises me to write to you on this subject.—Without means and without a profession I can have no hesitation in availing myself of the benefits resulting from this act of Patriotism. The amount thus received will assisst me to attand a course at a <rs ref='#S63978'>Commercial College</rs> to prepare myself to make a support hereafter: Without 
+</p>
+
+
+        </div>
+        <pb xml:id="F33745114" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:36951/full/full/0/default.jpg"/>
+        <div xml:id="OTP33745114">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP33745114P0' xml:id='OTP33745114P0'>such assistance I can not do it.
+</p>
+
+<p corresp='TTP33745114P1' xml:id='OTP33745114P1'>Will you please inform me what it is necessary for me to do in the premises?
+</p>
+
+<p corresp='TTP33745114P2' xml:id='OTP33745114P2'>Allow me to ask you General, whether I will be entitled to receive the value of a leg from the state, in money, instead of taking the leg.
+</p>
+
+<p corresp='TTP33745114P3' xml:id='OTP33745114P3'>Very Respectfully &amp; truly
+</p>
+
+<p corresp='TTP33745114P4' xml:id='OTP33745114P4'><rs ref='#S32125457'>W. K. Cooper</rs><lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33745114P5' xml:id='OTP33745114P5'><hi rend='underline'>June 1866</hi><lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33745114P6' xml:id='OTP33745114P6'>Woodville, Miss.<lb/>
+June 8<add place='above'><hi rend='underline'>th</hi></add>, 1866<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33745114P7' xml:id='OTP33745114P7'><hi rend='underline'>Cooper</hi>—W. K.<lb/>
+<hr/><lb/>
+^Disabled^ Ex Member, Co "E," 21<add place='above'>st</add> Regt. Miss Vols.
+</p>
+
+<p corresp='TTP33745114P8' xml:id='OTP33745114P8'>Letter of—
+</p>
+
+<p corresp='TTP33745114P9' xml:id='OTP33745114P9'>Asking information in regard to "Baltimore Fair Southern Relief Find," with a aim of reaping what benefit ^that^may arise from the same to him.<lb/>
+<hr/>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

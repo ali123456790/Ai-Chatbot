@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Legal Document from Mississippi Governor Adelbert Ames to the Sheriff of Franklin County, Mississippi; January 18, 1875</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 9 edits between
+              <date type="first_edit" when="2023-06-06T18:47:14Z">June  6, 2023</date> and
+              <date type="last_edit" when="2023-06-06T19:08:12Z">June  6, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2023-09-02T20:15:53Z">September  2, 2023</date> and
+              <date type="last_edit" when="2024-01-30T17:08:44Z">January 30, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 7 edits between
+              <date type="first_edit" when="2023-03-06T13:59:11Z">March  6, 2023</date> and
+              <date type="last_edit" when="2023-03-06T14:10:44Z">March  6, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2023-06-11T00:53:52Z">June 11, 2023</date> and
+              <date type="last_edit" when="2023-06-11T00:56:57Z">June 11, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T13:13:09Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T17:10:26Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T15:07:29+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32090222">
+              <persName>Waterbury, C. V.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32090179">
+              <persName>Calcote, John J.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32090180">
+              <persName>Calcote, Harrison</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32026126">
+              <persName>Warmoth, Henry Clay, 1842-1931</persName>
+                <idno>https://en.wikipedia.org/wiki/Henry_C._Warmoth</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32026126P0'>Henry Clay Warmoth was a Union officer and then governor of Louisiana during Reconstruction.
+</p>
+
+<p xml:id='OTPS32026126P1'>Born on May 9, 1842, in McLeansboro, Illinois, Warmoth grew up in Illinois, studied law, and then became a practicing attorney in Missouri in 1860. He quickly rose in prominence, becoming a district attorney in Missouri’s Eighteen Judicial District. At the outbreak of the Civil War, Warmoth volunteered for Union service and was commissioned as a lieutenant colonel in the Thirty-Second Missouri Infantry Regiment. He saw combat in Arkansas and Mississippi, and was wounded at Vicksburg in 1863. Warmoth was dishonorably discharged for false reporting of casualties, but was reinstated after personally appealing to President Abraham Lincoln. Returning to his regiment, Warmoth led the unit during fighting around Chattanooga, Tennessee, and in Georgia during William Tecumseh Sherman’s Atlanta campaign. He later received an appointment as a military judge in the Department of the Gulf Provost Court. Warmoth resigned his commission in 1865 to return to practicing law, and soon settled in New Orleans, Louisiana, to work on cases regarding cotton claims and courts-martial.
+</p>
+
+<p xml:id='OTPS32026126P2'>While in New Orleans, Warmoth became active in Republican Party politics. During the Reconstruction era, Warmoth managed to rise to the Republican Party ticket for governor. He won the gubernatorial election in 1868 and entered the Louisiana governor’s office at the age of 26. He labored to protect Black voting rights and to combat violence by white supremacist groups, such as the Ku Klux Klan. However, he was also accused of being soft on former Confederates, and favoring white applicants over African Americans for government jobs. As a result, the Republican Party in Louisiana split, and by 1871 Warmoth sided with the Liberal Republican Party that backed Horace Greeley in the 1872 election instead of Ulysses S. Grant. These efforts reduced Warmoth’s support even more among Black Louisianans.
+</p>
+
+<p xml:id='OTPS32026126P3'>In 1872, the Louisiana legislature—controlled by anti-Warmoth Republicans—filed impeachment charges against him. He was suspended from office, but as a lame duck incumbent, the state legislature allowed him to vacate his office just a few weeks before his term ended without carrying out the full impeachment trial.
+</p>
+
+<p xml:id='OTPS32026126P4'>After leaving office, Warmoth bought a sugar cane plantation and used his legal experience to represent sugar planting interests in the U.S. and in Europe. By the mid-1880s, he abandoned his sugar planting work and returned to politics. He ran for governor in 1888, but lost to Democrat Francis T. Nicholls. In 1890, he received an appointment as U.S. Collector of Customs in New Orleans.
+</p>
+
+<p xml:id='OTPS32026126P5'>Warmoth lived well into the twentieth century, dying on September 30, 1931. He was married to Sallie Durand and had three children. Warmoth is buried in Metairie Cemetery in New Orleans, Louisiana.
+</p>
+
+<p xml:id='OTPS32026126P6'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS32026126P7'>Henry Clay Warmoth belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S52648">
+              <persName>Ames, Adelbert, 1835-1933</persName>
+                <idno>https://en.wikipedia.org/wiki/Adelbert_Ames</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52648P0'>Adelbert Ames served as a governor and U.S. senator of Mississippi during the Reconstruction era.  He was born in East Thomaston (modern-day Rockland), Maine, in 1835. As a boy, Ames spent time working on various merchant vessels, receiving training in seamanship. He entered the United States Military Academy at West Point in 1856, graduating in May 1861, at the start of the Civil War. Commissioned as a second lieutenant, the young Ames was promoted to first lieutenant barely over a week later and served with the 5th U.S. Artillery during the battle of First Bull Run at Manassas, Virginia, on July 21, 1861. Despite being wounded in the leg, Ames stayed by his cannons. His actions at Bull Run led him to receive the brevet (honorary) rank of major and, in 1893 (more than thirty years later), the Medal of Honor.
+</p>
+
+<p xml:id='OTPS52648P1'>Ames recovered from his wound and returned to the front lines in 1862, serving with distinction as an artillery officer during the Peninsula Campaign near Richmond. Seeking better promotion potential, Ames sought an infantry command. Through those efforts, in August 1862, he received command of the 20th Maine Infantry Regiment, and led that unit in combat during the Battle of Fredericksburg in December 1862. In May 1863, he volunteered to serve as a staff officer for Major General George G. Meade, which helped him achieve the rank of brigadier general that month. With this promotion, Ames left the 20th Maine to his second-in-command, Lieutenant Colonel Joshua Lawrence Chamberlain, who gained great fame commanding the regiment at Little Round Top during the Battle of Gettysburg in July 1863. Ames’ own performance at Gettysburg was highly praised, as his division successfully defended the Union position at Cemetery Hill.
+</p>
+
+<p xml:id='OTPS52648P2'>After Gettysburg, Ames’ division was transferred to the Department of the South. Over the next two years, he commanded Union troops during campaigns in Florida, South Carolina, North Carolina, and Virginia. He received a brevet promotion to major general for his actions at Fort Fisher, North Carolina, in March 1865.
+</p>
+
+<p xml:id='OTPS52648P3'>After the Civil War, Ames became involved in federal Reconstruction efforts. In 1868, he was appointed the provisional governor of Mississippi. Ames proved sympathetic to the plight of African Americans in the south. He sought to protect Black civil rights and appointed Mississippi’s first African American public officials. In 1870, after Mississippi was readmitted into the Union, Ames ran for U.S. senator for the state as a Republican and won. He served in that capacity from February 1870 to January 1874, achieving the reputation as a strong public speaker. While serving as a senator in Washington, D.C., Ames met and married Blanche Butler, daughter of Union general Benjamin F. Butler, under whom Ames had served during the war. Ames and his wife had six children over the course of their marriage.
+</p>
+
+<p xml:id='OTPS52648P4'>In 1873, Ames ran for governor of Mississippi. His chief rival was James L. Alcorn, a former Confederate general who had been a Whig before the Civil War and joined the Republican Party afterwards. Ames won the election and worked diligently to improve Mississippi’s financial and social situation. In 1874, Democrats in Mississippi coordinated a campaign of violence against African Americans and white Republicans in the state, to secure political control in Mississippi. Unable to militarily suppress the white supremacist terror campaign, Ames signed a truce with Democratic leaders in Mississippi to reduce the violence and allow a peaceful election. Groups of white supremacists abandoned the truce and resumed their intimidation tactics against Republicans and Black Mississippians during the following elections, leading to a surge of Democratic politicians taking office.
+</p>
+
+<p xml:id='OTPS52648P5'>In 1876, the conservative Democrat majority in the Mississippi legislature tried to impeach Ames and many other Republican officials with trumped up charges of corruption. Despite a strong political force against him, Ames’ critics were unable to provide any evidence of impropriety. Nevertheless, because impeachment was politically driven, Ames could see that his future as governor was over and any effort on his part to legally defend himself would be personally and financially taxing. He and his attorneys reached an agreement with Democratic leaders to resign his office in exchange for dropping the legal charges. On March 29, 1876, after Democrats cancelled their legal proceedings, Ames vacated his position.
+</p>
+
+<p xml:id='OTPS52648P6'>Ames left Mississippi and went into business in Minnesota with his father and brother. A short time later, he relocated to New York City and then Massachusetts, overseeing mills and various business interests. When the Spanish-American War erupted in 1898, Ames volunteered for service and was appointed brigadier general of volunteers. Although over sixty years old, Ames joined the field campaign in Cuba and performed well.
+</p>
+
+<p xml:id='OTPS52648P7'>Ames resumed his business ventures in the early twentieth century. He lived until 1933, dying at age 97. He is buried in Lowell, Massachusetts.
+</p>
+
+<p xml:id='OTPS52648P8'>(Wikipedia)
+</p>
+
+<p xml:id='OTPS52648P9'>Adelbert Ames belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32085529">
+              <persName>Huey, J. G.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32024362">
+              <persName>Lynch, James, 1839-1872</persName>
+                <idno>https://en.wikipedia.org/wiki/James_D._Lynch</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32024362P0'>James D. Lynch was Mississippi’s first African American secretary of state.
+</p>
+
+<p xml:id='OTPS32024362P1'>Born in 1839 in Baltimore, Maryland, Lynch’s father was a white merchant and his mother enslaved. He received an education as a child at the African Methodist Episcopal Church and later attended Kimball Union Academy in New Hampshire. Lynch moved to Indianapolis, Indiana, and studied for the ministry, becoming a preacher in Galena, Illinois.
+</p>
+
+<p xml:id='OTPS32024362P2'>During the Civil War, Lynch married Lugenia Rice and traveled to Beaufort, South Carolina, to assist recently freed people in Union-occupied territory. In 1865, he was among twenty Black religious leaders who met with federal officials, including Union general William Tecumseh Sherman, to generate support for the economic security of former slaves. After the war, Lynch continued to work for the rights of African Americans in the former Confederacy, establishing schools and churches in Georgia and South Carolina. He moved to Mississippi in 1868 to expand the Methodist Episcopal Church.
+</p>
+
+<p xml:id='OTPS32024362P3'>While in Mississippi, Lynch’s interests turned to politics. He joined the Republican Party and advocated for a new state constitution, taking over the newspaper <hi rend='italic'>Jackson Colored Citizen</hi> to help promote his causes. Quickly rising to prominence, Lynch was elected secretary of state in 1869, becoming the first black man to hold that position in Mississippi. He gained support among many Mississippians for his efforts to improve public education, and won reelection in 1871. The following year, he served as a delegate to the National Republican Convention.
+</p>
+
+<p xml:id='OTPS32024362P4'>Lynch died in 1872 due to kidney disease and pneumonia. He was only 34 years old. Mississippi officials held a state funeral for him, attesting to his status and the respect he had earned among other state leaders. Lynch is buried in Greenwood Cemetery in Jackson, Mississippi.
+</p>
+
+<p xml:id='OTPS32024362P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS32024362P6'>James Lynch belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63248">
+              <placeName>Mississippi--Franklin County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/franklin-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63248P0'>Located in southwestern Mississippi, Franklin County was established on December 21, 1809. (Mississippi Encyclopedia; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.48, -90.9</geo>
+                </note>
+            </place>
+            <place xml:id="S63019">
+              <placeName>Mississippi--Adams County. Natchez</placeName>
+                <idno>https://en.wikipedia.org/wiki/Natchez,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63019P0'>Located in Adams County, Natchez was founded in 1716 under the name Fort Rosalie and was renamed Natchez in 1730. It became part of the newly created Adams County on April 1, 1799. It served as the capital of Mississippi Territory from 1798 until 1802, when it was replaced by Washington. It was reinstated as the capital from 1817 until 1820, when the capital was again replaced by Washington (which was later replaced by the current capital Jackson in 1822). Natchez serves as the county seat. (Wikipedia; Britannica; Mississippi Encyclopedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.55444, -91.3875</geo>
+                </note>
+            </place>
+            <place xml:id="S32085541">
+              <placeName>Louisiana--Jackson Parish</placeName>
+                <idno>https://en.wikipedia.org/wiki/Jackson_Parish,_Louisiana</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32085541P0'>Located in Louisiana, Jackson Parish, created from Claiborne, Ouachita and Union Parishes, was founded in 1845 and its parish seat is Jonesboro. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.3, -92.55</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63926'>
+            <catDesc>
+              <term>Crimes (alleged)--Murder</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/murder?q=Murder</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63926P0'>"The crime of intentionally killing a person." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62954'>
+            <catDesc>
+              <term>Criminal Procedures--Arrest</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arrest?q=Arrest</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62954P0'>"The act of using legal authority to catch and take someone to a place where the person may be accused of a crime." (CD)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32031715'>
+            <catDesc>
+              <term>Criminal Procedures--Extradition</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/extradition?q=Extradition</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32031715P0'>"The act of making someone return for trial to another country or state where he or she has been accused of doing something illegal." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S98996'>
+            <catDesc>
+              <term>Political Office--Appointment to Office</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/appointment</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98996P0'>"The act of officially choosing someone for a job, or the job itself." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S71916'>
+            <catDesc>
+              <term>United States. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71916P0'>The United States Army is the military land force of the United States of America. During the American Civil War it was also referred to as the Union Army, Federal Army, or Northern Army. Its primary military objective during the war was the restoration and preservation of the United States through the defeat of secessionist forces. The United States Army traces its roots to the Continental Army, created in 1775 during the American Revolution. Following American independence, the new United States severely reduced the size of the army due to distrust of permanent standing military forces. The small regular army generally handled military operations against Native Americans and for coastal defense. State authorities were expected to support the country’s military needs with their militias, or by raising volunteer units, temporarily activated for federal service.
+</p>
+
+<p xml:id='OTPSD71916P1'>At the outbreak of the Civil War, the United States regular army consisted of barely more than 16,000 soldiers, scattered across the country (primarily at coastal defenses and forts established in the territories) among ten infantry regiments, four artillery regiments, two cavalry regiments, two dragoon regiments, and one regiment of mounted rifles. Roughly 20% of the army’s officers and enlisted resigned their positions to fight for the Confederacy. After Southern troops attacked and captured Fort Sumter in South Carolina, President Abraham Lincoln called for 75,000 volunteers to expand the army and defeat the Confederates. The government continued to issue subsequent requests for volunteers as the war progressed. As with established practice, the states were to recruit the volunteers and provide them for federal service. Initial enlistments were for 90 days, but eventually enlistment terms were expanded, typically for three years. In total, more than 2,000,000 men served in the United States Army during the course of the Civil War. Of those, only around 60,000 were part of the regular army. The overwhelming majority were in state-based units. Most soldiers were volunteers, however the federal government began drafting men in 1862, as the army’s campaigns continued and volunteer numbers dwindled. In total, around 46,000 Union soldiers (about 5.5%) were draftees.
+</p>
+
+<p xml:id='OTPSD71916P2'>Approximately two-thirds of the soldiers in the United States Army during the Civil War were native-born white citizens. Around 100,000 were from states within the Confederacy. Immigrants made up about 25% of Union soldiers, with Germans and Irish immigrants being among the most prominent. The army also included soldiers of different ethnicities, including more than 3,000 Native American soldiers. In 1863, the Union army began formally accepting African American soldiers—in segregated units—and by the end of the war, around than 179,000 had served in the United States Army uniform.
+</p>
+
+<p xml:id='OTPSD71916P3'>When hostilities ended in June 1865, approximately 110,000 had been killed in combat or succumbed to wounds, more than 220,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S68178'>
+            <catDesc>
+              <term>Mississippi--Office of the Secretary of State</term>
+              <idno>https://en.wikipedia.org/wiki/Secretary_of_State_of_Mississippi</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD68178P0'>Formed in 1817 and operating at the state level, the Mississippi Secretary of State is elected by the state for a four-year term and is responsible for overseeing state election laws and government records. The seat is located in Jackson, Mississippi. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+          <category xml:id='S63177'>
+            <catDesc>
+              <term>Fugitives from Justice</term>
+              <idno>https://en.wikipedia.org/wiki/Fugitive</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63177P0'>The term "fugitive from justice" is defined broadly and covers a multiplicity of experiences under U.S. law, but refers most often to "a person who is fleeing from custody, whether it be from jail, a government arrest, government or non-government questioning, vigilante violence, or outraged private individuals" (Wikipedia). Slightly different than the above definition, a fugitive from justice may also be defined as "a person formally charged with a crime or a convicted criminal whose punishment has not yet been determined or fully served who is currently beyond the custody or control" of the party, be it local, national, or international, interested in their arrest (Wikipedia). In the nineteenth-century United States, fugitive status varied widely based on race. Many white people considered "fugitives from justice" were most often the latter definition, being those charged with or convicted of crimes who then fled across other state lines to try and evade punishment or trial. However, throughout American history up to Emancipation, fugitive status was given to escaped enslaved African Americans under the Fugitive Slave Laws of 1793 and later 1850. These laws also required anyone in the nation to apprehend self-emancipated enslaved people and return them to their owners. The term "fugitives from justice" therefore became another legal mechanism by which enslavers sought to control the movements and freedoms of the enslaved, while contributing heavily to the increasing sectionalism that would lead to the American Civil War (Britannica). To learn more about enslaved people who emancipations themselves and were labeled fugitives, see the "Emancipation and self-emancipation" subject tag under Events.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Ames Series 803</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1870</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Ames, Adelbert, 1835-1933</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1870-01-18</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Ames Collection. Requisition from Mississippi Governor Adelbert Ames to the Sheriff of Franklin County, Mississippi, asking for the capture and return of John J. Calcote and W. Harrison Calcote to Louisiana to face charges of murder.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8.0&quot; x 13.0&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Louisiana; Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_803-994-07-09</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Franklin County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Britany Castilaw; McKenna Fussell; Dalton Wood</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 994, Folder 7</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Ames, Adelbert, 1835-1933; Arrest; Mississippi. Governor; Murder; Sheriffs</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Legal Document from Mississippi Governor Adelbert Ames to the Sheriff of Franklin County, Mississippi; January 18, 1870</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/29820&quot;&gt;Legal Document from Mississippi Governor Adelbert Ames to the Sheriff of Franklin County, Mississippi; January 18, 1870&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG32" who="U2" when="2024-10-25T17:10:26Z" target="#P32951995">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U2" when="2024-10-25T13:13:09Z" target="#P32951994">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2024-01-30T17:08:44Z" target="#P32951995">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-11-17T17:42:44Z" target="#P32951994">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-11-17T17:31:04Z" target="#P32951995">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-11-17T17:30:13Z" target="#P32951994">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-11-02T18:06:53Z" target="#P32951995">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-11-02T04:12:51Z" target="#P32951994">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-10-10T15:40:42Z" target="#P32951995">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-09-02T20:15:53Z" target="#P32951994">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U25091195" when="2023-06-11T00:56:57Z" target="#P32951996">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U25091195" when="2023-06-11T00:56:40Z" target="#P32951996">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U25091195" when="2023-06-11T00:55:56Z" target="#P32951995">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25091195" when="2023-06-11T00:53:52Z" target="#P32951994">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091356" when="2023-06-06T19:08:12Z" target="#P32951996">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091356" when="2023-06-06T19:07:24Z" target="#P32951995">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091356" when="2023-06-06T19:01:54Z" target="#P32951994">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091356" when="2023-06-06T18:59:10Z" target="#P32951995">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091356" when="2023-06-06T18:57:25Z" target="#P32951994">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091356" when="2023-06-06T18:56:28Z" target="#P32951994">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091356" when="2023-06-06T18:56:04Z" target="#P32951994">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091356" when="2023-06-06T18:54:45Z" target="#P32951995">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091356" when="2023-06-06T18:47:14Z" target="#P32951994">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U231087" when="2023-03-06T14:10:44Z" target="#P32951994">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U231087" when="2023-03-06T14:08:23Z" target="#P32951994">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U231087" when="2023-03-06T14:07:11Z" target="#P32951994">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U231087" when="2023-03-06T14:06:53Z" target="#P32951996">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231087" when="2023-03-06T14:05:28Z" target="#P32951995">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231087" when="2023-03-06T14:00:04Z" target="#P32951994">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2023-03-06T13:59:11Z" target="#P32951994">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2023-03-04T00:37:06Z" target="#P32951996">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2023-03-04T00:37:04Z" target="#P32951995">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2023-03-04T00:37:02Z" target="#P32951994">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32951994" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:29817/full/full/0/default.jpg"/>
+        <div xml:id="OTP32951994">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32951994P0' xml:id='OTP32951994P0'>Recd<sub>,,</sub>= of <rs ref='#S32090222'>C. V. Waterbury</rs> <rs ref='#S95578'>Shff</rs> of <rs ref='#S63248'>Franklin County Mississ</rs> <rs ref='#S32090179'>Jno. J.</rs> &amp; <rs ref='#S32090180'>Harrison Calcotes</rs> <rs ref='#S63177'>refugees</rs> from the State of Lousiana to the State of Miss <rs ref='#S62954'>arrested</rs> on a warrent and <rs ref='#S32031715'>requisition</rs> from the <rs ref='#S32026126'>Governore of Lousiana</rs> to the <rs ref='#S52648'>Gov of Miss</rs> On this the 21<add place='above'>st</add> day of Jan A D 18<del rend='overstrike'>69</del>70
+</p>
+
+<p corresp='TTP32951994P1' xml:id='OTP32951994P1'>At the [Warfboat?] at <rs ref='#S63019'>Nachez</rs>
+</p>
+
+<p corresp='TTP32951994P2' xml:id='OTP32951994P2'><rs ref='#S32085529'>J. G. Huey</rs>.<lb/>
+Shff of <rs ref='#S32085541'>Jackson Parish Lousiana</rs> 
+</p>
+
+
+            <note resp="#U231087">I think this document should be dated 1870 instead of 1875. The writer of the first page smeared out a mistake and seems to have written a 0 over it, and 1870 is the year written on pages 2 and 3 - where Ames is provisional governor and James Lynch is secretary of state.</note>
+            <note resp="#U220769">Agreed, thank you!</note>
+            <note resp="#U25091356">I believe that the term &quot;refugee&quot; used here means that they are fugitives </note>
+        </div>
+        <pb xml:id="F32951995" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:29818/full/full/0/default.jpg"/>
+        <div xml:id="OTP32951995">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32951995P0' xml:id='OTP32951995P0'>[note] RG 27 v. 96 [/note]
+</p>
+
+<p corresp='TTP32951995P1' xml:id='OTP32951995P1'>I, Adelbert Ames GOVERNOR OF THE STATE OF MISSISSIPPI.
+</p>
+
+<p corresp='TTP32951995P2' xml:id='OTP32951995P2'><hi rend='italic'>To the Sheriff of</hi> Franklin <hi rend='italic'>County,</hi>
+</p>
+
+<p corresp='TTP32951995P3' xml:id='OTP32951995P3'><hi rend='italic'>Or to the Sheriff of any other</hi> County GREETING:
+</p>
+
+<p corresp='TTP32951995P4' xml:id='OTP32951995P4'><b>Whereas,</b> <hi rend='italic'>His Excellency, the Governor of the State of</hi> Louisiana <hi rend='italic'>has made known to me that</hi> Jno. J. Calcote and W. Harrison Calcote <hi rend='italic'>stand<del rend='overstrike'>s</del> Criminal Procedure--Charges and specifications (Civil and Criminal)|charged]] with having committed</hi> —<rs ref='#S63926'>Murder</rs>— <hi rend='italic'>in the</hi> State <hi rend='italic'>of</hi> Louisiana <hi rend='italic'>on the</hi> 24<add place='above'>th</add> <hi rend='italic'>day of</hi> December <hi rend='italic'>18</hi>65, <hi rend='italic'>and Whereas, it appears that said</hi> Jno J. Calcote <add place='above'>a</add>n<sub>d</sub> W. Harrison Calcote <hi rend='italic'>ha<del rend='overstrike'>s</del>ve fled from justice, and is to be found in the State of Mississippi, where they have taken refuge: and Whereas, the Governor aforesaid has demanded of me the arrest and delivery of said</hi> Jno J. Calcote and W. Harrison Calcote to J. G. Huey or his deputy <hi rend='italic'>whom he has <rs ref='#S98996'>appointed</rs> agent to receive and convey said</hi> Jno. J Calcote and W. Harrison Calcote <hi rend='italic'>to the jurisdictional limits within which he stands charged:</hi>
+</p>
+
+<p corresp='TTP32951995P5' xml:id='OTP32951995P5'>Now Therefore, <hi rend='italic'>I,</hi> Adelbert Ames <hi rend='italic'>Governor of the State of Mississippi, do, by virtue of the power vested in me by the Constitution and Laws of this State, direct and require you to arrest the said</hi> Jno J. Calcote <add place='above'>a</add>n<sub>d</sub> W. Harrison Calcote <hi rend='italic'>to the custody of the said</hi> J. G. Huey or deputy <hi rend='italic'>the agent appointed by the Governor of</hi> Louisiana <hi rend='italic'>to the end that he may be conveyed to the jurisdictional limits where he stands charged.</hi>
+</p>
+
+<p corresp='TTP32951995P6' xml:id='OTP32951995P6'>[seal] THE GREAT SEAL OF THE STATE OF MISSISSIPPI [/seal]
+</p>
+
+<p corresp='TTP32951995P7' xml:id='OTP32951995P7'><b>In Testimony Whereof,</b> <hi rend='italic'>Witness my signature, and the Great Seal of the State of Mississippi hereunto affixed.</hi><lb/>
+<hi rend='italic'>This</hi> 18<add place='above'>th</add> <hi rend='italic'>day of</hi> January <hi rend='italic'>18</hi>70—
+</p>
+
+<p corresp='TTP32951995P8' xml:id='OTP32951995P8'>BY THE GOVERNOR, Adelbert Ames<lb/>
+Bvt. Maj. Genl,<lb/>
+<rs ref='#S71916'>U. S. Army</rs><lb/>
+Prov'l Gov.
+</p>
+
+<p corresp='TTP32951995P9' xml:id='OTP32951995P9'><rs ref='#S32024362'>James Lynch</rs><lb/>
+<rs ref='#S68178'>SECRETARY OF STATE</rs>. 
+</p>
+
+
+        </div>
+        <pb xml:id="F32951996" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:29819/full/full/0/default.jpg"/>
+        <div xml:id="OTP32951996">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32951996P0' xml:id='OTP32951996P0'>Executed the within warrant by arresting J. J. Calcote &amp; W. Harrisson Calcote and delivered them to J. G. Huey Sheriff of Jackson Parish La at Natchez Miss who was duly author-ized to recieve them. Witness my hand this 21<add place='above'>st</add> day of Jany 1870
+</p>
+
+<p corresp='TTP32951996P1' xml:id='OTP32951996P1'>C V Waterbury Sheriff<lb/>
+of Franklin Co <lb/>
+Miss—
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

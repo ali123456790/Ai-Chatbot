@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Mississippi Governor John J. Pettus to William J. Hardee; September 27, 1863</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 15 edits between
+              <date type="first_edit" when="2022-12-04T00:41:29Z">December  4, 2022</date> and
+              <date type="last_edit" when="2023-11-17T18:10:06Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091404">
+          <persName
+            >
+            Robert Mason
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2021-11-11T14:06:30Z">November 11, 2021</date> and
+              <date type="last_edit" when="2021-11-11T14:30:10Z">November 11, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2021-12-04T03:10:05Z">December  4, 2021</date> and
+              <date type="last_edit" when="2021-12-04T03:17:34Z">December  4, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-10-18T22:44:43Z">October 18, 2021</date> and
+              <date type="last_edit" when="2021-10-18T23:24:55Z">October 18, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T14:14:07Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U25091404">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Robert Mason</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:42:28+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S72851">
+              <persName>Buchanan, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32003440">
+              <persName>Easterling, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S85109">
+              <persName>Hardee, William Joseph, 1815-1873</persName>
+                <idno>https://en.wikipedia.org/wiki/William_J._Hardee</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS85109P0'>William Joseph Hardee was a career military officer who helped shape U.S. Army infantry tactics during the nineteenth century and then served as a Confederate general during the Civil War.
+</p>
+
+<p xml:id='OTPS85109P1'>Born on October 12, 1815, in Camden County, Georgia, Hardee graduated from the United States Military Academy at West Point, New York, in 1838. He was commissioned as a lieutenant in the Second U.S. Dragoons and saw service in Florida during the Seminole Wars. In 1840, Hardee received orders to travel to France to study military tactics, due to that country’s strong reputation for military professionalism dating back to the Napoleonic Era of the early nineteenth century.
+</p>
+
+<p xml:id='OTPS85109P2'>Hardee was with the Second U.S. Dragoons in Texas in 1846 during the build-up of hostilities between the United States and Mexico. He was second-in-command of an 80-man detachment sent to scout Mexican military activity near Carricitos Ranch on April 25, 1846. The American scouting party ran into over 1,500 Mexican soldiers and were quickly overwhelmed in a brief skirmish. Hardee and most of the Americans were captured. They were released by the Mexican Army a few days later, but the incident was among the early incidents that sparked the Mexican-American War. Over the next two years, Hardee participated in several engagements, was wounded in a skirmish near La Rosia, Mexico, and received two brevet (honorary) promotions for his performance in battle.
+</p>
+
+<p xml:id='OTPS85109P3'>After the Mexican-American War, Hardee briefly commanded units of the Texas Rangers before transferring to West Point in 1853 to teach tactics. In 1856, served as the school’s commandant of cadets. During this period, by request of Secretary of War (and future Confederate president) Jefferson Davis, Hardee authored the <hi rend='italic'>Rifle and Light Infantry Tactics for the Exercise and Manoeuvres of Troops When Acting as Light Infantry or Riflemen</hi> (or more commonly known as “Hardee’s Tactics”). The book was largely inspired by his time studying French tactics and became the most popular drill manual for infantry soldiers during the Civil War. Hardee also helped design or inspire a distinctive black felt hat adopted by members of the 1st and 2nd U.S. Cavalry Regiments in the late 1850s. Known as the “Hardee hat,” the flat-topped and wide brimmed hat was never standard issue for soldiers, but was commonly seen during the Civil War.
+</p>
+
+<p xml:id='OTPS85109P4'>When the Civil War broke out in 1861, Hardee resigned his U.S. Army commission and volunteered for Confederate service. He was initially made a colonel and placed in command of two forts near Mobile Bay in Alabama. However, he received a promotion to brigadier general in June 1861 and then a promotion to major general in October 1861. He became a corps commander under General Albert Sidney Johnston’s Army of Central Kentucky and participated in the Battle of Shiloh, where he was wounded in the arm. Following that battle, Hardee’s corps was transferred to General Braxton Bragg’s Army of Tennessee. He returned to the field and continued to be a competent and generally popular field officer, performing well at the Battle of Perryville in October 1862.
+</p>
+
+<p xml:id='OTPS85109P5'>In the fall of 1862, Hardee was promoted to lieutenant general. He played a conspicuous part in the Battle of Stones River (or Murfreesboro) in late December 1862 and early January 1863. He later clashed with Bragg (as did many other Confederate officers) and was transferred to the Department of Mississippi and East Louisiana, but returned to serve under Bragg at Chattanooga in late 1863. Hardee’s corps experienced a stinging defeat in the Battle of Missionary Ridge, when Union soldiers assaulted uphill and overran Confederate defenses.
+</p>
+
+<p xml:id='OTPS85109P6'>Fully opposed to Bragg’s command abilities, Hardee worked with other Confederate officers to convince President Jefferson Davis to relieve the unpopular army commander. When Bragg was finally removed from command, Hardee temporarily led the Army of Tennessee before General Joseph E. Johnston arrived to take charge. Hardee spent most of 1864 and 1865 handling different assignments across the south, such as opposing General William Tecumseh Sherman’s Union campaign at Meridian, Mississippi, supporting the Confederate defense of Atlanta, and commanding the Department of South Carolina, Georgia, and Florida. He continued to fight into North Carolina during the final weeks of the war and surrendered to Union troops after the Battle of Bentonville.
+</p>
+
+<p xml:id='OTPS85109P7'>After the war, Hardee turned to civilian life. He moved to Alabama and eventually became president of the Selma and Meridian Railroad. He died on November 6, 1873, in Wytheville, Virginia. He was married twice, first to Elizabeth Dummett, who died in 1853. He married Mary Lewis in 1864. Hardee had at least three children. He is buried in Live Oak Cemetery in Selma, Alabama.
+</p>
+
+<p xml:id='OTPS85109P8'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS85109P9'>William Joseph Hardee belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S51741">
+              <persName>Shaaff, John T.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32005216">
+              <persName>Kennedy, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63234">
+              <placeName>Mississippi--Jasper County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/jasper-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63234P0'>Located in southeast Mississippi, Jasper County was established on December 23, 1833 from Jones and Wayne counties. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.03, -89.12</geo>
+                </note>
+            </place>
+            <place xml:id="S51740">
+              <placeName>Mississippi--Noxubee County. Macon</placeName>
+                <idno>https://en.wikipedia.org/wiki/Macon,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51740P0'>Located in Noxubee County, Macon was founded on August 10, 1835, and serves as the county seat. (Wikipedia; Dunbar Rowland, <hi rend='italic'>Mississippi,</hi> Vol. 2, pg. 158)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.1125, -88.56111</geo>
+                </note>
+            </place>
+            <place xml:id="S74434">
+              <placeName>Mississippi--Chickasaw County. Egypt</placeName>
+                <idno>https://en.wikipedia.org/wiki/Egypt,_Chickasaw_County,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS74434P0'>Located in Chickasaw County, Egypt was founded in 1844 as Pikeville. Egypt is an unincorporated area that is not governed by a local municipal body. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.89833, -88.72972</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S32008490'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Impressment</term>
+              <idno>https://encyclopediavirginia.org/entries/confederate-impressment-during-the-civil-war/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32008490P0'>As the American Civil War extended into its third year, the Confederate government found itself deeply indebted and unable to provide food, clothing, and other necessities for its army. On March 26, 1863, the Confederate government passed the Impressment Law. Under this law, state boards of impressment, with the assistance of local commissioners, impressed food, fuel, enslaved persons, and other commodities to support the war effort and to pay off its debts. Commissioners met with local farmers to fix prices for their commodities, subject to revision every two months. One month later, the Confederate government enacted a tax-in-kind. The tax-in-kind required farmers to donate ten percent (to be judged by a collector) of their produce in lieu of taxes paid in currency.
+</p>
+
+<p xml:id='OTPSD32008490P1'>Both of these policies increased tensions between white southerners and the Confederate government. Farmers and their families often felt cheated by government agents offering far less than market value for their goods. Areas close to fighting also disproportionately experienced impressment, as Confederate armies on the ground often stripped their farms clean. The Confederacy also impressed enslaved persons to perform labor, and the brutality of that labor often resulted in the death, injury, or mistreatment of the enslaved, who, if returned at all, did so in much worse condition than they left. The Confederate government also routinely failed to pay for impressed goods and kept enslaved persons longer than their agreed impressment period. Impressment, then, led to protests among rural white southerners, some of whom hoarded their goods from collectors or impersonated collectors in order to acquire food for themselves and their families. The tax-in-kind alone garnered roughly $62 million for the Confederacy from 1863 to 1865, yet combined with impressment, these policies alienated much of the Confederacy's local support and failed to fully pay its debts or win the war. (Encyclopedia Virginia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25026123'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Impressment. War Material</term>
+              <idno>https://encyclopediavirginia.org/entries/confederate-impressment-during-the-civil-war/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25026123P0'>As the American Civil War extended into its third year, the Confederate government found itself deeply indebted and unable to provide food, clothing, and other necessities for its army. On March 26, 1863, the Confederate government passed the Impressment Law. Under this law, state boards of impressment, with the assistance of local commissioners, impressed food, fuel, enslaved persons, and other commodities to support the war effort and to pay off its debts. Commissioners met with local farmers to fix prices for their commodities, subject to revision every two months. One month later, the Confederate government enacted a tax-in-kind. The tax-in-kind required farmers to donate ten percent (to be judged by a collector) of their produce in lieu of taxes paid in currency.
+</p>
+
+<p xml:id='OTPSD25026123P1'>Both of these policies increased tensions between white southerners and the Confederate government. Farmers and their families often felt cheated by government agents offering far less than market value for their goods. Areas close to fighting also disproportionately experienced impressment, as Confederate armies on the ground often stripped their farms clean. The Confederacy also impressed enslaved persons to perform labor, and the brutality of that labor often resulted in the death, injury, or mistreatment of the enslaved, who, if returned at all, did so in much worse condition than they left. The Confederate government also routinely failed to pay for impressed goods and kept enslaved persons longer than their agreed impressment period. Impressment, then, led to protests among rural white southerners, some of whom hoarded their goods from collectors or impersonated collectors in order to acquire food for themselves and their families. The tax-in-kind alone garnered roughly $62 million for the Confederacy from 1863 to 1865, yet combined with impressment, these policies alienated much of the Confederacy's local support and failed to fully pay its debts or win the war. (Encyclopedia Virginia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S32003250'>
+            <catDesc>
+              <term>Confederate States of America--Military Service (Branch Unspecified)</term>
+              <idno>https://en.wikipedia.org/wiki/Military_forces_of_the_Confederate_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32003250P0'>The military forces of the Confederate States of America (1861-1865) consisted of the Army, Navy, and Marine Corps and were responsible for the defense of the Confederacy and securing the nation's independence. While definitive numbers are not available, the Confederacy's Army ranged between 750,000–1,500,000 soldiers and 483,026 casualties. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001675'>
+<catDesc>Financial Occupations</catDesc>
+          <category xml:id='S89819'>
+            <catDesc>
+              <term>Commercial Agents</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/commercial-agent</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001675'>Financial Occupations</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD89819P0'>"A person who works for one or more companies finding business for them; a person whose job is to sell land and buildings which are used for business activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+<category xml:id='C32001719S89819'>
+<catDesc>
+<term><rs ref='S89819'>Commercial Agents</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001713'>
+<catDesc>C.S.A. Federal Government</catDesc>
+          <category xml:id='S99586'>
+            <catDesc>
+              <term>Confederate States of America--War Department</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t00z8036q&amp;view=1up&amp;seq=9&amp;skin=2021</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.3675, -86.3</geo>
+              </note>
+              <gloss><p xml:id='OTPSD99586P0'>Operating nationally, the Provisional Confederate Congress established the War Department by an act on February 21, 1861, in Montgomery, Alabama. The department was led by the Secretary of War, appointed by the President with the advice and consent of the Senate. It was initially led by LeRoy Pope Walker from February 25–September 16, 1861 and later led by Judah P. Benjamin (September 17, 1861–March 24, 1862), George W. Randolph (March 24–November 15, 1862), James Seddon (November 21, 1862–February 5, 1865), and Maj. Gen. John C. Breckinridge (February 6–May 10, 1865). The War Department was responsible for the administration of the Confederate Army and managed all matters pertaining to American Indian tribes within the boundaries of the Confederate States. (<hi rend='italic'>Acts and Resolutions of the First Session of the Provisional Congress of the Confederate States</hi>, 1861 Public Laws, S1, 46; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25013612'>
+            <catDesc>
+              <term>Confederate States of America--War Department. Commissary Department</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t2z32n83q&amp;view=1up&amp;seq=3&amp;skin=2021</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25013612P0'>The Provisional Confederate Congress established the Confederate Commissary Department on February 26, 1861 in Montgomery, Alabama under the War Department. Initially under the command of Col. Lucius B. Northrop, Brig. Gen. Isaac M. St. John assumed command on February 16, 1865. Operating at the national level of the Confederacy, the Commissary Department was responsible for the procurement and distribution of food for the Confederate Army. (<hi rend='italic'>Laws of the Provisional Congress of the Confederate States</hi>, 1861, 4; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+<category xml:id='C32001716S99586'>
+<catDesc>
+<term><rs ref='S99586'>Confederate States of America--War Department</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001716S25013612'>
+<catDesc>
+<term><rs ref='S25013612'>Confederate States of America--War Department. Commissary Department</rs></term>
+</catDesc>
+</category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001669'>
+<catDesc>Family Structures</catDesc>
+          <category xml:id='S64105'>
+            <catDesc>
+              <term>Marital Status--Widows</term>
+              <idno>https://www.essentialcivilwarcurriculum.com/civil-war-widows.html</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001669'>Family Structures</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD64105P0'>Widows were classified as women whose legal husband died and they had not legally remarried (Cambridge Dictionary). Due to the bloodshed of the American Civil War, the United States saw a rapid increase in widowhood in the mid-to-late-nineteenth century; one estimate puts the number of widows at over 200,000 (Essential Civil War Curriculum). The Civil War altered antebellum patterns of widowhood by lowering the average age of widows, since many of those who lost their husbands to the war were in their twenties or thirties, and increasing the number of pregnant widows. Since American coverture legally subsumed a woman's identity under her husbands', many widows had no choice but to quickly remarry for social and economic protection.
+</p>
+
+<p xml:id='OTPSD64105P1'>The Civil War also altered antebellum grieving traditions in that the presence of so many widows, often many within the same community, became more visible due to their numbers. Antebellum social etiquette also stipulated that a woman grieve her husband for roughly two and a half years, while the experience of war often led widows not only to stop mourning but to start rebuilding their lives (and finding other partners) far quicker. In the South, many women inherited large estates and numerous enslaved people upon their husbands' death, becoming solely responsible for maintaining operations and adopting the role of enslaver.
+</p>
+
+<p xml:id='OTPSD64105P2'>Widows in both the North and South played outsized roles in commemorating the Civil War and deeply impacted the war's popular memory. Women were societally expected to remember their husbands as honorable, infusing that memory into the statuary and literature of the late-nineteenth and early-twentieth centuries. Antebellum social and legal practices also ensured that women were generally financially dependent upon their husbands, and widowhood thereby faced many women with poverty. Reform agencies therefore often targeted widows in their charitable work, and the widows themselves sought financial assistance from the federal government by applying for pensions, expanding the American welfare state. While widowhood existed prominently throughout the nineteenth century, the Civil War ultimately increased the number of widows and radically altered their places in American life (Essential Civil War Curriculum).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S58310'>
+            <catDesc>
+              <term>Orphans</term>
+              <idno>https://en.wikipedia.org/wiki/Orphan</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001669'>Family Structures</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58310P0'>The status of "orphan" is defined in the United States as "a minor bereft through death or disappearance of, abandonment or desertion by, or separation or loss from, both parents" (Wikipedia). CWRGM also applies this term to identify military orphans, or a child whose mother is still living but whose father died in military service. Orphans in the nineteenth-century often came from a variety of backgrounds and had an equal variety of experiences. While the death of both parents, usually from disease, certainly left many children orphaned, poverty remained the primary cause by which a child could be sent to live at an orphanage. The rise of industrialism in the U. S. brought about a concurrent rise in poverty, particularly in the nation's cities. Many impoverished parents either abandoned their children at orphanages or asked that orphanages take in their children to provide them with the food, shelter, medicine, and in certain cases education that working-class parents could not. Children could spend months or years in orphanages, though many forced them to return to their families or go out on their own by age 15 or 16. Most orphanages were privately owned and operated by religious or reform organizations, though some states increasingly sponsored institutional homes for orphans by the end of the nineteenth century. While the vast majority of orphanages operated in major eastern cities, the so-called "orphan train" process sent orphans by train to rural areas of the country, where reformers thought that family life and agricultural work would keep them from the moral corruption of the city. Orphans of different races, religions, and ethnicities also experienced orphanages differently, as many excluded non-white, immigrant, and Jewish orphans. Ultimately, the devastation of the Civil War and the widespread poverty of industrialism in the U. S. produced an unprecedented number of orphans, and their care became a principal cause among reformers throughout the nineteenth century (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 454-6).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S96659'>
+            <catDesc>
+              <term>Impoverished People</term>
+              <idno>https://www.britannica.com/topic/poverty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96659P0'>Impoverished people are those who lack "a usual or socially acceptable amount of money or material possessions," or alternately those who "lack the means to satisfy their basic needs (Britannica). This definition, necessarily subjective and broad, indicates that what one person or society deems "socially acceptable" or what constitutes "basic needs" is malleable.
+</p>
+
+<p xml:id='OTPSD96659P1'>Similarly, impoverished people in the United States in the nineteenth century did not fit one specific category. The rise of industrialism produced an increased number of impoverished people in the U. S., particularly within large urban centers. European immigrants in cities in the East, and Chinese immigrants on the West Coast, and African Americans in the South were disproportionately affected by poverty. Regionally, the highest number of impoverished people came from the U. S. South, where "both whites and African Americans struggled with debt, low cotton prices, laws favorable to employers and creditors, paltry alternatives, and the general post war devastation" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 547).
+</p>
+
+<p xml:id='OTPSD96659P2'>Racism and nativism among employers and employees also made economic advancement more difficult for people of color and immigrants. However, the impoverished made up a comparatively low percentage of Mississippi's antebellum population, given its low number of immigrants and even native residents, lack of industrialization and urbanization, and mobility of those that were impoverished (Mississippi Encyclopedia). Many reform organizations throughout the country took the lead in fighting poverty in the nineteenth century, while state and federal governments by the end of the century also developed its own institutional responses. The status of being impoverished has always carried negative connotations in American history, so CWRGM uses the tag "Impoverished people" to emphasize the personhood of those in poverty rather than their social status. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives and the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1863</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1863-09-27</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Mississippi Governor John J. Pettus at Macon, Mississippi, to Confederate General William J. Hardee concerning the seizure of a shipment of wheat at Egypt Station, Mississippi.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; 4-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Egypt (Miss.); Macon (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-945-07-06</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Choctaw County (Miss.); Noxubee County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 945, Folder 7</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Confederate States of America. Army--Officers; Hardee, William Joseph, 1815-1873; Mississippi. Governor; Railroads--Confederate States of America; Wheat.</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Mississippi Governor John J. Pettus to William J. Hardee; September 27, 1863</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/13426&quot;&gt;Letter from Mississippi Governor John J. Pettus to William J. Hardee; September 27, 1863&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG37" who="U2" when="2024-10-25T14:14:07Z" target="#P25197889">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-11-17T18:10:06Z" target="#P25197889">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-11-02T15:50:31Z" target="#P25197891">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-11-02T15:35:14Z" target="#P25197889">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-11-02T03:33:28Z" target="#P25197889">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-09-02T20:41:39Z" target="#P25197889">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-09-02T20:25:25Z" target="#P25197889">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-19T20:16:31Z" target="#P25197889">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-19T18:22:43Z" target="#P25197889">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-18T21:52:56Z" target="#P25197891">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-18T21:28:55Z" target="#P25197889">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-18T15:06:33Z" target="#P25197889">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-06T04:51:24Z" target="#P25197889">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-04T20:19:54Z" target="#P25197889">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2022-12-13T20:59:10Z" target="#P25197889">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2022-12-04T00:41:29Z" target="#P25197889">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U25091253" when="2021-12-04T03:17:34Z" target="#P25197891">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U25091253" when="2021-12-04T03:16:40Z" target="#P25197889">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25091253" when="2021-12-04T03:15:05Z" target="#P25197892">
+          Version 4 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091253" when="2021-12-04T03:14:39Z" target="#P25197891">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091253" when="2021-12-04T03:11:01Z" target="#P25197890">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091253" when="2021-12-04T03:10:05Z" target="#P25197889">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091404" when="2021-11-11T14:30:10Z" target="#P25197892">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091404" when="2021-11-11T14:22:56Z" target="#P25197891">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091404" when="2021-11-11T14:22:37Z" target="#P25197892">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091404" when="2021-11-11T14:21:57Z" target="#P25197891">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091404" when="2021-11-11T14:20:22Z" target="#P25197891">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091404" when="2021-11-11T14:12:49Z" target="#P25197890">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091404" when="2021-11-11T14:07:16Z" target="#P25197889">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091404" when="2021-11-11T14:06:30Z" target="#P25197889">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U226410" when="2021-10-18T23:24:55Z" target="#P25197892">
+          Version 1 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U226410" when="2021-10-18T23:09:54Z" target="#P25197891">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U226410" when="2021-10-18T22:55:35Z" target="#P25197890">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U226410" when="2021-10-18T22:44:43Z" target="#P25197889">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2021-09-19T15:36:11Z" target="#P25197892">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2021-09-19T15:36:03Z" target="#P25197891">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2021-09-19T15:35:56Z" target="#P25197890">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-09-19T15:35:47Z" target="#P25197889">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25197889" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/13422/full/full/0/default.jpg"/>
+        <div xml:id="OTP25197889">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25197889P0' xml:id='OTP25197889P0'>[seal]
+</p>
+
+<p corresp='TTP25197889P1' xml:id='OTP25197889P1'><rs ref='#S25026074'>Executive Office</rs><lb/>
+<rs ref='#S51740'>Macon</rs> Miss Sept 27<add place='above'>th</add><lb/>
+1863
+</p>
+
+<p corresp='TTP25197889P2' xml:id='OTP25197889P2'>Leut Genl <rs ref='#S85109'>W. J. Hardee</rs>
+</p>
+
+<p corresp='TTP25197889P3' xml:id='OTP25197889P3'>Genl
+</p>
+
+<p corresp='TTP25197889P4' xml:id='OTP25197889P4'>The Report of Capt <rs ref='#S51741'>John T Shaaff</rs> <rs ref='#S25013612'>Off Coms,ry</rs> in Regard to the <rs ref='#S25026123'>seizure</rs> of wheat at <rs ref='#S74434'>Egypt</rs> Station by order of Capt <rs ref='#S32005216'>Kennedy</rs> ^ sent to him by your order^ is before me I see nothing in The Report to change my views in Relati-on to the transaction
+</p>
+
+<p corresp='TTP25197889P5' xml:id='OTP25197889P5'>The wheat was the property of the <rs ref='#S64105'>widows</rs> &amp; <rs ref='#S58310'>orphans</rs> of soldiers who had fallen in the service of the Country &amp; the <rs ref='#S25013472'>wives &amp; children</rs> of soldiers now in the service it was seized contrary to law by order of Capt Kennedy the <rs ref='#S89819'>agent</rs> sent to purchase it was insulted when he Remanstrated with Capt Kennedy against the seizure no offer made to Return him the money paid for the wheat   
+</p>
+
+
+        </div>
+        <pb xml:id="F25197890" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/13423/full/full/0/default.jpg"/>
+        <div xml:id="OTP25197890">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25197890P0' xml:id='OTP25197890P0'>&amp; a threat made by Capt Kennedy to hold it by bayonets if necessary. This is the statement of the facts made to me which I believe to be true &amp; I see nothing in the Report to contradict them That Capt Kennedy erroniously believed that his agent had bought the wheat from Mrs <rs ref='#S72851'>Buchanan</rs> does not change the facts but only mitigats his culpability as it is admited in this Report that the contract could not be enforced against Mrs Buchanan it can not be pretended that Capt Kennedy could Rightfully seize in the hands of a third party.
+</p>
+
+<p corresp='TTP25197890P1' xml:id='OTP25197890P1'>The Remark of Capt Schaaff that Capt Kennedy "Deserves praise instead of censure from any who have or profess to have the interest of the government at heart"
+</p>
+
+
+        </div>
+        <pb xml:id="F25197891" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/13424/full/full/0/default.jpg"/>
+        <div xml:id="OTP25197891">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP25197891P0' xml:id='OTP25197891P0'>&amp; the hope expressed by him that "The civil officers of the state will examine a little more closely into the facts &amp; avoid closing rank in justice to officers endeavoring to do their duty" which has too frequ-ently marked the intercourse of officers with Citizens, but as it does not snatch the bread from the <rs ref='#S96659'>destitute</rs> wives &amp; children of soldiers I pass it without [?] this notice
+</p>
+
+<p corresp='TTP25197891P1' xml:id='OTP25197891P1'>Mr <rs ref='#S32003440'>Easterling</rs> an old &amp; Respectable Citizen of <rs ref='#S63234'>Jasper Co</rs> working  for nothing &amp; bearing his own expenses goes up the R road to purchase bread for destitu-te families with the last dollars they could Raise. A Commissary believing that the grain thus purchased should have been delivered to the government which he Represents seizes  it &amp; when 
+</p>
+
+
+        </div>
+        <pb xml:id="F25197892" n="4" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/13425/full/full/0/default.jpg"/>
+        <div xml:id="OTP25197892">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP25197892P0' xml:id='OTP25197892P0'>Easterling goes to the Commiss-ary to Remonstrate he is insulted &amp; threatened with bayonets—the grain being the lawful property of those whom Easterling Represents &amp; not the property of the Govern-ment which Capt Kennedy repres-ented no praises lavished by one Commissary or anoth-er, can white wash the trans-action or make it appear any-thing else than &amp; outrage on the Rights of Citizens.
+</p>
+
+<p corresp='TTP25197892P1' xml:id='OTP25197892P1'>In conclusion Genl I have only to remark that it has &amp; will continue to afford me pleasure to give all the aid in my power to the <rs ref='#S32003250'>Confederate</rs> Officers in the subsistenance as well as in other branches of the service, but they must keep their hands off the [?] of bread which lawfully belongs to the dsetitute families of soldiers
+</p>
+
+<p corresp='TTP25197892P2' xml:id='OTP25197892P2'>Very Respectfully
+</p>
+
+<p corresp='TTP25197892P3' xml:id='OTP25197892P3'><rs ref='#S63111'>John J Pettus</rs>
+</p>
+
+<p corresp='TTP25197892P4' xml:id='OTP25197892P4'>Copy of letter to Lieut Genl Hardee—Sept 29<add place='above'>th</add> 1863 Impressment of wheat <lb/>
+from Easterling
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

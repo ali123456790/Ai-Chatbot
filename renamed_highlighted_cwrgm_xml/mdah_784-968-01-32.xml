@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Simon M. Preston to General N. A. M. Dudley; July 20, 1868</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2022-05-03T14:41:59Z">May  3, 2022</date> and
+              <date type="last_edit" when="2024-01-30T17:24:51Z">January 30, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32005171">
+          <persName
+              type="pseudonym"
+            >
+            Lucio Alvarez
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-12-19T02:29:34Z">December 19, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091235">
+          <persName
+            >
+            Amanda Patrick
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-02-25T19:22:45Z">February 25, 2022</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:45:50+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32022573">
+              <persName>Dudley, N. A. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32022574">
+              <persName>Etta, Isreal</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32022575">
+              <persName>Preston, S. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32022576">
+              <persName>Hussey, George C., Sr.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63019">
+              <placeName>Mississippi--Adams County. Natchez</placeName>
+                <idno>https://en.wikipedia.org/wiki/Natchez,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63019P0'>Located in Adams County, Natchez was founded in 1716 under the name Fort Rosalie and was renamed Natchez in 1730. It became part of the newly created Adams County on April 1, 1799. It served as the capital of Mississippi Territory from 1798 until 1802, when it was replaced by Washington. It was reinstated as the capital from 1817 until 1820, when the capital was again replaced by Washington (which was later replaced by the current capital Jackson in 1822). Natchez serves as the county seat. (Wikipedia; Britannica; Mississippi Encyclopedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.55444, -91.3875</geo>
+                </note>
+            </place>
+            <place xml:id="S82506">
+              <placeName>Mississippi--Adams County. Washington</placeName>
+                <idno>https://en.wikipedia.org/wiki/Washington,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS82506P0'>Located in Adams County, Mississippi, Washington was founded as early as 1797 in what was then unincorporated territory. It became part of the newly created Adams County on April 1, 1799. Washington served as the capital of the Territory of Mississippi from 1802 to 1817 and the capital of the State of Mississippi from 1817 until 1822, when it was replaced by Jackson. Presently, Washington is an unincorporated area that is not governed by a local municipal body. (Wikipedia; Rowland, <hi rend='italic'>Mississippi</hi>, 932; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.5788, -91.2993</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S92353'>
+            <catDesc>
+              <term>Crimes (alleged)--Affray</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/affray</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92353P0'>A criminal act defined as "a fight in a public place." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+          <category xml:id='S25006301'>
+            <catDesc>
+              <term>Under Review</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C25000149'>Military Units</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25006301P0'>We are currently working hard to identify this military unit/organization and hope to have more details for you soon. If you have information, please contact us at cwrgmproject@gmail.com
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Ames Series 784</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Mississippi Digital Library.; Funding for the project provided by the National Historical Publications and Records Commission of the National Archives; Funding for this project provided by the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1868</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Preston, Simon Manly</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1868-07-20</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Ames Collection. Letter from S. M. Preston, former colonel of the 58th United States Colored Infantry Regiment, at Natchez, Mississippi, to General N. A. M. Dudley, introducing Israel Etta, a former corporal in Preston&#39;s regiment, who desires to testify about disturbances of the peace in Washington, Mississippi. The letter is endorsed by George Hussey.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_784-968-01-32</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>3637215 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 7.5&quot; x 10&quot; 1-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Natchez (Miss.); Washington (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>1992</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_784-968-01-32</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Adams County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Dalton Wood; Michael Singleton; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 968, Folder 1</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>African Americans; Ames, Adelbert, 1835-1933; Breach of the peace; Dudley, N. A. M.; Mississippi. Governor; United States. Army; United States. Colored Troops; United States. Army--Officers</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Simon M. Preston to General N. A. M. Dudley; July 20, 1868</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>1535</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/16001&quot;&gt;Letter from Simon M. Preston to General N. A. M. Dudley; July 20, 1868&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG10" who="U220769" when="2024-01-30T17:24:51Z" target="#P32056009">
+          Version 10 of page "Letter from Simon M. Preston to General N. A. M. Dudley; July 20, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2023-11-17T17:12:07Z" target="#P32056009">
+          Version 9 of page "Letter from Simon M. Preston to General N. A. M. Dudley; July 20, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2023-03-18T14:58:05Z" target="#P32056009">
+          Version 8 of page "Letter from Simon M. Preston to General N. A. M. Dudley; July 20, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2023-03-18T00:19:16Z" target="#P32056009">
+          Version 7 of page "Letter from Simon M. Preston to General N. A. M. Dudley; July 20, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U220769" when="2022-06-12T20:02:30Z" target="#P32056009">
+          Version 6 of page "Letter from Simon M. Preston to General N. A. M. Dudley; July 20, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U220769" when="2022-06-12T19:09:09Z" target="#P32056009">
+          Version 5 of page "Letter from Simon M. Preston to General N. A. M. Dudley; July 20, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U220769" when="2022-05-03T14:42:30Z" target="#P32056009">
+          Version 4 of page "Letter from Simon M. Preston to General N. A. M. Dudley; July 20, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2022-05-03T14:41:59Z" target="#P32056009">
+          Version 3 of page "Letter from Simon M. Preston to General N. A. M. Dudley; July 20, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U25091235" when="2022-02-25T19:22:45Z" target="#P32056009">
+          Version 2 of page "Letter from Simon M. Preston to General N. A. M. Dudley; July 20, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U32005171" when="2021-12-19T02:29:34Z" target="#P32056009">
+          Version 1 of page "Letter from Simon M. Preston to General N. A. M. Dudley; July 20, 1868":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-12-09T15:34:19Z" target="#P32056009">
+          Version 0 of page "Letter from Simon M. Preston to General N. A. M. Dudley; July 20, 1868":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32056009" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:16001/full/full/0/default.jpg"/>
+        <div xml:id="OTP32056009">
+        <fw type="pageNum">Letter from Simon M. Preston to General N. A. M. Dudley; July 20, 1868</fw>
+          <p corresp='TTP32056009P0' xml:id='OTP32056009P0'><rs ref='#S63019'>Natchez</rs> Miss. July 20 1868
+</p>
+
+<p corresp='TTP32056009P1' xml:id='OTP32056009P1'>General. <rs ref='#S32022573'>Dudly</rs><lb/>
+Comdg. Natchez Miss
+</p>
+
+<p corresp='TTP32056009P2' xml:id='OTP32056009P2'>Sir
+</p>
+
+<p corresp='TTP32056009P3' xml:id='OTP32056009P3'>The Bearer is this <rs ref='#S32022574'>Israel Etta</rs>, a resident of <rs ref='#S82506'>Washington</rs> this State. at whose house some <rs ref='#S92353'>disturbances against the Peace</rs> of the Citizens were Committed on Saturday Night last. Israel wishes to state what occurred. He was a Corporal in my <rs ref='#S25006301'>Regiment</rs> and was Considered a very reliable soldier—
+</p>
+
+<p corresp='TTP32056009P4' xml:id='OTP32056009P4'>Very Respectfully<lb/>
+Your obt serv't
+</p>
+
+<p corresp='TTP32056009P5' xml:id='OTP32056009P5'><rs ref='#S32022575'>S, M, Preston</rs>—
+</p>
+
+<p corresp='TTP32056009P6' xml:id='OTP32056009P6'>I full<sub>y</sub> concure in the above, having known the man for the last 3 yers.
+</p>
+
+<p corresp='TTP32056009P7' xml:id='OTP32056009P7'>Fraternally Yours
+</p>
+
+<p corresp='TTP32056009P8' xml:id='OTP32056009P8'><rs ref='#S32022576'>Geo, Sr, C, Hussey</rs>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Judge Wade H. Hough of the 13th District in Louisiana; April 28, 1870</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 22 edits between
+              <date type="first_edit" when="2023-02-06T00:38:46Z">February  6, 2023</date> and
+              <date type="last_edit" when="2024-03-06T15:25:17Z">March  6, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2023-01-26T19:39:29Z">January 26, 2023</date> and
+              <date type="last_edit" when="2023-01-26T19:44:06Z">January 26, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2023-02-02T21:21:06Z">February  2, 2023</date> and
+              <date type="last_edit" when="2023-03-31T01:10:35Z">March 31, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T13:24:36Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T13:55:34Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-11-10T20:50:53Z">November 10, 2022</date> and
+              <date type="last_edit" when="2022-11-10T20:53:19Z">November 10, 2022</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T20:22:45+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32068105">
+              <persName>Brewer, William E.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32072522">
+              <persName>Hough, Wade H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32072523">
+              <persName>Worrel, R.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32068106">
+              <persName>Whitney, E. L.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32072524">
+              <persName>Register, John W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S32005735">
+              <placeName>Louisiana--Tensas Parish</placeName>
+                <idno>https://en.wikipedia.org/wiki/Tensas_Parish,_Louisiana</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32005735P0'>Located in northeastern Louisiana, Tensas Parish was established on March 17, 1843. (Wikipedia; 64 Parishes Encyclopedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.0, -91.33</geo>
+                </note>
+            </place>
+            <place xml:id="S63360">
+              <placeName>Louisiana--East Baton Rouge Parish. Baton Rouge</placeName>
+                <idno>https://en.wikipedia.org/wiki/Baton_Rouge,_Louisiana </idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63360P0'>Located in East Baton Rouge Parish, Baton Rouge was founded as early as 1699 and serves as the parish seat. Baton Rouge became the capital of Louisiana in 1846. (Wikipedia; Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.4475, -91.17861</geo>
+                </note>
+            </place>
+            <place xml:id="S82506">
+              <placeName>Mississippi--Adams County. Washington</placeName>
+                <idno>https://en.wikipedia.org/wiki/Washington,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS82506P0'>Located in Adams County, Mississippi, Washington was founded as early as 1797 in what was then unincorporated territory. It became part of the newly created Adams County on April 1, 1799. Washington served as the capital of the Territory of Mississippi from 1802 to 1817 and the capital of the State of Mississippi from 1817 until 1822, when it was replaced by Jackson. Presently, Washington is an unincorporated area that is not governed by a local municipal body. (Wikipedia; Rowland, <hi rend='italic'>Mississippi</hi>, 932; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.5788, -91.2993</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001686'>
+<catDesc>Labor &amp; Financial Events</catDesc>
+          <category xml:id='S32075074'>
+            <catDesc>
+              <term>Convict Labor</term>
+              <idno>https://blogs.loc.gov/inside_adams/2021/06/convict-leasing-system/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001686'>Labor &amp; Financial Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32075074P0'>When the 13th Amendment abolished slavery, it failed to abolish involuntary servitude. The amendment included a loophole banning involuntary servitude "except as a punishment for crime whereof the party shall have been duly convicted" (Library of Congress). White southerners in the post-emancipation South, concerned about both the availability of labor and the freedom of African Americans, manipulated this clause and turned to convict leasing to entrench long standing racial hierarchies.
+</p>
+
+<p xml:id='OTPSD32075074P1'>Immediately after the war, many states passed "Black Codes" or laws severely limiting African Americans' rights. Under these codes and other similar laws passed in the decades following the Civil War, African Americans could be arrested for any number of petty crimes, including vagrancy (functionally construed to mean any act of social mobility not approved by a white person) or theft (in Mississippi a felony if exceeding $10 worth of goods). Widespread racism and stereotypes about Black criminality led to a dramatic expansion in the population of imprisoned individuals and an overwhelming number of African Americans within that population. Many states leased those convicted persons to private companies or individuals for their labor, and in certain cases lessees had been the pre-emancipation enslaver of the leased.
+</p>
+
+<p xml:id='OTPSD32075074P2'>Laborers worked in a variety of settings including shipbuilding and timber cutting, yet the most prominent form in states like Mississippi remained large-scale agricultural work. The convict lease system was incredibly dangerous and difficult for those who lived through it, as leased persons faced unsafe working conditions, inadequate living conditions, abuse from lessees, and grueling work schedules. Given these circumstances, the ready availability of imprisoned laborers, and the callousness of lessees and state officials, the mortality rate among convict laborers was incredibly high.
+</p>
+
+<p xml:id='OTPSD32075074P3'>Certain states ceased leasing imprisoned persons to individuals or private companies in the late nineteenth century, only to continue using that labor on state-funded infrastructure projects like road or highway construction until, in some cases, World War II. Southern individuals and states thereby continued to increase their wealth through the coerced labor of African Americans while perpetuating anti-Black racism and laying the foundations of the modern prison-industrial complex (Library of Congress; Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32077570'>
+            <catDesc>
+              <term>Convict Labor. Louisiana</term>
+              <idno>https://www.blackpast.org/african-american-history/institutions-african-american-history/louisiana-state-prison-angola-1880/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001686'>Labor &amp; Financial Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32077570P0'>While every southern state created a convict leasing program in the aftermath of the Civil War, few mirrored Louisiana's in scale and legacy. Following emancipation, Louisiana passed restrictive, heavily punitive laws to restrict African Americans' social mobility and labor, resting on the commonly-held racist stereotypes about African American criminality. To control both Black freedom and Black labor, the state of Louisiana began leasing its rapidly-swelling population of incarcerated African Americans to private individuals and companies. The vast majority of incarcerated African Americans were leased to perform agricultural labor, often for ex-Confederates, though many others labored in public works projects and varied other industries.
+</p>
+
+<p xml:id='OTPSD32077570P1'>The largest convict leasing operation was located at Angola, a former enslaved labor camp owned by ex-Confederate Samuel L. James. Beginning with its lease in 1880, incarcerated persons at Angola, almost exclusively African American, labored on 28 acres of cotton fields while living in former enslaved dwellings. Like nearly all convict-leasing operations, those at Angola and throughout Louisiana presented the incarcerated with grueling labor, inadequate living conditions, and an alarmingly high mortality rate. After the abolition of the convict leasing system in 1898, the State of Louisiana purchased Angola in 1900 and made it the location of the Louisiana State Penitentiary. It remains today the largest maximum security prison in the nation with an inmate population that remains over 80% African American. The prison continues to produce revenue through several avenues, all deriving from incarcerated labor. Therefore while the convict leasing system in Louisiana legally ended, its legacy remains alive today (BlackPast).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63194'>
+            <catDesc>
+              <term>Crimes (alleged)--Manslaughter</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/manslaughter?q=Manslaughter</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63194P0'>"The crime of killing a person when the killer did not intend to do it or cannot be responsible for his or her actions." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S71046'>
+            <catDesc>
+              <term>Criminal Procedures--Convicted</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/convicted?q=Convicted</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71046P0'>"Having officially been found guilty of a crime in a law court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S69535'>
+            <catDesc>
+              <term>Criminal Procedures--Imprisonment</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/imprisonment?q=Imprisonment</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD69535P0'>"The act of putting someone in prison or the condition of being kept in prison." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32021053'>
+            <catDesc>
+              <term>Criminal Procedures--Sentencing</term>
+              <idno>https://en.wikipedia.org/wiki/Sentence_(law)</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32021053P0'>"In law, a sentence is the punishment for a crime ordered by a trial court after conviction in a criminal procedure, normally at the conclusion of a trial. A sentence may consist of imprisonment, a fine, or other sanctions." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S63934'>
+            <catDesc>
+              <term>Judges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/judge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63934P0'>"A person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S50807'>
+            <catDesc>
+              <term>Clerks</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/clerk</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD50807P0'>"A person who works in an office, dealing with records or performing general office duties." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63395'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/court?topic=law-courts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63395P0'>"A place where trials and other legal cases happen, or the people present in such a place." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62926'>
+            <catDesc>
+              <term>Jails</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/jail?q=jails</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62926P0'>"A place where criminals are kept as a punishment for their crimes or while waiting for trials." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32072520'>
+            <catDesc>
+              <term>Louisiana--State Penitentiary</term>
+              <idno>https://64parishes.org/entry/louisiana-state-penitentiary-at-angola</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>30.941, -91.569</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32072520P0'>Operating at the state level, the Louisiana State Penitentiary was located in Baton Rouge in 1835 and funded by leasing the facility to private owners who operated a convict leasing system at the penitentiary between 1830 to 1844. During the American Civil War, the penitentiary was between leases and under state control.
+</p>
+
+<p xml:id='OTPSD32072520P1'>During Reconstruction, the Penitentiary continued to operate a convict labor and convict leasing system. These programs were devastating for Black Louisianans as the state's racially-specific adjudication of criminal procedure, funneled large numbers of freed Black Americans into the state's penitentiary system to perform unpaid labor for the state and private entities. (64 Parishes Encyclopedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+<category xml:id='C32001144S32072520'>
+<catDesc>
+<term><rs ref='S32072520'>Louisiana--State Penitentiary</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Alcorn Series 786</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1870</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Hough, Wade H.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1870-04-28</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Alcorn Collection. Letter from Judge Wade H. Hough of the 13th District in Louisiana, containing a certified copy of a judgement of the conviction of William E. Brewer from the State of Louisiana. Brewer was convicted of manslaughter and sentenced to two years of hard labor in the Louisiana Penitentiary in Baton Rouge, Louisiana. He was also fined $1 and is liable for the cost of prosecution.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 13&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Baton Rouge (La.); Tensas Parish (La.); Washington (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_786-971-02-06</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Adams County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Britany Castilaw; Dalton Wood; McKenna Fussell; Sarah West; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 971, Folder 2</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Alcorn, J. L. (James Lusk), 1816-1894; Clerks of court; Convict labor; Courts; Crime; Fines and recoveries; Judges; Judgments; Louisiana State Penitentiary; Manslaughter; Mississippi. Governor; Police; Prison sentences; Sheriffs</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Judge Wade H. Hough of the 13th District in Louisiana; April 28, 1870</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/24224&quot;&gt;Letter from Judge Wade H. Hough of the 13th District in Louisiana; April 28, 1870&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG35" who="U2" when="2024-10-25T13:55:34Z" target="#P32784966">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U2" when="2024-10-25T13:24:36Z" target="#P32784965">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2024-03-06T15:25:17Z" target="#P32784965">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2024-01-30T17:14:17Z" target="#P32784965">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-11-17T17:50:29Z" target="#P32784965">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-11-17T17:34:02Z" target="#P32784965">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-11-17T17:10:24Z" target="#P32784965">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-11-17T17:02:13Z" target="#P32784965">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-09-03T00:39:46Z" target="#P32784966">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U25091195" when="2023-03-31T01:10:35Z" target="#P32784965">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-29T00:15:27Z" target="#P32784966">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-19T20:52:26Z" target="#P32784965">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-19T20:27:52Z" target="#P32784965">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-19T17:10:18Z" target="#P32784965">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-03-19T02:35:37Z" target="#P32784965">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-03-19T00:17:48Z" target="#P32784965">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-03-18T14:57:19Z" target="#P32784966">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-03-18T03:20:01Z" target="#P32784965">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-03-17T22:41:37Z" target="#P32784965">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-03-17T22:00:07Z" target="#P32784966">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-16T20:52:09Z" target="#P32784966">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-02T23:57:19Z" target="#P32784965">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-02-06T00:39:36Z" target="#P32784965">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-02-06T00:39:12Z" target="#P32784965">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-02-06T00:38:46Z" target="#P32784965">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091195" when="2023-02-02T21:24:10Z" target="#P32784966">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091195" when="2023-02-02T21:21:06Z" target="#P32784965">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091356" when="2023-01-26T19:44:06Z" target="#P32784966">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091356" when="2023-01-26T19:43:10Z" target="#P32784966">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091356" when="2023-01-26T19:40:30Z" target="#P32784966">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25091356" when="2023-01-26T19:39:49Z" target="#P32784965">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25091356" when="2023-01-26T19:39:29Z" target="#P32784965">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231087" when="2022-11-10T20:53:19Z" target="#P32784966">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U231087" when="2022-11-10T20:50:53Z" target="#P32784965">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-11-10T17:39:55Z" target="#P32784966">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-11-10T17:39:54Z" target="#P32784965">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32784965" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:24222/full/full/0/default.jpg"/>
+        <div xml:id="OTP32784965">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32784965P0' xml:id='OTP32784965P0'>[seal]<lb/>
+Apr. 28, 1870
+</p>
+
+<p corresp='TTP32784965P1' xml:id='OTP32784965P1'>The State of Louisiana<lb/>
+vs { N<add place='above'>o</add> 191<lb/>
+<rs ref='#S32068105'>William E. Brewer</rs>
+</p>
+
+<p corresp='TTP32784965P2' xml:id='OTP32784965P2'><rs ref='#S63395'>13<add place='above'>th</add> Judicial District Court</rs><lb/>
+<rs ref='#S32005735'>Parish of Tensas</rs>—
+</p>
+
+<p corresp='TTP32784965P3' xml:id='OTP32784965P3'>The accused, in this case, having been <rs ref='#S71046'>convicted</rs> by the verdict of the Court for the <rs ref='#S63194'>crime of Manslaughter</rs>, was brought into Court, and asked if he had anything to say why <rs ref='#S32021053'>sentence</rs> should not now be pro-nounced upon him, and no cause to the contrary being shown, the following sentence was pronounced by the Court: By reason of the law and the evidence and the verdict of the Court being against the accused, It is ordered, adjudg-ed and decreed by the Court that you, William E. Brewer be re-manded to the custody of the <rs ref='#S95578'>sheriff</rs> of this parish; that you <del rend='overstrike'>William E Brewer be remanded</del> be taken to the Parish <rs ref='#S62926'>Jail</rs>, and there safely kept, and that the sheriff at the earliest day practicable deliver you to the keeper of the <rs ref='#S32072520'>State Penitentiary</rs>, at <rs ref='#S63360'>Baton Rouge</rs>, and that you be there <rs ref='#S69535'>confined</rs> at <rs ref='#S32077570'>hard labor</rs> 
+</p>
+
+
+        </div>
+        <pb xml:id="F32784966" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:24223/full/full/0/default.jpg"/>
+        <div xml:id="OTP32784966">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32784966P0' xml:id='OTP32784966P0'>for the space of two years, and that you pay a fine of one dol-lar and costs of prosecution—
+</p>
+
+<p corresp='TTP32784966P1' xml:id='OTP32784966P1'>This read and signed in open Court this 28 day of April, A. D. 1870.
+</p>
+
+<p corresp='TTP32784966P2' xml:id='OTP32784966P2'><rs ref='#S32072522'>Wade H. Hough</rs>,<lb/>
+<rs ref='#S63934'>Judge</rs> 13<add place='above'>th</add> District
+</p>
+
+<p corresp='TTP32784966P3' xml:id='OTP32784966P3'>A true Copy—
+</p>
+
+<p corresp='TTP32784966P4' xml:id='OTP32784966P4'>Attest
+</p>
+
+<p corresp='TTP32784966P5' xml:id='OTP32784966P5'><rs ref='#S32072523'>R. Worrell</rs>, <rs ref='#S50807'>clerk</rs>
+</p>
+
+<p corresp='TTP32784966P6' xml:id='OTP32784966P6'>The within can be found at "<rs ref='#S82506'>Washington Adams County</rs> Miss—
+</p>
+
+<p corresp='TTP32784966P7' xml:id='OTP32784966P7'><rs ref='#S32068106'>E. L. Whitney</rs> shff<lb/>
+by <rs ref='#S32072524'>Jno. W. Register</rs><lb/>
+Dpy shff
+</p>
+
+<p corresp='TTP32784966P8' xml:id='OTP32784966P8'>State of Louisiana<lb/>
+vs { N<add place='above'>o</add> 191<lb/>
+W<add place='above'><hi rend='underline'>m</hi></add> E. Brewer<lb/>
+<hr/><lb/>
+Judgment
+</p>
+
+<p corresp='TTP32784966P9' xml:id='OTP32784966P9'>—Copy— 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

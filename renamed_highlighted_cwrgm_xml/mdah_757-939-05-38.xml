@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Thomas I. Goff to Mississippi Governor John J. Pettus; August 30, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 13 edits between
+              <date type="first_edit" when="2021-02-23T19:36:15Z">February 23, 2021</date> and
+              <date type="last_edit" when="2023-03-30T16:24:17Z">March 30, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U224896">
+          <persName
+            >
+            Emma Cox 
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2021-02-18T20:58:04Z">February 18, 2021</date> and
+              <date type="last_edit" when="2021-02-18T21:29:44Z">February 18, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2021-03-10T15:14:37Z">March 10, 2021</date> and
+              <date type="last_edit" when="2021-03-10T15:33:13Z">March 10, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217816">
+          <persName
+            >
+            Gracie Breland
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-02-26T17:35:22Z">February 26, 2021</date> and
+              <date type="last_edit" when="2021-02-26T17:40:59Z">February 26, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T15:25:44Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U217868">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Alec Blaylock </name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:53:38+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S94121">
+              <persName>Chambers, H. C.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S94122">
+              <persName>Goff, Thomas I.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S94090">
+              <persName>Delany, Samuel N.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S48994">
+              <persName>Pillow, Gideon Johnson, 1806-1878</persName>
+                <idno>https://en.wikipedia.org/wiki/Gideon_Johnson_Pillow</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS48994P0'>Gideon Johnson Pillow was a general in the U.S. Army during the Mexican-American War and later served as a general for the Confederate States of America.
+</p>
+
+<p xml:id='OTPS48994P1'>Born June 8, 1806, in Williamson County, Tennessee, Pillow grew up in Tennessee and graduated from the University of Nashville in 1827. He entered the legal profession in Columbia, Tennessee, becoming partners with future-president James K. Polk. In the early 1830s, Pillow’s public standing increased as he received an appointment as a district attorney general in Tennessee and received a commission as a brigadier general in the Tennessee Militia. His future was further boosted by the election of his friend James K. Polk as U.S. president in 1844.
+</p>
+
+<p xml:id='OTPS48994P2'>When the Mexican-American War broke out in 1846, Polk appointed Pillow a brigadier general. He led troops in several battles, and was wounded at both Cerro Gordo and Chapultepec. Pillow was promoted to major general in 1847, but soon ran into conflict with Major General Winfield Scott when the latter accused Pillow exaggerating his role at various engagements—a charge supported by the fact that Pillow likely wrote an anonymous letter to a New Orleans newspaper crediting himself with the American battle victories at Contreras and Churubusco. When Scott arrested Pillow for insubordination and violating military regulations, Pillow wrote to President Polk with accusations that Scott had tried to bribe Mexican leader Antonio Lopez de Santa Anna to end the war. In response, Polk relieved Scott of command of U.S. forces in Mexico in February 1848. The matter was eventually settled with Pillow’s charges dropped and Scott reinstated as general-in-chief of the army, but critics of Pillow—including Scott—argued that he was self-serving and willing to lie for personal gain.
+</p>
+
+<p xml:id='OTPS48994P3'>Pillow returned to Tennessee after the Mexican-American War and became involved in politics during the 1850s. He attended the 1850 Nashville Convention, which was a meeting among southern leaders to discuss possible responses if the federal government prohibited slavery in territories won from Mexico in the recent war. Some delegates proposed secession, but Pillow and a majority of the other attendees opposed disunion and supported a compromise with the north. Pillow was active in Democratic politics, unsuccessfully vying to be a vice presidential candidate in 1852 and 1856, as well as a failed bid to secure a seat in the U.S. Senate.
+</p>
+
+<p xml:id='OTPS48994P4'>Pillow supported Tennessee when the state declared itself seceded from the Union at the outbreak of the Civil War. He received a commission as a major general in the state’s militia, and then in July 1861 received an appointment as brigadier general in the Confederate army. In September 1861, under orders from Major General Leonidas Polk, Pillow led Confederate troops into Kentucky as an effort to secure that state for the Confederacy. The move proved to be a monumental blunder, as the Kentucky government and many of its citizens saw the incursion as an assault upon their state’s neutrality, thereby securing Kentucky for the Union.
+</p>
+
+<p xml:id='OTPS48994P5'>Pillow gained some fame in the Confederacy following the Battle of Belmont in December 1861, when his force held off an attack by Ulysses S. Grant. He was then placed in command of Confederate troops at Fort Donelson in February 1862, where he led a successful attack to break out of the fort before Grant’s entire force could surround it. Despite achieving that initial objective, Pillow inexplicably withdrew his soldiers for resupply, allowing Union forces to close the gap. With defeat inevitable, Pillow passed command of the fort to a subordinate and escaped before the Confederates surrendered.
+</p>
+
+<p xml:id='OTPS48994P6'>The events at Fort Donelson marred Pillow’s reputation, and he was briefly suspended from command by Confederate president Jefferson Davis. However, in December 1862, Pillow received another chance at command when he was placed in charge of a brigade within the Army of Tennessee under General Braxton Bragg. During the Battle of Murfreesboro, December 31, 1862 to January 3, 1863, Pillow reportedly hid behind a tree while his brigade participated in an assault. Receiving criticism for his performance, Pillow was removed from field command and placed in charge of recruiting and conscription for the Army of Tennessee. During the final months of the war he served as Commissary General of Prisoners, before surrendering to Union forces in April 1865.
+</p>
+
+<p xml:id='OTPS48994P7'>Pillow, who had been one of the wealthiest landowners in Tennessee in 1860, was bankrupt after the war. He rebuilt some of his wealth with a successful law practice in Memphis with former Tennessee governor Isham G. Harris. He died of yellow fever on October 8, 1878, in Arkansas. Pillow had been married twice, first to Mary Martin (who died in 1869) and then to Mary Eliza Dickson (who was forty years his junior). Pillow had eleven children with his first wife and three with his second wife. Pillow is buried in Elmwood Cemetery in Memphis, Tennessee.
+</p>
+
+<p xml:id='OTPS48994P8'>(Wikipedia; FindaGrave; American Battlefield Trust)
+</p>
+
+<p xml:id='OTPS48994P9'>Gideon Johnson Pillow belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S54036">
+              <persName>Forrest, Nathan Bedford, 1821-1877</persName>
+                <idno>https://en.wikipedia.org/wiki/Nathan_Bedford_Forrest</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS54036P0'>Nathan Bedford Forrest was a Confederate cavalry commander and later the first Grand Wizard of the Ku Klux Klan.
+</p>
+
+<p xml:id='OTPS54036P1'>Born on July 13, 1821, in Bedford County, Tennessee, he became his family’s caretaker at age sixteen when his father died. He pursued numerous types of business as a young man, including gambling, farming, and slave trading. When the Civil War began in 1861, Forrest was one of the wealthiest men in the south, owning more than three thousand acres in Mississippi, as well as plantations in Tennessee and Arkansas.
+</p>
+
+<p xml:id='OTPS54036P2'>He volunteered for Confederate service in 1861 and soon received command of the Third Tennessee Cavalry Regiment. He had no formal military training—and little formal education—yet, proved a natural leader and military tactician. He scored numerous military victories as a cavalry commander, and showed skill in avoiding capture or defeat by Union troops. In February 1862, when Ulysses S. Grant’s troops besieged Confederate troops at Fort Donelson, Forrest led nearly four thousand southern soldiers in escaping across the Cumberland River before the fort fell to the federal units. During the Vicksburg Campaign in Mississippi in 1863, Forrest was a brigadier general leading Confederate raids on Grant’s supply lines, causing havoc and frustrating federal efforts to stop his cavalry force.
+</p>
+
+<p xml:id='OTPS54036P3'>By 1864, Forrest had been promoted to major general. He continued to see great success in raids behind Union lines and through mounting attacks against smaller contingents of Union soldiers. In April 1864, he led Confederate troops against a federal garrison at Fort Pillow, Tennessee. Forrest’s men overran the fort and, according to many witness accounts, began murdering Black Union soldiers who had surrendered to the Confederates. The event became one of the most famous atrocities of the Civil War, widely publicized and investigated by federal officials.
+</p>
+
+<p xml:id='OTPS54036P4'>While much of the Confederacy’s military future grew dim in 1864, as William Tecumseh Sherman’s Union army advanced upon Atlanta, and Grant’s Union forces backed Robert E. Lee into a defensive position around Richmond, Virginia, Forrest remained mobile and dangerous, scoring notable victories even when outnumbered, such as the Battle of Brice’s Cross Roads in June 1864 in Mississippi. He was promoted to lieutenant general in February 1865, and remained in the field until April 1865, when he surrendered to Union forces in the wake of the Confederacy’s collapse. By the time the Civil War ended, Forrest had been wounded four times, reportedly had twenty-nine horses shot out from under him, and claimed to have killed or defeated thirty Union soldiers in hand-to-hand combat.
+</p>
+
+<p xml:id='OTPS54036P5'>Following the war, Forrest lived in Memphis, Tennessee, and pursued a career in railroad development. His ventures ultimately were not successful, and he was nearly bankrupt. He moved onto a large plantation on the Mississippi River that used convicts for labor, in a system similar to slavery. Apart from his financial efforts, Forrest’s early postwar activities involved a prominent role in the Ku Klux Klan. Elected the terror organization’s first Grand Wizard in 1867. He helped recruit former Confederates and white southern men to the group as an effort to resist Reconstruction and Republican policies. However, Forrest became disenchanted with the lack of order and discipline he saw during the Klan’s its rapid expansion. In 1869, he tried to dissolve the Klan and ordered its members to destroy their robes and hoods. By the mid-1870s, Forrest began making public speeches advocating for better protection of Black civil rights. These actions caused rebuke from many of his former Confederate colleagues.
+</p>
+
+<p xml:id='OTPS54036P6'>Forrest died of diabetes October 29, 1877. He was married to Mary Ann Montgomery and had two children. Forrest was initially buried at Elmwood Cemetery in Memphis, Tennessee. Then, in 1904, city officials moved his remains (and those of his wife) to a city park named in his honor. In 2021, his remains were moved again, this time to Columbia, Tennessee.
+</p>
+
+<p xml:id='OTPS54036P7'>(Wikipedia; FindaGrave; American Battlefield Trust)
+</p>
+
+<p xml:id='OTPS54036P8'>Nathan Bedford Forrest belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63147">
+              <placeName>Tennessee--Shelby County. Memphis</placeName>
+                <idno>https://www.britannica.com/place/Memphis-Tennessee</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63147P0'>Located in Shelby County, Memphis was founded in 1819 and serves as the county seat. (Britannica; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>35.1175, -89.97111</geo>
+                </note>
+            </place>
+            <place xml:id="S63017">
+              <placeName>Louisiana--Orleans Parish. New Orleans</placeName>
+                <idno>https://en.wikipedia.org/wiki/New_Orleans</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63017P0'>Located in Orleans Parish, New Orleans was founded in 1718. It became the capital of French Louisiana in 1722 and continued as the capital when Louisiana achieved statehood on April 30, 1812. It became part of Orleans County (now extinct) on the same day. In 1849 it was replaced by Baton Rouge as the state capital, although it temporarily served as the capital again from 1865 until 1880. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>29.95, -90.08</geo>
+                </note>
+            </place>
+            <place xml:id="S74443">
+              <placeName>Mississippi--Coahoma County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/coahoma-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS74443P0'>Located in northwestern Mississippi, Coahoma County was established on March 1, 1836. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.23, -90.6</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S63425">
+              <placeName>Virginia</placeName>
+                <idno>https://www.britannica.com/place/Virginia-state</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63425P0'>The Colony of Virginia was established in May 1607. Admitted as the 10th state, Virginia achieved statehood June 25, 1788. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>38.0, -79.0</geo>
+                </note>
+            </place>
+            <place xml:id="S69324">
+              <placeName>Mississippi--Tunica County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/tunica-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS69324P0'>Located in northwest Mississippi, Tunica County was established in 1840. (Mississippi Encyclopedia; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.66, -90.38</geo>
+                </note>
+            </place>
+            <place xml:id="S63062">
+              <placeName>Missouri</placeName>
+                <idno>https://www.britannica.com/place/Missouri-state</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63062P0'>The Territory of Missouri was established June 4, 1812. Admitted as the 24th state, Missouri achieved statehood August 10, 1821. (Britannica; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>38.5, -92.5</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S70173'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 11th</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=onepage&amp;q=%22eleventh%20regiment-infantry%22&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70173P0'>The 11th Regiment, Mississippi Infantry (Confederate) was organized on May 4, 1861 in Alcorn County, Mississippi under the command of Col. William H. Moore and served in the Eastern Theater under Whiting's, Law's, and Davis' Brigade in the Army of Northern Virginia. It was later commanded by Cols. Phillip Frank Lidell, Francis M. Greene, William H. Moore, and Reuben O. Reynolds. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 19; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 436-444; National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S98635'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 11th. Company B</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=onepage&amp;q=%22Coahoma%20Invincibles%22&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98635P0'>Commonly known as the Coahoma Invincibles, Company B of the 11th Regiment, Mississippi Infantry (Confederate) was organized on February 16, 1861 in Coahoma County, Mississippi under the command of Capt. Samuel N. Delaney and served in the Eastern Theater. It was later commanded by Capt. H. P. Reid. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 19; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 437)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32020026'>
+            <catDesc>
+              <term>Confederate States of America. Army. Tennessee</term>
+              <idno>https://tennesseeencyclopedia.net/entries/civil-war/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32020026P0'>During the Civil War, more than 120,000 Tennessee soldiers fought for the Confederacy, and more than 31,000 men from the state fought for the Union. Due to its geographical proximity to the border states and North, Tennessee saw roughly 2,900 military engagements within its borders between 1861 and 1865. Most were skirmishes, or small fire fights. However, the battles of Fort Donelson, Stones River, Lookout Mountain, Missionary Ridge, Franklin, and Nashville were among the most notable engagements of the Civil War. The Confederacy’s largest army in the Western Theater—an area between the Appalachian Mountains and the Mississippi River—was named the Army of Tennessee, and primarily operated within the state. When the war ended in 1865, more than 122,000 Union and Confederate soldiers had died in Tennessee. (Wikipedia; Tennessee Encyclopedia; Tennessee Civil War National Heritage Area)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25003745'>
+            <catDesc>
+              <term>Confederate States of America. Army. Tennessee. Cavalry Regiment, 3rd</term>
+              <idno>https://www.nps.gov/civilwar/search-battle-units-detail.htm?battleUnitCode=CTN0003RC</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25003745P0'>The 3rd Regiment, Tennessee Cavalry (Confederate), also known as Forrest's Old Tennessee Cavalry Regiment, the 18th Battalion, 26th Battalion, Balch's Battalion, and McDonald's Battalion, was organized in October 1861 in Shelby County, Tennessee under the command of Col. Nathan B. Forrest and served in the Western Theater attached to Forrest's, Armstrong's, and Rucker's Brigades, and in the Army of Tennessee. It was later commanded by Col. David C. Kelley. (National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Goff, Thomas I.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-08-30</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Coahoma County, Mississippi, by Thomas I. Goff, requesting that no more soldiers be taken from Coahoma County.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-939-05-38</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Coahoma County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Amy Myers; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 939, Folder 5</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army; Confederate States of America. Army--Recruiting, enlistment, etc.; Mississippi. Governor; Mississippi. Militia; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Thomas I. Goff to Mississippi Governor John J. Pettus; August 30, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/2467&quot;&gt;Letter from Thomas I. Goff to Mississippi Governor John J. Pettus; August 30, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG36" who="U2" when="2024-10-25T15:25:44Z" target="#P1654906">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-03-30T16:24:17Z" target="#P1654906">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-03-18T22:08:46Z" target="#P1654906">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-03-18T21:16:36Z" target="#P1654906">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-18T14:42:55Z" target="#P1654906">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-18T03:32:34Z" target="#P1654907">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-18T00:09:46Z" target="#P1654907">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2021-10-26T21:20:41Z" target="#P1654906">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2021-08-23T21:13:03Z" target="#P1654906">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2021-05-06T01:05:44Z" target="#P1654906">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2021-05-04T22:25:13Z" target="#P1654906">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U217868" when="2021-03-10T15:33:13Z" target="#P1654908">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U217868" when="2021-03-10T15:33:02Z" target="#P1654908">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U217868" when="2021-03-10T15:32:26Z" target="#P1654907">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U217868" when="2021-03-10T15:32:19Z" target="#P1654907">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U217868" when="2021-03-10T15:21:11Z" target="#P1654906">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U217868" when="2021-03-10T15:14:37Z" target="#P1654906">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2021-03-09T22:15:41Z" target="#P1654906">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2021-03-09T22:15:28Z" target="#P1654906">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U217816" when="2021-02-26T17:40:59Z" target="#P1654908">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U217816" when="2021-02-26T17:40:32Z" target="#P1654907">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U217816" when="2021-02-26T17:35:22Z" target="#P1654906">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2021-02-23T19:36:15Z" target="#P1654907">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U224896" when="2021-02-18T21:29:44Z" target="#P1654907">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U224896" when="2021-02-18T21:29:38Z" target="#P1654908">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U224896" when="2021-02-18T21:28:31Z" target="#P1654907">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U224896" when="2021-02-18T21:19:00Z" target="#P1654907">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U224896" when="2021-02-18T21:07:25Z" target="#P1654906">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U224896" when="2021-02-18T21:06:59Z" target="#P1654906">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U224896" when="2021-02-18T21:05:50Z" target="#P1654906">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U224896" when="2021-02-18T20:58:04Z" target="#P1654906">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U215567" when="2020-12-12T01:44:20Z" target="#P1654908">
+          Version 1 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG4" who="U215567" when="2020-12-12T01:44:19Z" target="#P1654907">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2020-12-12T01:44:19Z" target="#P1654906">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2020-12-12T01:44:15Z" target="#P1654908">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2020-12-12T01:44:15Z" target="#P1654907">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2020-12-12T01:44:14Z" target="#P1654906">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1654906" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2464/full/full/0/default.jpg"/>
+        <div xml:id="OTP1654906">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1654906P0' xml:id='OTP1654906P0'>[seal]
+</p>
+
+<p corresp='TTP1654906P1' xml:id='OTP1654906P1'>Robson's Ldg. <rs ref='#S74443'>Coahoma Cy</rs> Miss Aug 30<add place='above'>th</add>
+</p>
+
+<p corresp='TTP1654906P2' xml:id='OTP1654906P2'>To his Excellency <lb/>
+Gov <rs ref='#S63111'>John J Pettus</rs> <lb/>
+<rs ref='#S51785'>Jackson</rs>. Miss
+</p>
+
+<p corresp='TTP1654906P3' xml:id='OTP1654906P3'>Sir
+</p>
+
+<p corresp='TTP1654906P4' xml:id='OTP1654906P4'>I have been requested by a number of friends &amp; besides feel it to be my duty to inform you of the State of affairs in this County
+</p>
+
+<p corresp='TTP1654906P5' xml:id='OTP1654906P5'>As far as I am informed, you have accepted only one company from Coahoma. (The <rs ref='#S98635'>invincibles</rs> Capt <rs ref='#S94090'>Delany</rs> 11<add place='above'>th</add> Miss Regiment. now in <rs ref='#S63425'>Va</rs>) numbering about 100 men. Since they left. 35 men from this county joined a like number from <rs ref='#S69324'>Tunica Co</rs> &amp; went into Turn free Service &amp; are now with Gen'l <rs ref='#S48994'>Pillow</rs> in <rs ref='#S63062'>Missouri</rs> about 25—leave in a few days to join Col <rs ref='#S54036'>Forrests</rs> <rs ref='#S25003745'>Battalion</rs>. also in Tenn service a full Company of not less than 64 men will jo-in to the Same service. this week. I know of at least 20 who have gone into different companies not mentioned above  
+</p>
+
+
+        </div>
+        <pb xml:id="F1654907" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2465/full/full/0/default.jpg"/>
+        <div xml:id="OTP1654907">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1654907P0' xml:id='OTP1654907P0'>I also hear of a good many who design leaving this fall. now out of a voting population of scarcely 400. we have 241 men in the field. 140 of whom, are not officialy known to you. Our count, is almost depopulated. I am Capt of the River Guards. a home company in regular commission have furnished 18 men to those different companies. they have all young men most of whom had no regular employment. Whether I was right in letting them go remaining for you to Say
+</p>
+
+<p corresp='TTP1654907P1' xml:id='OTP1654907P1'>I have now scarcely 40 men a large majority having families
+</p>
+
+<p corresp='TTP1654907P2' xml:id='OTP1654907P2'>When you look at what the different counties have done please take in to consid-eration the above facts in regard to Coahoama. a requisition for my Company, or any other company here would depopulate the county. I hope that you will not suppose that we desure to be exampt or are wanting in patriotism. as I mentioned in a former letter if <rs ref='#S63147'>Memphis</rs> <rs ref='#S63017'>N Orleans</rs> or any adjacent point be threat-ened we will turn out en-masse without waiting for order and or expecting pay. For the truth of these statements I beg leave to refer you to my friends Hon's <rs ref='#S94121'>H C Chambers</rs> &amp; P [?]
+</p>
+
+<p corresp='TTP1654907P3' xml:id='OTP1654907P3'>Begging pardon for having tresspassed so much upon your valuable time, I have the honor
+</p>
+
+<p corresp='TTP1654907P4' xml:id='OTP1654907P4'>to be very Respectfully <lb/>
+Yr Obt Svt <lb/>
+<rs ref='#S94122'>Tho I Goff</rs> 
+</p>
+
+
+        </div>
+        <pb xml:id="F1654908" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2466/full/full/0/default.jpg"/>
+        <div xml:id="OTP1654908">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP1654908P0' xml:id='OTP1654908P0'>Tho L. Goff<lb/>
+<hi rend='underline'>Ansd Sep 5. 1861</hi>
+</p>
+
+<p corresp='TTP1654908P1' xml:id='OTP1654908P1'>Tho I. Goff <lb/>
+Aug 30<add place='above'>th</add> 1861
+</p>
+
+<p corresp='TTP1654908P2' xml:id='OTP1654908P2'/>
+        </div>
+  </body>
+</text>
+</TEI>

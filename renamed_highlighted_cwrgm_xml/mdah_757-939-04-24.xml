@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from A. W. Raymond to Mississippi Governor John J. Pettus; August 20, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 15 edits between
+              <date type="first_edit" when="2021-01-19T22:20:23Z">January 19, 2021</date> and
+              <date type="last_edit" when="2023-09-02T18:53:15Z">September  2, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220513">
+          <persName
+            >
+            Jan Pilkington
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2020-12-20T18:13:51Z">December 20, 2020</date> and
+              <date type="last_edit" when="2020-12-20T18:43:07Z">December 20, 2020</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226152">
+          <persName
+            >
+            Diana Gilpatrick
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2020-12-26T22:29:03Z">December 26, 2020</date> and
+              <date type="last_edit" when="2020-12-26T23:14:32Z">December 26, 2020</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-01-11T16:18:15Z">January 11, 2021</date> and
+              <date type="last_edit" when="2021-01-11T16:28:42Z">January 11, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32029872">
+          <persName
+            >
+            Ruth Poe White, PH.D.
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2025-03-18T03:09:38Z">March 18, 2025</date> and
+              <date type="last_edit" when="2025-03-18T03:15:02Z">March 18, 2025</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U227758">
+          <persName
+            >
+            Julie Haskett
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-01-02T19:10:03Z">January  2, 2021</date> and
+              <date type="last_edit" when="2021-01-02T19:15:33Z">January  2, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-08-27T00:11:34Z">August 27, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U218254">
+          <persName
+              type="pseudonym"
+            >
+            Hbutler2325
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2020-12-12T03:34:07Z">December 12, 2020</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T15:21:12+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S91595">
+              <persName>Davis, Reuben, 1813-1890</persName>
+                <idno>https://mississippiencyclopedia.org/entries/reuben-davis/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS91595P0'>Reuben Davis was a U.S. congressman from Mississippi and a Mississippi militia general during the Civil War.
+</p>
+
+<p xml:id='OTPS91595P1'>Born in Winchester, Tennessee, on January 18, 1813, Davis moved with his family to Alabama as a child and later to Mississippi as a young man. He initially studied medicine, but found his passion lay more in the study of law. He was admitted to the bar in 1834 in Aberdeen, Mississippi, and over the next several years became a prominent criminal attorney. He served as the prosecuting attorney for the sixth judicial district in the late 1830s and turned his interests to politics. He made an unsuccessful run for the U.S. House of Representatives as a member of the Whig Party in 1838.
+</p>
+
+<p xml:id='OTPS91595P2'>Davis volunteered for military service during the Mexican-American War, receiving a commission as colonel of the Second Regiment of Mississippi Volunteers. He served in Mexico, but reportedly suffered from medical problems and eventually resigned his position, having not seen combat. Davis returned to Mississippi and during the next few years resumed his political aspirations. He won a seat in the U.S. House of Representatives as a Democrat in 1856. Serving during a period of growing tensions over slavery, especially in the wake of the Kansas-Nebraska Act of 1854, which opened western territories to slavery, Davis was among the prominent southern voices in Congress defending the institution of slavery and easily won reelection in 1858. He adopted a strong secessionist sentiment, and advocated for southern unity against Abraham Lincoln’s election to the presidency in 1860. Davis resigned his congressional seat upon Mississippi’s secession and received an appointment as a general on the state’s military board.
+</p>
+
+<p xml:id='OTPS91595P3'>In late 1861, Davis was placed in command of the Army of 10,000—a unit of Mississippi soldiers who had volunteered for sixty days—in a campaign to Kentucky. The militia force actually numbered fewer than 5,000 men, and its short-term enlistments left little time for formal training or organization. As a result, the Army of 10,000 was poorly prepared for field service, and the volunteers spent their entire time in Kentucky in camp, suffering from cold weather and disease, before returning home in January 1862. Davis’s reputation as a military commander suffered as a result of the event.
+</p>
+
+<p xml:id='OTPS91595P4'>In 1862, Davis left the Mississippi militia and reentered politics. He won election to the Confederate House of Representatives and soon became a vocal critic of President Jefferson Davis (no relation), in particular over the Confederate government’s efforts to draft men into military service. Reuben Davis resigned his congressional seat in 1863 and unsuccessfully ran for governor of Mississippi.
+</p>
+
+<p xml:id='OTPS91595P5'>After the war, Davis initially resumed his law practice. However, he became involved in efforts to undermine Republican Reconstruction, making speeches and rallying white Mississippians to oppose African American rights. Shortly after Reconstruction ended, Davis broke from the Democratics to join the Greenback Party—an independent, anti-monopoly political party that united many state-level politicians in the north and the south on economic matters. He ran for Congress as a Greenback candidate in 1878, but lost. That was Davis’s last bid for political office. He largely retired from public life and wrote his memoir, entitled <hi rend='italic'>Recollections of Mississippi and Mississippians,</hi>. Davis died on October 24, 1890. He had been married twice, first to Mary Theodosia Halbert who passed away in 1865, and then to Sarah Virginia Garber. He had three children. Davis is buried in Odd Fellows Rest Cemetery in Aberdeen, Mississippi.
+</p>
+
+<p xml:id='OTPS91595P6'>(Wikipedia; FindaGrave; Nancy Prince, “Reuben Davis,” Mississippi Encyclopedia)
+</p>
+
+<p xml:id='OTPS91595P7'>Reuben Davis belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S25014012">
+              <persName>Bromley, William C., c. 1827-u.</persName>
+                <idno>https://chroniclingamerica.loc.gov/lccn/sn87065632/1907-01-11/ed-1/seq-1/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS25014012P0'>William C. Bromley belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S84123">
+              <persName>Raymond, A. W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63252">
+              <placeName>Mississippi--Itawamba County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/itawama-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63252P0'>Located in northeast Mississippi, Itawamba County was established on March 1, 1836 from Monroe County. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.28, -88.36</geo>
+                </note>
+            </place>
+            <place xml:id="S52210">
+              <placeName>Mississippi--Lee County. Verona</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/lee-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52210P0'>Located in Lee County, Mississippi, Verona was founded as early as the 1860s. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.18833, -88.71806</geo>
+                </note>
+            </place>
+            <place xml:id="S63425">
+              <placeName>Virginia</placeName>
+                <idno>https://www.britannica.com/place/Virginia-state</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001860">U.S. States</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63425P0'>The Colony of Virginia was established in May 1607. Admitted as the 10th state, Virginia achieved statehood June 25, 1788. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>38.0, -79.0</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001333'>
+<catDesc>Transportation &amp; Infrastructure Industries</catDesc>
+          <category xml:id='S99413'>
+            <catDesc>
+              <term>Railroads and Railroad Companies</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99413P0'>"A system of transportation using special vehicles whose wheels turn on metal bars fixed to the ground, or a particular company using such a system." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63542'>
+            <catDesc>
+              <term>Railroads and Railroad Companies--Mobile and Ohio Railroad Company (Mobile, Ala.)</term>
+              <idno>https://en.wikipedia.org/wiki/Mobile_and_Ohio_Railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>30.69444, -88.04306</geo>
+              </note>
+              <gloss><p xml:id='OTPSD63542P0'>Located in Mobile, Alabama, the Mobile and Ohio Railroad Company was a railroad company established in 1848 by Alabama, Kentucky, Mississippi, and Tennessee, and operated until 1940 when it merged with Gulf, Mobile and Ohio Railroad. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S32005193'>
+            <catDesc>
+              <term>Military Engagements</term>
+              <idno>https://www.battlefields.org/learn/articles/civil-war-facts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32005193P0'>The act of beginning to fight or a period of time in a war, military engagements are also referred to as battles or skirmishes. Battles are fights between armed forces, and usually describe singular events that occur over the course of hours or a few days. Skirmishes are smaller fights, usually between a small number of soldiers that occur unexpectedly, last only a few minutes or a few hours, and take place away from the main area of fighting.
+</p>
+
+<p xml:id='OTPSD32005193P1'>There were approximately 10,500 engagements during the American Civil War. Fifty of them were major battles, while another one hundred were notable engagements. The rest were small battles or skirmishes. (Cambridge Dictionary; American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S84122'>
+            <catDesc>
+              <term>Military Engagements--Bull Run, 1st Battle of, Va., 1861</term>
+              <idno>https://www.battlefields.org/learn/civil-war/battles/bull-run</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>38.815, -77.5225</geo>
+              </note>
+              <gloss><p xml:id='OTPSD84122P0'>The First Battle of Bull Run (also known as the First Battle of Manassas, Battle of First Manassas, and Manassas Junction) was fought on July 21, 1861 near the village of Manassas (formerly in Prince William County), Virginia between the Union Army of Northeastern Virginia (predecessor to the Union Army of the Potomac) under the command of Brig. Gen. Irvin McDowell and the Confederate Army of the Potomac (predecessor to the Confederate Army of Northern Virginia) under the command of Gen. P.G.T. Beauregard. It was the first major battle of the Civil War and resulted in a Confederate Victory. McDowell was sent south from Washington D.C. with orders to capture the Confederate Capital at Richmond, Virginia and was halted at Bull Run Creek by Beauregard’s army. A combination of poor intelligence and inexperience led to a disastrous Union defeat. McDowell was relieved of duty after the battle and replaced by Maj. Gen. George B. McClellan. The total number of forces engaged in the battle was 60,680; 28,450 Union, 32,230 Confederate. Casualties from the battle were estimated at 4,878 with 2,896 Union and 1,982 Confederate. The battle is significant because it made clear to the United States and Confederate governments that the war would not be quickly won by either side. (American Battlefield Trust; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S52672'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 2nd</term>
+              <idno>https://www.google.com/books/edition/The_Official_and_Statistical_Register_of/wMoGAQAAIAAJ?q=&amp;gbpv=1&amp;bsq=twenty-ninthth%20regiment%20infantry#f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD52672P0'>The 2nd Regiment, Mississippi Infantry (Confederate) was organized on May 1, 1861 in Alcorn County, Mississippi under the command of Col. William C. Falkner and served in the Eastern Theater under Whiting's, Law's, and J. R. Davis' Brigades in the Army of Northern Virginia. It was later commanded by Col. John M. Stone. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 9; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 426-436; National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25004048'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 2nd. Company C</term>
+              <idno>https://www.google.com/books/edition/The_Official_and_Statistical_Register_of/wMoGAQAAIAAJ?q=&amp;gbpv=1&amp;bsq=middleton%20rebels#f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25004048P0'>Commonly known as the Town Creek Riflemen, Company C of the 2nd Regiment, Mississippi Infantry (Confederate) was organized on February 27, 1861 in Itawamba County, Mississippi under the command of Capt. William C. Bromley and served in the Eastern Theater. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 9; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 427)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001717'>
+<catDesc>Voluntary Social &amp; Political Groups</catDesc>
+          <category xml:id='S83857'>
+            <catDesc>
+              <term>Ladies Military Aid Society</term>
+              <idno>https://www.essentialcivilwarcurriculum.com/women-and-soldiers-aid-societies.html</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD83857P0'>In both the North and the South, women formed as many as 20,000 Ladies Military Aid Societies (also called Soldiers’ Aid Societies) throughout the Civil War. Nearly every town and village had its own version. Organized and run locally by women, these societies supported soldiers by providing food and textile goods, including clothing, socks, tents, and bandages. Within the first month of the war, southern organizations also made cartridges and prepared sandbags. Working with local and state politicians, women also developed transportation networks to move gathered supplies into the field. Some women  even personally transported the supplies through these networks.
+</p>
+
+<p xml:id='OTPSD83857P1'>Initially, Black women also supported these largely white women’s societies in the North, but the introduction of Black regiments in 1863 led Black women to create their own military aid societies, like the Colored Ladies Soldiers’ Aid Society of St. Louis, Missouri. These groups focused specifically on the needs of Black soldiers.
+</p>
+
+<p xml:id='OTPSD83857P2'>Over the course of the war, these societies expanded their goals to include aiding soldiers’ families and the local poor, as well as taking on new roles as nurses. In the North, this impulse eventually led to the creation of the U.S. Sanitary Commission, Western Sanitary Commission, and the Central Association for Relief, which were dedicated to the support of sick and wounded U.S. soldiers. Reliant on private donations, these groups organized fundraisers, including social events like concerts, dinners, and dances. This sharpened women’s organizational and political skills, although most women stayed within the traditional domestic sphere.
+</p>
+
+<p xml:id='OTPSD83857P3'>Ladies Military Aid Societies continued their operations after the war. In the North, their aims shifted towards veteran and orphan care, including helping families apply for pensions and providing direct aid for disabled soldiers. In the South, in addition to assisting veterans, these societies often became memorial associations, which were active in creating Confederate cemeteries and monuments. (Beverly C. Tomek, “Women and Soldiers’ Aid Societies; Wikipedia; Nina Silber, <hi rend='italic'>Gender &amp; the Sectional Conflict</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Raymond, A. W.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-08-20</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from A. W. Raymond in Verona, Mississippi, requesting that clothing made for soldiers by the local aid society be shipped by the state.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Verona (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-939-04-24</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Chickasaw County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Cody Turnbaugh; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 939, Folder 4</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army; Confederate States of America. Army--Supplies and stores; Mississippi. Governor; Mississippi. Militia; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from A. W. Raymond to Mississippi Governor John J. Pettus; August 20, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/2356&quot;&gt;Letter from A. W. Raymond to Mississippi Governor John J. Pettus; August 20, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG37" who="U32029872" when="2025-03-18T03:15:02Z" target="#P1654775">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U32029872" when="2025-03-18T03:09:38Z" target="#P1654775">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-09-02T18:53:15Z" target="#P1654774">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U25091356" when="2023-08-27T00:11:34Z" target="#P1654776">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-03-21T01:47:19Z" target="#P1654776">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-19T16:26:14Z" target="#P1654774">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-18T21:40:31Z" target="#P1654776">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-18T21:32:44Z" target="#P1654774">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2021-12-09T23:01:34Z" target="#P1654775">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2021-10-28T02:16:11Z" target="#P1654776">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2021-08-23T22:49:24Z" target="#P1654775">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2021-05-05T21:04:12Z" target="#P1654775">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2021-02-23T22:48:34Z" target="#P1654774">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2021-02-02T19:06:47Z" target="#P1654774">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2021-01-21T19:05:24Z" target="#P1654775">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2021-01-19T22:27:45Z" target="#P1654776">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2021-01-19T22:27:00Z" target="#P1654775">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2021-01-19T22:20:23Z" target="#P1654774">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U217868" when="2021-01-11T16:28:42Z" target="#P1654776">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U217868" when="2021-01-11T16:26:17Z" target="#P1654775">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U217868" when="2021-01-11T16:18:15Z" target="#P1654774">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U227758" when="2021-01-02T19:15:33Z" target="#P1654775">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U227758" when="2021-01-02T19:10:03Z" target="#P1654774">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U226152" when="2020-12-26T23:14:32Z" target="#P1654776">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U226152" when="2020-12-26T23:12:02Z" target="#P1654775">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U226152" when="2020-12-26T22:32:27Z" target="#P1654774">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U226152" when="2020-12-26T22:29:03Z" target="#P1654774">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220513" when="2020-12-20T18:43:07Z" target="#P1654776">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220513" when="2020-12-20T18:39:39Z" target="#P1654775">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220513" when="2020-12-20T18:39:28Z" target="#P1654775">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220513" when="2020-12-20T18:13:51Z" target="#P1654774">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U218254" when="2020-12-12T03:34:07Z" target="#P1654774">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U215567" when="2020-12-11T22:30:02Z" target="#P1654776">
+          Version 1 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG4" who="U215567" when="2020-12-11T22:30:02Z" target="#P1654775">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2020-12-11T22:30:01Z" target="#P1654774">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2020-12-11T22:29:57Z" target="#P1654776">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2020-12-11T22:29:56Z" target="#P1654775">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2020-12-11T22:29:56Z" target="#P1654774">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1654774" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2353/full/full/0/default.jpg"/>
+        <div xml:id="OTP1654774">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1654774P0' xml:id='OTP1654774P0'>[seal]
+</p>
+
+<p corresp='TTP1654774P1' xml:id='OTP1654774P1'><rs ref='#S52210'>Verona</rs> Mi Augt. 20' 1861
+</p>
+
+<p corresp='TTP1654774P2' xml:id='OTP1654774P2'>Hon <rs ref='#S63111'>J, J, Pettus</rs>
+</p>
+
+<p corresp='TTP1654774P3' xml:id='OTP1654774P3'>Dear Sir
+</p>
+
+<p corresp='TTP1654774P4' xml:id='OTP1654774P4'>The Ladies of this place have in full apperation a <rs ref='#S83857'>volenteer aid Cociety</rs> and have made up and are still making up clothing for our soldiers in <rs ref='#S63425'>Virginia</rs> and Requested me to write you to know if you could make some arangements for them to get the clothing sent up at the Expense of the State or Confederacy.
+</p>
+
+<p corresp='TTP1654774P5' xml:id='OTP1654774P5'>It takes all the mony they can rase and get to purchase cloth and goods for the benifit of soldiers.
+</p>
+
+<p corresp='TTP1654774P6' xml:id='OTP1654774P6'>General <rs ref='#S91595'>R Davis</rs> passed here a few days ago and said that the arangement could be made. Their was seven boxes sent up in June containing Summer
+</p>
+
+
+        </div>
+        <pb xml:id="F1654775" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2354/full/full/0/default.jpg"/>
+        <div xml:id="OTP1654775">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1654775P0' xml:id='OTP1654775P0'>clothing which have been lost for the want of some person to attend to them on the Rail Road through
+</p>
+
+<p corresp='TTP1654775P1' xml:id='OTP1654775P1'>The Soldiers are in need of the clothing &amp; Blankets which they lost in the late <rs ref='#S84122'>Battle of Manssas</rs>. We have not been able to get the ones lost or any others.
+</p>
+
+<p corresp='TTP1654775P2' xml:id='OTP1654775P2'>I am just back from their myself and know that the soldiers lost nearly all their Blankets &amp; Coats. The Company that the Ladies are now making up clothing &amp; Blankets for is Compay B. <rs ref='#S25004048'>Town Creek Rifles</rs> Capt <rs ref='#S25014012'>W. C. Bromley</rs> 2<add place='above'>nd</add> Mississippi Regiment.
+</p>
+
+<p corresp='TTP1654775P3' xml:id='OTP1654775P3'>If in your power or control you will confer a favour of sending the nessissay
+</p>
+
+<p corresp='TTP1654775P4' xml:id='OTP1654775P4'>papers or instructions to Enable the clothing to be sent through free of charge to the Soldiers or Citizens.
+</p>
+
+<p corresp='TTP1654775P5' xml:id='OTP1654775P5'>The Soldiers have as yet not recd a dollar for their servacis and when I was their last week he in formed the men that he did not know when they would get it. They are satisfied however if they can get Clothing &amp; Blankets to keep them comfortable.
+</p>
+
+<p corresp='TTP1654775P6' xml:id='OTP1654775P6'>Yr amediate attention will confer a favor. Can some man get transportation with the Clothing for the purpose of attending to it on the different R. Road Boats, if so pleas send all the papers along
+</p>
+
+<p corresp='TTP1654775P7' xml:id='OTP1654775P7'>Yrs Truly<lb/>
+<hi rend='underline'><rs ref='#S84123'>A, W, Raymond</rs></hi>
+</p>
+
+
+        </div>
+        <pb xml:id="F1654776" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/2355/full/full/0/default.jpg"/>
+        <div xml:id="OTP1654776">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP1654776P0' xml:id='OTP1654776P0'>Aug 20<add place='above'>th</add> 1861<lb/>
+A H Raymond
+</p>
+
+<p corresp='TTP1654776P1' xml:id='OTP1654776P1'>Ansd Sept 7<add place='above'>th</add> 61
+</p>
+
+<p corresp='TTP1654776P2' xml:id='OTP1654776P2'>Address me at Verona<lb/>
+<rs ref='#S63252'>Itawamba County</rs><lb/>
+Missi
+</p>
+
+<p corresp='TTP1654776P3' xml:id='OTP1654776P3'><hi rend='underline'><rs ref='#S63542'>Mobile &amp; O, R, R,</rs></hi> A. H. Raymond
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

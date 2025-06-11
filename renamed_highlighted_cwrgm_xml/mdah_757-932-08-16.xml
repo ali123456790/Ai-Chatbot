@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from J. B. Morey to Mississippi Governor John J. Pettus; June 18, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 14 edits between
+              <date type="first_edit" when="2021-02-01T21:35:17Z">February  1, 2021</date> and
+              <date type="last_edit" when="2023-10-20T16:04:05Z">October 20, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2021-02-16T16:46:30Z">February 16, 2021</date> and
+              <date type="last_edit" when="2021-02-16T16:49:14Z">February 16, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217816">
+          <persName
+            >
+            Gracie Breland
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-02-16T16:12:02Z">February 16, 2021</date> and
+              <date type="last_edit" when="2021-02-16T16:13:48Z">February 16, 2021</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U217868">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Alec Blaylock </name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T19:51:58+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S76776">
+              <persName>French, Samuel Gibbs, 1818-1910</persName>
+                <idno>https://en.wikipedia.org/wiki/Samuel_Gibbs_French</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS76776P0'>Samuel Gibbs French was a northern-born general of the Confederacy during the Civil War.
+</p>
+
+<p xml:id='OTPS76776P1'>Born near Mullica Hill, New Jersey, on November 28, 1818, French was raised in the north and attended the United States Military Academy at West Point, New York. After graduating from West Point in 1843, he was placed with the Third United States Artillery and served at posts in North Carolina, Washington, D.C., and Baltimore. During the Mexican-American War, French performed well in the battles of Palo Alto, Resaca de la Palma, and Monterrey, receiving the brevet (honorary) rank of first lieutenant for his actions. In February 1847, he was wounded during the Battle of Buena Vista, but remained on the field during the fighting. Following the battle, he received the brevet rank of captain.
+</p>
+
+<p xml:id='OTPS76776P2'>After recuperating in New Jersey from his wound, French was appointed assistant quartermaster in the general staff of the army. By 1849 he was able to resume field operations and carried out assignments in Texas and Fort Smith, Arkansas. In 1853 he married Eliza Matilda Roberts of Mississippi. The couple had one daughter. Through his wife's family, French received a plantation near Greenville, Mississippi. In 1856, he resigned from the army to manage the property. The following year, Eliza passed away.
+</p>
+
+<p xml:id='OTPS76776P3'>Following Mississippi’s secession in January 1861, French offered to support his adopted state and the Confederacy. He received a commission as a lieutenant colonel and chief of ordnance in the Army of Mississippi in February 1861. News of his support of the Confederacy reportedly sparked furor in New Jersey, leading to protestors ransacking French’s summer home in Woodbury and burning him in effigy. In October 1861, he was promoted to brigadier general in the Confederate Army and received an assignment to oversee the defense of the Potomac River in Virginia. For much of 1862 and 1863, French led efforts to create and improve defensive works in Virginia and North Carolina, including Fort Fisher (which was the among the Confederacy’s most elaborate defensive positions) and Petersburg (whose earthworks frustrated Union assaults for several months in 1864). French also led troops in the field, participating in fighting at Harrison’s Landing in July 1862 and Suffolk, Virginia, in September 1862.
+</p>
+
+<p xml:id='OTPS76776P4'>In 1863 French was transferred to the western theater, where he commanded a division under General Joseph E. Johnston during the unsuccessful effort to relieve Confederate troops besieged at Vicksburg, Mississippi. French continued to serve in the Mississippi area in late 1863 and early 1864, before being transferred to the Army of Tennessee in May 1864 to aid in the defense of Atlanta against William Tecumseh Sherman’s Union army. He remained in the field, commanding a division during the Confederate advance into Tennessee in the fall of 1864. His soldiers took heavy casualties during the Confederate defeat at Franklin, Tennessee, and French was forced to take medical leave due to an eye infection that nearly left him blind. His last military assignment was the defense of Mobile, Alabama. He and his men held out until April 1865, when they surrendered to Union troops.
+</p>
+
+<p xml:id='OTPS76776P5'>In 1865, French married Mary Fontaine Abercrombie. The couple had three kids and variously lived in Mississippi, New Jersey, Georgia, and Florida. When the United States entered the Spanish-American War in 1898, the 79-year old French—who had participated in thirty-five battles during the Mexican-American War and Civil War—reportedly volunteered for service. President William McKinley turned down his offer.
+</p>
+
+<p xml:id='OTPS76776P6'>French wrote a memoir entitled <hi rend='italic'>Two Wars: An Autobiography of Samuel G. French</hi>, which laid heavy criticism on several Confederate officials, including Mississippi governor John J. Pettus, General William J. Hardee, General John Bell Hood, and General Leonidas Polk. He also remained highly critical of the north, blaming the Civil War on anti-slavery northerners. French died on April 20, 1910, in Alabama while visiting one of his children. He is buried in Saint John’s Cemetery in Pensacola, Florida.
+</p>
+
+<p xml:id='OTPS76776P7'>(Wikipedia; FindaGrave; Christopher Losson, “Samuel Gibbs French,” Mississippi Encyclopedia)
+</p>
+
+<p xml:id='OTPS76776P8'>Samuel Gibbs French belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S93334">
+              <persName>McElrowe, Jones</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S93008">
+              <persName>Morey, J. B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S93007">
+              <persName>Churchill, C. B.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S76166">
+              <placeName>Mississippi--Alcorn County. Corinth</placeName>
+                <idno>https://www.britannica.com/place/Corinth-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS76166P0'>Currently located in Alcorn County, Corinth was founded in 1853 under the name Cross City in what was then Tishomingo County. When Alcorn County was created on April 15, 1870, Corinth became its county seat. (Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.93722, -88.51528</geo>
+                </note>
+            </place>
+            <place xml:id="S63000">
+              <placeName>Mississippi--Marshall County. Holly Springs</placeName>
+                <idno>https://archive.org/details/mississippicomp01rowlgoog/page/874/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63000P0'>Currently located in Marshall County, Holly Springs was founded in 1836 in what was then Monroe County. When Marshall County was created on March 1, 1836, Holly Springs became its county seat. (Rowland, <hi rend='italic'>Mississippi</hi>, 874; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.77333, -89.44639</geo>
+                </note>
+            </place>
+            <place xml:id="S63244">
+              <placeName>Mississippi--Greene County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/greene-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63244P0'>Located in southeastern Mississippi, Greene County was established on December 9, 1811 from Wayne County. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.22, -88.64</geo>
+                </note>
+            </place>
+            <place xml:id="S63147">
+              <placeName>Tennessee--Shelby County. Memphis</placeName>
+                <idno>https://www.britannica.com/place/Memphis-Tennessee</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63147P0'>Located in Shelby County, Memphis was founded in 1819 and serves as the county seat. (Britannica; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>35.1175, -89.97111</geo>
+                </note>
+            </place>
+            <place xml:id="S63019">
+              <placeName>Mississippi--Adams County. Natchez</placeName>
+                <idno>https://en.wikipedia.org/wiki/Natchez,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63019P0'>Located in Adams County, Natchez was founded in 1716 under the name Fort Rosalie and was renamed Natchez in 1730. It became part of the newly created Adams County on April 1, 1799. It served as the capital of Mississippi Territory from 1798 until 1802, when it was replaced by Washington. It was reinstated as the capital from 1817 until 1820, when the capital was again replaced by Washington (which was later replaced by the current capital Jackson in 1822). Natchez serves as the county seat. (Wikipedia; Britannica; Mississippi Encyclopedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.55444, -91.3875</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001713'>
+<catDesc>C.S.A. Federal Government</catDesc>
+          <category xml:id='S99586'>
+            <catDesc>
+              <term>Confederate States of America--War Department</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t00z8036q&amp;view=1up&amp;seq=9&amp;skin=2021</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.3675, -86.3</geo>
+              </note>
+              <gloss><p xml:id='OTPSD99586P0'>Operating nationally, the Provisional Confederate Congress established the War Department by an act on February 21, 1861, in Montgomery, Alabama. The department was led by the Secretary of War, appointed by the President with the advice and consent of the Senate. It was initially led by LeRoy Pope Walker from February 25–September 16, 1861 and later led by Judah P. Benjamin (September 17, 1861–March 24, 1862), George W. Randolph (March 24–November 15, 1862), James Seddon (November 21, 1862–February 5, 1865), and Maj. Gen. John C. Breckinridge (February 6–May 10, 1865). The War Department was responsible for the administration of the Confederate Army and managed all matters pertaining to American Indian tribes within the boundaries of the Confederate States. (<hi rend='italic'>Acts and Resolutions of the First Session of the Provisional Congress of the Confederate States</hi>, 1861 Public Laws, S1, 46; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25013536'>
+            <catDesc>
+              <term>Confederate States of America--War Department. Ordnance Department</term>
+              <idno>https://www.essentialcivilwarcurriculum.com/civil-war-ordnance-bureaus.html</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25013536P0'>The Confederate Ordnance Bureau was the office responsible for acquiring ammunition and weapons for the Confederate military. Technically a branch of the Corps of Artillery, the Ordnance Bureau operated independently and was commanded by Major Josiah Gorgas, who had resigned from the United States Ordnance Department at the start of the Civil War. Gorgas estimated that the Confederacy had fewer than 160,000 small arms and only 429 cannons (375 of which were in fortifications around Charleston) in early 1861. To increase the number of weapons and ammunition, the Ordnance Bureau relied upon three sources: European imports, domestic manufacturing, and battlefield captures. The bureau also labored to provide weapons and ammunition to the field armies through railroad and wagon train transportation routes. Through these efforts, and despite the Union blockade and limited domestic resources, the Ordnance Bureau imported around 380,000 foreign small arms, produced around 10,000 firearms within the Confederacy, and captured enough Union weapons to arm the Confederate military throughout the war. The Confederate army never suffered a battlefield defeat due to the lack of weapons or ammunition. (Frank E. Vandiver, “Makeshifts of Confederate Ordnance,” <hi rend='italic'>The Journal of Southern History</hi>, 180–193; Philip Leigh, “Civil War Ordnances Bureaus,” Essential Civil War Curriculum) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+<category xml:id='C32001716S99586'>
+<catDesc>
+<term><rs ref='S99586'>Confederate States of America--War Department</rs></term>
+</catDesc>
+</category>
+<category xml:id='C32001716S25013536'>
+<catDesc>
+<term><rs ref='S25013536'>Confederate States of America--War Department. Ordnance Department</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Morey, J. B.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-06-18</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from J. B. Morey, an ordnance officer, at Corinth, Mississippi, to Mississippi Governor John Jones Pettus concerning the alteration of arms for the state of Mississippi.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Corinth (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-932-08-16</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Alcorn County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 932, Folder 8</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Firearms.; Gunsmithing; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from J. B. Morey to Mississippi Governor John J. Pettus; June 18, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/3479&quot;&gt;Letter from J. B. Morey to Mississippi Governor John J. Pettus; June 18, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG28" who="U220769" when="2023-10-20T16:04:05Z" target="#P1679502">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-19T20:15:19Z" target="#P1679502">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-19T01:27:32Z" target="#P1679502">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-18T22:39:32Z" target="#P1679502">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-18T03:31:29Z" target="#P1679502">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-18T02:34:30Z" target="#P1679502">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-18T00:08:39Z" target="#P1679502">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2021-10-22T20:31:32Z" target="#P1679502">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2021-07-06T20:13:15Z" target="#P1679502">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2021-02-23T22:35:05Z" target="#P1679502">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U217868" when="2021-02-16T16:49:14Z" target="#P1679502">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U217868" when="2021-02-16T16:47:54Z" target="#P1679503">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U217868" when="2021-02-16T16:47:47Z" target="#P1679504">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U217868" when="2021-02-16T16:47:26Z" target="#P1679503">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U217868" when="2021-02-16T16:46:30Z" target="#P1679502">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U217816" when="2021-02-16T16:13:48Z" target="#P1679504">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U217816" when="2021-02-16T16:13:08Z" target="#P1679503">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U217816" when="2021-02-16T16:12:27Z" target="#P1679502">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U217816" when="2021-02-16T16:12:02Z" target="#P1679502">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2021-02-01T21:37:55Z" target="#P1679504">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2021-02-01T21:37:30Z" target="#P1679504">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2021-02-01T21:37:01Z" target="#P1679504">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U220769" when="2021-02-01T21:35:17Z" target="#P1679502">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U215567" when="2021-01-14T02:58:52Z" target="#P1679504">
+          Version 1 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG4" who="U215567" when="2021-01-14T02:58:52Z" target="#P1679503">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2021-01-14T02:58:51Z" target="#P1679502">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-01-14T02:58:44Z" target="#P1679504">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-01-14T02:58:43Z" target="#P1679503">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-01-14T02:58:43Z" target="#P1679502">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1679502" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/3476/full/full/0/default.jpg"/>
+        <div xml:id="OTP1679502">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1679502P0' xml:id='OTP1679502P0'>[seal]
+</p>
+
+<p corresp='TTP1679502P1' xml:id='OTP1679502P1'><rs ref='#S76166'>Corinth</rs> Miss June 18. 1861
+</p>
+
+<p corresp='TTP1679502P2' xml:id='OTP1679502P2'>Gov. <rs ref='#S63111'>Pettus</rs> &amp; Col <rs ref='#S76776'>French</rs>—
+</p>
+
+<p corresp='TTP1679502P3' xml:id='OTP1679502P3'>As Col French may be absent, I write as alone—
+</p>
+
+<p corresp='TTP1679502P4' xml:id='OTP1679502P4'>On the 18<add place='above'>th</add> Inst. I telegraphed to <rs ref='#S63000'>Holly Springs</rs> with refference to making &amp; [?] Hammers &amp; cones &amp; altering entire the Flint lock to the Percussion Lock Gun—I receiv-ed a telegraph this morning from <rs ref='#S93334'>Jones M<add place='above'>c</add>Elrowe</rs> <rs ref='#S63244'>Geo Co</rs> saying they could anveal the hammers. I responded to communi-cate what they could do [?] us with Gov Pettus or Col French— I presumed they could &amp; would alter them to <hi rend='underline'>suit</hi> your views—The funds for the <rs ref='#S63147'>Memphis</rs> conduct of accou-trements must be sent forward before <del rend='overstrike'>?</del> Honl Geo will send the ballance of the contract Gold in Memphis commands 8 to 10 per cent premium—
+</p>
+
+<p corresp='TTP1679502P5' xml:id='OTP1679502P5'>Very Respectfully<lb/>
+<rs ref='#S93008'>J. B. Morey</rs><lb/>
+<rs ref='#S25013536'>Ordnance</rs> Officer<lb/>
+Miss army: <hi rend='underline'>Corinth Miss</hi>—
+</p>
+
+<p corresp='TTP1679502P6' xml:id='OTP1679502P6'>I just re<add place='above'>cd</add> a dispatch from <rs ref='#S63019'>Natchez</rs> which I [Suppose?]—he can alter the muskets who do we contract with [?]
+</p>
+
+<p corresp='TTP1679502P7' xml:id='OTP1679502P7'><rs ref='#S93007'>C. B. Churchill</rs> [Co?] over
+</p>
+
+
+        </div>
+        <pb xml:id="F1679503" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/3477/full/full/0/default.jpg"/>
+        <div xml:id="OTP1679503">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1679503P0' xml:id='OTP1679503P0'>I answered Gov Pettus &amp; Col French— 
+</p>
+
+
+        </div>
+        <pb xml:id="F1679504" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/3478/full/full/0/default.jpg"/>
+        <div xml:id="OTP1679504">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP1679504P0' xml:id='OTP1679504P0'>June 18<add place='above'>th</add> 1861<lb/>
+J. B. Morey
+</p>
+
+<p corresp='TTP1679504P1' xml:id='OTP1679504P1'><hi rend='underline'>Altering Guns</hi><lb/>
+
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

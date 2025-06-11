@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letters from H. A. Barr and W. F. Avent; August 23, 1865</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 13 edits between
+              <date type="first_edit" when="2022-12-04T02:30:18Z">December  4, 2022</date> and
+              <date type="last_edit" when="2024-03-06T15:24:27Z">March  6, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25090807">
+          <persName
+            >
+            Patricia Parrish
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2022-04-08T16:47:21Z">April  8, 2022</date> and
+              <date type="last_edit" when="2022-04-08T17:03:14Z">April  8, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 7 edits between
+              <date type="first_edit" when="2022-04-08T18:05:03Z">April  8, 2022</date> and
+              <date type="last_edit" when="2022-04-08T18:15:08Z">April  8, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2022-04-18T21:52:48Z">April 18, 2022</date> and
+              <date type="last_edit" when="2022-04-18T21:55:53Z">April 18, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2022-04-27T20:30:27Z">April 27, 2022</date> and
+              <date type="last_edit" when="2022-04-27T20:35:16Z">April 27, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T13:33:57Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T15:34:43Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U226410">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Bernard Murphy, Jr.</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:38:12+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S98061">
+              <persName>Avent, W. F.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32029210">
+              <persName>Barr, A. H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52215">
+              <persName>Sharkey, William Lewis, 1798-1873</persName>
+                <idno>https://en.wikipedia.org/wiki/William_L._Sharkey</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52215P0'>William Lewis Sharkey served as Mississippi’s governor in 1865, early in the Reconstruction era.
+</p>
+
+<p xml:id='OTPS52215P1'>Born in Sumner County, Tennessee, on July 12, 1798, Sharkey moved with his family to Warren County, Mississippi, in 1804. As an adult, he studied law and began practicing in Natchez, Mississippi, in 1822. Sharkey moved to Vicksburg in 1825 and pursued political office. He won election to the Mississippi House of Representatives and served one term from 1828 to 1829.
+</p>
+
+<p xml:id='OTPS52215P2'>In 1832, Sharkey married Minerva Cage, a widow with two children. The couple had four children over the next several years.  In 1832, Sharkey also became a circuit court judge and was shortly thereafter elected to the High Court of Errors and Appeals, the predecessor to the Supreme Court of Mississippi. He served in that role for 18 years, resigning in 1851. From there, he took a diplomatic appointment for the United States government, serving as U.S. Consul in Havana, Cuba, until 1854. After completing that diplomatic assignment, Sharkey returned to Mississippi and returned to legal and political duties, helping compile the Mississippi Code of 1857.
+</p>
+
+<p xml:id='OTPS52215P3'>During the secession crisis in the winter of 1860 and 1861, following Abraham Lincoln’s election, Sharkey remained a steadfast Unionist. Having been a member of the Whig Party, he retained his opposition to secession and refused to support the Confederacy, even as he remained in Mississippi through the Civil War. Despite his political stance against Mississippi’s secessionist government, Confederate officials left him alone out of respect of his past service to the state as a judge and legal scholar.
+</p>
+
+<p xml:id='OTPS52215P4'>After the Confederacy’s defeat, President Andrew Johnson appointed Sharkey provisional governor of Mississippi in June 1865. In that role, he called forth a constitutional convention to meet Johnson’s goal of swiftly restoring former Confederate states to the Union. In October 1865, Benjamin Humphreys won election as Mississippi’s governor. Sharkey did not vacate the office, though, until December 1865, having served less than a year. Although no longer governor, Sharkey was selected by the Mississippi legislature to serve in the U.S. Senate. Federal officials denied him a seat, and the rest of the Mississippi congressional delegation, following the Republican backlash to Mississippi’s Black Codes—a set of racially discriminatory laws passed by the Mississippi legislature in 1865.
+</p>
+
+<p xml:id='OTPS52215P5'>Having been denied a U.S. Senate seat, Sharkey returned to practicing law, in Jackson, Mississippi. He died in Washington, D.C., on March 30, 1873, and is buried at Greenwood Cemetery in Jackson, Mississippi.
+</p>
+
+<p xml:id='OTPS52215P6'>(Wikipedia; David Sansing, “William Lewis Sharkey: Twenty-fifth Governor of Mississippi: June to December 1865,” Mississippi History Now; FindaGrave)
+</p>
+
+<p xml:id='OTPS52215P7'>William Lewis Sharkey belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S52439">
+              <persName>Johnson, Andrew, 1808-1875</persName>
+                <idno>https://en.wikipedia.org/wiki/Andrew_Johnson</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52439P0'>Andrew Johnson was vice president under Abraham Lincoln during the Civil War and served as president, following Lincoln’s assassination, during the first three years of Reconstruction.
+</p>
+
+<p xml:id='OTPS52439P1'>Born on December 29, 1808, in Raleigh, North Carolina, Johnson came from a poor family and was sent by his parents to apprentice in a tailor’s shop. Gaining a basic education from his coworkers and customers, Johnson eventually ran away from Raleigh before his apprenticeship obligation was completed and lived in Alabama and Tennessee. He established a successful tailor shop in Greeneville, Tennessee, earning enough money to purchase property and improve his education. He also began purchasing slaves, ultimately owning ten enslaved people before the Civil War.
+</p>
+
+<p xml:id='OTPS52439P2'>Johnson became interested in politics in Tennessee and developed great skill as a stump speaker. He was elected mayor of Greeneville in 1834 and then won a seat in the Tennessee House of Representatives. Initially a Whig, Johnson joined the Democratic Party and gained strong party support. He improved his political standing by serving in the Tennessee militia, rising to the rank of colonel. In the early 1840s, he won election to the United States House of Representatives, serving in that body until 1853, when he became governor of Tennessee. He served two terms and then successfully ran for the United States Senate in 1856.
+</p>
+
+<p xml:id='OTPS52439P3'>During the secession crisis and the outbreak of the Civil War in 1861, Johnson remained loyal to the Union. He faced harsh criticism from other Tennesseans, and was the only member of a seceded state to stay in the Senate. He was unable to return home during Congressional recesses during the war. In 1862, when his term as senator ended, Lincoln appointed Johnson military governor of Tennessee. He accepted the position and the rank of brigadier general, but faced retribution from Confederates in Tennessee who confiscated his land and property. As the war progressed, Johnson increasingly supported Republican efforts against slavery, including the Emancipation Proclamation. <lb/>
+During the 1864 presidential campaign, Lincoln selected Johnson as his vice presidential candidate to draw in southern Unionist and War Democrat support. They won the election, but Lincoln was assassinated in April 1865, only a few weeks after the inauguration, leaving Johnson to assume the presidency. Taking the executive office in the final days of the Civil War, Johnson began to enact his vision of Reconstruction of the southern states. He advocated for a rapid restoration of the Union and offered amnesty to most former Confederates. Johnson made exceptions for higher ranking Confederate officials, and required them to personally petition for pardons. He was less supportive of former slaves, and began to draw criticism from Republicans. In late 1865, states like Mississippi established highly restrictive laws, nicknamed Black Codes, against African Americans, drawing the ire of many northern Republicans. When Radical Republicans passed legislation designed to protect the rights of freed people, Johnson vetoed it, causing an even greater split between Congress and the president.
+</p>
+
+<p xml:id='OTPS52439P4'>By 1866, Johnson’s popularity in the north had dropped significantly. Radical Republicans won electoral victories and in 1867 implemented stricter Reconstruction policies, placing the former Confederate states under military rule. When Johnson dismissed Secretary of War Edwin M. Stanton over policy disagreements, Republicans in Congress impeached him. He barely survived conviction in the United States Senate in 1868, but his political influence had essentially ended. The Republican Party chose Civil War hero Ulysses S. Grant as its next presidential candidate, and Johnson returned to Tennessee when his term ended in 1869.
+</p>
+
+<p xml:id='OTPS52439P5'>Although unpopular in the north, Johnson was welcomed home in Tennessee by residents who appreciated his political battle against Radical Republicans in Washington, D.C. He won an election to the United States Senate in 1875, but served only a few weeks before dying of a stroke on July 31, 1875. He was married to Eliza McCardle and had five children. Johnson is buried in Greeneville, Tennessee.
+</p>
+
+<p xml:id='OTPS52439P6'>(Wikipedia; The White House; FindaGrave)
+</p>
+
+<p xml:id='OTPS52439P7'>Andrew Johnson belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63270">
+              <placeName>Mississippi--Lafayette County. Oxford</placeName>
+                <idno>https://en.wikipedia.org/wiki/Oxford,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63270P0'>Located in Lafayette County, Oxford was founded in 1837 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.35972, -89.52611</geo>
+                </note>
+            </place>
+            <place xml:id="S62914">
+              <placeName>Washington (D.C.)</placeName>
+                <idno>https://en.wikipedia.org/wiki/Timeline_of_Washington,_D.C.</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS62914P0'>Located between Maryland &amp; Virginia on the Potomac River, the Territory of Columbia was established on July 16, 1790 under the name Federal City and was renamed Washington City in the 1800s. The city of Washington became the federal capital on February 27, 1801 and established as Washington, D.C. on February 24, 1801, when the city boundaries were expanded to include the entire Federal District of Columbia. Washington, D.C. has never achieved statehood. (Wikipedia, Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>38.90472, -77.01639</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S99687'>
+            <catDesc>
+              <term>Crimes (alleged)--Threat</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/threat?q=Threat</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99687P0'>Suggesting "that something unpleasant or violent will happen, especially if a particular action or order is not followed." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62927'>
+            <catDesc>
+              <term>Criminal Procedures--Pardon</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/pardon?q=Pardon</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62927P0'>"If someone who has committed a crime is pardoned, that person is officially forgiven and their punishment is stopped." (Cambridge Dictionary)"An act of mercy by a person in authority toward someone who has committed a crime, esp. by reducing a punishment." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S50807'>
+            <catDesc>
+              <term>Clerks</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/clerk</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD50807P0'>"A person who works in an office, dealing with records or performing general office duties." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63395'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/court?topic=law-courts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63395P0'>"A place where trials and other legal cases happen, or the people present in such a place." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Sharkey Series 771</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.; Funding for this project provided by the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1865</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Avent, W. F.; Barr, H. A.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1865-08-23</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Sharkey Collection. Letter from H. A. Barr to Mississippi Governor William L. Sharkey, enclosing a letter from W. F. Avent at Oxford, Mississippi, to H. A. Barr. The enclosed letter from Avent to Barr asks for help in obtaining a presidential pardon.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 6.5&quot; x 8&quot; 4-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Jackson (Miss.); Oxford (Miss.); Washington (D.C.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_771-956-05-06</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Hinds County (Miss.); Lafayette County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Britany Castilaw; Dalton Wood; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 956, Folder 5</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Clerks of court; Courthouses; Johnson, Andrew, 1808-1875; Mississippi. Governor; Pardon; Police; Presidents--United States; Sharkey, William Lewis, 1798-1873; Sheriffs</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letters from H. A. Barr and W. F. Avent; August 23, 1865</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/20117&quot;&gt;Letters from H. A. Barr and W. F. Avent; August 23, 1865&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG43" who="U2" when="2024-10-25T15:34:43Z" target="#P32217448">
+          Version 12 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U2" when="2024-10-25T13:33:57Z" target="#P32217446">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2024-03-06T15:24:27Z" target="#P32217447">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2024-01-30T17:00:07Z" target="#P32217447">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-11-17T17:34:35Z" target="#P32217446">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-11-17T17:17:50Z" target="#P32217447">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-04-07T15:50:35Z" target="#P32217448">
+          Version 11 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-03-28T22:23:23Z" target="#P32217446">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-03-19T20:49:52Z" target="#P32217447">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-03-19T02:31:46Z" target="#P32217446">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-03-19T00:16:12Z" target="#P32217448">
+          Version 10 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-18T21:49:40Z" target="#P32217448">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-18T16:25:52Z" target="#P32217446">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-05T21:31:44Z" target="#P32217448">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2022-12-04T02:30:18Z" target="#P32217446">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U25091356" when="2022-04-27T20:35:16Z" target="#P32217448">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U25091356" when="2022-04-27T20:34:34Z" target="#P32217448">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U25091356" when="2022-04-27T20:33:52Z" target="#P32217447">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U25091356" when="2022-04-27T20:31:26Z" target="#P32217446">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U25091356" when="2022-04-27T20:30:27Z" target="#P32217446">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U25091253" when="2022-04-18T21:55:53Z" target="#P32217449">
+          Version 4 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U25091253" when="2022-04-18T21:55:41Z" target="#P32217448">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U25091253" when="2022-04-18T21:55:26Z" target="#P32217448">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U25091253" when="2022-04-18T21:53:42Z" target="#P32217447">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25091253" when="2022-04-18T21:52:48Z" target="#P32217446">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U226410" when="2022-04-08T18:15:08Z" target="#P32217447">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U226410" when="2022-04-08T18:13:40Z" target="#P32217449">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U226410" when="2022-04-08T18:13:40Z" target="#P32217449">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U226410" when="2022-04-08T18:13:06Z" target="#P32217448">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U226410" when="2022-04-08T18:13:07Z" target="#P32217448">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U226410" when="2022-04-08T18:10:56Z" target="#P32217447">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U226410" when="2022-04-08T18:05:03Z" target="#P32217446">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25090807" when="2022-04-08T17:03:14Z" target="#P32217449">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25090807" when="2022-04-08T17:03:14Z" target="#P32217449">
+          Version 1 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25090807" when="2022-04-08T17:02:23Z" target="#P32217448">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25090807" when="2022-04-08T17:02:21Z" target="#P32217448">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25090807" when="2022-04-08T16:56:28Z" target="#P32217447">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25090807" when="2022-04-08T16:56:28Z" target="#P32217447">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25090807" when="2022-04-08T16:47:23Z" target="#P32217446">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25090807" when="2022-04-08T16:47:21Z" target="#P32217446">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2022-04-07T13:34:44Z" target="#P32217449">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2022-04-07T13:34:42Z" target="#P32217448">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-04-07T13:34:41Z" target="#P32217447">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-04-07T13:34:40Z" target="#P32217446">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32217446" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:20113/full/full/0/default.jpg"/>
+        <div xml:id="OTP32217446">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32217446P0' xml:id='OTP32217446P0'>[Seal]
+</p>
+
+<p corresp='TTP32217446P1' xml:id='OTP32217446P1'><rs ref='#S63270'>Oxford</rs> Miss.<lb/>
+23<add place='above'>=</add> Aug. 1865
+</p>
+
+<p corresp='TTP32217446P2' xml:id='OTP32217446P2'>Hon. <rs ref='#S32029210'>A. H. Barr</rs>.
+</p>
+
+<p corresp='TTP32217446P3' xml:id='OTP32217446P3'>Dear Sir.
+</p>
+
+<p corresp='TTP32217446P4' xml:id='OTP32217446P4'>Some time since I sent to <rs ref='#S62914'>Washington</rs>, through Gov<add place='above'>r.</add> <rs ref='#S52215'>Sharkey</rs>, my petition for <rs ref='#S62927'>pardon</rs>. I fell under no Exception of the <rs ref='#S52439'>Presidents</rs> proclamation except the $20000 clause. Since forwarding that petition, I have engaged in rebuilding some of my houses at this place, one of which, when completed is to be used as the Court House, <rs ref='#S95578'>Sheriff</rs> &amp; <rs ref='#S50807'>Clerks</rs> offices. I understand that United States Officers are elsewhere seizing property [prepare=tory?] to confiscation, or at least the property of those who have like myself petitioned under  
+</p>
+
+
+        </div>
+        <pb xml:id="F32217447" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:20114/full/full/0/default.jpg"/>
+        <div xml:id="OTP32217447">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32217447P0' xml:id='OTP32217447P0'>the 20000 dollar clause. This is <rs ref='#S99687'>threatened</rs> at this place. I cannot proceed with my build=ings, a large protion of which are designed for public use, whilst I am in uncertainty whether I am labouring only for the use of the U. S. Government. Were I the only person interested, I would not write this letter, but there is no place where <rs ref='#S63395'>Courts</rs> can be holden here unless I am permitted to proceed with my buildings. Under these cir=cumstances, may I ask you to call the attention of Gov<add place='above'>r.</add> Sharkey to the subject &amp; procure his aid in ^obtaining^ a speedy decision on my peti=tion.  Your family are well. Nothing new.
+</p>
+
+<p corresp='TTP32217447P1' xml:id='OTP32217447P1'>Truly <lb/>
+Your friend
+</p>
+
+<p corresp='TTP32217447P2' xml:id='OTP32217447P2'><rs ref='#S98061'>W. F. Avent</rs>
+</p>
+
+
+        </div>
+        <pb xml:id="F32217448" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:20115/full/full/0/default.jpg"/>
+        <div xml:id="OTP32217448">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32217448P0' xml:id='OTP32217448P0'>Hon W L Sharkey<lb/>
+Gov &amp;c
+</p>
+
+<p corresp='TTP32217448P1' xml:id='OTP32217448P1'>Sir:
+</p>
+
+<p corresp='TTP32217448P2' xml:id='OTP32217448P2'>I read the foregoing letter after I left <rs ref='#S51785'>Jackson</rs> and did not therefore present the matter to you. As the buildings now being put up in Oxford by W F Avent are of great importance to the Town of Oxford and to the County of Lafayette I respectfully urge that you will specially and speedily apply to the President for his pardon.
+</p>
+
+<p corresp='TTP32217448P3' xml:id='OTP32217448P3'>Very Resp<add place='above'>ly</add><lb/>
+Your obt sevt
+</p>
+
+<p corresp='TTP32217448P4' xml:id='OTP32217448P4'>H A Barr 
+</p>
+
+
+        </div>
+        <pb xml:id="F32217449" n="4" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:20116/full/full/0/default.jpg"/>
+        <div xml:id="OTP32217449">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP32217449P0' xml:id='OTP32217449P0'>H. A. Barr<lb/>
+Enclosing a letter from W F Avent for you to hasten his pardon on
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

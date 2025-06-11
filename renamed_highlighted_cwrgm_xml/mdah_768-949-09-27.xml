@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from George C. Harris to Mississippi Governor Charles Clark; July 22, 1864</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 9 edits between
+              <date type="first_edit" when="2022-09-30T18:08:51Z">September 30, 2022</date> and
+              <date type="last_edit" when="2022-10-03T00:47:25Z">October  3, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 9 edits between
+              <date type="first_edit" when="2022-11-21T23:44:19Z">November 21, 2022</date> and
+              <date type="last_edit" when="2023-11-17T18:14:20Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2022-10-10T01:44:59Z">October 10, 2022</date> and
+              <date type="last_edit" when="2022-10-10T01:47:31Z">October 10, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T17:27:35Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32020358">
+          <persName
+            >
+            Elisabeth Kluin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2025-03-15T01:29:20Z">March 15, 2025</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T19:03:15+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S52436">
+              <persName>Clark, Charles, 1811-1877</persName>
+                <idno>https://en.wikipedia.org/wiki/Charles_Clark_(governor)</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52436P0'>Charles Clark served as Mississippi’s governor during the last two years of the Civil War. Born in Cincinnati, Ohio, on May 24, 1811, Clark later moved to Mississippi, where he became a lawyer and a state representative in the late 1830s. After successfully representing a Mississippi settler in a land dispute with members of the Choctaw Nation in the early 1840s, Clark received a large tract of land near Beulah, Mississippi, as payment. Clark eventually enlarged his property to over five thousand acres, making it one of the largest and most successful plantations in Mississippi. During this time, he married Ann Eliza Darden and between 1840 and 1852 fathered three children.
+</p>
+
+<p xml:id='OTPS52436P1'>Clark volunteered for military service during the Mexican-American War in 1846 and raised a company of volunteers that was placed into the 2nd Mississippi Regiment. After its original commander resigned, Clark was elected colonel. Following the war in 1848, he returned to Mississippi resumed an interest in politics. He was selected as a delegate to a state convention in 1851 that debated the matter of secession in the wake of the Compromise of 1850, which had tried to settle a fierce dispute over the fate of slavery in territories gained by the United States from Mexico. Clark attended the convention as a Unionist, opposed to withdrawing from the Union. Developments over the next ten years changed his mind.
+</p>
+
+<p xml:id='OTPS52436P2'>Clark won a seat in the Mississippi’s House of Representatives as a Whig, serving from 1856 to 1861. Following Abraham Lincoln’s election as president in 1860, Clark embraced Mississippi’s secession. When the Civil War broke out, Clark received a commission as a brigadier general in the Mississippi Militia. He later entered the Confederate Army and eventually took command of a division. Slightly wounded at the Battle of Shiloh in April 1862, he was more seriously wounded and captured during fighting at Baton Rouge, Louisiana, in August 1862. Clark spent a short time as a prisoner of war before he was paroled by Union forces.
+</p>
+
+<p xml:id='OTPS52436P3'>In 1863, Clark ran for governor of Mississippi, in the wake of Confederate defeats at Vicksburg and Jackson. Clark campaigned on continued resistance to the Union and easily won the executive seat. Due to Union campaigns in Mississippi, Clark periodically moved the state government, from Jackson to Macon, then to Columbus, and back to Macon. When Confederate forces in Mississippi surrendered in May 1865, Clark instructed the state legislature to convene for a special session in Jackson. In June 1865, federal troops at Jackson arrested Clark and imprisoned him at Fort Pulaski, Georgia.
+</p>
+
+<p xml:id='OTPS52436P4'>Eventually released from federal custody, Clark returned to Bolivar County, Mississippi. He quietly practiced law and served on the University of Mississippi Board of Trustees during Reconstruction. In 1876, Clark received an appointment as chancellor for the fourth judicial district. He died a year later, on December 17, 1877. Clark is buried in a family cemetery at Beulah, Mississippi.
+</p>
+
+<p xml:id='OTPS52436P5'>(Wikipedia; David Sansing, “Charles Clark: Twenty-fourth Governor of Mississippi: 1863–1865,” Mississippi History Now; FindaGrave)
+</p>
+
+<p xml:id='OTPS52436P6'>Charles Clark belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32049010">
+              <persName>Harris, George C.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S32005284">
+              <placeName>Mississippi--Madison County. Livingston</placeName>
+                <idno>https://en.wikipedia.org/wiki/Livingston,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32005284P0'>Located in Madison County, Livingston was founded as early as 1829 and served as the county seat from then until 1836 (when it was replaced by Canton). Presently, Livingston is an unincorporated area that is not governed by a local municipal body. (Wikipedia; Rowland, <hi rend='italic'>Mississippi</hi>, 110; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.55306, -90.21611</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001686'>
+<catDesc>Labor &amp; Financial Events</catDesc>
+          <category xml:id='S32025512'>
+            <catDesc>
+              <term>Taxation</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/taxation?q=Taxation</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001686'>Labor &amp; Financial Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32025512P0'>"The process by which the government of a country obtains money from its people in order to pay for its expenses." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S98881'>
+            <catDesc>
+              <term>Confederate States of America--Draft</term>
+              <idno>https://mississippiencyclopedia.org/entries/mississippians-in-confederate-army/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD98881P0'>By the spring of 1862, the difficulty and bloodshed of fighting the Civil War became a reality to many white southerners, and many soldiers' one-year terms of enlistment expired. Voluntary enlistments slowed and rendered the Confederate Army desperate for troops. The Confederate States of America consequently issued the first compulsory call to military service in American history, also called a "draft" or "conscription" with the First Conscription Act of 1862.
+</p>
+
+<p xml:id='OTPSD98881P1'>A series of other conscription laws followed throughout the Civil War, each containing measures that sparked tensions between southerners and the Confederate government. The First Conscription Act rendered all men between the ages of 18 and 35 subject to military service, though a later act expanded the age range to 45. Men working in occupations deemed essential to the war effort or to preserving the home front could be exempted from the draft, and, after October 11, 1862, white men owning or overseeing twenty or more enslaved persons could also be exempt. These policies isolated small farmers with little investment in preserving slavery, and many southerners evaded the draft in a variety of ways. However, many others both elite and non-elite viewed the draft as a necessary action, and the Twenty Slave Law a necessary protection from enslaved rebellion. Ultimately, however they felt about it, one estimate holds that Mississippi sent roughly 8,000 draftees to fight for the Confederacy (Mississippi Encyclopedia).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25009736'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Military Service Exemption</term>
+              <idno>https://perma.cc/54WJ-7G6Q</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25009736P0'>By 1862 the initial waves of men who enlisted into Confederate military service diminished as enthusiasm for the war diminished, and both the Union and Confederacy enacted drafts to fill their armies. Nearly one year before the Union (March 1863), the Confederacy instituted a national draft in April 1862. There were important social implications to this policy, especially within the exemptions the Union and Confederacy provided. Similar to the Union, the Confederate act allowed drafted men to hire substitutes to serve in their place (often lower-class men willing to serve for much-needed income) and excused men from military service for medical reasons, "workers deemed necessary to maintain society," including select government employees. And unlike the Union, beginning in October 1862, men who enslaved a minimum of twenty (later fifteen) people were exempt.
+</p>
+
+<p xml:id='OTPSD25009736P1'>The Twenty-Slave Law exemption was a reaction to President Abraham Lincoln's recent announcement of the<lb/>
+Emancipation Proclamation. While many southern whites worried about enslaved people uprising with so many white men away at war, these policies cultivated a feeling among impoverished people that they were doing the majority of fighting and suffering for a “rich man's war.” Scholars like Joseph Glathaar proved this was not the case in Robert E. Lee's Army of Northern Virginia where the wealthy were overrepresented compared with impoverished soldiers, but it is unclear if this was the case in areas like Mississippi, and the perception of unfair protections for the wealthy fueled resentment. (William Marvel, "A Poor Man's Fight," National Park Service) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001681'>
+<catDesc>Political Occupations</catDesc>
+          <category xml:id='S63936'>
+            <catDesc>
+              <term>Legislators</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/legislator</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001681'>Political Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63936P0'>"A member of a group of people who together have the power to make laws." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001343'>
+<catDesc>Educational Organizations</catDesc>
+          <category xml:id='S63002'>
+            <catDesc>
+              <term>Schools</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/school?q=schools</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001343'>Educational Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63002P0'>"A place where people, esp. young people, are educated." (Cambridge Dictionary) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S62915'>
+            <catDesc>
+              <term>Mississippi--Legislature</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_Legislature</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD62915P0'>Operating at the state level, the Mississippi State Legislature (originally called the "General Assembly") was established by Article 4 of the Mississippi Constitution on November 1, 1890, and serves as the legislative branch of the state government. It is comprised of the House of Representatives and the Senate. The Legislature is responsible for passing new statewide laws and making amendments to the Constitution. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S96659'>
+            <catDesc>
+              <term>Impoverished People</term>
+              <idno>https://www.britannica.com/topic/poverty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96659P0'>Impoverished people are those who lack "a usual or socially acceptable amount of money or material possessions," or alternately those who "lack the means to satisfy their basic needs (Britannica). This definition, necessarily subjective and broad, indicates that what one person or society deems "socially acceptable" or what constitutes "basic needs" is malleable.
+</p>
+
+<p xml:id='OTPSD96659P1'>Similarly, impoverished people in the United States in the nineteenth century did not fit one specific category. The rise of industrialism produced an increased number of impoverished people in the U. S., particularly within large urban centers. European immigrants in cities in the East, and Chinese immigrants on the West Coast, and African Americans in the South were disproportionately affected by poverty. Regionally, the highest number of impoverished people came from the U. S. South, where "both whites and African Americans struggled with debt, low cotton prices, laws favorable to employers and creditors, paltry alternatives, and the general post war devastation" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 547).
+</p>
+
+<p xml:id='OTPSD96659P2'>Racism and nativism among employers and employees also made economic advancement more difficult for people of color and immigrants. However, the impoverished made up a comparatively low percentage of Mississippi's antebellum population, given its low number of immigrants and even native residents, lack of industrialization and urbanization, and mobility of those that were impoverished (Mississippi Encyclopedia). Many reform organizations throughout the country took the lead in fighting poverty in the nineteenth century, while state and federal governments by the end of the century also developed its own institutional responses. The status of being impoverished has always carried negative connotations in American history, so CWRGM uses the tag "Impoverished people" to emphasize the personhood of those in poverty rather than their social status. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Clark Series 768</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1864</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Harris, George C.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1864-07-22</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Clark Collection. Letter from George C. Harris at Livingston, Mississippi, to Mississippi Governor Charles Clark, suggesting a property tax to be used for the education of impoverished children of Confederate soldiers.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 6.5&quot; x 8&quot; 4-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_768-949-09-27</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Madison County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Michael Singleton; Dalton Wood; Britany Castilaw; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 949, Folder 9</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Children of military personnel; Charities--Confederate States of America; Charity-schools; Clark, Charles, 1811-1877; Clothing and dress; Families of military personnel; Food; Mississippi. Governor; Mississippi. Legislature; Poverty; Property tax; Taxation</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from George C. Harris to Mississippi Governor Charles Clark; July 22, 1864</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/23229&quot;&gt;Letter from George C. Harris to Mississippi Governor Charles Clark; July 22, 1864&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG28" who="U32020358" when="2025-03-15T01:29:20Z" target="#P32549259">
+          Version 10 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U2" when="2024-10-25T17:27:35Z" target="#P32549256">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-11-17T18:14:20Z" target="#P32549259">
+          Version 9 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-11-02T15:50:04Z" target="#P32549257">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-09-02T20:03:53Z" target="#P32549259">
+          Version 8 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-19T18:30:16Z" target="#P32549256">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-03-18T20:32:01Z" target="#P32549256">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2022-12-04T16:40:13Z" target="#P32549259">
+          Version 7 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2022-11-21T23:46:01Z" target="#P32549259">
+          Version 6 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2022-11-21T23:45:18Z" target="#P32549258">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2022-11-21T23:44:19Z" target="#P32549256">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091253" when="2022-10-10T01:47:31Z" target="#P32549259">
+          Version 5 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091253" when="2022-10-10T01:46:07Z" target="#P32549259">
+          Version 4 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091253" when="2022-10-10T01:46:00Z" target="#P32549258">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091253" when="2022-10-10T01:45:18Z" target="#P32549256">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091253" when="2022-10-10T01:44:59Z" target="#P32549257">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091356" when="2022-10-03T00:47:25Z" target="#P32549259">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091356" when="2022-10-03T00:46:03Z" target="#P32549258">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091356" when="2022-10-03T00:44:20Z" target="#P32549257">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091356" when="2022-10-03T00:41:38Z" target="#P32549256">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25091356" when="2022-09-30T18:34:47Z" target="#P32549259">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25091356" when="2022-09-30T18:28:56Z" target="#P32549259">
+          Version 1 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091356" when="2022-09-30T18:23:28Z" target="#P32549258">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25091356" when="2022-09-30T18:16:58Z" target="#P32549257">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25091356" when="2022-09-30T18:08:51Z" target="#P32549256">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2022-09-13T14:58:05Z" target="#P32549259">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2022-09-13T14:58:00Z" target="#P32549258">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-09-13T14:57:56Z" target="#P32549257">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-09-13T14:57:51Z" target="#P32549256">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32549256" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:23225/full/full/0/default.jpg"/>
+        <div xml:id="OTP32549256">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32549256P0' xml:id='OTP32549256P0'><rs ref='#S32005284'>Livingston</rs> Miss July 22
+</p>
+
+<p corresp='TTP32549256P1' xml:id='OTP32549256P1'>His Excellency Gov. <rs ref='#S52436'>Clark</rs>
+</p>
+
+<p corresp='TTP32549256P2' xml:id='OTP32549256P2'>D<add place='above'>r</add> Sir
+</p>
+
+<p corresp='TTP32549256P3' xml:id='OTP32549256P3'>In anticipa=tion of the approaching session of the <rs ref='#S62915'>Legislature</rs> I again intrude my self upon you and beg leave to say that in endea=voring to arrange details of a plan of operations looking to the relief of the [?] of our <rs ref='#S70882'>soldiers</rs> to be laid before the proper board of conference. I find certain difficulties which <del rend='overstrike'>it</del> may require the interposition of the Legislature to remove
+</p>
+
+<p corresp='TTP32549256P4' xml:id='OTP32549256P4'>At present rates it will be impossible to clothe find lodge &amp; educate children at a [hes?] price than Ten Hundred dollars each the first year. the number of children who would be allowed by [this?] pounds to attend the <rs ref='#S63002'>school</rs> would <del rend='overstrike'>not</del> probably not be more than one third 
+</p>
+
+
+        </div>
+        <pb xml:id="F32549257" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:23226/full/full/0/default.jpg"/>
+        <div xml:id="OTP32549257">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32549257P0' xml:id='OTP32549257P0'>The whole number of <rs ref='#S96659'>indigent persons</rs>—say twenty thousand which [would?] [regive?] the aggregat of Ten millions of Dollars for the first year. <del rend='overstrike'>After</del> ^Since^ conversing with some persons upon whom one might suppose that he could rely for large contributions I am reluctantly led to believe that it will not be possible to raise such an amount Some counties, indeed, will readily provide for their own indigent children not inasmuch as <del rend='overstrike'>such</del> counties best able to do this have [by?] for the greatest number of children to be cared for. it would be manifest unjustice to them to allow the wealthier counties to provide only for its own. A <rs ref='#S32025512'>tax</rs> upon the whole [?] of the state would be the most equal, &amp; I fear the only effectual, mode of raising this money. I do not propose however to abandon our effort to procure voluntary
+</p>
+
+
+        </div>
+        <pb xml:id="F32549258" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:23227/full/full/0/default.jpg"/>
+        <div xml:id="OTP32549258">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP32549258P0' xml:id='OTP32549258P0'>offerings. Should the <rs ref='#S63936'>state Legislators</rs> [?] <del rend='overstrike'>it</del> what will be its duty after the war is over—viz to provide in every way for these children—anticipate that duty so far as to furnish such [?] as household [?] for the house—which would be "one expense" as they might still be used after the war—it may not be impossible to raise by contribution a sufficient amount of clothe feed &amp; teach the children. A Bill levying a tax for this purpose the operation of which might be made contigent upon the sucess of parties engaged in procurring means to defray the other expenses would I doubt not be acceptable to the people &amp; go far towards the accom=plishment of our purpose.
+</p>
+
+<p corresp='TTP32549258P1' xml:id='OTP32549258P1'>It might also be well to provide us the privilege of purchasing clothing &amp;c
+</p>
+
+
+        </div>
+        <pb xml:id="F32549259" n="4" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:23228/full/full/0/default.jpg"/>
+        <div xml:id="OTP32549259">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP32549259P0' xml:id='OTP32549259P0'>from the factons in the state at such rates as the government pays—and the privilege to transport provisions &amp; other [necessaries?]. I [was?] <rs ref='#S25009736'>exempt</rs> from <rs ref='#S98881'>impressement</rs>
+</p>
+
+<p corresp='TTP32549259P1' xml:id='OTP32549259P1'>I have the honor yr Excellncy to submit<lb/>
+myself yr obt sevt
+</p>
+
+<p corresp='TTP32549259P2' xml:id='OTP32549259P2'><rs ref='#S32049010'>Geo C. Harris</rs><lb/>
+<hr/>
+</p>
+
+<p corresp='TTP32549259P3' xml:id='OTP32549259P3'>Would it be improper to have the Legislature appropriate to this purpose the interest of the common school fund? (if there be such a fund)
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from William Cooper to Mississippi Governor John J. Pettus; October 23, 1860</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 39 edits between
+              <date type="first_edit" when="2020-10-08T16:57:47Z">October  8, 2020</date> and
+              <date type="last_edit" when="2024-09-16T18:14:04Z">September 16, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217816">
+          <persName
+            >
+            Gracie Breland
+            </persName>
+            <resp>
+              made 11 edits between
+              <date type="first_edit" when="2020-09-27T23:58:14Z">September 27, 2020</date> and
+              <date type="last_edit" when="2020-09-28T14:31:45Z">September 28, 2020</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 7 edits between
+              <date type="first_edit" when="2020-10-03T21:47:37Z">October  3, 2020</date> and
+              <date type="last_edit" when="2020-10-03T22:53:51Z">October  3, 2020</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:26:44+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S69643">
+              <persName>Cooper, William F.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S68817">
+              <persName>Cherry, George K.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S69644">
+              <persName>Cooper, William</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S70460">
+              <persName>Morrison, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S69650">
+              <persName>Jones, W. W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S70462">
+              <persName>Champernois?, J.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S68826">
+              <persName>Price, Allen</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S69651">
+              <persName>Dunlap, D. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S68822">
+              <persName>Unknown, J. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S68823">
+              <persName>Avera, John W.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S68825">
+              <persName>Gatlin, E.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S72975">
+              <placeName>Mississippi--Clarke County. Shubuta</placeName>
+                <idno>https://en.wikipedia.org/wiki/Shubuta,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS72975P0'>Located in Clarke County, Shubuta was founded in the 1830s and incorporated in 1865. (Wikipedia; Rowland, <hi rend='italic'>Mississippi</hi>, 664; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>31.86083, -88.70056</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001328'>
+<catDesc>Commerce &amp; Trade</catDesc>
+          <category xml:id='S32121869'>
+            <catDesc>
+              <term>Mercantile Agencies</term>
+              <idno>https://www.merriam-webster.com/dictionary/mercantile%20agency</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001328'>Commerce &amp; Trade</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32121869P0'>"The agency of a factor who in the customary course of his business has authority binding on his principal to buy or to sell goods, to consign goods for sale, or to raise money by pledging goods." (Merriam-Webster Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63926'>
+            <catDesc>
+              <term>Crimes (alleged)--Murder</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/murder?q=Murder</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63926P0'>"The crime of intentionally killing a person." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S63934'>
+            <catDesc>
+              <term>Judges</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/judge</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63934P0'>"A person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63172'>
+            <catDesc>
+              <term>Judges. Justices of the Peace</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/justice-of-the-peace</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63172P0'>"A public officer who judges local and less important legal cases, and performs marriage ceremonies." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63395'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/court?topic=law-courts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63395P0'>"A place where trials and other legal cases happen, or the people present in such a place." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63440'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems--Criminal Juries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/jury</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63440P0'>"A group of people who have been chosen to listen to the facts in a court action and decide whether a person is guilty or not guilty or whether a claim has been proved." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+          <category xml:id='S63177'>
+            <catDesc>
+              <term>Fugitives from Justice</term>
+              <idno>https://en.wikipedia.org/wiki/Fugitive</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63177P0'>The term "fugitive from justice" is defined broadly and covers a multiplicity of experiences under U.S. law, but refers most often to "a person who is fleeing from custody, whether it be from jail, a government arrest, government or non-government questioning, vigilante violence, or outraged private individuals" (Wikipedia). Slightly different than the above definition, a fugitive from justice may also be defined as "a person formally charged with a crime or a convicted criminal whose punishment has not yet been determined or fully served who is currently beyond the custody or control" of the party, be it local, national, or international, interested in their arrest (Wikipedia). In the nineteenth-century United States, fugitive status varied widely based on race. Many white people considered "fugitives from justice" were most often the latter definition, being those charged with or convicted of crimes who then fled across other state lines to try and evade punishment or trial. However, throughout American history up to Emancipation, fugitive status was given to escaped enslaved African Americans under the Fugitive Slave Laws of 1793 and later 1850. These laws also required anyone in the nation to apprehend self-emancipated enslaved people and return them to their owners. The term "fugitives from justice" therefore became another legal mechanism by which enslavers sought to control the movements and freedoms of the enslaved, while contributing heavily to the increasing sectionalism that would lead to the American Civil War (Britannica). To learn more about enslaved people who emancipations themselves and were labeled fugitives, see the "Emancipation and self-emancipation" subject tag under Events.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S63262'>
+            <catDesc>
+              <term>Death</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/death</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63262P0'>While the Cambridge Dictionary defines death as “the end of life,” CWRGM employs this subject tag to refer to human deaths only, both actual and hypothetical. (Cambridge Dictionary)
+</p>
+
+<p xml:id='OTPSD63262P1'>The nation experienced mass loss of life (approximately 2% of the population) during the American Civil War, which changed the way Americans viewed death and resulted in its reconceptualization in highly bureaucratized ways. Often wartime dead were buried without their names and sometimes in poorly-dug graves, which created a powerful, profound social and cultural dislocation for their surviving loved ones. During the 19th century, Americans understood dying as a social and religious experience, and desired a "good death," which they defined as at home surrounded by family, but these ideals were unattainable in war. Consequently, Americans learned to cope with death and memorialize it in new ways. Unionists encouraged the federal government and ex-Confederates pushed their respective state governments to create and fund national cemeteries, rebury deceases soldiers and veterans, and establish veterans' and widows' pensions. These new responses to death were more bureaucratized, nationalistic, and secularized. Wartime and post-war death was also highly impacted by race, as white supremacists desecrated the graves of Union buried in the South, especially the bodies of African Americans who served in U.S. Colored Troops and the white officers that led them, revealing post-war sectionalism and strains on reconciliation. (Drew Gilpin Faust, <hi rend='italic'>This Republic of Suffering</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25003265'>
+            <catDesc>
+              <term>Wounds and Injuries</term>
+              <idno>https://www.civilwarmed.org/surgeons-call/amputation1/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25003265P0'>Medical treatment of wounds and injuries during the nineteenth century was fairly primitive, and not substantially different than medical practices over the preceding few centuries. Doctors had little knowledge of bacteria, and therefore did not understand the importance of washing hands or sterilizing medical instruments when treating open wounds. Physicians learned that some substances seemed to aid recovery, such as iodine and bromine, but their properties were more mystery than scientifically understood. Additionally, antibiotics had not yet been discovered. As a result, even minor cuts could become infected and lead to severe disability or death.
+</p>
+
+<p xml:id='OTPSD25003265P1'>During the Civil War, more than 475,000 soldiers were wounded in battle.  Thousands more suffered injuries in camp or on the march.  Medical care for wounded and injured soldiers typically involved closing wounds and setting broken bones. After suturing or bandaging these injuries, physicians would carefully observe their patients and try to offer some medical support, but recovery most often depended upon the wounded man’s natural healing. Some medical practices had unintended consequences, both positive and negative. Horsehair proved to be a popular material for sutures, due to its length and strength. To improve its elasticity, Civil War doctors boiled the horsehair, thereby disinfecting it. Wounds stitched closed with boiled horsehair were less likely to grow infected from the sutures, although this benefit was not fully understood until after the war. On the other hand, physicians probing for bullets or foreign objects inside a wound often introduced more bacteria and generated worse infections than the patient may have experienced without the procedure. This practice continued well after the Civil War, and likely contributed to President James Garfield’s death in 1881, when doctors repeatedly used unsterilized fingers and instruments while searching for the assassin’s bullet lodged in his body.
+</p>
+
+<p xml:id='OTPSD25003265P2'>Doctors understood the danger of blood loss to wounded men, but devices such as the Petit Tourniquet—a French screw-tightened tourniquet designed in 1718—were typically found at a surgeon’s tent rather than with the soldiers along the front lines. Some physicians recommended supplying tourniquets among the soldiers, but others suggested much simpler practices, such as each soldier carrying a handkerchief or cloth strip and a six-inch long piece of wood in his pocket to function as a makeshift tourniquet. These life-saving practices were not mandated among Union and Confederate armies, though, and many wounded men died of blood loss before reaching medical help.
+</p>
+
+<p xml:id='OTPSD25003265P3'>The most iconic treatment of battlefield wounds during the Civil War was amputation. Most casualties during the war were caused by musket fire. The large caliber lead balls often shattered bones upon impact. Unable to splint or repair bones so damaged, physicians frequently chose to amputate the wounded person’s limb above the injury. Doctors typically sewed a flap of skin over the stump. Unfortunately, due to the high incidents of infection for reasons described above, amputated limbs often became infected. Gangrene was among the most dangerous conditions, which could lead to death. The only method of combatting gangrene was to perform another amputation further up the limb (if possible) and hope it healed properly. Confederate and Union physicians performed around 50,000 amputations during the Civil War. Contrary to some popular myths, anesthesia, such as chloroform and ether, was in use during the Civil War, and around 95% of wounded soldiers were afforded some comfort before amputation.
+</p>
+
+<p xml:id='OTPSD25003265P4'>Hundreds of thousands of soldiers returned home from the Civil War with scars or permanent disabilities from wartime wounds and injuries. The large number of amputees also led to new developments in prosthetics. Lessons learned from the war improved medical care a bit, as Union and Confederate doctors recorded their observations of wounds and treatments. Published reports provided a new wealth of information. However, only after scientists better understood microbes and accepted the Germ Theory in the late nineteenth and early twentieth century did medical practice substantially improve from the Civil War era practices. (Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 41–50; Terry Reimer, “Wounds, Ammunition, and Amputation,” National Museum of Civil War Medicine; Paige Gibbons Backus, “Amputation and the Civil War,” American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1860</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Cooper, William</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1860-10-23</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from William Cooper in Shubuta, Mississippi, to Mississippi Governor John J. Pettus enclosing jury inquest findings on the murder of William F. Cooper by George Cherry.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 10&quot; letter.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Shubuta (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-930-08-26</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Clarke County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 930, Folder 8</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Mississippi. Governor; Murder; Pettus, John Jones, 1813-1867; Prisoners; Trials (Murder)</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from William Cooper to Mississippi Governor John J. Pettus; October 23, 1860</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/872&quot;&gt;Letter from William Cooper to Mississippi Governor John J. Pettus; October 23, 1860&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG64" who="U220769" when="2024-09-16T18:14:04Z" target="#P1502828">
+          Version 25 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG63" who="U220769" when="2024-09-16T18:10:27Z" target="#P1502828">
+          Version 24 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG62" who="U220769" when="2024-03-06T15:18:19Z" target="#P1502826">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG61" who="U220769" when="2024-01-30T17:08:30Z" target="#P1502828">
+          Version 23 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG60" who="U220769" when="2023-11-17T17:30:20Z" target="#P1502828">
+          Version 22 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG59" who="U220769" when="2023-11-02T04:29:14Z" target="#P1502828">
+          Version 21 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG58" who="U220769" when="2023-11-02T04:13:55Z" target="#P1502826">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG57" who="U220769" when="2023-11-01T22:27:54Z" target="#P1502826">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG56" who="U220769" when="2023-09-03T00:37:01Z" target="#P1502828">
+          Version 20 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG55" who="U220769" when="2023-09-02T20:15:00Z" target="#P1502826">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG54" who="U220769" when="2023-04-04T18:33:53Z" target="#P1502828">
+          Version 19 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG53" who="U220769" when="2023-04-04T18:33:31Z" target="#P1502826">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG52" who="U220769" when="2023-03-19T21:42:07Z" target="#P1502828">
+          Version 18 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG51" who="U220769" when="2023-03-19T21:01:45Z" target="#P1502826">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG50" who="U220769" when="2023-03-18T21:12:44Z" target="#P1502828">
+          Version 17 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG49" who="U220769" when="2023-03-17T23:13:37Z" target="#P1502826">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG48" who="U220769" when="2023-03-16T19:58:52Z" target="#P1502828">
+          Version 16 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG47" who="U220769" when="2023-03-06T03:38:29Z" target="#P1502828">
+          Version 15 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U220769" when="2022-12-04T00:43:57Z" target="#P1502826">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U220769" when="2021-10-28T02:51:43Z" target="#P1502828">
+          Version 14 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U220769" when="2021-05-21T16:14:20Z" target="#P1502828">
+          Version 13 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U220769" when="2021-05-13T16:39:37Z" target="#P1502826">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2021-05-13T16:38:39Z" target="#P1502826">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2021-05-03T17:24:44Z" target="#P1502826">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2021-03-12T21:29:09Z" target="#P1502826">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2021-02-02T19:46:15Z" target="#P1502828">
+          Version 12 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2020-10-29T18:32:48Z" target="#P1502826">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2020-10-25T17:38:11Z" target="#P1502826">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2020-10-20T19:27:24Z" target="#P1502828">
+          Version 11 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2020-10-20T19:23:40Z" target="#P1502826">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2020-10-20T17:13:08Z" target="#P1502826">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2020-10-20T16:54:42Z" target="#P1502826">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2020-10-20T16:21:25Z" target="#P1502826">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2020-10-20T16:09:56Z" target="#P1502828">
+          Version 10 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2020-10-20T16:02:39Z" target="#P1502828">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2020-10-08T17:03:51Z" target="#P1502829">
+          Version 5 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2020-10-08T17:03:12Z" target="#P1502828">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2020-10-08T16:58:47Z" target="#P1502827">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2020-10-08T16:57:47Z" target="#P1502826">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U217868" when="2020-10-03T22:53:51Z" target="#P1502826">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U217868" when="2020-10-03T22:06:55Z" target="#P1502829">
+          Version 4 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U217868" when="2020-10-03T22:05:59Z" target="#P1502828">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U217868" when="2020-10-03T22:05:41Z" target="#P1502828">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U217868" when="2020-10-03T22:04:10Z" target="#P1502828">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U217868" when="2020-10-03T21:50:39Z" target="#P1502827">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U217868" when="2020-10-03T21:47:37Z" target="#P1502826">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U217816" when="2020-09-28T14:31:45Z" target="#P1502829">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U217816" when="2020-09-28T14:31:40Z" target="#P1502829">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U217816" when="2020-09-28T14:29:13Z" target="#P1502828">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U217816" when="2020-09-28T14:28:58Z" target="#P1502828">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U217816" when="2020-09-28T14:28:02Z" target="#P1502828">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U217816" when="2020-09-28T13:59:30Z" target="#P1502827">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U217816" when="2020-09-28T13:59:25Z" target="#P1502827">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U217816" when="2020-09-28T13:52:33Z" target="#P1502826">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U217816" when="2020-09-28T13:52:10Z" target="#P1502826">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U217816" when="2020-09-28T00:19:01Z" target="#P1502826">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U217816" when="2020-09-27T23:58:14Z" target="#P1502826">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U215567" when="2020-09-23T13:55:22Z" target="#P1502829">
+          Version 1 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG6" who="U215567" when="2020-09-23T13:55:22Z" target="#P1502828">
+          Version 1 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG5" who="U215567" when="2020-09-23T13:55:21Z" target="#P1502827">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG4" who="U215567" when="2020-09-23T13:55:21Z" target="#P1502826">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2020-09-23T13:55:17Z" target="#P1502829">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2020-09-23T13:55:17Z" target="#P1502828">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2020-09-23T13:55:16Z" target="#P1502827">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2020-09-23T13:55:16Z" target="#P1502826">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1502826" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/868/full/full/0/default.jpg"/>
+        <div xml:id="OTP1502826">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1502826P0' xml:id='OTP1502826P0'><rs ref='#S72975'>Shubuta</rs> miss<add place='above'>i</add><lb/>
+Oct 23<hi rend='underline'><add place='above'>rd</add></hi> 1860
+</p>
+
+<p corresp='TTP1502826P1' xml:id='OTP1502826P1'>To his Excellency the Governor of the State of Mississippi—
+</p>
+
+<p corresp='TTP1502826P2' xml:id='OTP1502826P2'>Sir
+</p>
+
+<p corresp='TTP1502826P3' xml:id='OTP1502826P3'>Enclosed I send you the returns of the<rs ref='#S63440'> Jury</rs> of inquest held over the body of <rs ref='#S69643'>W<hi rend='underline'><add place='above'>m</add></hi> F. Cooper</rs>, showing that he came to his <rs ref='#S63262'>death</rs> by a <rs ref='#S25003265'>wound</rs> received at the hands of <rs ref='#S68817'>George K Cherry</rs>. Said Cherry has made his <rs ref='#S63177'>escape</rs>, so that a legal process cannot be served on him, &amp; I have to request that your Ellency will take such steps in the matter as may seem proper to you for the purpose of bringing this said Cherry to Justice—
+</p>
+
+<p corresp='TTP1502826P4' xml:id='OTP1502826P4'>I am Sir<lb/>
+Very Respectfully<lb/>
+your obet Svnt
+</p>
+
+<p corresp='TTP1502826P5' xml:id='OTP1502826P5'><rs ref='#S69644'>W <hi rend='underline'><add place='above'>m</add></hi> Cooper</rs>
+</p>
+
+<p corresp='TTP1502826P6' xml:id='OTP1502826P6'>Turn over for Discription
+</p>
+
+
+        </div>
+        <pb xml:id="F1502827" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/869/full/full/0/default.jpg"/>
+        <div xml:id="OTP1502827">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1502827P0' xml:id='OTP1502827P0'>Said George K. Cherry is a heavy Set man about five and a half ^feet^ high light hair &amp; light complection blue eyes and a down cast look and has the appearance of a man that drinks a good deal of ardent spirits (as he does) about thirty to thirty five years old Speaks severally low and guttural
+</p>
+
+
+        </div>
+        <pb xml:id="F1502828" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/870/full/full/0/default.jpg"/>
+        <div xml:id="OTP1502828">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP1502828P0' xml:id='OTP1502828P0'>We, the jury Declare that William F Cooper came to his Death by <rs ref='#S63926'>murder</rs> on the morning of the 21<add place='above'>st</add> October 1860 in the town of Shubuta Clark County—in the State of Mississippi near Mr <rs ref='#S70460'>Morrisson's</rs> <rs ref='#S32121869'>Store</rs> on the East side Thereof, by a wound given by the hand of George K Cherry with a Dirk knife, Taking effect—on the left side about ^the^ 3<hi rend='underline'>rd</hi> or 4<hi rend='underline'><add place='above'>th</add></hi> rib.
+</p>
+
+<p corresp='TTP1502828P1' xml:id='OTP1502828P1'>Penetrating to the hallow, Thereby Causing Death [gap] October 21<hi rend='underline'><add place='above'>st</add></hi>1860
+</p>
+
+<p corresp='TTP1502828P2' xml:id='OTP1502828P2'><rs ref='#S69650'>W W Jones</rs><lb/>
+<rs ref='#S70462'>J Champernois?</rs><lb/>
+<rs ref='#S68826'>Allen Price</rs><lb/>
+<rs ref='#S69651'>D. M Dunlap</rs><lb/>
+<rs ref='#S68822'>J. M. unknown</rs><lb/>
+<rs ref='#S68823'>J<hi rend='underline'><add place='above'>n</add></hi> W Avera</rs>
+</p>
+
+<p corresp='TTP1502828P3' xml:id='OTP1502828P3'>I hereby certify that the above is a True copy of a verDict—of a ^of Inquest^ Jury held over the body of William F Cooper by me, a <rs ref='#S63172'>Justice of the Peace</rs>, on the 21<hi rend='underline'>st</hi> Oct. A D 1860.
+</p>
+
+<p corresp='TTP1502828P4' xml:id='OTP1502828P4'>Given under my hand and seal, this Oct. 23<hi rend='underline'><add place='above'>rd</add></hi> AD 1860<lb/>
+<rs ref='#S68825'>E Gatlin</rs> [seal]<lb/>
+Justice of the Peace Clark County<lb/>
+Mississippi
+</p>
+
+
+        </div>
+        <pb xml:id="F1502829" n="4" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/871/full/full/0/default.jpg"/>
+        <div xml:id="OTP1502829">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP1502829P0' xml:id='OTP1502829P0'>W<add place='above'>m</add> Cooper<lb/>
+Proclamation offered on the 19<add place='above'>th</add> Day of Nov. A D 1860.
+</p>
+
+<p corresp='TTP1502829P1' xml:id='OTP1502829P1'>And<lb/>
+Requisition Issued <lb/>
+on the 21<add place='above'>st</add> inst:
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

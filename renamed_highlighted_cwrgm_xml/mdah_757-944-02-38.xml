@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from W. M. Hancock to Mississippi Governor John J. Pettus; February 22, 1863</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 7 edits between
+              <date type="first_edit" when="2022-12-04T16:26:18Z">December  4, 2022</date> and
+              <date type="last_edit" when="2023-11-17T18:14:35Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U215767">
+          <persName
+              type="pseudonym"
+            >
+            lucas.somers
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2021-07-27T15:47:41Z">July 27, 2021</date> and
+              <date type="last_edit" when="2021-07-27T15:49:14Z">July 27, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-07-21T19:42:49Z">July 21, 2021</date> and
+              <date type="last_edit" when="2021-07-21T19:44:53Z">July 21, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-07-23T21:34:35Z">July 23, 2021</date> and
+              <date type="last_edit" when="2021-07-23T21:35:50Z">July 23, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-30T02:18:44Z">October 30, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32029872">
+          <persName
+            >
+            Ruth Poe White, PH.D.
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2025-02-06T16:13:13Z">February  6, 2025</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32020358">
+          <persName
+            >
+            Elisabeth Kluin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2025-03-15T01:33:44Z">March 15, 2025</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T15:30:19Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:21:55+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S83299">
+              <persName>Moody, C. W. (Charles Wesley), 1821-1886</persName>
+                <idno>https://www.findagrave.com/memorial/73489066/charles-wesley-moody</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS83299P0'>Charles Wesley Moody was a merchant, Circuit and Probate Court Clerk, sheriff, and Confederate soldier.
+</p>
+
+<p xml:id='OTPS83299P1'>Born on September 15, 1821 in Clarke County, Mississippi, Moody was the sheriff in Clarke County, by 1844. In 1845, he was elected as the Circuit and Probate Court Clerk for the county, and he held these positions simultaneously at least through 1860. He remained a Probate Clerk through 1865. By 1850, he was also the enslaver of at least five people and was listed as a merchant on the U.S. Census Record. During the Civil War, he also enlisted, ending the war with a rank of Sergeant in the 37th Mississippi Infantry.
+</p>
+
+<p xml:id='OTPS83299P2'>Moody was married to Sarah Ann (Blakeney) Moody, with whom he had six children. Moody died on August 7, 1886 in Clarke County, Mississippi and was buried in the Moody Cemetery in DeSoto, Clarke County.
+</p>
+
+<p xml:id='OTPS83299P3'>(FindaGrave; <hi rend='italic'>Southern Reformer</hi>, November 15, 1845; <hi rend='italic'>The Weekly Mississippian</hi>, April 8, 1846; <hi rend='italic'>The Weekly Mississippi</hi>, November 7, 1860; Petition to Mississippi Governor William L. Sharkey, 1865, Civil War &amp; Reconstruction Governors of Mississippi, mdah_771-955-09-03; <hi rend='italic'>U.S. Federal Census - Slave Schedules</hi>, Clarke County, Mississippi, 1850; Census Record for Clarke County, Mississippi, 1850)
+</p>
+
+<p xml:id='OTPS83299P4'>Charles Wesley Moody belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S25016282">
+              <persName>Levy, Thomas</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S76701">
+              <persName>Hancock, William M., 1820-1891</persName>
+                <idno>https://en.wikipedia.org/wiki/William_M._Hancock</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS76701P0'>William Mitchell Hancock was an attorney, judge, politician, and postmaster in Mississippi during the nineteenth century.
+</p>
+
+<p xml:id='OTPS76701P1'>Born in 1820 in Clarke County, Mississippi, Hancock studied law and became a practicing attorney in the 1840s. He was active in Democratic politics in Mississippi in the 1850s, and was prominent enough by the end of that decade to be mentioned as a possible candidate for governor. He also served as a circuit court judge in southeast Mississippi. During the Civil War, he conducted public speeches in favor of financial policies, such as the cotton loan, to fund the Confederate war effort.
+</p>
+
+<p xml:id='OTPS76701P2'>Following the war, Hancock became a Republican and in favor of Reconstruction policies. He received a great deal of criticism from former Confederates and white conservatives, who accused him of changing political allegiances for personal gain. He served in the Mississippi legislature in the 1870s, including a stint as president pro-tem in the Mississippi Senate. Hancock also served as revenue collector and the postmaster of Meridian.  Hancock died on March 8, 1891. He was married twice, first to Josephine Lilly, who passed away in 1865. He later married Mary Jane West. He had at least two children. Hancock is buried in Odd Fellows Cemetery in Quitman, Mississippi.
+</p>
+
+<p xml:id='OTPS76701P3'>(FindaGrave; Wikipedia; <hi rend='italic'>Southern Reformer</hi>, Jackson, MS, October 26, 1844; <hi rend='italic'>The Weekly Mississippian</hi>, Jackson, MS, March 18, 1853; <hi rend='italic'>Mississippi Free Trader</hi>, Natchez, MS, February 28, 1859; <hi rend='italic'>The Eastern Clarion</hi>, Paulding, MS, July 26, 1861; <hi rend='italic'>The Oxford Falcon</hi>, Oxford, MS, August 8, 1868; <hi rend='italic'>The Vicksburg Herald</hi>, Vicksburg, MS, June 12, 1868; <hi rend='italic'>The Natchez Bulletin</hi>, Natchez, MS, July 9, 1869)
+</p>
+
+<p xml:id='OTPS76701P4'>William M. Hancock belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S63264">
+              <placeName>Mississippi--Clarke County. Quitman</placeName>
+                <idno>https://en.wikipedia.org/wiki/Quitman,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63264P0'>Located in Clarke County, Quitman was founded in 1839 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.04306, -88.72083</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S25009736'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Military Service Exemption</term>
+              <idno>https://perma.cc/54WJ-7G6Q</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25009736P0'>By 1862 the initial waves of men who enlisted into Confederate military service diminished as enthusiasm for the war diminished, and both the Union and Confederacy enacted drafts to fill their armies. Nearly one year before the Union (March 1863), the Confederacy instituted a national draft in April 1862. There were important social implications to this policy, especially within the exemptions the Union and Confederacy provided. Similar to the Union, the Confederate act allowed drafted men to hire substitutes to serve in their place (often lower-class men willing to serve for much-needed income) and excused men from military service for medical reasons, "workers deemed necessary to maintain society," including select government employees. And unlike the Union, beginning in October 1862, men who enslaved a minimum of twenty (later fifteen) people were exempt.
+</p>
+
+<p xml:id='OTPSD25009736P1'>The Twenty-Slave Law exemption was a reaction to President Abraham Lincoln's recent announcement of the<lb/>
+Emancipation Proclamation. While many southern whites worried about enslaved people uprising with so many white men away at war, these policies cultivated a feeling among impoverished people that they were doing the majority of fighting and suffering for a “rich man's war.” Scholars like Joseph Glathaar proved this was not the case in Robert E. Lee's Army of Northern Virginia where the wealthy were overrepresented compared with impoverished soldiers, but it is unclear if this was the case in areas like Mississippi, and the perception of unfair protections for the wealthy fueled resentment. (William Marvel, "A Poor Man's Fight," National Park Service) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001148'>
+<catDesc>State Level: USA &amp; CSA Military</catDesc>
+          <category xml:id='S63200'>
+            <catDesc>
+              <term>Mississippi. Militia</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63200P0'>A militia is a military unit made up of civilians within a community who could be called up by local (often state) officials to serve temporary military purposes. Militias were separate from regular, or permanent, armies. Because they conducted training only periodically, and provided active military service for short periods of time, militias cost less than regular armies; and because they were manned by local residents, militias were frequently seen as less threatening to early American communities than national military units comprised of strange men born in other counties or states.
+</p>
+
+<p xml:id='OTPSD63200P1'>When Mississippi seceded in 1861, enthusiasm for military service swept across the state. Volunteers filled the ranks of old militia units or created new companies within their communities, eager to repulse any federal attempt to coerce secessionists back into the Union. They also took proactive efforts, securing key positions along the Gulf Coast, including reinforcing other Southern soldiers at Pensacola and Fort Pickens in Florida. Over the next few months, as the Confederate government requested more volunteers, thousands of Mississippians and entire volunteer companies from the state transferred to Confederate service and were sent north, out of state. The units that remained within Mississippi for state defense were left in a convoluted military structure, some considered state reserves (a more formal military force for state defense) and some considered state militia (the more traditional units of citizen-soldiers called up for local, emergency use). The distinctions were not well established, and during the war Mississippians describing state units not within the Confederate army used a variety of terms—such as militia, home guard, state troops—almost interchangeably. However, under this subject tag at CWRGM you will find references to the militia and state troops; references that specifically referred to the home guard can be found separately under the Mississippi Home Guard subject tag.
+</p>
+
+<p xml:id='OTPSD63200P2'>While militia and state defense units technically fell under the governor’s authority, the state government struggled to manage, or even track, these organizations. Some, like the Third Battalion Mississippi Minute Men, were well organized, fell under direct state control, and took part in larger military operations, such as the defense of Vicksburg; others saw no combat, rarely gathered for drill, and were entirely overseen by county or local community officials. Most militia members were older than the average Confederate soldier. They were typically farmers, business owners, or land owners who had families and, in many instances, slaves. Because of these responsibilities at home, militiamen expected their military duties to be periodic, temporary, and only during times of emergency, a reflection of the militia’s original intent. However, state officials occasionally activated militia units for long periods, based upon the military situation. In the summer of 1862, Mississippi’s governor, John J. Pettus, mobilized his state troops, pulling many militia units away from their communities. Held in camp for several weeks, drilling but not seeing combat, many militiamen complained of their treatment and argued that their services were needed more at home, managing farms and their communities. Despite these complaints, the governor mobilized the state troops again in 1864, and again met criticism.
+</p>
+
+<p xml:id='OTPSD63200P3'>Overall, Mississippi’s militia and state defense system during the Civil War was a complicated tangle of formal and informal military units. Infrequently used for combat assignments, these units nevertheless provided some emergency services for the state government and allowed many Mississippians a way to provide military service to the community while remaining at home to manage personal and local interests. (Tracy L. Barnett, “Mississippi ‘Milish’: Militiamen in the Civil War,” <hi rend='italic'>Civil War History</hi>, Vol. 66, No. 4 (Dec 2020), 343-379; Michael B. Ballard, <hi rend='italic'>The Civil War in Mississippi: Major Campaigns and Battles</hi>, 4-8)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001676'>
+<catDesc>Service &amp; Retail Occupations</catDesc>
+          <category xml:id='S63426'>
+            <catDesc>
+              <term>Tailors</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/tailor</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001676'>Service &amp; Retail Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63426P0'>"Someone whose job is to make, repair, and adjust clothes." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for the project provided by the National Historical Publications and Records Commission of the National Archives and the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1863</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Hancock, W. M.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1863-02-22</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from W. M. Hancock in Quitman, Mississippi, to Mississippi Governor John J. Pettus, asking that Thomas Long, a tailor, be excused from Confederate military service.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 6&quot; x 9&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Quitman (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-944-02-38</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Clarke County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>A. J. Blaylock; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 944, Folder 2</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Exemption (Law); Mississippi. Governor; Pettus, John Jones, 1813-1867; Tailors</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from W. M. Hancock to Mississippi Governor John J. Pettus; February 22, 1863</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/8577&quot;&gt;Letter from W. M. Hancock to Mississippi Governor John J. Pettus; February 22, 1863&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG22" who="U32020358" when="2025-03-15T01:33:44Z" target="#P25105397">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U32029872" when="2025-02-06T16:13:13Z" target="#P25105397">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U32019810" when="2024-10-30T02:18:44Z" target="#P25105397">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U2" when="2024-10-25T15:30:19Z" target="#P25105398">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-11-17T18:14:35Z" target="#P25105397">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2023-09-02T20:05:36Z" target="#P25105397">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-04-04T18:41:21Z" target="#P25105397">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-18T21:44:57Z" target="#P25105398">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-18T21:13:04Z" target="#P25105397">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-18T16:34:12Z" target="#P25105397">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2022-12-04T16:26:18Z" target="#P25105397">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U215767" when="2021-07-27T15:49:14Z" target="#P25105398">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U215767" when="2021-07-27T15:48:54Z" target="#P25105398">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U215767" when="2021-07-27T15:48:26Z" target="#P25105398">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U215767" when="2021-07-27T15:47:41Z" target="#P25105397">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U217868" when="2021-07-23T21:35:50Z" target="#P25105398">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U217868" when="2021-07-23T21:35:23Z" target="#P25105398">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U217868" when="2021-07-23T21:34:35Z" target="#P25105397">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U226410" when="2021-07-21T19:44:53Z" target="#P25105398">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U226410" when="2021-07-21T19:42:49Z" target="#P25105397">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U226410" when="2021-07-21T19:42:50Z" target="#P25105397">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-07-02T15:23:59Z" target="#P25105398">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-07-02T15:23:54Z" target="#P25105397">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25105397" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8575/full/full/0/default.jpg"/>
+        <div xml:id="OTP25105397">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25105397P0' xml:id='OTP25105397P0'><rs ref='#S63264'>Quitman</rs> Mi<lb/>
+Feb 22rd 1863
+</p>
+
+<p corresp='TTP25105397P1' xml:id='OTP25105397P1'>To his Excellency<lb/>
+<rs ref='#S63111'>John J Pettus</rs>
+</p>
+
+<p corresp='TTP25105397P2' xml:id='OTP25105397P2'>Mr <rs ref='#S83299'>Charles W Moody</rs>, will present you a petition in be=half of <rs ref='#S25016282'>Thomas Levy</rs> of this place, petitioning your excellency to <rs ref='#S25009736'>excuse</rs> ^him^ from the <rs ref='#S63200'>Militia Service</rs> of this State on account of his being a <rs ref='#S63426'>taylor</rs>; Mr Levy, is an honest &amp; worthy citizen; and has during the war, been of great service to the volunteers of this county, in working for them: and is still servicable in this respect; &amp; consequently I write to you on his behalf
+</p>
+
+<p corresp='TTP25105397P3' xml:id='OTP25105397P3'>Respectfully
+</p>
+
+<p corresp='TTP25105397P4' xml:id='OTP25105397P4'><rs ref='#S76701'>W<add place='above'>m</add> M Hancock</rs>
+</p>
+
+
+        </div>
+        <pb xml:id="F25105398" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8576/full/full/0/default.jpg"/>
+        <div xml:id="OTP25105398">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25105398P0' xml:id='OTP25105398P0'>[seal]
+</p>
+
+<p corresp='TTP25105398P1' xml:id='OTP25105398P1'>Hon W, M, Hancock<lb/>
+Quitman<lb/>
+Miss
+</p>
+
+<p corresp='TTP25105398P2' xml:id='OTP25105398P2'>His Excellency J J Pettus<lb/>
+<rs ref='#S51785'>Jackson</rs><lb/>
+Miss 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

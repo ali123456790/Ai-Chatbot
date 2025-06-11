@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from R. R. Fitzhugh to Mississippi Governor John J. Pettus; July 1, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 28 edits between
+              <date type="first_edit" when="2021-08-04T18:06:44Z">August  4, 2021</date> and
+              <date type="last_edit" when="2023-11-17T18:28:13Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U216441">
+          <persName
+            >
+            Robin Horne
+            </persName>
+            <resp>
+              made 19 edits between
+              <date type="first_edit" when="2021-07-05T21:26:44Z">July  5, 2021</date> and
+              <date type="last_edit" when="2021-07-05T23:29:47Z">July  5, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U215767">
+          <persName
+              type="pseudonym"
+            >
+            lucas.somers
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2021-07-07T19:22:19Z">July  7, 2021</date> and
+              <date type="last_edit" when="2021-07-07T19:46:57Z">July  7, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-07-05T23:10:22Z">July  5, 2021</date> and
+              <date type="last_edit" when="2021-07-05T23:10:36Z">July  5, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32020358">
+          <persName
+            >
+            Elisabeth Kluin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2025-03-15T01:27:10Z">March 15, 2025</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U216441">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Robin Horne</name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:13:19+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S25013737">
+              <persName>Fitzhugh, R. R.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S52439">
+              <persName>Johnson, Andrew, 1808-1875</persName>
+                <idno>https://en.wikipedia.org/wiki/Andrew_Johnson</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52439P0'>Andrew Johnson was vice president under Abraham Lincoln during the Civil War and served as president, following Lincoln’s assassination, during the first three years of Reconstruction.
+</p>
+
+<p xml:id='OTPS52439P1'>Born on December 29, 1808, in Raleigh, North Carolina, Johnson came from a poor family and was sent by his parents to apprentice in a tailor’s shop. Gaining a basic education from his coworkers and customers, Johnson eventually ran away from Raleigh before his apprenticeship obligation was completed and lived in Alabama and Tennessee. He established a successful tailor shop in Greeneville, Tennessee, earning enough money to purchase property and improve his education. He also began purchasing slaves, ultimately owning ten enslaved people before the Civil War.
+</p>
+
+<p xml:id='OTPS52439P2'>Johnson became interested in politics in Tennessee and developed great skill as a stump speaker. He was elected mayor of Greeneville in 1834 and then won a seat in the Tennessee House of Representatives. Initially a Whig, Johnson joined the Democratic Party and gained strong party support. He improved his political standing by serving in the Tennessee militia, rising to the rank of colonel. In the early 1840s, he won election to the United States House of Representatives, serving in that body until 1853, when he became governor of Tennessee. He served two terms and then successfully ran for the United States Senate in 1856.
+</p>
+
+<p xml:id='OTPS52439P3'>During the secession crisis and the outbreak of the Civil War in 1861, Johnson remained loyal to the Union. He faced harsh criticism from other Tennesseans, and was the only member of a seceded state to stay in the Senate. He was unable to return home during Congressional recesses during the war. In 1862, when his term as senator ended, Lincoln appointed Johnson military governor of Tennessee. He accepted the position and the rank of brigadier general, but faced retribution from Confederates in Tennessee who confiscated his land and property. As the war progressed, Johnson increasingly supported Republican efforts against slavery, including the Emancipation Proclamation. <lb/>
+During the 1864 presidential campaign, Lincoln selected Johnson as his vice presidential candidate to draw in southern Unionist and War Democrat support. They won the election, but Lincoln was assassinated in April 1865, only a few weeks after the inauguration, leaving Johnson to assume the presidency. Taking the executive office in the final days of the Civil War, Johnson began to enact his vision of Reconstruction of the southern states. He advocated for a rapid restoration of the Union and offered amnesty to most former Confederates. Johnson made exceptions for higher ranking Confederate officials, and required them to personally petition for pardons. He was less supportive of former slaves, and began to draw criticism from Republicans. In late 1865, states like Mississippi established highly restrictive laws, nicknamed Black Codes, against African Americans, drawing the ire of many northern Republicans. When Radical Republicans passed legislation designed to protect the rights of freed people, Johnson vetoed it, causing an even greater split between Congress and the president.
+</p>
+
+<p xml:id='OTPS52439P4'>By 1866, Johnson’s popularity in the north had dropped significantly. Radical Republicans won electoral victories and in 1867 implemented stricter Reconstruction policies, placing the former Confederate states under military rule. When Johnson dismissed Secretary of War Edwin M. Stanton over policy disagreements, Republicans in Congress impeached him. He barely survived conviction in the United States Senate in 1868, but his political influence had essentially ended. The Republican Party chose Civil War hero Ulysses S. Grant as its next presidential candidate, and Johnson returned to Tennessee when his term ended in 1869.
+</p>
+
+<p xml:id='OTPS52439P5'>Although unpopular in the north, Johnson was welcomed home in Tennessee by residents who appreciated his political battle against Radical Republicans in Washington, D.C. He won an election to the United States Senate in 1875, but served only a few weeks before dying of a stroke on July 31, 1875. He was married to Eliza McCardle and had five children. Johnson is buried in Greeneville, Tennessee.
+</p>
+
+<p xml:id='OTPS52439P6'>(Wikipedia; The White House; FindaGrave)
+</p>
+
+<p xml:id='OTPS52439P7'>Andrew Johnson belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S86861">
+              <persName>Etheridge, Henry Emerson, 1819-1902</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S48994">
+              <persName>Pillow, Gideon Johnson, 1806-1878</persName>
+                <idno>https://en.wikipedia.org/wiki/Gideon_Johnson_Pillow</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS48994P0'>Gideon Johnson Pillow was a general in the U.S. Army during the Mexican-American War and later served as a general for the Confederate States of America.
+</p>
+
+<p xml:id='OTPS48994P1'>Born June 8, 1806, in Williamson County, Tennessee, Pillow grew up in Tennessee and graduated from the University of Nashville in 1827. He entered the legal profession in Columbia, Tennessee, becoming partners with future-president James K. Polk. In the early 1830s, Pillow’s public standing increased as he received an appointment as a district attorney general in Tennessee and received a commission as a brigadier general in the Tennessee Militia. His future was further boosted by the election of his friend James K. Polk as U.S. president in 1844.
+</p>
+
+<p xml:id='OTPS48994P2'>When the Mexican-American War broke out in 1846, Polk appointed Pillow a brigadier general. He led troops in several battles, and was wounded at both Cerro Gordo and Chapultepec. Pillow was promoted to major general in 1847, but soon ran into conflict with Major General Winfield Scott when the latter accused Pillow exaggerating his role at various engagements—a charge supported by the fact that Pillow likely wrote an anonymous letter to a New Orleans newspaper crediting himself with the American battle victories at Contreras and Churubusco. When Scott arrested Pillow for insubordination and violating military regulations, Pillow wrote to President Polk with accusations that Scott had tried to bribe Mexican leader Antonio Lopez de Santa Anna to end the war. In response, Polk relieved Scott of command of U.S. forces in Mexico in February 1848. The matter was eventually settled with Pillow’s charges dropped and Scott reinstated as general-in-chief of the army, but critics of Pillow—including Scott—argued that he was self-serving and willing to lie for personal gain.
+</p>
+
+<p xml:id='OTPS48994P3'>Pillow returned to Tennessee after the Mexican-American War and became involved in politics during the 1850s. He attended the 1850 Nashville Convention, which was a meeting among southern leaders to discuss possible responses if the federal government prohibited slavery in territories won from Mexico in the recent war. Some delegates proposed secession, but Pillow and a majority of the other attendees opposed disunion and supported a compromise with the north. Pillow was active in Democratic politics, unsuccessfully vying to be a vice presidential candidate in 1852 and 1856, as well as a failed bid to secure a seat in the U.S. Senate.
+</p>
+
+<p xml:id='OTPS48994P4'>Pillow supported Tennessee when the state declared itself seceded from the Union at the outbreak of the Civil War. He received a commission as a major general in the state’s militia, and then in July 1861 received an appointment as brigadier general in the Confederate army. In September 1861, under orders from Major General Leonidas Polk, Pillow led Confederate troops into Kentucky as an effort to secure that state for the Confederacy. The move proved to be a monumental blunder, as the Kentucky government and many of its citizens saw the incursion as an assault upon their state’s neutrality, thereby securing Kentucky for the Union.
+</p>
+
+<p xml:id='OTPS48994P5'>Pillow gained some fame in the Confederacy following the Battle of Belmont in December 1861, when his force held off an attack by Ulysses S. Grant. He was then placed in command of Confederate troops at Fort Donelson in February 1862, where he led a successful attack to break out of the fort before Grant’s entire force could surround it. Despite achieving that initial objective, Pillow inexplicably withdrew his soldiers for resupply, allowing Union forces to close the gap. With defeat inevitable, Pillow passed command of the fort to a subordinate and escaped before the Confederates surrendered.
+</p>
+
+<p xml:id='OTPS48994P6'>The events at Fort Donelson marred Pillow’s reputation, and he was briefly suspended from command by Confederate president Jefferson Davis. However, in December 1862, Pillow received another chance at command when he was placed in charge of a brigade within the Army of Tennessee under General Braxton Bragg. During the Battle of Murfreesboro, December 31, 1862 to January 3, 1863, Pillow reportedly hid behind a tree while his brigade participated in an assault. Receiving criticism for his performance, Pillow was removed from field command and placed in charge of recruiting and conscription for the Army of Tennessee. During the final months of the war he served as Commissary General of Prisoners, before surrendering to Union forces in April 1865.
+</p>
+
+<p xml:id='OTPS48994P7'>Pillow, who had been one of the wealthiest landowners in Tennessee in 1860, was bankrupt after the war. He rebuilt some of his wealth with a successful law practice in Memphis with former Tennessee governor Isham G. Harris. He died of yellow fever on October 8, 1878, in Arkansas. Pillow had been married twice, first to Mary Martin (who died in 1869) and then to Mary Eliza Dickson (who was forty years his junior). Pillow had eleven children with his first wife and three with his second wife. Pillow is buried in Elmwood Cemetery in Memphis, Tennessee.
+</p>
+
+<p xml:id='OTPS48994P8'>(Wikipedia; FindaGrave; American Battlefield Trust)
+</p>
+
+<p xml:id='OTPS48994P9'>Gideon Johnson Pillow belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S25013736">
+              <persName>Murdaugh, James M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25013735">
+              <persName>Ferguson, Carroll</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S86912">
+              <placeName>Mississippi--Tishomingo County. Burnsville</placeName>
+                <idno>https://en.wikipedia.org/wiki/Burnsville,_Mississippi </idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS86912P0'>Located in Tishomingo County, Burnsville was established in 1832. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.84056, -88.31472</geo>
+                </note>
+            </place>
+            <place xml:id="S63147">
+              <placeName>Tennessee--Shelby County. Memphis</placeName>
+                <idno>https://www.britannica.com/place/Memphis-Tennessee</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63147P0'>Located in Shelby County, Memphis was founded in 1819 and serves as the county seat. (Britannica; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>35.1175, -89.97111</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S99666'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Invasions</term>
+              <idno>https://en.wikipedia.org/wiki/American_Civil_War</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99666P0'>In warfare, an army moving into an enemy’s home territory is often described as an invasion. During the American Civil War, most examples of military forces moving into enemy territory involved Union armies advancing into Confederate states. Some of these incursions were temporary, such as small cavalry raids to destroy Confederate supplies and even larger campaigns behind Confederate lines to harm Southern infrastructure (such as William T. Sherman’s “March Through Georgia”). However, Union victory in the Civil War depended upon the United States Army conducting offensive operations and occupying large portions of the South. These efforts split apart the Confederacy, placed secessionist communities back under federal control, and reduced the Confederate armies’ ability to wage war. Pro-secessionist Southerners considered these efforts to be federal invasions, and described communities captured by Union armies as being overrun. However, pro-Union Southerners cheered the arrival of Union soldiers, considering them liberators rather than invaders.
+</p>
+
+<p xml:id='OTPSD99666P1'>Although the Confederacy fought a defensive war, Southern military forces occasionally conducted incursions into northern communities. Robert E. Lee’s Maryland Campaign in 1862 (which culminated in the Battle of Antietam on September 17, 1862) was seen by many Marylanders as an invasion of their state. His second offensive campaign into the North, in the summer of 1863, was widely reported in the Northern press as a Confederate invasion of Pennsylvania. That campaign ultimately resulted in the Confederate defeat at the Battle of Gettysburg. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S68643'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Military Elections</term>
+              <idno> https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD68643P0'>Military elections were a common practice within volunteer and militia units of both the Union and Confederacy during the Civil War, a tradition with its roots going back to the Revolutionary War. These elections took place at the company and regimental levels. Company officers were elected by the unit’s soldiers, and in turn, these company officers elected the regiment’s Colonel, Lt. Colonel, and Majors. Officially, Governors had the authority to appoint a Colonel to command a regiment but usually deferred to the officer elected by the regiment's men. Often, these elections put men without military experience or otherwise unqualified to lead their units into battle with disastrous outcomes. Also, junior officers found it difficult to enforce military discipline as they were beholden to the soldiers for their position, which they could be voted out of.
+</p>
+
+<p xml:id='OTPSD68643P1'>Union and Confederate authorities sought to limit the detrimental effects of these officer elections. On July 22, 1861, the day after the Union loss at the First Battle of Bull Run, the United States Congress authorized an examination board for officers. Many were deemed unfit and removed, while others resigned. The Confederate Congress established a similar board on October 13, 1862. Military elections continued during the war but to a lesser extent due to government oversight on both sides. They eventually ended in favor of ensuring qualified officers were put in command positions. (James M. McPherson, <hi rend='italic'>Battle Cry of Freedom: The Civil War Era</hi>; <hi rend='italic'>Public Laws of the Confederate States of America</hi>, 1862 Public Laws, S2, 85-87; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25009156'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Recruiting and enlistment</term>
+              <idno>https://encyclopediaofarkansas.net/entries/civil-war-recruitment-6391/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25009156P0'>At the outbreak of the American Civil War in 1861, neither the Union nor the Confederate army struggled to find recruits. Rather, both armies saw far more volunteers than their ranks and provisions could sustain. Many young men of the North and South believed that the war would end quickly and volunteered by the thousands to not miss out on the action. Other motivators for rapid enlistment included a sense of adventure, defense of slavery or the privileges of whiteness, defense of the Union, fear of ostracism in their home communities for not enlisting, or a desire to protect their homes and families.
+</p>
+
+<p xml:id='OTPSD25009156P1'>Widespread enlistment required both the United States and Confederate governments to reshape their militaries that were otherwise unprepared to handle that many recruits. The U.S. possessed only a small standing army of 16,000 men before the war, and the Confederacy needed to build its own from scratch. Both therefore relied heavily on local recruiting to organize men into militia companies then employable in the federal service. Recruiters throughout the war published pamphlets, put up posters, and gave speeches to encourage men to fight.
+</p>
+
+<p xml:id='OTPSD25009156P2'>As the war continued, dreams of a short war ended along with many men's desires to enlist. Both armies (the Confederacy in 1862 and the Union in 1863) resorted to conscription to fill their ranks. Free African Americans, particularly in the North, debated the utility and wisdom of fighting for the United States even after being legally allowed to do so in 1863. Many formerly enslaved African-American men yearned to fight for their own freedom, while others doubted that military service in the Civil War would accomplish their desired goals of emancipation and equality. However, prominent African Americans such as Frederick Douglass encouraged Black men to take up arms, and roughly 200,000 did so.
+</p>
+
+<p xml:id='OTPSD25009156P3'>Ultimately, men enlisted during the Civil War for many reasons, often tied to demographic or personal causes, and, as the war progressed and varied in its popularity and aims, recruiters' tactics likewise changed to adapt to each new situation. (Encyclopedia of Arkansas)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001150'>
+<catDesc>Political Events</catDesc>
+          <category xml:id='S95151'>
+            <catDesc>
+              <term>Political Elections</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/election?q=elections</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001150'>Political Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95151P0'>"A time when people vote in order to choose someone for a political or official job." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+          <category xml:id='S25006301'>
+            <catDesc>
+              <term>Under Review</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C25000149'>Military Units</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25006301P0'>We are currently working hard to identify this military unit/organization and hope to have more details for you soon. If you have information, please contact us at cwrgmproject@gmail.com
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S94627'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 26th</term>
+              <idno>https://www.google.com/books/edition/The_Official_and_Statistical_Register_of/wMoGAQAAIAAJ?q=&amp;gbpv=1&amp;bsq=twenty-sixth%20regiment%20infantry#f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD94627P0'>The 26th Regiment, Mississippi Infantry (Confederate) was organized in summer 1861 in Tishomingo County, Mississippi under the command of Col. Arthur E. Reynolds and served in the Trans-Mississippi Theater General under Tilghman's and Adams' Brigades in the Department of Mississippi and East Louisiana. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 25; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 502-507; National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001148'>
+<catDesc>State Level: USA &amp; CSA Military</catDesc>
+          <category xml:id='S63200'>
+            <catDesc>
+              <term>Mississippi. Militia</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63200P0'>A militia is a military unit made up of civilians within a community who could be called up by local (often state) officials to serve temporary military purposes. Militias were separate from regular, or permanent, armies. Because they conducted training only periodically, and provided active military service for short periods of time, militias cost less than regular armies; and because they were manned by local residents, militias were frequently seen as less threatening to early American communities than national military units comprised of strange men born in other counties or states.
+</p>
+
+<p xml:id='OTPSD63200P1'>When Mississippi seceded in 1861, enthusiasm for military service swept across the state. Volunteers filled the ranks of old militia units or created new companies within their communities, eager to repulse any federal attempt to coerce secessionists back into the Union. They also took proactive efforts, securing key positions along the Gulf Coast, including reinforcing other Southern soldiers at Pensacola and Fort Pickens in Florida. Over the next few months, as the Confederate government requested more volunteers, thousands of Mississippians and entire volunteer companies from the state transferred to Confederate service and were sent north, out of state. The units that remained within Mississippi for state defense were left in a convoluted military structure, some considered state reserves (a more formal military force for state defense) and some considered state militia (the more traditional units of citizen-soldiers called up for local, emergency use). The distinctions were not well established, and during the war Mississippians describing state units not within the Confederate army used a variety of terms—such as militia, home guard, state troops—almost interchangeably. However, under this subject tag at CWRGM you will find references to the militia and state troops; references that specifically referred to the home guard can be found separately under the Mississippi Home Guard subject tag.
+</p>
+
+<p xml:id='OTPSD63200P2'>While militia and state defense units technically fell under the governor’s authority, the state government struggled to manage, or even track, these organizations. Some, like the Third Battalion Mississippi Minute Men, were well organized, fell under direct state control, and took part in larger military operations, such as the defense of Vicksburg; others saw no combat, rarely gathered for drill, and were entirely overseen by county or local community officials. Most militia members were older than the average Confederate soldier. They were typically farmers, business owners, or land owners who had families and, in many instances, slaves. Because of these responsibilities at home, militiamen expected their military duties to be periodic, temporary, and only during times of emergency, a reflection of the militia’s original intent. However, state officials occasionally activated militia units for long periods, based upon the military situation. In the summer of 1862, Mississippi’s governor, John J. Pettus, mobilized his state troops, pulling many militia units away from their communities. Held in camp for several weeks, drilling but not seeing combat, many militiamen complained of their treatment and argued that their services were needed more at home, managing farms and their communities. Despite these complaints, the governor mobilized the state troops again in 1864, and again met criticism.
+</p>
+
+<p xml:id='OTPSD63200P3'>Overall, Mississippi’s militia and state defense system during the Civil War was a complicated tangle of formal and informal military units. Infrequently used for combat assignments, these units nevertheless provided some emergency services for the state government and allowed many Mississippians a way to provide military service to the community while remaining at home to manage personal and local interests. (Tracy L. Barnett, “Mississippi ‘Milish’: Militiamen in the Civil War,” <hi rend='italic'>Civil War History</hi>, Vol. 66, No. 4 (Dec 2020), 343-379; Michael B. Ballard, <hi rend='italic'>The Civil War in Mississippi: Major Campaigns and Battles</hi>, 4-8)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32035056'>
+            <catDesc>
+              <term>Mississippi. Militia. Cavalry Battalion, 2nd (Harris&#39;)</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32035056P0'>The 2nd Battalion Cavalry, Mississippi Militia (Confederate), also known as Harris' Battalion, was organized in the fall of 1863 in northeast Mississippi under the command of Maj. Thomas W. Harris and served in the Western Theater. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 38; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 922; FamilySearch)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S63150'>
+            <catDesc>
+              <term>Abolitionists</term>
+              <idno>https://en.wikipedia.org/wiki/Abolitionism_in_the_United_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63150P0'>An abolitionist was "a person who supported an end to slavery" (Cambridge Dictionary). While abolitionists certainly inhabited the United States in the late-eighteenth century, particularly the Quakers in Pennsylvania, both their number and social prominence increased dramatically in the nineteenth century. Abolitionists could be either white or Black, immigrant or native-born, and from all social classes and walks of life. This diversity of ranks led to a diversity of approaches and goals that were also subject to change over time.
+</p>
+
+<p xml:id='OTPSD63150P1'>The earliest American abolitionists rooted their calls for ending slavery in the evangelical Protestantism and reform efforts that expanded in the early nineteenth-century U. S., arguing that the enslavement of other human beings contradicted both Christian doctrine and the ideals of the Constitution. However, many of these early abolitionists (largely white) supported colonization, or sending the enslaved to Africa, as the aim of ending enslavement.
+</p>
+
+<p xml:id='OTPSD63150P2'>However, the abolitionist movement in the U. S. altered dramatically in the 1830s with the founding of William Lloyd Garrison's The Liberator (1831) and the American Anti-Slavery Society (1833) both in New England. Abolitionists like Garrison and the formerly-enslaved Frederick Douglass began more frequently to demand immediate emancipation and equality within the United States. The expansion of both cheap printing and reform efforts across the nation greatly shaped abolitionists work, as they printed innumerable pamphlets, books, newspapers, and speeches to spread their influence. Concentrated heavily in New England, abolitionism became one of the major issues in the growing sectional crisis of the antebellum era, pitting abolitionists of the North against enslavers of the South.
+</p>
+
+<p xml:id='OTPSD63150P3'>From the 1830s until the Civil War in the early 1860s, abolitionism became increasingly radical, causing southern slaveholders to fear their influence on enslaved uprisings like that of Nat Turner in 1831 or John Brown's attempted raid on Harper's Ferry in 1859. Abolitionists also often disagreed internally on leadership roles between Black and white men and, more controversially, the roles of women in their organizations and the degree to which women's rights should be an equally prominent feature of abolitionism. While many abolitionists disagreed on specific methods, they nonetheless continued to agitate for emancipation until the passage of the 13th Amendment legally ended chattel slavery in the U. S. in 1865. Most abolitionists and their organizations dwindled after, yet many antebellum abolitionists became leading advocates for equal rights for African Americans throughout the late-nineteenth century as well (Wikipedia).  
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S71099'>
+            <catDesc>
+              <term>Secessionists</term>
+              <idno>https://www.historynet.com/secession/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71099P0'>The tag "Secessionists" refer to those Americans who supported leaving the Union and establishing an independent Confederate nation. States both North and South had threatened to secede from the United States throughout the nation's history, particularly in New England in 1814 and South Carolina in 1832. However, building tensions between abolitionists and enslavers in the North and South saw an increase in the frequency and fervor of secession threats emanating from southern states in the 1850s. The election of Republican Abraham Lincoln to the presidency in November 1860 provided the impetus many states needed to justify secession. Citing perceived threats to the institution of chattel slavery, on December 20, 1860, South Carolina left the Union, followed by six more lower-South states (Georgia, Florida, Alabama, Mississippi, Texas and Louisiana) over the next four months.
+</p>
+
+<p xml:id='OTPSD71099P1'>After the Confederate attack on Fort Sumter on April 12, 1861, and Abraham Lincoln's call for 75,000 volunteers to put down the rebellion on April 15, four more states from the upper-south (Virginia, Arkansas, North Carolina, and Tennessee) seceded. Throughout the war, politicians and military commanders argued fiercely over the constitutionality of secession and debated whether the Confederate states had indeed seceded or instead remained in the Union, though in rebellion. While the fighting of the Civil War functionally ended the Confederacy's effort at secession, the question of those states' status remained an important one for shaping the prosecution of the war and the process of Reconstruction thereafter (HistoryNet).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Fitzhugh, R. R.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-07-01</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from R. R. Fitzhugh at Burnsville, Mississippi, to Mississippi Governor John J. Pettus concerning the raising of a home guard unit to fight against Unionists in Tennessee.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Burnsville (Miss.); Tennessee</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-932-10-18</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Tishomingo County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 932, Folder 10</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Mississippi. Governor; Mississippi. Militia; Pettus, John Jones, 1813-1867; Unionists (United States Civil War)</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from R. R. Fitzhugh to Mississippi Governor John J. Pettus; July 1, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/8072&quot;&gt;Letter from R. R. Fitzhugh to Mississippi Governor John J. Pettus; July 1, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG58" who="U32020358" when="2025-03-15T01:27:10Z" target="#P25100258">
+          Version 14 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG57" who="U220769" when="2023-11-17T18:28:13Z" target="#P25100259">
+          Version 12 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG56" who="U220769" when="2023-11-17T18:05:44Z" target="#P25100259">
+          Version 11 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG55" who="U220769" when="2023-11-17T17:58:30Z" target="#P25100258">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG54" who="U220769" when="2023-11-02T04:01:01Z" target="#P25100257">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG53" who="U220769" when="2023-09-02T20:27:54Z" target="#P25100257">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG52" who="U220769" when="2023-09-02T20:23:06Z" target="#P25100258">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG51" who="U220769" when="2023-09-02T20:12:13Z" target="#P25100259">
+          Version 10 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG50" who="U220769" when="2023-09-02T20:00:29Z" target="#P25100258">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG49" who="U220769" when="2023-09-02T19:59:45Z" target="#P25100259">
+          Version 9 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG48" who="U220769" when="2023-04-09T16:25:06Z" target="#P25100257">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG47" who="U220769" when="2023-03-30T16:16:19Z" target="#P25100257">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U220769" when="2023-03-18T03:21:16Z" target="#P25100257">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U220769" when="2023-03-17T22:45:55Z" target="#P25100257">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U220769" when="2023-03-06T04:47:12Z" target="#P25100257">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U220769" when="2023-03-06T04:43:26Z" target="#P25100258">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U220769" when="2022-12-04T17:24:03Z" target="#P25100259">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2022-12-04T16:18:23Z" target="#P25100258">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2022-12-04T15:47:23Z" target="#P25100259">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2022-06-12T19:59:41Z" target="#P25100257">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2022-06-09T19:17:31Z" target="#P25100257">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2022-06-09T19:16:07Z" target="#P25100257">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2022-06-09T19:12:00Z" target="#P25100258">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2022-06-09T19:04:50Z" target="#P25100257">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2022-01-08T20:38:56Z" target="#P25100257">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2021-08-04T18:18:46Z" target="#P25100260">
+          Version 9 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2021-08-04T18:14:19Z" target="#P25100259">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2021-08-04T18:10:30Z" target="#P25100258">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2021-08-04T18:06:44Z" target="#P25100257">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U215767" when="2021-07-07T19:46:57Z" target="#P25100260">
+          Version 8 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U215767" when="2021-07-07T19:41:32Z" target="#P25100259">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U215767" when="2021-07-07T19:32:45Z" target="#P25100258">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U215767" when="2021-07-07T19:24:29Z" target="#P25100258">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U215767" when="2021-07-07T19:22:19Z" target="#P25100257">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U216441" when="2021-07-05T23:29:47Z" target="#P25100260">
+          Version 7 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U216441" when="2021-07-05T23:29:40Z" target="#P25100260">
+          Version 6 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U216441" when="2021-07-05T23:26:56Z" target="#P25100260">
+          Version 5 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U216441" when="2021-07-05T23:17:24Z" target="#P25100260">
+          Version 4 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U226410" when="2021-07-05T23:10:36Z" target="#P25100260">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U226410" when="2021-07-05T23:10:22Z" target="#P25100260">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U216441" when="2021-07-05T22:18:37Z" target="#P25100260">
+          Version 1 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U216441" when="2021-07-05T22:13:46Z" target="#P25100259">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U216441" when="2021-07-05T22:13:22Z" target="#P25100259">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U216441" when="2021-07-05T22:11:25Z" target="#P25100259">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U216441" when="2021-07-05T22:06:19Z" target="#P25100259">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U216441" when="2021-07-05T22:01:27Z" target="#P25100258">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U216441" when="2021-07-05T22:01:02Z" target="#P25100258">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U216441" when="2021-07-05T21:57:28Z" target="#P25100258">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U216441" when="2021-07-05T21:51:03Z" target="#P25100258">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U216441" when="2021-07-05T21:40:45Z" target="#P25100257">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U216441" when="2021-07-05T21:40:37Z" target="#P25100257">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U216441" when="2021-07-05T21:35:51Z" target="#P25100257">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U216441" when="2021-07-05T21:33:53Z" target="#P25100257">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U216441" when="2021-07-05T21:33:19Z" target="#P25100257">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U216441" when="2021-07-05T21:26:44Z" target="#P25100257">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U215567" when="2021-06-29T23:40:41Z" target="#P25100260">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-06-29T23:40:38Z" target="#P25100259">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-06-29T23:40:35Z" target="#P25100258">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-06-29T23:40:31Z" target="#P25100257">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25100257" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8068/full/full/0/default.jpg"/>
+        <div xml:id="OTP25100257">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25100257P0' xml:id='OTP25100257P0'>[seal]
+</p>
+
+<p corresp='TTP25100257P1' xml:id='OTP25100257P1'><rs ref='#S86912'>Burnsville</rs> Miss <lb/>
+July 1' 1861
+</p>
+
+<p corresp='TTP25100257P2' xml:id='OTP25100257P2'>To Your Excellency <lb/>
+<rs ref='#S63111'>John. J. Pettus</rs><lb/>
+Gov Miss <lb/>
+<hr/>
+</p>
+
+<p corresp='TTP25100257P3' xml:id='OTP25100257P3'>My Dear Sir
+</p>
+
+<p corresp='TTP25100257P4' xml:id='OTP25100257P4'>I take the Liberty of addressing you on a subject that I think is of some importance to the state namely. The <rs ref='#S94627'>Home guards</rs> of this Place, There are two companies being organized here the <rs ref='#S25006301'>Southern Rebels</rs> &amp; Home Guards &amp; applying to you for arms. I will give you a short history of them: There was a company at this Place termed the Home Guards &amp; on Friday the 7' inst the day before the <rs ref='#S95151'>Election</rs> in Tennessee they the Home Guards were applied to for assistance by the <rs ref='#S71099'>cecession Party</rs> of Tennessee at a voting Precinct adjoining this place for the purpose of Preventing a company of Red mouthed <rs ref='#S52439'>Johnson</rs> &amp; <rs ref='#S86861'>Ethridge</rs> men controlling their Ballot Box &amp; Preven=ting a fair &amp; open vote being Polled we immediately Telegraped to Gen<add place='above'>l</add> <rs ref='#S48994'>Pillow</rs> of <rs ref='#S63147'>Memphis</rs> for arms &amp; stated why we wanted them
+</p>
+
+
+        </div>
+        <pb xml:id="F25100258" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8069/full/full/0/default.jpg"/>
+        <div xml:id="OTP25100258">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25100258P0' xml:id='OTP25100258P0'>He Promptly responded to our call &amp; sent us that night Fifty stand of arms &amp; ammunition &amp; all those who get Horses next day about thirty in number started over to Tennessee about Fifteen miles distant The Capt of the Home Guards Headed the company A few miles this side our desti=nation we rcd word that the <rs ref='#S63150'>abolitionists</rs> were there in some force &amp; that their Leader was ma=king an abolitionist speech &amp; a difficulty was apprehended our Capt &amp; one or two other members of the Home Guard immediately thought it very wrong to cross the State Line &amp; absolutely refused to do so after some delay &amp; a considerable amt of Parleying the Majority of the <rs ref='#S32035056'>company</rs> refused to be controlled by him <rs ref='#S68643'>Elected</rs> another Captain [one?] <rs ref='#S25013735'>Carroll Ferguson</rs> &amp; Proceded on to their destination marched up to the cecession Flag which they had threatened to Pull down cheered it Gave countenance &amp; support to the cecession citizens who commensed voting &amp; all went off right on their re=turn they met the Gallant few that remained behind &amp; what was their excuse Do you think for not Proceding: Why as they themselves stated, They were <hi rend='underline'>afraid</hi>
+</p>
+
+
+        </div>
+        <pb xml:id="F25100259" n="3" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8070/full/full/0/default.jpg"/>
+        <div xml:id="OTP25100259">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP25100259P0' xml:id='OTP25100259P0'>that by going on they would certainly get into a difficulty The very thing we were attempting to keep down &amp; sent to Memphis for arms for. And now one of those Gallant Few that remained is elected captain of this opposition company. I will go on Farther to state that we think it is more than Probable that Memphis will be attacked sooner or later &amp; that we are in Four-Hours travel of it &amp; that it is inconvenient for all of us to Leave Permanently our homes but that we might <rs ref='#S25009156'>organize a compa=ny</rs> of 100 men &amp; hold them in readiness to assist in repelling the <rs ref='#S99666'>invaders</rs> should they attempt to attack Memphis or some contiguous Point But we want an effective company &amp; one that will not <hi rend='underline'>Hesitate</hi> to cross the State line when they expect a difficulty. consequently we organized the Southern Rebels Elected our officers <rs ref='#S25013736'>James Murdaugh</rs> for Captain who was Lieutenant in the old Home Guards &amp; who went to Tennessee but who did not hesitate to cross the state line because a difficulty was ahead. The Captain who is Elected in this other company The Home Guard is one of the gallant few that was too conscientious &amp; Law abiding to cross the line &amp; their Lieutenant was
+</p>
+
+
+        </div>
+        <pb xml:id="F25100260" n="4" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8071/full/full/0/default.jpg"/>
+        <div xml:id="OTP25100260">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP25100260P0' xml:id='OTP25100260P0'>a member of the Southern Rebels wanted office in it did not get it &amp; is now attempting to get up—this opposition company Their Capt was also a member of the Southern Rebels but did not get office, They say they ar organizing by your orders I Believe if both compa=nies ar organized that it will Produce difficulties render both companies ineffectual &amp; finally break up Both, In organizing the Southern Rebels our purpose &amp; motives were entirely Patriotic &amp; from a desire to assist our country in this <del rend='overstrike'>[?]</del> of need. we think a company at this Place can be of signal benefit ow=ing to its Location. I am a member of it, a Private, Am willing to clothe myself &amp; give my services Gratis to the state if we are needed for the Purposes men-tioned Provided you will arm us give our officers commissions that they may be effective &amp; com=mand obedience The Place is not large enough for two companies &amp; if you intend recognising both companies I believe you will serve the community by not recognising either Yours most Respectfully
+</p>
+
+<p corresp='TTP25100260P1' xml:id='OTP25100260P1'><rs ref='#S25013737'>R. R. Fitzhugh</rs>
+</p>
+
+<p corresp='TTP25100260P2' xml:id='OTP25100260P2'>R R Fitzhugh <lb/>
+July 1<add place='above'>st</add> 1861
+</p>
+
+<p corresp='TTP25100260P3' xml:id='OTP25100260P3'>can not furnis<add place='above'>h</add> arms
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

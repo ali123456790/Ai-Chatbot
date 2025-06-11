@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Evans, Smith, and Fewell to Mississippi Governor Ridgley C. Powers; August 4, 1873</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U32020358">
+          <persName
+            >
+            Elisabeth Kluin
+            </persName>
+            <resp>
+              made 27 edits between
+              <date type="first_edit" when="2024-03-17T21:40:28Z">March 17, 2024</date> and
+              <date type="last_edit" when="2024-03-17T22:44:37Z">March 17, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32011493">
+          <persName
+            >
+            Amiracle Funches
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2024-04-21T04:23:44Z">April 21, 2024</date> and
+              <date type="last_edit" when="2024-04-21T04:28:29Z">April 21, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2024-02-23T17:21:25Z">February 23, 2024</date> and
+              <date type="last_edit" when="2024-02-23T17:48:43Z">February 23, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2024-10-25T13:18:41Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T17:54:49Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32017648">
+          <persName
+            >
+            Mariah Cosens
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-07-09T19:23:23Z">July  9, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-13T20:45:05Z">October 13, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T16:29:19+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32133501">
+              <persName>Brame, W. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25016474">
+              <persName>Wells, J. M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32133498">
+              <persName>Smith, John William</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32124857">
+              <persName>Fewell, John Woodbury</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32057087">
+              <persName>Powers, Ridgley Ceylon, 1836-1912</persName>
+                <idno>https://en.wikipedia.org/wiki/Ridgley_C._Powers</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32057087P0'>Ridgley C. Powers served as governor of Mississippi from 1871 to 1874.
+</p>
+
+<p xml:id='OTPS32057087P1'>Born in Mecca, Ohio, on December 24, 1836, Powers was raised and educated in the north. In 1862, after receiving a degree from the University of Michigan, and conducting graduate work at Union College in New York, Powers enlisted in the Union Army for service during the Civil War. He was promoted to second lieutenant and then captain in the 125th Ohio Infantry Regiment and saw action in Tennessee and Georgia. By the time the Civil War ended in 1865, Powers had achieved the rank of colonel.
+</p>
+
+<p xml:id='OTPS32057087P2'>Upon separating from the military, Powers settled in Mississippi. He purchased land and began a cotton plantation. He soon became a public figure, serving as sheriff in Noxubee County. By 1868, Powers had gained status in Mississippi’s Republican Party, and was elected lieutenant governor in 1869. Although he was a “carpet bagger” (northerner who settled in the south during Reconstruction), Powers was generally respected by white Mississippians. This was in contrast to Governor James Alcorn, a northern by birth, but who was considered a “scalawag” since he had lived in Mississippi since the 1840s and had served in the Confederacy before joining the Republican Party. When Alcorn resigned the governor’s office in 1871 to take a seat in the U.S. Senate, Powers assumed the state’s executive office. He became active in promoting Mississippi’s economic development and independence, advocating crop variety and lesser dependence upon imported goods. Despite his efforts to maintain a stable political and economic environment in Mississippi, a rift grew among Republicans that led to competing party nominations for governor in 1873. Alcorn was nominated by the more conservative wing of Republicans against Adelbert Ames, former Union general and military governor, who was backed by the radicals. Ames won the election and took the governor’s seat in 1874.
+</p>
+
+<p xml:id='OTPS32057087P3'>In 1875, shortly after leaving office, Powers married Louisa Born. The couple had one child who died in infancy. They moved to Arizona, but Louisa suffered from a mysterious medical condition and began traveling across the United States and Europe for treatment. She passed away in New York in 1882 after undergoing surgery. Powers later remarried (to Mary Wilson) and moved to California. He spent the rest of his life as a rancher and businessman at Los Angeles. He died on November 11, 1912, and is buried in Angelus Rosedale Cemetery in Los Angeles, California.
+</p>
+
+<p xml:id='OTPS32057087P4'>(Wikipedia; Mississippi Encyclopedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS32057087P5'>Ridgley Ceylon Powers belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32133499">
+              <persName>Harrison, Ennis</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32133500">
+              <persName>Overstreet, J. J.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S100200">
+              <persName>Evans, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32077064">
+              <persName>Junkermann, Julius, 1841-1883</persName>
+                <idno>https://www.findagrave.com/memorial/23812043/julius-junkerman</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32077064P0'>Julius Junkermann was a Republican public figure and private secretary to a governor in Reconstruction Mississippi.
+</p>
+
+<p xml:id='OTPS32077064P1'>Born on November 14, 1841, in Dusseldorf, Germany, Junkermann moved to the United States in 1860, settling in New Orleans, Louisiana. When the Civil War broke out the following year, he was forced into Confederate service. He reportedly deserted the Confederate army at the Battle of Corinth, Mississippi, and fled to Union lines, where he volunteered for service. He enlisted in the Forty-third Illinois Infantry Regiment and served in the Union army for the rest of the war.
+</p>
+
+<p xml:id='OTPS32077064P2'>Junkermann resided in Mississippi after the war and was active in Republican Party politics. He married Clara Eggleston, the daughter of Brevet (honorary) Brigadier General Beroth B. Eggleston, a Union officer originally who helped establish the Republican Party in Mississippi during Reconstruction and unsuccessfully ran for governor of the state in the late 1860s. Junkermann and his wife had one daughter.
+</p>
+
+<p xml:id='OTPS32077064P3'>Junkermann served as Superintendent of Public Education in Washington County, Mississippi, in the early 1870s before becoming Governor Ridgley Powers’s private secretary in 1872. He was commissioned as Quartermaster General, at the rank of brigadier general, in the Mississippi State Militia in January 1872 and served a wide variety of public offices over the next several years, including circuit court clerk in Washington County and U.S. deputy tax collector in Jackson, Mississippi. Junkermann was also nominated for Mississippi state legislature in 1875, but does not appear to have won.
+</p>
+
+<p xml:id='OTPS32077064P4'>Junkermann, his wife, and much of his wife’s family, moved to Kansas around 1879, after Reconstruction had ended in the south. He edited a German-language newspaper in Kansas and served as justice of the peace for several years. In the early 1880s, Junkermann experienced unspecified health problems. He traveled to Colorado for treatment in 1883, but his condition worsened and he returned home only a few days later and died on June 1, 1883, in Wichita, Kansas. He is buried in Highland Cemetery in Wichita, Kansas.
+</p>
+
+<p xml:id='OTPS32077064P5'>(FindaGrave; <hi rend='italic'>New Orleans Republican</hi>, New Orleans, LA, December 8, 1870; <hi rend='italic'>The Clarion-Ledger</hi>, Jackson, MS, January 11, 1872; <hi rend='italic'>Daily Mississippi Pilot</hi>, Jackson, MS, October 7, 1875; (<hi rend='italic'>Register of Officers and Agents, Divil, Military, and Naval, in the Service of the United States on the Thirtieth of September 1877,</hi>, 77; <hi rend='italic'>Journal of the Senate of the State of Mississippi, 1873</hi>, 548; Beroth B. Eggleston, Sedgwick County KSGenWeb; <hi rend='italic'>The Wichita Weekly Beacon</hi>, Wichita, KS, June 6, 1883)
+</p>
+
+<p xml:id='OTPS32077064P6'>Julius Junkermann belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S69542">
+              <placeName>Mississippi--Jasper County. Paulding</placeName>
+                <idno>https://en.wikipedia.org/wiki/Paulding,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS69542P0'>Located in Jasper County, Paulding was founded in 1833 and serves as a co-county seat. Paulding is an unincorporated area that is not governed by a local municipal body. (Wikipedia; Mississippi Encyclopedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.03083, -89.0375</geo>
+                </note>
+            </place>
+            <place xml:id="S52728">
+              <placeName>Mississippi--Lauderdale County. Meridian</placeName>
+                <idno>https://www.britannica.com/place/Meridian-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52728P0'>Located in Lauderdale County, Meridian was founded in 1854 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.37472, -88.70417</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S63234">
+              <placeName>Mississippi--Jasper County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/jasper-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63234P0'>Located in southeast Mississippi, Jasper County was established on December 23, 1833 from Jones and Wayne counties. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.03, -89.12</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001335'>
+<catDesc>Legal Services</catDesc>
+          <category xml:id='S32023075'>
+            <catDesc>
+              <term>Law Offices</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/law-firm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001335'>Legal Services</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32023075P0'>"A business that employs lawyers to represent clients or argue in court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32137965'>
+            <catDesc>
+              <term>Law Offices--Smith &amp; Fewell, Attorneys and Solicitors (Meridian, Miss.)</term>
+              <idno>https://chroniclingamerica.loc.gov/lccn/sn83045232/1876-02-09/ed-1/seq-3/#date1=1860&amp;index=16&amp;rows=20&amp;words=Fewell+Smith&amp;searchType=basic&amp;sequence=0&amp;state=Mississippi&amp;date2=1880&amp;proxtext=Smith+%26+Fewell&amp;y=0&amp;x=0&amp;dateFilterType=yearRange&amp;page=1</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001335'>Legal Services</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.3643, -88.7037</geo>
+              </note>
+              <gloss><p xml:id='OTPSD32137965P0'>Located in Meridian, Mississippi, Smith &amp; Fewell, Attorneys and Solicitors was a law firm operated by John William Smith and John Woodbury Fewell from roughly 1871 until about 1876. (<hi rend='italic'>The Vicksburg Daily Times</hi>, August 10, 1871; <hi rend='italic'>The Daily Clarion</hi>, February 9, 1876)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32022894'>
+            <catDesc>
+              <term>Crimes (alleged)--Intent to Kill</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/malice?q=malice+aforethought</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32022894P0'>A crime defined as "the intention to do something wrong and esp. to cause injury" by causing "someone or something to die." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32130507'>
+            <catDesc>
+              <term>Crimes (alleged)--Leaving the Scene of an Accident or Crime</term>
+              <idno>https://en.wikipedia.org/wiki/Crime_scene_getaway</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32130507P0'>In many legal systems, leaving the scene of a crime or accident is a crime itself. Two practical reasons for criminalizing such act are to deter people from avoiding criminal or civil accountability for their actions, and to reduce the burden upon law enforcement and the public in locating and arresting offenders. Traditionally, the act has also been seen as evidence of guilt and criminal intent, where the guilty party conducted a “getaway.” In that manner, leaving the scene of an accident often resulted in harsher penalties. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63926'>
+            <catDesc>
+              <term>Crimes (alleged)--Murder</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/murder?q=Murder</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63926P0'>"The crime of intentionally killing a person." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S53924'>
+            <catDesc>
+              <term>Crimes (alleged)--Shooting</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/shooting?q=Shooting</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD53924P0'>"An occasion when someone is injured or killed by a bullet shot from a gun." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32065746'>
+            <catDesc>
+              <term>Criminal Procedures--Bounty</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/bounty?q=Bounty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32065746P0'>"An amount of money set as a reward," typically to incentivize capturing a fugitive from justice. (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95194'>
+            <catDesc>
+              <term>Criminal Procedures--Indictments</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/indictment?q=Indictments</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95194P0'>"The act of formally accusing someone of a serious crime." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95578'>
+            <catDesc>
+              <term>Law Enforcement--Sheriffs</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/sheriff</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95578P0'>"In the U.S., an official whose job is to be in charge of performing the orders of the law courts and making certain that the laws are obeyed within a particular county." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S94600'>
+            <catDesc>
+              <term>Lawyers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/lawyer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD94600P0'>"Someone whose job is to give advice to people about the law and speak for them in court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+          <category xml:id='S70054'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems--Circuit Courts</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2789'>Organizations</ptr></ab>
+              </note>
+            </catDesc>
+          </category>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63395'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/court?topic=law-courts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63395P0'>"A place where trials and other legal cases happen, or the people present in such a place." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63178'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems--Grand jury</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/grand-jury</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63178P0'>"In the U.S., a group of people who decide if a person who has been charged with a crime should be given a trial in a law court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S63262'>
+            <catDesc>
+              <term>Death</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/death</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63262P0'>While the Cambridge Dictionary defines death as “the end of life,” CWRGM employs this subject tag to refer to human deaths only, both actual and hypothetical. (Cambridge Dictionary)
+</p>
+
+<p xml:id='OTPSD63262P1'>The nation experienced mass loss of life (approximately 2% of the population) during the American Civil War, which changed the way Americans viewed death and resulted in its reconceptualization in highly bureaucratized ways. Often wartime dead were buried without their names and sometimes in poorly-dug graves, which created a powerful, profound social and cultural dislocation for their surviving loved ones. During the 19th century, Americans understood dying as a social and religious experience, and desired a "good death," which they defined as at home surrounded by family, but these ideals were unattainable in war. Consequently, Americans learned to cope with death and memorialize it in new ways. Unionists encouraged the federal government and ex-Confederates pushed their respective state governments to create and fund national cemeteries, rebury deceases soldiers and veterans, and establish veterans' and widows' pensions. These new responses to death were more bureaucratized, nationalistic, and secularized. Wartime and post-war death was also highly impacted by race, as white supremacists desecrated the graves of Union buried in the South, especially the bodies of African Americans who served in U.S. Colored Troops and the white officers that led them, revealing post-war sectionalism and strains on reconciliation. (Drew Gilpin Faust, <hi rend='italic'>This Republic of Suffering</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25003265'>
+            <catDesc>
+              <term>Wounds and Injuries</term>
+              <idno>https://www.civilwarmed.org/surgeons-call/amputation1/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25003265P0'>Medical treatment of wounds and injuries during the nineteenth century was fairly primitive, and not substantially different than medical practices over the preceding few centuries. Doctors had little knowledge of bacteria, and therefore did not understand the importance of washing hands or sterilizing medical instruments when treating open wounds. Physicians learned that some substances seemed to aid recovery, such as iodine and bromine, but their properties were more mystery than scientifically understood. Additionally, antibiotics had not yet been discovered. As a result, even minor cuts could become infected and lead to severe disability or death.
+</p>
+
+<p xml:id='OTPSD25003265P1'>During the Civil War, more than 475,000 soldiers were wounded in battle.  Thousands more suffered injuries in camp or on the march.  Medical care for wounded and injured soldiers typically involved closing wounds and setting broken bones. After suturing or bandaging these injuries, physicians would carefully observe their patients and try to offer some medical support, but recovery most often depended upon the wounded man’s natural healing. Some medical practices had unintended consequences, both positive and negative. Horsehair proved to be a popular material for sutures, due to its length and strength. To improve its elasticity, Civil War doctors boiled the horsehair, thereby disinfecting it. Wounds stitched closed with boiled horsehair were less likely to grow infected from the sutures, although this benefit was not fully understood until after the war. On the other hand, physicians probing for bullets or foreign objects inside a wound often introduced more bacteria and generated worse infections than the patient may have experienced without the procedure. This practice continued well after the Civil War, and likely contributed to President James Garfield’s death in 1881, when doctors repeatedly used unsterilized fingers and instruments while searching for the assassin’s bullet lodged in his body.
+</p>
+
+<p xml:id='OTPSD25003265P2'>Doctors understood the danger of blood loss to wounded men, but devices such as the Petit Tourniquet—a French screw-tightened tourniquet designed in 1718—were typically found at a surgeon’s tent rather than with the soldiers along the front lines. Some physicians recommended supplying tourniquets among the soldiers, but others suggested much simpler practices, such as each soldier carrying a handkerchief or cloth strip and a six-inch long piece of wood in his pocket to function as a makeshift tourniquet. These life-saving practices were not mandated among Union and Confederate armies, though, and many wounded men died of blood loss before reaching medical help.
+</p>
+
+<p xml:id='OTPSD25003265P3'>The most iconic treatment of battlefield wounds during the Civil War was amputation. Most casualties during the war were caused by musket fire. The large caliber lead balls often shattered bones upon impact. Unable to splint or repair bones so damaged, physicians frequently chose to amputate the wounded person’s limb above the injury. Doctors typically sewed a flap of skin over the stump. Unfortunately, due to the high incidents of infection for reasons described above, amputated limbs often became infected. Gangrene was among the most dangerous conditions, which could lead to death. The only method of combatting gangrene was to perform another amputation further up the limb (if possible) and hope it healed properly. Confederate and Union physicians performed around 50,000 amputations during the Civil War. Contrary to some popular myths, anesthesia, such as chloroform and ether, was in use during the Civil War, and around 95% of wounded soldiers were afforded some comfort before amputation.
+</p>
+
+<p xml:id='OTPSD25003265P4'>Hundreds of thousands of soldiers returned home from the Civil War with scars or permanent disabilities from wartime wounds and injuries. The large number of amputees also led to new developments in prosthetics. Lessons learned from the war improved medical care a bit, as Union and Confederate doctors recorded their observations of wounds and treatments. Published reports provided a new wealth of information. However, only after scientists better understood microbes and accepted the Germ Theory in the late nineteenth and early twentieth century did medical practice substantially improve from the Civil War era practices. (Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 41–50; Terry Reimer, “Wounds, Ammunition, and Amputation,” National Museum of Civil War Medicine; Paige Gibbons Backus, “Amputation and the Civil War,” American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Powers Series 794</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1873</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Evans, [first name unknown]; Fewell, [first name unknown]; Smith, [first name unknown]</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1873-08-04</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Powers Collection. Letter from Evans, Smith, and Fewell to Mississippi Governor Ridgley C. Powers, concerning the alleged murder of J. J. Overstreet by Ennis Harrison. The letter is requesting that Powers issue a reward for the capture of Harrison, who has since fled from Jasper County, Mississippi.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8.0&quot; x 10.0&quot; 4-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Meridian (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_794-981-02-03</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Jasper County (Miss.); Lauderdale County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Dalton Wood; Britany Castilaw; McKenna Fussell</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 981, Folder 22</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Fugitives from justice; Lawyers; Mississippi. Governor; Murder; Powers, Ridgley Ceylon, 1836-1912; Rewards programs (Criminal investigation)</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Evans, Smith, and Fewell to Mississippi Governor Ridgley C. Powers; August 4, 1873</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/38773&quot;&gt;Letter from Evans, Smith, and Fewell to Mississippi Governor Ridgley C. Powers; August 4, 1873&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG44" who="U2" when="2024-10-25T17:54:49Z" target="#P33957043">
+          Version 10 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U2" when="2024-10-25T14:46:37Z" target="#P33957040">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U2" when="2024-10-25T13:18:41Z" target="#P33957041">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U32019810" when="2024-10-13T20:45:05Z" target="#P33957043">
+          Version 9 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U32017648" when="2024-07-09T19:23:23Z" target="#P33957040">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U32011493" when="2024-04-21T04:28:29Z" target="#P33957040">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U32011493" when="2024-04-21T04:26:35Z" target="#P33957043">
+          Version 8 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U32011493" when="2024-04-21T04:25:50Z" target="#P33957042">
+          Version 8 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U32011493" when="2024-04-21T04:25:00Z" target="#P33957040">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U32011493" when="2024-04-21T04:23:44Z" target="#P33957040">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U32020358" when="2024-03-17T22:44:37Z" target="#P33957043">
+          Version 7 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U32020358" when="2024-03-17T22:44:24Z" target="#P33957042">
+          Version 7 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U32020358" when="2024-03-17T22:43:59Z" target="#P33957041">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U32020358" when="2024-03-17T22:42:04Z" target="#P33957040">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U32020358" when="2024-03-17T22:13:36Z" target="#P33957040">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U32020358" when="2024-03-17T22:13:31Z" target="#P33957040">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U32020358" when="2024-03-17T22:12:53Z" target="#P33957043">
+          Version 6 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U32020358" when="2024-03-17T22:12:46Z" target="#P33957043">
+          Version 5 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U32020358" when="2024-03-17T22:12:08Z" target="#P33957042">
+          Version 6 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U32020358" when="2024-03-17T22:11:31Z" target="#P33957042">
+          Version 5 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U32020358" when="2024-03-17T22:11:21Z" target="#P33957042">
+          Version 4 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U32020358" when="2024-03-17T22:10:50Z" target="#P33957041">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U32020358" when="2024-03-17T22:09:54Z" target="#P33957040">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U32020358" when="2024-03-17T22:09:45Z" target="#P33957040">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U32020358" when="2024-03-17T22:07:30Z" target="#P33957040">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U32020358" when="2024-03-17T22:07:10Z" target="#P33957040">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U32020358" when="2024-03-17T22:05:06Z" target="#P33957040">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U32020358" when="2024-03-17T22:04:52Z" target="#P33957040">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U32020358" when="2024-03-17T22:00:07Z" target="#P33957043">
+          Version 4 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U32020358" when="2024-03-17T21:58:59Z" target="#P33957043">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U32020358" when="2024-03-17T21:57:59Z" target="#P33957042">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U32020358" when="2024-03-17T21:51:41Z" target="#P33957041">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U32020358" when="2024-03-17T21:49:11Z" target="#P33957040">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U32020358" when="2024-03-17T21:41:17Z" target="#P33957043">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U32020358" when="2024-03-17T21:40:55Z" target="#P33957042">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U32020358" when="2024-03-17T21:40:41Z" target="#P33957041">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U32020358" when="2024-03-17T21:40:28Z" target="#P33957040">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U226410" when="2024-02-23T17:48:43Z" target="#P33957043">
+          Version 1 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U226410" when="2024-02-23T17:40:51Z" target="#P33957042">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U226410" when="2024-02-23T17:28:34Z" target="#P33957041">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U226410" when="2024-02-23T17:21:25Z" target="#P33957040">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2024-02-16T14:50:17Z" target="#P33957043">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2024-02-16T14:50:15Z" target="#P33957042">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2024-02-16T14:50:13Z" target="#P33957041">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2024-02-16T14:50:12Z" target="#P33957040">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F33957040" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:38769/full/full/0/default.jpg"/>
+        <div xml:id="OTP33957040">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP33957040P0' xml:id='OTP33957040P0'><b><rs ref='#S32137965'>OFFICE OF SMITH &amp; FEWELL ATTORNEYS AND SOLICITORS,</rs></b><lb/>
+<b><rs ref='#S32133498'>JOHN WILLIAM SMITH</rs>.</b> <b><rs ref='#S32124857'>JOHN WOODBURY FEWELL.</rs></b>
+</p>
+
+<p corresp='TTP33957040P1' xml:id='OTP33957040P1'><b>PRACTICE</b><lb/>
+In all the <rs ref='#S70054'>Courts</rs> of <rs ref='#S52728'>Lauderdale</rs>, and, when especially retained, in those adjoining Counties; also in the State and Federal Courts at <rs ref='#S51785'>Jackson</rs>.
+</p>
+
+<p corresp='TTP33957040P2' xml:id='OTP33957040P2'><hi rend='italic'>Meridian, Miss.</hi> 4<add place='above'><hi rend='underline'>th</hi></add> Aug. <hi rend='italic'>187</hi>3
+</p>
+
+<p corresp='TTP33957040P3' xml:id='OTP33957040P3'>His Excellency Gov. <rs ref='#S32057087'>R. C. Powers</rs>,<lb/>
+Jackson, Miss
+</p>
+
+<p corresp='TTP33957040P4' xml:id='OTP33957040P4'>Dear Sir;
+</p>
+
+<p corresp='TTP33957040P5' xml:id='OTP33957040P5'>At the July term 1873 of the <rs ref='#S70054'>Circuit Court</rs> of <rs ref='#S63234'>Jasper County, Miss</rs>, <rs ref='#S32133499'>Ennis Harrison</rs> was <rs ref='#S95194'>indicted</rs> for "An Assault with <rs ref='#S32022894'>intent to kill</rs> and <rs ref='#S63926'>murder</rs>" <rs ref='#S32133500'>J. J. Overstreet</rs>. A few days after the finding of the indictment Overstreet <rs ref='#S63262'>died</rs> from the <rs ref='#S25003265'>wounds</rs> inflicted by Harrison. The facts connected with the killing, or rather, with the mortal wound-ing, were, we have been informed, of a very aggravating character—such as to war-rant an indictment for murder and such an indictment will probably be found by the <rs ref='#S63178'>Grand Jury</rs> of that County at some future ses-sion.
+</p>
+
+<p corresp='TTP33957040P6' xml:id='OTP33957040P6'>Harrison has <rs ref='#S32130507'>fled</rs> the Country. We think it is a case which would authorize your Excellency to offer a <rs ref='#S32065746'>reward</rs> for the ap-prehension of Harrison and we would be Glad if you would do so,
+</p>
+
+<p corresp='TTP33957040P7' xml:id='OTP33957040P7'>Very Respectfully Yr. Obt Svts,
+</p>
+
+<p corresp='TTP33957040P8' xml:id='OTP33957040P8'><rs ref='#S100200'>Evans</rs> Smith &amp; Fewell 
+</p>
+
+
+        </div>
+        <pb xml:id="F33957041" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:38770/full/full/0/default.jpg"/>
+        <div xml:id="OTP33957041">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP33957041P0' xml:id='OTP33957041P0'>Jackson Aug 7<add place='above'>"</add> 1873
+</p>
+
+<p corresp='TTP33957041P1' xml:id='OTP33957041P1'>Respectfully referred to the <rs ref='#S95578'>Sheriff</rs> of Jasper County for the date of crime, and discription of felon.
+</p>
+
+<p corresp='TTP33957041P2' xml:id='OTP33957041P2'>Very Respectfully
+</p>
+
+<p corresp='TTP33957041P3' xml:id='OTP33957041P3'><rs ref='#S25016474'>J. M. Wells</rs><lb/>
+Gov's. <rs ref='#S95466'>Private Secy</rs>
+</p>
+
+<p corresp='TTP33957041P4' xml:id='OTP33957041P4'>5 ft <del rend='overstrike'>8</del>11 inches<lb/>
+Light<del rend='overstrike'>s</del> sandy hair curly ^sandy^ whiskers. Curly weighs about 155<add place='above'><hi rend='underline'>lbs</hi></add> about 37 years. old.
+</p>
+
+<p corresp='TTP33957041P5' xml:id='OTP33957041P5'>Offer 100. Reward Publish 4<add place='above'>t</add> weekly Pilot— 
+</p>
+
+
+        </div>
+        <pb xml:id="F33957042" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:38771/full/full/0/default.jpg"/>
+        <div xml:id="OTP33957042">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP33957042P0' xml:id='OTP33957042P0'><b><rs ref='#S32133501'>W. M. Brame</rs>,</b><lb/>
+SHERIFF JASPER COUNTY,
+</p>
+
+<p corresp='TTP33957042P1' xml:id='OTP33957042P1'><hi rend='italic'><rs ref='#S69542'>Paulding, Miss.</rs></hi>, Sept 18<add place='above'>th</add> <hi rend='italic'>187</hi>3
+</p>
+
+<p corresp='TTP33957042P2' xml:id='OTP33957042P2'>J. M. Wells. <rs ref='#S94600'>Esqr</rs>,<lb/>
+Govs. Private Secy,
+</p>
+
+<p corresp='TTP33957042P3' xml:id='OTP33957042P3'>Dear. Sir.
+</p>
+
+<p corresp='TTP33957042P4' xml:id='OTP33957042P4'>In answer, to your request of August 7<add place='above'>th</add> 1873 I now propose, to answer, and give all the information I Could give. The <rs ref='#S53924'>Shooting</rs> of J. J. Overstreet, by, one <del rend='overstrike'>Ermmis</del> Ennis Harrison, was done on 12<add place='above'>th</add> day of July 1872. &amp; In a few days, died from the wound, Hee is said to be 5 ft 10 inches High &amp; weighs about 160<add place='above'>lbs</add> Light sandy, hair Curly, whiskers. Sandy Coloer, &amp; Curly. Also, About 40 years old. Some scars, on his hands, probably about his face not cirtain
+</p>
+
+<p corresp='TTP33957042P5' xml:id='OTP33957042P5'>Respectfully
+</p>
+
+<p corresp='TTP33957042P6' xml:id='OTP33957042P6'>W. M. Brame
+</p>
+
+
+        </div>
+        <pb xml:id="F33957043" n="4" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:38772/full/full/0/default.jpg"/>
+        <div xml:id="OTP33957043">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP33957043P0' xml:id='OTP33957043P0'><b>PRECIS</b><lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33957043P1' xml:id='OTP33957043P1'><hi rend='italic'>No.</hi> [gap]<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33957043P2' xml:id='OTP33957043P2'><rs ref='#S25026074'><b>EXECUTIVE OFFICE,</b><lb/>
+STATE OF MISSISSIPPI</rs>,<lb/>
+<hi rend='italic'>County of</hi> Jasper<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33957043P3' xml:id='OTP33957043P3'><hi rend='italic'>From</hi> Sheriff<lb/>
+<hi rend='italic'>Address</hi> [gap]<lb/>
+<hi rend='italic'>Dated</hi> [gap]<lb/>
+<hi rend='italic'>Received</hi> [gap]<lb/>
+<hi rend='italic'>Answered</hi> [gap]<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33957043P4' xml:id='OTP33957043P4'>Description of Ennis Harrison who murdered J. J. [Overstreet?]
+</p>
+
+<p corresp='TTP33957043P5' xml:id='OTP33957043P5'>Reward of $100, offered Sept 22, 1873
+</p>
+
+<p corresp='TTP33957043P6' xml:id='OTP33957043P6'>R. C. POWERS,<lb/>
+<hi rend='italic'>Governor.</hi>
+</p>
+
+<p corresp='TTP33957043P7' xml:id='OTP33957043P7'><rs ref='#S32077064'>JULIUS JUNKERMAN</rs>,<lb/>
+<hi rend='italic'>Private Secretary.</hi><lb/>
+<hr/> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

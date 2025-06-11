@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Telegram from Mississippi Governor John J. Pettus to Colonel A. M. West; Undated</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 4 edits between
+              <date type="first_edit" when="2022-02-06T15:45:32Z">February  6, 2022</date> and
+              <date type="last_edit" when="2023-03-19T21:10:16Z">March 19, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091235">
+          <persName
+            >
+            Amanda Patrick
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-01-29T00:41:58Z">January 29, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-01-30T03:52:17Z">January 30, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-01-11T18:15:13Z">January 11, 2022</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T19:17:47+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S84072">
+              <persName>West, Absalom Madden, 1818-1894</persName>
+                <idno>https://en.wikipedia.org/wiki/Absolom_M._West</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS84072P0'>Absolom Madden West was a Confederate general, a Mississippi politician, railroad executive, and vice presidential candidate. Born in Alabama in 1818, West moved to Mississippi around 1837 to establish a plantation with property he acquired from federal land grants. He entered Mississippi state politics as a Whig and won a seat in the Mississippi Senate in 1847. He married Caroline O. Glover in the 1840s and the couple had four surviving children, born between 1849 and 1862.
+</p>
+
+<p xml:id='OTPS84072P1'>In 1853, he took an office job with the new Mississippi Central Railroad, gaining experience not only in railroad development but corporate and logistical operations. As a Whig, West originally opposed secession. However, after Mississippi left the Union in 1861, during the secession crisis that split the country following Abraham Lincon’s election to president in November 1860, West offered his loyalty and services to the state. He was promoted a brigadier general in the Mississippi state militia, and helped raised a regiment of volunteers. Recognizing his skill and experience in administrative and logistical work, state officials appointed him to several different managerial roles, such as quartermaster general, paymaster general, and commissary general of the militia. He made recommendations to the state legislature to improve the accounting of funds, and was the only state officer to have his accounting books in order and submitted at the end of the war.
+</p>
+
+<p xml:id='OTPS84072P2'>West took the role of president over the Mississippi Central Railroad around 1864. He remained in that position until around the end of the war, then returned to state politics—again serving in the Mississippi Senate—after the Illinois Central purchased the Mississippi Central. West was elected to the U.S. House of Representatives during the early effort by the Mississippi government in 1865 to earn readmission to the Union under President Andrew Johnson’s lenient Reconstruction plan. However, he was among the Mississippi delegation refused seats in Congress when Republicans in Washington, D.C., objected to Mississippi’s “Black Codes”—a series of highly discriminatory laws passed in the summer of 1865 to restrict the civil rights of African Americans.
+</p>
+
+<p xml:id='OTPS84072P3'>West became involved in labor rights during Reconstruction, helping form a branch of the National Labor Union. Reentering the Mississippi Senate in the early 1870s, around 1876 he broke away from the Democratic Party and joined the emerging “Greenback Party”—an independent, anti-monopoly political party. It united many state-level politicians in the north and the south on economic matters, namely the expansion of paper currency believed to help farmers and small businesses. Attesting to the party’s ability to bring former enemies together, the party’s national convention in 1884 nominated former Union general Benjamin Butler (who had been despised within the Confederacy during his occupation of New Orleans during the Civil War) for its presidential candidate and the former Confederate militia general West as vice president. The party polled only a 1.7% of the popular vote in 1884.
+</p>
+
+<p xml:id='OTPS84072P4'>West’s wife Caroline died in 1889 after a long bout of poor health. He died five years later, in 1894.  The couple is buried in Hill Crest Cemetery in Holly Springs, Mississippi.
+</p>
+
+<p xml:id='OTPS84072P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS84072P6'>Absalom Madden West belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32014789">
+              <persName>Block, Unknown</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S74226">
+              <placeName>Mississippi--Holmes County. Durant</placeName>
+                <idno>https://en.wikipedia.org/wiki/Durant,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS74226P0'>Located in Holmes County, Durant was founded in 1858. (Wikipedia; Rowland, <hi rend='italic'>Mississippi</hi>, 666)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.0751, -89.8545</geo>
+                </note>
+            </place>
+            <place xml:id="S97799">
+              <placeName>Mississippi--Holmes County. Goodman</placeName>
+                <idno>https://en.wikipedia.org/wiki/Goodman,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS97799P0'>Located in Holmes County, Goodman was founded in 1860. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.9701, -89.9123</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001678'>
+<catDesc>Skilled Labor</catDesc>
+          <category xml:id='S63442'>
+            <catDesc>
+              <term>Laborers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/laborer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001678'>Skilled Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63442P0'>"A person who does physical work" or more specifically, "a person who does unskilled physical work, especially outside." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001716'>
+<catDesc>Military Organizations</catDesc>
+          <category xml:id='S55257'>
+            <catDesc>
+              <term>Armories</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/armory?q=armories</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001716'>Military Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD55257P0'>Armories (sometimes also called arsenals) are places "where weapons and other military equipment are stored." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 763</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by The Dale Center for Study of War and Society.; Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>Undated</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Telegram from Mississippi Governor John J. Pettus to Confederate Colonel A. M. West at Durant, Mississippi, concerning payment of the workers at the arsenal.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_763-948-13-07</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>187643 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8&quot; x 4.5&quot; 1-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Durant (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>946</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_763-948-13-07</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Holmes County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Cody Turnbaugh; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 948, Folder 13</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army; Mississippi. Governor; Pettus, John Jones, 1813-1867; West, Absalom Madden, 1818-1894</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Telegram from Mississippi Governor John J. Pettus to Colonel A. M. West; Undated</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>1609</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/12269&quot;&gt;Telegram from Mississippi Governor John J. Pettus to Colonel A. M. West; Undated&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG7" who="U220769" when="2023-03-19T21:10:16Z" target="#P32082301">
+          Version 7 of page "Telegram from Mississippi Governor John J. Pettus to Colonel A. M. West; Undated":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U220769" when="2023-03-18T22:35:42Z" target="#P32082301">
+          Version 6 of page "Telegram from Mississippi Governor John J. Pettus to Colonel A. M. West; Undated":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U220769" when="2023-03-18T00:20:04Z" target="#P32082301">
+          Version 5 of page "Telegram from Mississippi Governor John J. Pettus to Colonel A. M. West; Undated":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U220769" when="2022-02-06T15:45:32Z" target="#P32082301">
+          Version 4 of page "Telegram from Mississippi Governor John J. Pettus to Colonel A. M. West; Undated":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25091195" when="2022-01-30T03:52:17Z" target="#P32082301">
+          Version 3 of page "Telegram from Mississippi Governor John J. Pettus to Colonel A. M. West; Undated":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U25091235" when="2022-01-29T00:41:58Z" target="#P32082301">
+          Version 2 of page "Telegram from Mississippi Governor John J. Pettus to Colonel A. M. West; Undated":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U226410" when="2022-01-11T18:15:13Z" target="#P32082301">
+          Version 1 of page "Telegram from Mississippi Governor John J. Pettus to Colonel A. M. West; Undated":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-01-07T20:55:34Z" target="#P32082301">
+          Version 0 of page "Telegram from Mississippi Governor John J. Pettus to Colonel A. M. West; Undated":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32082301" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:12269/full/full/0/default.jpg"/>
+        <div xml:id="OTP32082301">
+        <fw type="pageNum">Telegram from Mississippi Governor John J. Pettus to Colonel A. M. West; Undated</fw>
+          <p corresp='TTP32082301P0' xml:id='OTP32082301P0'>Col <rs ref='#S84072'>A. M. West</rs><lb/>
+<rs ref='#S74226'>Durant</rs> via <rs ref='#S97799'>Goodman</rs>
+</p>
+
+<p corresp='TTP32082301P1' xml:id='OTP32082301P1'><rs ref='#S63442'>Hands</rs> at the <rs ref='#S55257'>arsinall</rs> must be paid direct Mr <rs ref='#S32014789'>Block</rs> to pay them
+</p>
+
+<p corresp='TTP32082301P2' xml:id='OTP32082301P2'><rs ref='#S63111'>John J Pettus</rs>
+</p>
+
+<p corresp='TTP32082301P3' xml:id='OTP32082301P3'>13/ charged
+</p>
+
+<p corresp='TTP32082301P4' xml:id='OTP32082301P4'>Recorded
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

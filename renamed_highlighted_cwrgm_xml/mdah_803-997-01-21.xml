@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from John Adams to Mississippi Governor Adelbert Ames; August 10, 1875</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 13 edits between
+              <date type="first_edit" when="2023-09-02T19:20:17Z">September  2, 2023</date> and
+              <date type="last_edit" when="2024-01-30T17:23:54Z">January 30, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2023-07-15T21:24:32Z">July 15, 2023</date> and
+              <date type="last_edit" when="2024-06-07T22:03:03Z">June  7, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091235">
+          <persName
+            >
+            Amanda Patrick
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2023-07-11T18:33:34Z">July 11, 2023</date> and
+              <date type="last_edit" when="2023-07-11T19:44:01Z">July 11, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25090807">
+          <persName
+            >
+            Patricia Parrish
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2023-04-06T03:25:33Z">April  6, 2023</date> and
+              <date type="last_edit" when="2023-04-06T04:03:54Z">April  6, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2024-10-25T15:04:23Z">October 25, 2024</date> and
+              <date type="last_edit" when="2024-10-25T16:51:56Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32029872">
+          <persName
+            >
+            Ruth Poe White, PH.D.
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2025-03-15T16:40:50Z">March 15, 2025</date> and
+              <date type="last_edit" when="2025-03-15T16:50:32Z">March 15, 2025</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-18T20:13:00+00:00">March 18, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S105303">
+              <persName>Adams, John</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S52648">
+              <persName>Ames, Adelbert, 1835-1933</persName>
+                <idno>https://en.wikipedia.org/wiki/Adelbert_Ames</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52648P0'>Adelbert Ames served as a governor and U.S. senator of Mississippi during the Reconstruction era.  He was born in East Thomaston (modern-day Rockland), Maine, in 1835. As a boy, Ames spent time working on various merchant vessels, receiving training in seamanship. He entered the United States Military Academy at West Point in 1856, graduating in May 1861, at the start of the Civil War. Commissioned as a second lieutenant, the young Ames was promoted to first lieutenant barely over a week later and served with the 5th U.S. Artillery during the battle of First Bull Run at Manassas, Virginia, on July 21, 1861. Despite being wounded in the leg, Ames stayed by his cannons. His actions at Bull Run led him to receive the brevet (honorary) rank of major and, in 1893 (more than thirty years later), the Medal of Honor.
+</p>
+
+<p xml:id='OTPS52648P1'>Ames recovered from his wound and returned to the front lines in 1862, serving with distinction as an artillery officer during the Peninsula Campaign near Richmond. Seeking better promotion potential, Ames sought an infantry command. Through those efforts, in August 1862, he received command of the 20th Maine Infantry Regiment, and led that unit in combat during the Battle of Fredericksburg in December 1862. In May 1863, he volunteered to serve as a staff officer for Major General George G. Meade, which helped him achieve the rank of brigadier general that month. With this promotion, Ames left the 20th Maine to his second-in-command, Lieutenant Colonel Joshua Lawrence Chamberlain, who gained great fame commanding the regiment at Little Round Top during the Battle of Gettysburg in July 1863. Ames’ own performance at Gettysburg was highly praised, as his division successfully defended the Union position at Cemetery Hill.
+</p>
+
+<p xml:id='OTPS52648P2'>After Gettysburg, Ames’ division was transferred to the Department of the South. Over the next two years, he commanded Union troops during campaigns in Florida, South Carolina, North Carolina, and Virginia. He received a brevet promotion to major general for his actions at Fort Fisher, North Carolina, in March 1865.
+</p>
+
+<p xml:id='OTPS52648P3'>After the Civil War, Ames became involved in federal Reconstruction efforts. In 1868, he was appointed the provisional governor of Mississippi. Ames proved sympathetic to the plight of African Americans in the south. He sought to protect Black civil rights and appointed Mississippi’s first African American public officials. In 1870, after Mississippi was readmitted into the Union, Ames ran for U.S. senator for the state as a Republican and won. He served in that capacity from February 1870 to January 1874, achieving the reputation as a strong public speaker. While serving as a senator in Washington, D.C., Ames met and married Blanche Butler, daughter of Union general Benjamin F. Butler, under whom Ames had served during the war. Ames and his wife had six children over the course of their marriage.
+</p>
+
+<p xml:id='OTPS52648P4'>In 1873, Ames ran for governor of Mississippi. His chief rival was James L. Alcorn, a former Confederate general who had been a Whig before the Civil War and joined the Republican Party afterwards. Ames won the election and worked diligently to improve Mississippi’s financial and social situation. In 1874, Democrats in Mississippi coordinated a campaign of violence against African Americans and white Republicans in the state, to secure political control in Mississippi. Unable to militarily suppress the white supremacist terror campaign, Ames signed a truce with Democratic leaders in Mississippi to reduce the violence and allow a peaceful election. Groups of white supremacists abandoned the truce and resumed their intimidation tactics against Republicans and Black Mississippians during the following elections, leading to a surge of Democratic politicians taking office.
+</p>
+
+<p xml:id='OTPS52648P5'>In 1876, the conservative Democrat majority in the Mississippi legislature tried to impeach Ames and many other Republican officials with trumped up charges of corruption. Despite a strong political force against him, Ames’ critics were unable to provide any evidence of impropriety. Nevertheless, because impeachment was politically driven, Ames could see that his future as governor was over and any effort on his part to legally defend himself would be personally and financially taxing. He and his attorneys reached an agreement with Democratic leaders to resign his office in exchange for dropping the legal charges. On March 29, 1876, after Democrats cancelled their legal proceedings, Ames vacated his position.
+</p>
+
+<p xml:id='OTPS52648P6'>Ames left Mississippi and went into business in Minnesota with his father and brother. A short time later, he relocated to New York City and then Massachusetts, overseeing mills and various business interests. When the Spanish-American War erupted in 1898, Ames volunteered for service and was appointed brigadier general of volunteers. Although over sixty years old, Ames joined the field campaign in Cuba and performed well.
+</p>
+
+<p xml:id='OTPS52648P7'>Ames resumed his business ventures in the early twentieth century. He lived until 1933, dying at age 97. He is buried in Lowell, Massachusetts.
+</p>
+
+<p xml:id='OTPS52648P8'>(Wikipedia)
+</p>
+
+<p xml:id='OTPS52648P9'>Adelbert Ames belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32082176">
+              <persName>Richardson, E. D.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S32077786">
+              <persName>Rhodes, Travis, u.-u.</persName>
+                <idno>https://chroniclingamerica.loc.gov/lccn/sn83045232/1876-01-05/ed-1/seq-1/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS32077786P0'>Travis Rhodes was a newspaper correspondent and Private Secretary for Mississippi State Governor Adelbert Ames.
+</p>
+
+<p xml:id='OTPS32077786P1'>His origins are unclear, but by March 1873, Rhodes was living in Jackson, Mississippi and was a correspondent for the <hi rend='italic'>Jackson Pilot</hi>. A member of the Republican Party, in May 1875, he became Mississippi State Governor Adelbert Ames's Private Secretary. In December that year, he also became a Trustee of the Mississippi State Lunatic Asylum, and he held this position at least through February 1877. In March 1876, Governor Ames resigned. Rhodes continued briefly as the governor's private secretary, but he too resigned at the end of April 1876. After February 1877, his name no longer appeared in Mississippi newspapers regarding political or social activities, and his fate is unclear.
+</p>
+
+<p xml:id='OTPS32077786P2'>(<hi rend='italic'>The Magnolia Gazette</hi>, March 28, 1873; <hi rend='italic'>The Weekly Mississippi Pilot</hi>, May 8, 1875; <hi rend='italic'>The Weekly Copiahan</hi>, July 1, 1876; <hi rend='italic'>The Daily Clarion</hi>, December 8, 1875; <hi rend='italic'>The Daily Clarion</hi>, February 2, 1877; John Snow to the Mississippi Board of Registrars, April 20, 1876, Civil War &amp; Reconstruction Governors of Mississippi, mdah_807-1004-05-17)
+</p>
+
+<p xml:id='OTPS32077786P3'>Travis Rhodes belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S94245">
+              <placeName>Mississippi--Warren County. Warrenton</placeName>
+                <idno>https://en.wikipedia.org/wiki/Warrenton,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS94245P0'>Located in Warren County, Warrenton was founded in 1809 and served as the county seat from 1809 until 1836, when it was replaced by Vicksburg. It was incorporated in 1820, but it is currently an unincorporated area that is not governed by a local municipal body. (Wikipedia; Rowland, <hi rend='italic'>Mississippi</hi>, 932; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.2474, -90.9284</geo>
+                </note>
+            </place>
+            <place xml:id="S51788">
+              <placeName>Mississippi--Warren County. Vicksburg</placeName>
+                <idno>https://archive.org/details/mississippicomp00rowlgoog/page/858/mode/2up</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51788P0'>Located in Warren County, Mississippi, Vicksburg was founded under the name Fort Nogales as early as 1790 in what was then unincorporated territory. In 1798, upon creation of Mississippi Territory, it was renamed Walnut Hills. On April 1, 1799, Walnut Hills became part of the newly created Pickering County (later renamed Jefferson County on January 10, 1802), until the creation of Claiborne County on January 26, 1802. It then became part of its current county of Warren on December 21, 1809. Upon its incorporation on January 29th, 1825, it was renamed Vicksburg. Vicksburg became the county seat in 1836 and remains today. (Rowland, <hi rend='italic'>Mississippi</hi>, 858; Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.33611, -90.87528</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S53668'>
+            <catDesc>
+              <term>Crimes (alleged)--Assassination</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/assassination</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD53668P0'>"The murder of someone famous or important." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S91486'>
+            <catDesc>
+              <term>Crimes (alleged)--Lynching</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/lynching?q=Lynching</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD91486P0'>A crime defined as "the act of killing someone without a legal trial, usually by hanging." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32031011'>
+            <catDesc>
+              <term>Crimes (alleged)--Riots</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/riot?q=Riots</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32031011P0'>"An occasion when a large number of people behave in a noisy, violent, and uncontrolled way in public, often as a protest." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S99687'>
+            <catDesc>
+              <term>Crimes (alleged)--Threat</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/threat?q=Threat</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99687P0'>Suggesting "that something unpleasant or violent will happen, especially if a particular action or order is not followed." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32084779'>
+            <catDesc>
+              <term>Crimes (alleged)--Trespass</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/trespass</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32084779P0'>"To go onto someone's land or enter their building without permission." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S95466'>
+            <catDesc>
+              <term>Secretaries</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/secretary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95466P0'>“Someone who works in an office, writing letters, making phone calls, and arranging meetings for a person or for an organization.” (Cambridge Dictionary) CWRGM includes people who perform administrative assistance under this tag, but we do not include government positions that incorporate the word secretary, such as Secretary of State, under this subject tag.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001723'>
+<catDesc>Religious Organizations</catDesc>
+          <category xml:id='S75807'>
+            <catDesc>
+              <term>Churches</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/church?q=churches</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001723'>Religious Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD75807P0'>"An official Christian religious organization." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S25026074'>
+            <catDesc>
+              <term>Mississippi--Executive Department</term>
+              <idno>https://en.wikipedia.org/wiki/Government_of_Mississippi#:~:text=The%20executive%20branch%20of%20Mississippi,Commission%2C%20and%20the%20three%2Dperson</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25026074P0'>Operating at the state level, the Executive Department of the State of Mississippi consists of the governor, lieutenant governor, secretary of state, state treasurer, state comptroller, commissioner of agriculture, commissioner of insurance, the Mississippi Public Service Commission, the Mississippi Transportation Commission, and attorney general. Each official is elected for a four-year term and is appointed duties pertaining to state regulations. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001717'>
+<catDesc>Voluntary Social &amp; Political Groups</catDesc>
+          <category xml:id='S32143645'>
+            <catDesc>
+              <term>Paramilitary Terrorist Organization</term>
+              <idno>https://en.wikipedia.org/wiki/Paramilitary</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32143645P0'>A paramilitary organization is a group of armed individuals that act in a pseudo-military fashion, but is not an official military unit. Paramilitary groups are often associated with illegal or revolutionary actions, and frequently use guerilla warfare or even terrorism to achieve their objectives. The term paramilitary arose in the twentieth century, however examples of paramilitary-style groups during the Civil War include Missouri Bushwhackers and Kansas Jayhawkers, who engaged in guerilla warfare, and sometimes terrorist or criminal actions, ostensibly for their respective side. Some of these units were eventually accepted into formal military service within the Union and Confederate armies, while others operated with only tacit endorsement by the warring governments.
+</p>
+
+<p xml:id='OTPSD32143645P1'>Paramilitary groups are more commonly associated to the Reconstruction era, when bands of armed citizens in the south organized to resist state and federal authorities who supported Republican policies. The most well-known examples include the Ku Klux Klan, the White League, and the Red Shirts. The Klan started as a fraternal order in 1865 among former Confederate soldiers in Tennessee but rapidly became a terrorist group, whose members often wore hoods to hide their identities. It became the most famous group dedicated to intimidating Republicans and African Americans in the south to maintain white supremacy. The White League was formed in the early 1870s in Louisiana, but spread openly across the south for the purpose of using violence to intimidate Republican officials and Black southerners who challenged white supremacy. The White League grew so strong as a paramilitary group that it mustered 5,000 members to outnumber and defeat the New Orleans police force and a state militia unit in a battle in New Orleans in 1873. The Red Shirts emerged around 1875 in Mississippi to oppose Republican Reconstruction and, likewise, enforce white supremacy over Black southerners, often through demonstrations at voting centers. These groups, and others in the south during the latter part of the nineteenth century, were organized, armed, and driven by political and social objectives, but were not formal military units or officially part of their state and local governments (even when they were supported by sympathetic officials).
+</p>
+
+<p xml:id='OTPSD32143645P2'>White supremacist paramilitary groups reversed civil rights progress during the last years of Reconstruction and afterwards, and maintained a steady presence for many years, using intimidation and terrorism, to oppose efforts by white and Black southerners seeking racial equality. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S57126'>
+            <catDesc>
+              <term>Paramilitary Terrorist Organization--Ku Klux Klan (19th century)</term>
+              <idno>https://en.wikipedia.org/wiki/Ku_Klux_Klan</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>35.19583, -87.03444</geo>
+              </note>
+              <gloss><p xml:id='OTPSD57126P0'>The Ku Klux Klan (KKK or Klan) is a white supremacist organization that became infamous during the Reconstruction era for terrorizing Black families and Republicans in the south. The Klan was created by former Confederates in Tennessee in December 1865 as a social club that mirrored some fraternal organizations from the mid-nineteenth century. It adopted mystic ceremonies, masks, and eventually white hoods that became the trademark appearance for a Klansman. The Klan spread across the south in the late 1860s, but had little organizational structure above local chapters. Although its original founding may have been more recreational than political, by 1867 the KKK began promoting white supremacy in opposition to the expansion of Black civil rights and Republican Reconstruction. Klan members carried out an insurgency in the south, using threats and violence, including destruction of property and assassinations, to achieve its goals. The use of hoods and fanciful costumes added to the mystique of the Klan, as well as protected the identity of its members during their terrorist activities. The Klan’s reputation for violence and intimidation reached the halls of Congress, leading the federal government to pass three pieces of legislation known as the Enforcement Acts in 1870 and 1871. The third Enforcement Act was known as the “Ku Klux Klan Act” due to its provisions making terroristic threats and intimidation to deny civil rights a federal offense. Additionally, state officials that denied Black southerners equal protection of the law could also be taken to federal court. With these laws, federal agents were empowered to arrest and prosecute Klan members, or anyone else charged with using threats or intimidation to suppress civil rights in the south. The Enforcement Laws were effective in disrupting the Klan’s activities, and reinvigorating federal protection of equal rights.  By the mid-1870s the KKK was largely defunct, although it was replaced by other white supremacist organizations. The Klan made a comeback around 1915 and then a third resurgence in the 1950s in response to the Civil Rights movement. It continues to exist in the twenty-first century, but largely as a small, fringe extremist group. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32082700'>
+            <catDesc>
+              <term>Political Parties</term>
+              <idno>https://en.wikipedia.org/wiki/Political_party</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32082700P0'>"A political party is an organization that coordinates candidates to compete in a particular country's elections. It is common for the members of a party to hold similar ideas about politics, and parties may promote specific ideological or policy goals." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63188'>
+            <catDesc>
+              <term>Political Parties--Republican Party (U.S. : 1854- )</term>
+              <idno>https://en.wikipedia.org/wiki/Republican_Party_(United_States)</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001717'>Voluntary Social &amp; Political Groups</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63188P0'>The Republican Party is a national political party in the United States. It was formed in 1854 in the wake of the Kansas-Nebraska Act, which repealed the Missouri Compromise of 1820 and dissolved previous restrictions to slavery in the western territories of the United States. Anti-slavery members of the Whig and Democratic political parties broke from these groups and joined with members of the singularly focused Free Soil Party to develop a major third party challenger for national politics. The Republican Party strongly opposed the expansion of slavery into the territories but did not advocate for the immediate abolition of slavery in the country. The party was more successful than the preceding Free Soil party because it developed a broader political platform than the territorial issue, adopting Whig-inspired economic principles. The growing success of the Republicans in the late 1850s caused the Whig Party to collapse.
+</p>
+
+<p xml:id='OTPSD63188P1'>Republicans ran their first presidential candidate in 1856, John C. Frémont. He lost to Democratic candidate James Buchanan, but came in second in a three-way race, winning 11 northern states. Republicans did win congressional and some state elections, and by the 1860 presidential election had established themselves as the most dominant party within the free states.
+</p>
+
+<p xml:id='OTPSD63188P2'>The Republican Party nominated Abraham Lincoln for president in 1860. The party’s platform included the declaration that “the normal condition of all the territory of the United States is that of freedom,” and included several other criticisms of slavery. Lincoln and the Republican Party clarified that the federal government could not interfere with slavery in the southern states, but their overt anti-slavery position alarmed southerners who saw the Republicans as a fundamental threat to southern way of life. Southern politicians warned of disunion should Lincoln win, and the 1860 election turned into a contest among four candidates. The Democratic Party split along north-south sectional lines, and Lincoln did not appear on presidential ballots in most slaveholding states. Still, Lincoln and the Republicans won the 1860 presidential election with only northern (free state) votes. The election victory sparked a secessionist movement in the south, even before Lincoln took office.
+</p>
+
+<p xml:id='OTPSD63188P3'>Lincoln and the Republican Party led the federal government against secession and through the Civil War, from 1861 to 1865. The party fractured some during the war over differences of abolition and punishment of the south. Party members who harbored greater interests in abolition, African American rights, and punishing Confederates became known as the Radical Republicans. Lincoln remained more moderate. He advocated more leniency to former Confederates, and was slower to adopt policies that forced social change within the country.
+</p>
+
+<p xml:id='OTPSD63188P4'>When Lincoln was assassinated in April 1865, Radical Republicans sought to punish the south and enforce their more extreme policies. Andrew Johnson, the vice president who entered the presidency upon Lincoln’s death, opposed the Radicals. However, his policies frustrated many moderate Republicans, and the party took a more forceful role in southern civil and political affairs when former Confederates tried to limit the rights of African Americans during Reconstruction. The Republican Party had a presence within the south during Reconstruction, but mostly among African Americans and northerners who traveled south for political or economic reasons. The party was still seen by most white southerners as a northern party oppressing the south.
+</p>
+
+<p xml:id='OTPSD63188P5'>By 1868 most of the Republican Party had turned on Johnson, even impeaching him. War hero Ulysses S. Grant was then elected as the Republican Party candidate in 1868 with support from the radicals. His administration faced accusations of corruption, especially in the south and the west. By the 1876 election, national support for Reconstruction was low, and initial voter counts appeared to show the Democratic candidate the winner. Republicans in Congress complained of voter intimidation in the south and after tense political negotiations with Democrats managed to have the Republican candidate Rutherford B. Hayes declared the winner with the agreement to end Reconstruction in the south.
+</p>
+
+<p xml:id='OTPSD63188P6'>The Republican Party continues to be one of the top two political parties in the United States. (Wikipedia)  
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S57096'>
+            <catDesc>
+              <term>African Americans--Historically Free and Newly Freed</term>
+              <idno>https://mississippiencyclopedia.org/entries/free-blacks-in-antebellum-mississippi/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001674'>Legal Statuses</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD57096P0'>Historically free African Americans included people who were both African American and lived as and/or were legally free before the American Civil War. They may or may not have previously been enslaved. In recognition of African American military service during the Revolutionary War, a number of states moved to gradually abolish slavery leading to a growing body of free African Americans.
+</p>
+
+<p xml:id='OTPSD57096P1'>Freedom, however, did not mean citizenship, and despite efforts by free Black activists to settle this question and affirm their citizenship, it was largely left to state lawmakers who otherwise failed to settle the question. Consequently, during the Antebellum era, each southern state passed different laws governing the place and rights of free African Americans. Home to the nation's largest free African American community, for example, Baltimore, Maryland registered 25,000 free Black residents by 1850. (Martha S. Jones, <hi rend='italic'>Birthright Citizens: A History of Race and Rights in Antebellum America</hi>, p. 13)
+</p>
+
+<p xml:id='OTPSD57096P2'>In another example, South Carolina's Act of 1820 distinguished between those freed before and after 1820, and classified free African Americans as "denizens," which limited citizenship rights by a series of Black Codes. In response to rebellions, numerous states passed legal restrictions that made manumission virtually impossible by the mid-nineteenth century. Loved ones who purchased family members were forced to legally hold them in bondage, leading to a body of people who "were free by practice, but not by law." (Amrita Chakrabarti Myers, <hi rend='italic'>Forging Freedom</hi>, 3–4, 207)
+</p>
+
+<p xml:id='OTPSD57096P3'>Unlike South Carolina, Mississippi's judiciary ruled that “free negroes . . . are to be regarded as alien enemies or strangers prohibited, and without the pale of comity, and incapable of acquiring or maintaining property in this State which will be recognized by our courts.” (<hi rend='italic'>Heirn v. Bridault</hi>, 37 Miss. 209, 224–25, 1859 in Jones, <hi rend='italic'>Birthright Citizens</hi>, p. 213) The state's strict provisions on manumission led to an extremely small population of free African Americans (773 people by 1860) during the antebellum era ("Free Blacks in Antebellum Mississippi," Mississippi Encyclopedia)
+</p>
+
+<p xml:id='OTPSD57096P4'>Newly freed African Americans includes people who were enslaved but became free by the passage of the Emancipation Proclamation and/or the Thirteenth Amendment. While neither was comprehensive, the Emancipation Proclamation of 1863 freed the enslaved in territories under rebellion, and later the Thirteenth Amendment of 1865 abolished slavery altogether, except when used as a punishment for those who committed a crime and did not apply to Native Nations who practices slavery. (American Battlefield Trust; Wikipedia) In the CWRGM collection, African Americans after December 6, 1865 are classified as historically free or newly freed.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001674'>
+<catDesc>Legal Statuses</catDesc>
+<category xml:id='C32001674S57096'>
+<catDesc>
+<term><rs ref='S57096'>African Americans--Historically Free and Newly Freed</rs></term>
+</catDesc>
+</category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S53477'>
+            <catDesc>
+              <term>Refugees</term>
+              <idno>https://encyclopediavirginia.org/entries/refugees-during-the-civil-war/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD53477P0'>Refugees is describe as, "A person who leaves [their] home or country to find safety, especially during a war or for political or religious reasons." (Cambridge Dictionary) The American Civil War produced one of the United States' largest refugee crises in history. Scholars have traditionally divided refugees of the Civil War into three groups: African Americans, southern Unionists, and Confederates. One scholar notes that the approach of Union forces sparked the greatest number of refugees from all groups. While southern Unionists and enslaved African Americans fled to Union lines for sanctuary, pro-Confederate white southerners fled away from it for fear of punishment or capture.
+</p>
+
+<p xml:id='OTPSD53477P1'>Formerly-enslaved African Americans composed the largest of these groups, as self-emancipated Black men, women, and children fled enslavement and forced the United States to reckon with the fate of enslavement in the nation's war aims. The Union Army established camps, known as "contraband camps" because of the Union stance that enslaved persons were technically contrabands of war, where African-American refugees lived and labored for the Union Army, albeit in often unsanitary, unsafe, and inadequate living conditions. Pro-Confederate, southern, white refugees were much smaller in number and largely represented the wealthier classes who could afford the costs of travel and relocation. These refugees most often gravitated toward cities and near railroad lines where they could return home if possible. Unionist refugees often fled their southern homes due to hostility from their pro-Confederate neighbors, late-war economic hardships, and fear of being drafted into the Confederate Army.
+</p>
+
+<p xml:id='OTPSD53477P2'>All three groups shared the enormous dangers of traveling on poorly constructed means of transportation in the South, vulnerability of women and children traveling outside of their local communities often for the first time, and the general lawlessness prevailing in war-wracked and desperate areas. The American Civil War therefore dislocated thousands of people of all backgrounds, and while many would go back to their former homes after the war, others would never return (Encyclopedia Virginia; David Silkenat, "Refugees and Movement in the Civil War," <hi rend='italic'>The Cambridge History of the American Civil War</hi>).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001666'>
+<catDesc>Races, Ethnicities, &amp; Nationalities</catDesc>
+          <category xml:id='S62968'>
+            <catDesc>
+              <term>African Americans</term>
+              <idno>https://en.wikipedia.org/wiki/African_Americans</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001666'>Races, Ethnicities, &amp; Nationalities</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62968P0'>The Cambridge Dictionary classifies "a person who lives in the U.S. and is a member of a race of people with dark skin that originally came from Africa" as African American, but both the nineteenth-century and modern constructions are more complex (Cambridge Dictionary). Common nineteenth-century racial categories such as "mulatto" referred to persons with both white and black ancestry, and the experiences of mixed-race persons varied based on complexion, degree of African ancestry, and the region in which they lived. In antebellum cities with large populations of free Blacks, the degree of one's African ancestry could determine what rights one possessed or did not possess, and people with lighter skin tones were often considered to be white; this ended under "one drop rule" during the Jim Crow system.
+</p>
+
+<p xml:id='OTPSD62968P1'>Like skin tone, the ethnicity implied by the term "African American" is also problematically broad, as "naming people only by the continent of their origin and ignoring their ethnic identity is a consequence of time and space" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 5). The experience of slavery complicated the term by attempting to strip people of their original distinct African ethnic identities such as Ibo or Ndongan, classifying all persons of African descent together under one term, infusing that term with negative connotation, and disregarding the complex and rich linguistic, cultural, and ethnic histories of varied African people. However, many Black Americans have reclaimed the term "African American" and infused it with positive connotations. One scholar argues that "in using the term 'African Americans,' Black Americans accent the part of their heritage that is not American" (Painter, <hi rend='italic'>Creating Black Americans</hi>, 4).
+</p>
+
+<p xml:id='OTPSD62968P2'>CWRGM — acknowledging the multiplicity of the term's meanings and connotations — includes multiracial and multiethnic people of African descent under the "African Americans" social identifiers subject tag to reflect the diversity of the African American experience and to ensure that the experiences of African Americans of mixed races and ethnicities are discoverable as they are rarely distinguished further in the letters. In the absence of other references, CWRGM also tags racial slurs targeted at African Americans — which were common in nineteenth century documents with white authors — under the "African Americans" tag. CWRGM recognizes the historic and present harm caused by such language and does not condone its use but tags these terms only to ensure the rich history of African Americans are discoverable within the collection.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+<category xml:id='C32001666S57096'>
+<catDesc>
+<term><rs ref='S57096'>African Americans--Historically Free and Newly Freed</rs></term>
+</catDesc>
+</category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S63262'>
+            <catDesc>
+              <term>Death</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/death</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63262P0'>While the Cambridge Dictionary defines death as “the end of life,” CWRGM employs this subject tag to refer to human deaths only, both actual and hypothetical. (Cambridge Dictionary)
+</p>
+
+<p xml:id='OTPSD63262P1'>The nation experienced mass loss of life (approximately 2% of the population) during the American Civil War, which changed the way Americans viewed death and resulted in its reconceptualization in highly bureaucratized ways. Often wartime dead were buried without their names and sometimes in poorly-dug graves, which created a powerful, profound social and cultural dislocation for their surviving loved ones. During the 19th century, Americans understood dying as a social and religious experience, and desired a "good death," which they defined as at home surrounded by family, but these ideals were unattainable in war. Consequently, Americans learned to cope with death and memorialize it in new ways. Unionists encouraged the federal government and ex-Confederates pushed their respective state governments to create and fund national cemeteries, rebury deceases soldiers and veterans, and establish veterans' and widows' pensions. These new responses to death were more bureaucratized, nationalistic, and secularized. Wartime and post-war death was also highly impacted by race, as white supremacists desecrated the graves of Union buried in the South, especially the bodies of African Americans who served in U.S. Colored Troops and the white officers that led them, revealing post-war sectionalism and strains on reconciliation. (Drew Gilpin Faust, <hi rend='italic'>This Republic of Suffering</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25003265'>
+            <catDesc>
+              <term>Wounds and Injuries</term>
+              <idno>https://www.civilwarmed.org/surgeons-call/amputation1/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25003265P0'>Medical treatment of wounds and injuries during the nineteenth century was fairly primitive, and not substantially different than medical practices over the preceding few centuries. Doctors had little knowledge of bacteria, and therefore did not understand the importance of washing hands or sterilizing medical instruments when treating open wounds. Physicians learned that some substances seemed to aid recovery, such as iodine and bromine, but their properties were more mystery than scientifically understood. Additionally, antibiotics had not yet been discovered. As a result, even minor cuts could become infected and lead to severe disability or death.
+</p>
+
+<p xml:id='OTPSD25003265P1'>During the Civil War, more than 475,000 soldiers were wounded in battle.  Thousands more suffered injuries in camp or on the march.  Medical care for wounded and injured soldiers typically involved closing wounds and setting broken bones. After suturing or bandaging these injuries, physicians would carefully observe their patients and try to offer some medical support, but recovery most often depended upon the wounded man’s natural healing. Some medical practices had unintended consequences, both positive and negative. Horsehair proved to be a popular material for sutures, due to its length and strength. To improve its elasticity, Civil War doctors boiled the horsehair, thereby disinfecting it. Wounds stitched closed with boiled horsehair were less likely to grow infected from the sutures, although this benefit was not fully understood until after the war. On the other hand, physicians probing for bullets or foreign objects inside a wound often introduced more bacteria and generated worse infections than the patient may have experienced without the procedure. This practice continued well after the Civil War, and likely contributed to President James Garfield’s death in 1881, when doctors repeatedly used unsterilized fingers and instruments while searching for the assassin’s bullet lodged in his body.
+</p>
+
+<p xml:id='OTPSD25003265P2'>Doctors understood the danger of blood loss to wounded men, but devices such as the Petit Tourniquet—a French screw-tightened tourniquet designed in 1718—were typically found at a surgeon’s tent rather than with the soldiers along the front lines. Some physicians recommended supplying tourniquets among the soldiers, but others suggested much simpler practices, such as each soldier carrying a handkerchief or cloth strip and a six-inch long piece of wood in his pocket to function as a makeshift tourniquet. These life-saving practices were not mandated among Union and Confederate armies, though, and many wounded men died of blood loss before reaching medical help.
+</p>
+
+<p xml:id='OTPSD25003265P3'>The most iconic treatment of battlefield wounds during the Civil War was amputation. Most casualties during the war were caused by musket fire. The large caliber lead balls often shattered bones upon impact. Unable to splint or repair bones so damaged, physicians frequently chose to amputate the wounded person’s limb above the injury. Doctors typically sewed a flap of skin over the stump. Unfortunately, due to the high incidents of infection for reasons described above, amputated limbs often became infected. Gangrene was among the most dangerous conditions, which could lead to death. The only method of combatting gangrene was to perform another amputation further up the limb (if possible) and hope it healed properly. Confederate and Union physicians performed around 50,000 amputations during the Civil War. Contrary to some popular myths, anesthesia, such as chloroform and ether, was in use during the Civil War, and around 95% of wounded soldiers were afforded some comfort before amputation.
+</p>
+
+<p xml:id='OTPSD25003265P4'>Hundreds of thousands of soldiers returned home from the Civil War with scars or permanent disabilities from wartime wounds and injuries. The large number of amputees also led to new developments in prosthetics. Lessons learned from the war improved medical care a bit, as Union and Confederate doctors recorded their observations of wounds and treatments. Published reports provided a new wealth of information. However, only after scientists better understood microbes and accepted the Germ Theory in the late nineteenth and early twentieth century did medical practice substantially improve from the Civil War era practices. (Frank R. Freemon, <hi rend='italic'>Gangrene and Glory: Medical Care during the American Civil War</hi>, 41–50; Terry Reimer, “Wounds, Ammunition, and Amputation,” National Museum of Civil War Medicine; Paige Gibbons Backus, “Amputation and the Civil War,” American Battlefield Trust)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Ames Series 803</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1875</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Adams, John</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1875-08-10</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Ames Collection. Letter from John Adams to Mississippi Governor Adelbert Ames, informing Ames of the bands of armed white men terrorizing African-Americans of Vicksburg, Mississippi, and warning Ames that threats have been made on his life.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 8.0&quot; x 12.5&quot; 4-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Vicksburg (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_803-997-01-21</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Warren County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Britany Castilaw; Dalton Wood; McKenna Fussell</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 997, Folder 1</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>African Americans; Ames, Adelbert, 1835-1933; Death threats; Mississippi. Governor</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from John Adams to Mississippi Governor Adelbert Ames; August 10, 1875</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/31975&quot;&gt;Letter from John Adams to Mississippi Governor Adelbert Ames; August 10, 1875&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG39" who="U32029872" when="2025-03-15T16:50:32Z" target="#P33041637">
+          Version 8 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U32029872" when="2025-03-15T16:40:50Z" target="#P33041637">
+          Version 7 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U2" when="2024-10-25T16:51:56Z" target="#P33041637">
+          Version 6 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U2" when="2024-10-25T15:04:23Z" target="#P33041634">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U25091195" when="2024-06-07T22:03:03Z" target="#P33041635">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U25091195" when="2024-06-07T22:01:07Z" target="#P33041635">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2024-01-30T17:23:54Z" target="#P33041634">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2024-01-30T17:14:42Z" target="#P33041635">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2024-01-30T17:03:47Z" target="#P33041634">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2024-01-30T17:02:18Z" target="#P33041635">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2024-01-30T16:59:09Z" target="#P33041635">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-11-17T17:20:23Z" target="#P33041635">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-11-17T17:19:12Z" target="#P33041635">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-11-17T17:16:02Z" target="#P33041634">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-11-17T17:09:54Z" target="#P33041635">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-11-17T17:02:39Z" target="#P33041634">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-11-01T22:27:24Z" target="#P33041635">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2023-09-03T02:12:59Z" target="#P33041634">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-09-02T19:20:17Z" target="#P33041634">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U25091195" when="2023-07-15T21:34:00Z" target="#P33041637">
+          Version 5 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U25091195" when="2023-07-15T21:33:00Z" target="#P33041637">
+          Version 4 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091195" when="2023-07-15T21:30:45Z" target="#P33041636">
+          Version 3 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091195" when="2023-07-15T21:29:26Z" target="#P33041635">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091195" when="2023-07-15T21:25:00Z" target="#P33041634">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091195" when="2023-07-15T21:24:32Z" target="#P33041634">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091235" when="2023-07-11T19:44:01Z" target="#P33041637">
+          Version 3 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091235" when="2023-07-11T19:43:36Z" target="#P33041637">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091235" when="2023-07-11T19:37:02Z" target="#P33041636">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091235" when="2023-07-11T19:29:53Z" target="#P33041635">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091235" when="2023-07-11T18:35:05Z" target="#P33041634">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U25091235" when="2023-07-11T18:33:34Z" target="#P33041634">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U25090807" when="2023-04-06T04:03:54Z" target="#P33041637">
+          Version 1 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U25090807" when="2023-04-06T03:57:59Z" target="#P33041636">
+          Version 1 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25090807" when="2023-04-06T03:42:37Z" target="#P33041635">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25090807" when="2023-04-06T03:40:50Z" target="#P33041635">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25090807" when="2023-04-06T03:25:33Z" target="#P33041634">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2023-03-28T16:32:43Z" target="#P33041637">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2023-03-28T16:32:41Z" target="#P33041636">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2023-03-28T16:32:39Z" target="#P33041635">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2023-03-28T16:32:37Z" target="#P33041634">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F33041634" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:31971/full/full/0/default.jpg"/>
+        <div xml:id="OTP33041634">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP33041634P0' xml:id='OTP33041634P0'><rs ref='#S51788'>Vicksburg</rs> Aug 10 1875
+</p>
+
+<p corresp='TTP33041634P1' xml:id='OTP33041634P1'>Gov <rs ref='#S52648'>Ames</rs>
+</p>
+
+<p corresp='TTP33041634P2' xml:id='OTP33041634P2'>Dear Sir
+</p>
+
+<p corresp='TTP33041634P3' xml:id='OTP33041634P3'>Being a <rs ref='#S63188'>republican</rs> and a friend to you athough a stranger you will no doubt-think strange of my writing but I wish to tell you your life is an danger That the <rs ref='#S57126'>white linen</rs> are determind to <rs ref='#S53668'>Kill you</rs> you may Think this is untrue coming from a stranger but never the less is true and if you will communicate with Mr <rs ref='#S32082176'>^ED^ Retcherdson</rs> of this place (Vicksburg) You can get some of the particulars I only give you what I Know from heresay [but?] Mr Ritcherdom Can tell you enough to satisfy you if you will communcate with him privately
+</p>
+
+<p corresp='TTP33041634P4' xml:id='OTP33041634P4'>He told me what I Know The object is to get up a <rs ref='#S32031011'>riot</rs> in <rs ref='#S51785'>Jackson</rs> and and if that will not work then They the white linens will try some other plan I do Know as to put you on your guard and tell you who can give you information The whites say every Thing is quiet here and the town was never more peacable and  
+</p>
+
+
+        </div>
+        <pb xml:id="F33041635" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:31972/full/full/0/default.jpg"/>
+        <div xml:id="OTP33041635">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP33041635P0' xml:id='OTP33041635P0'>and quiet—[?] last Sunday night on the 5<add place='above'><hi rend='underline'>th</hi></add><sub>"</sub> Armed white men patrolled the streets of Vi<del rend='overstrike'>[x]</del>cksburg and ran the <rs ref='#S57096'>colored people</rs> out of their <rs ref='#S75807'>churches</rs> and caused such a panic at one Women &amp; Children were <rs ref='#S25003265'>nocked down and ran over</rs> in the streets they also went among and <rs ref='#S32084779'>searched colord mens Houses</rs> M<add place='above'>r</add> Richardson Can tell you something more about this as He attends Market every morning very early and he saw some of the Armes taken from the "colored" people there was a colored man told me a few hours ago that only yesterday the ninth (9") that a colored man was <rs ref='#S63262'>Killed</rs> below here East of <rs ref='#S94245'>Warrungton</rs> and some of the <rs ref='#S53477'>colored peopl</rs> ship out for <rs ref='#S99687'>fear of their lives</rs> on account of some armed white men going around the country and he himself came to town for fear that he would be <rs ref='#S91486'>Killed</rs> an quit picking cotton this is the Kind of [?] we have here in Vicksburg many are afraid to be seen after dark orto sleep in their houses at night—relief is anxiously looked for from you
+</p>
+
+
+        </div>
+        <pb xml:id="F33041636" n="3" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:31973/full/full/0/default.jpg"/>
+        <div xml:id="OTP33041636">
+        <fw type="pageNum">Page 3</fw>
+          <p corresp='TTP33041636P0' xml:id='OTP33041636P0'>No men at present but remain Your Friend and fellow citizen be sure to communicate with ED Richarson soon for go<del rend='overstrike'>ol</del>ds sake and sake of my family do not mention my my name as my <del rend='overstrike'>h</del>life would be the result I have been warned to leave here and my life threatened by the white liners There is several here that have been threatened and told to leave but we expect protection and unless we get it soon we will have to flee for our lives with this I will close and trust your honor will not mention my name to no one for gods sake not even to Mr<add place='above'>r</add> Richardson
+</p>
+
+<p corresp='TTP33041636P1' xml:id='OTP33041636P1'>Your Obt Servt—
+</p>
+
+<p corresp='TTP33041636P2' xml:id='OTP33041636P2'><rs ref='#S105303'>John Adams</rs>
+</p>
+
+<p corresp='TTP33041636P3' xml:id='OTP33041636P3'>PS
+</p>
+
+<p corresp='TTP33041636P4' xml:id='OTP33041636P4'>Any information I can give I will with pleasure
+</p>
+
+
+        </div>
+        <pb xml:id="F33041637" n="4" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:31974/full/full/0/default.jpg"/>
+        <div xml:id="OTP33041637">
+        <fw type="pageNum">Page 4</fw>
+          <p corresp='TTP33041637P0' xml:id='OTP33041637P0'>Copy 49
+</p>
+
+<p corresp='TTP33041637P1' xml:id='OTP33041637P1'><rs ref='#S25026074'>Executive Office.<lb/>
+State of Miss</rs>
+</p>
+
+<p corresp='TTP33041637P2' xml:id='OTP33041637P2'>County of Warren<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33041637P3' xml:id='OTP33041637P3'>From John P Adams.<lb/>
+Addnss—Vicksburg Miss<lb/>
+Date August 10 1875<lb/>
+Recd Sept 16 <add place='above'>,, ,,</add><lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33041637P4' xml:id='OTP33041637P4'>Subject<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33041637P5' xml:id='OTP33041637P5'>Communicating<del rend='overstrike'>ey</del> in-formation in regard to design of white leag-ueres<lb/>
+<hr/>
+</p>
+
+<p corresp='TTP33041637P6' xml:id='OTP33041637P6'>Geo Ames<lb/>
+Gov
+</p>
+
+<p corresp='TTP33041637P7' xml:id='OTP33041637P7'><rs ref='#S32077786'>Travis Rhodes</rs><lb/>
+<rs ref='#S95466'>Scty</rs> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

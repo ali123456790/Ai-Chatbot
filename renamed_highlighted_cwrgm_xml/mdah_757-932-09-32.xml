@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from George H. Lipscomb to Mississippi State Auditor Erasmus R. Burt; June 21, 1861</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2022-01-07T20:54:33Z">January  7, 2022</date> and
+              <date type="last_edit" when="2023-09-03T00:35:56Z">September  3, 2023</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T19:03:44+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S83309">
+              <persName>Burt, E. R.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25013463">
+              <persName>Lipscomb, George H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S72861">
+              <placeName>Florida--Escambia County. Pensacola</placeName>
+                <idno>https://www.britannica.com/place/Pensacola</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS72861P0'>Located in Escambia County, Pensacola was founded as early as the 1670s and serves as the county seat. (Britannica; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.43333, -87.2</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25005338'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 10th (1861-1862)</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=onepage&amp;q=%22tenth%20regiment-infantry%22&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25005338P0'>The 10th Regiment, Mississippi Infantry (Confederate) was organized on April 17, 1861 in Hinds County, Mississippi under the command of Col. Seaborne M. Phillips and served in the Western Theater under Chalmers' Brigade. It was later commanded by Cols. Robert A. Smith, James Ronald Chalmers, James Barr, Jr., and James M. Walker. It was reorganized in 1862. It was later consolidated with the 7th, 9th, 41st, and 44th Mississippi Infantry Regiments and the 9th Battalion, Mississippi Infantry to form the 9th Regiment, Mississippi Infantry on April 9, 1865. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 18; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 595-605; National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25005354'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 10th (1861-1862). Company D</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=onepage&amp;q=%22lowndes%20southrons%22&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25005354P0'>Commonly known as the Lowndes Southrons, Company D of the 10th Regiment, Mississippi Infantry (1861-1862) (Confederate) was organized on January 11, 1861 in Lowndes County, Mississippi under the command of Capt. George H. Lipscomb and served in the Western Theater. It was later commanded by Capts. William Bartee Wade and Robert A. Bell. It was later reorganized as Company E in 1862. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 18; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 596)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S94600'>
+            <catDesc>
+              <term>Lawyers</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/lawyer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD94600P0'>"Someone whose job is to give advice to people about the law and speak for them in court." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Lipscomb, George H.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-06-21</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from George H. Lipscomb requesting payment for service at Pensacola, Florida, for the &quot;Lowndes Southrons,&quot; (Company D, 10th Mississippi Infantry).</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a [x]� x [x]� [x]-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Pensacola (Fla.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-932-09-32</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Cody Turnbaugh; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 932, Folder 9</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Burt, Erasmus R., approximately 1820-1861; Confederate States of America. Army.; Confederate States of America. Army--Pay, allowances, etc.; Mississippi. Governor; Mississippi. Militia; Mississippi. Office of the State Auditor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from George H. Lipscomb to Mississippi State Auditor Erasmus R. Burt; June 21, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/16572&quot;&gt;Letter from George H. Lipscomb to Mississippi State Auditor Erasmus R. Burt; June 21, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG9" who="U220769" when="2023-09-03T00:35:56Z" target="#P32082100">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2023-03-18T01:38:17Z" target="#P32082100">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2023-03-16T20:19:21Z" target="#P32082100">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U220769" when="2022-01-07T20:56:52Z" target="#P32082101">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U220769" when="2022-01-07T20:56:34Z" target="#P32082100">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U220769" when="2022-01-07T20:55:03Z" target="#P32082101">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2022-01-07T20:54:44Z" target="#P32082101">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2022-01-07T20:54:33Z" target="#P32082100">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2022-01-07T20:11:55Z" target="#P32082101">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-01-07T20:11:53Z" target="#P32082100">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32082100" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:16570/full/full/0/default.jpg"/>
+        <div xml:id="OTP32082100">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP32082100P0' xml:id='OTP32082100P0'>[seal]
+</p>
+
+<p corresp='TTP32082100P1' xml:id='OTP32082100P1'>June 21. 1861
+</p>
+
+<p corresp='TTP32082100P2' xml:id='OTP32082100P2'><rs ref='#S83309'>E R Burt</rs>. <rs ref='#S94600'>Esq</rs>.Auditor &amp;<add place='above'>c</add>
+</p>
+
+<p corresp='TTP32082100P3' xml:id='OTP32082100P3'>I hereby apply for pay of Officers &amp; members of my Company the <rs ref='#S25005354'>"Lowndes Southrons"</rs> who have performed one months Service at <rs ref='#S72861'>Pensacola</rs>—See Convention Ordinance of March 25 1861. Said Company Consisted of the following Officers and men who have performed said service ^viz:^
+</p>
+
+<p corresp='TTP32082100P4' xml:id='OTP32082100P4'><table cols='3' rows='9'><row role='label'/><row><cell role='data'>Captain</cell><cell role='data'>$105.00</cell></row><row><cell role='data'>1<add place='above'>st</add>Lieut</cell><cell role='data'>95.00</cell></row><row><cell role='data'>2<add place='above'>nd</add>"</cell><cell role='data'>90.00</cell></row><row><cell role='data'>3<add place='above'>rd</add>"</cell><cell role='data'>90.00</cell></row><row><cell role='data'>Orderly Sergeant</cell><cell role='data'>20.00</cell></row><row><cell role='data'>4 Sergeants. $17.</cell><cell role='data'>68.00</cell></row><row><cell role='data'>4 Corporals. $16.</cell><cell role='data'>64.00</cell></row><row><cell role='data'>54 Privates —@ $16.00</cell><cell role='data'>864.00</cell></row><row><cell role='data'/><cell role='data'>$1.396.00 </cell></row></table> <rs ref='#S25013463'>Geo H Lipscomb</rs>Capt—Southrons
+</p>
+
+
+        </div>
+        <pb xml:id="F32082101" n="2" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:16571/full/full/0/default.jpg"/>
+        <div xml:id="OTP32082101">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP32082101P0' xml:id='OTP32082101P0'>Received Auditor's Warrant No. 180 for thirteen hundred and ninety six Dolls. in full. of within claim
+</p>
+
+<p corresp='TTP32082101P1' xml:id='OTP32082101P1'>Geo H Lipscomb<lb/>
+Capt Lowndes Southrons
+</p>
+
+<p corresp='TTP32082101P2' xml:id='OTP32082101P2'>June 21. 1861 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

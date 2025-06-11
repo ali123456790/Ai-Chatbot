@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from General James L. Alcorn to Mississippi Governor John J. Pettus; February 5, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 17 edits between
+              <date type="first_edit" when="2021-05-05T01:08:16Z">May  5, 2021</date> and
+              <date type="last_edit" when="2023-05-30T17:35:59Z">May 30, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091404">
+          <persName
+            >
+            Robert Mason
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2023-10-12T16:42:01Z">October 12, 2023</date> and
+              <date type="last_edit" when="2023-11-28T15:38:24Z">November 28, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 5 edits between
+              <date type="first_edit" when="2021-03-23T11:45:55Z">March 23, 2021</date> and
+              <date type="last_edit" when="2021-05-19T14:54:05Z">May 19, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32020358">
+          <persName
+            >
+            Elisabeth Kluin
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2025-03-15T20:08:48Z">March 15, 2025</date> and
+              <date type="last_edit" when="2025-03-15T20:14:01Z">March 15, 2025</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-03-07T21:32:51Z">March  7, 2021</date> and
+              <date type="last_edit" when="2021-03-07T21:35:56Z">March  7, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U228445">
+          <persName
+            >
+            Abby Cawley
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-03-12T18:00:07Z">March 12, 2021</date> and
+              <date type="last_edit" when="2021-03-12T18:00:31Z">March 12, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T14:50:03Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-08-27T00:12:38Z">August 27, 2023</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U217868">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Alec Blaylock </name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T19:00:18+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S25005394">
+              <persName>McLaurin, Cornelius</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S94773">
+              <persName>Polk, Leonidas, 1806-1864</persName>
+                <idno>https://en.wikipedia.org/wiki/Leonidas_Polk</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS94773P0'>Leonidas Polk was a bishop of the Episcopal Diocese of Louisiana and a Confederate general.
+</p>
+
+<p xml:id='OTPS94773P1'>Born in Raleigh, North Carolina, on April 10, 1806, Polk was raised and educated in North Carolina. He spent two years at the University of North Carolina before transferring to the United States Military Academy at West Point, New York. While at West Point, Polk joined the Episcopal Church. He graduated from the military academy in July 1827 and received a commission as a U.S. Army artillery officer. Polk resigned from the army in December 1827 and entered the Virginia Theological Seminary. In 1830, shortly before he completed his religious training, he married Frances Ann Devereux. The couple had eight children over the course of their marriage.
+</p>
+
+<p xml:id='OTPS94773P2'>In 1831, Pok was ordained as a deacon in the Episcopal Church in 1831. The following year Polk and his wife moved to Maury County, Tennessee. He served as a priest in Columbia. During the 1830s, Polk’s personal finances grew, and he became a prominent slaveowner. By 1840, he owned 111 slaves, and by 1850 he reportedly had 400 enslaved people. In 1841, Polk was elected Bishop of Louisiana. His public standing and great wealth made him a prominent public figure outside of the church. He helped establish the University of the South in Sewanee, Tennessee, intended to be a world-class center of higher learning for the southern, slaveholding states.
+</p>
+
+<p xml:id='OTPS94773P3'>In 1861, when the southern states seceded from the Union, Polk oversaw the creation of the Protestant Episcopal Church in the Confederate States of America. He wrote to Confederate President Jefferson Davis—a West Point classmate—to offer his services and received a commission as major general in the Confederate Army. Placed in charge of Confederate troops between the Mississippi and Tennessee Rivers, Polk tried to draw the neutral state of Kentucky into the Confederacy. He sent Confederate units into that state. The maneuver was a major strategic blunder, as the Kentucky legislature reacted with hostility and requested support from the Union to repel the Confederate “invaders.”
+</p>
+
+<p xml:id='OTPS94773P4'>Polk clashed with other Confederate generals, including his superior officer, General Albert Sidney Johnston, and submitted his letter of resignation to Jefferson Davis in November 1861. Davis rejected the resignation and Polk retained a field command. He led troops in battle against Ulysses S. Grant at Belmont, Missouri, in November 1861, scoring a moral victory by repulsing Grant’s attack. However, a few days later, Polk was seriously wounded when a cannon nicknamed “Lady Polk,” in honor of his wife, exploded during a firing demonstration. He spent several weeks convalescing.
+</p>
+
+<p xml:id='OTPS94773P5'>Polk returned to command in early 1862, leading Confederate soldiers at the battles of Shiloh, Perryville, and Murfreesboro. His performance during these engagements proved his bravery (helping him attain the rank of lieutenant general in October 1862), but also revealed weaknesses in handling logistics and strategy. Most significantly, he continued to engage in rivalries with other officers. He lobbied his friend Jefferson Davis to relieve General Braxton Bragg from command in the west; Bragg in return told Davis that Polk was unwilling to follow orders.
+</p>
+
+<p xml:id='OTPS94773P6'>In the face of the high profile dispute between Bragg and Polk, in late 1863 Davis placed Polk in command of Confederate soldiers in Mississippi. The state was already partially under Union control—Vicksburg having been captured by Grant in July 1863, and the capital city of Jackson having been sacked by William Tecumseh Sherman—and Polk struggled to resist Union periodic federal raids against key Mississippi towns. Then, in May 1864, Polk received orders to join General Joseph E. Johnston in northern Georgia to repel Sherman’s advance to Atlanta. Polk was placed in command of the Third Corps of the Army of Tennessee.
+</p>
+
+<p xml:id='OTPS94773P7'>On June 14, 1864, near Marietta, Georgia, Polk and several other high ranking Confederate officers found a good vantage point on Pine Mountain to observe Union forces. General Sherman noticed the group of Confederates through field glass. He ordered nearby Union artillery to fire on them. A battery from the First Ohio Light Artillery fired at the Confederate officers. One shell landed close by, startling the Confederates, who then began to disperse. A second shell struck Polk directly, passing through his chest from side-to-side, nearly cutting him in half.
+</p>
+
+<p xml:id='OTPS94773P8'>Despite the controversies surrounding Polk as a Confederate general, he was very popular among Confederate troops. His death was widely mourned within the Confederacy. He was initially buried in Saint Paul’s Church in Augusta, Georgia. However, his remains were moved to Christ Church Cathedral in New Orleans, Louisiana, in 1945.
+</p>
+
+<p xml:id='OTPS94773P9'>(Wikipedia; American Battlefield Trust; N. C. Hughes, Jr., “Polk, Leonidas,” NCPedia)
+</p>
+
+<p xml:id='OTPS94773P10'>Leonidas Polk belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S32013310">
+              <persName>Campbell, R. B. </persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S94280">
+              <persName>Alcorn, J. L. (James Lusk), 1816-1894</persName>
+                <idno>https://en.wikipedia.org/wiki/James_L._Alcorn</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS94280P0'>James L. Alcorn served as governor and then U.S. senator for Mississippi in the 1870s.
+</p>
+
+<p xml:id='OTPS94280P1'>Born November 4, 1816, in Illinois Territory, Alcorn spent much of his young adulthood in Kentucky. After attending Cumberland College in Princeton, Kentucky, Alcorn was deputy sheriff of Livingston County, Kentucky, and then entered legal practice in the state in the 1830s. He served a short stint in the Kentucky House of Representatives in the early 1840s and then relocated to Mississippi, where he practiced law in Coahoma County. Financial success as an attorney enabled Alcorn to buy land and establish Mound Place Plantation in the Mississippi Delta region. By 1860, Alcorn owned nearly one hundred slaves; his land holdings alone were valued at approximately $9.5 million in today’s currency. Alcorn married Mary C. Stewart of Kentucky in 1839. The couple had five children before Mary passed away in 1849. Alcorn married Amelia Walton Glover of Alabama in 1850. He fathered three children with his second wife.
+</p>
+
+<p xml:id='OTPS94280P2'>Alcorn was a Unionist during the 1850s. He served as a delegate to a special Mississippi convention to debate the south’s response to the Compromise of 1850—legislation passed in the U.S. Congress designed to settle a fierce dispute over the fate of slavery in territories gained by the United States from Mexico. He warned that secession would lead to war, with federal soldiers invading the south, liberating slaves, and a destroying southern society. Alcorn and other Unionists carried the day during the 1851 convention.
+</p>
+
+<p xml:id='OTPS94280P3'>During the 1850s, Alcorn served in the Mississippi House of Representatives and Senate as a Whig. He led a legislative effort to establish levees to reduce flooding in the Delta region, and was elected the first president of the levee board. As his standing in Mississippi politics increased, he ran for election to U.S. Congress in 1856 but lost. Whigs in Mississippi subsequently considered him for a gubernatorial run in 1857, but Alcorn turned it down.
+</p>
+
+<p xml:id='OTPS94280P4'>During the secession crisis following Abraham Lincoln’s election to the U.S. presidency in 1860, Alcorn initially maintained his Unionist leanings. However, when Mississippi issued its ordnance of secession, Alcorn pledged his loyalty to the state and volunteered for military service in Mississippi. He received an appointment as brigadier general for the state militia in 1861, but his military advancement was hindered by powerful political rivals.  Alcorn led a brigade of three Mississippi militia regiments into the field in October 1861. His brigade spent three months Kentucky—experiencing miserable weather and mud, but no combat—before disbanding in January 1862 when their enlistments expired.
+</p>
+
+<p xml:id='OTPS94280P5'>Alcorn returned home from Kentucky embittered and embroiled in disputes with his personal and political rivals. Although he backed Mississippi following secession, Alcorn was not particularly committed to the Confederate cause. After federal soldiers entered Mississippi in 1862, his plantation was among those raided. However, Alcorn established contacts within the Union army and began trading cotton with federal authorities against Confederate policy. As a result, his wealth grew and his plantation was spared the same level of destruction meted out to notable secessionists.
+</p>
+
+<p xml:id='OTPS94280P6'>Alcorn reentered Mississippi politics immediately upon the defeat of the Confederacy. He was elected to the U.S. Senate in 1865 by the postwar Mississippi government’s effort to earn readmission into the Union under President Andrew Johnson’s lenient Reconstruction plan. However, the Mississippi legislature passed a series of highly discriminatory laws (known as the Black Codes) against recently emancipated African Americans, prompting Republicans in the United States Congress to refuse Mississippi back into the Union. As a result, Alcorn was denied his seat in the Senate.
+</p>
+
+<p xml:id='OTPS94280P7'>Alcorn became a leading member of the Republican Party in Mississippi as Reconstruction developed. He embraced Black civil rights, including African American suffrage. Although born in the north, his long residency in, and service to, Mississippi before and during the Civil War made him a “scalawag” (white southerner who joined the Republican Party) to conservative whites in the south. Nevertheless, he gained enough political support to win the Republican nomination for governor and then the gubernatorial election in 1869 as Mississippi reentered the Union. He entered office in 1870 and oversaw the development of a state public education system, the creation of a land-grant college for African Americans (named Alcorn University in his honor), and pro-business acts to improve economic development in the state.
+</p>
+
+<p xml:id='OTPS94280P8'>Alcorn resigned as governor in 1871 to take a seat in the U.S. Senate for Mississippi. Though still a Republican, Alcorn represented a more conservative side of the party. Though supporting Black civil rights, he resisted some federal intervention in Mississippi affairs, and generally held white supremacist views. This put him in opposition to the other senator from Mississippi, Adelbert Ames, a former Union general who had served as a military governor in Reconstruction Mississippi and led the more radical faction of Republicans in Mississippi that pushed total racial equality. Alcorn and Ames ran against each other for governor of Mississippi in 1873. Ames won by carrying most African American votes.
+</p>
+
+<p xml:id='OTPS94280P9'>Alcorn left the U.S. Senate in 1877 and returned to Mississippi. He did not take part in most state political matters, but did stay active in the levee system and governing. In 1890, he was selected to be a delegate to the Mississippi constitutional convention. He was among the delegates the supported new restrictions against Black Mississippi rights.  Alcorn died on December 19, 1894. He is buried in Friars Point, Mississippi.
+</p>
+
+<p xml:id='OTPS94280P10'>(Wikipedia; Timothy B. Smith, <hi rend='italic'>Mississippi in the Civil War</hi>, 134-135; David Sansing, “James Lusk Alcorn: Twenty-eighth Governor of Mississippi: March 180 to November 1871,” Mississippi History Now)
+</p>
+
+<p xml:id='OTPS94280P11'>James Lusk Alcorn belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S94987">
+              <persName>Davis, Claudius Virginius Hughes</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63123">
+              <placeName>Mississippi--Grenada County. Grenada</placeName>
+                <idno>https://en.wikipedia.org/wiki/Grenada,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63123P0'>Currently located in Grenada County, Grenada was founded in 1836 in what was then Yalobusha County. When Grenada County was created on May 9, 1870, Grenada became the county seat. (Wikipedia; Britannica; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.775, -89.80889</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001333'>
+<catDesc>Transportation &amp; Infrastructure Industries</catDesc>
+          <category xml:id='S99413'>
+            <catDesc>
+              <term>Railroads and Railroad Companies</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99413P0'>"A system of transportation using special vehicles whose wheels turn on metal bars fixed to the ground, or a particular company using such a system." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63142'>
+            <catDesc>
+              <term>Railroads and Railroad Companies--Mississippi Central Railroad Company (1852-1877)</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_Central_Railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.61194, -90.03167</geo>
+              </note>
+              <gloss><p xml:id='OTPSD63142P0'>Located in Holly Springs, Mississippi, the Mississippi Central Railroad Company was a railroad company operating from 1852 to 1877. The Mississippi Central Railroad Company was impacted by General Grant's Mississippi Central Railroad Campaign of November 1862, whereby the Union destroyed a large portion of the rail line, cutting off the Confederacy from supplies and causing a retreat, thwarting General Grant's overall goal of the campaign, which was to seize control of Vicksburg, Mississippi. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63542'>
+            <catDesc>
+              <term>Railroads and Railroad Companies--Mobile and Ohio Railroad Company (Mobile, Ala.)</term>
+              <idno>https://en.wikipedia.org/wiki/Mobile_and_Ohio_Railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>30.69444, -88.04306</geo>
+              </note>
+              <gloss><p xml:id='OTPSD63542P0'>Located in Mobile, Alabama, the Mobile and Ohio Railroad Company was a railroad company established in 1848 by Alabama, Kentucky, Mississippi, and Tennessee, and operated until 1940 when it merged with Gulf, Mobile and Ohio Railroad. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32119807'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 2nd (Bartlett&#39;s) (Army of 10,000-Alcorn&#39;s Brgd). Company F</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32119807P0'>Commonly known as the Attala Rebels, Company F of the 2nd Regiment, Mississippi Infantry (Bartlett's) (Army of 10,000-Alcorn's Brigade) (Confederate) was organized on November 21, 1861 in Attala County, Mississippi under the command of Capt. R. B. Campbell and served in the Western Theater. (Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 757; Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 9)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32119806'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 3rd (Rozell&#39;s) (Army of 10,000-Alcorn&#39;s Brgd)</term>
+              <idno>https://books.google.com/books?id=BCYLAAAAMAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32119806P0'>The 3rd Regiment, Mississippi Infantry (Rozell's) (Army of 10,000-Alcorn's Brigade) (Confederate) was organized in November of 1861 at Grenada, Yalobusha County (present-day Grenada County), Mississippi under the command of Col. B. L. Rozell and served in the Western Theater. It served in Brig. Gen. James L. Alcorn's Brigade as part of the Army of 10,000 called into service for sixty days by Governor John J. Pettus. It was disbanded in February of 1862. (Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 754-758; Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 11-12) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S32119809'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 3rd (Rozell&#39;s) (Army of 10,000-Alcorn&#39;s Brgd). Cavalry Company</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32119809P0'>Commonly known as the Mississippi Scouts, the Cavalry Company of the 3rd Regiment, Mississippi Infantry (Rozell's) (Army of 10,000-Alcorn's Brigade) (Confederate) was organized as an independent cavalry company on December 16, 1861 in Rankin County, Mississippi under the command of Capt. Cornelius McLaurin and served in the Western Theater. (Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 754-756; Mississippi Department of Archives and History)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Alcorn, J. L. (James Lusk), 1816-1894</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-02-05</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Grenada, Mississippi, by Confederate General James L. Alcorn, giving Mississippi Governor John Jones Pettus a synopsis of recent events in his command.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Grenada (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-941-02-36</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Grenada County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Amy Myers; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 941, Folder 2</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from General James L. Alcorn to Mississippi Governor John J. Pettus; February 5, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/4526&quot;&gt;Letter from General James L. Alcorn to Mississippi Governor John J. Pettus; February 5, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG41" who="U32020358" when="2025-03-15T20:14:01Z" target="#P1774051">
+          Version 36 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U32020358" when="2025-03-15T20:08:48Z" target="#P1774051">
+          Version 35 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U2" when="2024-10-25T14:50:03Z" target="#P1774051">
+          Version 34 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U25091404" when="2023-11-28T15:38:24Z" target="#P1774051">
+          Version 33 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U25091404" when="2023-11-28T15:02:33Z" target="#P1774051">
+          Version 32 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U25091404" when="2023-10-17T19:22:23Z" target="#P1774051">
+          Version 31 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U25091404" when="2023-10-17T19:06:25Z" target="#P1774051">
+          Version 30 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U25091404" when="2023-10-17T19:05:59Z" target="#P1774051">
+          Version 29 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U25091404" when="2023-10-13T16:54:17Z" target="#P1774051">
+          Version 28 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U25091404" when="2023-10-13T14:09:42Z" target="#P1774051">
+          Version 27 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U25091404" when="2023-10-12T16:42:01Z" target="#P1774051">
+          Version 26 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U25091356" when="2023-08-27T00:12:38Z" target="#P1774051">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-05-30T17:35:59Z" target="#P1774051">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-21T01:48:22Z" target="#P1774051">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-21T01:46:31Z" target="#P1774051">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-18T21:55:23Z" target="#P1774051">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-18T00:59:02Z" target="#P1774051">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2021-11-06T16:04:20Z" target="#P1774051">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2021-10-28T02:18:09Z" target="#P1774051">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2021-10-28T02:15:44Z" target="#P1774051">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2021-08-24T20:17:30Z" target="#P1774051">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2021-08-24T13:37:07Z" target="#P1774051">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2021-07-16T14:16:10Z" target="#P1774051">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U217868" when="2021-05-19T14:54:05Z" target="#P1774051">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U217868" when="2021-05-19T14:50:57Z" target="#P1774051">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2021-05-11T19:46:28Z" target="#P1774051">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2021-05-11T19:45:49Z" target="#P1774051">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2021-05-11T19:45:28Z" target="#P1774051">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2021-05-05T01:17:14Z" target="#P1774051">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2021-05-05T01:12:20Z" target="#P1774051">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2021-05-05T01:08:16Z" target="#P1774051">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U217868" when="2021-03-23T11:47:20Z" target="#P1774051">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U217868" when="2021-03-23T11:47:05Z" target="#P1774052">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U217868" when="2021-03-23T11:45:55Z" target="#P1774051">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U228445" when="2021-03-12T18:00:31Z" target="#P1774052">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U228445" when="2021-03-12T18:00:07Z" target="#P1774051">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U226410" when="2021-03-07T21:35:56Z" target="#P1774052">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U226410" when="2021-03-07T21:32:51Z" target="#P1774051">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U215567" when="2021-02-06T00:39:31Z" target="#P1774052">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-02-06T00:39:31Z" target="#P1774051">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-02-06T00:39:18Z" target="#P1774052">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-02-06T00:39:11Z" target="#P1774051">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F1774051" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/4524/full/full/0/default.jpg"/>
+        <div xml:id="OTP1774051">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP1774051P0' xml:id='OTP1774051P0'>[seal]
+</p>
+
+<p corresp='TTP1774051P1' xml:id='OTP1774051P1'><rs ref='#S63123'>Grenada</rs> Miss<lb/>
+Feby 5 1862
+</p>
+
+<p corresp='TTP1774051P2' xml:id='OTP1774051P2'>Gov <rs ref='#S63111'>Pettus</rs>
+</p>
+
+<p corresp='TTP1774051P3' xml:id='OTP1774051P3'>Dr Sir
+</p>
+
+<p corresp='TTP1774051P4' xml:id='OTP1774051P4'>Capt <rs ref='#S25005394'>McLaurns</rs> <rs ref='#S32119809'>Cavalry Company</rs> is yet at state line station. I have endeavored both with the <rs ref='#S63542'>Mobile &amp; Ohio</rs> &amp; the <rs ref='#S63142'>Miss Central road</rs> to procure transportation but have failed will you not dispatch Genl <rs ref='#S94773'>Polk</rs> on this point and have them sent home? I regret that this has occurred as the troops are much disposed to complain and are ever ready to sup-pose their unavoidable inconveniences result from inattention to their wants,
+</p>
+
+<p corresp='TTP1774051P5' xml:id='OTP1774051P5'>I have approved most of the muster rolls. and in doing this approved one roll before inspection viz Capt <rs ref='#S32013310'>Campbells</rs> <rs ref='#S32119807'>Co (F) 2 Regimt</rs>—you will call the attention of the paymaster to my remarks on the margin of the roll and see that he does not pay it,
+</p>
+
+<p corresp='TTP1774051P6' xml:id='OTP1774051P6'>I will be in <rs ref='#S51785'>Jackson</rs> on the 12<add place='above'>th</add> inst to finally make my accout should the money arrive this would be a good time to have the Captains meet at Jackson to draw their pay,
+</p>
+
+<p corresp='TTP1774051P7' xml:id='OTP1774051P7'>Very Respectfully  <lb/>
+Yours &amp;
+</p>
+
+<p corresp='TTP1774051P8' xml:id='OTP1774051P8'><rs ref='#S94280'>J L Alcorn</rs> Brig Genl
+</p>
+
+<p corresp='TTP1774051P9' xml:id='OTP1774051P9'>Adjutant <rs ref='#S94987'>Davis</rs> will deposit the Books containing my orders &amp; a copy of my correspondence with Genl Polk.  
+</p>
+
+
+        </div>
+        <pb xml:id="F1774052" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/4525/full/full/0/default.jpg"/>
+        <div xml:id="OTP1774052">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP1774052P0' xml:id='OTP1774052P0'>Gen Alcorn <lb/>
+Grenada Miss
+</p>
+
+<p corresp='TTP1774052P1' xml:id='OTP1774052P1'>Feby 5<add place='above'>th</add> 1862 In regard to the pay—of the sixty day troops &amp;c. &amp;c<lb/>
+<hr/>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

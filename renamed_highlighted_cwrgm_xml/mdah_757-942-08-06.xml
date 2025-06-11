@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from W. Taylor to H. C. Chambers; September 2, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 26 edits between
+              <date type="first_edit" when="2021-07-29T16:18:36Z">July 29, 2021</date> and
+              <date type="last_edit" when="2023-11-17T18:23:38Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U215767">
+          <persName
+              type="pseudonym"
+            >
+            lucas.somers
+            </persName>
+            <resp>
+              made 6 edits between
+              <date type="first_edit" when="2021-07-19T16:57:07Z">July 19, 2021</date> and
+              <date type="last_edit" when="2021-07-19T17:12:43Z">July 19, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25089434">
+          <persName
+            >
+            James M. Berry
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-07-19T01:29:05Z">July 19, 2021</date> and
+              <date type="last_edit" when="2021-07-19T01:35:56Z">July 19, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-07-21T18:22:18Z">July 21, 2021</date> and
+              <date type="last_edit" when="2021-07-21T18:23:38Z">July 21, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2021-07-18T00:15:34Z">July 18, 2021</date> and
+              <date type="last_edit" when="2021-07-18T00:19:56Z">July 18, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-08-26T23:16:47Z">August 26, 2023</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U217868">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Alec Blaylock </name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:23:53+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S94121">
+              <persName>Chambers, H. C.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25015577">
+              <persName>Bisland, Levins M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25015547">
+              <persName>Bisland, James R.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63513">
+              <persName>Memminger, C. G. (Christopher Gustavus), 1803-1888</persName>
+                <idno>https://en.wikipedia.org/wiki/Christopher_Memminger</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002816">Foreign Born</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63513P0'>Christopher Gustavus Memminger was an author of the Provisional Constitution of the Confederate States of America and the first Secretary of the Treasury for the Confederacy. Born on January 9, 1803, in Vaihingen, Wuerttemberg (modern-day Stuttgart, Germany), Memminger moved to Charleston, South Carolina, as a small child with his mother after his father passed away. He was orphaned in 1807 when his mother died of yellow fever, but at the age of eleven was taken in by Thomas Bennett, future governor of South Carolina. At age twelve, Memminger entered South Carolina College and graduated at the age of sixteen. He studied law and became a practicing attorney in 1825. Memminger became involved in the 1830s, winning an election to the South Carolina state legislature in 1836 and served almost continuously until 1860. He chaired the legislature’s finance committee for most of his time in office.
+</p>
+
+<p xml:id='OTPS63513P1'>Memminger was considered a moderate among southerners during the growing sectional crisis. He opposed South Carolina’s proponents of nullification (the theory that a state could reject a federal law it opposed) and was hesitant to support calls for secession during the 1850s. However, after Abraham Lincoln was elected president on an anti-slavery Republican platform in 1860, Memminger became an advocate for disunion and wrote the proclamation outlining South Carolina’s secession from the Union, entitled <hi rend='italic'>Declaration of the Immediate Causes Which Induce and Justify the Secession of South Carolina from the Federal Union</hi>.
+</p>
+
+<p xml:id='OTPS63513P2'>Memminger was elected to represent South Carolina in the Provisional Congress of the Confederate States. He chaired the committee that drafted a constitution for the Confederacy in four days, and then received an appointment as Secretary of the Treasury in February 1861. In that role he struggled to finance the Confederate war effort, resorting to supporting income taxes, widespread issuing of paper money, and even confiscating gold from the U.S. Mint in New Orleans. Memminger served as Treasury secretary until July 1864, then resigned and retired to his summer home in North Carolina.
+</p>
+
+<p xml:id='OTPS63513P3'>After the Civil War, Memminger returned to Charleston, South Carolina, and operated a law practice. He also returned to the state legislature, dedicating much of his time to improving South Carolina’s public education system. He died on March 7, 1888, in Charleston. Memminger was married to Mary Wilkinson and had seventeen children (only eight survived to adulthood). After Mary passed away in 1874, Memminger married her sister Sarah Ann. Memminger is buried in Saint John in the Wilderness Cemetery in Flat Rock, North Carolina.
+</p>
+
+<p xml:id='OTPS63513P4'>(Wikipedia; FindaGrave; Louise Howe Bailey, “Memminger, Christopher Gustavus,” NCPedia; National Park Service)
+</p>
+
+<p xml:id='OTPS63513P5'>Christopher Gustavus Memminger belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+            <person xml:id="S25001672">
+              <persName>Taylor, William H.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63093">
+              <placeName>Virginia--Independent City. Richmond</placeName>
+                <idno>https://en.wikipedia.org/wiki/Richmond,_Virginia</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63093P0'>Currently an independent city, Richmond was founded in 1737 in what was Henrico County at the time of founding and was incorporated on 1742. It became the state capital of Virginia in 1779. During the American Civil War, Richmond also served as capital of the Confederacy. On July 9, 1902, Richmond became an independent city. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>37.53333, -77.46667</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001327'>
+<catDesc>Financial Industries</catDesc>
+          <category xml:id='S73105'>
+            <catDesc>
+              <term>Banking</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/bank</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001327'>Financial Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD73105P0'>"An organization that holds money belonging to others, investing and lending it to get more money, or the building in which the organization is situated." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25015579'>
+            <catDesc>
+              <term>Banking--Virginia. Bank of Virginia (Richmond, Va.)</term>
+              <idno>https://en.wikipedia.org/wiki/Bank_of_Virginia#CITEREFChapmanWesterfield1980</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001327'>Financial Industries</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD25015579P0'>Located in Richmond, Virginia the Bank of Virginia was a bank holding company chartered in 1804. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001686'>
+<catDesc>Labor &amp; Financial Events</catDesc>
+          <category xml:id='S32082629'>
+            <catDesc>
+              <term>Finances</term>
+              <idno>https://en.wikipedia.org/wiki/Finance</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001686'>Labor &amp; Financial Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32082629P0'>"Finance is the study and discipline of money, currency and capital assets." (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95150'>
+            <catDesc>
+              <term>Finances--Collecting of Accounts</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/debt-collection</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001686'>Labor &amp; Financial Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD95150P0'>"The job of collecting payments from people who have failed to pay the money they owe for goods, services, etc. that they have already received." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S25009156'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Recruiting and enlistment</term>
+              <idno>https://encyclopediaofarkansas.net/entries/civil-war-recruitment-6391/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25009156P0'>At the outbreak of the American Civil War in 1861, neither the Union nor the Confederate army struggled to find recruits. Rather, both armies saw far more volunteers than their ranks and provisions could sustain. Many young men of the North and South believed that the war would end quickly and volunteered by the thousands to not miss out on the action. Other motivators for rapid enlistment included a sense of adventure, defense of slavery or the privileges of whiteness, defense of the Union, fear of ostracism in their home communities for not enlisting, or a desire to protect their homes and families.
+</p>
+
+<p xml:id='OTPSD25009156P1'>Widespread enlistment required both the United States and Confederate governments to reshape their militaries that were otherwise unprepared to handle that many recruits. The U.S. possessed only a small standing army of 16,000 men before the war, and the Confederacy needed to build its own from scratch. Both therefore relied heavily on local recruiting to organize men into militia companies then employable in the federal service. Recruiters throughout the war published pamphlets, put up posters, and gave speeches to encourage men to fight.
+</p>
+
+<p xml:id='OTPSD25009156P2'>As the war continued, dreams of a short war ended along with many men's desires to enlist. Both armies (the Confederacy in 1862 and the Union in 1863) resorted to conscription to fill their ranks. Free African Americans, particularly in the North, debated the utility and wisdom of fighting for the United States even after being legally allowed to do so in 1863. Many formerly enslaved African-American men yearned to fight for their own freedom, while others doubted that military service in the Civil War would accomplish their desired goals of emancipation and equality. However, prominent African Americans such as Frederick Douglass encouraged Black men to take up arms, and roughly 200,000 did so.
+</p>
+
+<p xml:id='OTPSD25009156P3'>Ultimately, men enlisted during the Civil War for many reasons, often tied to demographic or personal causes, and, as the war progressed and varied in its popularity and aims, recruiters' tactics likewise changed to adapt to each new situation. (Encyclopedia of Arkansas)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S70173'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 11th</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=onepage&amp;q=%22eleventh%20regiment-infantry%22&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70173P0'>The 11th Regiment, Mississippi Infantry (Confederate) was organized on May 4, 1861 in Alcorn County, Mississippi under the command of Col. William H. Moore and served in the Eastern Theater under Whiting's, Law's, and Davis' Brigade in the Army of Northern Virginia. It was later commanded by Cols. Phillip Frank Lidell, Francis M. Greene, William H. Moore, and Reuben O. Reynolds. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 19; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 436-444; National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S74811'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 11th. Company A</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=onepage&amp;q=%22University%20Grays%22&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD74811P0'>Commonly known as the University Greys, Company A of the 11th Regiment, Mississippi Infantry (Confederate) was organized on February 7, 1861 in Lafayette County, Mississippi under the command of Capt. William Benjamin Lowry and served in the Eastern Theater. It was later commanded by Capts. Simeon B. Marsh and John Vincent Moore. It was composed of students from the University of Mississippi at Oxford. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 19; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 437)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001675'>
+<catDesc>Financial Occupations</catDesc>
+          <category xml:id='S55222'>
+            <catDesc>
+              <term>Auditors</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/auditor?q=auditors</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001675'>Financial Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD55222P0'>"Someone whose job is to carry out an official examination of the accounts of a business and to produce a report." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001713'>
+<catDesc>C.S.A. Federal Government</catDesc>
+          <category xml:id='S54079'>
+            <catDesc>
+              <term>Confederate States of America--Congress</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD54079P0'>The Congress of the Confederate States of America was established by Article 1 of the Confederate States Constitution on March 11, 1861 in Montgomery, Alabama. Operating at the national level of the Confederacy, it was the Legislative Branch of the Confederate States government responsible for making and amending laws. A bicameral body, the Confederate States Congress was divided into the upper house (Senate) and the lower house (House of Representatives). The Confederate States Congress concluded Its final session on March 18, 1865. (Avalon Project-<hi rend='italic'>Constitution of the Confederate States</hi>; March 11, 1861; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S106410'>
+            <catDesc>
+              <term>Confederate States of America--Congress. House of Representatives</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD106410P0'>The Confederate House of Representatives was established by Article 1 of the Confederate States Constitution on March 11, 1861 in Montgomery, Alabama. Operating at the national level of the Confederacy, the House of Representatives was the lower house of the Confederate States Congress and was led by the Speaker of the House. Representation in the House was determined by a state’s population. Members were required to be a minimum of twenty-five years and were elected to two-year terms. The Confederate House of Representatives concluded its final session on March 18, 1865. (Avalon Project-<hi rend='italic'>Constitution of the Confederate States</hi>, March 11, 1861; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S95613'>
+            <catDesc>
+              <term>Confederate States of America--Treasury Department</term>
+              <idno>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t00z8036q&amp;view=1up&amp;seq=9&amp;skin=2021</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001713'>C.S.A. Federal Government</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>37.53333, -77.46667</geo>
+              </note>
+              <gloss><p xml:id='OTPSD95613P0'>Operating nationally, the Provisional Confederate Congress established the Department of Treasury by an act on February 21, 1861 in Montgomery, Alabama. The department was led by the Secretary of the Treasury appointed by the President with the advice and consent of the Senate. It was initially led by Christopher Memminger from February 21, 1861–July 18, 1864 and later by George Trenholm (July 18, 1864–April 27, 1865) and John Henninger Reagan (April 27–May 10, 1865). The Department of Treasury was responsible to superintend the collection of the public revenue and expenditures and advising the President and the Congress on all matters related to finance. (<hi rend='italic'>Acts and Resolutions of the First Session of the Provisional Congress of the Confederate States</hi>, 1861 Public Laws, S1, 43; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001144'>
+<catDesc>U.S. State Governments</catDesc>
+          <category xml:id='S62997'>
+            <catDesc>
+              <term>Mississippi--Treasury Department</term>
+              <idno>https://en.wikipedia.org/wiki/Mississippi_State_Treasurer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001144'>U.S. State Governments</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>32.29889, -90.18472</geo>
+              </note>
+              <gloss><p xml:id='OTPSD62997P0'>Operating at the state level, the Mississippi State Treasurer's office was created in 1817 in Jackson when the state was admitted to the Union. The State Legislature appointed the State Treasurer until 1832 when the Treasurer became popularly elected to serve a two-year term (changed to four years in 1869). The State Treasurer is responsible for overseeing and maintaining Mississippi's financial records. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2791'>
+<catDesc>Vital Statistics</catDesc>
+          <category xml:id='S63262'>
+            <catDesc>
+              <term>Death</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/death</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #leaf #root' target='#C2791'>Vital Statistics</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63262P0'>While the Cambridge Dictionary defines death as “the end of life,” CWRGM employs this subject tag to refer to human deaths only, both actual and hypothetical. (Cambridge Dictionary)
+</p>
+
+<p xml:id='OTPSD63262P1'>The nation experienced mass loss of life (approximately 2% of the population) during the American Civil War, which changed the way Americans viewed death and resulted in its reconceptualization in highly bureaucratized ways. Often wartime dead were buried without their names and sometimes in poorly-dug graves, which created a powerful, profound social and cultural dislocation for their surviving loved ones. During the 19th century, Americans understood dying as a social and religious experience, and desired a "good death," which they defined as at home surrounded by family, but these ideals were unattainable in war. Consequently, Americans learned to cope with death and memorialize it in new ways. Unionists encouraged the federal government and ex-Confederates pushed their respective state governments to create and fund national cemeteries, rebury deceases soldiers and veterans, and establish veterans' and widows' pensions. These new responses to death were more bureaucratized, nationalistic, and secularized. Wartime and post-war death was also highly impacted by race, as white supremacists desecrated the graves of Union buried in the South, especially the bodies of African Americans who served in U.S. Colored Troops and the white officers that led them, revealing post-war sectionalism and strains on reconciliation. (Drew Gilpin Faust, <hi rend='italic'>This Republic of Suffering</hi>)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission of the National Archives and the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Taylor, W.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-09-02</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Treasury draft from W. Taylor to H. C. Chalmers for money due to the family of Levin Bisland, 11th Mississippi Infantry, who died in service.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 9&quot; x 8&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-942-08-06</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Parris Watts; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 942, Folder 8</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Confederate States of America. Army. Mississippi Infantry Regiment, 11th; Confederate States of America. Army--Pay, allowances, etc. ; Families of military personnel.; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from W. Taylor to H. C. Chambers; September 2, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/8246&quot;&gt;Letter from W. Taylor to H. C. Chambers; September 2, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG42" who="U220769" when="2023-11-17T18:23:38Z" target="#P25105167">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U220769" when="2023-11-02T15:31:44Z" target="#P25105167">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U220769" when="2023-11-02T03:50:34Z" target="#P25105168">
+          Version 17 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG39" who="U220769" when="2023-09-03T14:49:06Z" target="#P25105168">
+          Version 16 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG38" who="U220769" when="2023-09-03T00:30:37Z" target="#P25105167">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-09-02T20:40:23Z" target="#P25105167">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-09-02T20:09:07Z" target="#P25105167">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U25091356" when="2023-08-26T23:16:47Z" target="#P25105168">
+          Version 15 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-05-27T18:26:10Z" target="#P25105168">
+          Version 14 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-03-29T01:52:44Z" target="#P25105168">
+          Version 13 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U220769" when="2023-03-29T01:52:29Z" target="#P25105167">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-20T01:05:52Z" target="#P25105168">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-19T18:55:26Z" target="#P25105167">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-19T17:48:36Z" target="#P25105167">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-19T17:42:39Z" target="#P25105167">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-19T14:43:14Z" target="#P25105167">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2023-03-18T02:34:49Z" target="#P25105168">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2023-03-18T02:33:00Z" target="#P25105168">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2023-03-03T17:20:24Z" target="#P25105168">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2023-03-03T00:11:04Z" target="#P25105168">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U220769" when="2022-12-04T17:19:44Z" target="#P25105167">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2022-12-04T00:40:52Z" target="#P25105167">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2022-06-02T10:59:57Z" target="#P25105168">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2022-02-06T18:51:53Z" target="#P25105168">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2021-11-05T19:48:21Z" target="#P25105167">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U220769" when="2021-08-23T21:37:17Z" target="#P25105167">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2021-07-29T16:18:36Z" target="#P25105167">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U217868" when="2021-07-21T18:23:38Z" target="#P25105168">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U217868" when="2021-07-21T18:22:29Z" target="#P25105167">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U217868" when="2021-07-21T18:22:18Z" target="#P25105167">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U215767" when="2021-07-19T17:12:43Z" target="#P25105168">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U215767" when="2021-07-19T17:10:27Z" target="#P25105167">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U215767" when="2021-07-19T17:10:00Z" target="#P25105167">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U215767" when="2021-07-19T17:05:49Z" target="#P25105168">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U215767" when="2021-07-19T17:04:42Z" target="#P25105167">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U215767" when="2021-07-19T16:57:07Z" target="#P25105167">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25089434" when="2021-07-19T01:35:56Z" target="#P25105168">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U25089434" when="2021-07-19T01:33:16Z" target="#P25105167">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25089434" when="2021-07-19T01:29:05Z" target="#P25105167">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U226410" when="2021-07-18T00:19:56Z" target="#P25105168">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U226410" when="2021-07-18T00:15:34Z" target="#P25105167">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U215567" when="2021-07-02T15:05:37Z" target="#P25105168">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-07-02T15:05:33Z" target="#P25105167">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25105167" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8244/full/full/0/default.jpg"/>
+        <div xml:id="OTP25105167">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25105167P0' xml:id='OTP25105167P0'><rs ref='#S62997'>Treasury Department</rs><lb/>
+<rs ref='#S95613'>Second Auditors Office</rs><lb/>
+Sept 2. 1862.
+</p>
+
+<p corresp='TTP25105167P1' xml:id='OTP25105167P1'>Hon <rs ref='#S94121'>H. C. Chambers</rs><lb/>
+<rs ref='#S106410'>House of Representatives</rs><lb/>
+Present
+</p>
+
+<p corresp='TTP25105167P2' xml:id='OTP25105167P2'>Sir
+</p>
+
+<p corresp='TTP25105167P3' xml:id='OTP25105167P3'>The claim of L<add place='above'>t</add> <rs ref='#S25015577'>Levins M. Bisland</rs> for services as 2<add place='above'><hi rend='underline'>nd</hi></add><sub>,,</sub> L<add place='above'><hi rend='underline'>t</hi></add> <sub>,,</sub> of <rs ref='#S74811'>The University Greys</rs> 11<add place='above'>th</add> Miss Reg from may 13<add place='above'><hi rend='underline'>th</hi></add><sub>,,</sub> 1861 when he <rs ref='#S25009156'>enlis-ted</rs> to July 23 1861 date of his <rs ref='#S63262'>death</rs>. 2 months and 11 days at $80 <add place='above'>00</add>/<sub>100</sub> per mo has been examined by The Accounting officers of The Treasury Depart-ment and the sum of One Hundred and Eighty nine <add place='above'>33</add>/<sub>100</sub> Dollars found due to <rs ref='#S25015547'>James R. Bisland</rs> <rs ref='#S25013472'>Father</rs> of said decd, a draft for which amt to said Bisland will be directed to your care by <rs ref='#S63513'>The Treasurer of The C States</rs>
+</p>
+
+<p corresp='TTP25105167P4' xml:id='OTP25105167P4'>Very Respectfully
+</p>
+
+<p corresp='TTP25105167P5' xml:id='OTP25105167P5'><rs ref='#S25001672'>W. H. S, Taylor</rs><lb/>
+<rs ref='#S55222'>Auditor</rs>
+</p>
+
+<p corresp='TTP25105167P6' xml:id='OTP25105167P6'>240.60<lb/>
+189 35<lb/>
+———<lb/>
+50.65
+</p>
+
+<p corresp='TTP25105167P7' xml:id='OTP25105167P7'>[note] 93 [/note]
+</p>
+
+
+        </div>
+        <pb xml:id="F25105168" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/8245/full/full/0/default.jpg"/>
+        <div xml:id="OTP25105168">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25105168P0' xml:id='OTP25105168P0'>Treasury Draft <rs ref='#S95150'>pay-<add place='above'>able</add></rs> to my order by the <rs ref='#S25015579'>Bank of Va</rs> at <rs ref='#S63093'>Richmond</rs> No 1369 on War. Warrant No 1470 for 189<add place='above'><hi rend='underline'>33</hi></add>$
+</p>
+
+<p corresp='TTP25105168P1' xml:id='OTP25105168P1'>Dated Sept 4<lb/>
+Registered " 4
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

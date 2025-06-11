@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Note from Leake County, Mississippi</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 14 edits between
+              <date type="first_edit" when="2021-09-07T21:57:51Z">September  7, 2021</date> and
+              <date type="last_edit" when="2023-11-17T17:28:47Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32029872">
+          <persName
+            >
+            Ruth Poe White, PH.D.
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2025-03-12T03:26:30Z">March 12, 2025</date> and
+              <date type="last_edit" when="2025-03-12T03:26:38Z">March 12, 2025</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T16:09:09Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T05:40:20+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32003336">
+              <persName>Houston, Samuel</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63225">
+              <placeName>Mississippi--Leake County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/leake-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63225P0'>Located in central Mississippi, Leake County was established on December 23, 1833 from Madison and Rankin counties. (Mississippi Encyclopedia; Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.75, -89.52</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S32080978'>
+            <catDesc>
+              <term>Criminal Procedures</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/procedure?q=Procedure</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32080978P0'>"The processing of individuals who have committed criminal acts." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S62954'>
+            <catDesc>
+              <term>Criminal Procedures--Arrest</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/arrest?q=Arrest</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD62954P0'>"The act of using legal authority to catch and take someone to a place where the person may be accused of a crime." (CD)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25004889'>
+            <catDesc>
+              <term>Draftees</term>
+              <idno>https://www.battlefields.org/learn/articles/twenty-negro-law</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25004889P0'>In the nineteenth-century United States, the first military drafts occurred during the American Civil War, in which both the Union and Confederate governments issued conscription laws.
+</p>
+
+<p xml:id='OTPSD25004889P1'>The Confederacy, receiving fewer enlistments than it expected at the beginning of the war, passed the First Conscription Act in April 1862, rendering all able-bodied white males between the ages of 18 and 35 eligible to be compelled into military service, but it included a provision by which a draftee could hire a substitute or obtain an exemption. Fearing insurrections by the enslaved population, the Confederacy passed a Second Conscription Act in September 1862 exempting one white enslaver for every twenty enslaved persons on a property, also known as the "Twenty Slave Law". Both the substitute and twenty slave laws isolated impoverished white southerners and rendered the draft deeply unpopular among non-elite southerners.
+</p>
+
+<p xml:id='OTPSD25004889P2'>In the North, conscription began in July 1862 when Congress authorized the president to enlist any militia company into the United States' service. Conscription extended to the general public in March 1863 with the Enrollment Act, rendering any able-bodied white male citizen or immigrant between the ages of 20 and 45 subject to the draft. This law similarly included a provision allowing one to purchase a substitute or commutation for the then-sizeable fee of $300. Draftees could also be exempt by proving that they were the sole support of family members or other dependents.
+</p>
+
+<p xml:id='OTPSD25004889P3'>Many individuals in the North and South saw their respective drafts as affronts to the freedom and individual liberties upon which the United States was founded, while tensions also arose between those of different races, ethnicities, religions, and social classes that were differently represented in the draft. The draft also brought home the realities of war to many families, North and South, who relied on men to support them, as fathers, husbands, sons, and brothers were sent to fight, where they would make the little money paid to soldiers and possibly lose their lives. Conscription in the American Civil War led to the violence of the New York Draft Riots of July 1863, and resulted in widespread and varied resistance in North and South (Bill of Rights Institute).
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S58306'>
+            <catDesc>
+              <term>Military Deserters</term>
+              <idno>https://www.essentialcivilwarcurriculum.com/desertion,-cowardice-and-punishment.html#:~:text=Official%20figures%20show%20slightly%20over,the%20way%20among%20Confederate%20troops.</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD58306P0'>During the American Civil War, desertion primarily indicated one's fleeing from camp and thereby attempting to permanently escape military service altogether rather than one's fleeing from battle when faced with the enemy.
+</p>
+
+<p xml:id='OTPSD58306P1'>As the war continued past its first few months and the reality of battle disabused men both North and South of the romanticized visions of combat they formerly possessed, both the Union and Confederate armies saw large numbers of deserters. One estimate places roughly 103,000 deserters in the Confederate Army and over 200,000 in the Union Army (Essential Civil War Curriculum).
+</p>
+
+<p xml:id='OTPSD58306P2'>Men on both sides deserted for a number of reasons, including poor conditions and the rigor of military camp life, concern for their family's well being at home, low morale after defeats in battle, or general homesickness. Many deserters were of a class known as "bounty jumpers," or those who joined the military to receive an initial payment known as a bounty, only to flee military service immediately afterword. While the Union Army faced a greater total number of desertions, the Confederacy ultimately suffered more from desertion due to its lower total manpower.
+</p>
+
+<p xml:id='OTPSD58306P3'>Both sides nonetheless took stern measures to discourage desertion. Punishment of deserters varied on both sides at different points during the war, ranging anywhere from corporal punishment to humiliation or, later in the war, execution. Though only about 400 executions ever took place to punish a much larger number of deserters, it is indicative of the brutal reality of Civil War military service that many men, despite the potential death sentence, still felt compelled to desert (Essential Civil War Curriculum).  
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S51229'>
+            <catDesc>
+              <term>Military Stragglers</term>
+              <idno>https://encyclopediavirginia.org/entries/desertion-confederate-during-the-civil-war/</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD51229P0'>Unlike a deserter who intends to permanently leave the service, a straggler leaves the service without permission before their term of service has expired but intends to return to military service. (Encyclopedia Virginia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757 Governor Pettus Collection.</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by The Dale Center for Study of War and Society; Funding for this project provided by the Watson-Brown Foundation.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1863</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Unknown</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1863-05-13</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Note from Leake County, Mississippi, stating that Samuel Houston had authority to arrest all stragglers, deserters, and conscripts.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_757-944-13-45</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>135042 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 5&quot; x 8.5&quot; 1-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>1725</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_757-944-13-45</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Leake County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Miranda Williamson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 944, Folder 13</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Draft.; Military deserters.; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Note from Leake County, Mississippi</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>993</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/1688&quot;&gt;Note from Leake County, Mississippi&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG17" who="U32029872" when="2025-03-12T03:26:38Z" target="#P25185678">
+          Version 17 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U32029872" when="2025-03-12T03:26:30Z" target="#P25185678">
+          Version 16 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U2" when="2024-10-25T16:09:09Z" target="#P25185678">
+          Version 15 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-11-17T17:28:47Z" target="#P25185678">
+          Version 14 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-11-02T03:20:43Z" target="#P25185678">
+          Version 13 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-11-02T03:17:58Z" target="#P25185678">
+          Version 12 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-09-02T20:35:19Z" target="#P25185678">
+          Version 11 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2023-09-02T20:31:40Z" target="#P25185678">
+          Version 10 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2023-09-02T20:20:38Z" target="#P25185678">
+          Version 9 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2023-03-18T15:27:44Z" target="#P25185678">
+          Version 8 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2022-12-04T04:03:34Z" target="#P25185678">
+          Version 7 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U220769" when="2022-12-04T01:59:34Z" target="#P25185678">
+          Version 6 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U220769" when="2022-12-04T01:22:16Z" target="#P25185678">
+          Version 5 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U220769" when="2022-12-04T00:24:52Z" target="#P25185678">
+          Version 4 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U220769" when="2022-12-04T00:22:16Z" target="#P25185678">
+          Version 3 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U220769" when="2021-10-27T23:02:06Z" target="#P25185678">
+          Version 2 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2021-09-07T21:57:51Z" target="#P25185678">
+          Version 1 of page "Note from Leake County, Mississippi":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-09-03T16:54:52Z" target="#P25185678">
+          Version 0 of page "Note from Leake County, Mississippi":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25185678" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/1688/full/full/0/default.jpg"/>
+        <div xml:id="OTP25185678">
+        <fw type="pageNum">Note from Leake County, Mississippi</fw>
+          <p corresp='TTP25185678P0' xml:id='OTP25185678P0'><rs ref='#S32003336'>Saml. Houston</rs><lb/>
+13 May 1863
+</p>
+
+<p corresp='TTP25185678P1' xml:id='OTP25185678P1'>Answd 29 May
+</p>
+
+<p corresp='TTP25185678P2' xml:id='OTP25185678P2'>authorizing him to <rs ref='#S62954'>arrest</rs> all <rs ref='#S51229'>stragglers</rs> <rs ref='#S58306'>deserters</rs> <rs ref='#S25004889'>conscripts</rs> in <rs ref='#S63225'>Leake Co.</rs> 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

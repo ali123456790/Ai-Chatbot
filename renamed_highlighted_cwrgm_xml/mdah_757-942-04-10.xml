@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Hannah Brown to Mississippi Governor John J. Pettus; July 8, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 17 edits between
+              <date type="first_edit" when="2021-10-14T23:17:19Z">October 14, 2021</date> and
+              <date type="last_edit" when="2023-11-17T17:59:24Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091195">
+          <persName
+            >
+            Camp H. Stewart
+            </persName>
+            <resp>
+              made 10 edits between
+              <date type="first_edit" when="2021-10-14T02:57:23Z">October 14, 2021</date> and
+              <date type="last_edit" when="2021-10-15T03:02:27Z">October 15, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231702">
+          <persName
+            >
+            Linda K Ginn
+            </persName>
+            <resp>
+              made 8 edits between
+              <date type="first_edit" when="2021-10-05T16:14:12Z">October  5, 2021</date> and
+              <date type="last_edit" when="2021-10-05T16:28:10Z">October  5, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-03-29T16:36:06Z">March 29, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32020358">
+          <persName
+            >
+            Elisabeth Kluin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2025-03-15T01:27:51Z">March 15, 2025</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T19:12:30+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S25027098">
+              <persName>Brown, H. C. F.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25010252">
+              <persName>White, Jesse E.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25027100">
+              <persName>Brown, Hannah</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S52607">
+              <placeName>Mississippi--Holmes County. Lexington</placeName>
+                <idno>https://en.wikipedia.org/wiki/Lexington,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS52607P0'>Located in Holmes County, Lexington was incorporated in 1836 and serves as the county seat. (Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.11444, -90.05111</geo>
+                </note>
+            </place>
+            <place xml:id="S100497">
+              <placeName>Military training camps--Florida. Camp Philips</placeName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001866">Military Locations</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS100497P0'>Located in Pensacola in Escambia County, Camp Philips was a Confederate training camp.
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.43333, -87.2</geo>
+                </note>
+            </place>
+            <place xml:id="S72861">
+              <placeName>Florida--Escambia County. Pensacola</placeName>
+                <idno>https://www.britannica.com/place/Pensacola</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS72861P0'>Located in Escambia County, Pensacola was founded as early as the 1670s and serves as the county seat. (Britannica; Wikipedia)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>30.43333, -87.2</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S102538'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Military Leaves and Furloughs</term>
+              <idno>https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/leaves-and-furloughs</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD102538P0'>The terms “leave” and “furlough” during the Civil War meant permission for soldiers to be absent from duty. Soldiers on leave were allowed to depart camp and partake in recreational activities or, more often, travel home to visit family. Time off was a privilege for soldiers, and often more available for officers than enlisted men. Soldiers could request leave to handle matters at home in times of hardship or emergency, but permission depended upon the military situation and the commander’s discretion. Furloughs were for limited periods of time—usually no longer than thirty days—and soldiers would be reprimanded for being absent longer than their authorized leave, a violation known as “absent without leave,” or AWOL. Punishments for the crime included loss of pay, additional duties, or temporary imprisonment.
+</p>
+
+<p xml:id='OTPSD102538P1'>The lack of furloughs contributed to low morale, especially early in the war. Some soldiers deserted or accepted the punishment for being AWOL when denied leave, especially after receiving news of hardships at home. In response, Union and Confederate officials provided more furloughs to soldiers during the latter half of the Civil War. Military officers occasionally granted leave as an award for good behavior, or issued furloughs through a lottery to raise spirits. Commanders used these options sparingly, typically allowing no more than five percent of a unit to be on leave, to maintain the unit’s effectiveness and to reduce jealousy or homesickness among those who remained behind.
+</p>
+
+<p xml:id='OTPSD102538P2'>Some soldiers abused the furlough system to avoid military duties. In rare cases, men conspired with unprincipled officers to generate furloughs without authority from higher command. Other soldiers tried to buy furloughs from their comrades who had received them legitimately, offering as much as two months of pay. The more common practice was having family members write letters to an officer, appealing for the soldier to be granted leave. Once home, some soldiers sought ways to extend their leave. A favorite method involved having a doctor send a note to the soldier’s unit attesting to a medical ailment. Others blamed weather, problems with travel, or other acts of nature. The greatest violation of the furlough system involved soldiers failing to return. Officers had to determine, usually after waiting an extended period of time, whether a soldier was AWOL or had deserted. This issue plagued the Confederacy during the final year of the war, as many soldiers lost faith in victory and chose to go home with a furlough or without. (Bell Irvin Wiley, <hi rend='italic'>The Life of Johnny Reb: The Common Soldier of the Confederacy</hi>, 132-143)   
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S32003250'>
+            <catDesc>
+              <term>Confederate States of America--Military Service (Branch Unspecified)</term>
+              <idno>https://en.wikipedia.org/wiki/Military_forces_of_the_Confederate_States</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32003250P0'>The military forces of the Confederate States of America (1861-1865) consisted of the Army, Navy, and Marine Corps and were responsible for the defense of the Confederacy and securing the nation's independence. While definitive numbers are not available, the Confederacy's Army ranged between 750,000–1,500,000 soldiers and 483,026 casualties. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25005338'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 10th (1861-1862)</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=onepage&amp;q=%22tenth%20regiment-infantry%22&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25005338P0'>The 10th Regiment, Mississippi Infantry (Confederate) was organized on April 17, 1861 in Hinds County, Mississippi under the command of Col. Seaborne M. Phillips and served in the Western Theater under Chalmers' Brigade. It was later commanded by Cols. Robert A. Smith, James Ronald Chalmers, James Barr, Jr., and James M. Walker. It was reorganized in 1862. It was later consolidated with the 7th, 9th, 41st, and 44th Mississippi Infantry Regiments and the 9th Battalion, Mississippi Infantry to form the 9th Regiment, Mississippi Infantry on April 9, 1865. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 18; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 595-605; National Park Service-Battle Units)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25005348'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 10th (1861-1862). Company F</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=snippet&amp;q=%22hill%20city%20cadets%22&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25005348P0'>Commonly known as the Hill City Cadets, Company F of the 10th Regiment, Mississippi Infantry (1861-1862) (Confederate) was organized in spring 1861 in Warren County, Mississippi under the command of Capt. Jesse E. White and served in the Western Theater. It was reorganized as the Vicksburg Cadets, Company E of the 9th Regiment, Mississippi Infantry in 1862. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 18; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 584, 597)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for the project provided by the National Historical Publications and Records Commission of the National Archives and the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1861</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Brown, Hannah</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1861-07-08</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Hannah Brown in Lexington, Mississippi, to Mississippi Governor John J. Pettus, seeking to have her son, a Captain in the 10th Mississippi Infantry given a furlough to come home.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>cpd</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 9&quot; x 9&quot; 2-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Lexington (Miss.); Pensacola (Fla.)</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value><id>mdah_757-942-04-10</id></value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Holmes County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>A. J. Blaylock; Lindsey Peterson; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 942, Folder 4</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Children of military personnel.; Confederate States of America. Army.; Confederate States of America. Army--Officers; Families of military personnel.; Military leaves and furloughs; Mississippi. Governor; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Hannah Brown to Mississippi Governor John J. Pettus; July 8, 1861</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/13010&quot;&gt;Letter from Hannah Brown to Mississippi Governor John J. Pettus; July 8, 1861&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG38" who="U32020358" when="2025-03-15T01:27:51Z" target="#P25198075">
+          Version 25 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG37" who="U220769" when="2023-11-17T17:59:24Z" target="#P25198075">
+          Version 24 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG36" who="U220769" when="2023-11-02T15:30:47Z" target="#P25198075">
+          Version 23 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG35" who="U220769" when="2023-09-02T20:39:39Z" target="#P25198075">
+          Version 22 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG34" who="U220769" when="2023-09-02T20:04:22Z" target="#P25198075">
+          Version 21 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG33" who="U220769" when="2023-04-06T20:18:39Z" target="#P25198075">
+          Version 20 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG32" who="U25091356" when="2023-03-29T16:36:06Z" target="#P25198075">
+          Version 19 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG31" who="U220769" when="2023-03-18T19:06:19Z" target="#P25198075">
+          Version 18 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG30" who="U220769" when="2023-03-18T19:01:22Z" target="#P25198075">
+          Version 17 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG29" who="U220769" when="2023-03-18T15:44:22Z" target="#P25198075">
+          Version 16 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG28" who="U220769" when="2023-03-18T01:27:40Z" target="#P25198075">
+          Version 15 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG27" who="U220769" when="2023-03-18T01:03:04Z" target="#P25198075">
+          Version 14 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG26" who="U220769" when="2022-12-04T16:18:00Z" target="#P25198075">
+          Version 13 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG25" who="U220769" when="2022-12-04T00:42:44Z" target="#P25198075">
+          Version 12 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG24" who="U220769" when="2021-12-10T23:27:12Z" target="#P25198075">
+          Version 11 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG23" who="U220769" when="2021-10-26T20:12:38Z" target="#P25198076">
+          Version 12 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U25091195" when="2021-10-15T03:02:27Z" target="#P25198076">
+          Version 11 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2021-10-14T23:18:24Z" target="#P25198076">
+          Version 10 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2021-10-14T23:17:37Z" target="#P25198075">
+          Version 10 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2021-10-14T23:17:19Z" target="#P25198075">
+          Version 9 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U25091195" when="2021-10-14T03:14:52Z" target="#P25198076">
+          Version 9 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091195" when="2021-10-14T03:07:15Z" target="#P25198076">
+          Version 8 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U25091195" when="2021-10-14T03:07:06Z" target="#P25198076">
+          Version 7 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U25091195" when="2021-10-14T03:06:25Z" target="#P25198075">
+          Version 8 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U25091195" when="2021-10-14T03:06:13Z" target="#P25198075">
+          Version 7 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U25091195" when="2021-10-14T03:05:46Z" target="#P25198075">
+          Version 6 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U25091195" when="2021-10-14T02:59:16Z" target="#P25198076">
+          Version 6 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U25091195" when="2021-10-14T02:57:34Z" target="#P25198075">
+          Version 5 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U25091195" when="2021-10-14T02:57:23Z" target="#P25198075">
+          Version 4 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U231702" when="2021-10-05T16:28:10Z" target="#P25198076">
+          Version 5 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U231702" when="2021-10-05T16:28:02Z" target="#P25198075">
+          Version 3 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U231702" when="2021-10-05T16:26:00Z" target="#P25198076">
+          Version 4 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U231702" when="2021-10-05T16:25:24Z" target="#P25198076">
+          Version 3 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U231702" when="2021-10-05T16:24:34Z" target="#P25198076">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U231702" when="2021-10-05T16:22:56Z" target="#P25198076">
+          Version 1 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U231702" when="2021-10-05T16:18:37Z" target="#P25198075">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U231702" when="2021-10-05T16:14:12Z" target="#P25198075">
+          Version 1 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U220769" when="2021-09-19T16:59:02Z" target="#P25198076">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2021-09-19T16:58:48Z" target="#P25198075">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25198075" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/13008/full/full/0/default.jpg"/>
+        <div xml:id="OTP25198075">
+        <fw type="pageNum">Page 1</fw>
+          <p corresp='TTP25198075P0' xml:id='OTP25198075P0'>[seal]
+</p>
+
+<p corresp='TTP25198075P1' xml:id='OTP25198075P1'><rs ref='#S52607'>Lexington Homes Co</rs> July 8<add place='above'>th</add>,,  1861
+</p>
+
+<p corresp='TTP25198075P2' xml:id='OTP25198075P2'>Dear  Sir
+</p>
+
+<p corresp='TTP25198075P3' xml:id='OTP25198075P3'>I take the liberty to write to you in behalf of my <rs ref='#S25013472'>Son</rs> <rs ref='#S25027098'>H C F Brown</rs> he belongs to the 10<add place='above'>th</add> Reg Miss Volunteers Capt <rs ref='#S25010252'>J E Whites</rs> <rs ref='#S25005348'>Company</rs> at <rs ref='#S100497'>Camp Philips</rs> near <rs ref='#S72861'>Pensacola Florida</rs> he has been there three Months he is my only dependance for a Support for me &amp; three Small Children if you will please to be so kind as to give him <rs ref='#S102538'>permission to come home</rs> until actual service or a few weeks until he can make some arrangements for us I will be ever grateful to you for it. very
+</p>
+
+<p corresp='TTP25198075P4' xml:id='OTP25198075P4'>Respectully
+</p>
+
+<p corresp='TTP25198075P5' xml:id='OTP25198075P5'><rs ref='#S25027100'>Hannah Brown</rs>
+</p>
+
+
+            <note resp="#U231702">Page 1. Year in title metadata: 1862. Year at top right of the scanned page appears to be 1861. Page 2. Year appears (unclearly?) to be 1862, but is clearly written below as 1861. Please verify. </note>
+        </div>
+        <pb xml:id="F25198076" n="2" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/13009/full/full/0/default.jpg"/>
+        <div xml:id="OTP25198076">
+        <fw type="pageNum">Page 2</fw>
+          <p corresp='TTP25198076P0' xml:id='OTP25198076P0'>July 8<add place='above'>th</add> [1861 ?]<lb/>
+Hannah Brown
+</p>
+
+<p corresp='TTP25198076P1' xml:id='OTP25198076P1'>Asking permit for her Son at Pensacola to <hi rend='underline'>return home</hi>
+</p>
+
+<p corresp='TTP25198076P2' xml:id='OTP25198076P2'>Ansd thus her son was not under my control—in the <rs ref='#S32003250'>Confed-erate service</rs><lb/>
+<hr/><lb/>
+July 13 <add place='above'>th</add> 1861
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

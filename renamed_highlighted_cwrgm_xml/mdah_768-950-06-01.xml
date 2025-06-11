@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Statement of the police court of Calhoun County, Mississippi; February 13, 1865</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU220769">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Lindsey Peterson (CWRGM Co-Director)</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 13 edits between
+              <date type="first_edit" when="2022-11-28T00:24:56Z">November 28, 2022</date> and
+              <date type="last_edit" when="2024-03-06T15:26:01Z">March  6, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made 2 edits between
+              <date type="first_edit" when="2022-11-17T22:07:26Z">November 17, 2022</date> and
+              <date type="last_edit" when="2023-03-08T15:49:20Z">March  8, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U226410">
+          <persName
+            >
+            Bernard Murphy, Jr.
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-11-09T19:23:18Z">November  9, 2022</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091253">
+          <persName
+            >
+            Emily Dent
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2022-11-14T03:22:03Z">November 14, 2022</date>.
+            </resp>
+        </respStmt>
+
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T04:38:09+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S32057566">
+              <persName>Hudson, W. S.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S63221">
+              <placeName>Mississippi--Calhoun County</placeName>
+                <idno>https://mississippiencyclopedia.org/entries/calhoun-county/</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001861">Counties &amp; Parishes</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63221P0'>Located in north-central Mississippi, Calhoun County was established on June 8, 1852 from Chickasaw, Lafayette, and Yalobusha counties. (Mississippi Encyclopedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.94, -89.34</geo>
+                </note>
+            </place>
+            <place xml:id="S53534">
+              <placeName>Mississippi--Chickasaw County. Okolona</placeName>
+                <idno>https://en.wikipedia.org/wiki/Okolona,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS53534P0'>Located in Chickasaw County, Okolona was settled in 1845 under the name Rose Hill and was renamed Okolona when it was established in 1859. Okolona serves as county co-seat (with Houston). (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.00583, -88.75056</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001151'>
+<catDesc>Legal Events</catDesc>
+          <category xml:id='S92853'>
+            <catDesc>
+              <term>Crimes (alleged)</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/crime?q=Crime</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD92853P0'>Engaging in "illegal activities." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S99667'>
+            <catDesc>
+              <term>Crimes (alleged)--Destruction of Property</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/vandalism</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001151'>Legal Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99667P0'>"The crime of intentionally damaging property belonging to other people." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001146'>
+<catDesc>Federal Level: United States Military</catDesc>
+          <category xml:id='S71916'>
+            <catDesc>
+              <term>United States. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Union_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD71916P0'>The United States Army is the military land force of the United States of America. During the American Civil War it was also referred to as the Union Army, Federal Army, or Northern Army. Its primary military objective during the war was the restoration and preservation of the United States through the defeat of secessionist forces. The United States Army traces its roots to the Continental Army, created in 1775 during the American Revolution. Following American independence, the new United States severely reduced the size of the army due to distrust of permanent standing military forces. The small regular army generally handled military operations against Native Americans and for coastal defense. State authorities were expected to support the country’s military needs with their militias, or by raising volunteer units, temporarily activated for federal service.
+</p>
+
+<p xml:id='OTPSD71916P1'>At the outbreak of the Civil War, the United States regular army consisted of barely more than 16,000 soldiers, scattered across the country (primarily at coastal defenses and forts established in the territories) among ten infantry regiments, four artillery regiments, two cavalry regiments, two dragoon regiments, and one regiment of mounted rifles. Roughly 20% of the army’s officers and enlisted resigned their positions to fight for the Confederacy. After Southern troops attacked and captured Fort Sumter in South Carolina, President Abraham Lincoln called for 75,000 volunteers to expand the army and defeat the Confederates. The government continued to issue subsequent requests for volunteers as the war progressed. As with established practice, the states were to recruit the volunteers and provide them for federal service. Initial enlistments were for 90 days, but eventually enlistment terms were expanded, typically for three years. In total, more than 2,000,000 men served in the United States Army during the course of the Civil War. Of those, only around 60,000 were part of the regular army. The overwhelming majority were in state-based units. Most soldiers were volunteers, however the federal government began drafting men in 1862, as the army’s campaigns continued and volunteer numbers dwindled. In total, around 46,000 Union soldiers (about 5.5%) were draftees.
+</p>
+
+<p xml:id='OTPSD71916P2'>Approximately two-thirds of the soldiers in the United States Army during the Civil War were native-born white citizens. Around 100,000 were from states within the Confederacy. Immigrants made up about 25% of Union soldiers, with Germans and Irish immigrants being among the most prominent. The army also included soldiers of different ethnicities, including more than 3,000 Native American soldiers. In 1863, the Union army began formally accepting African American soldiers—in segregated units—and by the end of the war, around than 179,000 had served in the United States Army uniform.
+</p>
+
+<p xml:id='OTPSD71916P3'>When hostilities ended in June 1865, approximately 110,000 had been killed in combat or succumbed to wounds, more than 220,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia; National Park Service)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25002455'>
+            <catDesc>
+              <term>United States. Army. Cavalry</term>
+              <idno>https://en.wikipedia.org/wiki/Cavalry_in_the_American_Civil_War</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001146'>Federal Level: United States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25002455P0'>The term cavalry refers to horse-mounted soldiers. Although cavalry was a fundamental part of a Civil War army, by the American Civil War, weapons and tactics limited the role cavalry soldiers played on the battlefield. Disciplined infantry soldiers in tight ranks with muskets and bayonets could repel cavalry charges. Therefore, Civil War armies used the speed and mobility of cavalry troops for scouting and raiding behind enemy lines. Additionally, cavalry soldiers could fight on foot in loose, or skirmish, formations to harass enemy positions or delay enemy attacks. Overall, because cavalry units required greater logistical support in order to feed and care for their horses, and due to their relatively limited role in open battle, cavalry units made up a much smaller part of the army than their infantry counterparts.
+</p>
+
+<p xml:id='OTPSD25002455P1'>When the Civil War began, there were five mounted regiments in the regular United States Army. During the initial call for volunteers, federal military officials did not want new cavalry units due to the higher cost and time associated to training and outfitting horse soldiers. However, as it became clear that there would be no quick end to the war, and existing cavalry units proved valuable for scouting and mobile warfare, the federal government began adding additional cavalry units to the Army. As with most infantry regiments during the Civil War, the majority of cavalry units were raised by individual states and transferred to federal service.
+</p>
+
+<p xml:id='OTPSD25002455P2'>Union cavalry troops were largely seen as outclassed by their Confederate counterparts during the first half of the Civil War. One popular explanation for this is that United States Army cavalry troopers were supplied horses, rather than bringing their own upon enlistment (something more common in the Confederate army), and therefore were less experienced and comfortable on their mounts. Another common theory was that men who grew up in a Northern industrial society were less familiar with horses than those from the agrarian South. These explanations may have limited merit, especially within the Eastern Theater, but exaggerate the differences between North and South. United States Army cavalry troopers from mid-western and western states were also highly experienced in horsemanship before the war, and cavalry engagements in the western and Trans-Mississippi theaters did not see much disparity between United States and Confederate cavalry units.
+</p>
+
+<p xml:id='OTPSD25002455P3'>Union horse soldiers steadily earned a better reputation as the war progressed. The North’s superior supply chain provided a steady stream of equipment and horses, allowing United States cavalry units to remain well-equipped as they gained experience. The Confederacy’s early reputation of superior cavalry ended in June 1863, when Union cavalry soldiers fought Confederates to a draw at Brandy Station, the largest cavalry battle in North America. Federal cavalry forces continued to improve during the last two years of war. In 1864, Union general Philip Sheridan used his cavalry corps to conduct long range operations in Virginia, while western military commanders conducted similarly destructive cavalry raids in Mississippi and Alabama, all of which hastened end of the war. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+<category xml:id='C32001679'>
+<catDesc>Legal Occupations</catDesc>
+          <category xml:id='S32085304'>
+            <catDesc>
+              <term>Law Enforcement</term>
+              <idno>https://dictionary.cambridge.org/dictionary/english/law-enforcement?q=Law+Enforcement</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32085304P0'>"Individuals responsible for enforcing laws in designated areas." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S77229'>
+            <catDesc>
+              <term>Law Enforcement--Police</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/police-officer</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001679'>Legal Occupations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD77229P0'>"A member of the police force." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001719'>
+<catDesc>Professional Labor</catDesc>
+          <category xml:id='S50807'>
+            <catDesc>
+              <term>Clerks</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/clerk</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2788'>Occupations</ptr> -- <ptr ana='#category #leaf' target='#C32001719'>Professional Labor</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD50807P0'>"A person who works in an office, dealing with records or performing general office duties." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+<category xml:id='C32001714'>
+<catDesc>Legal Organizations</catDesc>
+          <category xml:id='S63950'>
+            <catDesc>
+              <term>Boards of Police</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/commission</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63950P0'>"An official organization whose job is to manage a particular activity, suggest laws related to the activity, and make certain that laws are obeyed" concerning law enforcement. (Cambridge Dictionary) 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63395'>
+            <catDesc>
+              <term>Courts &amp; Judicial Systems</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/court?topic=law-courts</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2789'>Organizations</ptr> -- <ptr ana='#category #leaf' target='#C32001714'>Legal Organizations</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63395P0'>"A place where trials and other legal cases happen, or the people present in such a place." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001667'>
+<catDesc>Labor &amp; Class </catDesc>
+          <category xml:id='S96659'>
+            <catDesc>
+              <term>Impoverished People</term>
+              <idno>https://www.britannica.com/topic/poverty</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001667'>Labor &amp; Class </ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD96659P0'>Impoverished people are those who lack "a usual or socially acceptable amount of money or material possessions," or alternately those who "lack the means to satisfy their basic needs (Britannica). This definition, necessarily subjective and broad, indicates that what one person or society deems "socially acceptable" or what constitutes "basic needs" is malleable.
+</p>
+
+<p xml:id='OTPSD96659P1'>Similarly, impoverished people in the United States in the nineteenth century did not fit one specific category. The rise of industrialism produced an increased number of impoverished people in the U. S., particularly within large urban centers. European immigrants in cities in the East, and Chinese immigrants on the West Coast, and African Americans in the South were disproportionately affected by poverty. Regionally, the highest number of impoverished people came from the U. S. South, where "both whites and African Americans struggled with debt, low cotton prices, laws favorable to employers and creditors, paltry alternatives, and the general post war devastation" (Encyclopedia of the United States in the Nineteenth Century, Vol. 2, 547).
+</p>
+
+<p xml:id='OTPSD96659P2'>Racism and nativism among employers and employees also made economic advancement more difficult for people of color and immigrants. However, the impoverished made up a comparatively low percentage of Mississippi's antebellum population, given its low number of immigrants and even native residents, lack of industrialization and urbanization, and mobility of those that were impoverished (Mississippi Encyclopedia). Many reform organizations throughout the country took the lead in fighting poverty in the nineteenth century, while state and federal governments by the end of the century also developed its own institutional responses. The status of being impoverished has always carried negative connotations in American history, so CWRGM uses the tag "Impoverished people" to emphasize the personhood of those in poverty rather than their social status. 
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Clark Series 768</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1865</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Hudson, W. S.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1865-02-13</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Clark Collection. Statement of the police court of Calhoun County, Mississippi, recorded by clerk W. S. Hudson, certifying that a shipment of salt intended for the use of impoverished families of Confederate soldiers was allegedly destroyed by United States Army cavalry at Okolona, Mississippi.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_768-950-06-01</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>2930046 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 7.5&quot; x 8&quot; 1-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Okolona (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>1591</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_768-950-06-01</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Calhoun County (Miss.); Chickasaw County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Dalton Wood; Michael Singleton; McKenna Fussell; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 950, Folder 6</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Clark, Charles, 1811-1877; Clerks of court; Mississippi. Governor; Police; Poverty; Public welfare; Salt; United States. Army; United States. Army. Cavalry</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Statement of the police court of Calhoun County, Mississippi; February 13, 1865</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>1487</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/23149&quot;&gt;Statement of the police court of Calhoun County, Mississippi; February 13, 1865&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG17" who="U220769" when="2024-03-06T15:26:01Z" target="#P32548538">
+          Version 17 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2024-01-30T17:22:06Z" target="#P32548538">
+          Version 16 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-11-17T17:07:08Z" target="#P32548538">
+          Version 15 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-11-02T15:57:40Z" target="#P32548538">
+          Version 14 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-11-02T15:35:48Z" target="#P32548538">
+          Version 13 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2023-11-02T04:08:39Z" target="#P32548538">
+          Version 12 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2023-09-02T20:37:11Z" target="#P32548538">
+          Version 11 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2023-03-19T20:51:25Z" target="#P32548538">
+          Version 10 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2023-03-19T02:36:13Z" target="#P32548538">
+          Version 9 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2023-03-18T13:53:15Z" target="#P32548538">
+          Version 8 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2023-03-17T22:54:01Z" target="#P32548538">
+          Version 7 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25091356" when="2023-03-08T15:49:20Z" target="#P32548538">
+          Version 6 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U220769" when="2022-12-04T01:27:38Z" target="#P32548538">
+          Version 5 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U220769" when="2022-11-28T00:24:56Z" target="#P32548538">
+          Version 4 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25091356" when="2022-11-17T22:07:26Z" target="#P32548538">
+          Version 3 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U25091253" when="2022-11-14T03:22:03Z" target="#P32548538">
+          Version 2 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U226410" when="2022-11-09T19:23:18Z" target="#P32548538">
+          Version 1 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG0" who="U220769" when="2022-09-13T13:59:09Z" target="#P32548538">
+          Version 0 of page "Statement of the police court of Calhoun County, Mississippi; February 13, 1865":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F32548538" n="1" facs="https://cdm17313.contentdm.oclc.org/iiif/2/mdah:23149/full/full/0/default.jpg"/>
+        <div xml:id="OTP32548538">
+        <fw type="pageNum">Statement of the police court of Calhoun County, Mississippi; February 13, 1865</fw>
+          <p corresp='TTP32548538P0' xml:id='OTP32548538P0'>The State of Mississippi<lb/>
+<rs ref='#S63221'>Calhoun County</rs><lb/>
+<hr/><lb/>
+<rs ref='#S77229'>Police</rs> <rs ref='#S63395'>Court</rs><lb/>
+February Term
+</p>
+
+<p corresp='TTP32548538P1' xml:id='OTP32548538P1'>Wheras there was distributed to this County an amount of salt for the <rs ref='#S96659'>destitute</rs> <rs ref='#S25013472'>families of soldiers</rs> in the County amounting to something more than ten thousand pounds and whereas the same was <rs ref='#S99667'>destroyed</rs> by the <rs ref='#S25002455'>Federal cavly<sub>,,</sub></rs> after its being received at <rs ref='#S53534'>Okolona</rs> and before the Commissioners could remove the same, and whereas the Commissioners could procure meat for the destitute to a considerable amount but have no salt for saving the same and cannot procure the same. In view of the premises the <rs ref='#S63950'>Board of Police</rs> of said County humbly ask your Honorable body to make such provision for their relief in the premises as will enable them to procure the necessary amount of salt at the earliest day practicable.
+</p>
+
+<p corresp='TTP32548538P2' xml:id='OTP32548538P2'>[seal] Police Court of Calhoun Co Mississippi [/seal]
+</p>
+
+<p corresp='TTP32548538P3' xml:id='OTP32548538P3'>A True Copy from the Minutes.<lb/>
+Given under my hand and the seal of <lb/>
+Said Court, Feby 13<add place='above'>th</add> 1865<lb/>
+<rs ref='#S32057566'>W. S. Hudson</rs>, <rs ref='#S50807'>Clerk</rs>
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>

@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862</title>
+        <title type="desc"></title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU215567">
+        <resp>Initial upload of this work&#39;s facsimile images and metadata to FromThePage for editing</resp>
+        <persName>Steph Walters</persName>
+      </respStmt>
+
+      <respStmt xml:id="OU215593">
+        <resp>Administrator of the Civil War &amp; Reconstruction Governors of Mississippi, Main Collection transcription project on FromThePage</resp>
+        <persName>Civil War and Reconstruction Governors of Mississippi</persName>
+      </respStmt>
+
+        <respStmt xml:id="U220769">
+          <persName
+            >
+            Lindsey Peterson (CWRGM Co-Director)
+            </persName>
+            <resp>
+              made 14 edits between
+              <date type="first_edit" when="2021-07-29T16:56:24Z">July 29, 2021</date> and
+              <date type="last_edit" when="2023-11-17T18:12:54Z">November 17, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25089305">
+          <persName
+            >
+            Sarah West
+            </persName>
+            <resp>
+              made 3 edits between
+              <date type="first_edit" when="2021-06-30T02:57:50Z">June 30, 2021</date> and
+              <date type="last_edit" when="2021-06-30T03:01:45Z">June 30, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U32019810">
+          <persName
+            >
+            Ian Spurgeon
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-12-30T19:29:45Z">December 30, 2023</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U2">
+          <persName
+            >
+            Ben W. Brumfield
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2024-10-25T15:09:46Z">October 25, 2024</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U231087">
+          <persName
+            >
+            DeeDee Baldwin
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-06-22T21:41:38Z">June 22, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U217868">
+          <persName
+            >
+            Alec Blaylock 
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-07-01T01:47:13Z">July  1, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25089434">
+          <persName
+            >
+            James M. Berry
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2021-07-05T19:58:24Z">July  5, 2021</date>.
+            </resp>
+        </respStmt>
+        <respStmt xml:id="U25091356">
+          <persName
+            >
+            Rachel Brown
+            </persName>
+            <resp>
+              made one edit on
+              <date type="only_edit" when="2023-08-27T00:11:37Z">August 27, 2023</date>.
+            </resp>
+        </respStmt>
+
+          <respStmt xml:id="U217868">
+            <resp n="proof_1">Single Proof by:</resp>
+            <name>Alec Blaylock </name>
+          </respStmt>
+
+
+    </editionStmt>
+
+    <publicationStmt>
+    <publisher>Dynamic TEI export from FromThePage (version 22.10)</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2025-03-19T06:29:38+00:00">March 19, 2025</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+            <collection>Civil War &amp; Reconstruction Governors of Mississippi, Main Collection</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+        <listPerson>
+            <person xml:id="S95004">
+              <persName>Peeler, Jasper M.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S25012873">
+              <persName>Jumper, W. G.</persName>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                      <ptr ana="#category #leaf #root" target="#C2750">People</ptr>
+                    </ab>
+                </note>
+            </person>
+            <person xml:id="S63111">
+              <persName>Pettus, John Jones, 1813-1867</persName>
+                <idno>https://en.wikipedia.org/wiki/John_J._Pettus</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002631">Veterans</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002895">Widowers</ptr>
+                    </ab>
+                    <ab>
+                        <ptr ana="#category #root" target="#C2750">People</ptr> --
+                      <ptr ana="#category #leaf" target="#C32002983">Men</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS63111P0'>John Jones Pettus was Mississippi's governor during the first three years of the Civil War.
+</p>
+
+<p xml:id='OTPS63111P1'>Born in Wilson County, Tennessee, on October 9, 1813, Pettus moved to Limestone County, Alabama, as a child. In 1835, he  moved to Mississippi and eventually began a law practice in Scooba, Mississippi. He married Permelia Winston in the 1840s. She passed away in 1857, and in 1861 Pettus married Susan Hewell.
+</p>
+
+<p xml:id='OTPS63111P2'>Pettus began pursuing a political career in the mid-1840s, first serving as a state representative for Kemper County. He won a state Senate election in 1848 and by 1853 had risen to president of the Mississippi Senate. Then, in January 1854, Governor Henry S. Foote resigned in protest before Governor-elect John J. McRae was inaugurated. Pettus’ position in the Senate placed him next in line to fill the governor’s vacancy, and he was sworn in as Mississippi’s interim executive on January 7, 1854. He served in that role for only three days, before McRae was inaugurated on January 10.
+</p>
+
+<p xml:id='OTPS63111P3'>Pettus won the governor’s election in 1859. By that time, he had become a notable secessionist. He advocated for the creation of an independent Confederacy dedicated to preserving slavery. When Abraham Lincoln was elected president in 1860, Pettus called forth a special legislative session in Mississippi and pressed state representatives to hold a secession convention. His efforts succeeded, as such convention assembled in January 1861 and voted in support of secession, declaring the State of Mississippi out of the Union. Pettus won reelection for governor in 1861 and served until his term ended in 1863. Mississippi’s Constitution had a two-term limit for the governor’s office, leaving Pettus unable to run again. He took a commission as a colonel in the Mississippi State Troops and served until the end of the war. Shortly thereafter, Pettus moved to Arkansas. He applied for a presidential pardon according to President Andrew Johnson’s Reconstruction policies, but was denied three times.
+</p>
+
+<p xml:id='OTPS63111P4'>Pettus died of pneumonia on January 25, 1867. He is buried in Flat Bayou Cemetery, Jefferson County, Arkansas.
+</p>
+
+<p xml:id='OTPS63111P5'>(Wikipedia; FindaGrave)
+</p>
+
+<p xml:id='OTPS63111P6'>John Jones Pettus belonged to the following social groups:
+</p>
+
+
+                </note>
+            </person>
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="S51804">
+              <placeName>Mississippi--Lowndes County. Columbus</placeName>
+                <idno>https://en.wikipedia.org/wiki/Columbus,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51804P0'>Currently located in Lowndes County, Columbus was founded on December 6, 1819 in what was then a "non-county area." When Lowndes County was created on January 30, 1830, Columbus became its county seat. (Wikipedia; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>33.50167, -88.415</geo>
+                </note>
+            </place>
+            <place xml:id="S51785">
+              <placeName>Mississippi--Hinds County. Jackson</placeName>
+                <idno>https://www.britannica.com/place/Jackson-Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS51785P0'>Located in Hinds County, Jackson was founded in 1822 and serves as one of two county seats of Hinds County and the state capital of Mississippi. (Britannica)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>32.29889, -90.18472</geo>
+                </note>
+            </place>
+            <place xml:id="S92155">
+              <placeName>Mississippi--Lee County. Shannon</placeName>
+                <idno>https://en.wikipedia.org/wiki/Shannon,_Mississippi</idno>
+                <note type="categorization">
+                  Categories:
+                    <ab>
+                        <ptr ana="#category #root" target="#C2751">Places</ptr> --
+                      <ptr ana="#category #leaf" target="#C32001862">Towns &amp; Cities</ptr>
+                    </ab>
+                </note>
+                <note type="article">
+                    <p xml:id='OTPS92155P0'>Currently located in Lee County, Shannon was founded in the early 1800s and was incorporated in 1860 in what was then Itawamba County. On December 6, 1866, it became part of the newly created Lee County. (Wikipedia; Rowland, <hi rend='italic'>Mississippi</hi>, 64; Atlas of Historical County Boundaries)
+</p>
+
+
+                </note>
+                <note type="geography">
+                  <geo>34.1162, -88.7117</geo>
+                </note>
+            </place>
+        </listPlace>
+    </sourceDesc>
+
+  </fileDesc>
+
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+<category xml:id='C32001127'>
+<catDesc>Businesses</catDesc>
+<category xml:id='C32001333'>
+<catDesc>Transportation &amp; Infrastructure Industries</catDesc>
+          <category xml:id='S99413'>
+            <catDesc>
+              <term>Railroads and Railroad Companies</term>
+              <idno>https://dictionary.cambridge.org/us/dictionary/english/railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD99413P0'>"A system of transportation using special vehicles whose wheels turn on metal bars fixed to the ground, or a particular company using such a system." (Cambridge Dictionary)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S63542'>
+            <catDesc>
+              <term>Railroads and Railroad Companies--Mobile and Ohio Railroad Company (Mobile, Ala.)</term>
+              <idno>https://en.wikipedia.org/wiki/Mobile_and_Ohio_Railroad</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C32001127'>Businesses</ptr> -- <ptr ana='#category #leaf' target='#C32001333'>Transportation &amp; Infrastructure Industries</ptr></ab>
+              </note>
+              <note type='geography'>
+                <geo>30.69444, -88.04306</geo>
+              </note>
+              <gloss><p xml:id='OTPSD63542P0'>Located in Mobile, Alabama, the Mobile and Ohio Railroad Company was a railroad company established in 1848 by Alabama, Kentucky, Mississippi, and Tennessee, and operated until 1940 when it merged with Gulf, Mobile and Ohio Railroad. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2787'>
+<catDesc>Events</catDesc>
+<category xml:id='C32001126'>
+<catDesc>Military Events</catDesc>
+          <category xml:id='S32123714'>
+            <catDesc>
+              <term>Military Procedures &amp; Events--Military transfer. Individual Reassignment</term>
+              <idno>https://www.nps.gov/articles/from-regiment-to-president-the-structure-and-command-of-civil-war-armies.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2787'>Events</ptr> -- <ptr ana='#category #leaf' target='#C32001126'>Military Events</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD32123714P0'>Unlike professional soldiers who may rotate through many units during the course of a military career, most Civil War soldiers were civilians who volunteered only for wartime service and expected to serve their military commitment in their original units. Since units were frequently raised among citizens of a local area, soldiers usually had great pride in their state and regimental affiliations and wanted to remain with their friends and relatives. Additionally, Union and Confederate armies did not normally send replacement soldiers to old regiments to fill the places of men lost from disease, battle, or desertion (Union and Confederate officials preferred to place new recruits in new regiments). Except for officers, who could receive a promotion and transfer to a new command, it was relatively rare for individual soldiers to transfer to a different unit during the Civil War.
+</p>
+
+<p xml:id='OTPSD32123714P1'>Incidents in which soldiers did transfer into other existing units occurred due to special circumstances. Examples involved direct requests by individuals seeking membership in units with relatives or to leave a unit based upon discontent with the officers. Some requested transfer to a unit with a specialized assignment, or to switch from state guard service to national service or vice versa. In some cases, soldiers were transferred to other units for disciplinary purposes or because of variations in enlistment commitments. Both of these latter scenarios occurred with the 2nd Maine Infantry Regiment. More than sixty soldiers from the unit, who had volunteered for three months, became insubordinate when not allowed to return home after ninety days and were transferred to a New York regiment as a commutation of their original prison sentence. Then, when the 2nd Maine Infantry mustered out of service in June 1863, one hundred and twenty soldiers still owed one year of service, and were transferred to the 20th Maine Infantry Regiment to complete their commitment.
+</p>
+
+<p xml:id='OTPSD32123714P2'>Overall, individual transfer to a different unit was uncommon during the Civil War, and typically occurred on account of special circumstances or by special request. (National Park Service; Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C25000149'>
+<catDesc>Military Units</catDesc>
+<category xml:id='C32001147'>
+<catDesc>Federal Level: Confederate States Military</catDesc>
+          <category xml:id='S70882'>
+            <catDesc>
+              <term>Confederate States of America. Army</term>
+              <idno>https://en.wikipedia.org/wiki/Confederate_States_Army</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD70882P0'>The Confederate Army was the military land force of the Confederate States of America during the American Civil War. Known also as the Confederate States Army or Southern Army, it was established by the Provisional Confederate Congress in February 1861 and fell under the authority of Confederate President Jefferson Davis. Modeled after the U.S. Army of the 19th century, the Confederate Army technically fell into two categories: a small regular army of professional officers and soldiers (the Army of the Confederate States of America) and a much larger, temporary force of citizen soldiers intended to exist only for the duration of the war (the Provisional Army of the Confederate States). In reality, the Confederacy’s regular army never fully developed and the overwhelming majority of Confederate soldiers served in the provisional force. The distinction between the two played little role during military operations and all were generally considered to be part of the overall Confederate Army.
+</p>
+
+<p xml:id='OTPSD70882P1'>As many as 1,000,000 soldiers served in the Confederate Army between 1861 and 1865, although not all at one time. Most were volunteers, however, the Confederate government instituted a conscription (or draft) in April 1862—the first in U.S. or Confederate history—to increase the size of the Confederacy’s military force and encourage voluntary enlistment. The government passed two more conscription acts over the next two years. More than ten percent of the men who served in Confederate ranks were drafted.
+</p>
+
+<p xml:id='OTPSD70882P2'>Over ninety percent of soldiers in the Confederate Army were native-born white men. Nine percent were foreign-born white men. Several Native American units—particularly from the Cherokee, Creek, and Choctaw tribes—served within the Confederate military, especially in the trans-Mississippi theatre. The Confederate military heavily relied upon the forced labor of enslaved African Americans for building fortifications and carrying out menial tasks, and the Confederate government did not formally allow African Americans (free or slave) to join the army until a last minute desperate measure passed the Confederate Congress in March 1865, only weeks before the end of the war. Only around two hundred enslaved soldiers were organized into service, but they were not sent into combat.
+</p>
+
+<p xml:id='OTPSD70882P3'>By the time the last Confederate soldiers surrendered to Union forces in June 1865, nearly 100,000 had been killed in combat or succumbed to wounds, more than 160,000 had died of disease, and roughly 30,000 had died in prison camps. (Wikipedia)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S79637'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 1st</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=onepage&amp;q=%22first%20regiment-infantry%22&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD79637P0'>The 1st Regiment, Mississippi Infantry (Confederate) was organized in August 1861 under the command of Col. Thomas J. Davidson and served in the Western Theater under Clark's and Beall's Brigades in the Department of Mississippi and East Louisiana. It was later commanded by Cols. John M. Simonton, W. B. Shelby, Maj. Thomas H. Johnston, Gen. Polk, and Capt. L. L. Jones. It was later consolidated with the 39th Regiment, Mississippi Infantry on January 7, 1863 and served under Featherston's Brigade. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 6; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 525-530; Confederate Military Service Record)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+          <category xml:id='S25004454'>
+            <catDesc>
+              <term>Confederate States of America. Army. Mississippi. Infantry Regiment, 1st. Company I</term>
+              <idno>https://books.google.com/books?id=wMoGAQAAIAAJ&amp;printsec=frontcover#v=onepage&amp;q=%22Rifle%20Scouts%22&amp;f=false</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001147'>Federal Level: Confederate States Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25004454P0'>Commonly known as the Rifle Scouts, Company I of the 1st Regiment, Mississippi Infantry (Confederate) was organized on July 8, 1861 in Itawamba County, Mississippi under the command of Capt. John M. Simonton and served in the Western Theater. It was later commanded by Capts. M. B. Buchanan and Jasper M. Peele. (Howell, Jr., <hi rend='italic'>Military History of Mississippi</hi>, 6; Rowland, <hi rend='italic'>Official and Statistical Register of Mississippi</hi>, 526-527)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+<category xml:id='C32001148'>
+<catDesc>State Level: USA &amp; CSA Military</catDesc>
+          <category xml:id='S63200'>
+            <catDesc>
+              <term>Mississippi. Militia</term>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C25000149'>Military Units</ptr> -- <ptr ana='#category #leaf' target='#C32001148'>State Level: USA &amp; CSA Military</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD63200P0'>A militia is a military unit made up of civilians within a community who could be called up by local (often state) officials to serve temporary military purposes. Militias were separate from regular, or permanent, armies. Because they conducted training only periodically, and provided active military service for short periods of time, militias cost less than regular armies; and because they were manned by local residents, militias were frequently seen as less threatening to early American communities than national military units comprised of strange men born in other counties or states.
+</p>
+
+<p xml:id='OTPSD63200P1'>When Mississippi seceded in 1861, enthusiasm for military service swept across the state. Volunteers filled the ranks of old militia units or created new companies within their communities, eager to repulse any federal attempt to coerce secessionists back into the Union. They also took proactive efforts, securing key positions along the Gulf Coast, including reinforcing other Southern soldiers at Pensacola and Fort Pickens in Florida. Over the next few months, as the Confederate government requested more volunteers, thousands of Mississippians and entire volunteer companies from the state transferred to Confederate service and were sent north, out of state. The units that remained within Mississippi for state defense were left in a convoluted military structure, some considered state reserves (a more formal military force for state defense) and some considered state militia (the more traditional units of citizen-soldiers called up for local, emergency use). The distinctions were not well established, and during the war Mississippians describing state units not within the Confederate army used a variety of terms—such as militia, home guard, state troops—almost interchangeably. However, under this subject tag at CWRGM you will find references to the militia and state troops; references that specifically referred to the home guard can be found separately under the Mississippi Home Guard subject tag.
+</p>
+
+<p xml:id='OTPSD63200P2'>While militia and state defense units technically fell under the governor’s authority, the state government struggled to manage, or even track, these organizations. Some, like the Third Battalion Mississippi Minute Men, were well organized, fell under direct state control, and took part in larger military operations, such as the defense of Vicksburg; others saw no combat, rarely gathered for drill, and were entirely overseen by county or local community officials. Most militia members were older than the average Confederate soldier. They were typically farmers, business owners, or land owners who had families and, in many instances, slaves. Because of these responsibilities at home, militiamen expected their military duties to be periodic, temporary, and only during times of emergency, a reflection of the militia’s original intent. However, state officials occasionally activated militia units for long periods, based upon the military situation. In the summer of 1862, Mississippi’s governor, John J. Pettus, mobilized his state troops, pulling many militia units away from their communities. Held in camp for several weeks, drilling but not seeing combat, many militiamen complained of their treatment and argued that their services were needed more at home, managing farms and their communities. Despite these complaints, the governor mobilized the state troops again in 1864, and again met criticism.
+</p>
+
+<p xml:id='OTPSD63200P3'>Overall, Mississippi’s militia and state defense system during the Civil War was a complicated tangle of formal and informal military units. Infrequently used for combat assignments, these units nevertheless provided some emergency services for the state government and allowed many Mississippians a way to provide military service to the community while remaining at home to manage personal and local interests. (Tracy L. Barnett, “Mississippi ‘Milish’: Militiamen in the Civil War,” <hi rend='italic'>Civil War History</hi>, Vol. 66, No. 4 (Dec 2020), 343-379; Michael B. Ballard, <hi rend='italic'>The Civil War in Mississippi: Major Campaigns and Battles</hi>, 4-8)
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+<category xml:id='C2788'>
+<catDesc>Occupations</catDesc>
+</category>
+<category xml:id='C2789'>
+<catDesc>Organizations</catDesc>
+</category>
+<category xml:id='C2790'>
+<catDesc>Social Identifiers</catDesc>
+<category xml:id='C32001673'>
+<catDesc>Military &amp; Political Status</catDesc>
+          <category xml:id='S25013472'>
+            <catDesc>
+              <term>Military Families</term>
+              <idno>https://www.nps.gov/parkhistory/online_books/rthg/chap6.htm</idno>
+              <note type='categorization'>Categories:<ab><ptr ana='#category #root' target='#C2790'>Social Identifiers</ptr> -- <ptr ana='#category #leaf' target='#C32001673'>Military &amp; Political Status</ptr></ab>
+              </note>
+              <gloss><p xml:id='OTPSD25013472P0'>While soldiers often receive the most attention in studies of the American Civil War, their families were vital to both the Union and Confederate war efforts. No family experienced the American Civil War in the same way, as racial, ethnic, geographic, and class differences greatly varied a particular families experience. For example, southern families more frequently faced the devastation of war on their homes, while rural families often suffered more from the loss or destruction of their property than did those in urban areas (National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P1'>As fathers and husbands marched off to war, they left behind women and children responsible for providing for themselves and keeping up family farms and businesses. Many of these families, especially those impoverished before the war, suffered greatly from the confiscation or destruction of their resources by both Union and Confederate militaries. The despair of many families produced class tensions in both North and South. For example, many women and children, beginning in Richmond, Virginia but extending across the South, rioted in 1863 for lack of bread or resources with which to make it. Other women and children across the country toiled in wartime industries by making clothing or munitions, while impoverished southern women and children often performed grueling agricultural labor just to support themselves. Elite, southern women often adopted the roles of enslavers, trying to maintain control of enslaved persons while traditionally male overseers went to war. African American families, many of them newly freed from enslavement, also struggled to support themselves and often lived in unsanitary, crowded contraband camps upheld by the Union Army (National Battlefield Trust; National Park Service).
+</p>
+
+<p xml:id='OTPSD25013472P2'>Families, however, not only maintained the home front but also visited soldiers in their camps, while many women served as nurses for wounded soldiers. An expansive subject tag, military families refers to any relation of a Union or Confederate soldier and sailor, and is intended to spotlight the experiences of people, often women and children, who are typically more difficult to uncover in historical records. While this subject tag largely refers to the experiences of families on the northern and southern home fronts, it also incorporates the minority of families members who accompanied men to the battle front.
+</p>
+
+</gloss>
+            </catDesc>
+          </category>
+</category>
+</category>
+</taxonomy>
+      </classDecl>
+    </encodingDesc>
+
+
+  <profileDesc>
+
+
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+  </profileDesc>
+    <xenoData>
+      <iiifMetadata>
+            <element source="imported">
+              <label>Collection</label>
+              <value>Pettus Series 757</value>
+            </element>
+            <element source="imported">
+              <label>Color space</label>
+              <value>RGB</value>
+            </element>
+            <element source="imported">
+              <label>Contributors</label>
+              <value>Funding for this project provided by the National Historical Publications and Records Commission and the National Endowment for the Humanities.</value>
+            </element>
+            <element source="imported">
+              <label>Coverage (time period)</label>
+              <value>1862</value>
+            </element>
+            <element source="imported">
+              <label>Creator</label>
+              <value>Peeler, J. M.</value>
+            </element>
+            <element source="imported">
+              <label>Date</label>
+              <value>1862-11-29</value>
+            </element>
+            <element source="imported">
+              <label>Description</label>
+              <value>From the Mississippi Department of Archives and History Governor Pettus Collection. Letter from Confederate Lieutenant J. M. Peeler in Company I, 5th Mississippi Infantry at Columbus, Mississippi, to Mississippi Governor John J. Pettus, seeking to transfer a man from the militia to his company.</value>
+            </element>
+            <element source="imported">
+              <label>Digital repository</label>
+              <value>Mississippi Digital Library.</value>
+            </element>
+            <element source="imported">
+              <label>Digital collection</label>
+              <value>Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Disclaimer</label>
+              <value>Use of materials from this collection beyond the exceptions provided for in the Fair Use and Educational Use clauses of the U.S. Copyright Law may violate federal law. Permission to publish or reproduce is required.</value>
+            </element>
+            <element source="imported">
+              <label>File extension</label>
+              <value>jpg</value>
+            </element>
+            <element source="imported">
+              <label>File name</label>
+              <value><id>mdah_757-943-03-30</id>-001.jpg</value>
+            </element>
+            <element source="imported">
+              <label>File size</label>
+              <value>558888 Bytes</value>
+            </element>
+            <element source="imported">
+              <label>Format</label>
+              <value>Digital reproduction of a 11&quot; x 8.5&quot; 1-page document.</value>
+            </element>
+            <element source="imported">
+              <label>Geographic location</label>
+              <value>Columbus (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Height</label>
+              <value>1732</value>
+            </element>
+            <element source="imported">
+              <label>Identifier</label>
+              <value>mdah_757-943-03-30</value>
+            </element>
+            <element source="imported">
+              <label>Language</label>
+              <value>English</value>
+            </element>
+            <element source="imported">
+              <label>Mississippi county</label>
+              <value>Lowndes County (Miss.)</value>
+            </element>
+            <element source="imported">
+              <label>Notes</label>
+              <value>This item is part of the Civil War and Reconstruction Governors of Mississippi Project.; https://cwrgm.org/</value>
+            </element>
+            <element source="imported">
+              <label>Publisher</label>
+              <value>Mississippi Department of Archives and History. (electronic version); Mississippi Digital Library. (electronic version)</value>
+            </element>
+            <element source="imported">
+              <label>Record created by</label>
+              <value>Gracie Breland; Amy Myers; Austin Justice</value>
+            </element>
+            <element source="imported">
+              <label>Contributing institution</label>
+              <value>Item housed at Mississippi Department of Archives and History.</value>
+            </element>
+            <element source="imported">
+              <label>Rights</label>
+              <value>NO COPYRIGHT - UNITED STATES; http://rightsstatements.org/vocab/NoC-US/1.0/</value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>Box 943, Folder 3</value>
+            </element>
+            <element source="imported">
+              <label>Subject</label>
+              <value>Confederate States of America. Army.; Mississippi. Governor; Mississippi. Militia; Pettus, John Jones, 1813-1867</value>
+            </element>
+            <element source="imported">
+              <label>Title</label>
+              <value>Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862</value>
+            </element>
+            <element source="imported">
+              <label>Resource type</label>
+              <value>Text</value>
+            </element>
+            <element source="imported">
+              <label>Width</label>
+              <value>2221</value>
+            </element>
+            <element source="imported">
+              <label>Repository</label>
+              <value></value>
+            </element>
+            <element source="imported">
+              <label>Source</label>
+              <value>&lt;span&gt;From: &lt;a href=&quot;https://cdm17313.contentdm.oclc.org/digital/collection/mdah/id/7910&quot;&gt;Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862&lt;/a&gt;&lt;/span&gt;</value>
+            </element>
+      </iiifMetadata>
+    </xenoData>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG23" who="U2" when="2024-10-25T15:09:46Z" target="#P25093345">
+          Version 23 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG22" who="U32019810" when="2023-12-30T19:29:45Z" target="#P25093345">
+          Version 22 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG21" who="U220769" when="2023-11-17T18:12:54Z" target="#P25093345">
+          Version 21 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG20" who="U220769" when="2023-11-02T15:30:54Z" target="#P25093345">
+          Version 20 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG19" who="U220769" when="2023-09-02T20:39:58Z" target="#P25093345">
+          Version 19 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG18" who="U220769" when="2023-09-02T20:05:50Z" target="#P25093345">
+          Version 18 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG17" who="U25091356" when="2023-08-27T00:11:37Z" target="#P25093345">
+          Version 17 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG16" who="U220769" when="2023-03-21T01:47:23Z" target="#P25093345">
+          Version 16 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG15" who="U220769" when="2023-03-18T22:09:29Z" target="#P25093345">
+          Version 15 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG14" who="U220769" when="2023-03-18T21:21:45Z" target="#P25093345">
+          Version 14 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG13" who="U220769" when="2023-03-17T22:59:54Z" target="#P25093345">
+          Version 13 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG12" who="U220769" when="2022-12-04T16:34:34Z" target="#P25093345">
+          Version 12 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG11" who="U220769" when="2022-12-04T00:40:50Z" target="#P25093345">
+          Version 11 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG10" who="U220769" when="2021-11-05T19:12:24Z" target="#P25093345">
+          Version 10 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG9" who="U220769" when="2021-10-28T02:17:12Z" target="#P25093345">
+          Version 9 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG8" who="U220769" when="2021-08-23T22:19:26Z" target="#P25093345">
+          Version 8 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG7" who="U220769" when="2021-07-29T16:56:24Z" target="#P25093345">
+          Version 7 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG6" who="U25089434" when="2021-07-05T19:58:24Z" target="#P25093345">
+          Version 6 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG5" who="U217868" when="2021-07-01T01:47:13Z" target="#P25093345">
+          Version 5 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG4" who="U25089305" when="2021-06-30T03:01:45Z" target="#P25093345">
+          Version 4 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG3" who="U25089305" when="2021-06-30T02:59:20Z" target="#P25093345">
+          Version 3 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG2" who="U25089305" when="2021-06-30T02:57:50Z" target="#P25093345">
+          Version 2 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG1" who="U231087" when="2021-06-22T21:41:38Z" target="#P25093345">
+          Version 1 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG0" who="U215567" when="2021-06-15T22:07:15Z" target="#P25093345">
+          Version 0 of page "Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+        <pb xml:id="F25093345" n="1" facs="https://cdm17313.contentdm.oclc.org/digital/iiif/mdah/7910/full/full/0/default.jpg"/>
+        <div xml:id="OTP25093345">
+        <fw type="pageNum">Letter from Lieutenant J. M. Peeler to Mississippi Governor John J. Pettus; November 29, 1862</fw>
+          <p corresp='TTP25093345P0' xml:id='OTP25093345P0'>Capt <rs ref='#S95004'>J M Peeler</rs> wants <rs ref='#S25012873'>Jumper</rs> <rs ref='#S32123714'>transfered</rs> from <rs ref='#S63200'>State service</rs> to the <rs ref='#S70882'>confederate army</rs>
+</p>
+
+<p corresp='TTP25093345P1' xml:id='OTP25093345P1'><rs ref='#S51804'>Columbus</rs> Miss<lb/>
+Nov 29<add place='above'>th</add> /62
+</p>
+
+<p corresp='TTP25093345P2' xml:id='OTP25093345P2'>Gov <rs ref='#S63111'>J. J. Pettus</rs><lb/>
+<rs ref='#S51785'>Jackson</rs><lb/>
+Miss
+</p>
+
+<p corresp='TTP25093345P3' xml:id='OTP25093345P3'>Sir
+</p>
+
+<p corresp='TTP25093345P4' xml:id='OTP25093345P4'>I wish you to give me an order for the Transfer of  W. G. Jumper from the militia of the State to my <rs ref='#S25004454'>Company "I" 1<hi rend='underline'><add place='above'>st</add></hi> Miss Regt C. S. A.</rs> Said Jumper has a <rs ref='#S25013472'>Brother</rs> and a nephew in my Company and is verry anxious to be Transfered. I am well acquainted with him and know he will make a good soldier &amp; most respectfully ask of you to have him Transfered
+</p>
+
+<p corresp='TTP25093345P5' xml:id='OTP25093345P5'>J. M. Peeler<lb/>
+Capt Compay "I" 1<hi rend='underline'><add place='above'>st</add></hi><lb/>
+Miss Regt C. S. A.<hr/>
+</p>
+
+<p corresp='TTP25093345P6' xml:id='OTP25093345P6'>P. S.<lb/>
+Address me at <rs ref='#S92155'>Shannon</rs> <rs ref='#S63542'>M &amp; O R. R.</rs> Miss 
+</p>
+
+
+        </div>
+  </body>
+</text>
+</TEI>
